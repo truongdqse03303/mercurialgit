@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>刈谷市</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <license-key>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</license-key>
+
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <domain-list>
+    <domain>http://.*\.city\.kariya\.lg\.jp</domain>
+    <!-- Googleサイト内検索 -->
+    <domain>http://www\.google\.co\.jp/search(\?.*domains=city\.kariya\.lg\.jp.*)?</domain>
+  </domain-list>
+
+  <!-- 設定IDのためにドメインを使用する -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>新得町役場</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <license-key>shintoku/shintoku01 2db23116d844cc76e9a7fb070e9d12d80193483e</license-key>
+
+  <!-- クライアントが使用できるドメイン （必須）-->
+  <domain-list>
+    <domain>http://.*shintoku-town\.jp</domain>
+  </domain-list>
+
+  <!-- 設定IDのためにドメインを使用する -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>

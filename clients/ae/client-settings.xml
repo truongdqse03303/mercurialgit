@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>mic21</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <license-key>mic21/mic2101 8271c0c566eaf0a889c4b787a18ad7eb83f031bf</license-key>
+
+  <useCache>false</useCache>
+
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <domain-list>
+    <domain>http://www\.mic21\.com/</domain>
+    <domain>http://mic\.diver-online\.com/</domain>
+    <domain>http://appleworld\.com/</domain>
+    <domain>http://www.tos-asp.jp/agent/mic21/js/search\?type=tour.+</domain>
+  </domain-list>
+
+  <!-- 翻訳しないURLの一覧 -->
+  <ignore-url-list>
+    <url>.*/n/staff/subimage_list\?.+</url>
+  </ignore-url-list>
+
+  <!-- 設定IDのためにドメインを使用する -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <!-- 1:2,4,7,9:10,14:15,18:23 -->
+    <replace-rule>
+        <pattern>/ct/image000000100/(hd_(?:moji|main)|tp_(?:kensaku|kariyashi|kankou|koukyou|link|shinchaku|kurashinojouhou|todokede|iza|kenkou|fukushi|kyouiku))\.gif</pattern>
+        <replacement>http://www.city.kariya.lg.jp/tr/{$1}_po.gif</replacement>
+        <url-list>
+            <url>http://www\.city\.kariya\.lg\.jp/.*</url>
+        </url-list>
+    </replace-rule>
+    <!-- 3,16:17 -->
+    <replace-rule>
+        <pattern>/ct/image000301200/(daimojin2|osirase|bosyuan)\.gif</pattern>
+        <replacement>http://www.city.kariya.lg.jp/tr/{$1}_po.gif</replacement>
+        <url-list>
+            <url>http://www\.city\.kariya\.lg\.jp/.*</url>
+        </url-list>
+    </replace-rule>
+    <!-- 5 -->
+    <replace-rule>
+        <pattern>/ct/image000003400/yokuaru.gif</pattern>
+        <replacement>http://www.city.kariya.lg.jp/tr/yokuaru_po.gif</replacement>
+        <url-list>
+            <url>http://www\.city\.kariya\.lg\.jp/.*</url>
+        </url-list>
+    </replace-rule>
+    <!-- 6 -->
+    <replace-rule>
+        <pattern>/ct/image000304800/tp_koukoku2.gif</pattern>
+        <replacement>http://www.city.kariya.lg.jp/tr/tp_koukoku2_po.gif</replacement>
+        <url-list>
+            <url>http://www\.city\.kariya\.lg\.jp/.*</url>
+        </url-list>
+    </replace-rule>
+    <!-- 8 -->
+    <replace-rule>
+        <pattern>/ct/image000001900/simindayori.jpg</pattern>
+        <replacement>http://www.city.kariya.lg.jp/tr/simindayori_po.jpg</replacement>
+        <url-list>
+            <url>http://www\.city\.kariya\.lg\.jp/.*</url>
+        </url-list>
+    </replace-rule>
+    <!-- 11:12 -->
+    <replace-rule>
+        <pattern>/ct/image000303300/tp_(yoyaku|bus)\.gif</pattern>
+        <replacement>http://www.city.kariya.lg.jp/tr/tp_{$1}_po.gif</replacement>
+        <url-list>
+            <url>http://www\.city\.kariya\.lg\.jp/.*</url>
+        </url-list>
+    </replace-rule>
+    <!-- 13 -->
+    <replace-rule>
+        <pattern>/ct/image000002100/kariya-mail.jpg.jpg</pattern>
+        <replacement>http://www.city.kariya.lg.jp/tr/kariya-mail_po.jpg</replacement>
+        <url-list>
+            <url>http://www\.city\.kariya\.lg\.jp/.*</url>
+        </url-list>
+    </replace-rule>
+</replace-rule-list>

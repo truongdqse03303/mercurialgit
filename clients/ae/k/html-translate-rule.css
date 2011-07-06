@@ -1,0 +1,9 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "MIC21_DIC MIC21_TM SPECIAL SPORTS HOBBY INTERNET";
+}
+
+@rewrite RewriteJavascriptInclude {
+  if (url matches "^http://www.tos-asp.jp/agent/mic21/js/search\\?type=tour.+") apply "{url}-cljs-";
+  apply "@RewriteScriptInclude";
+}

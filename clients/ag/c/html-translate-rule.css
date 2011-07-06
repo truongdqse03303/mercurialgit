@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "KARIYA_TM KARIYA_DIC JICHITAI SIGHTSEEING INTERNET SYSTEM";
+}
+
+form input[type="hidden"][name="ie"] {
+  attribute: value set "utf-8";
+}

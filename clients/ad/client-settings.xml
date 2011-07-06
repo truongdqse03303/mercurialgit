@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>武蔵野市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <license-key>musashino/musashino01 0f55d68caebf845da6312c3838412b942f11899d</license-key>
+
+  <!-- クライアントが使用できるドメイン （必須）-->
+  <domain-list>
+    <domain>http://www\.city\.musashino\.lg\.jp</domain>
+    <domain>http://site\.search\.yahoo\.co\.jp/search($|.+?conf_id=.+)</domain>
+    <domain>http://ord\.yahoo\.co\.jp/p/ssearch/.+</domain>
+  </domain-list>
+
+  <!-- URLエンコードの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.CharsetMarkBasedURLEncodeResourceHandler</type>
+    <param>
+      <param-name>encode.charset.key</param-name>
+      <param-value>ei</param-value>
+    </param>
+  </resource-handler>
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
+    <param>
+      <param-name>encode.url.search</param-name>
+      <param-value>.+/cgi-bin/(shimin|event|news|sinsei)/index\.cgi\?category.+</param-value>
+    </param>
+    <param>
+      <param-name>encode.charset.search</param-name>
+      <param-value>EUC-JP</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- 設定IDのためにドメインを使用する -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>
