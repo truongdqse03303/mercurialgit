@@ -9,7 +9,7 @@
   <translation-server>
     <url>http://ts03-03.transer.com:13000/</url>
     <connection-timeout>5000</connection-timeout>
-    <socket-timeout>300000</socket-timeout>
+    <socket-timeout>33</socket-timeout>
   </translation-server>
 
   <!-- 各種リソースパス -->
