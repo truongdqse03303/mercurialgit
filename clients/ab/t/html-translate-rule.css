@@ -1,4 +1,4 @@
 @engine default {
   eid: CR-JCT;
-  dictionaries: "OGAKI_DIC OGAKI_TM GOVT TOURISM INTERNET";
+  dictionaries: "OGAKI_DIC OGAKI_TM";
 }

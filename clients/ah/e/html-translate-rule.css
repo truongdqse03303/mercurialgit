@@ -1,0 +1,29 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "PRINCEHOTELS_DIC PRINCEHOTELS_TM TOURISM SPORTS GOURMET";
+}
+
+@rewrite RewriteJavascriptInclude {
+  if (url matches "http://golf2\\.princehotels\\.co\\.jp/topics/topics\\.asp\\?.+") apply "{url}-cljs-";
+  apply "@RewriteScriptInclude";
+}
+
+select[name="select3"] option {
+  attribute: value rewrite "@RewriteRegisteredDomain";
+}
+
+#selectLink > form > select > option {
+  attribute: value rewrite "@RewriteRegisteredDomain";
+}
+
+a.lightview {
+  attribute: title ignore;
+}
+
+iframe[src="map.html"] {
+  attribute: src rewrite "{absurl}";
+}
+
+meta[http-equiv=i"refresh"][content#=i"url=."] {
+  attribute: content rewrite "@RewriteRegisteredDomain";
+}

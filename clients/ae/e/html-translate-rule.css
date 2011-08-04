@@ -8,7 +8,19 @@
   apply "@RewriteHypertextReference";
 }
 
+@rewrite RewriteJavascript {
+  if (url matches "googlemap\\.html\\?[0-9]+") return "{absurl}";
+  apply "@RewriteHypertextReference";
+}
+
 @rewrite RewriteJavascriptInclude {
   if (url matches "^http://www.tos-asp.jp/agent/mic21/js/search\\?type=tour.+") apply "{url}-cljs-";
   apply "@RewriteScriptInclude";
+}
+
+// @RULESET
+// URL: http://shop3.genesis-ec.com/search/search.asp
+form[name="FrmMenu2"] {
+  attribute: method rewrite "GET";
+  attribute: action rewrite "shopcd=17302";
 }

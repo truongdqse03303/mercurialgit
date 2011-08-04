@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "TAGAWA_DIC TAGAWA_TM GOVT TOURISM";
+}
+
+a[href^="/search/pub/default.aspx"] {
+  text-flow: break;
+}

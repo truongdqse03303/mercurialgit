@@ -1,8 +1,68 @@
-@engine default {
+﻿@engine default {
   eid: BR-JA.PT.EN;
   dictionaries: "KARIYA_TM KARIYA_DIC JICHITAI SIGHTSEEING INTERNET SYSTEM";
 }
 
+@rewrite RewriteJavascript {
+  if (absurl matches "http://img\\.youtube\\.com/.+") return;
+  apply "@RewriteHypertextReference";
+}
+
 form input[type="hidden"][name="ie"] {
   attribute: value set "utf-8";
+}
+table td[width="430"][valign="top"][align="left"] {
+  content: ignore;  
+}
+
+div.ShinchakuNew a {
+  text-flow: break;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// RULESET
+// URL = http://www.city.kariya.lg.jp/school/asachu/asahi.html
+
+textarea[name="今月の予定"] {
+  content: translate;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// RULESET
+// URL = http://www.city.kariya.lg.jp/present/news/simindayori/simin13nendo.html
+
+td[width="245><A href="]["simin13.12.15.html"] {
+  attribute: width set "245";
+  attribute: '"' delete; 
+  attribute: "simin13.12.15.html" delete;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// RULESET
+// URL #= ^http://www.city.kariya.lg.jp/toukei/
+
+html["xmlns:x"="urn:schemas-microsoft-com:office:excel"] xml,
+html["xmlns:x"="urn:schemas-microsoft-com:office:excel"] xml *
+{
+  content: ignore;
+}
+
+// don't want these tags
+html["xmlns:x"="urn:schemas-microsoft-com:office:excel"] col {
+  tag: delete;
+}
+
+// removing the style/width/height fixes width and resizing of the table
+html["xmlns:x"="urn:schemas-microsoft-com:office:excel"] table,
+html["xmlns:x"="urn:schemas-microsoft-com:office:excel"] tr,
+html["xmlns:x"="urn:schemas-microsoft-com:office:excel"] td
+{
+  attribute: width delete;
+  attribute: height delete;
+  attribute: style delete;
+}
+
+// add in a little bit of spacing
+html["xmlns:x"="urn:schemas-microsoft-com:office:excel"] td {
+  attribute: style set "padding-right: 0.5em;";
 }

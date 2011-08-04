@@ -1,0 +1,10 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "KANENI_DIC KANENI_TM GOURMET";
+}
+
+a[href="kani.htm"],a[href="ebi.htm"],a[href="ikura.htm"],a[href="hotate.htm"],
+a[href="kanbutu.htm"],a[href="sake.htm"],a[href="chinmi.htm"],a[href="konbu.htm"],
+a[href="ika.htm"],a[href="kaniman.htm"],a[href="other.htm"] {
+  text-flow: break;
+}

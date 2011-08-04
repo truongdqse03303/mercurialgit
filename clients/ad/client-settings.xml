@@ -9,8 +9,9 @@
   <!-- クライアントが使用できるドメイン （必須）-->
   <domain-list>
     <domain>http://www\.city\.musashino\.lg\.jp</domain>
-    <domain>http://site\.search\.yahoo\.co\.jp/search($|.+?conf_id=.+)</domain>
-    <domain>http://ord\.yahoo\.co\.jp/p/ssearch/.+</domain>
+    <!-- Yahooサイト内検索 -->
+    <domain>http://site\.search\.yahoo\.co\.jp/search($|\?.+&amp;conf_id=(?:o9jseHqgRQ--|r_gT1SKoQTU-))</domain>
+    <domain>http://ord\.yahoo\.co\.jp/p/ssearch/SIG=.+//www\.city\.musashino\.lg\.jp/.+</domain>
   </domain-list>
 
   <!-- URLエンコードの設定 -->

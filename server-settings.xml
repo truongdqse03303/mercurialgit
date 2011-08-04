@@ -9,26 +9,8 @@
   <translation-server>
     <url>http://ts03-03.transer.com:13000/</url>
     <connection-timeout>5000</connection-timeout>
-    <socket-timeout>33</socket-timeout>
+    <socket-timeout>300000</socket-timeout>
   </translation-server>
-
-  <!-- 各種リソースパス -->
-  <resource>
-    <name>fragment.translate</name>
-    <path>/opt/site-translate/script/javascript/crosslanguage.fragment.translate.js</path>
-  </resource>
-  <resource>
-    <name>site.translate.header</name>
-    <path>/opt/site-translate/script/javascript/crosslanguage.site.translate.header.js</path>
-  </resource>
-  <resource>
-    <name>translate.rulesheet.path</name>
-    <path>/opt/site-translate/script/rule</path>
-  </resource>
-  <resource>
-    <name>error.messages</name>
-    <path>/opt/site-translate/config/messages</path>
-  </resource>
   
   <!-- 404ページ-->
   <extension-param>

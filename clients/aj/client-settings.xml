@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>北星ファーム</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <license-key>hokuseifarm/hokuseifarm01 2a611c6e7826bde095c800e84eea26c70befbad2</license-key>
+
+  <!-- 翻訳対象となるドメイン(URL)の一覧 -->
+  <domain-list>
+    <domain>http://www\.hokuseifarm\.com</domain>
+  </domain-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>utf-8</charset>
+
+  <!-- 設定IDのためにドメインを使用する -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>

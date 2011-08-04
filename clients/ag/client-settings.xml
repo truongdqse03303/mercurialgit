@@ -4,14 +4,17 @@
   <name>刈谷市</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <license-key>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</license-key>
+  <licence>kariya/kariya01 f54737ded70ca8deecd602f52f3bf440c4a13e1f</licence>
 
   <!-- クライアントが使用できるドメインの一覧 -->
   <domain-list>
-    <domain>http://.*\.city\.kariya\.lg\.jp</domain>
+    <domain>http://www\.city\.kariya\.lg\.jp</domain>
     <!-- Googleサイト内検索 -->
-    <domain>http://www\.google\.co\.jp/search(\?.*domains=city\.kariya\.lg\.jp.*)?</domain>
+    <domain>http://www\.google\.co\.jp/search(\?.*&amp;?domains=city\.kariya\.lg\.jp.*)?</domain>
   </domain-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
 
   <!-- 設定IDのためにドメインを使用する -->
   <extension-param>

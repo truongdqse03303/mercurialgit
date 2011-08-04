@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>有限会社函館カネニ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <license-key>kaneni/kaneni01 84902a4b8ae2247fb5774135e790ab855abaed83</license-key>
+
+  <!-- 翻訳対象となるドメイン(URL)の一覧 -->
+  <domain-list>
+    <domain>http://www\.asaichi\.jp</domain>
+  </domain-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+
+  <!-- 設定IDのためにドメインを使用する -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>

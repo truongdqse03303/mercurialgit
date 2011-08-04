@@ -110,6 +110,7 @@
         <replacement>http://www.mic21.com/shopping/img/common/{$1}_eng.{$2}</replacement>
         <url-list>
             <url>http://www\.mic21\.com/shopping/.*</url>
+            <url>http://shop3\.genesis-ec\.com/[^?]+\?(?:.+&amp;)?shopcd=17302(?:&amp;.+)?$</url>
         </url-list>
     </replace-rule>
     <!-- 78 -->
@@ -118,6 +119,7 @@
         <replacement>http://www.mic21.com/shopping/image/2011_medama_eng.jpg</replacement>
         <url-list>
             <url>http://www\.mic21\.com/shopping/.*</url>
+            <url>http://shop3\.genesis-ec\.com/[^?]+\?(?:.+&amp;)?shopcd=17302(?:&amp;.+)?$</url>
         </url-list>
     </replace-rule>
     <!-- 79: -->
@@ -126,6 +128,7 @@
         <replacement>http://www.mic21.com/shopping/img/top/{$1}_eng.{$2}</replacement>
         <url-list>
             <url>http://www\.mic21\.com/shopping/.*</url>
+            <url>http://shop3\.genesis-ec\.com/[^?]+\?(?:.+&amp;)?shopcd=17302(?:&amp;.+)?$</url>
         </url-list>
     </replace-rule>
 </replace-rule-list>

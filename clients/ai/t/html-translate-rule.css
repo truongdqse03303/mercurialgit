@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "WJR-ISETAN_DIC WJR-ISETAN_TM";
+}
+
+form input[type="hidden"][name="ie"] {
+  attribute: value set "utf-8";
+}

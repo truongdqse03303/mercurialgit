@@ -1,0 +1,15 @@
+@engine default {
+  eid: CR-JC;
+}
+
+// @RULESET
+// URL: ^http://www.ec-nomadic.com/entry/kiyaku.php$
+textarea[name="textfield"] {
+  content: translate;
+}
+
+// @RULESET
+// URL: ^http://www.ec-nomadic.com/products/list.php\?.+
+ul.pagesortarea > li > a {
+  text-flow: break;
+}

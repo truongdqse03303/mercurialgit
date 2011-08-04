@@ -1,0 +1,18 @@
+@engine default {
+  eid: CR-JK;
+}
+
+// search caption on page top menu
+input#b1_sbmt {
+  attribute: value delete;
+}
+
+// google search
+form input[type="hidden"][name="ie"] {
+  attribute: value rewrite "utf-8";
+}
+
+// layout collapse problem of global navigation in IE 
+dl#h_clink dt  {
+  attribute: style set "overflow:hidden";
+}
