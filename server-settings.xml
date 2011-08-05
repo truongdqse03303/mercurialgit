@@ -11,6 +11,9 @@
     <connection-timeout>5000</connection-timeout>
     <socket-timeout>300000</socket-timeout>
   </translation-server>
+
+  <!-- 信頼できるクライアント -->
+  <trusted-client>127.0.0.1</trusted-client>
   
   <!-- 404ページ-->
   <extension-param>
