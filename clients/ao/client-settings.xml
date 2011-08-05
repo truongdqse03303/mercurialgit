@@ -11,9 +11,23 @@
     <domain>http://(?:www\.)?mc-cloud.jp/</domain>
   </domain-list>
 
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
   <!-- 設定IDのためにドメインを使用する -->
   <extension-param>
     <param-name>use.domain.setting</param-name>
     <param-value>true</param-value>
   </extension-param>
+
+  <!-- リリース前の公開制限 -->
+  <!-- 113.36.193.30以外からのアクセスに対して404を返す -->
+  <!-- 公開時は、下記の設定を削除する！！-->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.ClientAccessRestrictResourceHandler</type>
+    <param>
+      <param-name>client.address</param-name>
+      <param-value>113.36.193.30</param-value>
+    </param>
+  </resource-handler>
 </client-settings>
