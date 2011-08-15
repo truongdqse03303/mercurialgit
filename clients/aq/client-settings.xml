@@ -8,7 +8,7 @@
   
   <!-- クライアントが使用できるドメインの一覧 -->
   <domain-list>
-    <domain>http://(www\.)?kashihaku2013\.jp/</domain>
+    <domain>http://(?:www\.)?kashihaku2013\.jp/</domain>
   </domain-list>
   
   <!-- 拡張パラメータ（任意）。複数指定可能 -->
