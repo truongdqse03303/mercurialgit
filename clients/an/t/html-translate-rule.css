@@ -1,5 +1,6 @@
 @engine default {
   eid: CR-JCT;
+  dictionaries: "NOMADIC_DIC NOMADIC_TM";
 }
 
 // @RULESET

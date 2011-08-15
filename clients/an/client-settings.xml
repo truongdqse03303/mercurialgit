@@ -4,7 +4,7 @@
   <name>Nomadic</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <license-key>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</license-key>
+  <license-key>nomadic/nomadic01 24e4f15fe4844ec275e908fb0874aa2bcdac22df</license-key>
 
   <!-- クライアントが使用できるドメイン （必須）-->
   <domain-list>
