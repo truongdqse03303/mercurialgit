@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>新宿大通商店街振興組合</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <license-key>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</license-key>
+  
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <domain-list>
+    <domain>http://(?:www\.)?shinjuku-ohdoori\.jp/</domain>
+  </domain-list>
+  
+  <!-- 拡張パラメータ（任意）。複数指定可能 -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>
