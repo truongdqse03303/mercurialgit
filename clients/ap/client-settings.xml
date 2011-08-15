@@ -14,7 +14,7 @@
   <!-- 翻訳しないURLの一覧 -->
   <ignore-url-list>
     <url>http://www\.city\.setouchi\.lg\.jp/i/.*</url>
-    <url>http://www\.city\.setouchi\.lg\.jp/english/.*</url>
+    <url>http://www\.city\.setouchi\.lg\.jp/(~osa-token/)?english/.*</url>
   </ignore-url-list>
   
   <translate-html>
