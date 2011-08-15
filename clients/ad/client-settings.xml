@@ -9,30 +9,7 @@
   <!-- クライアントが使用できるドメイン （必須）-->
   <domain-list>
     <domain>http://www\.city\.musashino\.lg\.jp</domain>
-    <!-- Yahooサイト内検索 -->
-    <domain>http://site\.search\.yahoo\.co\.jp/search($|\?.+&amp;conf_id=(?:o9jseHqgRQ--|r_gT1SKoQTU-))</domain>
-    <domain>http://ord\.yahoo\.co\.jp/p/ssearch/SIG=.+//www\.city\.musashino\.lg\.jp/.+</domain>
   </domain-list>
-
-  <!-- URLエンコードの設定 -->
-  <resource-handler>
-    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.CharsetMarkBasedURLEncodeResourceHandler</type>
-    <param>
-      <param-name>encode.charset.key</param-name>
-      <param-value>ei</param-value>
-    </param>
-  </resource-handler>
-  <resource-handler>
-    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
-    <param>
-      <param-name>encode.url.search</param-name>
-      <param-value>.+/cgi-bin/(shimin|event|news|sinsei)/index\.cgi\?category.+</param-value>
-    </param>
-    <param>
-      <param-name>encode.charset.search</param-name>
-      <param-value>EUC-JP</param-value>
-    </param>
-  </resource-handler>
 
   <!-- 設定IDのためにドメインを使用する -->
   <extension-param>
