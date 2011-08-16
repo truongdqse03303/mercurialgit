@@ -4,7 +4,7 @@
   <name>田川市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <license-key>tagawa/tagawa01 191c8ab7d3c83309994a21866e074de0ca24c19d</license-key>
+  <licence>tagawa/tagawa01 191c8ab7d3c83309994a21866e074de0ca24c19d</licence>
 
   <!-- 翻訳対象となるドメイン(URL)の一覧 -->
   <domain-list>

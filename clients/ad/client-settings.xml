@@ -4,7 +4,7 @@
   <name>武蔵野市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <license-key>musashino/musashino01 0f55d68caebf845da6312c3838412b942f11899d</license-key>
+  <licence>musashino/musashino01 0f55d68caebf845da6312c3838412b942f11899d</licence>
 
   <!-- クライアントが使用できるドメイン （必須）-->
   <domain-list>

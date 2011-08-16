@@ -4,7 +4,7 @@
   <name>有限会社函館カネニ</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <license-key>kaneni/kaneni01 84902a4b8ae2247fb5774135e790ab855abaed83</license-key>
+  <licence>kaneni/kaneni01 84902a4b8ae2247fb5774135e790ab855abaed83</licence>
 
   <!-- 翻訳対象となるドメイン(URL)の一覧 -->
   <domain-list>

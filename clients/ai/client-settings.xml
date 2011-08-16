@@ -4,7 +4,7 @@
   <name>JR大阪三越伊勢丹</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <license-key>wjr-isetan/osaka01 d30278dff70cc0fbda726d2194e6f488a88abc5f</license-key>
+  <licence>wjr-isetan/osaka01 d30278dff70cc0fbda726d2194e6f488a88abc5f</licence>
 
   <!-- 翻訳対象となるドメイン(URL)の一覧 -->
   <domain-list>

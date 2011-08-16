@@ -4,7 +4,7 @@
   <name>プリンスホテル</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <license-key>princehotels/princehotels01 3b0525cd4f9e9eccb0bb0fbe27c48555e2a1bd53</license-key>
+  <licence>princehotels/princehotels01 3b0525cd4f9e9eccb0bb0fbe27c48555e2a1bd53</licence>
 
   <!-- 翻訳対象となるドメイン(URL)の一覧 -->
   <domain-list>

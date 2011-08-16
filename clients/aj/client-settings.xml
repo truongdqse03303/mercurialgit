@@ -4,7 +4,7 @@
   <name>北星ファーム</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <license-key>hokuseifarm/hokuseifarm01 2a611c6e7826bde095c800e84eea26c70befbad2</license-key>
+  <licence>hokuseifarm/hokuseifarm01 2a611c6e7826bde095c800e84eea26c70befbad2</licence>
 
   <!-- 翻訳対象となるドメイン(URL)の一覧 -->
   <domain-list>

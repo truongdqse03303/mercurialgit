@@ -4,7 +4,7 @@
   <name>mic21</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <license-key>mic21/mic2101 8271c0c566eaf0a889c4b787a18ad7eb83f031bf</license-key>
+  <licence>mic21/mic2101 8271c0c566eaf0a889c4b787a18ad7eb83f031bf</licence>
 
   <!-- クライアントが使用できるドメインの一覧 -->
   <domain-list>

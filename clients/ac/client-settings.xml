@@ -4,7 +4,7 @@
   <name>新得町役場</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <license-key>shintoku/shintoku01 2db23116d844cc76e9a7fb070e9d12d80193483e</license-key>
+  <licence>shintoku/shintoku01 2db23116d844cc76e9a7fb070e9d12d80193483e</licence>
 
   <!-- クライアントが使用できるドメイン （必須）-->
   <domain-list>
