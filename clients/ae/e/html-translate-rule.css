@@ -13,11 +13,6 @@
   apply "@RewriteHypertextReference";
 }
 
-@rewrite RewriteJavascriptInclude {
-  if (url matches "^http://www.tos-asp.jp/agent/mic21/js/search\\?type=tour.+") apply "{url}-cljs-";
-  apply "@RewriteScriptInclude";
-}
-
 // @RULESET
 // URL: http://shop3.genesis-ec.com/search/search.asp
 form[name="FrmMenu2"] {

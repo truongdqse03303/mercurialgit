@@ -3,11 +3,6 @@
   dictionaries: "PRINCEHOTELS_DIC PRINCEHOTELS_TM";
 }
 
-@rewrite RewriteJavascriptInclude {
-  if (url matches "http://golf2\\.princehotels\\.co\\.jp/topics/topics\\.asp\\?.+") apply "{url}-cljs-";
-  apply "@RewriteScriptInclude";
-}
-
 select[name="select3"] option {
   attribute: value rewrite "@RewriteRegisteredDomain";
 }

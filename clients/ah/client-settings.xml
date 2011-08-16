@@ -22,6 +22,20 @@
   <!-- サイトで使用される文字セット -->
   <charset>utf-8</charset>
 
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>^http://golf2\.princehotels\.co\.jp/topics/topics\.asp\?.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
   <!-- 設定IDのためにドメインを使用する -->
   <extension-param>
     <param-name>use.domain.setting</param-name>

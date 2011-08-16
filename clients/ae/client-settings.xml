@@ -35,6 +35,19 @@
     <priority>4</priority>
     <terminal>true</terminal>
   </resource-handler>
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>^http://www\.tos-asp\.jp/agent/mic21/js/search\?type=tour.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
 
   <!-- 設定IDのためにドメインを使用する -->
   <extension-param>
