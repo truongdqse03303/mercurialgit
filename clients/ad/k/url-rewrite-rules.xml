@@ -129,8 +129,8 @@
         <replacement>http://www.city.musashino.lg.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/translation/ko/b_faq.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.city.musashino.lg.jp/dbps_data/_material_/_files/000/000/006/136/life/s_syussan.gif</pattern>
-        <replacement>http://www.city.musashino.lg.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/translation/ko/syussan.gif</replacement>
+        <pattern>http://www.city.musashino.lg.jp/dbps_data/_material_/_files/000/000/006/136/life/s_shussan.gif</pattern>
+        <replacement>http://www.city.musashino.lg.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/translation/ko/shussan.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.musashino.lg.jp/dbps_data/_material_/_files/000/000/006/136/life/s_kosodate.gif</pattern>
