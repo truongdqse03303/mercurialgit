@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JC;
+  dictionaries: "KASHIHAKU_DIC KASHIHAKU_TM";
 }
