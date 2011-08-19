@@ -1,5 +1,6 @@
 @engine default {
   eid: CR-JE;
+  dictionaries: "SETOUCHI_DIC SETOUCHI_TM GOVT TOURISM INTERNET";
 }
 
 // search caption on page top menu

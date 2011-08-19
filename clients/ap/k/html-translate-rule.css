@@ -1,5 +1,6 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "SETOUCHI_DIC SETOUCHI_TM";
 }
 
 // search caption on page top menu
