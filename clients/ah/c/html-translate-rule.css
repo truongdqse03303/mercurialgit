@@ -2,23 +2,3 @@
   eid: CR-JC;
   dictionaries: "PRINCEHOTELS_DIC PRINCEHOTELS_TM";
 }
-
-select[name="select3"] option {
-  attribute: value rewrite "@RewriteRegisteredDomain";
-}
-
-#selectLink > form > select > option {
-  attribute: value rewrite "@RewriteRegisteredDomain";
-}
-
-a.lightview {
-  attribute: title ignore;
-}
-
-iframe[src="map.html"] {
-  attribute: src rewrite "{absurl}";
-}
-
-meta[http-equiv=i"refresh"][content#=i"url=."] {
-  attribute: content rewrite "@RewriteRegisteredDomain";
-}

@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.joho.tagawa.fukuoka.jp/search/pub/Default.aspx?
+a[href^="/search/pub/default.aspx"] {
+  text-flow: break;
+}

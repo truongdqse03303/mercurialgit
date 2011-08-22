@@ -2,20 +2,3 @@
   eid: CR-JC;
   dictionaries: "MIC21_DIC MIC21_TM";
 }
-
-@rewrite RewriteHypertextReferenceWrapper {
-  if (url matches "googlemap\\.html\\?[0-9]+") return "{absurl}";
-  apply "@RewriteHypertextReference";
-}
-
-@rewrite RewriteJavascript {
-  if (url matches "googlemap\\.html\\?[0-9]+") return "{absurl}";
-  apply "@RewriteHypertextReference";
-}
-
-// @RULESET
-// URL: http://shop3.genesis-ec.com/search/search.asp
-form[name="FrmMenu2"] {
-  attribute: method rewrite "GET";
-  attribute: action rewrite "shopcd=17302";
-}

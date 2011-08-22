@@ -1,0 +1,3 @@
+form input[type="hidden"][name="ie"] {
+  attribute: value set "utf-8";
+}

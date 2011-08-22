@@ -2,7 +2,3 @@
   eid: CR-JE;
   dictionaries: "WJR-ISETAN_DIC WJR-ISETAN_TM FASHION BEAUTY SPORTS";
 }
-
-form input[type="hidden"][name="ie"] {
-  attribute: value set "utf-8";
-}

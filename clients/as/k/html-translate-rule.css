@@ -1,11 +1,3 @@
 @engine default {
   eid: CR-JK;
 }
-
-form[name="kataJump"] > select[name="linkselectkata"] option {
-  attribute: value rewrite "@RewriteRegisteredDomain";
-}
-
-form[name="colorJump"] > select[name="linkselectcolor"] option {
-  attribute: value rewrite "@RewriteRegisteredDomain";
-}

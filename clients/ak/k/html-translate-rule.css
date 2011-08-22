@@ -2,7 +2,3 @@
   eid: CR-JK;
   dictionaries: "TAGAWA_DIC TAGAWA_TM";
 }
-
-a[href^="/search/pub/default.aspx"] {
-  text-flow: break;
-}

@@ -1,0 +1,18 @@
+// @RULESET
+// URL ^= http://shop3.genesis-ec.com/search/search.asp
+form[name="FrmMenu2"] {
+  attribute: method rewrite "GET";
+  attribute: action rewrite "shopcd=17302";
+}
+
+// @RULESET
+// URL #= ^http://www\.mic21\.com/n/shop/crosslanguage\.fragment\.translate/[0-9]+\.r[0-9]+/$
+@rewrite RewriteGoogleMap {
+  if (url matches "googlemap\\.html\\?[0-9]+") return "{absurl}";
+}
+iframe[src] {
+  attribute: src rewrite "@RewriteGoogleMap" !important;
+}
+:javascript { 
+  attribute: url rewrite "@RewriteGoogleMap";
+}
