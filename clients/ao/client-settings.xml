@@ -4,7 +4,7 @@
   <name>ＭＣクラウド</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>mc-cloud/service 2674f6111714ed22674996009f43bb4dce45a4ad</licence>
 
   <!-- クライアントが使用できるドメイン （必須）-->
   <domain-list>

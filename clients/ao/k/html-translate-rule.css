@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "MC-CLOUD_DIC MC-CLOUD_TM COMPUTER";
 }
