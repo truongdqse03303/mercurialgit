@@ -11,6 +11,13 @@
     <domain>http://(?:www\.)?douraku.co.jp/</domain>
   </domain-list>
   
+  <!-- 翻訳しないURLの一覧 -->
+  <ignore-url-list>
+    <url>http://douraku\.co\.jp/company/.*</url>
+    <url>http://douraku\.co\.jp/recruit/.*</url>
+    <url>http://www\.douraku\.co\.jp/shopping/.*</url>
+  </ignore-url-list>
+  
   <!-- 拡張パラメータ（任意）。複数指定可能 -->
   <extension-param>
     <param-name>use.domain.setting</param-name>
