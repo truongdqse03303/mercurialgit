@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JC;
+  dictionaries: "LAYERED_DIC LAYERED_TM";
 }
