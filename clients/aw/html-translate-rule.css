@@ -1,0 +1,16 @@
+// google search
+form input[type="hidden"][name="ie"] {
+  attribute: value rewrite "utf-8";
+}
+
+// @RULESET
+// URL = http://www.city.tokoname.aichi.jp/ctg/15100570/15100570.html
+a[href] {
+  text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://www.city.tokoname.aichi.jp/ctg/
+div.topicpath > a {
+  text-flow: break;
+}

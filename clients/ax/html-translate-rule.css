@@ -1,0 +1,26 @@
+// google search
+form input[type="hidden"][name="ie"] {
+  attribute: value rewrite "utf-8";
+}
+
+// @RULESET
+// URL ^= http://www2.city.kurume.fukuoka.jp/map/map2.php
+// URL ^= http://www6.city.kurume.fukuoka.jp/bfmap/map_view.cgi
+// URL ^= http://www6.city.kurume.fukuoka.jp/bfmap/map_list.cgi
+// URL ^= http://www.kurume-hotomeki.jp/event/
+// URL ^= http://www.kurume-hotomeki.jp/jp/event/
+// Google Map API
+// TODO
+// APIÉLÅ[ÇéÊìæÇ∑ÇÈ
+@rewrite RewriteGMapKey {
+  if (url matches "^(http://maps\\.google\\.com/maps\\?file=api&v=2&(?:.*?&)?key)=[^&]+(&.*)?") return "{$1}=hogehoge{$2}";
+}
+script[type="text/javascript"][src^="http://maps.google.com/maps"] {
+  attribute: src rewrite "@RewriteGMapKey"; 
+}
+
+// @RULESET
+// URL ^= http://www5.city.kurume.fukuoka.jp/Web/civic_voice/
+table.smallStyle a {
+  text-flow: break;
+}
