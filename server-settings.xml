@@ -15,9 +15,9 @@
   <!-- 信頼できるクライアント -->
   <trusted-client>127.0.0.1</trusted-client>
   
-  <!-- 404ページ-->
+  <!-- リクエストエラーページ-->
   <extension-param>
-    <param-name>not.found.page</param-name>
-    <param-value>/WEB-INF/pages/notFound.jsp</param-value>
+    <param-name>request.error.page</param-name>
+    <param-value>/WEB-INF/pages/requestError.jsp</param-value>
   </extension-param>
 </server-settings>
