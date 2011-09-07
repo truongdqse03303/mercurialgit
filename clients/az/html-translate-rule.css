@@ -1,0 +1,4 @@
+// サイト内検索
+form[action="http://search-sitenaviplus.fresheye.com/"] input[type="hidden"][name="cs"] {
+  attribute: value rewrite "utf-8";
+}

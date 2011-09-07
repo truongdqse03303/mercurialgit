@@ -1,0 +1,9 @@
+// @RULESET
+// URL ^= http://www.marui-imai.jp/sapporo/brand/index.html
+div.box_index {
+  attribute: class set "box_index cl-notranslate cl-norewrite";
+}
+
+div.box_list > h4 {
+  content: ignore;
+}

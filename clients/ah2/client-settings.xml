@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>プリンスホテル</name>
+  <name>プリンスホテル:中国語用</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
   <licence>princehotels/princehotels01 3b0525cd4f9e9eccb0bb0fbe27c48555e2a1bd53</licence>
@@ -17,7 +17,7 @@
   </ignore-url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
-  <use-cache>true</use-cache>
+  <use-cache>false</use-cache>
   
   <!-- サイトで使用される文字セット -->
   <charset>utf-8</charset>
