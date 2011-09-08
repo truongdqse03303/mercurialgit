@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるドメイン(URL)の一覧 -->
   <domain-list>
-    <domain>http://www.marui-imai\.jp/</domain>
+    <domain>http://www\.marui-imai(?:\.co)?\.jp/</domain>
   </domain-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
