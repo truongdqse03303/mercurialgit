@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>Nomadic</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nomadic/nomadic01 24e4f15fe4844ec275e908fb0874aa2bcdac22df</licence>
+
+  <!-- クライアントが使用できるドメイン （必須）-->
+  <domain-list>
+    <domain>http://www\.nomadic\.co\.jp/</domain>
+    <domain>http://www\.ec-nomadic\.com/</domain>
+    <domain>http://store\.shopping\.yahoo\.co\.jp/nomadic/</domain>
+    <domain>http://store\.shopping\.yahoo\.co\.jp/strcss/[a-z0-9/]+/nomadic\.css</domain>
+    <domain>http://www\.rakuten\.co\.jp/nomadic/</domain>
+    <domain>http://www\.rakuten\.ne\.jp/gold/nomadic/</domain>
+    <domain>http://item\.rakuten\.co\.jp/nomadic/</domain>
+  </domain-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>false</use-cache>
+
+  <!-- 設定IDのためにドメインを使用する -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>
