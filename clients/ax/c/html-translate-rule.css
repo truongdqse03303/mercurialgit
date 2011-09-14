@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JC;
+  dictionaries: "KURUME_DIC KURUME_TM";
 }

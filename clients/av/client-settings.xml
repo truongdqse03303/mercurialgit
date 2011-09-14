@@ -4,7 +4,7 @@
   <name>六ヶ所村役場</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>rokkasho/service 53a7c3927a9a4956f25eca9c176ded3d0255324a</licence>
   
   <!-- クライアントが使用できるドメインの一覧 -->
   <domain-list>

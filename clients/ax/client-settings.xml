@@ -4,7 +4,7 @@
   <name>久留米市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>kurume/service dedb7a4589ee71617fc878fa94f3f6e20c96daf9</licence>
   
   <!-- クライアントが使用できるドメインの一覧 -->
   <domain-list>
