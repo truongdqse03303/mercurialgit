@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.princehotels.co.jp/shinjuku/common/imgs/spacer.gif</pattern>
+        <replacement>http://www.princehotels.co.jp/shinjuku/common/imgs/booknow.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.princehotels.co.jp/karuizawa-east/common/imgs/spacer.gif</pattern>
+        <replacement>http://www.princehotels.co.jp/karuizawa-east/common/imgs/booknow.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.princehotels.co.jp/karuizawa-west/common/imgs/spacer.gif</pattern>
+        <replacement>http://www.princehotels.co.jp/karuizawa-west/common/imgs/booknow.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.princehotels.co.jp/the_prince_karuizawa/common/imgs/spacer.gif</pattern>
+        <replacement>http://www.princehotels.co.jp/the_prince_karuizawa/common/imgs/booknow.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.princehotels.co.jp/asama/common/imgs/spacer.gif</pattern>
+        <replacement>http://www.princehotels.co.jp/asama/common/imgs/booknow.jpg</replacement>
+    </replace-rule>
+</replace-rule-list>
