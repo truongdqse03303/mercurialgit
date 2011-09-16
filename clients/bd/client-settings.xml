@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>淑徳大学</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+
+  <!-- 翻訳対象となるドメイン(URL)の一覧 -->
+  <domain-list>
+    <domain>http://www\.shukutoku\.ac\.jp/</domain>
+  </domain-list>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>utf-8</charset>
+
+  <!-- 設定IDのためにドメインを使用する -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>
