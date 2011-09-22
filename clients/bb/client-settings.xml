@@ -4,8 +4,7 @@
   <name>clientcc</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-<!--  <license-key>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</license-key>  -->
-  <license-key>cross/athome d6ce0f1392b1f2d7304e1cd99326b4beb7b7f4b4</license-key>
+  <licence>cross/athome d6ce0f1392b1f2d7304e1cd99326b4beb7b7f4b4</licence>
   
   <!-- コンテンツキャッシュを使用するかどうかの設定 -->
   <!-- 省略可能。デフォルト値は、false -->  
@@ -16,14 +15,6 @@
     <domain>http://[^/]+/</domain>
   </domain-list>
 
-  <!-- HTML翻訳を行うかどうかの設定（任意） -->
-  <!-- 省略可能。デフォルト値は、どちらもtrue -->
-  <!-- documentをfalseに設定した場合はURLのリライトのみを行う -->
-  <translate-html>
-    <document>true</document>
-    <fragment>true</fragment>
-  </translate-html>
-  
   <!-- 拡張パラメータ（任意）。複数指定可能 -->
   <extension-param>
     <param-name>use.domain.setting</param-name>
