@@ -16,6 +16,10 @@ form input[type="hidden"][name="ie"] {
 script[type="text/javascript"][src^="http://maps.google.com/maps"] {
   attribute: src rewrite "@RewriteGMapKey"; 
 }
+// eclude fragment translate on google maps
+#map {
+  attribute: cltx add 'exclude';
+}
 
 // @RULESET
 // URL ^= http://www5.city.kurume.fukuoka.jp/Web/civic_voice/

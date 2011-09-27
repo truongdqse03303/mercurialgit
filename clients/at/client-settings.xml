@@ -18,6 +18,11 @@
     <url>http://www\.douraku\.co\.jp/shopping/.*</url>
   </ignore-url-list>
   
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <cancel-fragment-list>
+    <url>http://douraku\.co\.jp/[^/]+/shop/[^/]+/map/.*</url>
+  </cancel-fragment-list>
+  
   <!-- 拡張パラメータ（任意）。複数指定可能 -->
   <extension-param>
     <param-name>use.domain.setting</param-name>
