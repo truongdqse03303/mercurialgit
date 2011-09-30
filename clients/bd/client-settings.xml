@@ -4,7 +4,7 @@
   <name>淑徳大学</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>shukutoku/service e05f44db40d9e9bace674f4ad55879a67e88f0ab</licence>
 
   <!-- 翻訳対象となるドメイン(URL)の一覧 -->
   <domain-list>
