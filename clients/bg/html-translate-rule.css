@@ -1,0 +1,9 @@
+// @RULESET
+// URL = http://www.city.nomi.ishikawa.jp/cgi-bin/odb-get.exe?WIT_template=AC020000&WIT_oid=icityv2::Contents::1687
+:css {
+  attribute: url rewrite "@word";
+}
+@rewrite word {
+  if (url equals "#default#VML") return;
+  return "@RewriteBinaryResource";
+}

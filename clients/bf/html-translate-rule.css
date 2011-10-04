@@ -1,0 +1,9 @@
+// @RULESET
+// URL ^= http://www.city.koshi.lg.jp/map/pub/default.asp
+script[type="text/javascript"][src$="chr=Shift-JIS"] {
+  attribute: src rewrite "http://map.kumamoto-net.ne.jp/ictmap/ictmapjs.phtml?chr=UTF-8";
+}
+
+table[width="750"][cellpadding="0"][cellspacing="0"][border="0"] {
+  attribute: cltx add 'exclude';
+}

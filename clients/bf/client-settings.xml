@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>熊本県合志市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <domain-list>
+    <domain>http://www\.city\.koshi\.lg\.jp/</domain>
+    <domain>http://kosodate\.city\.koshi\.lg\.jp/</domain>
+    <domain>http://map\.kumamoto-net\.ne\.jp/ictmap/ictmapjs.phtml\?.+</domain>
+  </domain-list>
+
+  <!-- 拡張パラメータ（任意）。複数指定可能 -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>

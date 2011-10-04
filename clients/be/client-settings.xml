@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>倉敷紡績株式会社</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <domain-list>
+    <domain>http://www\.kurabo\.co\.jp/el/</domain>
+  </domain-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <ignore-url-list>
+    <url>http://www\.kurabo\.co\.jp/el/world/</url>
+  </ignore-url-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- 拡張パラメータ（任意）。複数指定可能 -->
+  <extension-param>
+    <param-name>use.domain.setting</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+</client-settings>
