@@ -11,9 +11,6 @@
     <domain>http://(?:www\.)?mc-cloud.jp/</domain>
   </domain-list>
 
-  <!-- コンテンツキャッシュ使用有無の設定-->
-  <use-cache>true</use-cache>
-
   <!-- 設定IDのためにドメインを使用する -->
   <extension-param>
     <param-name>use.domain.setting</param-name>
