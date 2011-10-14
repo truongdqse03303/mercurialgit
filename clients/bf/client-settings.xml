@@ -4,7 +4,7 @@
   <name>熊本県合志市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>koshi/service 1ad52fb60e7c8ca1447810cdbf5fb292d17f8195</licence>
   
   <!-- クライアントが使用できるドメインの一覧 -->
   <domain-list>

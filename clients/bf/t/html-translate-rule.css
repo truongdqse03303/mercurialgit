@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JCT;
+  dictionaries: "KOSHI_DIC KOSHI_TM CROSS_DIC CROSS_TM";
 }

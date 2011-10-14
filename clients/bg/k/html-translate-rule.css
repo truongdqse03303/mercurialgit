@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "NOMI_DIC NOMI_TM CROSS_TM";
 }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www\.marui-imai\.jp/sapporo/[^/]+/common/img/h2_(saiji|floor|eigyo|brand|access|service)(_on)?\.gif</pattern>
+        <replacement>http://www.marui-imai.jp/sapporo/s_top/common/img/en_h2_{$1}{$2}.gif</replacement>
+    </replace-rule>
+</replace-rule-list>
