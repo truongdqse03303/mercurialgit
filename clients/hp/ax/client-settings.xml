@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>久留米市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kurume/service dedb7a4589ee71617fc878fa94f3f6e20c96daf9</licence>
+  
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www[12356]?\.city\.kurume\.fukuoka\.jp" />
+    <request hostname="www.library-city.kurume.fukuoka.jp" />
+    <request hostname="www.11489.jp" path="/Kurume/Web/" />
+    <request hostname="www.shinsei.elg-front.jp" path="/fukuoka/" />
+    <request hostname="kurume.genki365.net" />
+    <request hostname="www.kurume-rosei.jp" />
+    <request hostname="www.kurume-hotomeki.jp" />
+  </request-list>
+</client-settings>

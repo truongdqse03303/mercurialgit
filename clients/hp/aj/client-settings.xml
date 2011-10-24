@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>北星ファーム</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hokuseifarm/hokuseifarm01 2a611c6e7826bde095c800e84eea26c70befbad2</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.hokuseifarm.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>utf-8</charset>
+</client-settings>

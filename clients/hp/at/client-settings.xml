@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>かに道楽</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>douraku/service 3a9d82029cd07d60df2f6ff0c197278e5e12a93b</licence>
+  
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="(?:www\.)?douraku\.co\.jp" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <ignore-url-list>
+    <url>http://douraku\.co\.jp/company/.*</url>
+    <url>http://douraku\.co\.jp/recruit/.*</url>
+    <url>http://www\.douraku\.co\.jp/shopping/.*</url>
+  </ignore-url-list>
+  
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <ignore-fragment-translate-list>
+    <url>http://douraku\.co\.jp/[^/]+/shop/[^/]+/map/.*</url>
+  </ignore-fragment-translate-list>
+</client-settings>

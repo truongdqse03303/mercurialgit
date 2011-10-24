@@ -1,8 +1,0 @@
-@engine default {
-  eid: CR-JCT;
-  dictionaries: "NOMI_DIC NOMI_TM CROSS_DIC CROSS_TM";
-}
-
-body {
-  attribute: style add "font-family:SimSun, '‚l‚r ‚oƒSƒVƒbƒN', sans-serif !important;";
-}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>伊勢丹（新宿店）</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>isetan/service d6dc483f09ab7013abccf38d87f8ccdeb7b1ddfc</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.isetan.co.jp">
+      <path-list>
+        <path value="/icm2/jsp/(?:store/(?:web_isetsu/)?shinjuku/|shopping/search/|others/)" />
+        <path value="/icm2/jsp/(?:css|js|(?:store/)?images)/" />
+      </path-list>
+    </request>
+    <request hostname="i.isetan.co.jp" path="/(?:shinjuku/|cgi-bin/top/js_get.cgi|common/(?:css2|css3|js|images?)/)" />
+  </request-list>
+
+  <!-- 翻訳しないURLの一覧 -->
+  <ignore-url-list>
+    <url>http://www\.isetan\.co\.jp/icm2/jsp/store/shinjuku/baby_kids/uniform/index\.jsp</url>
+    <url>http://www\.isetan\.co\.jp/icm2/jsp/store/shinjuku/floor_guide/floor_map/1f\.jsp</url>
+    <url>http://www\.isetan\.co\.jp/icm2/jsp/store/shinjuku/event/(?:seijin|harefuri|1006recruitfair|mensetsu|shichigosan)/index\.jsp</url>
+  </ignore-url-list>
+  
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>utf-8</charset>
+
+  <!-- ブランド検索ページのURLエンコーディングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
+    <param>
+      <param-name>encode.url.1</param-name>
+      <param-value>http://www\.isetan\.co\.jp/icm2/jsp/shopping/search/brandSearch.ac\?.+</param-value>
+    </param>
+    <param>
+      <param-name>encode.charset.1</param-name>
+      <param-value>Shift_JIS</param-value>
+    </param>
+  </resource-handler>
+</client-settings>

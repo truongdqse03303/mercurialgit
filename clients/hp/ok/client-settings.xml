@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>@Homepageモニター用ページ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>cross/athome d6ce0f1392b1f2d7304e1cd99326b4beb7b7f4b4</licence>
+  
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.crosslanguage.co.jp" path="/wormly/" />
+  </request-list>
+
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id-list>ru</setting-id-list>
+</client-settings>

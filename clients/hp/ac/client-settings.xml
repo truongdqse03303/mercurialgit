@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>新得町役場</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shintoku/shintoku01 2db23116d844cc76e9a7fb070e9d12d80193483e</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.shintoku-town.jp" />
+  </request-list>
+</client-settings>

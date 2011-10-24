@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>石川県能美市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nomi/service 987130bd34d5e66fc2be24ac714581d43b8229b0</licence>
+  
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <request-list>
+    <request hostname="www.city.nomi.ishikawa.jp" />
+  </request-list>
+</client-settings>

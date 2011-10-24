@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>新宿大通商店街振興組合</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shinjuku-ohdoori/service e76355ceb9919d029ff9e5b969dbade9729731ba</licence>
+  
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="(?:www\.)?shinjuku-ohdoori\.jp" />
+  </request-list>
+</client-settings>

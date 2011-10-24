@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>淑徳大学</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shukutoku/service e05f44db40d9e9bace674f4ad55879a67e88f0ab</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.shukutoku.ac.jp" />
+  </request-list>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>utf-8</charset>
+</client-settings>

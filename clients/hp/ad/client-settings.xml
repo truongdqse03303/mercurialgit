@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>武蔵野市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>musashino/musashino01 0f55d68caebf845da6312c3838412b942f11899d</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.city.musashino.lg.jp" />
+  </request-list>
+</client-settings>

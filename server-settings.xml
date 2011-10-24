@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <server-settings>
-  <!-- Host Server -->
-  <server>
-    <url>http://hp.transer.com/</url>
-  </server>
+  <!-- Application domains -->
+  <application>
+    <id>hp</id>
+    <domain>hp.transer.com</domain>
+  </application>
   
   <!-- Translation Server -->
   <translation-server>

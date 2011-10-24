@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>第26回全国菓子大博覧会</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kashihaku/kashihaku01 ebad60cd851d0dc26a129e2e160e7da9f095aff2</licence>
+  
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="(?:www\.)?kashihaku2013\.jp" />
+  </request-list>
+</client-settings>

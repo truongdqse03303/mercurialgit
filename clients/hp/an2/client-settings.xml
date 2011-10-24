@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>Nomadic</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nomadic/nomadic01 24e4f15fe4844ec275e908fb0874aa2bcdac22df</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.nomadic.co.jp" />
+    <request hostname="www.ec-nomadic.com" />
+    <request hostname="store.shopping.yahoo.co.jp">
+      <path-list>
+        <path value="/nomadic/" />
+        <path value="/strcss/[a-z0-9/]+/nomadic\.css" />
+      </path-list>
+    </request>
+    <request hostname="www.rakuten.co.jp" path="/nomadic/" />
+    <request hostname="www.rakuten.ne.jp" path="/gold/nomadic/" />
+    <request hostname="item.rakuten.co.jp" path="/nomadic/" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>false</use-cache>
+</client-settings>

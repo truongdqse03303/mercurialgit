@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>丸井今井</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>marui-imai/service 0370ecb92823a6f9e125d765cc9eebef06f34539</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www\.marui-imai(?:\.co)?\.jp" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>false</use-cache>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>utf-8</charset>
+</client-settings>

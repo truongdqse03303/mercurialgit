@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>JR大阪三越伊勢丹</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>wjr-isetan/osaka01 d30278dff70cc0fbda726d2194e6f488a88abc5f</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="osaka.wjr-isetan.co.jp" />
+    <!-- Googleサイト内検索 -->
+    <request hostname="www.google.com">
+      <path-list>
+        <path value="/search(\?as_sitesearch=http%3A%2F%2Fosaka\.wjr-isetan\.co\.jp%2F&amp;.+)?" />
+        <path value="/images/experiments/nav_logo78\.png" />
+      </path-list>
+    </request>
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>

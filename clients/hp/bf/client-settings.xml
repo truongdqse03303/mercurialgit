@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>熊本県合志市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>koshi/service 1ad52fb60e7c8ca1447810cdbf5fb292d17f8195</licence>
+  
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.city.koshi.lg.jp" />
+    <request hostname="kosodate.city.koshi.lg.jp" />
+    <request hostname="map.kumamoto-net.ne.jp" path="/ictmap/ictmapjs.phtml\?.+" />
+  </request-list>
+</client-settings>
