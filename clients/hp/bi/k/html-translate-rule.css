@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "NASUSHIOBARA_DIC NASUSHIOBARA_TM CROSS_TM";
 }

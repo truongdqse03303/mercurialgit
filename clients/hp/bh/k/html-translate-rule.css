@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "NANJOCITY_DIC NANJOCITY_TM CROSS_TM";
 }

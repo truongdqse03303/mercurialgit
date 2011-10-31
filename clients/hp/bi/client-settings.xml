@@ -4,7 +4,7 @@
   <name>那須塩原市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>nasushiobara/service ec95d9206d4b90b64d6ffe8c8b538adaac9c8b7e</licence>
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>

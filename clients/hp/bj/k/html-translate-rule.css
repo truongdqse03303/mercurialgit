@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "KIRISHIMA_DIC KIRISHIMA_TM CROSS_TM";
 }

@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JE;
+  dictionaries: "KIRISHIMA_DIC KIRISHIMA_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }

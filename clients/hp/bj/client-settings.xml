@@ -4,7 +4,7 @@
   <name>霧島市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>kirishima/service cd00959e4ecb5e7c3d4bf03cc8c4ee830c39c715</licence>
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>

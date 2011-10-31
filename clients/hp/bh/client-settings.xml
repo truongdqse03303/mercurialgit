@@ -4,7 +4,7 @@
   <name>沖縄県南城市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>nanjocity/service dbfd9c9f55a404091b40efebc6a3a461541d8de0</licence>
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
