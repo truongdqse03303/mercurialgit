@@ -29,7 +29,7 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/fontbig2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/fontbig.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -37,35 +37,35 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/13/1/fontbig2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/13/1/fontbig.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/14/1/fontbig2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/14/1/fontbig.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/15/1/fontbig2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/15/1/fontbig.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/16/1/fontbig2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/16/1/fontsmall.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/17/1/fontbig2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/17/1/fontbig.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/28/1/fontbig2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/28/1/fontbig.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/29/1/fontbig2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/29/1/fontbig.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/30/1/fontbig2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/30/1/fontbig.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/5.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -109,7 +109,7 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/fontreset2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/fontreset.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -117,35 +117,35 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/13/1/fontreset2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/13/1/fontreset.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/14/1/fontreset2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/14/1/fontreset.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/15/1/fontreset2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/15/1/fontreset.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/16/1/fontreset2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/16/1/fontreset.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/17/1/fontreset2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/17/1/fontreset.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/28/1/fontreset2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/28/1/fontreset.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/29/1/fontreset2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/29/1/fontreset.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/30/1/fontreset2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/30/1/fontreset.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/10.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -193,7 +193,7 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/fontsize2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/fontsize.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -201,35 +201,35 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/13/1/fontsize2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/13/1/fontsize.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/14/1/fontsize2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/14/1/fontsize.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/15/1/fontsize2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/15/1/fontsize.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/16/1/fontsize2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/16/1/fontsize.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/17/1/fontsize2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/17/1/fontsize.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/28/1/fontsize2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/28/1/fontsize.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/29/1/fontsize2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/29/1/fontsize.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/30/1/fontsize2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/30/1/fontsize.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/16.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -273,7 +273,7 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/fontsmall2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/fontsmall.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -281,35 +281,31 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/13/1/fontsmall2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/13/1/fontsmall.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/14/1/fontsmall3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/14/1/fontsmall.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/15/1/fontsmall3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/15/1/fontsmall.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/16/1/fontsmall3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/17/1/fontsmall.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/17/1/fontsmall3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/28/1/fontsmall.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/28/1/fontsmall3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/29/1/fontsmall.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/29/1/fontsmall3.jpg</pattern>
-        <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/30/1/fontsmall3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/30/1/fontsmall.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/21.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -353,7 +349,7 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/btn_home2.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/btn_home.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -361,35 +357,35 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/13/1/btn_home3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/13/1/btn_home.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/14/1/btn_home3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/14/1/btn_home.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/15/1/btn_home3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/15/1/btn_home.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/16/1/btn_home3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/16/1/btn_home.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/17/1/btn_home3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/17/1/btn_home.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/28/1/btn_home3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/28/1/btn_home.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/29/1/btn_home3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/29/1/btn_home.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/30/1/btn_home3.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/30/1/btn_home.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/26.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -409,11 +405,11 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/28.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/6/1/btn_home4.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/6/1/btn_home5.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/29.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/12/1/btn_home4.jpg</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/12/1/btn_home5.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/29.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -501,27 +497,27 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/31.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/2/1/navi_faq.gif</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/2/1/navi_inquiry.gif</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/31.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/3/1/navi_faq.gif</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/3/1/navi_inquiry.gif</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/31.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/4/1/navi_faq.gif</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/4/1/navi_inquiry.gif</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/31.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/5/1/navi_faq.gif</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/5/1/navi_inquiry.gif</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/31.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/6/1/navi_faq.gif</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/6/1/navi_inquiry.gif</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/31.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/navi_faq.gif</pattern>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/navi_inquiry.gif</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/31.gif</replacement>
     </replace-rule>
     <replace-rule>
@@ -678,6 +674,10 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/6/1/navi_usage.gif</pattern>
+        <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/33.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/mst/dtm/tpl/7/1/navi_usage.gif</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/33.gif</replacement>
     </replace-rule>
     <replace-rule>
@@ -1213,7 +1213,39 @@
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/40.jpg</replacement>
     </replace-rule>
     <replace-rule>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/cnt/3/65/1/side_info.jpg</pattern>
+        <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/40.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/cnt/3/66/1/side_info.jpg</pattern>
+        <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/40.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/cnt/3/67/1/side_info.jpg</pattern>
+        <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/40.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/cnt/3/68/1/side_info.jpg</pattern>
+        <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/40.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.town.nonoichi.lg.jp/data/open/cnt/3/44/1/side_relation.jpg</pattern>
+        <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/41.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/cnt/3/65/1/side_relation.jpg</pattern>
+        <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/41.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/cnt/3/66/1/side_relation.jpg</pattern>
+        <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/41.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/cnt/3/67/1/side_relation.jpg</pattern>
+        <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/41.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.nonoichi.lg.jp/data/open/cnt/3/68/1/side_relation.jpg</pattern>
         <replacement>http://www.town.nonoichi.lg.jp/doc/img/en/41.jpg</replacement>
     </replace-rule>
     <replace-rule>
