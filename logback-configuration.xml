@@ -6,7 +6,7 @@
     <append>true</append>
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
       <!-- daily rollover -->
-      <fileNamePattern>site-translate_%d{yyyy-MM}.log.gz</fileNamePattern>
+      <fileNamePattern>/var/log/site-translate_%d{yyyy-MM}.log.gz</fileNamePattern>
       <maxHistory>6</maxHistory>
     </rollingPolicy>
     <encoder>

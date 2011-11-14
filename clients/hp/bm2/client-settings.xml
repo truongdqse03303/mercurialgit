@@ -4,7 +4,7 @@
   <name>三越銀座店</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>mitsukoshi/service 834d5255c150c66a3d33fd8752ded488e8a171b4</licence>
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>

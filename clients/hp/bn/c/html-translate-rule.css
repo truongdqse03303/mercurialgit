@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JC;
+  dictionaries: "TAKINOPART_TM TAKINOPART_DIC CROSS_TM CROSS_DIC";
 }
