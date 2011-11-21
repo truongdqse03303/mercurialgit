@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>野々市町役場</name>
+  <name>野々市市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
   <licence>nonoichi/service 17baf12860e22e50c4656dcd34d3c0fea3e3fccc</licence>
