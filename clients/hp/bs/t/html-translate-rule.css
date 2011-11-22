@@ -1,0 +1,5 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "SHINJUKU_DIC SHINJUKU_TM CROSS_DIC CROSS_TM";
+}
+

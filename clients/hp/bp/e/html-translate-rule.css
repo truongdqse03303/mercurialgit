@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "KEIONET_DIC KEIONET_TM CROSS_DIC CROSS_TM INTERNET DEPART BRAND FASION HOBBY BEAUTY";
+}

@@ -1,0 +1,10 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "SHINJUKU_DIC SHINJUKU_TM CROSS_DIC CROSS_TM";
+}
+
+// @RULESET
+// URL ^= http://www.faq.city.shinjuku.lg.jp/
+body {
+  attribute: style add "font-family:SimSun,arial,sans-serif;";
+}

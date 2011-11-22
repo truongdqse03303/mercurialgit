@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://info.keionet.com/shinjuku/common/images/header_bt004.gif</pattern>
+        <replacement>http://info.keionet.com/foreign/img/cs/header_bt004.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://info.keionet.com/shinjuku/images/index_ti005.gif</pattern>
+        <replacement>http://info.keionet.com/foreign/img/cs/index_ti005.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://info.keionet.com/shinjuku/common/images/com_tx001.gif</pattern>
+        <replacement>http://info.keionet.com/foreign/img/cs/com_tx001.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://info.keionet.com/shinjuku/common/images/com_tx002.gif</pattern>
+        <replacement>http://info.keionet.com/foreign/img/cs/com_tx002.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://info.keionet.com/shinjuku/common/images/com_bt002.gif</pattern>
+        <replacement>http://info.keionet.com/foreign/img/cs/com_bt002.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://info.keionet.com/shinjuku/common/images/com_bt002o.gif</pattern>
+        <replacement>http://info.keionet.com/foreign/img/cs/com_bt002o.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://info.keionet.com/shinjuku/access/images/index_il001.gif</pattern>
+        <replacement>http://info.keionet.com/foreign/img/cs/ac_shi_mapfor-Chinese.gif</replacement>
+    </replace-rule>
+</replace-rule-list>
