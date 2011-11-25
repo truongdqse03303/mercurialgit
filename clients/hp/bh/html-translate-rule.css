@@ -1,0 +1,15 @@
+// @RULESET
+// URL #= http://www\.city\.nanjo\.okinawa\.jp($|/$|/index.html)
+// URL ^= http://www.city.nanjo.okinawa.jp/about-nanjo/introduction/calendar/
+// URL #= http://www\.nanjocity\.sakura\.ne\.jp($|/$|/index.html)
+// URL ^= http://www.nanjocity.sakura.ne.jp/about-nanjo/introduction/calendar/
+div#calendar {
+  attribute: cltx set 'exclude';
+}
+
+// @RULESET
+// URL ^= http://www.nanjocity.sakura.ne.jp/about-nanjo/introduction/nanjo-diary/
+// URL ^= http://www.city.nanjo.okinawa.jp/about-nanjo/introduction/nanjo-diary/
+#ArchivePlDn > select[name="OP"] > option {
+  attribute: value rewrite "@RewriteRegisteredDomain";
+}
