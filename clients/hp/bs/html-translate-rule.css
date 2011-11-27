@@ -2,7 +2,7 @@
 // URL #= http://www\.city\.shinjuku\.lg\.jp/kanko/shisetu_[0-9]+\.html
 // Google Map API
 @rewrite RewriteGMapKey {
-  if (url matches "^(http://maps\\.google\\.com/maps\\?file=api&v=2&(?:.*?&)?key)=[^&]+(&.*)?") return "{$1}=ABQIAAAA5Zml1Sp9TNull8J1iSCjjhQxdr1P_ztpKXyxUdrRBJ3J2BYVNxS7W-ChcZ5Sf_gNdT9zdgZ5M0YSiQ{$2}";
+  if (url matches "^(http://maps\\.google\\.com/maps\\?file=api&v=2&(?:.*?&)?key)=[^&]+(&.*)?") return "{$1}=ABQIAAAA5Zml1Sp9TNull8J1iSCjjhQvMEpECd-Mc9-t08dAAEJZl38s6hTDh5MYVhwpgOPnax1w4bINM0u8pw{$2}";
 }
 script[type="text/javascript"][src^="http://maps.google.com/maps"] {
   attribute: src rewrite "@RewriteGMapKey"; 
