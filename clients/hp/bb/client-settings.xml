@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>clientcc</name>
+  <name>デモ用</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
   <licence>cross/athome d6ce0f1392b1f2d7304e1cd99326b4beb7b7f4b4</licence>
@@ -10,6 +10,19 @@
   <request-list>
     <request hostname="[^/]+" />
   </request-list>
+  
+  <!-- ホストヘッダーの検証-->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.HostHeaderCheckResourceHandler</type>
+    <priority>1</priority>
+    <terminal>true</terminal>
+  </resource-handler>
+  <!-- リソースの不正なパターンを検証 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.PatternValidateResourceHandler</type>
+    <priority>1</priority>
+    <terminal>true</terminal>
+  </resource-handler>
   
   <!-- コンテンツキャッシュを使用するかどうかの設定 -->
   <!-- 省略可能。デフォルト値は、false -->  
