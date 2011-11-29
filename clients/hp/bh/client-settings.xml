@@ -8,7 +8,6 @@
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="www.nanjocity.sakura.ne.jp" />
     <request hostname="www.city.nanjo.okinawa.jp" />
   </request-list>
   
@@ -20,7 +19,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://www\.(?:city\.nanjo\.okinawa|nanjocity\.sakura\.ne)\.jp/about-nanjo/introduction/calendar/json-events\.php\?.+</param-value>
+      <param-value>http://www\.city\.nanjo\.okinawa\.jp/about-nanjo/introduction/calendar/json-events\.php\?.+</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
