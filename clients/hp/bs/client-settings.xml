@@ -4,7 +4,7 @@
   <name>新宿区役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>shinjuku/service e66d60af6516c15702374b1164b6040ce0499219</licence>
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>

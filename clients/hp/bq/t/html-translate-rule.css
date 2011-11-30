@@ -1,4 +1,5 @@
 @engine default {
   eid: CR-JCT;
+  dictionaries: "HIROSHIMA_DIC HIROSHIMA_TM CROSS_DIC CROSS_TM MEDICAL";
 }
 

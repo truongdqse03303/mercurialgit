@@ -4,7 +4,7 @@
   <name>京王百貨店(新宿店)</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>keionet/service 10ffd6e592bbdf1fe41473a032567a741ab49d3d</licence>
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>

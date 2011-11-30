@@ -4,7 +4,7 @@
   <name>広島県庁</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>pref-hiroshima/service 57a220c5e505007b06a62258943dab0adece4ad4</licence>
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>

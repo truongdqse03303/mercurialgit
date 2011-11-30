@@ -1,4 +1,4 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "KEIONET_DIC KEIONET_TM";
+  dictionaries: "KEIONET_DIC KEIONET_TM CROSS_TM";
 }
