@@ -1,8 +1,0 @@
-@engine default {
-  eid: CR-JCT;
-  dictionaries: "PRINCEHOTELS_DIC PRINCEHOTELS_TM";
-}
-
-body {
-  attribute: style add "font-family:SimSun,'Hiragino Kaku Gothic Pro',Osaka,sans-serif;";
-}
