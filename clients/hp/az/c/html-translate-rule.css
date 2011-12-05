@@ -1,0 +1,15 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "ISETAN_DIC ISETAN_TM DEPART";
+}
+
+body {
+  attribute: style add "font-family:SimSun,'MS Song','MS Mincho',serif !important;";
+  attribute: lang add 'zh';
+}
+
+// @RULESET
+// URL = http://www.isetan.co.jp/icm2/jsp/store/shinjuku/map/index.jsp
+a[href^="http://mlttpl-mapserv.incrementp.co.jp/multi/spot/isetan_1/ja/map.php"] {
+  attribute: href rewrite "http://mlttpl-mapserv.incrementp.co.jp/multi/spot/isetan_1/zh2/map.php?&MAP=E139.42.28.35N35.41.18.02&CMR=isetan&KEY=524a1da7e0d9ab05d34fc93bfdbd7c2ec8752570&NM=%E4%BC%8A%E5%8A%BF%E4%B8%B9%E6%96%B0%E5%AE%BF%E5%BA%97&ZM=10";
+}

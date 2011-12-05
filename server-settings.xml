@@ -21,4 +21,9 @@
     <param-name>request.error.page</param-name>
     <param-value>/WEB-INF/pages/requestError.jsp</param-value>
   </extension-param>
+  <!-- 備案ライセンス -->
+  <extension-param>
+    <param-name>icp.licence.footer</param-name>
+    <param-value>&#x3C;div id=&#x22;site-translate-footer&#x22; cltx=&#x22;exclude&#x22; style=&#x22;width:100% !important; padding: 10px 0 !important; text-align:center !important; font-family:SimSun !important;&#x22;&#x3E;京ICP备1101810&#x3C;/div&#x3E;</param-value>
+  </extension-param>
 </server-settings>

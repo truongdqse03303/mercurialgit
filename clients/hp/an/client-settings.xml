@@ -23,4 +23,10 @@
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
+
+  <!-- 備案ライセンスを表示しないURL -->
+  <extension-param>
+    <param-name>icp.ignore.url</param-name>
+    <param-value>http://www\.rakuten\.ne\.jp/(?:gold/nomadic/fc_iframes/.*|.*/funcushion/.+)</param-value>
+  </extension-param>
 </client-settings>

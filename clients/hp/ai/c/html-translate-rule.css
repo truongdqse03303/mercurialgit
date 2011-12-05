@@ -2,3 +2,7 @@
   eid: CR-JC;
   dictionaries: "WJR-ISETAN_DIC WJR-ISETAN_TM";
 }
+
+body {
+  attribute: lang add 'zh';
+}
