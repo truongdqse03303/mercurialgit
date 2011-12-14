@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "BOUSAI-HIROSHIMA_DIC BOUSAI-HIROSHIMA_TM CROSS_TM";
 }

@@ -1,5 +1,6 @@
 @engine default {
   eid: CR-JC;
+  dictionaries: "JRHAKATACITY_DIC JRHAKATACITY_TM CROSS_DIC CROSS_TM FASHION";
 }
 
 body {

@@ -4,7 +4,7 @@
   <name>広島県防災ページ</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>bousai-hiroshima/service 225795a30d559aba0288705543893817170a307a</licence>
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>

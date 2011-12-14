@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "JRHAKATACITY_DIC JRHAKATACITY_TM CROSS_TM";
 }

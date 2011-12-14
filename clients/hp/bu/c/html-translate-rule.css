@@ -1,5 +1,6 @@
 @engine default {
   eid: CR-JC;
+  dictionaries: "SHIKAOI_DIC SHIKAOI_TM CROSS_DIC CROSS_TM";
 }
 
 body {

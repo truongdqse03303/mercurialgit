@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "KYOTANGO_DIC KYOTANGO_TM CROSS_TM";
 }
