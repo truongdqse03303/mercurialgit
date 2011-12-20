@@ -1,0 +1,9 @@
+// @RULESET
+// URL #= http://rinkusennan-aeonmall.com/.*
+#cal1container {
+  attribute: cltx add 'exclude';
+}
+
+form > input[type="hidden"][name="ie"] {
+  attribute: value set 'utf-8';
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>イオンモールりんくう泉南</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="rinkusennan-aeonmall.com" />
+  </request-list>
+  
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://rinkusennan-aeonmall\.com/js/weather/getWeather\.php\?Wtype=.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>XML</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>
