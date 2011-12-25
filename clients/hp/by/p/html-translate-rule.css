@@ -1,3 +1,4 @@
 @engine default {
   eid: BR-JA.PT.EN;
+  dictionaries: "IZUMO_DIC IZUMO_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }

@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JE;
+  dictionaries: "AEONMALL_DIC AEONMALL_TM CROSS_DIC CROSS_TM FASHION GOURMET INTERNET";
 }
