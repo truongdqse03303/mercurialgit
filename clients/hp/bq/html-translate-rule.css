@@ -1,0 +1,3 @@
+#he_left div.header_nav1 a[href] {
+  attribute: href rewrite "{absurl}";
+}
