@@ -2,3 +2,24 @@
   eid: CR-JE;
   dictionaries: "BOUSAI-HIROSHIMA_DIC BOUSAI-HIROSHIMA_TM CROSS_DIC CROSS_TM GOVT INTERNET";
 }
+
+link[type="text/css"][href] {
+  attribute: href rewrite "@RewriteStyleSheetLocation";
+}
+
+@urlmap RewriteStyleSheetLocation {
+  "http://www.bousai.pref.hiroshima.jp/hdis/css/common.css" : "/hdis/css_en/common.css";
+  "http://www.bousai.pref.hiroshima.jp/hdis/css/large.css" : "/hdis/css_en/large.css";
+  "http://www.bousai.pref.hiroshima.jp/hdis/css/map.css" : "/hdis/css_en/map.css";
+  "http://www.bousai.pref.hiroshima.jp/hdis/css/midium.css" : "/hdis/css_en/midium.css";
+  "http://www.bousai.pref.hiroshima.jp/hdis/css/page.css" : "/hdis/css_en/page.css";
+  "http://www.bousai.pref.hiroshima.jp/hdis/css/print.css" : "/hdis/css_en/print.css";
+  "http://www.bousai.pref.hiroshima.jp/hdis/css/small.css" : "/hdis/css_en/small.css";
+  "http://www.bousai.pref.hiroshima.jp/hdis/css/top.css" : "/hdis/css_en/top.css";
+}
+
+// @RULESET
+// URL #= http://www\.bousai\.pref\.hiroshima\.jp/hdis/(?:index\.html)?
+script[type="text/javascript"][src="/www/banner/0000000000000/toppage.js"] {
+  attribute: src rewrite "/www/banner/0000000000000/toppage_en.js";
+}

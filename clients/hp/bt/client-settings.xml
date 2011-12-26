@@ -9,6 +9,5 @@
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
     <request hostname="www.bousai.pref.hiroshima.jp" />
-    <request hostname="www1.bousai.pref.hiroshima.jp" />
   </request-list>
 </client-settings>
