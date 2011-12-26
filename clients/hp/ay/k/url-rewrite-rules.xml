@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.ishikawa-ryokanhotel.or.jp/img/common/menu_01.jpg</pattern>
+        <replacement>http://www.ishikawa-ryokanhotel.or.jp/img/koria/common/menu_01.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ishikawa-ryokanhotel.or.jp/img/common/menu_02.jpg</pattern>
+        <replacement>http://www.ishikawa-ryokanhotel.or.jp/img/koria/common/menu_02.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ishikawa-ryokanhotel.or.jp/img/common/menu_03.jpg</pattern>
+        <replacement>http://www.ishikawa-ryokanhotel.or.jp/img/koria/common/menu_03.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ishikawa-ryokanhotel.or.jp/img/common/menu_04.jpg</pattern>
+        <replacement>http://www.ishikawa-ryokanhotel.or.jp/img/koria/common/menu_04.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ishikawa-ryokanhotel.or.jp/img/common/menu_05.jpg</pattern>
+        <replacement>http://www.ishikawa-ryokanhotel.or.jp/img/koria/common/menu_05.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ishikawa-ryokanhotel.or.jp/img/common/menu_06.jpg</pattern>
+        <replacement>http://www.ishikawa-ryokanhotel.or.jp/img/koria/common/menu_06.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ishikawa-ryokanhotel.or.jp/img/common/menu_07.jpg</pattern>
+        <replacement>http://www.ishikawa-ryokanhotel.or.jp/img/koria/common/menu_07.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ishikawa-ryokanhotel.or.jp/img/common/side_form.gif</pattern>
+        <replacement>http://www.ishikawa-ryokanhotel.or.jp/img/koria/common/side_form.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ishikawa-ryokanhotel.or.jp/img/common/side_form_b.gif</pattern>
+        <replacement>http://www.ishikawa-ryokanhotel.or.jp/img/koria/common/side_form_b.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ishikawa-ryokanhotel.or.jp/img/common/side_bana.gif</pattern>
+        <replacement>http://www.ishikawa-ryokanhotel.or.jp/img/koria/common/side_bana.gif</replacement>
+    </replace-rule>
+</replace-rule-list>

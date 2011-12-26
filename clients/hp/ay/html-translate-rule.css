@@ -1,3 +1,9 @@
+// Language select
+#idHead_R {
+  attribute: class add 'cl-notranslate cl-norewrite';
+  attribute: cltx add 'exclude';
+}
+
 // Google Map API
 @rewrite RewriteGMapKey {
   if (url matches "^(http://maps\\.google\\.com/maps\\?file=api&v=2&(?:.*?&)?key)=[^&]+(&.*)?") return "{$1}=ABQIAAAA5Zml1Sp9TNull8J1iSCjjhTYn11pSnunRNPp9_h8J1MX1_K5PhQyqeHEXuTN9da2Z3cLBlRp3fOd0g{$2}";

@@ -2,3 +2,7 @@
   eid: CR-JC;
   dictionaries: "IZUMO_DIC IZUMO_TM CROSS_DIC CROSS_TM";
 }
+
+body {
+  attribute: lang add 'zh';
+}
