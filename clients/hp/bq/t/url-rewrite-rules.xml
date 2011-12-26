@@ -73,12 +73,20 @@
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab0_on.gif</replacement>
     </replace-rule>
     <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab0_hover.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab0_hover.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab1_off.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab1_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab1_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab1_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab1_hover.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab1_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab2_off.gif</pattern>
@@ -89,12 +97,20 @@
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab2_on.gif</replacement>
     </replace-rule>
     <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab2_hover.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab2_hover.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab3_off.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab3_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab3_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab3_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab3_hover.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab3_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab4_off.gif</pattern>
@@ -105,12 +121,20 @@
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab4_on.gif</replacement>
     </replace-rule>
     <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab4_hover.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab4_hover.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab5_off.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab5_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab5_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab5_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab5_hover.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab5_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab6_off.gif</pattern>
@@ -121,12 +145,20 @@
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab6_on.gif</replacement>
     </replace-rule>
     <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab6_hover.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab6_hover.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab7_off.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab7_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab7_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab7_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab7_hover.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab7_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab8_off.gif</pattern>
@@ -137,12 +169,20 @@
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab8_on.gif</replacement>
     </replace-rule>
     <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab8_hover.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab8_hover.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab9_off.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab9_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab9_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab9_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/tab/top_search_tab9_hover.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/tab/top_search_tab9_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/footer_navi1.gif</pattern>
@@ -367,5 +407,41 @@
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/button_kensaku.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ch/button_kensaku.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/life/h1_title1.jpg</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/life/h1_title1.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/life/h1_title2.jpg</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/life/h1_title2.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/life/h1_title12.jpg</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/life/h1_title12.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/life/h1_title13.jpg</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/life/h1_title13.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/life/h1_title14.jpg</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/life/h1_title14.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/life/h1_title15.jpg</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/life/h1_title15.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/life/h1_title16.jpg</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/life/h1_title16.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/life/h1_title17.jpg</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/life/h1_title17.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/life/h1_title18.jpg</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ch/life/h1_title18.jpg</replacement>
     </replace-rule>
 </replace-rule-list>

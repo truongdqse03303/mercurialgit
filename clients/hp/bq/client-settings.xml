@@ -9,8 +9,10 @@
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
     <request hostname="www.pref.hiroshima.lg.jp" />
+    <request hostname="www.police.pref.hiroshima.lg.jp" />
+    <request hostname="www.bousai.pref.hiroshima.jp" />
   </request-list>
-  
+
   <!-- サイトで使用される文字セット -->
-  <charset>Shift_JIS</charset>
+  <charset>utf-8</charset>
 </client-settings>
