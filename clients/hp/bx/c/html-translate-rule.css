@@ -2,3 +2,15 @@
   eid: CR-JC;
   dictionaries: "AEONMALL_DIC AEONMALL_TM CROSS_DIC CROSS_TM";
 }
+
+body {
+  attribute: lang add 'zh';
+}
+
+a[href$="/shopguide/floorguide/index.html"] {
+  attribute: href rewrite "@RewriteFloorGuide";
+}
+
+@rewrite RewriteFloorGuide {
+  if (absurl matches "(http://rinkusennan-aeonmall\\.com/shopguide)/floorguide/(.+)") return "{$1}/floorguide_cn/{$2}";
+}
