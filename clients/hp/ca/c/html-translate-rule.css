@@ -1,0 +1,7 @@
+@engine default {
+  eid: CR-JC;
+}
+
+body {
+  attribute: lang add 'zh';
+}

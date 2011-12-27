@@ -1,0 +1,9 @@
+// @RULESET
+// URL #= http://narita-aeonmall.com/.*
+#calContainer {
+  attribute: cltx add 'exclude';
+}
+
+form > input[type="hidden"][name="ie"] {
+  attribute: value set 'utf-8';
+}

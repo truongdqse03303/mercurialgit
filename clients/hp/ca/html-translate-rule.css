@@ -1,0 +1,9 @@
+// Google map
+iframe[id="gmap"][src],iframe[name="gmap"][src] {
+  attribute: src rewrite "{absurl}";
+}
+
+// split square brackets
+div[class*="line2"] > ul > li, dl[class*="line2"] > dd {
+  content: translate split exclude '\\[|\\]';
+}

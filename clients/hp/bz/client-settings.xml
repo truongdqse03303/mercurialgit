@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社スズテック</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.suzutec.co.jp" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <ignore-url-list>
+    <url>http://www\.suzutec\.co\.jp/contact/.*</url>
+    <url>http://www\.suzutec\.co\.jp/recruit/.*</url>
+  </ignore-url-list>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>utf-8</charset>
+</client-settings>

@@ -1,0 +1,14 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "AEONMALL_TM AEONMALL_DIC INTERNET FASHION GOURMET";
+}
+
+// @RULESET
+// URL ^= http://narita-aeonmall.com/shopguide/floorguide.jsp
+a[href^="/shopguide/floorguide/"] {
+  attribute: href rewrite "@RewriteFloorGuide";
+}
+
+@rewrite RewriteFloorGuide {
+  if (absurl matches "(http://narita-aeonmall\\.com/shopguide)/floorguide/(.+)") return "{$1}/floorguide-en/{$2}";
+}
