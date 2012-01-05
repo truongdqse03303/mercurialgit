@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "SUZUTEC_DIC SUZUTEC_TM CROSS_TM SYSTEM MECHA";
 }

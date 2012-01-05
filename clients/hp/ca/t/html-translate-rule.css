@@ -1,5 +1,6 @@
 @engine default {
   eid: CR-JCT;
+  dictionaries: "SUWA_DIC SUWA_TM CROSS_DIC CROSS_TM";
 }
 
 div[class*="new_info_list"] > ul > li {

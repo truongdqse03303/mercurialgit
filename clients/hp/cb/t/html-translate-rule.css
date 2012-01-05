@@ -1,4 +1,4 @@
 @engine default {
   eid: CR-JCT;
-  dictionaries: "AEONMALL_TM AEONMALL_DIC";
+  dictionaries: "AEONMALL_TM AEONMALL_DIC CROSS_DIC CROSS_TM";
 }
