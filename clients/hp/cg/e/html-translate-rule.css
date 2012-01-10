@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JE;
+  dictionaries: "TAIKI_DIC TAIKI_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET SYSTEM AERO";
 }

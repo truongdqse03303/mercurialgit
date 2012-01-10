@@ -4,7 +4,7 @@
   <name>沖縄県産業振興公社</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>okinawa-ric/service efd7915a1639cb080add4721b02fdf7640171072</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>

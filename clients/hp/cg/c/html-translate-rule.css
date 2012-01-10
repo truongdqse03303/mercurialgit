@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JC;
+  dictionaries: "TAIKI_DIC TAIKI_TM CROSS_DIC CROSS_TM SYSTEM AERO";
 }

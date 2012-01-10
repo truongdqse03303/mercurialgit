@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JC;
+  dictionaries: "OKINAWA-RIC_DIC OKINAWA-RIC_TM CROSS_DIC CROSS_TM";
 }
