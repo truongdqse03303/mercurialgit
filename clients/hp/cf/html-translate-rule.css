@@ -1,0 +1,16 @@
+// @RULESET
+// URL = http://okinawa-ric.jp/publication/
+#publication ul li span {
+  text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://okinawa-ric.jp/faq/
+// URL ^= http://okinawa-ric.jp/link/
+// URL ^= http://okinawa-ric.jp/online/
+// URL ^= http://okinawa-ric.jp/service/
+// URL ^= http://okinawa-ric.jp/search/cat
+// URL ^= http://okinawa-ric.jp/specialist/cat
+ul[class*="LiSec"] li * {
+  text-flow: break;
+}
