@@ -1,6 +1,6 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "ISETAN_DIC ISETAN_TM DEPART SPECIAL";
+  dictionaries: "ISETAN_DIC ISETAN_TM DEPART";
 }
 
 // @RULESET
