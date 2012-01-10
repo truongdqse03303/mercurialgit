@@ -328,4 +328,8 @@
         <pattern>http://www.bousai.pref.hiroshima.jp/imgW/title/weather/jpn06.png</pattern>
         <replacement>http://www.bousai.pref.hiroshima.jp/imgW/title/weather/zho06.png</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bousai.pref.hiroshima.jp/www/contents/1318842737943/files/toppage_jp.gif</pattern>
+        <replacement>http://www.bousai.pref.hiroshima.jp/www/contents/1318842737943/files/toppage_cn.gif</replacement>
+    </replace-rule>
 </replace-rule-list>
