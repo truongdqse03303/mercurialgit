@@ -4,7 +4,7 @@
   <name>大樹町役場</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>taiki/service bb490d617d20c6e309805b946dc0f8e1bb325a9a</licence>
+  <licence>taiki/service 56794def701cc3430363ce81bb5dc3a02a4ee83d</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
