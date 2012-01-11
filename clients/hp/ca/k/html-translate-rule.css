@@ -1,4 +1,4 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "SUWA_DIC SUWA_TM CROSS_DIC CROSS_TM";
+  dictionaries: "SUWA_DIC SUWA_TM CROSS_TM";
 }
