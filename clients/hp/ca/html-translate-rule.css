@@ -4,6 +4,6 @@ iframe[id="gmap"][src],iframe[name="gmap"][src] {
 }
 
 // split square brackets
-div[class*="line2"] > ul > li, dl[class*="line2"] > dd {
+li, li *, dd, dd *, dt, dt *, td, td * {
   content: translate split exclude '\\[|\\]';
 }
