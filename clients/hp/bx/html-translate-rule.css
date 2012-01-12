@@ -1,3 +1,8 @@
+//　IE9でグローバルメニューのcltxコメントが解釈されてないための対応
+ul[id="menu"] {
+  attribute: cltx add 'exclude';
+}
+
 // @RULESET
 // URL #= http://rinkusennan-aeonmall.com/.*
 #cal1container {
