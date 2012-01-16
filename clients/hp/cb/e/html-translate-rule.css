@@ -3,12 +3,10 @@
   dictionaries: "AEONMALL_TM AEONMALL_DIC CROSS_DIC CROSS_TM INTERNET FASHION GOURMET";
 }
 
-// @RULESET
-// URL ^= http://narita-aeonmall.com/shopguide/floorguide.jsp
-a[href^="/shopguide/floorguide/"] {
+a[href$="/shopguide/floorguide/index.html"] {
   attribute: href rewrite "@RewriteFloorGuide";
 }
 
 @rewrite RewriteFloorGuide {
-  if (absurl matches "(http://narita-aeonmall\\.com/shopguide)/floorguide/(.+)") return "{$1}/floorguide-en/{$2}";
+  if (absurl matches "(http://narita-aeonmall\\.com/shopguide)/floorguide/(.+)") return "{$1}/floorguide_en/{$2}";
 }

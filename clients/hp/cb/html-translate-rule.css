@@ -5,7 +5,7 @@ ul[id="menu"] {
 
 // @RULESET
 // URL #= http://narita-aeonmall.com/.*
-#calContainer {
+#cal1Container {
   attribute: cltx add 'exclude';
 }
 

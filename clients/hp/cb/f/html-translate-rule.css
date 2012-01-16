@@ -2,3 +2,11 @@
   eid: BR-JA.FR.EN;
   dictionaries: "AEONMALL_TM AEONMALL_DIC CROSS_DIC CROSS_TM INTERNET FASHION GOURMET";
 }
+
+a[href$="/shopguide/floorguide/index.html"] {
+  attribute: href rewrite "@RewriteFloorGuide";
+}
+
+@rewrite RewriteFloorGuide {
+  if (absurl matches "(http://narita-aeonmall\\.com/shopguide)/floorguide/(.+)") return "{$1}/floorguide_fr/{$2}";
+}
