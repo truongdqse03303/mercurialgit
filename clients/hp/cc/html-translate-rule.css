@@ -1,0 +1,10 @@
+ul.categoryList3 > li > a[href] {
+  text-flow: break;
+  content: translate split exclude '\\(|\\)';
+}
+
+// @RULESET
+// URL ^= http://www2.town.fuchu.hiroshima.jp/www/genre/0000000000000/1000000000050/
+#calender table tr td {
+  content: translate split exclude '\\(|\\)';
+}
