@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JK;
+  dictionaries: "AWAJI_DIC AWAJI_TM CROSS_TM";
 }
