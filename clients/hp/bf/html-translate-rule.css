@@ -1,3 +1,8 @@
+// pagenate style
+div.changePageLink > span.nowPage, div.changePageLink > span.linkPage {
+  text-flow: break;
+}
+
 // @RULESET
 // URL ^= http://www.city.koshi.lg.jp/map/pub/default.asp
 script[type="text/javascript"][src$="chr=Shift-JIS"] {
