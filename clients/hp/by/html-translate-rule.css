@@ -1,6 +1,5 @@
-//---- èoâ_ésè¡ñhñ{ïî
 // @RULESET
-// URL #= http://www.izumo119.or.jp(?:$|/$|/index.htm)?
+// URL #= http://www\.izumo119\.or\.jp(?:$|/$|/index.htm)?
 td {
   content: translate split before '[(Åi][0-9]+/[0-9]+/[0-9]+';
 }
