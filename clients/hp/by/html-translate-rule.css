@@ -1,0 +1,19 @@
+//---- èoâ_ésè¡ñhñ{ïî
+// @RULESET
+// URL #= http://www.izumo119.or.jp(?:$|/$|/index.htm)?
+td {
+  content: translate split before '[(Åi][0-9]+/[0-9]+/[0-9]+';
+}
+
+// @RULESET
+// URL = http://www.izumo119.or.jp/nenpou_kouhou/himawari.htm
+a[href] {
+  text-flow: break;
+  content: translate split exclude 'Åi|Åj';
+}
+
+// ÅóRULESET
+// URL ^= http://izumolib.icv.ne.jp/
+td[class^="letter"], h2 {
+  attribute: style add 'letter-spacing: normal !important;';
+}

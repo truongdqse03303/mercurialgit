@@ -9,8 +9,25 @@
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
     <request hostname="www.city.izumo.shimane.jp" />
+    <request hostname="www.izumo-water.jp" />
+    <request hostname="www.water-hikashin.com" />
+    <request hostname="www.izumo119.or.jp" />
+    <request hostname="www.kojindani.jp" />
+    <request hostname="izumolib.icv.ne.jp" />
+    <request hostname="www.teijyu-izumo.jp" />
   </request-list>
   
-  <!-- サイトで使用される文字セット -->
-  <charset>utf-8</charset>
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www.water-hikashin.com/iconnews.php\?.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
 </client-settings>
