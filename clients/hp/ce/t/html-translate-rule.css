@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "FUNABASHI_TM FUNABASHI_DIC CROSS_DIC CROSS_TM";
+}

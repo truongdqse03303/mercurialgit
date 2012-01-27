@@ -1,0 +1,49 @@
+// @RULESET
+// URL #= http://www.tv-tokyo.co.jp(?:$|/$|/index.html)
+#newtxheaderArea {
+  attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL ^= http://iiyado.tv-tokyo.co.jp/spot/index.htm
+table.mb10 form select option[value] {
+  attribute: value rewrite "@RewriteRegisteredDomain";
+}
+
+// @RULESET
+// URL = http://www.tv-tokyo.co.jp/index/genre/drama_archive.html
+ul[class~="tlb_freelist-text-row"] a {
+  text-flow: break;
+  content: translate split exclude "【|】";
+}
+
+// @RULESET
+// URL = http://www.tv-tokyo.co.jp/travel/
+map[name#="map_.+"] area {
+  attribute: alt ignore;
+}
+
+// @RULESET
+// URL ^= http://www.tv-tokyo.co.jp/cgi-bin/travel/search
+span.area {
+  text-flow: break;
+}
+span.genre {
+  text-flow: break;
+}
+#resultNum span, p.resultNum span {
+  text-flow: break;
+  content: translate split exclude "\\[|\\]";
+}
+
+// @RULESET
+// URL ^= http://ablog.tv-tokyo.co.jp/
+img[src="../image/sankaku.gif"] {
+  attribute: src rewrite "/image/sankaku.gif";
+}
+
+// @RULESET
+// URL #= http://(www\.)?txhd.co.jp/.*
+body {
+  attribute: style add 'background-position:left 103px !important;';
+}

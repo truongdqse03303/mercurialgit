@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= http://www\.city\.funabashi\.chiba\.jp(?:$|/$|/index.html)?
+div[id#="(?:information|attention-content|info-tab-content1|pickup-list)"] li, div[class~="menu"] li {
+  attribute: style add 'width:90%; vertical-align:bottom';
+}

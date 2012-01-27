@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-kurashi.png</pattern>
+        <replacement>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-kurashi_kr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-kodomo.png</pattern>
+        <replacement>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-kodomo_kr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-kenkou.png</pattern>
+        <replacement>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-kenkou_kr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-machi.png</pattern>
+        <replacement>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-machi_kr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-jigyo.png</pattern>
+        <replacement>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-jigyo_kr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-shisei.png</pattern>
+        <replacement>http://www.city.funabashi.chiba.jp/share/imgs/navi-global-shisei_kr.jpg</replacement>
+    </replace-rule>
+</replace-rule-list>
