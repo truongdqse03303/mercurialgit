@@ -1,0 +1,17 @@
+// @RULESET
+// URL #= http://www\.city\.musashino\.lg\.jp/norimono_chuurin_chuusha/mu_bus/.+(?:/|/index.html)$
+ul.listlink li {
+  content: translate split exclude "\\s*　\\s*";
+}
+
+// @RULESET
+// URL #= http://www\.city\.musashino\.lg\.jp/norimono_chuurin_chuusha/mu_bus/.+/[0-9]+\.html
+table[class#="timetable[12]"] td, div#content > h1, ul.objectlink > li {
+  content: translate split exclude "\\s*　\\s*";
+}
+
+// @RULESET
+// URL ^= http://www.city.musashino.lg.jp/shisetsu_annai/mubus_map/
+ul.objectlink > li, ul.lmenu > li, div#content > h1 {
+  content: translate split exclude "\\s*　\\s*";
+}
