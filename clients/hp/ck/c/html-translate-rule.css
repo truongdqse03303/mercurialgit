@@ -1,5 +1,6 @@
 @engine default {
   eid: CR-JC;
+  dictionaries: "TV-TOKYO_DIC TV-TOKYO_TM CROSS_DIC CROSS_TM";
 }
 
 body {

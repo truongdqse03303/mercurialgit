@@ -1,3 +1,4 @@
 @engine default {
   eid: CR-JCT;
+  dictionaries: "NEW-WING_DIC NEW-WING_TM CROSS_DIC CROSS_TM";
 }

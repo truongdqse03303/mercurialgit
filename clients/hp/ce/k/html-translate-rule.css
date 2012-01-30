@@ -1,4 +1,4 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "FUNABASHI_TM FUNABASHI_DIC CROSS_TM";
+  dictionaries: "FUNABASHI_DIC FUNABASHI_TM CROSS_TM";
 }
