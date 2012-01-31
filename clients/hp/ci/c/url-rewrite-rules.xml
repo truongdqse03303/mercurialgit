@@ -517,7 +517,7 @@
         <replacement>http://www.nanseirakuen.com/content/100402690.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/ 100400594.gif</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100400594.gif</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402693.gif</replacement>
     </replace-rule>
     <replace-rule>
