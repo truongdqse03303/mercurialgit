@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.tv-tokyo.co.jp/index/images/newheader/btnew_mainmenu.png</pattern>
+        <replacement>http://www.tv-tokyo.co.jp/index/images/newheader/btnew_mainmenu_e.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tv-tokyo.co.jp/index/images/newheader/btnew_mainmenu_o.png</pattern>
+        <replacement>http://www.tv-tokyo.co.jp/index/images/newheader/btnew_mainmenu_e_o.png</replacement>
+    </replace-rule>
+</replace-rule-list>
