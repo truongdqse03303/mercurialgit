@@ -105,19 +105,19 @@
         <replacement>http://www.nanseirakuen.com/content/100402619.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401825.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100400670.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402578.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401826.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100400671.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402579.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401827.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100400672.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402580.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401828.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100400673.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402581.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -385,19 +385,19 @@
         <replacement>http://www.nanseirakuen.com/content/100402665.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401832.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100402186.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402582.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401833.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100402188.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402583.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401834.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100402584.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402584.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401835.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100402192.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402585.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -465,19 +465,19 @@
         <replacement>http://www.nanseirakuen.com/content/100402681.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401836.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100402202.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402586.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401837.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100402204.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402587.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401838.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100402206.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402588.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100401839.jpg</pattern>
+        <pattern>http://www.nanseirakuen.com/content/100402208.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402589.jpg</replacement>
     </replace-rule>
     <replace-rule>
@@ -623,5 +623,45 @@
     <replace-rule>
         <pattern>http://www.nanseirakuen.com/content/100400516.jpg</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402713.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400659.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100456561.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400658.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100456562.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400553.png</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100402660.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400596.png</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100402660.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400598.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100402732.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400597.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100402731.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400600.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100402733.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400599.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100402734.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400601.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100402736.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400602.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100402735.gif</replacement>
     </replace-rule>
 </replace-rule-list>
