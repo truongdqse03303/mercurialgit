@@ -1,0 +1,8 @@
+// @RULESET
+// URL = http://www.nanseirakuen.com/bbm/guestrooms.html
+// URL = http://www.nanseirakuen.com/allamanda/stay_index.html
+// URL = http://www.nanseirakuen.com/rvb/guestrooms.html
+// URL = http://www.nanseirakuen.com/activity/index.html
+body {
+  attribute: id add 'transer';
+}
