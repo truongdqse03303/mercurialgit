@@ -162,34 +162,34 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.kyotango.lg.jp/shared/images/top/tab_news_on.jpg</pattern>
-        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_news_on.jpg</replacement>
+        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_news_on-KO.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.kyotango.lg.jp/shared/images/top/tab_news_off.jpg</pattern>
-        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_news_off.jpg</replacement>
+        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_news_off-KO.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.kyotango.lg.jp/shared/images/top/tab_attention_on.jpg</pattern>
-        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_attention_on.jpg</replacement>
+        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_attention_on-KO.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.kyotango.lg.jp/shared/images/top/tab_attention_off.jpg</pattern>
-        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_attention_off.jpg</replacement>
+        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_attention_off-KO.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.kyotango.lg.jp/shared/images/top/tab_event_on.jpg</pattern>
-        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_event_on.jpg</replacement>
+        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_event_on-KO.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.kyotango.lg.jp/shared/images/top/tab_event_off.jpg</pattern>
-        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_event_off.jpg</replacement>
+        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_event_off-KO.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.kyotango.lg.jp/shared/images/top/tab_recruit_on.jpg</pattern>
-        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_recruit_on.jpg</replacement>
+        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_recruit_on-KO.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.kyotango.lg.jp/shared/images/top/tab_recruit_off.jpg</pattern>
-        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_recruit_off.jpg</replacement>
+        <replacement>http://www.city.kyotango.lg.jp/shared/images/top/ko/tab_recruit_off-KO.jpg</replacement>
     </replace-rule>
 </replace-rule-list>
