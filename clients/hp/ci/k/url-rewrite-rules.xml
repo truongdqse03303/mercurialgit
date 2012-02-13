@@ -657,11 +657,43 @@
         <replacement>http://www.nanseirakuen.com/content/100402734.gif</replacement>
     </replace-rule>
     <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400602.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100402735.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.nanseirakuen.com/content/100400601.gif</pattern>
         <replacement>http://www.nanseirakuen.com/content/100402736.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.nanseirakuen.com/content/100400602.gif</pattern>
-        <replacement>http://www.nanseirakuen.com/content/100402735.gif</replacement>
+        <pattern>http://www.nanseirakuen.com/content/100401414.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100457319.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100401413.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100457320.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400830.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100457319.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400829.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100457320.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100401319.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100457319.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100401318.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100457320.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400914.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100457319.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.nanseirakuen.com/content/100400913.gif</pattern>
+        <replacement>http://www.nanseirakuen.com/content/100457320.gif</replacement>
     </replace-rule>
 </replace-rule-list>
