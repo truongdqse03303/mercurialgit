@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "STATRAVEL_DIC STATRAVEL_TM CROSS_DIC CROSS_TM";
+}

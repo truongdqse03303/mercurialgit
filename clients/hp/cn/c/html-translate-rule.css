@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "MUSASHI-ENGINEERING_DIC MUSASHI-ENGINEERING_TM CROSS_DIC CROSS_TM SYSTEM MECHA CHEMICAL";
+}
+
+body {
+  attribute: lang add 'zh';
+}

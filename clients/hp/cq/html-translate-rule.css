@@ -1,0 +1,12 @@
+// @RULESET
+// URL #= http://www\.inacity\.jp/(index\.rbz)?
+p.new_txt * {
+  text-flow: break;
+}
+
+// @RULESET
+// URL #= http://www\.inacity\.jp/list\.rbz\?.+
+span.s_menu_day, span.sub_title_day {
+  text-flow: break;
+  content: translate split exclude "\\（|\\）";
+}

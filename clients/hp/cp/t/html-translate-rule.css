@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "SHIMIZU-KANKOU_DIC SHIMIZU-KANKOU_TM CROSS_DIC CROSS_TM";
+}
