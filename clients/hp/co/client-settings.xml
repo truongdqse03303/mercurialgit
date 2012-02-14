@@ -9,8 +9,6 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.statravel.co.jp" />
-    <!--request hostname="ww2.statravel.co.jp" /-->
-    <!--request hostname="pkg.statravel.co.jp" /-->
   </request-list>
   
   <!-- HTML断片翻訳を行わないURLの一覧 -->
