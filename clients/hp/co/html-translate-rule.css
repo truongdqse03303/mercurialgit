@@ -1,1 +1,7 @@
 @data html { retranslate: false; }
+
+// @RULESET
+// URL = http://www.statravel.co.jp/travel-goods.htm
+a['\"'] {
+  attribute: * delete;
+}
