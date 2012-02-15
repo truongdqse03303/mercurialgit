@@ -4,7 +4,7 @@
   <name>土佐清水市観光協会</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>shimizu-kankou/service 90fb9eff0916c9e714688dee1590dfdf33dc4801</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
