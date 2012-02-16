@@ -1,3 +1,13 @@
 body {
   attribute: id add 'transer';
 }
+
+@rewrite RewriteStayIndex {
+  if (absurl equals "http://www.nanseirakuen.com/allamanda/stay_index.html") return "/allamanda/e.stay_index.html";
+  if (absurl equals "http://www.nanseirakuen.com/bbm/stay_index.html") return "/bbm/e.stay_index.html";
+  if (absurl equals "http://www.nanseirakuen.com/rvb/stay_index.html") return "/rvb/e.stay_index.html";
+}
+
+a[href] {
+  attribute: href rewrite @rewriteStayIndex;
+}
