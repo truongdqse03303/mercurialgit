@@ -1,0 +1,10 @@
+// @RULESET
+// URL = http://www.visitjapan-tohoku.org/
+// URL = http://www.visitjapan-tohoku.org/index.html
+div#crslConsole {
+  attribute: cltx add 'exclude';
+}
+
+div#topMain section.listZone section.zoneBox a h1 * {
+  text-flow: break;
+}

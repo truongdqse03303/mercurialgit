@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "MINAMIAWAJI_DIC MINAMIAWAJI_TM CROSS_DIC CROSS_TM GOVT INTERNET";
+}
