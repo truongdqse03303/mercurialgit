@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.visitjapan-tohoku.org/common/images/bnr/ganba_180_60.jpg</pattern>
+        <replacement>http://www.visitjapan-tohoku.org/common/images/bnr/ko/ganba_180_60.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.visitjapan-tohoku.org/common/images/sprite.gif</pattern>
+        <replacement>http://www.visitjapan-tohoku.org/common/images/ko/sprite.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.visitjapan-tohoku.org/images/top_sprite.png</pattern>
+        <replacement>http://www.visitjapan-tohoku.org/images/ko/top_sprite.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.visitjapan-tohoku.org/images/top_zoneList_title.gif</pattern>
+        <replacement>http://www.visitjapan-tohoku.org/images/ko/top_zoneList_title.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.visitjapan-tohoku.org/common/images/tohoku_map_zone.gif</pattern>
+        <replacement>http://www.visitjapan-tohoku.org/common/images/ko/tohoku_map_zone.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.visitjapan-tohoku.org/common/images/zone_navi.gif</pattern>
+        <replacement>http://www.visitjapan-tohoku.org/common/images/ko/zone_navi.gif</replacement>
+    </replace-rule>
+</replace-rule-list>
