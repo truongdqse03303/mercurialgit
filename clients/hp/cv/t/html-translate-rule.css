@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "KIUI_DIC KIUI_TM CROSS_DIC CROSS_TM";
+}

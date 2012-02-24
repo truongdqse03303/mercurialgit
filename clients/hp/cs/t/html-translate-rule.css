@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "TOMISATO_DIC TOMISATO_TM CROSS_DIC CROSS_TM";
+}

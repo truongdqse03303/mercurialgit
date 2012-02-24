@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= http://(www\.)?txhd.co.jp/.*
+body {
+  attribute: style add 'background-position:left 103px !important;';
+}

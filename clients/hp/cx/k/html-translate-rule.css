@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "SAMMU_DIC SAMMU_TM CROSS_TM";
+}

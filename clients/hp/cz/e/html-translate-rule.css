@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "KANIE_DIC KANIE_TM CROSS_DIC CROSS_TM GOVT INTERNET";
+}

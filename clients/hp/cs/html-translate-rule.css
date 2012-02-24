@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.city.tomisato.lg.jp/category/
+div#page_left ul li a {
+  text-flow: break;	
+}
