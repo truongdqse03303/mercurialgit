@@ -12,5 +12,5 @@
   </request-list>
 
   <!-- 使用する設定IDの一覧 -->
-  <setting-id-list>ru</setting-id-list>
+  <setting-id replace="true">ru</setting-id>
 </client-settings>
