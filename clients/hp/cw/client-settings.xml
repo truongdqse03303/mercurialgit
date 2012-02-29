@@ -4,7 +4,7 @@
   <name>テレビ東京ホールディングス</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>txhd/service 8ed9e53ba5fe01be812089e87dc2d799bbedd305</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>

@@ -1,8 +1,4 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "SAMMU_DIC SAMMU_TM CROSS_DIC CROSS_TM";
-}
-
-a, td, p, div, span {
-  attribute: lang add 'zh';
+  dictionaries: "SAPPORO-DOME_DIC SAPPORO-DOME_TM CROSS_DIC CROSS_TM";
 }

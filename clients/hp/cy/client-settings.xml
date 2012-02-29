@@ -4,7 +4,7 @@
   <name>山武市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>sammu/service 98ff0a36ca3997f512eab23361c9e780cafaaa30</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>

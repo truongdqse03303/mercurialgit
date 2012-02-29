@@ -4,7 +4,7 @@
   <name>札幌ドーム</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>sapporo-dome/service 1d7acc2e6c19e50f91ac0669f783d84647f82c41</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
