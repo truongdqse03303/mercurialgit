@@ -24,4 +24,8 @@
         <pattern>http://www.visitjapan-tohoku.org/common/images/zone_navi.gif</pattern>
         <replacement>http://www.visitjapan-tohoku.org/common/images/en/zone_navi.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.visitjapan-tohoku.org/images/bnr_tkh_950_100.jpg</pattern>
+        <replacement>http://www.visitjapan-tohoku.org/images/en/bnr_tkh_950_100.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
