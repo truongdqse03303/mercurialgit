@@ -64,4 +64,32 @@
         <pattern>http://www.sapporo-dome.co.jp/access/img/map_sinai.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/foreign/img/en/map_l.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.sapporo-dome.co.jp/img/size_tit.gif</pattern>
+        <replacement>http://www.sapporo-dome.co.jp/img/size_tit_f.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.sapporo-dome.co.jp/img/size_s.gif</pattern>
+        <replacement>http://www.sapporo-dome.co.jp/img/size_sf.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.sapporo-dome.co.jp/img/size_s_o.gif</pattern>
+        <replacement>http://www.sapporo-dome.co.jp/img/size_sf_o.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.sapporo-dome.co.jp/img/size_m.gif</pattern>
+        <replacement>http://www.sapporo-dome.co.jp/img/size_mf.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.sapporo-dome.co.jp/img/size_m_o.gif</pattern>
+        <replacement>http://www.sapporo-dome.co.jp/img/size_mf_o.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.sapporo-dome.co.jp/img/size_b.gif</pattern>
+        <replacement>http://www.sapporo-dome.co.jp/img/size_bf.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.sapporo-dome.co.jp/img/size_b_o.gif</pattern>
+        <replacement>http://www.sapporo-dome.co.jp/img/size_bf_o.gif</replacement>
+    </replace-rule>
 </replace-rule-list>
