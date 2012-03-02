@@ -2,3 +2,16 @@
   eid: BR-JA.DE.EN;
   dictionaries: "MUSASHI-ENGINEERING_DIC MUSASHI-ENGINEERING_TM CROSS_DIC CROSS_TM SYSTEM MECHA CHEMICAL";
 }
+
+@rewrite RewriteInquiry {
+  if (absurl matches "^http://www\\.musashi-engineering\\.co\\.jp/inquiry/?$") return "http://www.musashi-engineering.co.jp/germany/inquiry/";
+  if (absurl equals "http://www.musashi-engineering.co.jp/inquiry/inquiry.php") return "http://www.musashi-engineering.co.jp/germany/inquiry/inquiry.php";
+  if (absurl equals "http://www.musashi-engineering.co.jp/inquiry/request.php") return "http://www.musashi-engineering.co.jp/germany/inquiry/request.php";
+  if (absurl matches "^http://www\\.musashi-engineering\\.co\\.jp/member/?$") return "http://www.musashi-engineering.co.jp/germany/member/";
+  if (absurl equals "http://www.musashi-engineering.co.jp/member/login.php") return "http://www.musashi-engineering.co.jp/germany/member/login.php";
+  if (absurl equals "http://www.musashi-engineering.co.jp/member/regist.php") return "http://www.musashi-engineering.co.jp/germany/member/regist.php";
+}
+
+a[href] {
+  attribute: href rewrite @RewriteInquiry;
+}
