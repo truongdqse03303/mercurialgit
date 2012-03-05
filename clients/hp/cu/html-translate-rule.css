@@ -1,0 +1,15 @@
+span.span_a, span.span_a *, span.span_b, span.span_b * {
+  text-flow: break;
+}
+
+// @RULESET
+// URL = http://www.city.hirakata.osaka.jp/
+div[class^="list_top"] ul li a {
+  text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://www.city.hirakata.osaka.jp/calendar/
+span.calendar_style4 * {
+  text-flow: break;
+}

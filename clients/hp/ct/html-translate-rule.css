@@ -1,0 +1,9 @@
+span.span_a, span.span_a *, span.span_b, span.span_b * {
+  text-flow: break;
+}
+
+// @RULESET
+// URL = http://www.city.minamiawaji.hyogo.jp/
+div.list_top_topics ul li a {
+  text-flow: break;
+}
