@@ -177,7 +177,7 @@
         <replacement>http://www.city.sammu.lg.jp/img/cn/bunrui3_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.city.sammu.lg.jp/img/find//bunrui3_off.gif</pattern>
+        <pattern>http://www.city.sammu.lg.jp/img/find/bunrui3_off.gif</pattern>
         <replacement>http://www.city.sammu.lg.jp/img/cn/bunrui3_off.gif</replacement>
     </replace-rule>
     <replace-rule>
@@ -477,24 +477,24 @@
         <replacement>http://www.city.sammu.lg.jp/img/cn/sidebar_kids_title.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.city.sammu.lg.jp/img/tab_01_off.gif</pattern>
-        <replacement>http://www.city.sammu.lg.jp/img/cn/tab_01_off.gif</replacement>
+        <pattern>http://www.city.sammu.lg.jp/img/tab_01.gif</pattern>
+        <replacement>http://www.city.sammu.lg.jp/img/cn/tab_01.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.sammu.lg.jp/img/tab_01_on.gif</pattern>
         <replacement>http://www.city.sammu.lg.jp/img/cn/tab_01_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.city.sammu.lg.jp/img/tab_02_off.gif</pattern>
-        <replacement>http://www.city.sammu.lg.jp/img/cn/tab_02_off.gif</replacement>
+        <pattern>http://www.city.sammu.lg.jp/img/tab_02.gif</pattern>
+        <replacement>http://www.city.sammu.lg.jp/img/cn/tab_02.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.sammu.lg.jp/img/tab_02_on.gif</pattern>
         <replacement>http://www.city.sammu.lg.jp/img/cn/tab_02_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.city.sammu.lg.jp/img/tab_03_off.gif</pattern>
-        <replacement>http://www.city.sammu.lg.jp/img/cn/tab_03_off.gif</replacement>
+        <pattern>http://www.city.sammu.lg.jp/img/tab_03.gif</pattern>
+        <replacement>http://www.city.sammu.lg.jp/img/cn/tab_03.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.sammu.lg.jp/img/tab_03_on.gif</pattern>
