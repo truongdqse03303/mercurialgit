@@ -10,6 +10,7 @@
   if (absurl matches "^http://www\\.musashi-engineering\\.co\\.jp/member/?$") return "http://www.musashi-engineering.co.jp/korean/member/";
   if (absurl equals "http://www.musashi-engineering.co.jp/member/login.php") return "http://www.musashi-engineering.co.jp/korean/member/login.php";
   if (absurl equals "http://www.musashi-engineering.co.jp/member/regist.php") return "http://www.musashi-engineering.co.jp/korean/member/regist.php";
+  apply "@RewriteHtmlUrlAttribute";
 }
 
 a[href] {
