@@ -1,0 +1,30 @@
+// @RULESET
+// URL = http://www.sapporo-dome.co.jp/cgi/schedule.html
+td.txt * {
+  content: translate split exclude "\\s*／\\s*";
+}
+font[color="#0f298f"] {
+  text-flow: break;
+}
+td[class="txt_s caption"], td[class="txt_s caption"] * {
+  content: translate split exclude "\\s*／\\s*";
+}
+
+// @RULESET
+// URL = http://www.sapporo-dome.co.jp/event/bb_main.html
+td[class="txt date"],td[class="txt date_g"] {
+  content: translate split exclude "\\（|\\）";
+}
+
+// @RULESET
+// URL ^= http://www.sapporo-dome.co.jp/event/
+td.txt * {
+  content: translate split exclude "\\s*／\\s*";
+}
+font[color="#006BB4"] {
+  text-flow: break;
+}
+.txt_b > b {
+  text-flow: break;
+  content: translate split exclude "\\（|\\）";
+}
