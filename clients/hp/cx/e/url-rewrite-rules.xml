@@ -92,4 +92,8 @@
         <pattern>http://www.sapporo-dome.co.jp/img/size_b_o.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/size_bf_o.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.sapporo-dome.co.jp/img/head_logo.gif</pattern>
+        <replacement>http://www.sapporo-dome.co.jp/img/head_logo_en.gif</replacement>
+    </replace-rule>
 </replace-rule-list>

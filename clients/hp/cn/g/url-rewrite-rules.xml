@@ -10,19 +10,19 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/bg_gnav_cnts1.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/bg_gnav_cnts1.gif</replacement>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/bg_gnav_cnts1.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/bg_gnav_cnts2.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/bg_gnav_cnts2.gif</replacement>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/bg_gnav_cnts2.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/bg_gnav_cnts3.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/bg_gnav_cnts3.gif</replacement>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/bg_gnav_cnts3.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/bg_gnav_cnts4.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/bg_gnav_cnts4.gif</replacement>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/bg_gnav_cnts4.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/bg_gnav_cnts5.gif</pattern>
@@ -30,7 +30,7 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/bnr_download.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/bnr_download.gif</replacement>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/bnr_download.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/bnr_request.gif</pattern>
@@ -42,11 +42,11 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/btn_sub_inquiry.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/btn_sub_inquiry.gif</replacement>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/btn_sub_inquiry.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/btn_sub_inquiry2.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/btn_sub_inquiry.gif</replacement>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/btn_sub_inquiry2.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/btn_sub_submit.gif</pattern>
@@ -74,7 +74,7 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/hd_btn_inquiry.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/hd_btn_inquiry.gif</replacement>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/hd_btn_inquiry.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/tit_sub_case.gif</pattern>
@@ -82,7 +82,7 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/tit_sub_faq.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/tit_sub_faq.gif</replacement>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/tit_sub_faq.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/tit_sub_inquiry.gif</pattern>
@@ -1550,6 +1550,30 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/common/img/bnr_download2.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/bnr_download.gif</replacement>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/bnr_download2.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.musashi-engineering.co.jp/common/img/hd_btn_inquiry2.gif</pattern>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/hd_btn_inquiry2.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.musashi-engineering.co.jp/common/img/btn_sub_inquiry2.gif</pattern>
+        <replacement>http://www.musashi-engineering.co.jp/english/common/img/btn_sub_inquiry.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.musashi-engineering.co.jp/img/iso_j.gif</pattern>
+        <replacement>http://www.musashi-engineering.co.jp/img/iso_e.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.musashi-engineering.co.jp/inquiry/img/tit_pagehead.jpg</pattern>
+        <replacement>http://www.musashi-engineering.co.jp/english/inquiry/img/tit_pagehead.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.musashi-engineering.co.jp/inquiry/img/img_main.jpg</pattern>
+        <replacement>http://www.musashi-engineering.co.jp/english/inquiry/img/img_main.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.musashi-engineering.co.jp/common/img/tit_sub_faq2.gif</pattern>
+        <replacement>http://www.musashi-engineering.co.jp/translation/common/img/tit_sub_faq2.gif</replacement>
     </replace-rule>
 </replace-rule-list>

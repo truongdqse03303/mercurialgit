@@ -11,3 +11,9 @@ body {
 a[href] {
   attribute: href rewrite @rewriteStayIndex;
 }
+
+// @RULESET
+// URL #= http://www\.nanseirakuen\.com/[^/]+/(?:hotel|resort)?photo\.html
+div#show {
+  attribute: cltx add 'exclude';
+}
