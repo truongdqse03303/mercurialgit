@@ -17,3 +17,9 @@ a[href] {
 div#show {
   attribute: cltx add 'exclude';
 }
+
+// @RULESET
+// URL ^= http://www.nanseirakuen.com/bbm/stay
+div.desc_right > p > span {
+  text-flow: break;
+}
