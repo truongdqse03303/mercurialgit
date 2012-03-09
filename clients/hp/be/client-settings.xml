@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="www.kurabo.co.jp" path="/el/" />
+    <request hostname="www.kurabo.co.jp" path="/el/|/img/" />
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
