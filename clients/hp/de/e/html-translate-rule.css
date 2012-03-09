@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "TOKYO23-SEISOU_DIC TOKYO23-SEISOU_TM CROSS_DIC CROSS_TM GOVT INTERNET";
+}

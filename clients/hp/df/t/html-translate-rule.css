@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "YPDC_DIC YPDC_TM SYSTEM OCEAN";
+}

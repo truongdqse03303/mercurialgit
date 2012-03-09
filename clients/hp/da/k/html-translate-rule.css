@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "FUKUYAMA_DIC FUKUYAMA_TM CROSS_TM";
+}

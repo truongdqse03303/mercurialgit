@@ -1,0 +1,19 @@
+div#LngBtn ul li * {
+  content: ignore !important;
+}
+
+div#LngBtn ul li a[href] {
+  attribute: href rewrite "{absurl}";
+}
+
+// @RULESET
+// URL = http://yokohamaport.co.jp/
+a[href$="/form/inquiry/"] {
+  attribute: href rewrite "https://yokohamaport.co.jp/form/en/inquiry/";
+}
+
+// @RULESET
+// URL = http://www.ypdc.or.jp/inquiry/
+a[href$="/form/inquiry/"] {
+  attribute: href rewrite "https://www.ypdc.or.jp/form/en/inquiry/";
+}

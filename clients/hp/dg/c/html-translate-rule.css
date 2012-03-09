@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "YUMERUN-NET_DIC YUMERUN-NET_TM CROSS_DIC CROSS_TM";
+}
+
+body {
+  attribute: lang add 'zh';
+}

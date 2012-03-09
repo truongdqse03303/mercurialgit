@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "YPDC_DIC YPDC_TM SYSTEM OCEAN";
+}
+
+body {
+  attribute: lang add 'zh';
+}

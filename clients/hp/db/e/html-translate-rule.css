@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "YAMAGATAKANKO_DIC YAMAGATAKANKO_TM CROSS_DIC CROSS_TM TOURISM INTERNET";
+}

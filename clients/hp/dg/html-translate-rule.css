@@ -1,0 +1,3 @@
+div.text_r *, span.span_a, span.span_a *, span.span_b, span.span_b * {
+  text-flow: break;
+}

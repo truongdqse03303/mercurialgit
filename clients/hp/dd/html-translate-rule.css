@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.kitanohoshi.com/company/
+iframe[src$="/gmap.php"] {
+  attribute: src rewrite "{absurl}";
+}

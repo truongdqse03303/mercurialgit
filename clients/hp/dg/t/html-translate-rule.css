@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "YUMERUN-NET_DIC YUMERUN-NET_TM CROSS_DIC CROSS_TM";
+}

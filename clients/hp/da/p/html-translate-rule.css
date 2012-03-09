@@ -1,0 +1,4 @@
+@engine default {
+  eid: BR-JA.PT.EN;
+  dictionaries: "FUKUYAMA_DIC FUKUYAMA_TM CROSS_DIC CROSS_TM GOVT INTERNET";
+}
