@@ -12,14 +12,12 @@ a[href] {
   attribute: href rewrite @rewriteStayIndex;
 }
 
+div.desc_right > p > span {
+  text-flow: break;
+}
+
 // @RULESET
 // URL #= http://www\.nanseirakuen\.com/[^/]+/(?:hotel|resort)?photo\.html
 div#show {
   attribute: cltx add 'exclude';
-}
-
-// @RULESET
-// URL ^= http://www.nanseirakuen.com/bbm/stay
-div.desc_right > p > span {
-  text-flow: break;
 }
