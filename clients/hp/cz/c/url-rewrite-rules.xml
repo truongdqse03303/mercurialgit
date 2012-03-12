@@ -2,382 +2,382 @@
 <replace-rule-list>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/back_header3.jpg</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/back_header3.jpg</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/back_header3.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/banner/bnr_mayor.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/banner/bnr_mayor.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/banner/bnr_mayor.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/banner/bnr_shigikai.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/banner/bnr_shigikai.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/banner/bnr_shigikai.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/banner_title.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/banner_title.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/banner_title.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/btn_joho_bunrui.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/btn_joho_bunrui.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/btn_joho_bunrui.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/btn_joho_calendar.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/btn_joho_calendar.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/btn_joho_calendar.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/btn_joho_soshiki.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/btn_joho_soshiki.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/btn_joho_soshiki.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/bunrui1.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/bunrui1.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/bunrui1.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/bunrui2.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/bunrui2.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/bunrui2.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/bunrui3.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/bunrui3.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/bunrui3.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/bunrui4.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/bunrui4.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/bunrui4.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/bunrui5.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/bunrui5.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/bunrui5.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/bunrui6.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/bunrui6.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/bunrui6.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/bunrui7.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/bunrui7.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/bunrui7.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/bunrui8.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/bunrui8.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/bunrui8.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha1.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha1.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha1.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha2.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha2.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha2.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha3.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha3.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha3.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha4.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha4.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha4.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha5.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha5.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha5.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha6.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha6.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha6.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha7.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha7.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha7.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha8.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha8.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha8.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha9.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha9.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha9.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha10.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha10.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha10.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find/riyousha11.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find/riyousha11.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find/riyousha11.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find_bunrui_h2.jpg</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find_bunrui_h2.jpg</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find_bunrui_h2.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/find_riyousha_h2.jpg</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/find_riyousha_h2.jpg</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/find_riyousha_h2.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/haikei_1_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/haikei_1_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/haikei_1_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/haikei_1_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/haikei_1_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/haikei_1_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/haikei_1_on.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/haikei_1_on.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/haikei_1_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/haikei_2_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/haikei_2_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/haikei_2_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/haikei_2_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/haikei_2_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/haikei_2_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/haikei_2_on.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/haikei_2_on.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/haikei_2_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/haikei_3_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/haikei_3_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/haikei_3_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/haikei_3_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/haikei_3_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/haikei_3_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/haikei_3_on.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/haikei_3_on.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/haikei_3_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/header_concept.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/header_concept.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/header_concept.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/header_contact.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/header_contact.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/header_contact.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/header_hajimete.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/header_hajimete.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/header_hajimete.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/header_sitemap.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/header_sitemap.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/header_sitemap.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/kurashi_h2.jpg</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/kurashi_h2.jpg</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/kurashi_h2.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/life_scenes1_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/life_scenes1_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/life_scenes1_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes1_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes1_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes1_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes2_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes2_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes2_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes2_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes2_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes2_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes3_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes3_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes3_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes3_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes3_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes3_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes4_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes4_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes4_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes4_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes4_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes4_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes5_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes5_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes5_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes5_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes5_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes5_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes6_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes6_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes6_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes6_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes6_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes6_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes7_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes7_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes7_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes7_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes7_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes7_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes8_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes8_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes8_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes8_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes8_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes8_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes9_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes9_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes9_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/lifestage/life_scenes9_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/lifestage/life_scenes9_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/lifestage/life_scenes9_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/moji_default_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/moji_default_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/moji_default_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/moji_default_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/moji_default_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/moji_default_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/moji_default_on.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/moji_default_on.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/moji_default_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/moji_large_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/moji_large_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/moji_large_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/moji_large_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/moji_large_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/moji_large_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/moji_large_on.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/moji_large_on.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/moji_large_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab0_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab0_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab0_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab0_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab0_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab0_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab0_on.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab0_on.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab0_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab1_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab1_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab1_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab1_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab1_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab1_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab1_on.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab1_on.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab1_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab2_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab2_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab2_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab2_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab2_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab2_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab2_on.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab2_on.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab2_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab3_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab3_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab3_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab3_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab3_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab3_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab3_on.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab3_on.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab3_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab4_hover.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab4_hover.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab4_hover.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab4_off.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab4_off.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab4_off.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab/top_search_tab4_on.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab/top_search_tab4_on.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab/top_search_tab4_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab_01_on.jpg</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab_01_on.jpg</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab_01_on.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab_01.jpg</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab_01.jpg</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab_01.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab_02_on.jpg</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab_02_on.jpg</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab_02_on.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/tab_02.jpg</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/tab_02.jpg</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/tab_02.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/title_iken.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/title_iken.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/title_iken.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/title_joho.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/title_joho.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/title_joho.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/title_news.jpg</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/title_news.jpg</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/title_news.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/title_oyakudachi.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/title_oyakudachi.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/title_oyakudachi.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/title_people.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/title_people.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/title_people.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/title_profile.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/title_profile.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/title_profile.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/title_ranking.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/title_ranking.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/title_ranking.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/title_saigai.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/title_saigai.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/title_saigai.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/title_weather.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/title_weather.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/title_weather.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.town.kanie.aichi.jp/img/top_logo.gif</pattern>
-        <replacement>http://www.town.kanie.aichi.jp/img/en/top_logo.gif</replacement>
+        <replacement>http://www.town.kanie.aichi.jp/img/ch/top_logo.gif</replacement>
     </replace-rule>
 </replace-rule-list>
