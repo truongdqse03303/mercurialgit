@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "VISITJAPAN-TOHOKU_DIC VISITJAPAN-TOHOKU_TM CROSS_DIC CROSS_TM";
+}
