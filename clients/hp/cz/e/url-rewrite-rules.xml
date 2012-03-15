@@ -380,4 +380,24 @@
         <pattern>http://www.town.kanie.aichi.jp/img/top_logo.gif</pattern>
         <replacement>http://www.town.kanie.aichi.jp/img/en/top_logo.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.kanie.aichi.jp/uploaded/banner/12_img1.gif</pattern>
+        <replacement>http://www.town.kanie.aichi.jp/img/en/banner/12_img1.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.kanie.aichi.jp/uploaded/banner/13_img1.gif</pattern>
+        <replacement>http://www.town.kanie.aichi.jp/img/en/banner/13_img1.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.kanie.aichi.jp/uploaded/banner/16_img1.gif</pattern>
+        <replacement>http://www.town.kanie.aichi.jp/img/en/banner/16_img1.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.kanie.aichi.jp/uploaded/banner/15_img1.gif</pattern>
+        <replacement>http://www.town.kanie.aichi.jp/img/en/banner/15_img1.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.kanie.aichi.jp/uploaded/banner/14_img1.gif</pattern>
+        <replacement>http://www.town.kanie.aichi.jp/img/en/banner/14_img1.gif</replacement>
+    </replace-rule>
 </replace-rule-list>
