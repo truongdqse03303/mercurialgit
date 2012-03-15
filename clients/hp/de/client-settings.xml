@@ -4,7 +4,7 @@
   <name>東京23区清掃一部事務組合</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>tokyo23-seisou/service 94a80ecfa487d5794d50f439873ca20c11f29fb3</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
