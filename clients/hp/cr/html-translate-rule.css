@@ -1,3 +1,13 @@
+﻿ul.pagingNumber {
+  attribute: cltx add 'exclude';
+}
+ul.pagingNumber > li {
+  content: translate split exclude "\\[|\\]";
+}
+ul.pagingNumber > li > a, ul.pagingNumber > li > b {
+  text-flow: break;
+}
+
 // @RULESET
 // URL = http://www.visitjapan-tohoku.org/
 // URL = http://www.visitjapan-tohoku.org/index.html
@@ -7,4 +17,29 @@ div#crslConsole {
 
 div#topMain section.listZone section.zoneBox a h1 * {
   text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://www.visitjapan-tohoku.org/zone/
+section.zoneBox a h1 * {
+  text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://www.visitjapan-tohoku.org/program/
+// URL ^= http://www.visitjapan-tohoku.org/spot/
+p.zoneName {
+  content: translate split exclude "\\s";
+}
+
+// @RULESET
+// URL ^= http://www.visitjapan-tohoku.org/event/
+p.zoneName {
+  content: translate split exclude "\\s";
+}
+table > caption {
+  attribute: style add 'font-size:120%';
+}
+table > caption > em {
+  tag: delete;
 }
