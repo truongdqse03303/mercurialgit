@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>東北観光博</name>
+  <name>東北観光博(デジタルパスポート)</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
   <licence>visitjapan-tohoku/service 35d2e9fc2865ecea285107da82532edd83b8b610</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
