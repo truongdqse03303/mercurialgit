@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "WAKKANAI_DIC WAKKANAI_TM CROSS_DIC CROSS_TM";
+}

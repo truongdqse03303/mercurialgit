@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "WAKKANAI_DIC WAKKANAI_TM CROSS_DIC CROSS_TM GOVT INTERNET";
+}
