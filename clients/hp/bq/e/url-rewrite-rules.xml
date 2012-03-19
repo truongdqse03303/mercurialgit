@@ -297,64 +297,64 @@
         <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab1_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab1_off.gif</pattern>
-        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab1_off.gif</replacement>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab1.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab1.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab2_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab2_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab2_off.gif</pattern>
-        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab2_off.gif</replacement>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab2.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab2.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab3_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab3_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab3_off.gif</pattern>
-        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab3_off.gif</replacement>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab3.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab3.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab4_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab4_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab4_off.gif</pattern>
-        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab4_off.gif</replacement>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox1_tab4.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox1_tab4.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab1_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab1_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab1_off.gif</pattern>
-        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab1_off.gif</replacement>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab1.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab1.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab2_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab2_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab2_off.gif</pattern>
-        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab2_off.gif</replacement>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab2.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab2.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab3_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab3_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab3_off.gif</pattern>
-        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab3_off.gif</replacement>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab3.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab3.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab4_on.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab4_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab4_off.gif</pattern>
-        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab4_off.gif</replacement>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/mainbox2_tab4.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/mainbox2_tab4.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.pref.hiroshima.lg.jp/img/banner/bnr_governor.gif</pattern>
