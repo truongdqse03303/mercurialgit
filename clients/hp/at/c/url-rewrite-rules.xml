@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab01a_on.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab1/top_taberea_tab01b_on_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab01_cur.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab1/top_taberea_tab01_cur_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab01a_off.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab1/top_taberea_tab01a_off_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab01b_off.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab1/top_taberea_tab01b_off_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab03a_on.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab3/top_taberea_tab03a_on_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab03_cur.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab3/top_taberea_tab03_cur_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab03a_off.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab3/top_taberea_tab03a_off_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab02b_on.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab2/top_taberea_tab02a_on_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab02_cur.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab2/top_taberea_tab02_cur_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab02a_off.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab2/top_taberea_tab02a_off_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_taberea_tab02b_off.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab2/top_taberea_tab02b_off_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_btn_kansai_on.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/top_btn_kansai/top_btn_kansai_on_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_btn_kansai_off.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/top_btn_kansai/top_btn_kansai_off_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_shopinfo.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/erea_shopinfo_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_shopinfo_h_01.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/erea_shopinfo_h_01_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_shopinfo_ereadetail_01.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/erea_shopinfo_ereadetail_01_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_shopinfo_ereadetail_02.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/erea_shopinfo_ereadetail_02_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_shopinfo_h_02.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/erea_shopinfo_h_02_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_shopinfo_h_03.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/erea_shopinfo_h_03_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_shopinfo_h_04.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/erea_shopinfo_h_04_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_shopinfo_h_05.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/erea_shopinfo_h_05_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_shopinfo_h_06.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 1 Contents/erea_shopinfo_h_06_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_campaigninfo.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/erea_campaigninfo_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kansai/img/erea_newarrivalinfo.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/erea_newarrivalinfo_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/erea_cttheader_rbox_txt.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/erea_cttheader_rbox_txt_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/erea_reserve_on.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/erea_reserve/erea_reserve_on_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/erea_reserve_off.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/erea_reserve/erea_reserve_off_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/banner_omotenashi_on.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/banner_omotenashi/banner_omotenashi_on_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/banner_omotenashi_off.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/banner_omotenashi/banner_omotenashi_off_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/banner_cmsong.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/banner_cmsong_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_btn_west_on.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 3 Contents/top_btn_west/top_btn_west_on_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_btn_west_off.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 3 Contents/top_btn_west/top_btn_west_off_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/west/img/erea_shopinfo.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 3 Contents/erea_shopinfo_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/west/img/erea_shopinfo_h_01.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 3 Contents/erea_shopinfo_h_01_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/west/img/erea_shopinfo_h_02.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 3 Contents/erea_shopinfo_h_02_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/west/img/erea_shopinfo_h_03.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 3 Contents/erea_shopinfo_h_03_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/west/img/erea_campaigninfo.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/erea_campaigninfo_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/west/img/erea_newarrivalinfo.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/erea_newarrivalinfo_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_btn_kanto_on.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 2 Contents/top_btn_kanto/top_btn_kanto_on_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/common/img/top_btn_kanto_off.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 2 Contents/top_btn_kanto/top_btn_kanto_off_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kanto/img/erea_shopinfo.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 2 Contents/erea_shopinfo_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kanto/img/erea_shopinfo_h_01.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 2 Contents/erea_shopinfo_h_01_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kanto/img/erea_shopinfo_ereadetail_01.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 2 Contents/erea_shopinfo_ereadetail_01_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kanto/img/erea_shopinfo_ereadetail_02.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 2 Contents/erea_shopinfo_ereadetail_02_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kanto/img/erea_shopinfo_ereadetail_03.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 2 Contents/erea_shopinfo_ereadetail_03_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kanto/img/erea_shopinfo_ereadetail_04.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 2 Contents/erea_shopinfo_ereadetail_04_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kanto/img/erea_shopinfo_h_02.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 2 Contents/erea_shopinfo_h_02_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kanto/img/erea_shopinfo_h_03.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/Tab 2 Contents/erea_shopinfo_h_03_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kanto/img/erea_campaigninfo.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/erea_campaigninfo_ZH.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://douraku.co.jp/kanto/img/erea_newarrivalinfo.gif</pattern>
+        <replacement>http://douraku.co.jp/zh/erea_newarrivalinfo_ZH.gif</replacement>
+    </replace-rule>
+</replace-rule-list>
