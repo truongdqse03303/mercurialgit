@@ -46,3 +46,11 @@ a[href] {
 ul[class#=".*links"] li a {
   text-flow: break;
 }
+
+// @RULESET
+// URL ^= http://www.bousai.pref.hiroshima.jp/info/disp?disp=W1010
+// URL ^= http://www.bousai.pref.hiroshima.jp/info/disp?disp=W1020
+td.warns *  {
+  text-flow: break;
+}
+
