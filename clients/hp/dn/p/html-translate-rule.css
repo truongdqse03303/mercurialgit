@@ -1,0 +1,4 @@
+@engine default {
+  eid: BR-JA.PT.EN;
+  dictionaries: "KOMAGANE_DIC KOMAGANE_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
+}

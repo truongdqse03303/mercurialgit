@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "HIRATSUKA_DIC HIRATSUKA_TM CROSS_DIC CROSS_TM";
+}

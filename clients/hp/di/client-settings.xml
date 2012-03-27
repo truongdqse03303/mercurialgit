@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>平塚市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.hiratsuka.kanagawa.jp" />
+  </request-list>
+  
+  <!-- 非同期で取得している情報をエンコードするための設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>.+/htbin/(?:bousai/top|event/cal)_part\.cgi</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>

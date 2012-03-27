@@ -1,0 +1,12 @@
+span.sizeA, span.sizeA *, span.sizeAss, span.date {
+  text-flow: break;
+  content: translate split exclude "（|）";
+}
+
+ul.list > li * {
+  text-flow: break;
+}
+
+div.changePageLink > span.nowPage, div.changePageLink > span.linkPage > a {
+  text-flow: break;
+}

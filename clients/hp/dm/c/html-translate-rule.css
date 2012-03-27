@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "H-KAWAGUCHI_DIC H-KAWAGUCHI_TM CROSS_DIC CROSS_TM";
+}
+
+body {
+  attribute: lang add 'zh';
+}

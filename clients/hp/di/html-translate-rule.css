@@ -1,0 +1,11 @@
+// @RULESET
+// URL *= /crosslanguage.fragment.translate/
+table.eventCalendar td {
+  attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL = http://www.city.hiratsuka.kanagawa.jp/k-soumu/index.htm
+p.lead > a {
+  text-flow: break;
+}

@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "KOMAGANE_DIC KOMAGANE_TM CROSS_TM";
+}

@@ -1,0 +1,6 @@
+// @RULESET
+// URL = http://www.h-kawaguchi.jp/activity/media/index.html
+// URL = http://www.h-kawaguchi.jp/activity/movie/index.html
+dd.lastChild span, dd.lastChild span * {
+  text-flow: break;
+}

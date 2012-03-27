@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "H-KAWAGUCHI_DIC H-KAWAGUCHI_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
+}

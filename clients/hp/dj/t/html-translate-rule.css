@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "SAKURA_DIC SAKURA_TM CROSS_DIC CROSS_TM";
+}
