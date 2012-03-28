@@ -4,7 +4,7 @@
   <name>駒ヶ根市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>komagane/service 4fdc3c08b31aaf8736bc6a0c8321973e67a33702</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>

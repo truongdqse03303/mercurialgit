@@ -4,7 +4,7 @@
   <name>平塚市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>hiratsuka/service 63f0efce465c9abc239d494614833f419a4b341a</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>

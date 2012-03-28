@@ -4,7 +4,7 @@
   <name>佐倉市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>sakura-chiba/service 0c3f85b0a7348dd2fa73108137926deeb401d51e</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
