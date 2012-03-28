@@ -120,4 +120,8 @@
         <pattern>http://www.shimizu-kankou.com/gw/stay.gif</pattern>
         <replacement>http://www.shimizu-kankou.com/image_k/gw/stay.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.shimizu-kankou.com/img/0909/top/menu01-7-1.gif</pattern>
+        <replacement>http://www.shimizu-kankou.com/image_k/top/menu01-7-1.gif</replacement>
+    </replace-rule>
 </replace-rule-list>
