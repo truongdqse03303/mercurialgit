@@ -432,4 +432,8 @@
         <pattern>http://www.city.minamiawaji.hyogo.jp/mobile/img/logo.gif</pattern>
         <replacement>http://www.city.minamiawaji.hyogo.jp/mobile/img/zht/logo.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.minamiawaji.hyogo.jp/img/360/tit_me4.jpg</pattern>
+        <replacement>http://www.city.minamiawaji.hyogo.jp/img/360/zht/tit_me4.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
