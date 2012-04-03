@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <replace-rule-list>
+	<replace-rule>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/organization_img_new01.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/e_organization_img.jpg</replacement>
+    </replace-rule>
     <replace-rule>
         <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/globalnavi.jpg</pattern>
         <replacement>http://www.yokohamaport.co.jp/images/e_globalnavi.jpg</replacement>
@@ -233,5 +237,6 @@
         <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/organization_img011.jpg</pattern>
         <replacement>http://www.ypdc.or.jp/images/e_organization_img.jpg</replacement>
     </replace-rule>
+    
     <!-- old domains -->
 </replace-rule-list>
