@@ -1,0 +1,15 @@
+div.m_henkan {
+  attribute: cltx add 'exclude';
+}
+div.m_henkan > a {
+  attribute: href rewrite "{absurl}";
+  content: ignore;
+}
+
+div#contents_title_nav * {
+  text-flow: break;
+}
+
+form[action="http://www.google.com/search"] input[type="hidden"][name="ie"] {
+  attribute: value set "utf-8";
+}

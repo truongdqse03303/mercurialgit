@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>浜名湖かんざんじ温泉</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kanzanji.gr.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

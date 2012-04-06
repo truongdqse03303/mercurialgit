@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>かながわ国際交流財団</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kif/kif01 265239ad1cfd463a1605b134c9600c4f0aa7c1d9</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.k-i-a.or.jp" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <ignore-url-list>
+    <url>http://www.k-i-a.or.jp/foreig_residents/</url>
+    <url>http://www.k-i-a.or.jp/medical/[^/]+/index.html</url>
+  </ignore-url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

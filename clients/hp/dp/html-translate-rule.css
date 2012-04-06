@@ -1,0 +1,11 @@
+// @RULESET
+// URL = http://www.k-i-a.or.jp/
+form[action="http://www.google.co.jp/search"] input[name="ie"] {
+  attribute: value set "UTF-8";
+}
+
+// @RULESET
+// URL = http://www.k-i-a.or.jp/shuppan/info_kanagawa.html
+input[type="submit"] {
+  attribute: value translate split exclude "/";
+}

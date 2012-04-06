@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "KANZANJI_DIC KANZANJI_TM CROSS_TM";
+}
