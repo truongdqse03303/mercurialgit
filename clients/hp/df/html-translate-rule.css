@@ -5,3 +5,15 @@ div#LngBtn ul li * {
 div#LngBtn ul li a[href] {
   attribute: href rewrite "{absurl}";
 }
+
+// @RULESET
+// URL ^= http://www.yokohamaport.co.jp/inquiry/
+// URL ^= http://www.ypdc.or.jp/inquiry/
+@rewrite RewriteInquiryForm {
+  if (absurl equals "https://www.ypdc.or.jp/form/inquiry/") return "https://www.ypdc.or.jp/form/en/inquiry/";
+  if (absurl equals "https://www.yokohamaport.co.jp/form/inquiry/") return "https://www.yokohamaport.co.jp/form/en/inquiry/";
+}
+
+a[href$="/form/inquiry/"] {
+  attribute: href rewrite @rewriteInquiryForm;
+}
