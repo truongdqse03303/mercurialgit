@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <replace-rule-list>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_home.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_home_l.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_home_f.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_home_o.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_home_l_o.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_home_f_o.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_event.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_event_l.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_event_f.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_event_o.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_event_l_o.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_event_f_o.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_zaseki.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_zaseki_l.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_zaseki_f.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_zaseki_o.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_zaseki_l_o.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_zaseki_f_o.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_shop.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_shop_l.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_shop_f.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_shop_o.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_shop_l_o.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_shop_f_o.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_guide.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_guide_l.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_guide_f.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_guide_o.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_guide_l_o.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_guide_f_o.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_access.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_access_l.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_access_f.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_access_o.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_access_l_o.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_access_f_o.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_dome.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_dome_l.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_dome_f.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/img/con_top_dome_o.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_dome_l_o.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_dome_f_o.gif</replacement>
     </replace-rule>
     <replace-rule>
