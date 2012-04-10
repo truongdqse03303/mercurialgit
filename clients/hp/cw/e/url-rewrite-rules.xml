@@ -472,4 +472,16 @@
         <pattern>http://www.txhd.co.jp/sitemap/images/index_h1.gif</pattern>
         <replacement>http://www.txhd.co.jp/en/sitemap/images/index_h1.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.txhd.co.jp/about/philosophy/images/index_h01.gif</pattern>
+        <replacement>http://www.txhd.co.jp/en/about/philosophy/images/index_h01.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.txhd.co.jp/corporate/organization/images/index_il01.gif</pattern>
+        <replacement>http://www.txhd.co.jp/en/corporate/organization/images/index_il01.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.txhd.co.jp/ir/management/message/images/index_tx01.gif</pattern>
+        <replacement>http://www.txhd.co.jp/en/ir/management/message/images/index_tx01.gif</replacement>
+    </replace-rule>
 </replace-rule-list>
