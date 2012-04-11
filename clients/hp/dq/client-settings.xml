@@ -4,7 +4,7 @@
   <name>浜名湖かんざんじ温泉</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>kanzanji/service dec0027617c8f41437b5ffec9403a87b1f406071</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
