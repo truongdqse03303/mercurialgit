@@ -8,6 +8,7 @@
   
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="(?:www\.)?shinjuku-ohdoori\.jp" />
+    <request hostname="shinjuku-ohdoori.jp" />
+    <request hostname="www.shinjuku-ohdoori.jp" />
   </request-list>
 </client-settings>

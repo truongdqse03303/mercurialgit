@@ -8,8 +8,10 @@
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="www.(?:faq\.)?city.shinjuku.lg.jp" />
-    <request hostname="(?:www\.)?micosfit.jp" path="/snjk/" />
+    <request hostname="www.city.shinjuku.lg.jp" />
+    <request hostname="www.faq.city.shinjuku.lg.jp" />
+    <request hostname="www.micosfit.jp" path="/snjk/" />
+    <request hostname="micosfit.jp" path="/snjk/" />
     <request hostname="www.regasu-shinjuku.or.jp" />
   </request-list>
 

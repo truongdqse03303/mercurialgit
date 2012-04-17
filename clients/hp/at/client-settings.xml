@@ -8,7 +8,8 @@
   
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="(?:www\.)?douraku\.co\.jp" />
+    <request hostname="douraku.co.jp" />
+    <request hostname="www.douraku.co.jp" />
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->

@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="www\.marui-imai(?:\.co)?\.jp" />
+    <request hostname="www.marui-imai.jp" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->

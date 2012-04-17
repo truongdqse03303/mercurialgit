@@ -8,6 +8,7 @@
   
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="(?:www\.)?layered\.me" />
+    <request hostname="www.layered.me" />
+    <request hostname="layered.me" />
   </request-list>
 </client-settings>
