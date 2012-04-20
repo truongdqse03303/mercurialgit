@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "AISEN_DIC AISEN_TM CROSS_DIC CROSS_TM INTERNET";
+}

@@ -1,0 +1,25 @@
+// @ RULESET
+// URL = http://www.town.shisui.chiba.jp/
+div.aricles_list ul li a {
+  text-flow: break;
+  content: translate split exclude "\\(|\\)";
+}
+
+// @RULESET
+// URL = http://www.town.shisui.chiba.jp/chochoshitsu/diary/index.php
+h4 {
+  content: translate split exclude "\\s";
+}
+
+// @ RULESET
+// URL = http://www.town.shisui.chiba.jp/gyosei/soshiki/education_shisui/index.php
+div.new ul li a {
+  text-flow: break;
+  content: translate split exclude "\\(|\\)";
+}
+
+// @RULESET
+// URL = http://www.town.shisui.chiba.jp/kyodo/hojo.html
+span.iro a {
+  text-flow: break;
+}

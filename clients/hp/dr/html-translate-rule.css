@@ -1,0 +1,9 @@
+// @ RULESET
+// URL ^= http://www.aisen.co.jp/products/
+img[src#="^http://www\\.aisen\\.co\\.jp/products/.+?/img_rsz\\.php.+"] {
+  attribute: src ignore !important;
+}
+a[href#="^http://www\\.aisen\\.co\\.jp/products/.+?/img_rsz\\.php.+"] {
+  attribute: href ignore !important;
+}
+
