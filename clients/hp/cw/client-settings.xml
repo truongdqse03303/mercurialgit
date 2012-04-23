@@ -10,5 +10,6 @@
   <request-list>
     <request hostname="txhd.co.jp" />
     <request hostname="www.txhd.co.jp" />
+    <request hostname="v4.eir-parts.net" path="/Custom/public/qir/9413/pbl1cmvw/v4/js/design.js" />
   </request-list>
 </client-settings>
