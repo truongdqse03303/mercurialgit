@@ -11,6 +11,22 @@
     <request hostname="www.visitjapan-tohoku.org" />
   </request-list>
 
+  <resource-handler>
+    <type name="robots">jp.co.crosslanguage.translate.url.request.process.resource.handler.ContentRespondResourceHandler</type>
+    <param>
+      <param-name>response.url.pattern</param-name>
+      <param-value>.+</param-value>
+    </param>
+    <param>
+      <param-name>response.content.path</param-name>
+      <param-value>/opt/site-translate/config/visit-japan-tohoku-info.html</param-value>
+    </param>
+    <param>
+      <param-name>response.content.type</param-name>
+      <param-value>text/html</param-value>
+    </param>
+  </resource-handler>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 
