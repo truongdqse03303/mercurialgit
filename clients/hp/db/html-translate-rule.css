@@ -1,0 +1,26 @@
+h2, h2 > div.titleleft {
+  content: translate split both "｜";
+}
+div.kiji_contents > h3 * {
+  text-flow: break;
+  content: translate split exclude "\\s";
+}
+
+// @RULESET
+// URL #= http://yamagatakanko.com/(?:spot|food|omiyage|event|onsen)/.*
+div.data_list > div.links {
+  content: translate split both "/";
+}
+div.data_list > div.links > a {
+  text-flow: break;
+}
+
+// @RULESET
+// URL #= http://yamagatakanko.com/(?:spot|food|omiyage|event|onsen)detail/.*
+div.kankodb_data_title {
+  content: translate split exclude "\\s";
+}
+div.kankodb_data_title.span {
+  text-flow: break;
+  content: translate split exclude "\\s";
+}
