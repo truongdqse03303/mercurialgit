@@ -1,0 +1,11 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "YAKUSHIMA_DIC YAKUSHIMA_TM CROSS_DIC CROSS_TM TOURISM GOURMET INTERNET";
+}
+
+// @RULESET
+// URL ^= http://xn--3iqs55ayoa25z.com/mugen/sub/
+div.shopList table.shop_list_table td[class^="shopNameCell"] {
+  attribute: class delete;
+  attribute: style add 'font-weight:bold; font-size:105%;';
+}

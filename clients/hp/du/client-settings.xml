@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>博多ターミナルビル（JR博多シティ）</name>
+  <name>株式会社ムービングエス</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
   <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
-  <licence>jrhakatacity/service cb891ca52bd1eec96f68b95b3fc6c60e306ee87b</licence>
-
-  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.jrhakatacity.com" />
+    <request hostname="www.moving-s.com" />
   </request-list>
 
   <!-- 翻訳しないURLの一覧 -->
   <ignore-url-list>
-    <url>http://www\.jrhakatacity\.com/translation/$</url>
+    <url>http://www\.moving-s\.com/net-office/.*</url>
   </ignore-url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
-
+  
   <!-- サイトで使用される文字セット -->
-  <charset>utf-8</charset>
+  <charset>UTF-8</charset>
 </client-settings>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>屋久島観光センター</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>yakushima/service xxxxxxxxxxxxxx</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="xn--3iqs55ayoa25z.com" />
+  </request-list>
+
+  <!-- 翻訳しないURLの一覧 -->
+  <ignore-url-list>
+    <url>http://xn--3iqs55ayoa25z\.com/shop/kotodake/.*</url>
+    <url>http://xn--3iqs55ayoa25z\.com/shop/ohukuro/.*</url>
+    <url>http://xn--3iqs55ayoa25z\.com/shop/sky_view/.*</url>
+    <url>http://xn--3iqs55ayoa25z\.com/shop/ichigo_ichie/.*</url>
+    <url>http://xn--3iqs55ayoa25z\.com/shop/yakushima_dou/.*</url>
+    <url>http://xn--3iqs55ayoa25z\.com/backoffice/res/mallmgr/[0-9]+</url>
+  </ignore-url-list>
+  
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://xn--3iqs55ayoa25z\.com/backoffice/Ajax/ShopPage/.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>EUC-JP</charset>
+  
+  <!-- 備案ライセンス -->
+  <extension-param>
+    <param-name>icp.licence.footer</param-name>
+    <param-value>&#x3C;div id=&#x22;site-translate-footer&#x22; cltx=&#x22;exclude&#x22; style=&#x22;width:100% !important; padding: 10px 0 !important; text-align:center !important; color: #C0C0C0 !important; font-family:SimSun !important;&#x22;&#x3E;京ICP备1101810&#x3C;/div&#x3E;</param-value>
+  </extension-param>
+</client-settings>
