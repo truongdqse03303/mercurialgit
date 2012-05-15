@@ -4,7 +4,6 @@
   <name>博多ターミナルビル（JR博多シティ）</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
   <licence>jrhakatacity/service cb891ca52bd1eec96f68b95b3fc6c60e306ee87b</licence>
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
