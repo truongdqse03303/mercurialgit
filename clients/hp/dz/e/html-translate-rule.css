@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "SHIMAMOTOCHO_DIC SHIMAMOTOCHO_TM CROSS_DIC CROSS_TM GOVT INTERNET";
+}
