@@ -4,8 +4,7 @@
   <name>屋久島観光センター</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
-  <licence>yakushima/service xxxxxxxxxxxxxx</licence>
+  <licence>yakushima/service 71581754b15c2b1ae60940c002bbfe8a75a26568</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
