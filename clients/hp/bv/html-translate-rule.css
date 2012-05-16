@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.jrhakatacity.com/floor/
+div.box_list table td.shop span.cat {
+  text-flow: break;
+}
