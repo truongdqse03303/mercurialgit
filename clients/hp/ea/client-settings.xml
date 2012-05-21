@@ -10,4 +10,7 @@
   <request-list>
     <request hostname="shibuyakukanko.jp" />
   </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
 </client-settings>
