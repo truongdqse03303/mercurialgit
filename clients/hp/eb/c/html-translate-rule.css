@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "YOYAKUNAVI_DIC YOYAKUNAVI_TM CROSS_DIC CROSS_TM";
+}
+
+body {
+  attribute: lang add 'zh';
+}

@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "YOYAKUNAVI_DIC YOYAKUNAVI_TM CROSS_DIC CROSS_TM";
+}
