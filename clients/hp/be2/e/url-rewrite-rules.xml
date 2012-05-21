@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <replace-rule-list>
     <replace-rule>
+        <pattern>http://www.kurabo.co.jp/el/mazerustar/img/new2012/index/image01.jpg</pattern>
+        <replacement>http://www.kurabo.co.jp/el/mazerustar/img/new2012/index/image01_en.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.kurabo.co.jp/el/mazerustar/img/new2012/index/image02_1.jpg</pattern>
+        <replacement>http://www.kurabo.co.jp/el/mazerustar/img/new2012/index/image02_1_en.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.kurabo.co.jp/el/mazerustar/img/new2012/index/image02_3.jpg</pattern>
+        <replacement>http://www.kurabo.co.jp/el/mazerustar/img/new2012/index/image02_3_en.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.kurabo.co.jp/el/mazerustar/img/new2012/lineup/image01.jpg</pattern>
+        <replacement>http://www.kurabo.co.jp/el/mazerustar/img/new2012/lineup/image01_en.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.kurabo.co.jp/el/mazerustar/img/new2012/lineup/kkv/image03.jpg</pattern>
+        <replacement>http://www.kurabo.co.jp/el/mazerustar/img/new2012/lineup/kkv/image03_en.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.kurabo.co.jp/el/img/common/header_menu02_cr.jpg</pattern>
+        <replacement>http://www.kurabo.co.jp/el/img/common/header_menu02_e_cr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.kurabo.co.jp/el/img/common/header_menu02_cr_on.jpg</pattern>
+        <replacement>http://www.kurabo.co.jp/el/img/common/header_menu02_e_cr_on.jpg</replacement>
+    </replace-rule>
+<replace-rule>
         <pattern>http://www.kurabo.co.jp/el/img/common/header_menu01_cr.jpg</pattern>
         <replacement>http://www.kurabo.co.jp/el/img/common/header_menu01_e_cr.jpg</replacement>
     </replace-rule>
