@@ -145,8 +145,8 @@
         <replacement>http://www.moving-s.com/nimg/zht/cases/mh_recommend_cases.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.moving-s.com/nimg/blog/mh_popular_blog.jpg"</pattern>
-        <replacement>http://www.moving-s.com/nimg/zht/blog/mh_popular_blog.jpg"</replacement>
+        <pattern>http://www.moving-s.com/nimg/blog/mh_popular_blog.jpg</pattern>
+        <replacement>http://www.moving-s.com/nimg/zht/blog/mh_popular_blog.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.moving-s.com/nimg/blog/mh_catlist_right.jpg</pattern>
