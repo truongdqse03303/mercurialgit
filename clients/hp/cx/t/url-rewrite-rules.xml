@@ -62,7 +62,7 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.sapporo-dome.co.jp/access/img/map_sinai.gif</pattern>
-        <replacement>http://www.sapporo-dome.co.jp/foreign/img/ch/map_l.gif</replacement>
+        <replacement>http://www.sapporo-dome.co.jp/foreign/img/cn/map_l.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.sapporo-dome.co.jp/img/size_tit.gif</pattern>
