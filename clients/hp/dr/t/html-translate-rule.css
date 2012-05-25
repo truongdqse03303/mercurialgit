@@ -2,3 +2,22 @@
   eid: CR-JCT;
   dictionaries: "AISEN_DIC AISEN_TM CROSS_DIC CROSS_TM";
 }
+
+// @RULESET
+// URL #= http://www\.aisen\.co\.jp/(index\.html)?
+div[class^="facebook"], div[class="twitterHead"] {
+  attribute: style add "display: none !important;";
+}
+div[class^="facebook"] *, div[class="twitterHead"] *, script[src="http://widgets.twimg.com/j/2/widget.js"] {
+  tag: delete;
+}
+
+// @RULESET
+// URL ^= http://www.aisen.co.jp/products/
+div.socialBtn {
+  attribute: style add "display: none !important;";
+  attribute: cltx add "exclude";
+}
+div.socialBtn * {
+  tag: delete;
+}
