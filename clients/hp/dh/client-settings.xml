@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="wakkanai.dosanko.co.jp" />
-    <!--request hostname="www.city.wakkanai.hokkaido.jp" /-->
+    <request hostname="www.city.wakkanai.hokkaido.jp" />
   </request-list>
 
   <!-- Basic認証 -->
