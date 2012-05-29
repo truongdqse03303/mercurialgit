@@ -1,4 +1,12 @@
 @engine default {
   eid: CR-JCT;
-  dictionaries: "DOURAKU_DIC DOURAKU_TM";
+  dictionaries: "DOURAKU_DIC CROSS_DIC DOURAKU_TM CROSS_TM";
+}
+@engine douraku/main {
+  eid: CR-JCT;
+  dictionaries: "DOURAKU_DIC_MASTER DOURAKU_TM_MASTER";
+}
+@engine douraku/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }

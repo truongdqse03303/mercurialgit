@@ -1,4 +1,12 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "DOURAKU_DIC DOURAKU_TM INTERNET GOURMET";
+  dictionaries: "DOURAKU_DIC CROSS_DIC DOURAKU_TM CROSS_TM INTERNET GOURMET";
+}
+@engine douraku/main {
+  eid: CR-JE;
+  dictionaries: "DOURAKU_DIC_MASTER DOURAKU_TM_MASTER GOURMET";
+}
+@engine douraku/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOURMET";
 }
