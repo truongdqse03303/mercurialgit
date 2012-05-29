@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "YAMAGATAKANKO_DIC YAMAGATAKANKO_TM CROSS_TM";
 }
+@engine yamagatakanko/main {
+  eid: CR-JK;
+  dictionaries: "YAMAGATAKANKO_DIC_MASTER YAMAGATAKANKO_TM_MASTER";
+}
+@engine yamagatakanko/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}

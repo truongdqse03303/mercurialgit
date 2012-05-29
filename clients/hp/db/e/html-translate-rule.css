@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "YAMAGATAKANKO_DIC YAMAGATAKANKO_TM CROSS_DIC CROSS_TM TOURISM INTERNET";
 }
+@engine yamagatakanko/main {
+  eid: CR-JE;
+  dictionaries: "YAMAGATAKANKO_DIC_MASTER YAMAGATAKANKO_TM_MASTER TOURISM";
+}
+@engine yamagatakanko/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM";
+}
