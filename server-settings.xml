@@ -5,10 +5,27 @@
     <id>hp</id>
     <domain>hp.transer.com</domain>
   </application>
+  <application>
+    <id>hpstage</id>
+    <domain>hpstage.transer.com</domain>
+    <setting-id>tm-*,img</setting-id>
+    <extension-param>
+      <param-name>img.include.script.url</param-name>
+      <param-value>http://hpmanage.transer.com/edit/site_imgchg/</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>tm-*.include.script.url</param-name>
+      <param-value>http://hpmanage.transer.com/edit/site_dic/</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>tm-*|img.licence.param</param-name>
+      <param-value>clkey</param-value>
+    </extension-param>
+  </application>
   
   <!-- Translation Server -->
   <translation-server>
-    <url>http://ts03-03.transer.com:13000/</url>
+    <url>http://ts.transer.com:12000/</url>
     <connection-timeout>5000</connection-timeout>
     <socket-timeout>300000</socket-timeout>
   </translation-server>
