@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "SOPHIA-ACADEMIC_DIC SOPHIA-ACADEMIC_TM CROSS_TM";
 }
+@engine sophia-academic/main {
+  eid: CR-JK;
+  dictionaries: "SOPHIA-ACADEMIC_DIC_MASTER SOPHIA-ACADEMIC_TM_MASTER";
+}
+@engine sophia-academic/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
