@@ -1,3 +1,9 @@
+@preprocess {
+  replace: "〈まるい〉" "丸井イマイ";
+  replace: "〈いまい〉" "丸井イマイ";
+  replace: "〈(.+?)〉" "[$1]";
+}
+
 // @RULESET
 // URL ^= http://www.marui-imai.jp/sapporo/brand/index.html
 div.box_index {
