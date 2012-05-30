@@ -2,14 +2,12 @@ form input[type="hidden"][name="ie"] {
   attribute: value set "utf-8";
 }
 
-/////////////////////////////////////////////////////////////////////////////////////////
 // @RULESET
 // URL #= ^http://www\.city\.kariya\.lg\.jp/(index\.html)?$
 div.ShinchakuNew a {
   text-flow: break;
 }
 
-/////////////////////////////////////////////////////////////////////////////////////////
 // @RULESET
 // URL = http://www.city.kariya.lg.jp/hp/page000301300/hpg000301246.htm
 // URL = http://www.city.kariya.lg.jp/hp/page000301500/hpg000301459.htm
@@ -26,14 +24,12 @@ table td[width="430"][valign="top"][align="left"] {
   attribute: url rewrite "@NotRewriteYoutube";
 }
 
-/////////////////////////////////////////////////////////////////////////////////////////
 // @RULESET
 // URL = http://www.city.kariya.lg.jp/school/asachu/asahi.html
 textarea[name="今月の予定"] {
   content: translate;
 }
 
-/////////////////////////////////////////////////////////////////////////////////////////
 // @RULESET
 // URL = http://www.city.kariya.lg.jp/present/news/simindayori/simin13nendo.html
 td[width="245><A href="]["simin13.12.15.html"] {
@@ -42,7 +38,6 @@ td[width="245><A href="]["simin13.12.15.html"] {
   attribute: "simin13.12.15.html" delete;
 }
 
-/////////////////////////////////////////////////////////////////////////////////////////
 // @RULESET
 // URL ^= http://www.city.kariya.lg.jp/toukei/
 html["xmlns:x"="urn:schemas-microsoft-com:office:excel"] xml,
