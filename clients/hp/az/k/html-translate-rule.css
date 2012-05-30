@@ -4,7 +4,7 @@
 }
 
 // @RULESET
-// URL = http://www.isetan.co.jp/icm2/jsp/store/shinjuku/map/index.jsp
+// URL ^= http://www.isetan.co.jp/icm2/jsp/store/shinjuku/map/index.jsp
 a[href^="http://mlttpl-mapserv.incrementp.co.jp/multi/spot/isetan_1/ja/map.php"] {
   attribute: href rewrite "http://mlttpl-mapserv.incrementp.co.jp/multi/spot/isetan_1/ko/map.php?&MAP=E139.42.28.35N35.41.18.02&CMR=isetan&KEY=3e4e704c6376d46a838c6fb0a81582b7fa171069&NM=%EC%9D%B4%EC%84%B8%ED%83%84%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%EC%A0%90&ZM=10";
 }
