@@ -46,7 +46,7 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.wakkanai.hokkaido.jp/images/kanko_gnavi_01_off.gif</pattern>
-        <replacement>http://www.city.wakkanai.hokkaido.jp/images/kanko_gnavi_02_off_cn.gif</replacement>
+        <replacement>http://www.city.wakkanai.hokkaido.jp/images/kanko_gnavi_01_off_cn.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.wakkanai.hokkaido.jp/images/kanko_gnavi_02_on.gif</pattern>
