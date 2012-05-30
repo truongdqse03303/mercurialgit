@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "K-KANKOU_DIC K-KANKOU_TM CROSS_DIC CROSS_TM";
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>テリロジー</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.terilogy.com" />
+  </request-list>
+
+  <!-- 翻訳しないURLの一覧 -->
+  <ignore-url-list>
+    <url>http://www\.terilogy\.com/(?:english|china|language|company|koukoku|recruit)/.*</url>
+    <url>http://www\.terilogy\.com/ir/</url>
+    <url>http://www\.terilogy\.com/.+?/movie/.+</url>
+    <url>http://www\.terilogy\.com/product/ts-associates-eng/movie_high/index.htm</url>
+  </ignore-url-list>
+
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <ignore-fragment-translate-list>
+    <url>.+</url>
+  </ignore-fragment-translate-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>

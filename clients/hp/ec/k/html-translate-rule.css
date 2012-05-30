@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "TERILOGY_DIC TERILOGY_TM CROSS_TM SYSTEM COMPUTER";
+}
+@engine terilogy/main {
+  eid: CR-JE;
+  dictionaries: "TERILOGY_DIC_MASTER TERILOGY_TM_MASTER SYSTEM COMPUTER";
+}
+@engine terilogy/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_TM_MASTER SYSTEM COMPUTER";
+}

@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "ASO-GEOPARK_DIC ASO-GEOPARK_TM CROSS_DIC CROSS_TM";
+}
+
+body {
+  attribute: lang add 'zh';
+}
