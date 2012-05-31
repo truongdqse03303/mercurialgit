@@ -1,6 +1,6 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "VISITJAPAN-TOHOKU_DIC VISITJAPAN-TOHOKU_TM CROSS_DIC CROSS_TM TOURISM";
+  dictionaries: "VISITJAPAN-TOHOKU_DIC VISITJAPAN-TOHOKU_TM CROSS_DIC CROSS_TM TOURISM INTERNET";
 }
 @engine visitjapan-tohoku/main {
   eid: CR-JE;

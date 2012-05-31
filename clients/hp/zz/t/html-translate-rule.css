@@ -10,3 +10,12 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL #= http://test(?:4ch)?\.visitjapan-tohoku\.org/(?:index.html)?
+div#topMain > section.searchBox, div#topPickup {
+  attribute: style add 'display: none !important;';
+}
+div#topMain > section.searchBox *, div#topPickup * {
+  tag: delete;
+}

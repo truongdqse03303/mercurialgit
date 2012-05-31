@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "VISITJAPAN-TOHOKU_DIC VISITJAPAN-TOHOKU_TM CROSS_DIC CROSS_TM TOURISM INTERNET";
 }
+@engine visitjapan-tohoku/main {
+  eid: CR-JE;
+  dictionaries: "VISITJAPAN-TOHOKU_DIC_MASTER VISITJAPAN-TOHOKU_TM_MASTER TOURISM";
+}
+@engine visitjapan-tohoku/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM";
+}

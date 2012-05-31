@@ -2,3 +2,20 @@
   eid: CR-JCT;
   dictionaries: "VISITJAPAN-TOHOKU_DIC VISITJAPAN-TOHOKU_TM CROSS_DIC CROSS_TM";
 }
+@engine visitjapan-tohoku/main {
+  eid: CR-JCT;
+  dictionaries: "VISITJAPAN-TOHOKU_DIC_MASTER VISITJAPAN-TOHOKU_TM_MASTER";
+}
+@engine visitjapan-tohoku/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}
+
+// @RULESET
+// URL #= http://www3?\.visitjapan-tohoku\.org/(?:index.html)?
+div#topMain > section.searchBox, div#topPickup {
+  attribute: style add 'display: none !important;';
+}
+div#topMain > section.searchBox *, div#topPickup * {
+  tag: delete;
+}

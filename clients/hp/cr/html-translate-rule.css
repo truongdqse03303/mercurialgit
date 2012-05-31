@@ -1,4 +1,4 @@
-﻿ul.pagingNumber {
+ul.pagingNumber {
   attribute: cltx add 'exclude';
 }
 ul.pagingNumber > li {
@@ -9,8 +9,7 @@ ul.pagingNumber > li > a, ul.pagingNumber > li > b {
 }
 
 // @RULESET
-// URL = http://www.visitjapan-tohoku.org/
-// URL = http://www.visitjapan-tohoku.org/index.html
+// URL #= http://www3?\.visitjapan-tohoku\.org/(?:index\.html)?
 div#crslConsole {
   attribute: cltx add 'exclude';
 }
@@ -20,26 +19,25 @@ div#topMain section.listZone section.zoneBox a h1 * {
 }
 
 // @RULESET
-// URL #= http://www\.visitjapan-tohoku\.org/zone/[^/]+/access/
+// URL #= http://www3?\.visitjapan-tohoku\.org/zone/[^/]+/access/
 p.zoneName {
   content: translate split exclude "\\s";
 }
 
 // @RULESET
-// URL ^= http://www.visitjapan-tohoku.org/zone/
+// URL #= http://www3?\.visitjapan-tohoku\.org/zone/.*
 section.zoneBox a h1 * {
   text-flow: break;
 }
 
 // @RULESET
-// URL ^= http://www.visitjapan-tohoku.org/program/
-// URL ^= http://www.visitjapan-tohoku.org/spot/
+// URL #= http://www3?\.visitjapan-tohoku\.org/(?:program|spot)/.*
 p.zoneName {
   content: translate split exclude "\\s";
 }
 
 // @RULESET
-// URL ^= http://www.visitjapan-tohoku.org/event/
+// URL #= http://www3?\.visitjapan-tohoku\.org/event/.*
 p.zoneName {
   content: translate split exclude "\\s";
 }
