@@ -4,7 +4,7 @@
   <name>川崎市観光協会</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>k-kankou/service 73a1cd0fd9f841582d7d98d6b83318b1cadf6213</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
