@@ -12,6 +12,7 @@
     <request hostname="www3.visitjapan-tohoku.org" />
   </request-list>
 
+<!--
   <resource-handler>
     <type name="robots">jp.co.crosslanguage.translate.url.request.process.resource.handler.ContentRespondResourceHandler</type>
     <param>
@@ -27,6 +28,7 @@
       <param-value>text/html</param-value>
     </param>
   </resource-handler>
+-->
 
   <!-- 翻訳対象外リダイレクト設定 -->
   <resource-handler>
