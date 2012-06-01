@@ -38,6 +38,11 @@
     <param-name>request.error.page</param-name>
     <param-value>/WEB-INF/pages/requestError.jsp</param-value>
   </extension-param>
+  <!-- robots.txt -->
+  <extension-param>
+    <param-name>robots.txt.path</param-name>
+    <param-value>/opt/site-translate/config/robots.txt</param-value>
+  </extension-param>
   <!-- 備案ライセンス -->
   <extension-param>
     <param-name>icp.licence.footer</param-name>
