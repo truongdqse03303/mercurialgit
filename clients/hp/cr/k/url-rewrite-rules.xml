@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <replace-rule-list>
     <replace-rule>
+        <pattern>http://www.visitjapan-tohoku.org/common/images/supporter_nav.gif</pattern>
+        <replacement>http://www.visitjapan-tohoku.org/common/images/ko/supporter_nav.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.visitjapan-tohoku.org/common/images/access_navi.gif</pattern>
         <replacement>http://www.visitjapan-tohoku.org/common/images/ko/access_navi.gif</replacement>
     </replace-rule>
