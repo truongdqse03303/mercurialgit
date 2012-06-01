@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.kogetu.com/sightseeing/event.html
+div[class^="eventTxt"] > p > span {
+  text-flow: break;
+}

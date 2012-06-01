@@ -1,0 +1,6 @@
+// @RULESET
+// URL =http://www.kogetu.com/js/common.js
+@preprocess {
+  replace: "'(images/.+?)'" "'http://www.kagetu.com/$1'";
+  replace: "'../(images/.+?)'" "'http://www.kagetu.com/$1'";
+}
