@@ -1,10 +1,3 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "439 443 441 438";
-//  dictionaries: "IT TOURISM";
-}
-
-@rewrite RewriteJavascriptInclude {
-  if (url matches "(http://maps\\.google\\.com[^/]*/maps\\?file=api&v=2&key=).+") return "{$1}ABQIAAAALrAMoCtp4hsS-vkc4Ywn9RQ_e16i88FIa9hoAHavGqUAetjFUhSDmehcvPJLplD6FDYzW0qakTPN6g";
-  apply "@RewriteScriptInclude";
 }
