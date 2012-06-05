@@ -13,8 +13,7 @@ ul.pagingNumber > li > a, ul.pagingNumber > li > b {
 div#crslConsole {
   attribute: cltx add 'exclude';
 }
-
-div#topMain section.listZone section.zoneBox a h1 * {
+div#topMain section.listZone section.zoneBox a h1 *, dl.recommend dt.author span {
   text-flow: break;
 }
 
@@ -22,6 +21,12 @@ div#topMain section.listZone section.zoneBox a h1 * {
 // URL #= http://www3?\.visitjapan-tohoku\.org/zone/[^/]+/access/
 p.zoneName {
   content: translate split exclude "\\s";
+}
+
+// @RULESET
+// URL #= http://www3?\.visitjapan-tohoku\.org/zone/[^/]+/guide/
+section.guideBox div.infomation p.voice strong {
+  text-flow: break;
 }
 
 // @RULESET
@@ -46,4 +51,14 @@ table > caption {
 }
 table > caption > em {
   tag: delete;
+}
+
+// @RULESET
+// URL #= http://www3?\.visitjapan-tohoku\.org/supporter/famous/.*
+section.supporterBox h1.name span {
+  text-flow: break;
+  attribute: style add 'display:block;';
+}
+section.supporterBox p.voice strong {
+  text-flow: break;
 }
