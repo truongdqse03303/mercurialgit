@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.town.toin.lg.jp/cmsfiles/menu_img/menu-14.jpg</pattern>
+        <replacement>http://www.town.toin.lg.jp/cmsfiles/menu_img/menu-14.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.toin.lg.jp/cmsfiles/menu_img/menu-15.jpg</pattern>
+        <replacement>http://www.town.toin.lg.jp/reiki/t0.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.toin.lg.jp/cmsfiles/menu_img/menu-16.jpg</pattern>
+        <replacement>http://www.town.toin.lg.jp/cmsfiles/menu_img/menu-16.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.toin.lg.jp/cmsfiles/menu_img/menu-17.jpg</pattern>
+        <replacement>http://www.town.toin.lg.jp/cmsfiles/menu_img/menu-17.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.town.toin.lg.jp/cmsfiles/menu_img/menu-18.jpg</pattern>
+        <replacement>http://www.town.toin.lg.jp/cmsfiles/menu_img/menu-18.jpg</replacement>
+    </replace-rule>
+</replace-rule-list>
