@@ -26,6 +26,7 @@
   </resource-handler>
 
   <!-- 翻訳対象外リダイレクト設定 -->
+  <!--  
   <resource-handler>
     <type name="redirect">jp.co.crosslanguage.translate.url.request.process.resource.handler.RedirectResourceHandler</type>
     <param>
@@ -41,6 +42,7 @@
       <param-value>http://test.visitjapan-tohoku.org/info/news.html</param-value>
     </param>
   </resource-handler>
+  -->
   
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
