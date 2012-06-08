@@ -21,6 +21,20 @@
     <url>http://www\.tv-tokyo\.co\.jp/(?:anime|biz|kids|mhp|nms|mplus|newsanswer|wbs|zipangu|gaia|cambria|shinsho|mv|emorning|newsfine|index/scatalyst)(?:$|/.*)</url>
   </ignore-url-list>
 
+  <!-- JavascriptのContent-Typeを指定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www\.tv-tokyo\.co\.jp/(?:index/timetable/index_sub\..+\.parts\.html|index/information\.parts\.html|program/recommend/pg_default\.parts\.html)</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
   <!-- サイトで使用される文字セット（任意） -->
   <charset>UTF-8</charset>
 </client-settings>
