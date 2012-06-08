@@ -6,3 +6,10 @@
 body {
   attribute: lang add 'zh';
 }
+
+@rewrite rewriteToOriginalURL {
+  if (absurl matches "http://www\\.town\\.toin\\.lg\\.jp\\.c\\.dx\\..+") return "http://www.town.toin.lg.jp/";
+}
+div#head > div#head_upper > ul#head_links > li > a[href] {
+  attribute: href rewrite "@rewriteToOriginalURL";
+}

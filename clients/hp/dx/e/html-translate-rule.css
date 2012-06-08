@@ -2,3 +2,10 @@
   eid: CR-JE;
   dictionaries: "TOIN_DIC TOIN_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@rewrite rewriteToOriginalURL {
+  if (absurl matches "http://www\\.town\\.toin\\.lg\\.jp\\.e\\.dx\\..+") return "http://www.town.toin.lg.jp/";
+}
+div#head > div#head_upper > ul#head_links > li > a[href] {
+  attribute: href rewrite "@rewriteToOriginalURL";
+}
