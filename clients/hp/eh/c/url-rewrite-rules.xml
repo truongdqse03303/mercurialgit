@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/swf/sub_menu_ike.swf</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/sub_menu_ike_chu_kan.swf</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/swf/ctgry_menu_ike.swf</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/ctgry_menu_ike_chu_kan.swf</replacement>
+    </replace-rule>
+</replace-rule-list>

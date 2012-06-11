@@ -1,0 +1,47 @@
+@preprocess {
+  replace: '<body(.*?)>(.+)</body>' '<body$1><div id="clwrapper">$2</div></body>';
+  replace: "'allowScriptAccess','sameDomain'," "'allowScriptAccess','always',";
+}
+
+div.top * {
+  text-flow: break;
+}
+
+// @RULESET
+// URL #= http://www\.tobu-dept\.jp/(?:ikebukuro|funabashi|tokyo_solamachi)/
+div[class^="ctgry_"] div ul li div * {
+  text-flow: break;
+  content: translate split exclude '\\[|\\]';
+}
+div.brandshop ul li div span {
+  text-flow: break;
+}
+span.tobulog_title, span.tobulog_recdate {
+  text-flow: break;
+  attribute: 'style' add 'display:block;';
+}
+
+// @RULESET
+// URL #= http://www\.tobu-dept\.jp/(?:ike|funa)_[^/]+/$
+div.news_flash ul li div span {
+  text-flow: break;
+  content: translate split exclude '\\[|\\]';
+}
+
+// @RULESET
+// URL #= http://www\.tobu-dept\.jp/[^/]+/cnt[0-9]+\.html
+div.ttl_box div.detail_ttl *, div.news_area span {
+  text-flow: break;
+}
+
+// @RULESET
+// URL #= http://www\.tobu-dept\.jp/(?:ikebukuro|funabashi)/event/$
+span[class#="f.+_(?:title|description)"] {
+  text-flow: break;
+}
+
+// @RULESET
+// URL #= http://www\.tobu-dept\.jp/(?:ikebukuro|funabashi)/ichioshi/$
+div.ichioshi_list ul li div span {
+  text-flow: break;
+}

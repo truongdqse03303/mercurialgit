@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
+}
+
+body, p, a, dd, dl, dt, td, h3 {
+  attribute: lang add 'zh';
+}

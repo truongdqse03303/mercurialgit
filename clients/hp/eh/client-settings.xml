@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>東武百貨店</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.tobu-dept.jp" />
+  </request-list>
+
+  <!-- 翻訳しないURLの一覧 -->
+  <ignore-url-list>
+    <url>http://www\.tobu-dept\.jp/ikebukuro/spice/.*</url>
+    <url>http://www\.tobu-dept\.jp/ike_ike/.*</url>
+    <url>http://www\.tobu-dept\.jp/ike_tshirts/.*</url>
+    <url>http://www\.tobu-dept\.jp/ikebukuro/shop/access/.*</url>
+    <url>http://www\.tobu-dept\.jp/ikebukuro/shop/floor/.*</url>
+    <url>http://www\.tobu-dept\.jp/ikebukuro/shop/service/.*</url>
+    <url>http://www\.tobu-dept\.jp/ikebukuro/e_book_info/.*</url>
+    <url>http://www\.tobu-dept\.jp/ikebukuro/toblog/.*</url>
+  </ignore-url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

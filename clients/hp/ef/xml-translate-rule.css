@@ -1,0 +1,12 @@
+/**
+ * @IGNORE_RULE: @RewriteNoRegisteredDomain, @MapUnknownBinaryResource, @RewriteFormAction;
+ */
+@data xml {
+}
+
+image[src], tumb[src], sp_image[src] {
+  attribute: * rewrite "@RewriteURL";
+}
+link[href] {
+  attribute: * rewrite "@RewriteRegisteredDomain";
+}
