@@ -1557,10 +1557,6 @@
         <replacement>http://www.musashi-engineering.co.jp/translation/common/img/hd_btn_inquiry2.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.musashi-engineering.co.jp/common/img/btn_sub_inquiry2.gif</pattern>
-        <replacement>http://www.musashi-engineering.co.jp/english/common/img/btn_sub_inquiry.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.musashi-engineering.co.jp/img/iso_j.gif</pattern>
         <replacement>http://www.musashi-engineering.co.jp/img/iso_e.gif</replacement>
     </replace-rule>
