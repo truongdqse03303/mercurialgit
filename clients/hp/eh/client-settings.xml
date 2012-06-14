@@ -4,7 +4,7 @@
   <name>東武百貨店</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>tobu-dept/service 8d23539e07fb5d6b295b470150d0c86a2e28e87e</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>

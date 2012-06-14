@@ -4,7 +4,7 @@
   <name>株式会社ラネット</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>ranet/service f7cabb673ac395f7a0bbacd8e0c4d68044926f6e</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
