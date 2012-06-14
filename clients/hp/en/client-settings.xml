@@ -4,7 +4,7 @@
   <name>北広島市</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>kitahiroshima/service 4db70c892c6c047c60e6b9555138b49270c0331e</licence>
+  <licence>cs-kitahiroshima/service 71d32c8d6196798a717577776fb131360a1d9401</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
