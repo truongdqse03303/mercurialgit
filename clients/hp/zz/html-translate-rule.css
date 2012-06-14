@@ -30,6 +30,12 @@ section.guideBox div.infomation p.voice strong {
 }
 
 // @RULESET
+// URL #= http://test(?:4ch)?\.visitjapan-tohoku\.org/zone/[^/]+/salon/.*
+ul.salonList li div.infomation h2 span {
+  text-flow: break;
+}
+
+// @RULESET
 // URL #= http://test(?:4ch)?\.visitjapan-tohoku\.org/zone/.*
 section.listNarrow h1 span {
   text-flow: break;
