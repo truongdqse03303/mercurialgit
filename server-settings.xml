@@ -30,7 +30,7 @@
     <url application="hp" client="cr">http://tsextra.transer.com/</url>
     <url application="hp" client="dj">http://tsextra.transer.com/</url>
     <url application="hp" client="zz">http://tsextra.transer.com/</url>
-    <url application="hpstage" client="zz">http://tsextra.transer.com/</url>
+    <url application="hpstage" client="cr">http://tsextra.transer.com/</url>
     <connection-timeout>5000</connection-timeout>
     <socket-timeout>300000</socket-timeout>
   </translation-server>
