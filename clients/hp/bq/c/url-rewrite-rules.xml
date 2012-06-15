@@ -444,4 +444,8 @@
         <pattern>http://www.pref.hiroshima.lg.jp/img/life/h1_title18.jpg</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/ck/life/h1_title18.jpg</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/banner/bnr_innovation.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/ck/banner/bnr_innovation.gif</replacement>
+    </replace-rule>
 </replace-rule-list>
