@@ -4,16 +4,16 @@ ul.pagingNumber {
 ul.pagingNumber > li {
   content: translate split exclude "\\[|\\]";
 }
-ul.pagingNumber > li > a, ul.pagingNumber > li > b {
+ul.pagingNumber > li > a, ul.pagingNumber > li > b, footer dl.reference * {
   text-flow: break;
 }
 
 // @RULESET
-// URL #= http://www3?\.visitjapan-tohoku\.org/(?:index\.html)?(?:\?.+)?
+// URL #= http://www3?\.visitjapan-tohoku\.org/(?:index\.html)?(?:\?.+)?$
 div#crslConsole {
   attribute: cltx add 'exclude';
 }
-div#topMain section.listZone section.zoneBox a h1 *, dl.recommend dt.author span {
+div#topMain div#topPickup *, dl.recommend dt.author span {
   text-flow: break;
 }
 
@@ -37,7 +37,7 @@ ul.salonList li div.infomation h2 span {
 
 // @RULESET
 // URL #= http://www3?\.visitjapan-tohoku\.org/zone/.*
-section.listNarrow h1 span {
+section.zoneBox h1 span, section.listNarrow h1 span {
   text-flow: break;
 }
 
