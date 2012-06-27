@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM SYSTEM MEDICAL CHEMICAL";
+}
+@engine ntmc/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM SYSTEM MEDICAL CHEMICAL";
+}
+@engine ntmc/service {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC CROSS_TM SYSTEM MEDICAL CHEMICAL";
+}

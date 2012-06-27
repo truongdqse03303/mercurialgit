@@ -1,0 +1,6 @@
+// @ RULESET
+// URL = http://www.ntmc.go.jp/index_m.html
+textarea {
+  content: translate;
+}
+

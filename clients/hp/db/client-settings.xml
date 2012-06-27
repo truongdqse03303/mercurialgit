@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="yamagatakanko.com" />
+    <request hostname="www.yamagatakanko.com" />
     <request hostname="yamagatakanko.jp" />
     <request hostname="n.tukiyama.jp" path="/yamagatabi/official/|/yamagatabi/community/" />
   </request-list>

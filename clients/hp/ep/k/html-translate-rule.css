@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine kuriharacity/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM";
+}
+@engine kuriharacity/service {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM";
+}

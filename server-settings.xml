@@ -4,6 +4,14 @@
   <application>
     <id>hp</id>
     <domain>hp.transer.com</domain>
+    <extension-param>
+      <param-name>ts.client.id</param-name>
+      <param-value>@homepage</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>use.replace.rule</param-name>
+      <param-value>true</param-value>
+    </extension-param>
   </application>
   <application>
     <id>hpstage</id>
@@ -20,6 +28,14 @@
     <extension-param>
       <param-name>tm-*|img.licence.param</param-name>
       <param-value>clkey</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>img.common.rule</param-name>
+      <param-value>classpath:/script/rule/img</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>cache.translate.rule</param-name>
+      <param-value>false</param-value>
     </extension-param>
   </application>
   

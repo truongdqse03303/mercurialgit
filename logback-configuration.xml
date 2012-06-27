@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="10 seconds">
-  
+  <!-- properties -->
+  <property name="LOG_DIR" value="/var/log/site-translate" />
+
+  <!-- appenders -->
   <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-    <file>/var/log/site-translate/site-translate.log</file>
+    <file>${LOG_DIR}/site-translate.log</file>
     <append>true</append>
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
       <!-- daily rollover -->
-      <fileNamePattern>/var/log/site-translate_%d{yyyy-MM}.log.gz</fileNamePattern>
+      <fileNamePattern>${LOG_DIR}/site-translate_%d{yyyy-MM}.log.gz</fileNamePattern>
       <maxHistory>6</maxHistory>
     </rollingPolicy>
     <encoder>
@@ -20,7 +23,40 @@
       <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{0} - %msg%n</pattern>
     </encoder>
   </appender>
-  
+
+  <appender name="HP" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_DIR}/hp-request.log</file>
+    <append>true</append>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <!-- daily rollover -->
+      <fileNamePattern>${LOG_DIR}/hp-request-%d{yyyy-MM}.log.gz</fileNamePattern>
+      <maxHistory>6</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS}\t[%thread]\t%-5level\t%msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="HPSTAGE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_DIR}/hpstage-request.log</file>
+    <append>true</append>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <!-- daily rollover -->
+      <fileNamePattern>${LOG_DIR}/hpstage-request-%d{yyyy-MM}.log.gz</fileNamePattern>
+      <maxHistory>6</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS}\t[%thread]\t%-5level\t%msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- loggers -->
+  <logger name="hp" level="INFO" additivity="false">
+    <appender-ref ref="HP" />
+  </logger>
+  <logger name="hpstage" level="WARN" additivity="false">
+    <appender-ref ref="HPSTAGE" />
+  </logger>
   <root level="INFO">
     <appender-ref ref="FILE" />
   </root>
