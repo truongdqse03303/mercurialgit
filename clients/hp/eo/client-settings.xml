@@ -4,7 +4,7 @@
   <name>東京医療センター</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
+  <licence>ntmc/service af3e70b2dc668f79e9e0cb4046e6627460553744</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
