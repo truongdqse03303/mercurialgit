@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="www.visitjapan-tohoku.org" />
     <request hostname="www3.visitjapan-tohoku.org" />
+    <request hostname="www4.visitjapan-tohoku.org" />
   </request-list>
 
 <!--
@@ -35,15 +36,15 @@
     <type name="redirect">jp.co.crosslanguage.translate.url.request.process.resource.handler.RedirectResourceHandler</type>
     <param>
       <param-name>redirect.from</param-name>
-      <param-value>http://www3?\.visitjapan-tohoku\.org/(?:search|program|event|spot|zone/(?:shimokita|asamushi|hirosaki|hachinohe|tsugaru|towada|morioka|ninohe|hanamaki|kitakami|hiraizumi|shirakami|oga|tazawako|yokote|shonai|mogami|ginzan|kaminoyama|yonezawa|oosaki|sendai|matsushima|shiroishi|fukushima|aizu|koriyama|iwaki))/.*</param-value>
+      <param-value>http://www3\.visitjapan-tohoku\.org/(?:search|program|event|spot|zone/(?:shimokita|asamushi|hirosaki|hachinohe|tsugaru|towada|morioka|ninohe|hanamaki|kitakami|hiraizumi|shirakami|oga|tazawako|yokote|shonai|mogami|ginzan|kaminoyama|yonezawa|oosaki|sendai|matsushima|shiroishi|fukushima|aizu|koriyama|iwaki))/.*</param-value>
     </param>
     <param>
       <param-name>c.redirect.to</param-name>
-      <param-value>http://www.visitjapan-tohoku.org/info/news.html</param-value>
+      <param-value>http://www3.visitjapan-tohoku.org/info/news.html</param-value>
     </param>
     <param>
       <param-name>t.redirect.to</param-name>
-      <param-value>http://www.visitjapan-tohoku.org/info/news.html</param-value>
+      <param-value>http://www3.visitjapan-tohoku.org/info/news.html</param-value>
     </param>
   </resource-handler>
 

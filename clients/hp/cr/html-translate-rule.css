@@ -9,7 +9,8 @@ ul.pagingNumber > li > a, ul.pagingNumber > li > b, footer dl.reference * {
 }
 
 // @RULESET
-// URL #= http://www3?\.visitjapan-tohoku\.org/(?:index\.html)?(?:\?.+)?$
+// URL #= http://www\.visitjapan-tohoku\.org/(?:index\.html)?(?:\?.+)?$
+// URL #= http://www[34]\.visitjapan-tohoku\.org/(?:index\.html)?(?:\?.+)?$
 div#crslConsole {
   attribute: cltx add 'exclude';
 }
@@ -18,37 +19,43 @@ div#topMain div#topPickup *, dl.recommend dt.author span {
 }
 
 // @RULESET
-// URL #= http://www3?\.visitjapan-tohoku\.org/zone/[^/]+/access/.*
+// URL #= http://www\.visitjapan-tohoku\.org/zone/[^/]+/access/.*
+// URL #= http://www[34]\.visitjapan-tohoku\.org/zone/[^/]+/access/.*
 p.zoneName {
   content: translate split exclude "\\s";
 }
 
 // @RULESET
-// URL #= http://www3?\.visitjapan-tohoku\.org/zone/[^/]+/guide/.*
+// URL #= http://www\.visitjapan-tohoku\.org/zone/[^/]+/guide/.*
+// URL #= http://www[34]\.visitjapan-tohoku\.org/zone/[^/]+/guide/.*
 section.guideBox div.infomation p.voice strong {
   text-flow: break;
 }
 
 // @RULESET
-// URL #= http://www3?\.visitjapan-tohoku\.org/zone/[^/]+/salon/.*
+// URL #= http://www\.visitjapan-tohoku\.org/zone/[^/]+/salon/.*
+// URL #= http://www[34]\.visitjapan-tohoku\.org/zone/[^/]+/salon/.*
 ul.salonList li div.infomation h2 span {
   text-flow: break;
 }
 
 // @RULESET
-// URL #= http://www3?\.visitjapan-tohoku\.org/zone/.*
+// URL #= http://www\.visitjapan-tohoku\.org/zone/.*
+// URL #= http://www[34]\.visitjapan-tohoku\.org/zone/.*
 section.zoneBox h1 span, section.listNarrow h1 span {
   text-flow: break;
 }
 
 // @RULESET
-// URL #= http://www3?\.visitjapan-tohoku\.org/(?:program|spot)/.*
+// URL #= http://www\.visitjapan-tohoku\.org/(?:program|spot)/.*
+// URL #= http://www[34]\.visitjapan-tohoku\.org/(?:program|spot)/.*
 p.zoneName {
   content: translate split exclude "\\s";
 }
 
 // @RULESET
-// URL #= http://www3?\.visitjapan-tohoku\.org/event/.*
+// URL #= http://www\.visitjapan-tohoku\.org/event/.*
+// URL #= http://www[34]\.visitjapan-tohoku\.org/event/.*
 p.zoneName {
   content: translate split exclude "\\s";
 }
@@ -60,7 +67,8 @@ table > caption > em {
 }
 
 // @RULESET
-// URL #= http://www3?\.visitjapan-tohoku\.org/supporter/famous/.*
+// URL #= http://www\.visitjapan-tohoku\.org/supporter/famous/.*
+// URL #= http://www[34]\.visitjapan-tohoku\.org/supporter/famous/.*
 section.supporterBox h1.name span {
   text-flow: break;
   attribute: style add 'display:block;';
