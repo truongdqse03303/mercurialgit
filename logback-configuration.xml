@@ -2,6 +2,7 @@
 <configuration scan="true" scanPeriod="10 seconds">
   <!-- properties -->
   <property name="LOG_DIR" value="/var/log/site-translate" />
+  <property name="FILTER_PATTERN" value="(?:request page is not found|favicon.ico|Connection reset)" />
 
   <!-- appenders -->
   <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -35,6 +36,17 @@
     <encoder>
       <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS}\t[%thread]\t%-5level\t%msg%n</pattern>
     </encoder>
+    <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+      <evaluator>
+        <matcher>
+          <name>pattern1</name>
+          <regex>${FILTER_PATTERN}</regex>
+        </matcher>
+        <expression>pattern1.matches(formattedMessage)</expression>
+      </evaluator>
+      <OnMismatch>NEUTRAL</OnMismatch>
+      <OnMatch>DENY</OnMatch>
+    </filter>
   </appender>
 
   <appender name="HPSTAGE" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -48,6 +60,17 @@
     <encoder>
       <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS}\t[%thread]\t%-5level\t%msg%n</pattern>
     </encoder>
+    <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+      <evaluator>
+        <matcher>
+          <name>pattern1</name>
+          <regex>${FILTER_PATTERN}</regex>
+        </matcher>
+        <expression>pattern1.matches(formattedMessage)</expression>
+      </evaluator>
+      <OnMismatch>NEUTRAL</OnMismatch>
+      <OnMatch>DENY</OnMatch>
+    </filter>
   </appender>
 
   <!-- loggers -->
