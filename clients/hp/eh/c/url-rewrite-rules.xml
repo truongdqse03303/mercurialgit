@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <replace-rule-list>
     <replace-rule>
+        <pattern>http://www.tobu-dept.jp/swf/images/menu_01.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/menu_01.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/swf/images/menu_02.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/menu_02.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/swf/images/menu_03.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/menu_03.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/swf/images/menu_04.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/menu_04.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/swf/images/menu_05.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/menu_05.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/mst/dtm/tpl/116/1/menu_01.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/menu_01.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/mst/dtm/tpl/116/1/menu_02.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/menu_02.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/mst/dtm/tpl/116/1/menu_03.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/menu_03.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/mst/dtm/tpl/116/1/menu_04.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/menu_04.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/mst/dtm/tpl/116/1/menu_05.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/menu_05.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/mst/dtm/tpl/117/1/shopguide.jpg</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/shopguide.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/mst/dtm/tpl/117/1/goods2.jpg</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/goods2.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/cnt/3/12442/1/ttl01.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/ttl01.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/cnt/3/12297/1/ttl021.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/ttl021.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/mst/dtm/tpl/112/1/ttl03.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/ttl03.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tobu-dept.jp/data/open/cnt/3/12296/1/bunner.gif</pattern>
+        <replacement>http://www.tobu-dept.jp/swf/language/bunner.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.tobu-dept.jp/swf/sub_menu_ike.swf</pattern>
         <replacement>http://www.tobu-dept.jp/swf/language/sub_menu_ike_chu_kan.swf</replacement>
     </replace-rule>
