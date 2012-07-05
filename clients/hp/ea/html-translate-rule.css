@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://shibuyakukanko.jp/information/
+a[href#=".+\\.pdf"] {
+  attribute: href rewrite "{absurl}";
+}
