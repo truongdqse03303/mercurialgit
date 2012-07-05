@@ -14,6 +14,7 @@
   <!-- 翻訳しないURLの一覧 -->
   <ignore-url-list>
     <url>http://www\.jrhakatacity\.com/translation/$</url>
+    <url>http://www\.jrhakatacity\.com/shop/beautyandyouth/blog/images/.+\.BMP</url>
   </ignore-url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
