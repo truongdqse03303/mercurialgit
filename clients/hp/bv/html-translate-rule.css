@@ -3,3 +3,9 @@
 div.box_list table td.shop span.cat {
   text-flow: break;
 }
+
+// @RULESET
+// URL ^= http://www.jrhakatacity.com/shop/beautyandyouth/blog/
+a[href#=".+/blog/images/.+\\.BMP"] {
+  attribute: href rewrite "{absurl}";	
+}
