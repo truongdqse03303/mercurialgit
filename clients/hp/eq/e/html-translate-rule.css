@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM SYSTEM COMPUTER INTERNET";
+}
+@engine jtb/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM SYSTEM COMPUTER";
+}
+@engine jtb/service {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC CROSS_TM SYSTEM COMPUTER";
+}
+
+div#side_top > div.course {
+  attribute: style add 'font-size: 70% !important;';
+}

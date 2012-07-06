@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM SYSTEM COMPUTER";
+}
+@engine jtb/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM SYSTEM COMPUTER";
+}
+@engine jtb/service {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM SYSTEM COMPUTER";
+}

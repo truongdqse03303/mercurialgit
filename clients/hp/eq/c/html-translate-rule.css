@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM SYSTEM COMPUTER";
+}
+@engine jtb/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM SYSTEM COMPUTER";
+}
+@engine jtb/service {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC CROSS_TM SYSTEM COMPUTER";
+}
+
+body {
+  attribute: lang add 'zh';
+}

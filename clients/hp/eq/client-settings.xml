@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社JTB</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>jtb/service 56ff72a3494687562595f364d7c6693ccfda2973</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.jtb.co.jp">
+      <path-list>
+        <path value="/b/jtb1748/.*" />
+        <path value="/(?:common/)?(?:js|css)/.+" />
+      </path-list>
+    </request>
+    <request hostname="pottering-shuri.net" />
+  </request-list>
+
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <ignore-fragment-translate-list>
+    <url>http://www\.jtb\.co\.jp/b/jtb1748/member/.+</url>
+  </ignore-fragment-translate-list>
+
+</client-settings>
