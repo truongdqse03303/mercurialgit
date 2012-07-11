@@ -4,9 +4,9 @@
 }
 @engine ntmc/main {
   eid: CR-JCT;
-  dictionaries: "CLIENT_DIC CLIENT_TM SYSTEM MEDICAL CHEMICAL";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER SYSTEM MEDICAL CHEMICAL";
 }
-@engine ntmc/service {
+@engine ntmc/cross {
   eid: CR-JCT;
-  dictionaries: "CROSS_DIC CROSS_TM SYSTEM MEDICAL CHEMICAL";
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM MEDICAL CHEMICAL";
 }

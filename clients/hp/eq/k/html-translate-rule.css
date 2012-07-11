@@ -4,9 +4,9 @@
 }
 @engine jtb/main {
   eid: CR-JK;
-  dictionaries: "CLIENT_DIC CLIENT_TM SYSTEM COMPUTER";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER SYSTEM COMPUTER";
 }
-@engine jtb/service {
+@engine jtb/cross {
   eid: CR-JK;
-  dictionaries: "CROSS_TM SYSTEM COMPUTER";
+  dictionaries: "CROSS_TM_MASTER SYSTEM COMPUTER";
 }

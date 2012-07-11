@@ -4,9 +4,9 @@
 }
 @engine kuriharacity/main {
   eid: CR-JK;
-  dictionaries: "CLIENT_DIC CLIENT_TM";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
-@engine kuriharacity/service {
+@engine kuriharacity/cross {
   eid: CR-JK;
-  dictionaries: "CROSS_TM";
+  dictionaries: "CROSS_TM_MASTER";
 }
