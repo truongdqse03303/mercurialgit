@@ -4,7 +4,7 @@
   <name>松江市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>matsue/service matsue/service 34e31ba9cc32f0bbd54bc62b0e4fde48bf831c99</licence>
+  <licence>matsue/service 34e31ba9cc32f0bbd54bc62b0e4fde48bf831c99</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
