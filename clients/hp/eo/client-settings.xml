@@ -10,7 +10,4 @@
   <request-list>
     <request hostname="www.ntmc.go.jp" />
   </request-list>
-
-  <!-- サイトで使用される文字セット -->
-  <charset>Shift_JIS</charset>
 </client-settings>
