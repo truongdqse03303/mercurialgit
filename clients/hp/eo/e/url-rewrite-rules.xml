@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <replace-rule-list>
     <replace-rule>
-        <pattern>http://www.ntmc.go.jp/themes/common/images/banner_06.jpg</pattern>
-        <replacement>http://www.ntmc.go.jp/themes/common/images/en/banner_06.jpg</replacement>
+        <pattern>http://www.ntmc.go.jp/uploads/fckeditor/banner/banner_06.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/uploads/fckeditor/banner/en/banner_06.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ntmc.go.jp/themes/common/images/banner_07.jpg</pattern>
-        <replacement>http://www.ntmc.go.jp/themes/common/images/en/banner_07.jpg</replacement>
+        <pattern>http://www.ntmc.go.jp/uploads/fckeditor/banner/banner_07.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/uploads/fckeditor/banner/en/banner_07.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.ntmc.go.jp/themes/common/images/bg_top.png</pattern>
@@ -61,32 +61,32 @@
         <replacement>http://www.ntmc.go.jp/themes/common/images/en/header_logo.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ntmc.go.jp/themes/common/images/lbnr_01.jpg</pattern>
-        <replacement>http://www.ntmc.go.jp/themes/common/images/en/lbnr_01.jpg</replacement>
+        <pattern>http://www.ntmc.go.jp/uploads/fckeditor/banner/lbnr_01.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/uploads/fckeditor/banner/en/lbnr_01.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ntmc.go.jp/themes/common/images/lbnr_02.jpg</pattern>
-        <replacement>http://www.ntmc.go.jp/themes/common/images/en/lbnr_02.jpg</replacement>
+        <pattern>http://www.ntmc.go.jp/uploads/fckeditor/banner/lbnr_02.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/uploads/fckeditor/banner/en/lbnr_02.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ntmc.go.jp/themes/common/images/lbnr_03.jpg</pattern>
-        <replacement>http://www.ntmc.go.jp/themes/common/images/en/lbnr_03.jpg</replacement>
+        <pattern>http://www.ntmc.go.jp/uploads/fckeditor/banner/lbnr_03.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/uploads/fckeditor/banner/en/lbnr_03.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ntmc.go.jp/themes/common/images/lbnr_04.jpg</pattern>
-        <replacement>http://www.ntmc.go.jp/themes/common/images/en/lbnr_04.jpg</replacement>
+        <pattern>http://www.ntmc.go.jp/uploads/fckeditor/banner/lbnr_04.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/uploads/fckeditor/banner/en/lbnr_04.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ntmc.go.jp/themes/common/images/lbnr_05.jpg</pattern>
-        <replacement>http://www.ntmc.go.jp/themes/common/images/en/lbnr_05.jpg</replacement>
+        <pattern>http://www.ntmc.go.jp/uploads/fckeditor/banner/lbnr_05.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/uploads/fckeditor/banner/en/lbnr_05.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ntmc.go.jp/themes/common/images/lbnr_06.jpg</pattern>
-        <replacement>http://www.ntmc.go.jp/themes/common/images/en/lbnr_06.jpg</replacement>
+        <pattern>http://www.ntmc.go.jp/uploads/fckeditor/banner/lbnr_06.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/uploads/fckeditor/banner/en/lbnr_06.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ntmc.go.jp/themes/common/images/lbnr_07.jpg</pattern>
-        <replacement>http://www.ntmc.go.jp/themes/common/images/en/lbnr_07.jpg</replacement>
+        <pattern>http://www.ntmc.go.jp/uploads/fckeditor/banner/lbnr_07.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/uploads/fckeditor/banner/en/lbnr_07.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.ntmc.go.jp/themes/common/images/lmenu_ttl_guide.jpg</pattern>
@@ -287,5 +287,13 @@
     <replace-rule>
         <pattern>http://www.ntmc.go.jp/themes/common/images/font_s.jpg</pattern>
         <replacement>http://www.ntmc.go.jp/themes/common/images/en/font_s.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ntmc.go.jp/themes/common/images/tab_info_o.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/themes/common/images/en/tab_info_o.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.ntmc.go.jp/themes/common/images/tab_news_o.jpg</pattern>
+        <replacement>http://www.ntmc.go.jp/themes/common/images/en/tab_news_o.jpg</replacement>
     </replace-rule>
 </replace-rule-list>
