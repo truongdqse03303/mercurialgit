@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "SHIBUYAKUKANKO_DIC SHIBUYAKUKANKO_TM CROSS_TM";
 }
+@engine shibuyakukanko/main {
+  eid: CR-JK;
+  dictionaries: "SHIBUYAKUKANKO_DIC_MASTER SHIBUYAKUKANKO_TM_MASTER";
+}
+@engine shibuyakukanko/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
