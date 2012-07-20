@@ -19,7 +19,7 @@
 
   <!-- HTML断片翻訳を行わないURLの一覧 -->
   <ignore-fragment-translate-list>
-    <url>http://www\.jtb\.co\.jp/b/jtb1748/member/.+</url>
+    <url>http://www\.jtb\.co\.jp/b/jtb1748/(?:member|item)/.+</url>
   </ignore-fragment-translate-list>
 
 </client-settings>
