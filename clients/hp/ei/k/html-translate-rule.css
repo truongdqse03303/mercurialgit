@@ -2,3 +2,13 @@
   eid: CR-JK;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
 }
+
+a[href="http://www.jhpds.net/kirishimakokusai/uw/uwp3100/uww3101.do?yadNo=322385"] {
+  attribute: href rewrite "http://www.travel.rakuten.co.kr/hotelinfo/43/18243/";
+}
+
+// @RULESET
+// URL = http://www.kirikoku.co.jp/pp/yoyaku.html
+table > tr > td > a[href="http://www.jhpds.net/kirishimakokusai/uw/uwp3100/uww3101.do?yadNo=322385"] {
+  attribute: href rewrite "http://www.japanican.com/Korean/hotels/shisetsudetail.aspx?ar=46&sar=460202&st=8604005&pn=2&rn=1";
+}

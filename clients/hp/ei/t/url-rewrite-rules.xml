@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.kirikoku.co.jp/img/sb/said_yoyaku.jpg</pattern>
+        <replacement>http://www.kirikoku.co.jp/booking/cyuk1.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.kirikoku.co.jp/pp/imag/puran_bana.jpg</pattern>
+        <replacement>http://www.kirikoku.co.jp/booking/cyuk2.jpg</replacement>
+    </replace-rule>
+</replace-rule-list>
