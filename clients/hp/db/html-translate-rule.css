@@ -5,6 +5,10 @@ div.kiji_contents > h3 * {
   text-flow: break;
   content: translate split exclude "\\s";
 }
+div.kankodb_data_title > span {
+  text-flow: break;
+  content: ignore;
+}
 
 // @RULESET
 // URL #= http://yamagatakanko.com/(?:spot|food|omiyage|event|onsen)/.*
