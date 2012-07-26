@@ -1,3 +1,12 @@
 @engine default {
   eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
+}
+@engine cross/demo {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+
+body {
+  attribute: lang add 'zh';
 }
