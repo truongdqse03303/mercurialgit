@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>有田観光協会</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>arita/service 1914a0d020a2777601f9282500a906bfad73bc0c</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.arita.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

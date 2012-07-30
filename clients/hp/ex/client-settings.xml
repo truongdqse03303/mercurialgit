@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>マルイ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>marui/service 65f2093b0a3dff8296556f8864f34059762ee21d</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.0101.co.jp" />
+  </request-list>
+
+  <!-- CGIのレスポンスを翻訳処理しないように設定 -->
+  <resource-handler>
+    <type name="marui-cgi">jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www.0101.co.jp/cgi-bin/marui_to_voi/.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>BINARY</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+  <charset url="http://www.0101.co.jp/common/js/csv.js">Shift_JIS</charset>
+</client-settings>

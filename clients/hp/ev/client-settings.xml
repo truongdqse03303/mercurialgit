@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>南州交通</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nansyu-bus/service 83b999658ccee789fe4ea2e1f3efb39205b5cd81</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.nansyu-bus.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>
