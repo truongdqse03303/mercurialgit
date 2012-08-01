@@ -1,6 +1,6 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM DEPART";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM NETSHOP FASHION DEPART";
 }
 
 body {

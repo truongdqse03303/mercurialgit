@@ -1,6 +1,6 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "ISETAN-KYOTO_DIC ISETAN-KYOTO_TM";
+  dictionaries: "ISETAN-KYOTO_DIC ISETAN-KYOTO_TM NETSHOP FASHION DEPART";
 }
 
 body {

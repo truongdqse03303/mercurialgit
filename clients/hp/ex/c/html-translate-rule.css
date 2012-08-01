@@ -1,14 +1,14 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM NETSHOP FASHION";
 }
 @engine marui/main {
   eid: CR-JC;
-  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER NETSHOP FASHION";
 }
 @engine marui/cross {
   eid: CR-JC;
-  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER NETSHOP FASHION";
 }
 
 body {

@@ -1,6 +1,6 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "KEIONET_DIC KEIONET_TM CROSS_TM DEPART NETSHOP FASHION";
+  dictionaries: "KEIONET_DIC KEIONET_TM CROSS_TM NETSHOP FASHION DEPART";
 }
 
 body {

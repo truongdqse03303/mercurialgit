@@ -4,9 +4,9 @@
 }
 @engine marui/main {
   eid: CR-JE;
-  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM FASHION";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION";
 }
 @engine marui/cross {
   eid: CR-JE;
-  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION";
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
