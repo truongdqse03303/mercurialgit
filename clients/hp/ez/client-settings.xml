@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>流山市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nagareyama/service dc19ca73e958fb6417105a4d566bbbe502e1a645</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.nagareyama.chiba.jp" />
+  </request-list>
+</client-settings>

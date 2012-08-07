@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>東急百貨店</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tokyu-dept/service fc9fd3b8c07a75d8d0eccd2a72a5b30d1eebffa2</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.tokyu-dept.co.jp" />
+  </request-list>
+
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore_fragment">
+    <url>http://www\.tokyu-dept\.co\.jp/shinqs/.*</url>
+  </url-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

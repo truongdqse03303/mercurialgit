@@ -1,0 +1,5 @@
+// @ RULESET
+// URL ^= http://global.arnest1.co.jp/detail.php
+table.tb1 tr td * {
+  text-flow: break;
+}

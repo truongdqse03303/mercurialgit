@@ -1,0 +1,5 @@
+// @ RULESET
+// URL ^= http://www.tokyu-dept.co.jp/toyoko/shop/index.html
+div.jAlpha table * {
+  content: ignore;
+}
