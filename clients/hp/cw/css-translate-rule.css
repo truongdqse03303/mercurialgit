@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.txhd.co.jp/common/css/base.css
+@preprocess {
+  replace: 'body \\{' '#clwrapper {';
+}
