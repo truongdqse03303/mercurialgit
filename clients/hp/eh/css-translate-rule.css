@@ -1,5 +1,5 @@
 // @RULESET
 // URL #= http://www.tobu-dept.jp/data/open/mst/cssm/css/\d+/\d+/style\.css
 @preprocess {
-  replace: 'body \\{' '#clwrapper$1 {';
+  replace: 'body \\{' '#clwrapper {';
 }
