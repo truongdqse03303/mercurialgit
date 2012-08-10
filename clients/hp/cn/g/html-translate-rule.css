@@ -2,6 +2,14 @@
   eid: BR-JA.DE.EN;
   dictionaries: "MUSASHI-ENGINEERING_DIC MUSASHI-ENGINEERING_TM CROSS_DIC CROSS_TM SYSTEM MECHA CHEMICAL";
 }
+@engine musashi-engineering/main {
+  eid: BR-JA.DE.EN;
+  dictionaries: "MUSASHI-ENGINEERING_DIC_MASTER MUSASHI-ENGINEERING_TM_MASTER SYSTEM MECHA CHEMICAL";
+}
+@engine musashi-engineering/cross {
+  eid: BR-JA.DE.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM MECHA CHEMICAL";
+}
 
 @rewrite RewriteInquiry {
   if (absurl matches "^http://www\\.musashi-engineering\\.co\\.jp/inquiry/?$") return "http://www.musashi-engineering.co.jp/germany/inquiry/";
