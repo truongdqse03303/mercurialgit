@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.city.matsue.shimane.jp/index_img/top_title.gif</pattern>
+        <replacement>http://www.city.matsue.shimane.jp/index_img/en/top_title.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.matsue.shimane.jp/index_img/menu1.gif</pattern>
+        <replacement>http://www.city.matsue.shimane.jp/index_img/en/menu1.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.matsue.shimane.jp/index_img/menu1a.gif</pattern>
+        <replacement>http://www.city.matsue.shimane.jp/index_img/en/menu1a.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.matsue.shimane.jp/index_img/menu2.gif</pattern>
+        <replacement>http://www.city.matsue.shimane.jp/index_img/en/menu2.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.matsue.shimane.jp/index_img/menu2a.gif</pattern>
+        <replacement>http://www.city.matsue.shimane.jp/index_img/en/menu2a.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www1.city.matsue.shimane.jp/images/gikai-title.gif</pattern>
+        <replacement>http://www.city.matsue.shimane.jp/index_img/en/gikai-title.gif</replacement>
+    </replace-rule>
+</replace-rule-list>
