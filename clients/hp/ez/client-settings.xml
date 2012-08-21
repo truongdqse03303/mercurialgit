@@ -11,4 +11,22 @@
     <request hostname="61.122.228.98" />
     <request hostname="www.city.nagareyama.chiba.jp" />
   </request-list>
+
+  <!-- robots.txtの設定。サイト公開まで -->
+  <resource-handler>
+    <type name="robotstxt">jp.co.crosslanguage.translate.url.request.process.resource.handler.ContentRespondResourceHandler</type>
+    <param>
+      <param-name>response.url.pattern</param-name>
+      <param-value>.+/robots.txt</param-value>
+    </param>
+    <param>
+      <param-name>response.content.path</param-name>
+      <param-value>classpath:/script/robots.txt</param-value>
+    </param>
+    <param>
+      <param-name>response.content.type</param-name>
+      <param-value>text/plain</param-value>
+    </param>
+    <priority>1</priority>
+  </resource-handler>
 </client-settings>
