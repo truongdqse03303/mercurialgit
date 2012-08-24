@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/common/images/newest_tab.gif</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/zht/newest_tab.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/common/images/shop_navi.gif</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/zht/shop_navi.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/common/images/shop_side_tab.gif</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/zht/shop_side_tab.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/common/images/top_navi.gif</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/zht/top_navi.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/common/images/header_shop.gif</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/zht/header_shop.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/common/images/header_shop_on.png</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/zht/header_shop_on.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/image/meisho_logo.gif</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/zht/meisho_logo.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/honten/images/shop_top_title.gif</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/zht/shop_top_title_ht.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/toyoko/images/shop_top_title.gif</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/zht/shop_top_title_ty.gif</replacement>
+    </replace-rule>
+</replace-rule-list>
