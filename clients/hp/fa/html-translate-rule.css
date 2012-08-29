@@ -7,3 +7,16 @@
 div.jAlpha table * {
   content: ignore;
 }
+div.floor dl dd a span {
+  text-flow: break;
+}
+
+// @RULESET
+// URL #= http://www.tokyu-dept.co.jp/[^/]+/shop/[^/]+_list.html.+
+div.shopList div.text a {
+  text-flow: break;
+}
+div.shopList div.text span {
+  text-flow: break;
+  content: translate split ignore "\\[|\\]";
+}
