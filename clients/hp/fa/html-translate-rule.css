@@ -13,10 +13,10 @@ div.floor dl dd a span {
 
 // @RULESET
 // URL #= http://www.tokyu-dept.co.jp/[^/]+/shop/[^/]+_list.html.+
-div.shopList div.text a {
+div.shopList div.text a, div.shopList div.title h2 {
   text-flow: break;
 }
-div.shopList div.text span {
+div.shopList div.text span, div.shopList div.title h2 span {
   text-flow: break;
-  content: translate split ignore "\\[|\\]";
+  content: translate split exclude "\\[|\\]";
 }
