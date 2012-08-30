@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>日本BS放送株式会社</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>bs11/service 05bba84243587e41b412b4458cf0bf784e7d06a1</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.bs11.jp" />
+  </request-list>
+
+  <!-- 翻訳対象外URL -->
+  <url-list type="ignore">
+    <url>http://www\.bs11\.jp/news/.*</url>
+    <url>http://www\.bs11\.jp/anime/.*</url>
+  </url-list>
+
+  <url-list type="ignore-fragment">
+    <url>.+</url>
+  </url-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

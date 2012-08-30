@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>倉敷化工株式会社</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kuraka/service 96f04616c6c3d0c4c32df59bb98ec2c57a59b47e</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kuraka.co.jp" path="/sanki/" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>

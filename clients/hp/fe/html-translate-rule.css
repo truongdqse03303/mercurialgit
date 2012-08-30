@@ -1,0 +1,5 @@
+// @ RULESET
+// URL = http://www.navi-site.com/qigong/yiyuan.html
+table td[background] {
+  attribute: * rewrite "{absurl}";
+}
