@@ -213,16 +213,8 @@
         <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_zoom_normal_cn.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_zoom_normal_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_zoom_normal_ov_cn.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_zoom_large.jpg</pattern>
         <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_zoom_large_cn.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_zoom_large_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_zoom_large_ov_cn.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/tit_info.jpg</pattern>
@@ -261,24 +253,12 @@
         <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_floor_cn.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_floor_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_floor_ov_cn.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_category.jpg</pattern>
         <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_category_cn.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_category_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_category_ov_cn.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_initial.jpg</pattern>
         <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_initial_cn.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_initial_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_search_initial_ov_cn.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/btn_size.jpg</pattern>
@@ -415,10 +395,6 @@
     <replace-rule>
         <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/btn_list_shop.jpg</pattern>
         <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/btn_list_shop_cn.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/btn_list_shop_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/btn_list_shop_ov_cn.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.0101.co.jp/common/img/header/img_header.jpg</pattern>
@@ -661,120 +637,8 @@
         <replacement>http://www.0101.co.jp/topics/care/img/print_cn.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_860_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_860_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_980_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_980_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_060_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_060_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_030_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_030_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_740_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_740_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_140_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_140_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_130_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_130_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_480_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_480_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_580_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_580_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_840_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_840_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_540_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_540_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_010_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_010_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_160_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_160_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_820_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_820_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_520_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_520_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_770_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_770_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_610_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_610_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_780_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_780_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_530_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_530_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_790_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_790_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_660_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_660_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_240_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_240_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_410_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_410_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_360_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_360_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_880_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_880_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_850_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_850_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_830_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_830_ov_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_760.jpg</pattern>
         <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_760_en.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_760_ov.jpg</pattern>
-        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/secondary/logo_760_ov_en.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.0101.co.jp/brands/img/search/side/title-brandsearch.gif</pattern>
@@ -795,5 +659,37 @@
     <replace-rule>
         <pattern>http://www.0101.co.jp/stores/img/map/btn_sby.gif</pattern>
         <replacement>http://www.0101.co.jp/stores/img/map/btn_sby_cn.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/btn_list.jpg</pattern>
+        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/btn_list_cn.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_2.jpg</pattern>
+        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_2_cn.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_3.jpg</pattern>
+        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_3_cn.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_3_02.jpg</pattern>
+        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_3_02_cn.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_3_03.jpg</pattern>
+        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_3_03_cn.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_3_04.jpg</pattern>
+        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_3_04_cn.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_4.jpg</pattern>
+        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_4_cn.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_4_02.jpg</pattern>
+        <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_4_02_cn.jpg</replacement>
     </replace-rule>
 </replace-rule-list>
