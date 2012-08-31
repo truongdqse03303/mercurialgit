@@ -16,7 +16,7 @@
     <type name="marui-cgi">jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://www.0101.co.jp/cgi-bin/marui_to_voi/.+</param-value>
+      <param-value>http://www\.0101\.co\.jp/(?:cgi-bin/marui_to_voi/.+|storetopics/[0-9]/[0-9]+/info\.xml)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>

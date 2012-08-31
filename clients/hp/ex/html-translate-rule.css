@@ -1,0 +1,6 @@
+// @RULESET
+// URL ^= http://www.0101.co.jp/stores/guide/store
+// URL ^= http://www.0101.co.jp/stores/guide/crosslanguage.fragment.translate/
+div#mainimg, div.wc_ranking_tab_leftbox {
+  attribute: cltx add 'exclude';
+}
