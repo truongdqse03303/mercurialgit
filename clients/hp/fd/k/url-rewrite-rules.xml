@@ -41,8 +41,8 @@
         <replacement>http://www.bs11.jp/common/images/ko/btn_life.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.bs11.jp/common/images/btn_education.gif)</pattern>
-        <replacement>http://www.bs11.jp/common/images/ko/btn_education.gif)</replacement>
+        <pattern>http://www.bs11.jp/common/images/btn_education.gif</pattern>
+        <replacement>http://www.bs11.jp/common/images/ko/btn_education.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.bs11.jp/common/images/btn_sports.gif</pattern>
