@@ -18,7 +18,6 @@
     <url>http://xn--3iqs55ayoa25z\.com/shop/sky_view/.*</url>
     <url>http://xn--3iqs55ayoa25z\.com/shop/ichigo_ichie/.*</url>
     <url>http://xn--3iqs55ayoa25z\.com/shop/yakushima_dou/.*</url>
-    <url>http://xn--3iqs55ayoa25z\.com/backoffice/res/mallmgr/[0-9]+</url>
   </ignore-url-list>
   
   <!-- URLとリソース種類のマッピングの設定 -->
