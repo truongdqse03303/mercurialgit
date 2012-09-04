@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>龍谷大学</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ryukoku/service d03878bbe1ede92bc930c84a1098e83621615f38</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.ryukoku.ac.jp">
+      <path-list>
+        <path value="/(?:english|chinese)2/" />
+      </path-list>
+    </request>
+  </request-list>
+  
+  <!-- HTML断片翻訳は行わない -->
+  <url-list type="ignore-fragment">
+    <url>.+</url>
+  </url-list>
+
+  <!-- CGIのレスポンスを翻訳処理しないように設定 -->
+  <resource-handler>
+    <type name="minphp">jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>HTML_FRAGMENT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+  
+  <!-- 免責ヘッダーは表示しない -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>false</param-value>
+  </extension-param>
+</client-settings>

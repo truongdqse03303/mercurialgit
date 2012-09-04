@@ -1,0 +1,8 @@
+/**
+ * @IGNORE_RULE: @RewritePatternMatchBinaryResource, @RewriteExactMatchBinaryResource, @MapExactMatchBinaryResource;
+ */
+@data html { retranslate: false; fragment: true; }
+
+:html-url-attributes {
+  attribute: * ignore !important;
+}
