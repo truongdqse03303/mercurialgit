@@ -54,3 +54,14 @@ td.warns *  {
   text-flow: break;
 }
 
+// @RULESET
+// URL ^= http://www.bousai.pref.hiroshima.jp/info/disp?disp=W5010
+h2.title span {
+  text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://www.bousai.pref.hiroshima.jp/www/genre/
+ul li a {
+  text-flow: break;
+}
