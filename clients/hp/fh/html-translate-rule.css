@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://wajimanavi.lg.jp/www/event/index.jsp
+div.calendar_month * {
+  text-flow: break;
+}

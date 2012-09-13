@@ -1,0 +1,16 @@
+// @RULESET
+// URL = http://jikei-ur.umin.jp/
+// URL ^= http://jikei-ur.umin.jp/index.html
+// URL ^= http://jikei-ur.umin.jp/resident/
+@preprocess {
+  replace: '<body (.+?)>(.+)</body>' '<body><div $1>$2</div></body>';
+}
+div#slider {
+  attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL #= http://jikei-ur\.umin\.jp/(?:about|guidance|clinic|medical)/.*
+@preprocess {
+  replace: '<body>(.+)</body>' '<body><div id="clwrapper">$1</div></body>';
+}
