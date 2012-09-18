@@ -28,4 +28,12 @@
         <pattern>http://www.tokyu-dept.co.jp/toyoko/images/shop_top_title.gif</pattern>
         <replacement>http://www.tokyu-dept.co.jp/common/images/zh/shop_top_title_ty.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/honten/access/images/map.gif</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/en/honten_map.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.tokyu-dept.co.jp/toyoko/access/images/map.jpg</pattern>
+        <replacement>http://www.tokyu-dept.co.jp/common/images/en/toyoko_map.gif</replacement>
+    </replace-rule>
 </replace-rule-list>
