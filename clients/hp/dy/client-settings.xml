@@ -10,15 +10,6 @@
   <request-list>
     <request hostname="xn--3iqs55ayoa25z.com" />
   </request-list>
-
-  <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
-    <url>http://xn--3iqs55ayoa25z\.com/shop/kotodake/.*</url>
-    <url>http://xn--3iqs55ayoa25z\.com/shop/ohukuro/.*</url>
-    <url>http://xn--3iqs55ayoa25z\.com/shop/sky_view/.*</url>
-    <url>http://xn--3iqs55ayoa25z\.com/shop/ichigo_ichie/.*</url>
-    <url>http://xn--3iqs55ayoa25z\.com/shop/yakushima_dou/.*</url>
-  </ignore-url-list>
   
   <!-- URLとリソース種類のマッピングの設定 -->
   <resource-handler>
