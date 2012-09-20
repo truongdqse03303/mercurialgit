@@ -692,4 +692,16 @@
         <pattern>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_4_02.jpg</pattern>
         <replacement>http://www.0101.co.jp/stores/guide/common/img/storetop/primary/bg_subnavi_4_02_en.jpg</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/common/img/header/nav-shop-p00.gif</pattern>
+        <replacement>http://www.0101.co.jp/common/img/header/nav-shop-p00_en.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/common/img/header/nav-shop-p01.gif</pattern>
+        <replacement>http://www.0101.co.jp/common/img/header/nav-shop-p01_en.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.0101.co.jp/common/img/header/img_header_gray.jpg</pattern>
+        <replacement>http://www.0101.co.jp/common/img/header/img_header_gray_en.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
