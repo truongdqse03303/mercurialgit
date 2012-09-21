@@ -1,3 +1,4 @@
+// @RULESET
 // URL $= .css
 @preprocess {
   replace: 'body (.*?)\\{' 'div#clwrapper $1{';
