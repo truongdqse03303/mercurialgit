@@ -11,6 +11,19 @@
     <request hostname="www.erp.sophia.ac.jp" path="/Projects/ocw/" />
   </request-list>
 
+  <!-- クライアントより指定のヘッダーを送信 -->
+  <resource-handler>
+    <type name="xtranslation">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>X-translation</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>crosslanguage</param-value>
+    </param>
+  </resource-handler>
+
   <!-- サイトで使用される文字セット -->
   <charset>utf-8</charset>
 </client-settings>
