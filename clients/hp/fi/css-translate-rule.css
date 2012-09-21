@@ -1,3 +1,4 @@
+// @RULESET
 // URL = http://jikei-ur.umin.jp/css/main.css
 @preprocess {
   replace: 'body \\{' 'div#clwrapper {';
