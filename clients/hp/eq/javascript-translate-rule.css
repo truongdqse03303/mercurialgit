@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.jtb.co.jp/b/jtb1748/js/spritemenu.js
+@preprocess {
+  replace: 'grid:"(/b/jtb1748/images/.+?)"' 'grid:"http://www.jtb.co.jp$1"';
+}

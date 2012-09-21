@@ -18,8 +18,10 @@
   </request-list>
 
   <!-- HTML断片翻訳を行わないURLの一覧 -->
-  <ignore-fragment-translate-list>
-    <url>http://www\.jtb\.co\.jp/b/jtb1748/(?:member|item)/.+</url>
-  </ignore-fragment-translate-list>
+  <url-list type="ignore-fragment">
+    <url>http://www\.jtb\.co\.jp/b/jtb1748/.*</url>
+  </url-list>
 
+  <charset>Shift_JIS</charset>
+  <charset url="http://pottering-shuri\.net/.*">UTF-8</charset>
 </client-settings>
