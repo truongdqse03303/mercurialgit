@@ -24,3 +24,10 @@
 a[href] {
   attribute: href rewrite @RewriteInquiry;
 }
+
+div#footer {
+  attribute: cltx add 'exclude';
+}
+@postprocess {
+  replace: "(<!-- *?/footerInner *?-->)" "$1<p>사업자 등록증 번호：129-81-96072&nbsp;&nbsp;회사명：한국무사시엔지니어링㈜&nbsp;&nbsp;대표자：이쿠시마 카즈마사</p>";
+}
