@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <replace-rule-list>
     <replace-rule>
+        <pattern>http://www.yokohama-cu.ac.jp/common_v2/image/mainmenu.jpg</pattern>
+        <replacement>http://www.yokohama-cu.ac.jp/common_cb5/image/mainmenu.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.yokohama-cu.ac.jp/common_v2/image/h2_info2.gif</pattern>
+        <replacement>http://www.yokohama-cu.ac.jp/common_cb5/image/h2_info2.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.yokohama-cu.ac.jp/common_v2/image/banner/event_calendar.gif</pattern>
         <replacement>http://www.yokohama-cu.ac.jp/common_cb5/image/banner/event_calendar.gif</replacement>
     </replace-rule>
