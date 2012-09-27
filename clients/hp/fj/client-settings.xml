@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>小平市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kodaira/kodaira01 2c75ed742fae3df2816ce09de953ff20b350cc5e</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.kodaira.tokyo.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

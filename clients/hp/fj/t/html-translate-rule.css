@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "KODAIRA_DIC KODAIRA_TM";
+}
+@engine kodaira/kodaira02 {
+  eid: CR-JCT;
+  dictionaries: "KODAIRA_DIC_MASTER KODAIRA_TM_MASTER";
+}

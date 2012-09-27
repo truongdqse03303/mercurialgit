@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "KODAIRA_DIC KODAIRA_TM";
+}
+@engine kodaira/kodaira02 {
+  eid: CR-JC;
+  dictionaries: "KODAIRA_DIC_MASTER KODAIRA_TM_MASTER";
+}
+
+body {
+  attribute: lang add 'zh';
+}
