@@ -8,6 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
+    <request hostname="ocw.cc.sophia.ac.jp" />
     <request hostname="www.erp.sophia.ac.jp" path="/Projects/ocw/" />
   </request-list>
 
