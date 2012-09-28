@@ -2,6 +2,10 @@
   eid: CR-JC;
   dictionaries: "ISETAN_DIC ISETAN_TM NETSHOP FASHION DEPART";
 }
+@engine isetan/main {
+  eid: CR-JC;
+  dictionaries: "ISETAN_DIC_MASTER ISETAN_TM_MASTER NETSHOP FASHION";
+}
 
 body {
   attribute: style add "font-family:SimSun,'MS Song','MS Mincho',serif !important;";

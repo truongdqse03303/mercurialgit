@@ -2,6 +2,14 @@
   eid: CR-JE;
   dictionaries: "AEONMALL_DIC AEONMALL_TM CROSS_DIC CROSS_TM FASHION GOURMET INTERNET";
 }
+@engine rinkusennan-aeonmall/main {
+  eid: CR-JE;
+  dictionaries: "AEONMALL_DIC_MASTER AEONMALL_TM_MASTER FASHION GOURMET";
+}
+@engine rinkusennan-aeonmall/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
+}
 
 a[href$="/shopguide/floorguide/index.html"] {
   attribute: href rewrite "@RewriteFloorGuide";

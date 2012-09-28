@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "TXHD_DIC TXHD_TM CROSS_TM";
 }
+@engine txhd/main {
+  eid: CR-JK;
+  dictionaries: "TXHD_DIC_MASTER TXHD_TM_MASTER";
+}
+@engine txhd/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}

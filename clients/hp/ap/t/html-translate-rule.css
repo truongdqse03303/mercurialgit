@@ -2,3 +2,7 @@
   eid: CR-JCT;
   dictionaries: "SETOUCHI_DIC SETOUCHI_TM";
 }
+@engine setouchi/setouchi02 {
+  eid: CR-JCT;
+  dictionaries: "SETOUCHI_DIC_MASTER SETOUCHI_TM_MASTER";
+}

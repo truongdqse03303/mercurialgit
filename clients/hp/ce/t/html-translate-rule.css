@@ -2,3 +2,11 @@
   eid: CR-JCT;
   dictionaries: "FUNABASHI_DIC FUNABASHI_TM CROSS_DIC CROSS_TM";
 }
+@engine funabashi/main {
+  eid: CR-JCT;
+  dictionaries: "FUNABASHI_DIC_MASTER FUNABASHI_TM_MASTER";
+}
+@engine funabashi/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}

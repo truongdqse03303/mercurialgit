@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "TOMISATO_DIC TOMISATO_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+@engine tomisato/main {
+  eid: CR-JE;
+  dictionaries: "TOMISATO_DIC_MASTER TOMISATO_TM_MASTER GOVT TOURISM";
+}
+@engine tomisato/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
+}

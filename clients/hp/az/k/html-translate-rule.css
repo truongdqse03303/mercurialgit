@@ -2,6 +2,10 @@
   eid: CR-JK;
   dictionaries: "ISETAN_DIC ISETAN_TM";
 }
+@engine isetan/main {
+  eid: CR-JK;
+  dictionaries: "ISETAN_DIC_MASTER ISETAN_TM_MASTER";
+}
 
 // @RULESET
 // URL ^= http://www.isetan.co.jp/icm2/jsp/store/shinjuku/map/index.jsp

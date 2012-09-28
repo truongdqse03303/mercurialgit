@@ -2,3 +2,7 @@
   eid: CR-JK;
   dictionaries: "KARIYA_TM KARIYA_DIC";
 }
+@engine kariya/kariya02 {
+  eid: CR-JK;
+  dictionaries: "KARIYA_TM_MASTER KARIYA_DIC_MASTER";
+}

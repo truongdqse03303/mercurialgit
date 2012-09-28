@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "TOMISATO_DIC TOMISATO_TM CROSS_TM";
 }
+@engine tomisato/main {
+  eid: CR-JK;
+  dictionaries: "TOMISATO_DIC_MASTER TOMISATO_TM_MASTER";
+}
+@engine tomisato/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}

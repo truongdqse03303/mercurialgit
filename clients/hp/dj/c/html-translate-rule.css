@@ -2,6 +2,14 @@
   eid: CR-JC;
   dictionaries: "SAKURA_DIC SAKURA_TM CROSS_DIC CROSS_TM";
 }
+@engine sakura-chiba/main {
+  eid: CR-JC;
+  dictionaries: "SAKURA_DIC_MASTER SAKURA_TM_MASTER";
+}
+@engine sakura-chiba/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}
 
 body {
   attribute: lang add 'zh';

@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "WAKKANAI_DIC WAKKANAI_TM CROSS_DIC CROSS_TM GOVT SIGHTSEEING INTERNET";
 }
+@engine wakkanai/main {
+  eid: CR-JE;
+  dictionaries: "WAKKANAI_DIC_MASTER WAKKANAI_TM_MASTER GOVT";
+}
+@engine wakkanai/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
+}

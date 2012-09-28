@@ -2,4 +2,12 @@
   eid: CR-JCT;
   dictionaries: "MITSUKOSHI_TM MITSUKOSHI_DIC CROSS_TM NETSHOP FASHION DEPART";
 }
+@engine mitsukoshi/main {
+  eid: CR-JCT;
+  dictionaries: "MITSUKOSHI_TM_MASTER MITSUKOSHI_DIC_MASTER NETSHOP FASHION";
+}
+@engine mitsukoshi/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_TM_MASTER NETSHOP FASHION";
+}
 

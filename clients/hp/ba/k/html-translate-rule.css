@@ -2,3 +2,7 @@
   eid: CR-JK;
   dictionaries: "MARUI-IMAI_DIC MARUI-IMAI_TM";
 }
+@engine marui-imai/main {
+  eid: CR-JK;
+  dictionaries: "MARUI-IMAI_DIC_MASTER MARUI-IMAI_TM_MASTER";
+}

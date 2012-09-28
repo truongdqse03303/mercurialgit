@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "JRHAKATACITY_DIC JRHAKATACITY_TM CROSS_DIC CROSS_TM GOURMET FASHION INTERNET";
 }
+@engine jrhakatacity/main {
+  eid: CR-JE;
+  dictionaries: "JRHAKATACITY_DIC_MASTER JRHAKATACITY_TM_MASTER GOURMET FASHION";
+}
+@engine jrhakatacity/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOURMET FASHION";
+}

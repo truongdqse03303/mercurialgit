@@ -2,3 +2,7 @@
   eid: CR-JE;
   dictionaries: "TAGAWA_DIC TAGAWA_TM GOVT TOURISM";
 }
+@engine tagawa/tagawa02 {
+  eid: CR-JE;
+  dictionaries: "TAGAWA_DIC_MASTER TAGAWA_TM_MASTER GOVT TOURISM";
+}

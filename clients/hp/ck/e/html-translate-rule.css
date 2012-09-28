@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "TV-TOKYO_DIC TV-TOKYO_TM CROSS_DIC CROSS_TM TOURISM GOURMET INTERNET";
 }
+@engine tv-tokyo/main {
+  eid: CR-JE;
+  dictionaries: "TV-TOKYO_DIC_MASTER TV-TOKYO_TM_MASTER TOURISM GOURMET";
+}
+@engine tv-tokyo/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
+}

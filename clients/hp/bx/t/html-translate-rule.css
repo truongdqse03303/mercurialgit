@@ -2,3 +2,11 @@
   eid: CR-JCT;
   dictionaries: "AEONMALL_DIC AEONMALL_TM CROSS_DIC CROSS_TM";
 }
+@engine rinkusennan-aeonmall/main {
+  eid: CR-JCT;
+  dictionaries: "AEONMALL_DIC_MASTER AEONMALL_TM_MASTER";
+}
+@engine rinkusennan-aeonmall/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}

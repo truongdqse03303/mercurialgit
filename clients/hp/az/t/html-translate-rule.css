@@ -2,6 +2,10 @@
   eid: CR-JCT;
   dictionaries: "ISETAN_DIC ISETAN_TM NETSHOP FASHION DEPART";
 }
+@engine isetan/main {
+  eid: CR-JCT;
+  dictionaries: "ISETAN_DIC_MASTER ISETAN_TM_MASTER NETSHOP FASHION";
+}
 
 // @RULESET
 // URL ^= http://www.isetan.co.jp/icm2/jsp/store/shinjuku/map/index.jsp

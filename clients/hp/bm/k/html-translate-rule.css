@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "MITSUKOSHI_TM MITSUKOSHI_DIC";
 }
+@engine mitsukoshi/main {
+  eid: CR-JK;
+  dictionaries: "MITSUKOSHI_TM_MASTER MITSUKOSHI_DIC_MASTER";
+}
+@engine mitsukoshi/cross {
+  eid: CR-JK;
+  dictionaries: "";
+}

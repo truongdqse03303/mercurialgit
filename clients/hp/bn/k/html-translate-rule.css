@@ -1,4 +1,12 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "TAKINOPARK_TM TAKINOPARK_DIC";
+  dictionaries: "TAKINOPARK_TM TAKINOPARK_DIC CROSS_TM";
+}
+@engine takinopark/main {
+  eid: CR-JK;
+  dictionaries: "TAKINOPARK_TM_MASTER TAKINOPARK_DIC_MASTER";
+}
+@engine takinopark/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
 }

@@ -2,6 +2,14 @@
   eid: CR-JC;
   dictionaries: "TXHD_DIC TXHD_TM CROSS_DIC CROSS_TM";
 }
+@engine txhd/main {
+  eid: CR-JC;
+  dictionaries: "TXHD_DIC_MASTER TXHD_TM_MASTER";
+}
+@engine txhd/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}
 
 body {
   attribute: lang add 'zh';

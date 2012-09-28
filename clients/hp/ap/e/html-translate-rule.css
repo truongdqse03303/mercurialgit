@@ -2,3 +2,7 @@
   eid: CR-JE;
   dictionaries: "SETOUCHI_DIC SETOUCHI_TM GOVT TOURISM INTERNET";
 }
+@engine setouchi/setouchi02 {
+  eid: CR-JE;
+  dictionaries: "SETOUCHI_DIC_MASTER SETOUCHI_TM_MASTER GOVT TOURISM";
+}

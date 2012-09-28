@@ -2,6 +2,14 @@
   eid: CR-JC;
   dictionaries: "JRHAKATACITY_DIC JRHAKATACITY_TM CROSS_DIC CROSS_TM FASHION";
 }
+@engine jrhakatacity/main {
+  eid: CR-JC;
+  dictionaries: "JRHAKATACITY_DIC_MASTER JRHAKATACITY_TM_MASTER FASHION";
+}
+@engine jrhakatacity/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
+}
 
 body {
   attribute: lang add "zh";

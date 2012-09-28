@@ -2,6 +2,10 @@
   eid: CR-JE;
   dictionaries: "ISETAN_DIC ISETAN_TM DEPART FASHION BEAUTY GOURMET HOBBY INTERNET";
 }
+@engine isetan/main {
+  eid: CR-JE;
+  dictionaries: "ISETAN_DIC_MASTER ISETAN_TM_MASTER FASHION BEAUTY GOURMET HOBBY";
+}
 
 // @RULESET
 // URL ^= http://www.isetan.co.jp/icm2/jsp/store/shinjuku/map/index.jsp

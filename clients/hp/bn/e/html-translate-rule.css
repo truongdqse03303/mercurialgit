@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "TAKINOPARK_TM TAKINOPARK_DIC CROSS_TM CROSS_DIC INTERNET HOBBY SPORTS GOURMET";
 }
+@engine takinopark/main {
+  eid: CR-JE;
+  dictionaries: "TAKINOPARK_TM_MASTER TAKINOPARK_DIC_MASTER HOBBY SPORTS GOURMET";
+}
+@engine takinopark/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_TM_MASTER CROSS_DIC_MASTER HOBBY SPORTS GOURMET";
+}

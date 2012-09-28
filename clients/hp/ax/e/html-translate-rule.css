@@ -2,3 +2,7 @@
   eid: CR-JE;
   dictionaries: "KURUME_DIC KURUME_TM GOVT TOURISM INTERNET";
 }
+@engine kurume/main {
+  eid: CR-JE;
+  dictionaries: "KURUME_DIC_MASTER KURUME_TM_MASTER GOVT TOURISM";
+}

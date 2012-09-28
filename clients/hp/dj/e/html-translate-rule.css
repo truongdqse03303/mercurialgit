@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "SAKURA_DIC SAKURA_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+@engine sakura-chiba/main {
+  eid: CR-JE;
+  dictionaries: "SAKURA_DIC_MASTER SAKURA_TM_MASTER GOVT TOURISM";
+}
+@engine sakura-chiba/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
+}

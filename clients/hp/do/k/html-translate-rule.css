@@ -2,3 +2,7 @@
   eid: CR-JK;
   dictionaries: "ISETAN-KYOTO_DIC ISETAN-KYOTO_TM";
 }
+@engine wjr-isetan-kyoto/wjr-isetan-kyoto02 {
+  eid: CR-JK;
+  dictionaries: "ISETAN-KYOTO_DIC_MASTER ISETAN-KYOTO_TM_MASTER";
+}

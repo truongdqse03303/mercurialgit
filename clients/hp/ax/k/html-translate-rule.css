@@ -2,3 +2,7 @@
   eid: CR-JK;
   dictionaries: "KURUME_DIC KURUME_TM";
 }
+@engine kurume/main {
+  eid: CR-JK;
+  dictionaries: "KURUME_DIC_MASTER KURUME_TM_MASTER";
+}

@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "TV-TOKYO_DIC TV-TOKYO_TM CROSS_TM";
 }
+@engine tv-tokyo/main {
+  eid: CR-JK;
+  dictionaries: "TV-TOKYO_DIC_MASTER TV-TOKYO_TM_MASTER";
+}
+@engine tv-tokyo/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}

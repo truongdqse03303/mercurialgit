@@ -2,6 +2,14 @@
   eid: CR-JK;
   dictionaries: "AEONMALL_TM AEONMALL_DIC CROSS_TM";
 }
+@engine narita-aeonmall/main {
+  eid: CR-JK;
+  dictionaries: "AEONMALL_TM_MASTER AEONMALL_DIC_MASTER";
+}
+@engine narita-aeonmall/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
 
 a[href$="/shopguide/floorguide/index.html"] {
   attribute: href rewrite "@RewriteFloorGuide";

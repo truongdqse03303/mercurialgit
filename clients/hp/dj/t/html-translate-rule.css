@@ -2,3 +2,11 @@
   eid: CR-JCT;
   dictionaries: "SAKURA_DIC SAKURA_TM CROSS_DIC CROSS_TM";
 }
+@engine sakura-chiba/main {
+  eid: CR-JCT;
+  dictionaries: "SAKURA_DIC_MASTER SAKURA_TM_MASTER";
+}
+@engine sakura-chiba/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}

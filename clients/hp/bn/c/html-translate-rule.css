@@ -2,3 +2,11 @@
   eid: CR-JC;
   dictionaries: "TAKINOPARK_TM TAKINOPARK_DIC CROSS_TM CROSS_DIC";
 }
+@engine takinopark/main {
+  eid: CR-JC;
+  dictionaries: "TAKINOPARK_TM_MASTER TAKINOPARK_DIC_MASTER";
+}
+@engine takinopark/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_TM_MASTER CROSS_DIC_MASTER";
+}

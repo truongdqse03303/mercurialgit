@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "JRHAKATACITY_DIC JRHAKATACITY_TM CROSS_TM";
 }
+@engine jrhakatacity/main {
+  eid: CR-JK;
+  dictionaries: "JRHAKATACITY_DIC_MASTER JRHAKATACITY_TM_MASTER";
+}
+@engine jrhakatacity/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}

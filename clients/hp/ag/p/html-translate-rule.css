@@ -1,4 +1,8 @@
 @engine default {
   eid: BR-JA.PT.EN;
-  dictionaries: "KARIYA_TM KARIYA_DIC JICHITAI SIGHTSEEING INTERNET SYSTEM";
+  dictionaries: "KARIYA_TM KARIYA_DIC GOVT TOURISM INTERNET";
+}
+@engine kariya/kariya02 {
+  eid: BR-JA.PT.EN;
+  dictionaries: "KARIYA_TM_MASTER KARIYA_DIC_MASTER GOVT TOURISM";
 }

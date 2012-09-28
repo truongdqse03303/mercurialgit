@@ -2,3 +2,7 @@
   eid: CR-JC;
   dictionaries: "MIC21_DIC MIC21_TM";
 }
+@engine mic21/mic2102 {
+  eid: CR-JC;
+  dictionaries: "MIC21_DIC_MASTER MIC21_TM_MASTER";
+}

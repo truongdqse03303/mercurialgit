@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM IT INTERNET";
 }
+@engine yokohama-cu/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER IT";
+}
+@engine yokohama-cu/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT";
+}

@@ -2,6 +2,14 @@
   eid: CR-JC;
   dictionaries: "AEONMALL_TM AEONMALL_DIC CROSS_DIC CROSS_TM";
 }
+@engine narita-aeonmall/main {
+  eid: CR-JC;
+  dictionaries: "AEONMALL_TM_MASTER AEONMALL_DIC_MASTER";
+}
+@engine narita-aeonmall/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}
 
 body {
   attribute: lang add 'zh';

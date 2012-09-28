@@ -2,6 +2,14 @@
   eid: CR-JC;
   dictionaries: "TOMISATO_DIC TOMISATO_TM CROSS_DIC CROSS_TM";
 }
+@engine tomisato/main {
+  eid: CR-JC;
+  dictionaries: "TOMISATO_DIC_MASTER TOMISATO_TM_MASTER";
+}
+@engine tomisato/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}
 
 body {
   attribute: lang add 'zh';
