@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.city.kodaira.tokyo.jp/c_images/bt_shinsai_info.gif</pattern>
+        <replacement>http://www.city.kodaira.tokyo.jp/static/honyaku/chk/bt_shinsai_info_chk.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.kodaira.tokyo.jp/c_images/bt_kanko.gif</pattern>
+        <replacement>http://www.city.kodaira.tokyo.jp/static/honyaku/chk/bt_kanko_chk.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.kodaira.tokyo.jp/c_images/banner_kids.gif</pattern>
+        <replacement>http://www.city.kodaira.tokyo.jp/static/honyaku/chk/banner_kids_chk.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.kodaira.tokyo.jp/c_images/banner_map.gif</pattern>
+        <replacement>http://www.city.kodaira.tokyo.jp/static/honyaku/chk/banner_map_chk.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.kodaira.tokyo.jp/c_images/top/banner_50th.jpg</pattern>
+        <replacement>http://www.city.kodaira.tokyo.jp/static/honyaku/chk/banner_50th_chk.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.kodaira.tokyo.jp/c_images/bt_sports_tokyo2013.gif</pattern>
+        <replacement>http://www.city.kodaira.tokyo.jp/static/honyaku/chk/bt_sports_tokyo2013_chk.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.city.kodaira.tokyo.jp/c_images/bt_hoshasen_info.gif</pattern>
+        <replacement>http://www.city.kodaira.tokyo.jp/static/honyaku/chk/bt_hoshasen_info_chk.gif</replacement>
+    </replace-rule>
+</replace-rule-list>
