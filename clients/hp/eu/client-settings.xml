@@ -12,9 +12,9 @@
   </request-list>
 
   <!-- HTML断片翻訳を行わないURLの一覧 -->
-  <ignore-fragment-translate-list>
+  <url-list type="ignore-fragment">
     <url>http://www\.amaminosato\.jp/garden/.+</url>
-  </ignore-fragment-translate-list>
+  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <charset>Shift_JIS</charset>

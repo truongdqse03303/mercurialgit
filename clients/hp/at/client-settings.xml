@@ -13,14 +13,14 @@
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://douraku\.co\.jp/company/.*</url>
     <url>http://douraku\.co\.jp/recruit/.*</url>
     <url>http://www\.douraku\.co\.jp/shopping/.*</url>
-  </ignore-url-list>
+  </url-list>
   
   <!-- HTML断片翻訳を行わないURLの一覧 -->
-  <ignore-fragment-translate-list>
+  <url-list type="ignore-fragment">
     <url>http://douraku\.co\.jp/[^/]+/shop/[^/]+/map/.*</url>
-  </ignore-fragment-translate-list>
+  </url-list>
 </client-settings>

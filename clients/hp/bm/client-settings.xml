@@ -20,12 +20,12 @@
   </request-list>
 
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.mitsukoshi\.co\.jp/store/1210/fcs/(?!images/).*</url>
     <url>http://www\.mitsukoshi\.co\.jp/store/1210/obentou/(?:index\.html)</url>
     <url>http://www\.mitsukoshi\.co\.jp/store/1210/mailmagazine/index\.html</url>
     <url>http://www\.mitsukoshi\.co\.jp/shop\?omeNextPageName=/pc/store/jsp/1210/(?:women|accessory|mens|baby|living|food)/(?:index|new)\.jsp</url>
-  </ignore-url-list>
+  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

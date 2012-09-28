@@ -13,9 +13,9 @@
 
   
   <!-- キャッシュされないPDFをダウンロードしない -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>.+/_images/mappdf/.+\.pdf</url>
-  </ignore-url-list>
+  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

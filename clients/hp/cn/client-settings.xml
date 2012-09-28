@@ -12,9 +12,9 @@
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.musashi-engineering\.co\.jp/recruit/.*</url>
-  </ignore-url-list>
+  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

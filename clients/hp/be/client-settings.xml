@@ -12,9 +12,9 @@
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.kurabo\.co\.jp/el/world/</url>
-  </ignore-url-list>
+  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

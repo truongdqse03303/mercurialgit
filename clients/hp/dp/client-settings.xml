@@ -12,10 +12,10 @@
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www.k-i-a.or.jp/foreig_residents/</url>
     <url>http://www.k-i-a.or.jp/medical/[^/]+/index.html</url>
-  </ignore-url-list>
+  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>

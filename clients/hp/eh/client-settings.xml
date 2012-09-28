@@ -12,7 +12,7 @@
   </request-list>
 
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.tobu-dept\.jp/ikebukuro/spice/.*</url>
     <url>http://www\.tobu-dept\.jp/ike_ike/.*</url>
     <url>http://www\.tobu-dept\.jp/ike_tshirts/.*</url>
@@ -21,7 +21,7 @@
     <url>http://www\.tobu-dept\.jp/ikebukuro/shop/service/.*</url>
     <url>http://www\.tobu-dept\.jp/ikebukuro/e_book_info/.*</url>
     <url>http://www\.tobu-dept\.jp/ikebukuro/toblog/.*</url>
-  </ignore-url-list>
+  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>

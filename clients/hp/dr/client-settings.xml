@@ -12,14 +12,14 @@
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.aisen\.co\.jp/ebook/.+</url>
-  </ignore-url-list>
+  </url-list>
   
   <!-- HTML断片翻訳を行わないURLの一覧 -->
-  <ignore-fragment-translate-list>
+  <url-list type="ignore-fragment">
     <url>http://www\.aisen\.co\.jp/products/.+</url>
-  </ignore-fragment-translate-list>
+  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

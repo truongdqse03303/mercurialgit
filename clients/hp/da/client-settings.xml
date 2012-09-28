@@ -12,7 +12,7 @@
   </request-list>
 
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.city\.fukuyama\.hiroshima\.jp/shiminsoudan/(?:english|china|korean|portuguese)/</url>
-  </ignore-url-list>
+  </url-list>
 </client-settings>

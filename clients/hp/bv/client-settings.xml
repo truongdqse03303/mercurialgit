@@ -12,10 +12,10 @@
   </request-list>
 
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.jrhakatacity\.com/translation/$</url>
     <url>http://www\.jrhakatacity\.com/shop/beautyandyouth/blog/images/.+\.BMP</url>
-  </ignore-url-list>
+  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

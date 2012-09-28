@@ -12,10 +12,10 @@
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.suzutec\.co\.jp/contact/.*</url>
     <url>http://www\.suzutec\.co\.jp/recruit/.*</url>
-  </ignore-url-list>
+  </url-list>
   
   <!-- サイトで使用される文字セット -->
   <charset>utf-8</charset>

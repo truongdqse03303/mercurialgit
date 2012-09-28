@@ -12,8 +12,8 @@
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.city\.setouchi\.lg\.jp/i/.*</url>
     <url>http://www\.city\.setouchi\.lg\.jp/(~osa-token/)?english/.*</url>
-  </ignore-url-list>
+  </url-list>
 </client-settings>

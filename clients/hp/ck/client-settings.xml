@@ -17,9 +17,9 @@
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.tv-tokyo\.co\.jp/(?:anime|biz|kids|mhp|nms|mplus|newsanswer|wbs|zipangu|gaia|cambria|shinsho|mv|emorning|newsfine|index/scatalyst)(?:$|/.*)</url>
-  </ignore-url-list>
+  </url-list>
 
   <!-- JavascriptのContent-Typeを指定 -->
   <resource-handler>

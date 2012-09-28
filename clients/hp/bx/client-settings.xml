@@ -12,9 +12,9 @@
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://rinkusennan-aeonmall.com/shopguide/floorguide/.*</url>
-  </ignore-url-list>
+  </url-list>
   
   <!-- URLとリソース種類のマッピングの設定 -->
   <resource-handler>

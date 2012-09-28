@@ -18,11 +18,11 @@
   </request-list>
 
   <!-- 翻訳しないURLの一覧 -->
-  <ignore-url-list>
+  <url-list type="ignore">
     <url>http://www\.isetan\.co\.jp/icm2/jsp/store/shinjuku/baby_kids/uniform/index\.jsp</url>
     <url>http://www\.isetan\.co\.jp/icm2/jsp/store/shinjuku/floor_guide/floor_map/1f\.jsp</url>
     <url>http://www\.isetan\.co\.jp/icm2/jsp/store/shinjuku/event/(?:seijin|harefuri|1006recruitfair|mensetsu|shichigosan)/index\.jsp</url>
-  </ignore-url-list>
+  </url-list>
   
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
