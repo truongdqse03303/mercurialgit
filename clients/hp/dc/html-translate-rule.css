@@ -1,0 +1,6 @@
+// @RULESET
+// URL = http://ocw.cc.sophia.ac.jp/
+// URL ^= http://ocw.cc.sophia.ac.jp/index.php?action=journal_view_main_init
+span.journal_page_switch a {
+  text-flow: break;
+}

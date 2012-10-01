@@ -9,8 +9,12 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="ocw.cc.sophia.ac.jp" />
-    <request hostname="www.erp.sophia.ac.jp" path="/Projects/ocw/" />
   </request-list>
+
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://ocw\.cc\.sophia\.ac\.jp/translation/?</url>
+  </url-list>
 
   <!-- クライアントより指定のヘッダーを送信 -->
   <resource-handler>
