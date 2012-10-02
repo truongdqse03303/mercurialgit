@@ -9,6 +9,9 @@ div.kankodb_data_title > span {
   text-flow: break;
   content: ignore;
 }
+div#side_search1 > select#category > option[value] {
+  attribute: value rewrite "@RewriteRegisteredDomain";
+}
 
 // @RULESET
 // URL #= http://yamagatakanko.com/(?:spot|food|omiyage|event|onsen)/.*
@@ -17,6 +20,9 @@ div.data_list > div.links {
 }
 div.data_list > div.links > a {
   text-flow: break;
+}
+@postprocess {
+  replace: "<h3><!--cltx--><a href=" "<h3 cltx><a href=";
 }
 
 // @RULESET
