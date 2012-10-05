@@ -3,17 +3,20 @@
 }
 
 // @RULESET
-// URL ^= http://www.tokyu-dept.co.jp/toyoko/shop/
+// URL #= http://www.tokyu-dept.co.jp/[^/]+/shop/[^/]+_list.html.+
 div.floor dl dd a span {
   text-flow: break;
 }
-
-// @RULESET
-// URL #= http://www.tokyu-dept.co.jp/[^/]+/shop/[^/]+_list.html.+
 div.shopList div.text a, div.shopList div.title h2 {
   text-flow: break;
 }
 div.shopList div.text span, div.shopList div.title h2 span {
   text-flow: break;
   content: translate split exclude "\\[|\\]";
+}
+
+// @RULESET
+// URL ^= http://www.tokyu-dept.co.jp/toyoko/shop/
+div.floor dl dd a span {
+  text-flow: break;
 }
