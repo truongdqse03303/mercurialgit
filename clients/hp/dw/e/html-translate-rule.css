@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "MOTOBU-KA_DIC MOTOBU-KA_TM CROSS_DIC CROSS_TM GOVT TOURISM OKINAWA INTERNET";
 }
+@engine motobu-ka/main {
+  eid: CR-JE;
+  dictionaries: "MOTOBU-KA_DIC_MASTER MOTOBU-KA_TM_MASTER GOVT TOURISM";
+}
+@engine motobu-ka/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
+}

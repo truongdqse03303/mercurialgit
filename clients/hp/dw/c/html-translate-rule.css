@@ -2,6 +2,14 @@
   eid: CR-JC;
   dictionaries: "MOTOBU-KA_DIC MOTOBU-KA_TM CROSS_DIC CROSS_TM";
 }
+@engine motobu-ka/main {
+  eid: CR-JC;
+  dictionaries: "MOTOBU-KA_DIC_MASTER MOTOBU-KA_TM_MASTER";
+}
+@engine motobu-ka/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}
 
 body {
   attribute: lang add 'zh';

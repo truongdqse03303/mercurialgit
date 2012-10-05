@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "MOTOBU-KA_DIC MOTOBU-KA_TM CROSS_TM";
 }
+@engine motobu-ka/main {
+  eid: CR-JK;
+  dictionaries: "MOTOBU-KA_DIC_MASTER MOTOBU-KA_TM_MASTER";
+}
+@engine motobu-ka/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
