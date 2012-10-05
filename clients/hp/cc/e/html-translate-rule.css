@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "FUCHU-HIROSHIMA_TM FUCHU-HIROSHIMA_DIC CROSS_DIC CROSS_TM GOVT TOURISM GOURMET INTERNET";
 }
+@engine fuchu-hiroshima/main {
+  eid: CR-JE;
+  dictionaries: "FUCHU-HIROSHIMA_TM_MASTER FUCHU-HIROSHIMA_DIC_MASTER GOVT TOURISM GOURMET";
+}
+@engine fuchu-hiroshima/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM GOURMET";
+}

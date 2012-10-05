@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "FUCHU-HIROSHIMA_TM FUCHU-HIROSHIMA_DIC CROSS_TM";
 }
+@engine fuchu-hiroshima/main {
+  eid: CR-JK;
+  dictionaries: "FUCHU-HIROSHIMA_TM_MASTER FUCHU-HIROSHIMA_DIC_MASTER";
+}
+@engine fuchu-hiroshima/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
