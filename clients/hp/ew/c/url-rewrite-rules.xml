@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/globalNavigation.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/globalNavigation.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/headerSubAbout.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/headerSubAbout.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/headerSubAccess.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/headerSubAccess.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/headerSubEvent.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/headerSubEvent.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/headerSubInquiry.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/headerSubInquiry.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideAccess.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/sideAccess.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideOtherAround.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/sideOtherAround.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideOtherLink.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/sideOtherLink.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideOtherPamphlet.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/sideOtherPamphlet.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideOtherStaff.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/sideOtherStaff.gif</replacement>
+    </replace-rule>
+</replace-rule-list>
