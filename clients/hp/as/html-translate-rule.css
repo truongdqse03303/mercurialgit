@@ -1,7 +1,26 @@
+a[href="http://www.layered.me/shop/guide/guide_index.html"], a[href="http://www.layered.me/shop/guide/campaign.html"] {
+  attribute: * rewrite '/shop/guide/ShoppingGuide.html';
+}
+a[href="https://www.layered.me/cgi/contacts.cgi"] {
+  attribute: * rewrite 'https://reg26.smp.ne.jp/regist/is?SMPFORM=pjp-mbpet-a95bc962a129254fbc2df31a482f66a7';
+}
+
 form[name="kataJump"] > select[name="linkselectkata"] option {
   attribute: value rewrite "@RewriteRegisteredDomain";
 }
-
 form[name="colorJump"] > select[name="linkselectcolor"] option {
   attribute: value rewrite "@RewriteRegisteredDomain";
+}
+
+// @RULESET
+// URL #= http://(?:www\.)?layered\.me/shop/jailwigcharacters/[^/]+/.+\.html
+@preprocess {
+  replace: '<input type="image" src=.+?/img/item/item_count_btn_kago.jpg" onclick=.+?>' '<a href="https://reg26.smp.ne.jp/regist/is?SMPFORM=pjp-mbobt-583126b8915775154d900e3b875d78e3" target="_blank"><img src="http://www.layered.me/shop/productimage/img_english/item_count_btn_kago_eng.jpg" alt="Order"></a>';
+}
+
+span.fxapi[format] {
+  attribute: * translate;
+}
+@postprocess {
+  replace: '(?i)(.+)(</body>.+?)' '$1<script type="text/javascript" src="http://raku2fx.com/fxapi.min.js"></script>$2';
 }
