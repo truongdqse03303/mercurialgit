@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>株式会社三宝</name>
+  <name>熊本市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>qigong/service b13fdc1252cf6bfe1c492369ae10d8535a899665</licence>
+  <licence>kumamoto/service 3a46b610b36be1860330ef14e3df8b327c72f92f</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.qigong-z.com" />
+    <request hostname="www.city.kumamoto.kumamoto.jp" />
   </request-list>
-
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+  
   <!-- サイトで使用される文字セット -->
   <charset>Shift_JIS</charset>
 </client-settings>

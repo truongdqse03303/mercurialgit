@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= http://www\.city\.kumamoto\.kumamoto.jp/(?!mobile/).*
+@preprocess {
+  replace: '(?i)<body(.*?)>(.+)</body>' '<body$1><div id="clwrapper">$2</div></body>';
+}

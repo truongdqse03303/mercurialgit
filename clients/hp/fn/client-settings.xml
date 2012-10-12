@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>阪急百貨店</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hankyu-dept/service 9936ad4617234c5adef6fd76f5416a5c6d0fc923</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.hankyu-dept.co.jp">
+      <path-list>
+        <path value="/(?:honten|css|js|img)/" />
+      </path-list>
+    </request>
+    <request hostname="www.hankyu-hanshin-dept.co.jp">
+      <path-list>
+        <path value="/(?:lsnews|css|js|img)/" />
+      </path-list>
+    </request>
+  </request-list>
+  
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>
