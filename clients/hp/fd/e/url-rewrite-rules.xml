@@ -944,4 +944,20 @@
         <pattern>http://www.bs11.jp/common/images/btn_back_on.gif</pattern>
         <replacement>http://www.bs11.jp/common/images/en/btn_back_on.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/announcer/images/title_announcer.jpg</pattern>
+        <replacement>http://www.bs11.jp/announcer/images/en/title_announcer.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/corporate/images/title_banshin.jpg</pattern>
+        <replacement>http://www.bs11.jp/corporate/images/en/title_banshin.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/corporate/images/title_shubetsu.jpg</pattern>
+        <replacement>http://www.bs11.jp/corporate/images/en/title_shubetsu.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/corporate/images/title_haijo_policy.jpg</pattern>
+        <replacement>http://www.bs11.jp/corporate/images/en/title_haijo_policy.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
