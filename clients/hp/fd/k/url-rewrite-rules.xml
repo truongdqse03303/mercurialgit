@@ -960,4 +960,44 @@
         <pattern>http://www.bs11.jp/corporate/images/title_haijo_policy.jpg</pattern>
         <replacement>http://www.bs11.jp/corporate/images/ko/title_haijo_policy.jpg</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/3d/images/title_program_details.jpg</pattern>
+        <replacement>http://www.bs11.jp/3d/images/ko/title_program_details.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/news/images/title_program_details.jpg</pattern>
+        <replacement>http://www.bs11.jp/news/images/ko/title_program_details.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/entertainment/images/title_program_details.jpg</pattern>
+        <replacement>http://www.bs11.jp/entertainment/images/ko/title_program_details.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/drama/images/title_program_details.jpg</pattern>
+        <replacement>http://www.bs11.jp/drama/images/ko/title_program_details.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/movie/images/title_program_details.jpg</pattern>
+        <replacement>http://www.bs11.jp/movie/images/ko/title_program_details.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/hobby/images/title_program_details.jpg</pattern>
+        <replacement>http://www.bs11.jp/hobby/images/ko/title_program_details.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/life/images/title_program_details.jpg</pattern>
+        <replacement>http://www.bs11.jp/life/images/ko/title_program_details.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/education/images/title_program_details.jpg</pattern>
+        <replacement>http://www.bs11.jp/education/images/ko/title_program_details.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/sports/images/title_program_details.jpg</pattern>
+        <replacement>http://www.bs11.jp/sports/images/ko/title_program_details.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/special/images/title_program_details.jpg</pattern>
+        <replacement>http://www.bs11.jp/special/images/ko/title_program_details.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
