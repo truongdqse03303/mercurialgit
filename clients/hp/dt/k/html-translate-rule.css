@@ -2,3 +2,11 @@
   eid: CR-JK;
   dictionaries: "FUK-AB_DIC FUK-AB_TM CROSS_TM";
 }
+@engine fuk-ab/main {
+  eid: CR-JK;
+  dictionaries: "FUK-AB_DIC_MASTER FUK-AB_TM_MASTER";
+}
+@engine fuk-ab/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
