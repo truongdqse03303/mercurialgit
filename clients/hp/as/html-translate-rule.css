@@ -18,6 +18,9 @@ form[name="colorJump"] > select[name="linkselectcolor"] option {
 @preprocess {
   replace: '<input type="image" src=.+?/img/item/item_count_btn_kago.jpg" onclick=.+?>' '<a href="https://reg26.smp.ne.jp/regist/is?SMPFORM=pjp-mbobt-583126b8915775154d900e3b875d78e3" target="_blank"><img src="http://www.layered.me/shop/productimage/img_english/item_count_btn_kago_eng.jpg" alt="Order"></a>';
 }
+@preprocess {
+  replace: '<input type="image" src=.+?/img/item/item_count_btn_kago_yoyaku.jpg" onclick=.+?>' '<a href="https://reg26.smp.ne.jp/regist/is?SMPFORM=pjp-mbobt-583126b8915775154d900e3b875d78e3" target="_blank"><img src="http://www.layered.me/shop/productimage/img_english/item_count_btn_kago_yoyaku_eng.jpg" alt="Order"></a>';
+}
 
 span.fxapi[format] {
   attribute: * translate;
