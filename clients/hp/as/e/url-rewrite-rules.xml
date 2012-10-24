@@ -188,4 +188,32 @@
         <pattern>https://www.layered.me/img/item/item_count_btn_kago_yoyaku.jpg</pattern>
         <replacement>http://www.layered.me/shop/productimage/img_english/item_count_btn_kago_yoyaku_eng.jpg</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/shop/productimage/charawigbanner/HETARIA_213x43px.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/HETARIA_213x43px_eng.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>https://www.layered.me/img/item/item_count_icon05_yoyaku.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/item_count_icon05_yoyaku_eng.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/img/top/top_PR_bk.jpg </pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/top_PR_bk_eng.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/img/gr/gr_navi_on.png</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/gr_navi_on120910_eng.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/img/gr/gr_navi_st.png</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/gr_navi_st120910_eng.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/img/gr/gr_navi.png</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/gr_navi_120910_eng.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>https://www.layered.me/img/gr/gr_header_img.png</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/gr_header_img_eng.png</replacement>
+    </replace-rule>
 </replace-rule-list>

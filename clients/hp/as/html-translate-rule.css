@@ -12,19 +12,28 @@ form[name="colorJump"] > select[name="linkselectcolor"] option {
   attribute: value rewrite "@RewriteRegisteredDomain";
 }
 
+link[rel="stylesheet"][type="text/css"][href="https://www.layered.me/css/include.css"] {
+  attribute: href rewrite "/css/include.css";
+}
+
+
+// @RULESET
+// URL #= http://(?:www\.)?layered\.me/shop/(?:$|\?.*)
+@preprocess {
+  replace: "291_1Kocq-q-pjp-s" "F4T_1Jocq-q-pjp-ld";
+}
+
+
 // @RULESET
 // URL #= http://(?:www\.)?layered\.me/shop/jailwigcharacters/[^/]+/.+\.html
 // URL #= http://(?:www\.)?layered\.me/shop/me/MIDO\.html
 @preprocess {
-  replace: '<input type="image" src=.+?/img/item/item_count_btn_kago.jpg" onclick=.+?>' '<a href="https://reg26.smp.ne.jp/regist/is?SMPFORM=pjp-mbobt-583126b8915775154d900e3b875d78e3" target="_blank"><img src="http://www.layered.me/shop/productimage/img_english/item_count_btn_kago_eng.jpg" alt="Order"></a>';
+  replace: "<input type=\"image\" src=.+?/img/item/item_count_btn_kago.jpg\" onclick=.+?>" "<a href=\"https://reg26.smp.ne.jp/regist/is?SMPFORM=pjp-mbobt-583126b8915775154d900e3b875d78e3\" target=\"_blank\"><img src=\"http://www.layered.me/shop/productimage/img_english/item_count_btn_kago_eng.jpg\" alt=\"Order\"></a>";
 }
 @preprocess {
-  replace: '<input type="image" src=.+?/img/item/item_count_btn_kago_yoyaku.jpg" onclick=.+?>' '<a href="https://reg26.smp.ne.jp/regist/is?SMPFORM=pjp-mbobt-583126b8915775154d900e3b875d78e3" target="_blank"><img src="http://www.layered.me/shop/productimage/img_english/item_count_btn_kago_yoyaku_eng.jpg" alt="Order"></a>';
+  replace: "<input type=\"image\" src=.+?/img/item/item_count_btn_kago_yoyaku.jpg\" onclick=.+?>" "<a href=\"https://reg26.smp.ne.jp/regist/is?SMPFORM=pjp-mbobt-583126b8915775154d900e3b875d78e3\" target=\"_blank\"><img src=\"http://www.layered.me/shop/productimage/img_english/item_count_btn_kago_yoyaku_eng.jpg\" alt=\"Order\"></a>";
 }
 
-span.fxapi[format] {
-  attribute: * translate;
-}
 @postprocess {
-  replace: '(?i)(.+)(</body>.+?)' '$1<script type="text/javascript" src="http://raku2fx.com/fxapi.min.js"></script>$2';
+  replace: "(?i)(</body>)" "<script type=\"text/javascript\" src=\"http://raku2fx.com/fxapi.min.js\"></script>$1";
 }
