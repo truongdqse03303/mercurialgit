@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM MEDICAL";
 }
+
+link[rel="stylesheet"][type="text/css"][href$="/css/import.css"] {
+  attribute: href rewrite "/css/main_en.css";
+}
