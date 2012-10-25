@@ -1,7 +1,0 @@
-// @RULESET
-// URL = http://jikei-ur.umin.jp/css/main_en.css
-@preprocess {
-  replace: 'body \\{' 'div#clwrapper {';
-  replace: 'body#bg-top' 'div#bg-top';
-  replace: 'body#bg-resident' 'div#bg-resident';
-}

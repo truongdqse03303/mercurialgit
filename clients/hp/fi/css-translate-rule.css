@@ -1,7 +1,9 @@
 // @RULESET
 // URL = http://jikei-ur.umin.jp/css/main.css
+// URL = http://jikei-ur.umin.jp/css/main_en.css
 @preprocess {
-  replace: 'body \\{' 'div#clwrapper {';
-  replace: 'body#bg-top' 'div#bg-top';
-  replace: 'body#bg-resident' 'div#bg-resident';
+  replace: "(?s)body([^{]*?\\{[^{]*?font\\-)" "div#clwrapper, div#bg-top, div#bg-resident$1";
+  replace: "(?s)body(\\s*?\\{[^{]*?background:)" "div#clwrapper$1";
+  replace: "body#bg-top" "div#bg-top";
+  replace: "body#bg-resident" "div#bg-resident";
 }
