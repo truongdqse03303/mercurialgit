@@ -216,4 +216,8 @@
         <pattern>https://www.layered.me/img/gr/gr_header_img.png</pattern>
         <replacement>http://www.layered.me/shop/productimage/img_english/gr_header_img_eng.png</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>https://www.layered.me/img/item/item_subtitle01.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/item_subtitle01_eng.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
