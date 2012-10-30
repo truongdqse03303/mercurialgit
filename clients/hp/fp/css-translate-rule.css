@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.humming-hall.jp/css.css
+@preprocess {
+  replace: "(: *)url\\( *" "$1url(";
+}

@@ -1,0 +1,3 @@
+div.header_text_r p *, div.headText_page h1 span {
+  text-flow: break;
+}

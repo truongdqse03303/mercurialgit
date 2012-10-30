@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>福岡空港ビルディング</name>
+  <name>工場WORKS</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>fuk-ab/service 5f70cf1d1306142ac4e549f74c92caeff5d15e7b</licence>
+  <licence>oshigoto/service a3551b20adb4e7849f2ca701dc0931e1cb6a357d</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.fuk-ab.co.jp" />
+    <request hostname="04510.jp" />
   </request-list>
 
-  <!-- コンテンツキャッシュ使用有無の設定-->
-  <use-cache>true</use-cache>
-
   <!-- サイトで使用される文字セット -->
-  <charset>Shift_JIS</charset>
+  <charset>UTF-8</charset>
 </client-settings>

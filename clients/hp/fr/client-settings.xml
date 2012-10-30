@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>福岡空港ビルディング</name>
+  <name>株式会社アイ・アム＆インターワークス</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>fuk-ab/service 5f70cf1d1306142ac4e549f74c92caeff5d15e7b</licence>
+  <licence>imiw/service 41e55ce8aeca5d91ca6e672ddbe4f7b40ce147fd</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.fuk-ab.co.jp" />
+    <request hostname="www.imiw.jp" />
   </request-list>
 
-  <!-- コンテンツキャッシュ使用有無の設定-->
-  <use-cache>true</use-cache>
-
   <!-- サイトで使用される文字セット -->
-  <charset>Shift_JIS</charset>
+  <charset>UTF-8</charset>
 </client-settings>

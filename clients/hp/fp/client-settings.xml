@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>東大和市</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>higashiyamato/service 931652b3b2f37a71e6fa32c39fcaf4cd1f83659a</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.higashiyamato.lg.jp" />
+    <request hostname="www.humming-hall.jp" />
+    <request hostname="www.lib.higashiyamato.tokyo.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+  <charset url="http://www\.humming-hall\.jp/(?:$|.+(?:html|cgi))">EUC-JP</charset>
+  <charset url="http://www\.lib\.higashiyamato\.tokyo\.jp/.*">Shift_JIS</charset>
+</client-settings>

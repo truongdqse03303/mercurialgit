@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.kumamoto.kumamoto.jp" />
+    <request hostname="pdf-tmp.transer.com" />
   </request-list>
   
   <!-- 使用する設定IDの一覧 -->

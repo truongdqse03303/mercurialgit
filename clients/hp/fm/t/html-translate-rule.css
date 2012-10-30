@@ -10,3 +10,13 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
+
+
+
+@rewrite RewriteConvertedPDF {
+  if (absurl matches "http://www.city.kumamoto.kumamoto.jp/(.+\\.pdf)") return "http://pdf-tmp.transer.com.t.fm.hp.transer.com/{$1}/";
+  apply "@RewriteHtmlUrlAttribute";
+}
+a[href] {
+  attribute: href rewrite "@RewriteConvertedPDF";
+}
