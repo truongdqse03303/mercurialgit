@@ -11,6 +11,7 @@ div#slider {
 
 // @RULESET
 // URL #= http://jikei-ur\.umin\.jp/(?:about|guidance|clinic|medical)/.*
+// URL #= http://jikei-ur\.umin\.jp/(?:news|sitemap)\.html
 @preprocess {
   replace: '<body>(.+)</body>' '<body><div id="clwrapper">$1</div></body>';
 }
