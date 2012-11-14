@@ -1,0 +1,18 @@
+// @RULESET
+// URL = http://www.city.kitami.lg.jp/
+// URL = http://www.city.kitami.lg.jp/index.html
+div#docTab div.content ul li * {
+  text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://www.city.kitami.lg.jp/bunya/
+div.latest ul li *, div.category ul li *, div.unit ul li * {
+  text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://www.city.kitami.lg.jp/soshiki/
+div.latest ul li *, div.attribute ul li * {
+  text-flow: break;
+}

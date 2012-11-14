@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>青山製図専門学校</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>aoyamaseizu/service fc8942804e7182eefec1fa8517b9c3dfa4163de5</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.aoyamaseizu.ac.jp" />
+  </request-list>
+
+  <!-- HTML断片翻訳の無効 -->
+  <url-list type="ignore-fragment">
+    <url>http://www\.aoyamaseizu\.ac\.jp/gallery/.*</url>
+  </url-list>
+
+  <!-- 使用する設定IDの一覧 (携帯翻訳用設定を追加) -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>東京再生医療センター</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>trmc/service 70340d22e7887420765de3388186dc07c4ffd55f</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.trmc.jp" />
+  </request-list>
+
+  <!-- HTML断片翻訳の無効 -->
+  <url-list type="ignore-fragment">
+    <url>http://www\.trmc\.jp/(?:book|voice|information|guide)/.*</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+  
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>{'#site-translate-header-wrapper' : {'position':'absolute','z-index':'400'}}</param-value>
+  </extension-param>
+</client-settings>

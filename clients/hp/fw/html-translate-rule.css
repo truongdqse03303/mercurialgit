@@ -1,0 +1,13 @@
+@postprocess {
+  replace: ']>!-->' ']><!-->';
+}
+
+// @RULESET
+// URL = http://ww2.tobuhotel.co.jp/shibuya/
+// URL #= http://ww2\.tobuhotel\.co\.jp/shibuya/(?:stay|restaurant|party)/.*
+div.flexslider {
+  attribute: cltx add 'exclude';
+}
+div.flexslider ul.slides li[data-thumb] {
+  attribute: * rewrite '@RewriteURL';
+}

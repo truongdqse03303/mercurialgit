@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>北見市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kitami/service 1e89baa48a4b53441f08b5483ca9623c8327fed5</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.kitami.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

@@ -1,0 +1,11 @@
+// @RULESET
+// URL ^= http://www.shoikai.com/overview/kamoku/
+div.doctorArea h4 * {
+  text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://www.shoikai.com/information/
+div#contents ul li * {
+  text-flow: break;
+}
