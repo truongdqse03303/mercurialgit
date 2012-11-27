@@ -3,12 +3,6 @@ ul[id="menu"] {
   attribute: cltx add 'exclude';
 }
 
-// @RULESET
-// URL #= http://narita-aeonmall.com/.*
-#cal1Container {
-  attribute: cltx add 'exclude';
-}
-
-form > input[type="hidden"][name="ie"] {
-  attribute: value set 'utf-8';
+form[action="http://www.google.co.jp/search"] > input[type="hidden"][name#="[io]e"] {
+  attribute: value set 'UTF-8';
 }
