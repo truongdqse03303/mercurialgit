@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= http://laketownkaze-aeonmall\.com/css/.+?\.css
+@preprocess {
+  replace: 'body\\s*\\{' '#clwrapper {';
+}

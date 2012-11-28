@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>康生産業株式会社</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kousei-grp/service 9b86afd1fb21f7ac17a054368bc5309076f9cc71</licence>
+  
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <request-list>
+    <request hostname="www.kousei-grp.co.jp" />
+  </request-list>
+  
+  <!-- 翻訳対象外URL -->
+  <url-list type="ignore">
+    <url>http://www\.kousei-grp\.co\.jp/toiawase/?</url>
+  </url-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

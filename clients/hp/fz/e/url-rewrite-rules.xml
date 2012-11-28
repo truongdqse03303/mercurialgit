@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <!-- 1 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/gtop_kurashi_d.jpg</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/en/gtop_kurashi_d.jpg</replacement>
+    </replace-rule>
+    <!-- 2 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/gtop_event_d.jpg</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/en/gtop_event_d.jpg</replacement>
+    </replace-rule>
+    <!-- 3 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/gtop_shisetsu_d.jpg</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/en/gtop_shisetsu_d.jpg</replacement>
+    </replace-rule>
+    <!-- 4 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/gtop_shisei_d.jpg</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/en/gtop_shisei_d.jpg</replacement>
+    </replace-rule>
+    <!-- 5 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/gtop_kakuka_d.jpg</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/en/gtop_kakuka_d.jpg</replacement>
+    </replace-rule>
+    <!-- 6 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_LEAF_/USER/4/htdocs/_res/images/emer_h2.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/emer_h2.gif</replacement>
+    </replace-rule>
+    <!-- 9 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_material_/_files/000/000/000/000/banner_map.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/banner_map.gif</replacement>
+    </replace-rule>
+    <!-- 10 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_material_/_files/000/000/000/000/banner_faq.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/banner_faq.gif</replacement>
+    </replace-rule>
+    <!-- 12 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_material_/_files/000/000/000/000/banner_shisetsu.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/banner_shisetsu.gif</replacement>
+    </replace-rule>
+    <!-- 13 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_material_/_files/000/000/000/000/life01.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life01.gif</replacement>
+    </replace-rule>
+    <!-- 14 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_material_/_files/000/000/000/000/life08.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life08.gif</replacement>
+    </replace-rule>
+    <!-- 15 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_material_/_files/000/000/000/000/life03.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life03.gif</replacement>
+    </replace-rule>
+    <!-- 16 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_material_/_files/000/000/000/000/life04.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life04.gif</replacement>
+    </replace-rule>
+    <!-- 17 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_material_/_files/000/000/000/000/life05.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life05.gif</replacement>
+    </replace-rule>
+    <!-- 18 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_material_/_files/000/000/000/000/life06.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life06.gif</replacement>
+    </replace-rule>
+    <!-- 19 -->
+    <replace-rule>
+        <pattern>http://www.city.ama.aichi.jp/dbps_data/_material_/_files/000/000/000/000/life07.gif</pattern>
+        <replacement>http://www.city.ama.aichi.jp/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life07.gif</replacement>
+    </replace-rule>
+    <!-- 1 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/gtop_kurashi_d.jpg</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/en/gtop_kurashi_d.jpg</replacement>
+    </replace-rule>
+    <!-- 2 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/gtop_event_d.jpg</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/en/gtop_event_d.jpg</replacement>
+    </replace-rule>
+    <!-- 3 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/gtop_shisetsu_d.jpg</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/en/gtop_shisetsu_d.jpg</replacement>
+    </replace-rule>
+    <!-- 4 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/gtop_shisei_d.jpg</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/en/gtop_shisei_d.jpg</replacement>
+    </replace-rule>
+    <!-- 5 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/gtop_kakuka_d.jpg</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/gnavi/en/gtop_kakuka_d.jpg</replacement>
+    </replace-rule>
+    <!-- 6 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_template_/_user_/_LEAF_/USER/4/htdocs/_res/images/emer_h2.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/emer_h2.gif</replacement>
+    </replace-rule>
+    <!-- 9 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_material_/_files/000/000/000/000/banner_map.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/banner_map.gif</replacement>
+    </replace-rule>
+    <!-- 10 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_material_/_files/000/000/000/000/banner_faq.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/banner_faq.gif</replacement>
+    </replace-rule>
+    <!-- 12 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_material_/_files/000/000/000/000/banner_shisetsu.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/banner_shisetsu.gif</replacement>
+    </replace-rule>
+    <!-- 13 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_material_/_files/000/000/000/000/life01.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life01.gif</replacement>
+    </replace-rule>
+    <!-- 14 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_material_/_files/000/000/000/000/life08.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life08.gif</replacement>
+    </replace-rule>
+    <!-- 15 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_material_/_files/000/000/000/000/life03.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life03.gif</replacement>
+    </replace-rule>
+    <!-- 16 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_material_/_files/000/000/000/000/life04.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life04.gif</replacement>
+    </replace-rule>
+    <!-- 17 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_material_/_files/000/000/000/000/life05.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life05.gif</replacement>
+    </replace-rule>
+    <!-- 18 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_material_/_files/000/000/000/000/life06.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life06.gif</replacement>
+    </replace-rule>
+    <!-- 19 -->
+    <replace-rule>
+        <pattern>http://61.122.228.79/dbps_data/_material_/_files/000/000/000/000/life07.gif</pattern>
+        <replacement>http://61.122.228.79/dbps_data/_template_/_user_/_SITE_/localhost/_res/images/en/life07.gif</replacement>
+    </replace-rule>
+</replace-rule-list>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>イオンモール京都</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kyoto-aeonmall/service 010b581cd22624b109f8232f569b6d43a659cb14</licence>
+    
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <request-list>
+    <request hostname="kyoto-aeonmall.com" />
+  </request-list>
+  
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://kyoto-aeonmall\.com/js/weather/getWeather\.php\?.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+ 
+  <!-- サイトで使用される文字セット -->
+  <charset>shift_jis</charset>
+</client-settings>

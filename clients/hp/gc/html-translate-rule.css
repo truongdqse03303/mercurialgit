@@ -1,0 +1,17 @@
+@postprocess {
+  replace: '<body(.*?)>(.+)</body>' '<body$1><div id="clwrapper">$2</div></body>';
+  replace: 'body\\s*\\{' '#clwrapper {';
+}
+
+/* Fix error on google search */
+form[action="http://www.google.co.jp/search"] input[type="hidden"][name#="[io]e"] {
+  attribute: value rewrite "UTF-8";
+}
+
+div#cal1Container {
+  attribute: cltx add 'exclude';
+}
+
+a[href$="/shopguide/floorguide/index.html"] {
+  attribute: href rewrite "http://laketownkaze-aeonmall.com/shopguide/floorguide-tr/index.html";
+}

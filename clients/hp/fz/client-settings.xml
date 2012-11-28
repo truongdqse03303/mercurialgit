@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>あま市</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ama/service 0929dcaa74fcad0ac2a87565368dbfba18fb442e</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.city.ama.aichi.jp" />
+    <request hostname="61.122.228.79" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.kousei-grp.co.jp/familian/menu/
+div.entrytext table td a[href#=".+/menu/familian/.+?/index.html#.+"] {
+  attribute: href rewrite "{absurl}";
+}

@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine kyoto-aeonmall/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine kyoto-aeonmall/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+a[href$="floorguide/index.html"] {
+  attribute: href rewrite "http://kyoto-aeonmall.com/shopguide/floorguide-en/index.html";
+}

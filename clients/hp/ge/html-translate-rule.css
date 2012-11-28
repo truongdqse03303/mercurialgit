@@ -1,0 +1,8 @@
+/* Fix error on google search */
+form[action="http://www.google.co.jp/search"] input[type="hidden"][name#="[io]e"] {
+  attribute: value rewrite "UTF-8";
+}
+
+div#cal1Container * {
+    attribute: cltx add 'exclude';
+}

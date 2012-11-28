@@ -1,0 +1,6 @@
+// @RULESET
+// URL #= http://www\.city\.ama\.aichi\.jp/(?:index.html)?
+// URL #= http://61\.122\.228\.79/(?:index.html)?
+@preprocess {
+  replace: '(img\\[\\d\\]=\\s\\")\\./(dbps_data/.+?\\.(?:gif|jpg)";)' '$1http://www.city.ama.aichi.jp/$2';
+}

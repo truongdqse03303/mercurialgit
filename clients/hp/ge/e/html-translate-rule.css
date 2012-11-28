@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION GOURMET INTERNET";
+}
+@engine fukuoka-lucle/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION GOURMET";
+}
+@engine fukuoka-lucle/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
+}
+
+a[href$="floorguide/index.html"] {
+  attribute: href rewrite "http://fukuoka-aeonmall.com/shopguide/floorguide-fr/index.html";
+}

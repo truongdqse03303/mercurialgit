@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>櫻文化堂</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>sakurabunkado/service 84de0a5222ec784adef2790093b6611a8c87fd73</licence>
+  
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <request-list>
+    <request hostname="www.sakurabunkado.com" />
+  </request-list>
+</client-settings>

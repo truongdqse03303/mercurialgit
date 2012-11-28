@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>イオンモールkaze</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kaze-aeonmall/service df394cbc6005b58637634e022ddc033bc3947470</licence>
+    
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <request-list>
+    <request hostname="laketownkaze-aeonmall.com" />
+  </request-list>
+  
+  <url-list type="ignore">
+    <url>laketownkaze-aeonmall.com/flier/.+</url>
+  </url-list>
+ 
+ <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+	<param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://laketownkaze-aeonmall\.com/js/weather/getWeather\.php\?.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+ 
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>
