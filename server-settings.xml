@@ -12,6 +12,21 @@
       <param-name>use.replace.rule</param-name>
       <param-value>true</param-value>
     </extension-param>
+    <!-- PDF内画像の保存先 -->
+    <extension-param>
+      <param-name>pdf.image.store</param-name>
+      <param-value>210.158.217.82:11211</param-value>
+    </extension-param>
+    <!-- PDF変換の最大ページ数 -->
+    <extension-param>
+      <param-name>pdf.output.pages</param-name>
+      <param-value>-10</param-value>
+    </extension-param>
+    <!-- 改善訳報告メール送信サーバー -->
+    <extension-param>
+      <param-name>mail.host</param-name>
+      <param-value>mail1.crosslanguage.co.jp</param-value>
+    </extension-param>
   </application>
   <application>
     <id>hpstage</id>
@@ -26,8 +41,12 @@
       <param-value>http://hpmanage.transer.com/edit/site_dic/</param-value>
     </extension-param>
     <extension-param>
-      <param-name>tm-*|img.licence.param</param-name>
+      <param-name>tm-*|img.cross.licence</param-name>
       <param-value>clkey</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>tm-*|img.cross.query</param-name>
+      <param-value>clkey,clhash</param-value>
     </extension-param>
     <extension-param>
       <param-name>img.common.rule</param-name>
@@ -39,18 +58,27 @@
     </extension-param>
   </application>
   
-  <!-- Translation Server -->
+  <!-- default translation server -->
   <translation-server>
-    <url>http://ts.transer.com:12000/</url>
-    <url application="hp" client="ax">http://tsextra.transer.com/</url>
-    <url application="hp" client="cr">http://tsextra.transer.com/</url>
-    <url application="hp" client="dj">http://tsextra.transer.com/</url>
-    <url application="hp" client="zz">http://tsextra.transer.com/</url>
-    <url application="hpstage" client="ax">http://tsextra.transer.com/</url>
-    <url application="hpstage" client="cr">http://tsextra.transer.com/</url>
-    <url application="hpstage" client="dj">http://tsextra.transer.com/</url>
+    <url>http://ts.transer.com:12000/clsoap/clsoap.cgi</url>
     <connection-timeout>5000</connection-timeout>
     <socket-timeout>300000</socket-timeout>
+    <max-concurrency>30</max-concurrency>
+    <extra name="extra">
+      <url>http://tsextra.transer.com/clsoap/clsoap.cgi</url>
+      <max-concurrency>10</max-concurrency>
+      <client-list>
+        <client>ax,cr,dj,zz</client>
+      </client-list>
+    </extra>
+  </translation-server>
+  
+  <!-- pdf translation server -->
+  <translation-server type="pdf">
+    <url>http://210.158.217.77:12000/clsoap/clsoap.cgi</url>
+    <connection-timeout>5000</connection-timeout>
+    <socket-timeout>300000</socket-timeout>
+    <max-concurrency>6</max-concurrency>
   </translation-server>
 
   <!-- 信頼できるクライアント -->
