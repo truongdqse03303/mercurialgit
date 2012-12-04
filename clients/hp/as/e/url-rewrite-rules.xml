@@ -220,4 +220,28 @@
         <pattern>https://www.layered.me/img/item/item_subtitle01.jpg</pattern>
         <replacement>http://www.layered.me/shop/productimage/img_english/item_subtitle01_eng.jpg</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/shop/productimage/saleitem/jailwig_hukubukuro121128_5000_S.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/jailwig_luckybag121128eng_60_S.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/shop/productimage/saleitem/jailwig_hukubukuro121128_5000_M.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/jailwig_luckybag121128eng_60_M.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/shop/productimage/saleitem/jailwig_hukubukuro121128_5000_L.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/jailwig_luckybag121128eng_60_L.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/shop/productimage/saleitem/jailwig_hukubukuro121128_10000_S.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/jailwig_luckybag121128eng_120_S.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/shop/productimage/saleitem/jailwig_hukubukuro121128_10000_M.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/jailwig_luckybag121128eng_120_M.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/shop/productimage/saleitem/jailwig_hukubukuro121128_10000_L.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/jailwig_luckybag121128eng_120_L.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
