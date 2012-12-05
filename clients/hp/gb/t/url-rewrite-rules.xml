@@ -137,19 +137,23 @@
         <replacement>http://www.kousei-grp.co.jp/wp-content/themes/bettei/images/tw/bg_menu.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.kousei-grp.co.jp/kokyuan/wp-content/themes/kokyuan/images/bg_menu.gif</pattern>
+        <pattern>http://www.kousei-grp.co.jp/kokyuuan/wp-content/themes/kokyuan/images/bg_menu.gif</pattern>
         <replacement>http://www.kousei-grp.co.jp/wp-content/themes/kokyuan/images/tw/bg_menu.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.kousei-grp.co.jp/familiarekitchen/wp-content/themes/haikara/images/bg_menu.gif</pattern>
+        <pattern>http://www.kousei-grp.co.jp/familiarekitchen/wp-content/themes/familiare/images/bg_menu.gif</pattern>
         <replacement>http://www.kousei-grp.co.jp/wp-content/themes/haikara/images/tw/bg_menu.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.kousei-grp.co.jp/9hikinokobuta/wp-content/themes/haikara/images/bg_menu.gif</pattern>
+        <pattern>http://www.kousei-grp.co.jp/9hikinokobuta/wp-content/themes/9hiki/images/bg_menu.gif</pattern>
         <replacement>http://www.kousei-grp.co.jp/wp-content/themes/haikara/images/tw/bg_menu.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.kousei-grp.co.jp/katsuya/wp-content/themes/haikara/images/bg_menu.gif</pattern>
+        <pattern>http://www.kousei-grp.co.jp/katsuya/wp-content/themes/katsuya/images/bg_menu.gif</pattern>
         <replacement>http://www.kousei-grp.co.jp/wp-content/themes/haikara/images/tw/bg_menu.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.kousei-grp.co.jp/info/wp-content/themes/honsya/images/bg_menu.gif</pattern>
+        <replacement>http://www.kousei-grp.co.jp/info/wp-content/themes/honsya/images/tw/bg_menu.gif</replacement>
     </replace-rule>
 </replace-rule-list>
