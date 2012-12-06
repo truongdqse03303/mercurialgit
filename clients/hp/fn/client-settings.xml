@@ -8,16 +8,8 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.hankyu-dept.co.jp">
-      <path-list>
-        <path value="/(?:honten|css|js|img)/" />
-      </path-list>
-    </request>
-    <request hostname="www.hankyu-hanshin-dept.co.jp">
-      <path-list>
-        <path value="/(?:lsnews|css|js|img)/" />
-      </path-list>
-    </request>
+    <request hostname="www.hankyu-dept.co.jp" path="/honten/" />
+    <request hostname="www.hankyu-hanshin-dept.co.jp" path="/lsnews/" />
   </request-list>
   
   <!-- コンテンツキャッシュ使用有無の設定-->
