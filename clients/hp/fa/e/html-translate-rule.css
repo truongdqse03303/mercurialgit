@@ -10,3 +10,16 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
 }
+
+
+// @RULESET
+// URL = http://www.tokyu-dept.co.jp/honten/foreign/index.html/
+a[href^="http://mlttpl-mapserv.incrementp.co.jp/"] {
+  attribute: href rewrite "http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tokyu05/en/map.php?&MAP=E139.41.55.61N35.39.28.14&CMR=tokyu05&KEY=202f97bd3a49ff298e7ea72b374b98b9e1e99f34&NM=Tokyu%20Department%20Store%20HONTEN&ZM=10";
+}
+
+// @RULESET
+// URL = http://www.tokyu-dept.co.jp/toyoko/foreign/index.html/
+a[href^="http://mlttpl-mapserv.incrementp.co.jp/"] {
+  attribute: href rewrite "http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tokyu00/en/map.php?&MAP=E139.42.16.16N35.39.19.76&CMR=tokyu00&KEY=47c3101d70724536b8ed852134818f4883a0c161&NM=Tokyu%20Department%20Store%20Toyoko&ZM=10";
+}

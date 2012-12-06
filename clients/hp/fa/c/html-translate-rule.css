@@ -14,3 +14,15 @@
 body {
   attribute: lang add 'zh';
 }
+
+// @RULESET
+// URL = http://www.tokyu-dept.co.jp/honten/foreign/index.html/
+a[href^="http://mlttpl-mapserv.incrementp.co.jp/"] {
+  attribute: href rewrite "http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tokyu05/zh2/map.php?&MAP=E139.41.55.61N35.39.28.14&CMR=tokyu05&KEY=f805623cc75442e9ea4d7f8a876c9423806a859b&NM=%E4%B8%9C%E6%80%A5%E7%99%BE%E8%B4%A7%E5%BA%97%E6%80%BB%E5%BA%97&ZM=10";
+}
+
+// @RULESET
+// URL = http://www.tokyu-dept.co.jp/toyoko/foreign/index.html/
+a[href^="http://mlttpl-mapserv.incrementp.co.jp/"] {
+  attribute: href rewrite "http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tokyu00/zh2/map.php?&MAP=E139.42.16.16N35.39.19.76&CMR=tokyu00&KEY=4705e34b30468e2cab5463c9d32983f5b46e7bc3&NM=%E4%B8%9C%E6%80%A5%E7%99%BE%E8%B4%A7%E5%BA%97%E4%B8%9C%E6%A8%AA%E5%BA%97&ZM=10";
+}

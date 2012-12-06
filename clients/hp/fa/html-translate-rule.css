@@ -2,6 +2,10 @@
   replace: '<base[^>]+>' '';
 }
 
+div#header > div.inner {
+  attribute: cltx add "exclude";
+}
+
 // @RULESET
 // URL #= http://www.tokyu-dept.co.jp/[^/]+/shop/[^/]+_list.html.+
 div.floor dl dd a span {
