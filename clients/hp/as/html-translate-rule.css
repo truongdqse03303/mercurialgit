@@ -40,7 +40,3 @@ a[href$="/shop/jailwigcolor/cbr01/TN-CBR01.html"], a[href$="/shop/jailwigsharp/l
 @preprocess {
   replace: "<input type=\"image\" src=.+?/img/item/item_count_btn_kago_yoyaku.jpg\" onclick=.+?>" "<a href=\"https://reg26.smp.ne.jp/regist/is?SMPFORM=pjp-mbobt-583126b8915775154d900e3b875d78e3\" target=\"_blank\"><img src=\"http://www.layered.me/shop/productimage/img_english/item_count_btn_kago_yoyaku_eng.jpg\" alt=\"Order\"></a>";
 }
-
-@postprocess {
-  replace: "(?i)(</body>)" "<script type=\"text/javascript\" src=\"http://raku2fx.com/fxapi.min.js\"></script>$1";
-}
