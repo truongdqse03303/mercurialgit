@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www2.wagamachi-guide.com/yamato/usr/yamato/css/layout_map.css
+@postprocess {
+  replace: "http://www2.wagamachi-guide.com/yamato/usr/yamato/css/csshover.htc" "csshover.htc";
+}
