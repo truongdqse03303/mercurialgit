@@ -10,7 +10,11 @@
   <request-list>
     <request hostname="txhd.co.jp" />
     <request hostname="www.txhd.co.jp" />
-    <request hostname="v4.eir-parts.net" path="/Custom/public/qir/9413/pbl1cmvw/v4/js/design.js" />
+    <request hostname="v4.eir-parts.net">
+      <path-list resource="false">
+        <path value="/Custom/public/qir/9413/pbl1cmvw/v4/js/design.js" />
+      </path-list>
+    </request>
     <request hostname="v3.eir-parts.net">
       <path-list>
         <path value="/extra/9413/qirbr/x5jwmat6/qir/asp.html" />

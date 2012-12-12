@@ -13,7 +13,11 @@
     <request hostname="www.txhd.co.jp" />
     <request hostname="iiyado.tv-tokyo.co.jp" />
     <request hostname="ablog.tv-tokyo.co.jp" />
-    <request hostname="www.toranomon-ichiba.com" path="/js/ranking.*?\.js" />
+    <request hostname="www.toranomon-ichiba.com">
+      <path-list resource="false">
+        <path value="/js/ranking.*?\.js" />
+      </path-list>
+    </request>
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->

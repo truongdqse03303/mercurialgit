@@ -11,7 +11,7 @@
     <request hostname="www.nomadic.co.jp" />
     <request hostname="www.ec-nomadic.com" />
     <request hostname="store.shopping.yahoo.co.jp">
-      <path-list>
+      <path-list resource="false">
         <path value="/nomadic/" />
         <path value="/strcss/[a-z0-9/]+/nomadic\.css" />
       </path-list>

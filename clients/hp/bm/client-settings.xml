@@ -14,7 +14,6 @@
         <path value="/shop\?omeNextPageName=/pc/store/jsp/1210/" />
         <path value="/shop$" />
         <path value="/store/1210/" />
-        <path value="/pc/.+\.(?:jpg|JPG|gif|css|js)" />
       </path-list>
     </request>
   </request-list>

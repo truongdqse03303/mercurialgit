@@ -8,12 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.jtb.co.jp">
-      <path-list>
-        <path value="/b/jtb1748/.*" />
-        <path value="/(?:common/)?(?:js|css)/.+" />
-      </path-list>
-    </request>
+    <request hostname="www.jtb.co.jp" path="/b/jtb1748/" />
     <request hostname="pottering-shuri.net" />
   </request-list>
 

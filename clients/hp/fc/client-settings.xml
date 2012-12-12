@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.ryukoku.ac.jp">
-      <path-list>
+      <path-list resource="false">
         <path value="/(?:english|chinese)2/(?:news|news_test|event)/" />
       </path-list>
     </request>

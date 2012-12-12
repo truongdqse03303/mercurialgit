@@ -11,9 +11,13 @@
     <request hostname="www.mic21.com" />
     <request hostname="mic.diver-online.com" />
     <request hostname="appleworld.com" />
-    <request hostname="www.tos-asp.jp" path="/agent/mic21/js/search\?type=tour.+" />
+    <request hostname="www.tos-asp.jp">
+      <path-list resource="false">
+        <path value="/agent/mic21/js/search\?type=tour.+" />
+      </path-list>
+    </request>
     <request hostname="shop3.genesis-ec.com">
-      <path-list>
+      <path-list resource="false">
         <path value="/[^?]+\?(?:.+&amp;)?shopcd=17302(?:&amp;.+)?$" />
         <path value="/17302/css/.+\.(?:css|js|html)" />
       </path-list>
