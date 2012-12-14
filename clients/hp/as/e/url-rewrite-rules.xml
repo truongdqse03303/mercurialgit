@@ -244,4 +244,12 @@
         <pattern>http://www.layered.me/shop/productimage/saleitem/jailwig_hukubukuro121128_10000_L.jpg</pattern>
         <replacement>http://www.layered.me/shop/productimage/img_english/jailwig_luckybag121128eng_120_L.jpg</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/shop/productimage/haikyu/haikyu_134x134px.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/haikyu_134x134px_eng.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.layered.me/shop/productimage/haikyu/haikyu_213x43px.jpg</pattern>
+        <replacement>http://www.layered.me/shop/productimage/img_english/haikyu_213x43px_eng.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
