@@ -1,5 +1,3 @@
-// @RULESET
-// URL ^= http://navi.lib.pref.yamanashi.jp/
 body {
-  attribute: id add 'crosslanguage-translated';
+  attribute: id set 'crosslanguage-translated';
 }
