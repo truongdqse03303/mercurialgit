@@ -10,3 +10,10 @@
   eid: CR-JC;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER COMPUTER";
 }
+
+
+// @RULESET
+// URL = http://www.kurabo.co.jp/el/rd/tm4_01.html
+iframe[src$="fla/jp/tech4ch-jp.html"] {
+  attribute: src rewrite "fla/cn/tech4ch-cn.html";
+}
