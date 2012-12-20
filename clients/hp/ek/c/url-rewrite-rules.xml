@@ -144,4 +144,52 @@
         <pattern>http://www.jfa-fc.or.jp/misc/images/cgtitle/soudan.jpg</pattern>
         <replacement>http://www.jfa-fc.or.jp/misc/images/ch/soudan.jpg</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_about_on.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_about_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_about_off.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_about_off.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_docs_on.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_docs_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_docs_off.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_docs_off.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_guide_on.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_guide_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_guide_off.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_guide_off.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_franz_on.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_franz_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_franz_off.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_franz_off.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_frang_on.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_frang_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_frang_off.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_frang_off.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_link_on.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_link_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.jfa-fc.or.jp/misc/images/gmenu_link_off.gif</pattern>
+        <replacement>http://www.jfa-fc.or.jp/misc/images/ch/gmenu_link_off.gif</replacement>
+    </replace-rule>
 </replace-rule-list>
