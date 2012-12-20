@@ -11,6 +11,12 @@
     <request hostname="www.sha-nail.jp" path="/pro_global/" />
   </request-list>
 
+  <!-- Javascriptで免責ヘッダーを表示しない -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>false</param-value>
+  </extension-param>
+
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>
 </client-settings>

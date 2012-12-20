@@ -10,3 +10,15 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+
+@postprocess {
+  replace: "(?i)(<div id=\"fotter\">.+?)(</div>)" "$1<p style=\"margin-top: 0.7em;\" cltx>&#51060;&#32;&#54168;&#51060;&#51648;&#45716;&#32;&#44592;&#44228;&#48264;&#50669;&#51004;&#47196;&#32;&#48264;&#50669;&#46104;&#44256;&#32;&#51080;&#49845;&#45768;&#45796;&#46;&#32;&#48264;&#50669;&#44208;&#44284;&#44032;&#32;&#49;&#48;&#48;&#37;&#46;&#32;&#51221;&#54869;&#54616;&#45796;&#44256;&#45716;&#32;&#54624;&#49688;&#32;&#50630;&#44592;&#50640;&#32;&#51060;&#54644;&#54616;&#49884;&#44592;&#32;&#48148;&#46989;&#45768;&#45796;&#46;</p>$2";
+}
+
+// @RULESET
+// URL = http://www.sha-nail.jp/pro_global/sejyutu.php
+// URL = http://www.sha-nail.jp/pro_global/aboutpro.php
+iframe[src^="http://www.youtube.com/embed/ngqO5y2biM8"] {
+  attribute: * rewrite "http://www.youtube.com/embed/aipUsu2ctbw?wmode=transparent";
+}

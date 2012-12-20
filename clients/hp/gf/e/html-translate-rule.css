@@ -10,3 +10,15 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
+
+
+@postprocess {
+  replace: "(?i)(<div id=\"fotter\">.+?)(</div>)" "$1<p style=\"margin-top: 0.7em;\" cltx>This page is translated using machine translation. Please note that the content may not be 100% accurate.</p>$2";
+}
+
+// @RULESET
+// URL = http://www.sha-nail.jp/pro_global/sejyutu.php
+// URL = http://www.sha-nail.jp/pro_global/aboutpro.php
+iframe[src^="http://www.youtube.com/embed/ngqO5y2biM8"] {
+  attribute: * rewrite "http://www.youtube.com/embed/jKnufEQH0Rw?wmode=transparent";
+}
