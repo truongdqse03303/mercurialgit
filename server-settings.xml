@@ -62,7 +62,7 @@
   <translation-server>
     <url>http://ts.transer.com:12000/clsoap/clsoap.cgi</url>
     <connection-timeout>5000</connection-timeout>
-    <socket-timeout>300000</socket-timeout>
+    <socket-timeout>90000</socket-timeout>
     <max-concurrency>30</max-concurrency>
     <extra name="extra">
       <url>http://tsextra.transer.com/clsoap/clsoap.cgi</url>
@@ -77,7 +77,7 @@
   <translation-server type="pdf">
     <url>http://210.158.217.77:12000/clsoap/clsoap.cgi</url>
     <connection-timeout>5000</connection-timeout>
-    <socket-timeout>300000</socket-timeout>
+    <socket-timeout>180000</socket-timeout>
     <max-concurrency>6</max-concurrency>
   </translation-server>
 
