@@ -14,7 +14,7 @@ link[rel="stylesheet"][type="text/css"][href="https://www.layered.me/css/include
   attribute: href rewrite "/css/include.css";
 }
 
-a[href$="/shop/jailwigcolor/cbr01/TN-CBR01.html"], a[href$="/shop/jailwigsharp/longstraight95cm/"], a[href$="/shop/jailwigcolor/gd03mix/cl8-gd3m.html"], a[href$="/shop/jailwigcolor/ws01/N-WS01.html"], a[href$="/shop/dylon/dylonmulti/DYLON-MULTI15.html"], a[href$="/shop/jailwigcolor/ws01/X-WS01.html"], a[href$="/shop/jailwigcolor/cbr01/A-CBR01.html"], a[href$="/shop/jailwigcolor/bk01/B-BK01.html"] {
+a[href$="/shop/dylon/dylonmulti/DYLON-MULTI15.html"] {
   tag: delete;
 }
 
