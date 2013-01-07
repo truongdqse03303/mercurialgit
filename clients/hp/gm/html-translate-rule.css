@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.hotelkeihan.co.jp/
+div#NewsSect ul#TabList {
+  attribute: cltx add 'exclude';
+}

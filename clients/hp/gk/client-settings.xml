@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>大峡製鞄</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ohbacorp/service b07a907a394a230f237c16bd638ef3e5e5004fbb</licence>
+
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <request-list>
+    <request hostname="www.ohbacorp.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>euc-jp</charset>
+</client-settings>

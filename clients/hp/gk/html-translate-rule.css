@@ -1,0 +1,23 @@
+a[href="https://www.ohbacorp.com/inquiry.php"] {
+  attribute: href rewrite "https://www.ohbacorp.com/inquiry.php?entry=CL";
+}
+
+// @RULESET
+// URL = http://www.ohbacorp.com/cart.php
+form[name="order"] {
+  attribute: action rewrite "https://www.ohbacorp.com/specialorderform.php";
+}
+
+// @RULESET
+// URL = http://www.ohbacorp.com/catalog_review.php
+@preprocess {
+  replace: ">JPYen" "><!-- crosslanguage:ignore -->JPYen";
+  replace: ">EURO" "><!-- crosslanguage:ignore -->EURO";
+  replace: "-<br>" "-<!-- /crosslanguage:ignore --><br>";
+}
+
+// @RULESET
+// URL ^= http://www.ohbacorp.com/new.php 
+tr td a {
+  text-flow: break;
+}
