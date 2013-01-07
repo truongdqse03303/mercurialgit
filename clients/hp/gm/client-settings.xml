@@ -9,14 +9,15 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.hotelkeihan.co.jp" />
+    <!-- テスト用 -->
+    <request hostname="aa124c08j8.smartrelease.jp" path="/tower" />
   </request-list>
   
   <url-list type="ignore-fragment">
     <url>.+/guestroom/.+</url>
   </url-list>
 
-  <!-- Basic認証 -->
-  <!--
+  <!-- テスト用Basic認証 -->
   <resource-handler>
     <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
     <param>
@@ -28,7 +29,6 @@
       <param-value>Basic a2VpaGFuOnRlc3R1cA==</param-value>
     </param>
   </resource-handler>
-  -->
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
