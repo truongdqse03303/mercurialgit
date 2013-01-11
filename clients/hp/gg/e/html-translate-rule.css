@@ -2,11 +2,11 @@
   eid: CR-JE;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT INTERNET";
 }
-@engine togane/main {
+@engine yamato/main {
   eid: CR-JE;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
 }
-@engine togane/cross {
+@engine yamato/cross {
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }

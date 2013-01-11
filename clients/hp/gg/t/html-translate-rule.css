@@ -2,11 +2,11 @@
   eid: CR-JCT;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
 }
-@engine togane/main {
+@engine yamato/main {
   eid: CR-JCT;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
-@engine togane/cross {
+@engine yamato/cross {
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
