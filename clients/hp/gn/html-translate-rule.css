@@ -1,0 +1,9 @@
+// @RULESET
+// URL #= http://www\.at1-direct\.jp/(index.php.*)?
+@preprocess {
+  replace: '(?i)<body id="index2">(.+)</body>' '<body><div id="index2" name="clwrapper">$1</div></body>';
+}
+
+span.colRed {
+  text-flow: break;
+}

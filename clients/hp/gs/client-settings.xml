@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>関市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>seki/service 8fc1c0732614e0976a8dc61e5034e991dbf7c500</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.seki.lg.jp" />
+    <request hostname="udface.comcarry.com" path="/seki/www/" />
+  </request-list>
+
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

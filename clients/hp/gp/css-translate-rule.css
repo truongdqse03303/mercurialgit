@@ -1,0 +1,6 @@
+// @RULESET
+// URL = http://www.hitocom.co.jp/common/css/global.css
+// URL = http://www.hitocom.co.jp/common/css/common.css
+@preprocess {
+  replace: 'body(\\s*\\{)' 'div#clwrapper$1';
+}

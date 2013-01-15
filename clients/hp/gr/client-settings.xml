@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>TOKYO MX</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>mxtv/service 5b3b95396ba09f253419c24565e1363c9b5d7952</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="s.mxtv.jp" />
+  </request-list>
+
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+</client-settings>

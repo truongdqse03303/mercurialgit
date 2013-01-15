@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= http://(www\.)?akaihane\.or\.jp/(index\.html.*)?
+div#new_topics ul li a * {
+  text-flow: break;
+}

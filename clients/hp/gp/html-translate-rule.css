@@ -1,0 +1,9 @@
+@preprocess {
+  replace: '(?i)<body(.*?)>(.+)</body>' '<body$1><div id="clwrapper">$2</div></body>';
+}
+
+// @RULESET
+// URL #= http://www\.hitocom\.co\.jp/(index\.html)?
+div#divDataArea dl dd a {
+  text-flow: break;
+}

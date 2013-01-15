@@ -9,7 +9,5 @@
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
     <request hostname="www.city.togane.chiba.jp" />
-    <!-- テストサイト用 -->
-    <request hostname="udface.comcarry.com" />
   </request-list>
 </client-settings>

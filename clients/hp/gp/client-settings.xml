@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ヒト・コミュニケーションズ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hitocom/service 4754c1e387d323db3c275cc70fd80eec24bcbbe0</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.hitocom.co.jp" />
+  </request-list>
+
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.hitocom\.co\.jp/recruit/.*</url>
+    <url>http://www\.hitocom\.co\.jp/cn/.*</url>
+    <url>http://www\.hitocom\.co\.jp/ir/.*</url>
+  </url-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>

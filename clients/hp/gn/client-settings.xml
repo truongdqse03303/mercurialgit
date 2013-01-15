@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>オートトレーディングルフトジャパン</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>at1-direct/service 2a07fd0c99512018f59c4980e587986712a9d2e6</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.at1-direct.jp" />
+    <request hostname="www.at-i.co.jp" />
+  </request-list>
+
+  <!-- 輸送費検索の文字エンコード -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
+    <param>
+      <param-name>encode.url.yusou</param-name>
+      <param-value>http://www\.at1-direct\.jp/trans/car_yusou\.php\?ipcd=.+</param-value>
+    </param>
+    <param>
+      <param-name>encode.charset.yusou</param-name>
+      <param-value>Shift_JIS</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>
