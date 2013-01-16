@@ -1,12 +1,5 @@
-:clignore li {
-  attribute: cltx add 'exclude';
-}
+@data html { retranslate: false; }
+
 :clignore img[src] {
   attribute: src rewrite "{absurl}";
-}
-
-// @RULESET
-// URL #=http://www.yokohama-cu.ac.jp/(index\.html)?
-div#mainImg {
-  attribute: cltx add 'exclude';
 }
