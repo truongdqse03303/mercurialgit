@@ -10,7 +10,7 @@
   <request-list>
     <request hostname="www.hotelkeihan.co.jp" />
     <!-- テスト用 -->
-    <request hostname="aa124c08j8.smartrelease.jp" path="/tower" />
+    <request hostname="aa124c08j8.smartrelease.jp" />
   </request-list>
   
   <url-list type="ignore-fragment">

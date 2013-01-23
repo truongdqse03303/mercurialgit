@@ -1,6 +1,6 @@
 // @RULESET
 // URL #= http://www.hotelkeihan.co.jp/(index\.php.*)?
-// URL #= http://aa124c08j8.smartrelease.jp/tower/(index\.php.*)?
+// URL #= http://aa124c08j8.smartrelease.jp/(index\.php.*)?
 div#NewsSect ul#TabList {
   attribute: cltx add 'exclude';
 }
