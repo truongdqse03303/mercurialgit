@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>愛知医科大学</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>aichi-med-u/service 5facccdffc991b46f54af5799ebf53e6204adf16</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.aichi-med-u.ac.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

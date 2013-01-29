@@ -10,14 +10,14 @@
   <request-list>
     <request hostname="www.city.yamato.lg.jp" />
     <request hostname="www.yamatocity-mh.jp" />
-    <request hostname="www3.e-reikinet.jp" />
-    <request hostname="www2.wagamachi-guide.com" />
+    <request hostname="www3.e-reikinet.jp" path="/yamato/" />
+    <request hostname="www2.wagamachi-guide.com" path="/yamato/" />
     <request hostname="www.neconome.com" />
     <request hostname="faq.city.yamato.lg.jp" />
     <request hostname="www.bousaiyamato.jp" />
     <request hostname="www.yamato-city.stream.jfit.co.jp" />
     <request hostname="www.ed2.city.yamato.kanagawa.jp" />
-    <request hostname="m.okweb3.jp" />
+    <request hostname="wagmap.jp" path="/yamato/" />
   </request-list>
   
   <!-- HTML断片翻訳を行わないURLの一覧 -->

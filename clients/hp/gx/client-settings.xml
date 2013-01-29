@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>七尾市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nanao/service cca790f4706bb5684f2974008e25d1bf1a8d30d3</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.nanao.lg.jp" />
+    <!-- テスト用 -->
+    <request hostname="pub.nanao.cms8341.jp" />
+  </request-list>
+  
+  <!-- テスト用 Basic認証 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic bmFuYW86eEo5QzdaZWY=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://pub\.nanao\.cms8341\.jp/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- 携帯翻訳用設定を追加 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

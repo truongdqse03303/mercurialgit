@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>新座市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>niiza/service 631793cd0f7456b253b0c417d386de1f9be771cc</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.niiza.lg.jp" />
+    <!-- テスト用 -->
+    <request hostname="niiza-cms.netcrew.co.jp" />
+  </request-list>
+
+  <!-- テスト用 Basic認証 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic bmlpemEtY21zOnpva2lyaW4yMDEy</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://niiza-cms\.netcrew\.co\.jp/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

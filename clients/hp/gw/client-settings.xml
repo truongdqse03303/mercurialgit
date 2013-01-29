@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>伊奈町役場</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>saitama-ina/service 8371ee269d747ca5709e76973cd6c26b62274100</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.saitama-ina.lg.jp" />
+    <!-- テスト用 -->
+    <request hostname="udface.comcarry.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

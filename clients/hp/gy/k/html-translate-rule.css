@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM MEDICAL";
+}
+@engine aichi-med-u/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER MEDICAL";
+}
+@engine aichi-med-u/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER MEDICAL";
+}
