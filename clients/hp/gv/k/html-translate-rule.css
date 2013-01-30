@@ -2,11 +2,11 @@
   eid: CR-JK;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
 }
-@engine seki/main {
+@engine niiza/main {
   eid: CR-JK;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
-@engine seki/cross {
+@engine niiza/cross {
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
