@@ -1,241 +1,131 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <replace-rule-list>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/organization_img_new01.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/e_organization_img.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/globalnavi.jpg</pattern>
         <replacement>http://www.yokohamaport.co.jp/images/k_globalnavi.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/fontsize_txt.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_fontsize_txt.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/moji_01.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/e_moji_01.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_large.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_sizebt_large.jpg</replacement>
+        <replacement>http://www.yokohamaport.co.jp/images/e_sizebt_large.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_large2.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_sizebt_large2.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_large_ov.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/e_sizebt_large_ov.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_medium.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_sizebt_medium.jpg</replacement>
+        <replacement>http://www.yokohamaport.co.jp/images/e_sizebt_medium.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_medium2.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_sizebt_medium2.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_medium_ov.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/e_sizebt_medium_ov.jpg</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_small.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_sizebt_small.jpg</replacement>
+        <replacement>http://www.yokohamaport.co.jp/images/e_sizebt_small.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_small2.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_sizebt_small2.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_small_ov.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/e_sizebt_small_ov.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/language_btn.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_language_btn.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/navi/lang_01.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/e_lang_01.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/layout/search.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_search.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/themes/yppc/common/images/layout/search_btn.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_search_btn.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/325.swf</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/korea.swf</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/h2_aisatsu.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_h2_aisatsu.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/lpsc_btn_biz.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_lpsc_btn_biz.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_l_bottom.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_l_bottom.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/lpsc_btn_gen.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_lpsc_btn_gen.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/h2_news.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_h2_news.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/03/ban_yppc.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_ban_yppc.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_r_bottom.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_r_bottom.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/ban_bid_announcement.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_ban_bid_announcement.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_01a_01.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_01a_01.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/ban_soil.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_ban_soil.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_01a_02.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_01a_02.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/ban_ycon.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_ban_ycon.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_01a_03.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_01a_03.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/03/ban_earthquake.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_ban_earthquake.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_01a_04.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_01a_04.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/03/greeting_title.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_greeting_title.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_01a_05.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_01a_05.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/03/topics_title.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_topics_title.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_01b_01.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_01b_01.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/ban_guidance.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_ban_guidance.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_01b_02.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_01b_02.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/ban_reserve.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_ban_reserve.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_01b_03.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_01b_03.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/ban_kids.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_ban_kids.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_01b_04.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_01b_04.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/03/g_btn01.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_g_btn01.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_01b_05.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_01b_05.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/03/g_btn02.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_g_btn02.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_02a_01.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_02a_01.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/03/g_btn03.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_g_btn03.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_02a_02.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_02a_02.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/03/construction_btn.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_construction_btn.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_02a_03.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_02a_03.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/business_img05.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_business_img05.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_02a_04.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_02a_04.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/organization_img011.jpg</pattern>
-        <replacement>http://www.yokohamaport.co.jp/images/k_organization_img.jpg</replacement>
-    </replace-rule>
-    <!-- old domains -->
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/themes/yppc/common/images/navi/globalnavi.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_globalnavi.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_02b_01.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_02b_01.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/themes/yppc/common/images/navi/fontsize_txt.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_fontsize_txt.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_02b_02.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_02b_02.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_large.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_sizebt_large.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_02b_03.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_02b_03.jpg</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_large2.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_sizebt_large2.jpg</replacement>
+        <pattern>http://www.yokohamaport.co.jp/docs/wp-content/uploads/2011/02/top_02b_04.jpg</pattern>
+        <replacement>http://www.yokohamaport.co.jp/images/k_top_02b_04.jpg</replacement>
     </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_medium.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_sizebt_medium.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_medium2.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_sizebt_medium2.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_small.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_sizebt_small.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/themes/yppc/common/images/navi/sizebt_small2.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_sizebt_small2.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/themes/yppc/common/images/navi/language_btn.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_language_btn.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/themes/yppc/common/images/layout/search.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_search.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/325.swf</pattern>
-        <replacement>http://www.ypdc.or.jp/images/korea.swf</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/lpsc_btn_biz.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_lpsc_btn_biz.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/lpsc_btn_gen.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_lpsc_btn_gen.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/03/ban_yppc.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_ban_yppc.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/ban_bid_announcement.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_ban_bid_announcement.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/ban_soil.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_ban_soil.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/ban_ycon.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_ban_ycon.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/03/ban_earthquake.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_ban_earthquake.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/03/greeting_title.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_greeting_title.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/03/topics_title.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_topics_title.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/ban_guidance.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_ban_guidance.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/ban_reserve.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_ban_reserve.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/ban_kids.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_ban_kids.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/03/g_btn01.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_g_btn01.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/03/g_btn02.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_g_btn02.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/03/g_btn03.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_g_btn03.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/03/construction_btn.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_construction_btn.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/business_img05.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_business_img05.jpg</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.ypdc.or.jp/docs/wp-content/uploads/2011/02/organization_img011.jpg</pattern>
-        <replacement>http://www.ypdc.or.jp/images/k_organization_img.jpg</replacement>
-    </replace-rule>
-    <!-- old domains -->
 </replace-rule-list>
