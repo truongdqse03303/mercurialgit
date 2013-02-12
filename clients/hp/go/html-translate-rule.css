@@ -1,0 +1,6 @@
+// @RULESET
+// URL ^= http://www.city.otaru.lg.jp/
+div#content ul.page_list a {
+  text-flow: break;
+  content: translate split exclude '（|）';
+}

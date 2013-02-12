@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>座間味村役場</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>zamami/service 0826e4bcea486278574ed1f6b09d0c5d6c94aa34</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.vill.zamami.okinawa.jp" />
+    <!-- テスト用 -->
+    <request hostname="www2.vill.zamami.okinawa.jp" />
+  </request-list>
+
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>
