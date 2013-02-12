@@ -28,6 +28,10 @@
       <param-name>header.value.auth</param-name>
       <param-value>Basic a2VpaGFuOnRlc3R1cA==</param-value>
     </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://aa124c08j8\.smartrelease\.jp/.*</param-value>
+    </param>
   </resource-handler>
 
   <!-- コンテンツキャッシュ使用有無の設定-->

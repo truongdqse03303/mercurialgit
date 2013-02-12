@@ -8,8 +8,9 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="wakkanai.dosanko.co.jp" />
     <request hostname="www.city.wakkanai.hokkaido.jp" />
+    <!-- テスト用 -->
+    <request hostname="wakkanai.dosanko.co.jp" />
   </request-list>
 
   <!-- Basic認証 -->
@@ -22,6 +23,10 @@
     <param>
       <param-name>header.value.auth</param-name>
       <param-value>Basic d2tuMjAxMjpzYWlob2t1</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://wakkanai\.dosanko\.co\.jp/.*</param-value>
     </param>
   </resource-handler>
 

@@ -21,6 +21,20 @@
     <url>http://www\.tokyu-dept\.co\.jp/shinqs/.*</url>
   </url-list-->
 
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www\.tokyu-dept\.co.jp/norengai/shoplist/shoplist\.html/</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>HTML_FRAGMENT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 

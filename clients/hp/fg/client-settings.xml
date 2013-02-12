@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.asaka.lg.jp" />
+    <!-- テスト用 -->
     <request hostname="asaka-cms.netcrew.co.jp" />
   </request-list>
 
@@ -22,6 +23,10 @@
     <param>
       <param-name>header.value.auth</param-name>
       <param-value>Basic YXNha2E6YXNha2EyNDEw</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://asaka-cms\.netcrew\.co\.jp/.*</param-value>
     </param>
   </resource-handler>
 
