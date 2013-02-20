@@ -40,4 +40,16 @@
         <pattern>http://www.arita.jp/images/common/sideOtherStaff.gif</pattern>
         <replacement>http://www.arita.jp/images/common/kantai/sideOtherStaff.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/index/titleCourse.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/titleCourse.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/index/course02.jpg</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/course02.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/index/course03.jpg</pattern>
+        <replacement>http://www.arita.jp/images/common/kantai/course03.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
