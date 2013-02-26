@@ -1,0 +1,16 @@
+@engine miyazaki-aeonmall/service {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION SYSTEM";
+}
+@engine miyazaki-aeonmall/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION SYSTEM";
+}
+@engine miyazaki-aeonmall/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION SYSTEM";
+}
+
+body {
+  attribute: lang add 'zh';
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>千代田区観光協会</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kanko-chiyoda/service 758d392548ac06b849de7fc04a34384b013c20ed</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="kanko-chiyoda.jp" />
+    <request hostname="www.kanko-chiyoda.jp" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://(?:www\.)?kanko-chiyoda\.jp/tabid/(?:2491|2508|2515|2498)/Default\.aspx</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

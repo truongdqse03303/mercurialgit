@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>渋谷文化プロジェクト</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shibuyabunka/service 917cf26b9ef0ec7f9e957e8e4633ec42af95a007</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.shibuyabunka.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>EUC-JP</charset>
+</client-settings>

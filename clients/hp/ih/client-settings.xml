@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>南風原町役場</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>haebaru/service b5e1e3614cdd0ab996e8bb60dbb465823b129561</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.haebaru.lg.jp" />
+    <request hostname="www.town.haebaru.okinawa.jp" />
+    <request hostname="haebaru-test.okinawacloud.com" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

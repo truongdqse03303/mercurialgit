@@ -1,0 +1,5 @@
+// @RULESET
+// URL $= /Skins/chiyoda/skin.css
+@preprocess {
+  replace: '#body\\s*\\{' 'div#clwrapper\\{';
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>糸満市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>itoman/service 5e41c68b6b0b1f50346067be6cee2e143d1aebbb</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.itoman.lg.jp" />
+    <request hostname="www.city.itoman.okinawa.jp" />
+    <request hostname="itoman-test.okinawacloud.com" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

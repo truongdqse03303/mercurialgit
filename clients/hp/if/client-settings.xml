@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <client-settings>
+  <!-- クライアント名（任意） -->
+  <name>イオンモール宮崎</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>miyazaki-aeonmall/service a44cf5658023b7d32ebc7127b2c03c529b97d729</licence>
+
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <request-list>
+    <request hostname="miyazaki-aeonmall.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>
