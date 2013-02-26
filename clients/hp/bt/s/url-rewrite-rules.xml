@@ -332,4 +332,8 @@
         <pattern>http://www.bousai.pref.hiroshima.jp/www/contents/1318842737943/files/toppage_jp.gif</pattern>
         <replacement>http://www.bousai.pref.hiroshima.jp/www/contents/1318842737943/files/toppage_es.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bousai.pref.hiroshima.jp/hdis/img/top/bnr_sabou_A.png</pattern>
+        <replacement>http://www.bousai.pref.hiroshima.jp/hdis/img_es/top/bnr_sabou_A.png</replacement>
+    </replace-rule>
 </replace-rule-list>
