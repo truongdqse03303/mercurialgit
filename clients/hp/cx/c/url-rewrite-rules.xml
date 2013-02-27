@@ -13,7 +13,7 @@
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_zaseki_f.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.sapporo-dome.co.jp/con_top_zaseki_l_o.gif</pattern>
+        <pattern>http://www.sapporo-dome.co.jp/img/con_top_zaseki_l_o.gif</pattern>
         <replacement>http://www.sapporo-dome.co.jp/img/con_top_zaseki_f_o.gif</replacement>
     </replace-rule>
     <replace-rule>
@@ -30,7 +30,7 @@
     </replace-rule>
     <replace-rule>
         <pattern>http://www.sapporo-dome.co.jp/img/con_top_guide_l_o.gif</pattern>
-        <replacement>http://www.sapporo-dome.co.jp/con_top_guide_f_o.gif</replacement>
+        <replacement>http://www.sapporo-dome.co.jp/img/con_top_guide_f_o.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.sapporo-dome.co.jp/img/con_top_access_l.gif</pattern>
