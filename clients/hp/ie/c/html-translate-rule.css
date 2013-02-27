@@ -1,14 +1,14 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT";
 }
 @engine kanko-chiyoda/main {
   eid: CR-JC;
-  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
 }
 @engine kanko-chiyoda/cross {
   eid: CR-JC;
-  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
 
 body {
