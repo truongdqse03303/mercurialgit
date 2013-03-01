@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM SYSTEM COMPUTER INTERNET";
+}
+@engine cross/corporate-main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER SYSTEM COMPUTER";
+}
