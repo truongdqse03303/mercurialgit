@@ -2,6 +2,13 @@
   replace: ']>!-->' ']><!-->';
 }
 
+a[href="http://tobu.rwiths.net/r-withs/tfi0010a.do?hotelNo=1770"] {
+  attribute: * set "http://tobu.rwiths.net/portal/yoyaku/tm_en_room_info.html?f_no=1770";
+}
+a[href="http://tobu.rwiths.net/portal/yoyaku/tm_kakunin.html"] {
+  attribute: * set "http://tobu.rwiths.net/portal/yoyaku/tm_en_kakunin.html";
+}
+
 // @RULESET
 // URL = http://ww2.tobuhotel.co.jp/shibuya/
 // URL #= http://ww2\.tobuhotel\.co\.jp/shibuya/(?:stay|restaurant|party)/.*

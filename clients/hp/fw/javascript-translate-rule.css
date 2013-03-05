@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://ww2.tobuhotel.co.jp/shibuya/js/common.js
+@preprocess {
+  replace: "\\$\\('#searchForm'\\)\\.submit\\(\\);" "window.open('http://tobu.rwiths.net/portal/yoyaku/tm_en_yoyaku.html?f_no=1770','_blank');";
+}
