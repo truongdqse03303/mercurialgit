@@ -18,6 +18,7 @@
     <request hostname="www.yamato-city.stream.jfit.co.jp" />
     <request hostname="www.ed2.city.yamato.kanagawa.jp" />
     <request hostname="wagmap.jp" path="/yamato/" />
+    <request hostname="yamato.city-hc.jp" />
   </request-list>
   
   <!-- HTML断片翻訳を行わないURLの一覧 -->
