@@ -11,6 +11,12 @@
     <request hostname="www.okinawabaseball.com" />
   </request-list>
 
+  <!-- 異常なアクセスに対する暫定対処 -->
+  <url-list type="ignore">
+    <url>http://www\.okinawabaseball\.com/pdf/timeschedule_list\.pdf</url>
+    <url>http://www\.okinawabaseball\.com/bus/</url>
+  </url-list>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 
