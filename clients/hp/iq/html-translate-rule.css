@@ -1,11 +1,11 @@
 // @RULESET
-// URL #= http://(?:www2\.vill\.yomitan\.okinawa\.jp|www2\.yomitan\.jp)/(?:index\.html|$)
+// URL #= http://www2\.vill\.yomitan\.okinawa\.jp/(?:index\.html|$)
 div#home-slides {
   attribute: cltx add 'exclude';
 }
 
 // @RULESET
-// URL #= http://(?:www2\.vill\.yomitan\.okinawa\.jp|www2\.yomitan\.jp)/events/crosslanguage\.fragment\.translate/.+
+// URL #= http://www2\.vill\.yomitan\.okinawa\.jp/events/crosslanguage\.fragment\.translate/.+
 div#cal td[class^="fc-header-"] {
   attribute: cltx add 'exclude';
 }

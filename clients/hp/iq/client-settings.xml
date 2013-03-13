@@ -9,7 +9,6 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www2.vill.yomitan.okinawa.jp" />
-    <request hostname="www2.yomitan.jp" />
   </request-list>
   
   <!-- 使用する設定IDの一覧 -->
@@ -20,7 +19,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>^http://www2\.(?:vill\.yomitan\.okinawa|yomitan)\.jp/events/json\.php\?.+</param-value>
+      <param-value>^http://www2\.vill\.yomitan\.okinawa\.jp/events/json\.php\?.+</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
