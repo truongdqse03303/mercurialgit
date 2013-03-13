@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>愛知県観光協会</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>aichi-kanko/service a1b2cdaa2aea80dd68394fc07816b8f1791546c6</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.aichi-kanko.jp" />
+  </request-list>
+
+  <!-- キーワード検索の文字エンコード -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
+    <param>
+      <param-name>encode.url.keyword</param-name>
+      <param-value>.+/search/dir_result\.asp\?ktype=1&amp;kwd=.+</param-value>
+    </param>
+    <param>
+      <param-name>encode.charset.keyword</param-name>
+      <param-value>Shift_JIS</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>
