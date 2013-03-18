@@ -52,4 +52,52 @@
         <pattern>http://www.arita.jp/images/index/course03.jpg</pattern>
         <replacement>http://www.arita.jp/images/common/hangul/course03.jpg</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/index/arita_hina9.jpg</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/arita_hina9.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/index/buttonBlog.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/buttonBlog.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/index/buttonNews.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/buttonNews.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideBannerAritaware.jpg</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/sideBannerAritaware.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideBannerBlog.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/sideBannerBlog.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideBannerEvent01.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/sideBannerEvent01.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideBannerEvent02.jpg</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/sideBannerEvent02.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideBannerEvent03.jpg</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/sideBannerEvent03.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideBannerMember.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/sideBannerMember.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideBannerProcess.jpg</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/sideBannerProcess.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideBannerYoutube.jpg</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/sideBannerYoutube.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.arita.jp/images/common/sideOtherPress.gif</pattern>
+        <replacement>http://www.arita.jp/images/common/hangul/sideOtherPress.gif</replacement>
+    </replace-rule>
 </replace-rule-list>
