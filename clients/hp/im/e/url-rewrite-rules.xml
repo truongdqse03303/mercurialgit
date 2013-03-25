@@ -165,12 +165,12 @@
         <replacement>http://www.city.yaita.tochigi.jp/img/en/tit_koho_on.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.city.yaita.tochigi.jp/img/tit_ranking.gif</pattern>
-        <replacement>http://www.city.yaita.tochigi.jp/img/en/tit_ranking.gif</replacement>
+        <pattern>http://www.city.yaita.tochigi.jp/img/tit_event.gif</pattern>
+        <replacement>http://www.city.yaita.tochigi.jp/img/en/tit_event.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.city.yaita.tochigi.jp/img/tit_ranking_on.gif</pattern>
-        <replacement>http://www.city.yaita.tochigi.jp/img/en/tit_ranking_on.gif</replacement>
+        <pattern>http://www.city.yaita.tochigi.jp/img/tit_event_on.gif</pattern>
+        <replacement>http://www.city.yaita.tochigi.jp/img/en/tit_event_on.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.city.yaita.tochigi.jp/img/tit_news.gif</pattern>
