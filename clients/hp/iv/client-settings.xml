@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>南海電鉄</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>howto-osaka/service a8957ac5730e67f1f0917c9904d93668cd702e5c</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.howto-osaka.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

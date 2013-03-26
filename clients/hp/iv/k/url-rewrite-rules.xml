@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replace-rule-list>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/top/top_koyason.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/top/top_koyason_kr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/top/top_sakura.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/top/top_sakura_kr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/top/top_ticket.gif</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/top/top_ticket_kr.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/top/top_railway.gif</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/top/top_railway_kr.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/top/toparea/top_wakayama.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/top/toparea/top_wakayama_kr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/top/toparea/top_kobe.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/top/toparea/top_kobe_kr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/top/toparea/top_kyoto.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/top/toparea/top_kyoto_kr.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/top/toparea/top_nara.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/top/toparea/top_nara_kr.jpg</replacement>
+    </replace-rule>
+</replace-rule-list>
