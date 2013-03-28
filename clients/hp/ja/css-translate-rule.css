@@ -1,0 +1,12 @@
+// @RULESET
+// URL = http://www.shinjuku.or.jp/skins/shinjuku02/css/top.css
+@preprocess {
+  replace: 'body\\{' '#clwrapper {';
+  replace: 'top:50px;' 'top:80px;';
+}
+
+// @RULESET
+// URL = http://www.shinjuku.or.jp/skins/shinjuku02/css/style.css
+@preprocess {
+  replace: 'body ?\\{' '#clwrapper {';
+}

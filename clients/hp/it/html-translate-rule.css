@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= http://www\.city\.amami\.lg\.jp/crosslanguage\.fragment\.translate/.+
+p#tmp_publicity_btn {
+  attribute: cltx add 'exclude';
+}

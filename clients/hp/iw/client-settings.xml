@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>愛荘町役場</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>aisho/service 9100f6005eb338d97eb2beeb600be13dce59162c</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.aisho.shiga.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>

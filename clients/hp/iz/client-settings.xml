@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>データロジック</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>datalogic/service f60d9d3916465ed3d77afdf5a1be69ab17578b16</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.datalogic.jp" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <charset url="http://www\.datalogic\.jp/real4/.*">UTF-8</charset>
+  <charset>Shift_JIS</charset>
+</client-settings>

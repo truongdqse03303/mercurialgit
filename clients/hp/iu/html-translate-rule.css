@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.westin-osaka.co.jp/stay/crosslanguage.fragment.translate/
+div[id^="stripTransmitter"] > ul > li {
+  attribute: cltx add 'exclude';
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>新宿専門店会</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shinjuku-search/service d776e90fb9a29c73576097289b2d1fd45f906d7a</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.shinjuku.or.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>
