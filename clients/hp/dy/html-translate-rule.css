@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://xn--3iqs55ayoa25z.com/shop/
+div.goodsListTreeArea {
+  attribute: cltx add 'exclude';
+}

@@ -1,0 +1,14 @@
+/**
+ * @IGNORE_RULE: @RewriteNoRegisteredDomain, @MapUnknownBinaryResource, @RewriteFormAction;
+ */
+@data xml {
+}
+
+@engine default {
+  eid: CR-JC;
+  dictionaries: "YAKUSHIMA_DIC YAKUSHIMA_TM CROSS_DIC CROSS_TM";
+}
+
+node[name] {
+  attribute: * translate;
+}

@@ -16,11 +16,23 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://xn--3iqs55ayoa25z\.com/backoffice/Ajax/ShopPage/.+</param-value>
+      <param-value>http://xn--3iqs55ayoa25z\.com/backoffice/(?:Ajax/ShopPage/.+|JSL/jsdyna/MK/Control/TreeView/.+?\.js)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
       <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+  <resource-handler>
+    <type name="xmlResource">jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://xn--3iqs55ayoa25z\.com/shop/[^/]+/Ajax/ShopPage/tree\.php\?.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>XML</param-value>
     </param>
     <priority>4</priority>
   </resource-handler>
