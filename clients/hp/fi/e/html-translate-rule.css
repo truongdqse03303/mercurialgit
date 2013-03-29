@@ -12,5 +12,9 @@
 }
 
 link[rel="stylesheet"][type="text/css"][href$="/css/import.css"] {
-  attribute: href rewrite "/css/main_en.css";
+  attribute: href rewrite "@RewriteImportCss";
+}
+
+@rewrite RewriteImportCss {
+  if (absurl equals "http://jikei-ur.umin.jp/css/import.css") return "/css/main_en.css";
 }

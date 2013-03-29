@@ -7,3 +7,13 @@
   replace: "body#bg-top" "div#bg-top";
   replace: "body#bg-resident" "div#bg-resident";
 }
+
+// @RULESET
+// URL = http://jikei-ur.umin.jp/kashiwa/css/import.css
+:css {
+  attribute: import rewrite "@RewriteKashiwaMainCss";
+}
+
+@rewrite RewriteKashiwaMainCss {
+  if (absurl equals "http://jikei-ur.umin.jp/kashiwa/css/main.css") return "/kashiwa/css/main_en.css";
+}
