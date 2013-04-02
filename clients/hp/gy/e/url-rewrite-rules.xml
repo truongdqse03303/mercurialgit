@@ -5,232 +5,116 @@
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_01o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_01o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_02.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_02_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_02o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_02o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_03.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_03_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_03o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_03o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_04.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_04_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_04o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_04o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_05.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_05_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_05o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_05o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_06.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_06_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_06o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_06o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_07.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_07_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_07o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_07o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_08.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_08_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_08o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_08o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_11.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_11_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_11o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_11o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_12.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_12_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_12o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_12o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_09.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_09_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_09o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_09o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_10.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_10_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/gnavi_btn_10o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/gnavi_btn_10o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/header_btn_01.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/header_btn_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/header_btn_01o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/header_btn_01o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/header_btn_02.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/header_btn_02_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/header_btn_02o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/header_btn_02o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/header_btn_03.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/header_btn_03_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/header_btn_03o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/header_btn_03o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/header_btn_lang.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/header_btn_lang_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/header_btn_lango.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/header_btn_lango_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_01.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_01o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_01o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_02.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_02_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_02o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_02o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_03.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_03_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_03o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_03o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_04.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_04_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_04o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_04o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_05.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_05_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_05o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_05o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_06.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_06_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/main_btn_06o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/main_btn_06o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_02.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_02_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_02o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_02o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_03.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_03_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_03o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_03o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_04.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_04_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_04o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_04o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_05.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_05_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_05o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_05o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_06.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_06_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_06o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_06o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_07.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_07_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_07o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_07o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_08.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_08_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_08o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_08o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/img/u_txt_02.gif</pattern>
@@ -337,152 +221,76 @@
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_01o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_01o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_02.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_02_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_02o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_02o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_03.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_03_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_03o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_03o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_04.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_04_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_04o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_04o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_05.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_05_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_05o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_05o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_01.png</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_01_e.png</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_01o.png</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_01o_e.png</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_02.png</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_02_e.png</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_02o.png</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_02o_e.png</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_03.png</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_03_e.png</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_03o.png</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_03o_e.png</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_04.png</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_04_e.png</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_04o.png</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_04o_e.png</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_05.png</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_05_e.png</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_05o.png</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/gnavi_btn_05o_e.png</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_01.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_01o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_01o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_02.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_02_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_02o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_02o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_03.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_03_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_03o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_03o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_04.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_04_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_04o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_04o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_05.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_05_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_05o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_05o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_06.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_06_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_06o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_06o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_07.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_07_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_07o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_07o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_08.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_08_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_08o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_08o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_09.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_09_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_09o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/main_btn_09o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/h_btn_01.jpg</pattern>
@@ -581,72 +389,36 @@
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_01o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_01o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_02.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_02_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_02o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_02o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_04.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_04_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_04o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_04o_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_05.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_05_e.gif</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_05o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/header_btn_05o_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_01.png</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_01_e.png</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_01o.png</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_01o_e.png</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_02.png</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_02_e.png</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_02o.png</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_02o_e.png</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_03.png</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_03_e.png</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_03o.png</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_03o_e.png</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_04.png</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_04_e.png</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_04o.png</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_04o_e.png</replacement>
-    </replace-rule>
-    <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_05.png</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_05_e.png</replacement>
-    </replace-rule>
-    <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_05o.png</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/gnavi_btn_05o_e.png</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/clinic/img/c_txt_01.gif</pattern>
@@ -685,12 +457,12 @@
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/footer_heading_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/su00/su0004/su000403/__icsFiles/afieldfile/2012/10/13/u_btn_23.gif</pattern>
+        <pattern>http://www.aichi-med-u.ac.jp/su00/su0004/su000403/__icsFiles/afieldfile/2013/04/01/1_u_btn_23.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/img/u_btn_23_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/sh00/sh0004/sh000403/__icsFiles/afieldfile/2013/01/19/h_btn_22.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/h_btn_22_e.gif</replacement>
+        <pattern>http://www.aichi-med-u.ac.jp/hospital/sh00/sh0004/sh000403/__icsFiles/afieldfile/2013/04/01/h_btn_22.gif</pattern>
+        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/h_btn_22_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/su16/__icsFiles/afieldfile/2012/11/27/u16_pic_01.gif</pattern>
@@ -727,5 +499,21 @@
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/clinic/sc10/__icsFiles/afieldfile/2012/12/21/c10_pic_01_1.gif</pattern>
         <replacement>http://www.aichi-med-u.ac.jp/clinic/img/c10_pic_01_1_e.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/h_btn_04.jpg</pattern>
+        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/h_btn_04_e.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/h_btn_05.jpg</pattern>
+        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/h_btn_05_e.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/c_btn_07.jpg</pattern>
+        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/c_btn_07_e.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.aichi-med-u.ac.jp/clinic/img/c_btn_08.jpg</pattern>
+        <replacement>http://www.aichi-med-u.ac.jp/clinic/img/c_btn_08_e.jpg</replacement>
     </replace-rule>
 </replace-rule-list>
