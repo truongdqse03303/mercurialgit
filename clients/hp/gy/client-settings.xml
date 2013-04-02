@@ -16,6 +16,7 @@
     <url>http://www\.aichi-med-u\.ac\.jp/su10/su100[12]/(?:index\.html)?(?:\?.*)?</url>
     <url>http://www\.aichi-med-u\.ac\.jp/su06/su0607/su060703/(?:06|13|15)\.html(?:\?.*)?</url>
     <url>http://www\.aichi-med-u\.ac\.jp/su08/su0808/su080802/(?:01|04|05|06)\.html(?:\?.*)?</url>
+    <url>http://www\.aichi-med-u\.ac\.jp/english/.*</url>
   </url-list>
 
   <!-- サイトで使用される文字セット -->

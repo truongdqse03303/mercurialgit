@@ -10,3 +10,22 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM MEDICAL";
 }
+
+// @RULESET
+// URL #= http://www\.aichi-med-u\.ac\.jp/(?!hospital|clinic).*
+a[href="http://www.aichi-med-u.ac.jp/english/"] {
+  attribute: href set 'http://www.aichi-med-u.ac.jp/index.html';
+}
+
+// @RULESET
+// URL ^= http://www.aichi-med-u.ac.jp/hospital/
+a[href="http://www.aichi-med-u.ac.jp/english/hospital/"] {
+  attribute: href set 'http://www.aichi-med-u.ac.jp/hospital/index.html';
+}
+
+// @RULESET
+// URL ^= http://www.aichi-med-u.ac.jp/clinic/
+a[href="http://www.aichi-med-u.ac.jp/english/institute/outline/medicalclinic.html"] {
+  attribute: href set 'http://www.aichi-med-u.ac.jp/clinic/index.html';
+}
+
