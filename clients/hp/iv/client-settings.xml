@@ -11,6 +11,9 @@
     <request hostname="www.howto-osaka.com" />
   </request-list>
 
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
   <!-- サイトで使用される文字セット -->
-  <!--charset>UTF-8</charset-->
+  <charset>UTF-8</charset>
 </client-settings>
