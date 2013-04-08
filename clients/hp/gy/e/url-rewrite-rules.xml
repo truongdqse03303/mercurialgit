@@ -213,8 +213,8 @@
         <replacement>http://www.aichi-med-u.ac.jp/img/footer_heading_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_01o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_01o_e.gif</replacement>
+        <pattern>http://www.aichi-med-u.ac.jp/img/footer_btn_01.gif</pattern>
+        <replacement>http://www.aichi-med-u.ac.jp/img/footer_btn_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/header_btn_01.gif</pattern>
@@ -373,8 +373,8 @@
         <replacement>http://www.aichi-med-u.ac.jp/hospital/img/footer_heading_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
-        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/footer_btn_01o.gif</pattern>
-        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/footer_btn_01o_e.gif</replacement>
+        <pattern>http://www.aichi-med-u.ac.jp/hospital/img/footer_btn_01.gif</pattern>
+        <replacement>http://www.aichi-med-u.ac.jp/hospital/img/footer_btn_01_e.gif</replacement>
     </replace-rule>
     <replace-rule>
         <pattern>http://www.aichi-med-u.ac.jp/hospital/img/footer_txt_02.gif</pattern>
