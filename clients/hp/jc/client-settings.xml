@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>長崎市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nagasaki/service f24a3289fe2ca830c9a5455c9cdc83978e09a568</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.nagasaki.lg.jp" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.city\.nagasaki\.lg\.jp/(?:peace|endou)/</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

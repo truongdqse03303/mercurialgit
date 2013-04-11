@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>慈恵医科大学(本院)</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>jikei/service 44bc5edd25adfd6d0672d4a9622d340c2f843ac5</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.jikei.ac.jp" path="/hospital/honin/" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>EUC-JP</charset>
+</client-settings>

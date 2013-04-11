@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>墨田区役所(すみだモダン)</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>sumidamodan/service 1602c41bad4f67a0b499b0a366455106a6f984f2</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="sumida-brand.jp" />
+  </request-list>
+  
+  <!-- 翻訳対象外のURL -->
+  <url-list type="ignore">
+    <url>http://sumida-brand\.jp/catalog/brand2010/index\.html.*</url>
+  </url-list>
+
+  <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore-fragment">
+    <url>.+</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>
