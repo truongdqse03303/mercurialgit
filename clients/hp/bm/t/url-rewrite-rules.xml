@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <replace-rule-list>
     <replace-rule>
+        <pattern>http://www.mitsukoshi.co.jp/pc/store/1210/images/map01_1008.gif</pattern>
+        <replacement>http://www.mitsukoshi.co.jp/pc/store/fcs/chinese01/1210/map.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.mitsukoshi.co.jp/pc/store/1210/images/head_ginza_on.gif</pattern>
         <replacement>http://www.mitsukoshi.co.jp/store/1210/fcs/images/chinese02/head_ginza_on.gif</replacement>
     </replace-rule>
