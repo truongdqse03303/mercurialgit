@@ -1,8 +1,0 @@
-@engine default {
-  eid: CR-JK;
-  dictionaries: "WAJIMANAVI_DIC WAJIMANAVI_TM";
-}
-@engine wajimanavi/wajimanavi02 {
-  eid: CR-JK;
-  dictionaries: "WAJIMANAVI_DIC_MASTER WAJIMANAVI_TM_MASTER";
-}
