@@ -11,6 +11,11 @@
     <request hostname="www.howto-osaka.com" />
   </request-list>
 
+  <!-- サイズが大き過ぎるのでPDFをプロキシしない -->
+  <url-list type="ignore">
+    <url>.+\.pdf</url>
+  </url-list>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 
