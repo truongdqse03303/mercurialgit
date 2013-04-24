@@ -32,4 +32,32 @@
         <pattern>http://www.howto-osaka.com/top/img/top/toparea/top_nara.jpg</pattern>
         <replacement>http://www.howto-osaka.com/top/img/top/toparea/top_nara_en.jpg</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_det.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_det_en.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_route.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_route_en.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_timetable.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_timetable_en.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_sp_1.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_sp_en_1.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_sp_2.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_sp_en_2.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_sp_3.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_sp_en_3.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_sp_4.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_sp_en_4.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
