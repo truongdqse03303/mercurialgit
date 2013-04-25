@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>新城市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shinshiro/service a7a92e0e3633293d45bab3b65adb469aca99d40a</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.shinshiro.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

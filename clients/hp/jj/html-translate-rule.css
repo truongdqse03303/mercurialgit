@@ -1,0 +1,14 @@
+// @RULESET
+// URL ^= http://www.city.izu.shizuoka.jp/
+div#oshirase a, div.section a {
+  text-flow: break;
+}
+
+// @RULESET
+// URL #= http://kanko\.city\.izu\.shizuoka\.jp(?:$|/|/index.html.+)?
+body {
+  attribute: style set 'background-position: center 27px !important;';	
+}
+div#topcontents ul.oshiraselist li span {
+  text-flow: break;
+}

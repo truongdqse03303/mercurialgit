@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>日高市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hidaka/service 45e1478f614b7e1e7bbe5f1cc718e838b7e0993a</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.hidaka.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

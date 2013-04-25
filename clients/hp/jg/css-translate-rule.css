@@ -1,0 +1,9 @@
+@rewrite RewriteCSSUrl {
+  if (absurl equals 'http://asovilla.jp/css/PIE.htc') return '/css/PIE.htc';
+  apply "@RewriteBinaryResource";
+}
+
+:css {
+  attribute: import rewrite "@RewriteStyleSheetInclude";
+  attribute: url rewrite "@RewriteCSSUrl";
+}

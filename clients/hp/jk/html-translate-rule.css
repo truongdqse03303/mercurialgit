@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.odawara-kankou.com/event-y/
+#ichiran ul li span {
+  text-flow: break;
+}
