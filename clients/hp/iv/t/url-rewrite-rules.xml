@@ -60,4 +60,8 @@
         <pattern>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_sp_4.jpg</pattern>
         <replacement>http://www.howto-osaka.com/top/img/railway/kanku/det/kanku_sp_ch1_4.jpg</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.howto-osaka.com/top/img/top/top_kushi.jpg</pattern>
+        <replacement>http://www.howto-osaka.com/top/img/top/top_kushi_ch1.jpg</replacement>
+    </replace-rule>
 </replace-rule-list>
