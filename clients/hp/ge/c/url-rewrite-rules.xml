@@ -56,11 +56,11 @@
 	
 	<!-- Flash objects -->
 	<replace-rule>
-		<pattern>/swf/main.swf</pattern>
+		<pattern>http://fukuoka-aeonmall.com/swf/main.swf</pattern>
 		<replacement>http://fukuoka-aeonmall.com/swf/main_translate.swf</replacement>
 	</replace-rule>
 	<replace-rule>
-		<pattern>/swf/sec.swf</pattern>
+		<pattern>http://fukuoka-aeonmall.com/swf/sec.swf</pattern>
 		<replacement>http://fukuoka-aeonmall.com/swf/sec_translate.swf</replacement>
 	</replace-rule>
 </replace-rule-list>
