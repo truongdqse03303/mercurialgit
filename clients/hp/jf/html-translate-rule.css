@@ -1,0 +1,3 @@
+@postprocess {
+  replace: 'https://my.clytia.jp/foru/p/Aply/Index[^"\']+' 'http://clytia.jp/lpf09_en/index.html';
+}
