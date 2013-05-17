@@ -1,8 +1,0 @@
-@engine default {
-  eid: CR-JC;
-  dictionaries: "MOVING-S_DIC MOVING-S_TM CROSS_DIC CROSS_TM";
-}
-
-body {
-  attribute: lang add 'zh';
-}
