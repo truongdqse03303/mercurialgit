@@ -221,6 +221,10 @@
         <replacement>http://www.bs11.jp/common/images/zh/btn_allprogram_off.gif</replacement>
     </replace-rule>
     <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_allprogram_on.gif</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_allprogram_on.gif</replacement>
+    </replace-rule>
+    <replace-rule>
         <pattern>http://www.bs11.jp/all/images/title.jpg</pattern>
         <replacement>http://www.bs11.jp/all/images/zh/title.jpg</replacement>
     </replace-rule>
@@ -999,5 +1003,113 @@
     <replace-rule>
         <pattern>http://www.bs11.jp/special/images/title_program_details.jpg</pattern>
         <replacement>http://www.bs11.jp/special/images/zh/title_program_details.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/search-button.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/search-button.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_more2_off.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_more2_off.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_more2_on.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_more2_on.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_lineupR_off.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_lineupR_off.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_lineupR_on.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_lineupR_on.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_lineupR_w_off.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_lineupR_w_off.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_lineupR_w_on.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_lineupR_w_on.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_lineup_off.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_lineup_off.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_lineup_on.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_lineup_on.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/titlebar_osusume_today.gif</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/titlebar_osusume_today.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/titlebar_osusume_tomorrow.gif</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/titlebar_osusume_tomorrow.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/gallery/images/btn_details.png</pattern>
+        <replacement>http://www.bs11.jp/gallery/images/zh/btn_details.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_header_program_off.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_header_program_off.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_header_program_on.png</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_header_program_on.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_pagetop2.jpg</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_pagetop2.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/banner/images/right-column/ban_sns_off.png</pattern>
+        <replacement>http://www.bs11.jp/banner/images/right-column/zh/ban_sns_off.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/banner/images/right-column/ban_sns_on.png</pattern>
+        <replacement>http://www.bs11.jp/banner/images/right-column/zh/ban_sns_on.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/sns/images/title.jpg</pattern>
+        <replacement>http://www.bs11.jp/sns/images/zh/title.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/sns/images/btn_facebook_off.png</pattern>
+        <replacement>http://www.bs11.jp/sns/images/zh/btn_facebook_off.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/sns/images/btn_facebook_on.png</pattern>
+        <replacement>http://www.bs11.jp/sns/images/zh/btn_facebook_on.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/sns/images/btn_follow_off.png</pattern>
+        <replacement>http://www.bs11.jp/sns/images/zh/btn_follow_off.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/sns/images/btn_follow_on.png</pattern>
+        <replacement>http://www.bs11.jp/sns/images/zh/btn_follow_on.png</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/common/images/btn_top_oubokikan.gif</pattern>
+        <replacement>http://www.bs11.jp/common/images/zh/btn_top_oubokikan.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/present/images/title_presentform.jpg</pattern>
+        <replacement>http://www.bs11.jp/present/images/zh/title_presentform.jpg</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/present/images/btn_backPresent_off.gif</pattern>
+        <replacement>http://www.bs11.jp/present/images/zh/btn_backPresent_off.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/present/images/btn_back_off.gif</pattern>
+        <replacement>http://www.bs11.jp/present/images/zh/btn_back_off.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.bs11.jp/present/images/btn_back_on.gif</pattern>
+        <replacement>http://www.bs11.jp/present/images/zh/btn_back_on.gif</replacement>
     </replace-rule>
 </replace-rule-list>
