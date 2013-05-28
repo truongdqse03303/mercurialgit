@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM DEPART BRAND NETSHOP FASHION";
+}
+@engine yokohama-mores/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER NETSHOP FASHION";
+}
+@engine yokohama-mores/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER NETSHOP FASHION";
+}
+
+@postprocess {
+  replace: '(<[^<]*#footer_container[^>]*>)' '$1<p style="text-align:center;margin-bottom:6px" cltx>&#36889;&#20491;&#32178;&#38913;&#26159;&#34987;&#27231;&#22120;&#36914;&#34892;&#32763;&#35695;&#30340;&#12290;&#32763;&#35695;&#32080;&#26524;&#19981;&#21487;&#33021;&#49;&#48;&#48;&#37;&#27491;&#30906;&#12290;&#26395;&#24744;&#22810;&#29702;&#35299;&#32780;&#21033;&#29992;&#12290;</p>';
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>南伊豆町</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>minamiizu/service 29f11af45a993b41e34e6bd4a00b5d2653026f71</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.minamiizu.shizuoka.jp" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.town\.minamiizu\.shizuoka\.jp/docs/2013031200026/</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>横浜モアーズ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>yokohama-mores/service 9b45dfb883d0f64d2e9ab61d95d10ce99489e5b3</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="yokohama-mores.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+  
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>false</param-value>
+  </extension-param>
+</client-settings>

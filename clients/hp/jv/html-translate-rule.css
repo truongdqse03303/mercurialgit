@@ -1,0 +1,3 @@
+div.content ul li *, div.latest ul li *, div.category ul li * {
+  text-flow: break;
+}
