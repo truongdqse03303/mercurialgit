@@ -22,6 +22,6 @@
   <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>{'#site-translate-header-wrapper' : {'position':'absolute','z-index':'400'}}</param-value>
+    <param-value>style:#site-translate-header-wrapper{position:absolute;z-index:400;}</param-value>
   </extension-param>
 </client-settings>

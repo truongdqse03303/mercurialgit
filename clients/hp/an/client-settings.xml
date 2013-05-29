@@ -26,7 +26,7 @@
 
   <!-- 備案ライセンスを表示しないURL -->
   <extension-param>
-    <param-name>icp.ignore.url</param-name>
+    <param-name>icp.licence.ignore.url</param-name>
     <param-value>http://www\.rakuten\.ne\.jp/(?:gold/nomadic/fc_iframes/.*|.*/funcushion/.+)</param-value>
   </extension-param>
 </client-settings>
