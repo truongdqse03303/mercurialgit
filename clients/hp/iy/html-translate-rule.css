@@ -6,3 +6,9 @@
   replace: 'ＭＳ 明朝' 'Century';
   replace: '(?i)(<img id="BgImg"[^>]+?src=")(.+?\\.jpg)\\?\\d+("[^>]+>)' '$1http://ojad.jp/global-image/header/edited/54.jpg$3';
 }
+
+// @RULESET
+// URL #= http://ojad.jp/(?:index.html?)?
+div#unit-1092 span {
+  text-flow: break;
+}
