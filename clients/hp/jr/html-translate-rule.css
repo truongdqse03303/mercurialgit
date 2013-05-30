@@ -1,0 +1,31 @@
+a[href="https://sec.489.jp/rg/member/mem_mail.php?smem_id=2002"] {
+  attribute: href rewrite "https://sec.489.jp/rg/emember/emem_mail.php?smem_id=2002" !important;
+}
+a[href="https://sec.489.jp/rg/pass/pass.php?smem_id=2002"] {
+  attribute: href rewrite "https://sec.489.jp/rg/epass/epass.php?smem_id=2002" !important;
+}
+div#header-third form[action="http://www.489.jp/rg/vroom2/list4.php"] {
+  attribute: action rewrite "http://www.489.jp/rg/evroom2/elist4.php";
+}
+
+// @RULESET
+// URL = http://www.first-cabin.jp/locationlist/osaka.html
+// URL = http://www.first-cabin.jp/locationlist/kyoto.html
+// URL = http://www.first-cabin.jp/locationlist/haneda-terminal1.html
+// URL = http://www.first-cabin.jp/locationlist/akihabara.html
+// URL = http://www.first-cabin.jp/reserve/
+@rewrite RewriteLinks {
+  if (absurl matches "http://www\\.489\\.jp/rg/vroom2/list4\\.php\\?(smem_id=(?:2003|2002|2068|2115).+)") return "http://www.489.jp/rg/evroom2/elist4.php?{$1}";
+  if (absurl matches "https://sec\\.489\\.jp/rg/mpage/mpage_login\\.php\\?(smem_id=(?:2003|2002|2068|2115))") return "https://sec.489.jp/rg/empage/empage_login.php?{$1}";
+  if (absurl matches "https://sec\\.489\\.jp/rg/cancel/can_login\\.php\\?(smem_id=(?:2003|2002|2068|2115))") return "https://sec.489.jp/rg/ecancel/ecan_login.php?{$1}";
+}
+a[href#="(?:http://www|https://sec)\\.489\\.jp/rg/.+"] {
+  attribute: href rewrite @RewriteLinks;
+}
+
+a[href="http://www.tokyo-airport-bldg.co.jp/map/moves_between_terminals/shuttle_bus_between_terminals.html"] {
+  attribute: href rewrite "http://www.tokyo-airport-bldg.co.jp/en/access/shuttleBus.html";
+}
+a[href="http://www.tokyo-airport-bldg.co.jp/access/"] {
+  attribute: href rewrite "http://www.tokyo-airport-bldg.co.jp/en/access/#t1";
+}
