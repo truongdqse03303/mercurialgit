@@ -1,3 +1,5 @@
+@data html {output:orgsent;}
+
 :javascript {
   attribute: url rewrite "@RewriteHtmlUrlAttribute";
 }
@@ -9,6 +11,9 @@
 
 // @RULESET
 // URL #= http://ojad.jp/(?:index.html?)?
-div#unit-1092 span {
+@preprocess {
+  replace: '<span style="color: #ffffff">0</span>' '';
+}
+div#unit-1092 strong {
   text-flow: break;
 }
