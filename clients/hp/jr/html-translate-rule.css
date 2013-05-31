@@ -4,6 +4,9 @@ a[href="https://sec.489.jp/rg/member/mem_mail.php?smem_id=2002"] {
 a[href="https://sec.489.jp/rg/pass/pass.php?smem_id=2002"] {
   attribute: href rewrite "https://sec.489.jp/rg/epass/epass.php?smem_id=2002" !important;
 }
+a[href="https://sec.489.jp/rg/mpage/mpage_login.php?smem_id=2002"] {
+  attribute: href rewrite "https://sec.489.jp/rg/empage/empage_login.php?smem_id=2002" !important;
+}
 div#header-third form[action="http://www.489.jp/rg/vroom2/list4.php"] {
   attribute: action rewrite "http://www.489.jp/rg/evroom2/elist4.php";
 }
