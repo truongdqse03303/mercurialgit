@@ -11,6 +11,13 @@ div#header-third form[action="http://www.489.jp/rg/vroom2/list4.php"] {
   attribute: action rewrite "http://www.489.jp/rg/evroom2/elist4.php";
 }
 
+a[href$="/pdf/regulations.pdf"] {
+  attribute: href rewrite "http://www.first-cabin.jp/pdf/regulations_en.pdf";
+}
+a[href$="/pdf/privacy.pdf"] {
+  attribute: href rewrite "http://www.first-cabin.jp/pdf/privacy_en.pdf";
+}
+
 // @RULESET
 // URL = http://www.first-cabin.jp/locationlist/osaka.html
 // URL = http://www.first-cabin.jp/locationlist/kyoto.html
