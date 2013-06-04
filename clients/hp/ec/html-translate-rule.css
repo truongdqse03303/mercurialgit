@@ -1,6 +1,0 @@
-// @ RULESET
-// URL = http://www.terilogy.com/
-// URL = http://www.terilogy.com/index.html
-div.orbit-wrapper > div.slider-nav {
-  attribute: cltx add 'exclude';
-}
