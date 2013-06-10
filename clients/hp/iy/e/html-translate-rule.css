@@ -10,3 +10,18 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM BUSINESS MARKET";
 }
+
+
+// URL #= http://ojad\.jp/TOKYOPROMarket/J-Adviser/(?:index.html?|$)
+span[style#="color\\s*:\\s*rgb\\(255,\\s*0,\\s*0\\)"], div#unit-763 strong {
+  tag: delete;
+}
+
+// @RULESET
+// URL #= http://ojad\.jp/OKINAWAJAdviser/(?:index.html?|$)
+// URL #= http://ojad\.jp/OKINAWAJAdviser/technologyassessment/(?:index.html?|$)
+// URL #= http://ojad\.jp/TOKYOPROMarket/(?:index.html?|$)
+// URL #= http://ojad\.jp/design/(?:index.html?|$)
+span[style#="color\\s*:\\s*rgb\\(255,\\s*0,\\s*0\\)"], span[style#="color\\s*:\\s*rgb\\(255,\\s*0,\\s*0\\)"] strong, span[style#="color\\s*:\\s*rgb\\(255,\\s*0,\\s*0\\)"] u {
+  tag: delete;
+}

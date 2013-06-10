@@ -8,7 +8,7 @@
 }
 
 // @RULESET
-// URL #= http://ojad.jp/(?:index.html?)?
+// URL #= http://ojad\.jp/(?:index.html?|$)
 @preprocess {
   replace: '<span style="color: #ffffff">0</span>' '';
 }
