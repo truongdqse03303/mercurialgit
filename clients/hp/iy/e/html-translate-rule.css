@@ -11,7 +11,13 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM BUSINESS MARKET";
 }
 
+// @RULESET
+// URL #= http://ojad\.jp/(?:index.html?|$)
+div#unit-897 span[style="color: #ff0000"] {
+  tag: delete;
+}
 
+// @RULESET
 // URL #= http://ojad\.jp/TOKYOPROMarket/J-Adviser/(?:index.html?|$)
 span[style#="color\\s*:\\s*rgb\\(255,\\s*0,\\s*0\\)"], div#unit-763 strong {
   tag: delete;
