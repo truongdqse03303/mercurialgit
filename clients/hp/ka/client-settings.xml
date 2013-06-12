@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>すまいりんぐ.com</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>smilring/service 3e59e9b4b5ff4eed53528f1be41e3f0c6a5350c5</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.smilring.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

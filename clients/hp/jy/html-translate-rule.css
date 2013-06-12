@@ -1,0 +1,10 @@
+@preprocess {
+  replace: '<body(.*?)>(.+)</body>' '<body$1><div id="clwrapper">$2</div></body>';
+}
+
+// @RULESET
+// URL = http://www.jf-group.co.jp/products/
+// URL ^= http://www.jf-group.co.jp/products/index.html
+div.pht_left span, div.pht_right span {
+  text-flow: break;
+}

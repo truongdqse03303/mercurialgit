@@ -1,0 +1,18 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOURMET INTERNET";
+}
+@engine jf-group/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOURMET";
+}
+@engine jf-group/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOURMET";
+}
+
+// @RULESET
+// URL = http://www.jf-group.co.jp/company/gaiyou.html
+div#gaiyou dl dt {
+  attribute: style set 'width:18em !important';
+}

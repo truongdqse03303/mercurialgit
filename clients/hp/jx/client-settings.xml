@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>キャナルシティ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>canalcity/service acf914c9c4a808d463e1fddb72d5d02d167d6d4c</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.canalcity.co.jp" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+  
+  <!-- 携帯翻訳用URL -->
+  <url-list type="mobile">
+    <url>http://www\.canalcity\.co\.jp/mobile/.*</url>
+  </url-list>
+  
+  <!-- 携帯用URLのチェック -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.MobileURLCheckResourceHandler</type>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

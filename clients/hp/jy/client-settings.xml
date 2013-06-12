@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>寿福産業</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>jf-group/service 434869c9ed3e64e0d17f6b0d7d985fc5bf51c377</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.jf-group.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

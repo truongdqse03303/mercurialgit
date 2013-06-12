@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.jf-group.co.jp/common/css/common.css
+@preprocess {
+  replace: 'body\\s*\\{' '#clwrapper {';
+}
