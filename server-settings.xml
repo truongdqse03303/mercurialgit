@@ -8,6 +8,16 @@
       <param-name>ts.client.id</param-name>
       <param-value>@homepage</param-value>
     </extension-param>
+    <!-- ルールキャッシュ -->
+    <extension-param>
+      <param-name>translate.rulesheet.cache</param-name>
+      <param-value>700</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>replace.rule.cache</param-name>
+      <param-value>100</param-value>
+    </extension-param>
+    <!-- ver1.1互換用設定 -->
     <extension-param>
       <param-name>use.replace.rule</param-name>
       <param-value>true</param-value>
@@ -52,6 +62,7 @@
       <param-name>img.common.rule</param-name>
       <param-value>classpath:/script/rule/img</param-value>
     </extension-param>
+    <!-- ver1.1互換用設定 -->
     <extension-param>
       <param-name>cache.translate.rule</param-name>
       <param-value>false</param-value>
