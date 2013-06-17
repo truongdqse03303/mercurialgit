@@ -3,3 +3,9 @@
 :clignore img[src] {
   attribute: src rewrite "{absurl}";
 }
+
+// @RULESET
+// URL #= http://www.yokohama-cu.ac.jp/($|index.html\??.*)?
+#mainContentBlock table td *, #subContentBlock table td * {
+  text-flow: break;
+}
