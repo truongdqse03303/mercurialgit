@@ -8,12 +8,13 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.jma.or.jp" />
+    <request hostname="www.jma.or.jp">
+      <path-list>
+        <path value="/index\.(?:php|html)" />
+        <path value="/(?:about_jma|aboutsite|activity|admin|admission|contact|css|demo|envipolicy|faq|img|information|js|news|news_cms|next|popup|privacy|security|sitemap)(?:/.*|$)$" />
+      </path-list>
+    </request>
   </request-list>
-
-  <url-list type="ignore">
-    <url>http://www\.jma\.or\.jp/(?!index\.(?:php|html)|(?:about_jma|aboutsite|activity|admin|admission|contact|css|demo|envipolicy|faq|img|information|js|news|news_cms|next|popup|privacy|security|sitemap)(?:/|$)|$)</url>
-  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
