@@ -17,11 +17,6 @@
       <param-name>replace.rule.cache</param-name>
       <param-value>100</param-value>
     </extension-param>
-    <!-- ver1.1互換用設定 -->
-    <extension-param>
-      <param-name>use.replace.rule</param-name>
-      <param-value>true</param-value>
-    </extension-param>
     <!-- PDF内画像の保存先 -->
     <extension-param>
       <param-name>pdf.image.store</param-name>
@@ -61,11 +56,6 @@
     <extension-param>
       <param-name>img.common.rule</param-name>
       <param-value>classpath:/script/rule/img</param-value>
-    </extension-param>
-    <!-- ver1.1互換用設定 -->
-    <extension-param>
-      <param-name>cache.translate.rule</param-name>
-      <param-value>false</param-value>
     </extension-param>
   </application>
   
