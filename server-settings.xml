@@ -69,7 +69,7 @@
       <url>http://tsextra.transer.com/clsoap/clsoap.cgi</url>
       <max-concurrency>10</max-concurrency>
       <client-list>
-        <client>ax,dj</client>
+        <client>ax</client>
       </client-list>
     </extra>
   </translation-server>
