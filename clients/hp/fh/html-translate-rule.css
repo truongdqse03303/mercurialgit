@@ -1,0 +1,13 @@
+// @RULESET
+// URL ^= http://wajimanavi.lg.jp/www/event/index.jsp
+div.calendar_month * {
+  text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://wajimanavi.lg.jp/www/news/result.jsp
+// URL ^= http://wajimanavi.lg.jp/www/topics/result.jsp
+div#list dl dt a {
+  text-flow: break;
+  content: translate split exclude "\\[|\\]";
+}

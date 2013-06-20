@@ -1,0 +1,14 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "WAJIMANAVI_DIC WAJIMANAVI_TM GOVT TOURISM INTERNET";
+}
+@engine wajimanavi/wajimanavi02 {
+  eid: CR-JE;
+  dictionaries: "WAJIMANAVI_DIC_MASTER WAJIMANAVI_TM_MASTER GOVT TOURISM";
+}
+
+// @RULESET
+// URL ^= http://wajimanavi.lg.jp/www/event/index.jsp
+@preprocess {
+  replace: '&nbsp;&nbsp;&nbsp;&nbsp;<strong>' '<div></div><strong>';
+}
