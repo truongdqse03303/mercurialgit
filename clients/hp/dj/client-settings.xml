@@ -10,14 +10,4 @@
   <request-list>
     <request hostname="www.city.sakura.lg.jp" />
   </request-list>
-
-  <!-- Extra環境用の設定 -->
-  <extension-param>
-    <param-name>img.include.script.url</param-name>
-    <param-value>http://hpmanage-extra.transer.com/edit/site_imgchg/</param-value>
-  </extension-param>
-  <extension-param>
-    <param-name>tm-*.include.script.url</param-name>
-    <param-value>http://hpmanage-extra.transer.com/edit/site_dic/</param-value>
-  </extension-param>
 </client-settings>
