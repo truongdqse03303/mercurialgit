@@ -1,0 +1,6 @@
+// @RULESET
+// URL = http://www.city.sakura.lg.jp/
+// URL ^= http://www.city.sakura.lg.jp./index.html
+div.new_lower dl dd span.window {
+  text-flow: break;
+}
