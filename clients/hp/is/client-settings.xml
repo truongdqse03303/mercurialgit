@@ -12,7 +12,7 @@
       <path-list>
         <path value="/index\.(?:php|html)" />
         <path value="/news[0-9]{11}\.html" />
-        <path value="/(?:about_jma|aboutsite|activity|admin|admission|contact|css|demo|envipolicy|faq|img|information|js|news|news_cms|next|popup|privacy|security|sitemap)(?:/.*|$)$" />
+        <path value="/(?:about_jma|aboutsite|activity|admin|admission|contact|css|demo|envipolicy|faq|img|information|js|news|news_cms|popup|privacy|security|sitemap)(?:/.*|$)$" />
       </path-list>
     </request>
   </request-list>
