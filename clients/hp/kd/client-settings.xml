@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>軽井沢プリンスショッピングプラザ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>karuizawa-psp/service 5f7fabf7cc95e791f4a614cc049e0159a955f9cd</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.karuizawa-psp.jp" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- 携帯翻訳用URL -->
+  <url-list type="mobile">
+    <url>http://www\.karuizawa-psp\.jp/(?:s|spage)/.*</url>
+  </url-list>
+  
+  <!-- 携帯用URLのチェック -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.MobileURLCheckResourceHandler</type>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

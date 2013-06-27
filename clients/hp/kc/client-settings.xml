@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社マイナビ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>harajuku-press/service 625fed532cc318c6c80a9828d7d04ff061cb60bf</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="harajuku.press.jpn.com" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>footer</param-value>
+  </extension-param>
+  
+  <!-- ICPライセンスをフッターに表示 -->
+  <extension-param>
+    <param-name>icp.licence.position</param-name>
+    <param-value>footer</param-value>
+  </extension-param>  
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

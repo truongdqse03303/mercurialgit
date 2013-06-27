@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>品川区役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shinagawa/service 1fa5135221800ad6e66bf39c46a91c2cbf52428e</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.shinagawa.tokyo.jp" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>.+?/hpg0000175(?:38|39|40|41)\.htm</url>
+  </url-list>
+
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>body</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+  <charset url="http://www.city.shinagawa.tokyo.jp/photo/.*">EUC-JP</charset>
+</client-settings>

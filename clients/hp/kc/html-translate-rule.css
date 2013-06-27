@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://harajuku.press.jpn.com/
+aside[id^="bottomB"] *, div.menu01 * {
+  attribute: cltx add 'exclude';
+}
