@@ -3,7 +3,7 @@
 }
 
 @preprocess {
-  replace: 'ＭＳ 明朝' 'Century';
+//  replace: 'ＭＳ Ｐ?明朝' 'Century';
   replace: '(?i)(<img id="BgImg"[^>]+?src=")(.+?\\.jpg)\\?\\d+("[^>]+>)' '$1http://ojad.jp/global-image/header/edited/54.jpg$3';
 }
 

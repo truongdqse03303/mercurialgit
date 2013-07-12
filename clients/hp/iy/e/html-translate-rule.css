@@ -11,6 +11,13 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM BUSINESS MARKET";
 }
 
+span[style*="font-family"] {
+  tag: delete;
+}
+span[lang], font[face] {
+  attribute: * delete;
+}
+
 // @RULESET
 // URL #= http://ojad\.jp/(?:index.html?|$)
 div#unit-897 span[style="color: #ff0000"] {
