@@ -1,0 +1,6 @@
+@preprocess {
+  replace: "(?i)<wbr\\s*/>" "<wbr>";
+}
+@postprocess {
+  replace: "(?i)<wbr>(<wbr>)*" "<wbr />";
+}
