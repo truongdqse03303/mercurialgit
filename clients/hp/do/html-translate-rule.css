@@ -10,6 +10,6 @@ div#contents_title_nav * {
   text-flow: break;
 }
 
-form[action="http://www.google.com/search"] input[type="hidden"][name="ie"] {
-  attribute: value set "utf-8";
+@postprocess {
+  replace: "(?i)(\\r|\\n)+?</head>" "$1<script type=text/javascript>var cl_cse_settings = {'as_sitesearch':{'en':'kyoto.wjr-isetan.co.jp.e.do.hp.transer.com','zhs':'kyoto.wjr-isetan.co.jp.c.do.hp.transer.com','zht':'kyoto.wjr-isetan.co.jp.t.do.hp.transer.com','ko':'kyoto.wjr-isetan.co.jp.k.do.hp.transer.com'}}</script>$1</head>";
 }
