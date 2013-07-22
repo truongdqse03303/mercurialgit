@@ -1,9 +1,0 @@
-// @RULESET
-// URL ^= http://www.hankyu-dept.co.jp/honten/brand/
-ul#localnavigation > li {
-  attribute: cltx add 'exclude';
-}
-div.tab_content p.floor a {
-  text-flow: break;
-  content: translate split both '\\s+';
-}
