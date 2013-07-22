@@ -4,3 +4,16 @@
 @postprocess {
   replace: "(?i)<wbr>(<wbr>)*" "<wbr />";
 }
+
+// @RULESET
+// URL ^= http://trippyangya.jp/shop/idinfo.html
+div#kiyaku-en {
+  attribute: style set delete;
+}
+div#kiyaku-en * {
+  content: ignore;
+  attribute: * ignore;
+}
+div#ui-tab {
+  attribute: cltx add 'exclude';
+}
