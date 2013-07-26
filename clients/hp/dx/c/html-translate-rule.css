@@ -1,6 +1,14 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "TOIN_DIC TOIN_TM CROSS_DIC CROSS_TM";
+  dictionaries: "TOIN_DIC TOIN_TM CROSS_DIC CROSS_TM GOVT";
+}
+@engine toin/main {
+  eid: CR-JC;
+  dictionaries: "TOIN_DIC_MASTER TOIN_TM_MASTER GOVT";
+}
+@engine toin/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
 
 body {
