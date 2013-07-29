@@ -1,0 +1,11 @@
+// @RULESET
+// URL #= http://www\.town\.toin\.lg\.jp/(?:index\.php|$)
+div.new_lower li a, div.topics_lower li a {
+  text-flow: break;
+}
+
+// @RULESET
+// URL ^= http://www.town.toin.lg.jp/category_list.php
+div.main_naka ul li * {
+  text-flow: break;
+}
