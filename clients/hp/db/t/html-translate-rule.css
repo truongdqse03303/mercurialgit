@@ -10,3 +10,16 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
+
+
+// @RULESET
+// URL #= http://(www\.)?yamagatakanko\.com/$
+a[href='http://yamagatakanko.com/tiji/'] {
+  attribute: href set 'http://data.yamagatakanko.com/tcn/';
+}
+div#honyaku {
+  attribute: style delete;
+}
+div#honyaku a[href] {
+  attribute: href set 'http://data.yamagatakanko.com/book/china/';
+}

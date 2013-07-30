@@ -10,3 +10,13 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+
+// @RULESET
+// URL #= http://(www\.)?yamagatakanko\.com/$
+div#honyaku {
+  attribute: style delete;
+}
+div#honyaku a[href] {
+  attribute: href set 'http://data.yamagatakanko.com/book/korean/';
+}

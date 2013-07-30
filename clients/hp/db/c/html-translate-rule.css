@@ -14,3 +14,10 @@
 body {
   attribute: lang add 'zh';
 }
+
+
+// @RULESET
+// URL #= http://(www\.)?yamagatakanko\.com/$
+a[href='http://yamagatakanko.com/tiji/'] {
+  attribute: href set 'http://data.yamagatakanko.com/chn/';
+}
