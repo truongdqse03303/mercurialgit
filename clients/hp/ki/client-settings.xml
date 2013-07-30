@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>日本橋三越本店</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>mitsukoshi-nihonbashi/service 1a7aa4e03846824ed5d9e08a33277a08826d7df9</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.mitsukoshi.co.jp">
+      <path-list>
+        <path value="/shop\?EcLogicName=storeinfo.storetopInfo&amp;tenpoCd=10(?:&amp;.+|#.+)?$" />
+        <path value="(?:/pc)?/store/1010/" />
+        <path value="/shop$" />
+      </path-list>
+    </request>
+  </request-list>
+
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.mitsukoshi\.co\.jp/store/1010/fcs/.*</url>
+    <url>http://www\.mitsukoshi\.co\.jp/store/1010/mailmagazine/index\.html</url>
+    <url>http://www\.mitsukoshi\.co\.jp/store/1010/(?:fashion|mensfashion|baby|living|food)/.*</url>
+  </url-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>
