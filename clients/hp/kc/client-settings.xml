@@ -10,6 +10,11 @@
   <request-list>
     <request hostname="harajuku.press.jpn.com" />
   </request-list>
+  
+  <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://harajuku\.press\.jpn\.com/translate/.*</url>
+  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
