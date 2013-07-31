@@ -1,3 +1,7 @@
+nav.footerNav ul li a[href='https://reg34.smp.ne.jp/regist/is?SMPFORM=nbqa-njsdt-4ade3cb1398ab6f558ba2110dc4f9256'] {
+  attribute: href set '/inquiry/';
+}
+
 // @RULESET
 // URL ^= http://harajuku.press.jpn.com/
 aside[id^="bottomB"] *, div.menu01 * {
