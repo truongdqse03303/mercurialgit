@@ -1,9 +1,14 @@
-nav.footerNav ul li a[href='https://reg34.smp.ne.jp/regist/is?SMPFORM=nbqa-njsdt-4ade3cb1398ab6f558ba2110dc4f9256'] {
-  attribute: href set '/inquiry/';
+// @RULESET
+// URL ^= http://harajuku.press.jpn.com/sp/
+nav#footNavi ul li a[href='https://reg34.smp.ne.jp/regist/is?SMPFORM=nbqa-njsdt-4ade3cb1398ab6f558ba2110dc4f9256'] {
+  attribute: href set '/sp/inquiry/';
 }
 
 // @RULESET
 // URL ^= http://harajuku.press.jpn.com/
+nav.footerNav ul li a[href='https://reg34.smp.ne.jp/regist/is?SMPFORM=nbqa-njsdt-4ade3cb1398ab6f558ba2110dc4f9256'] {
+  attribute: href set '/inquiry/';
+}
 aside[id^="bottomB"] *, div.menu01 * {
   attribute: cltx add 'exclude';
 }
