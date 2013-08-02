@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.ranet.co.jp" />
-    <request hostname="www.voda-res.co.jp" />
+    <!--request hostname="www.voda-res.co.jp" /-->
   </request-list>
 
   <resource-handler>
