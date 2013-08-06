@@ -448,4 +448,36 @@
         <pattern>http://www.pref.hiroshima.lg.jp/img/banner/bnr_innovation.gif</pattern>
         <replacement>http://www.pref.hiroshima.lg.jp/img/en/banner/bnr_innovation.gif</replacement>
     </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/banner/bnr_chusankan.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/banner/bnr_chusankan.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/banner/bnr_kondan.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/banner/bnr_kondan.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/banner/kensei_ikuchan.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/banner/kensei_ikuchan.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/banner/kensei_innovation.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/banner/kensei_innovation.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/banner/kensei_setonaikai.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/banner/kensei_setonaikai.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/banner/kensei_chusankan.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/banner/kensei_chusankan.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/banner/kensei_gannet.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/banner/kensei_gannet.gif</replacement>
+    </replace-rule>
+    <replace-rule>
+        <pattern>http://www.pref.hiroshima.lg.jp/img/banner/kensei_peace.gif</pattern>
+        <replacement>http://www.pref.hiroshima.lg.jp/img/en/banner/kensei_peace.gif</replacement>
+    </replace-rule>
 </replace-rule-list>
