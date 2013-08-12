@@ -4,13 +4,14 @@
   <name>七尾市役所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>admin f4fee6298151b3be9bb0fa4b8dd61f214e6320ec</licence>
   <licence>nanao/service cca790f4706bb5684f2974008e25d1bf1a8d30d3</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.nanao.lg.jp" />
     <!-- テスト用 -->
-    <request hostname="pub.nanao.cms8341.jp" />
+    <request hostname="pub.copy.nanao.cms8341.jp" />
   </request-list>
   
   <!-- テスト用 Basic認証 -->
@@ -22,11 +23,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic bmFuYW86eEo5QzdaZWY=</param-value>
+      <param-value>Basic bmFuYW8tY29weTpQMndQa0N2YQ==</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://pub\.nanao\.cms8341\.jp/.*</param-value>
+      <param-value>http://pub\.copy\.nanao\.cms8341\.jp/.*</param-value>
     </param>
   </resource-handler>
 
