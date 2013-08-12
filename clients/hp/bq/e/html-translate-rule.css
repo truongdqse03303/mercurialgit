@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "HIROSHIMA_DIC HIROSHIMA_TM CROSS_DIC CROSS_TM GOVT TOURISM MEDICAL INTERNET";
 }
+@engine pref-hiroshima/main {
+  eid: CR-JE;
+  dictionaries: "HIROSHIMA_DIC_MASTER HIROSHIMA_TM_MASTER GOVT TOURISM MEDICAL";
+}
+@engine pref-hiroshima/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM MEDICAL";
+}
