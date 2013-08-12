@@ -2,7 +2,7 @@
 <configuration scan="true" scanPeriod="10 seconds">
   <!-- properties -->
   <property name="LOG_DIR" value="/var/log/site-translate" />
-  <property name="FILTER_PATTERN" value="(?:request page is not found|favicon.ico|Broken pipe)" />
+  <property name="FILTER_PATTERN" value="(?:request page is not found|client setting is not found|favicon.ico|robots.txt|Broken pipe)" />
 
   <!-- appenders -->
   <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
