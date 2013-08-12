@@ -1,0 +1,9 @@
+@preprocess {
+  replace: '<body(.*?)>(.+)</body>' '<body$1><div id="clwrapper">$2</div></body>';
+}
+
+// @RULESET
+// URL #= http://www\.kyushuhtl\.co\.jp/(?:$|index\.html.*)
+script[type="text/javascript"][src^="http://cgi.kyushuhtl.co.jp/ranking_cgi/"] {
+  attribute: charset ignore;
+}

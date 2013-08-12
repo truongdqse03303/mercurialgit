@@ -1,0 +1,6 @@
+// @RULESET
+// URL = http://www.kyushuhtl.co.jp/css/base.css
+// URL = http://www.kyushuhtl.co.jp/blog/style.css
+@preprocess {
+  replace: '(.*?)body(.*?)\\{' '$1div#clwrapper$2{';
+}

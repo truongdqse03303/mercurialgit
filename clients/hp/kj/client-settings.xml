@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>学校法人 国際代々木学園</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ndc/service 0256be5697aad288ea4216984dc7bdad5e58eefd</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.ndc.ac.jp" />
+  </request-list>
+  
+  <!-- HTML断片翻訳は行わない -->
+  <url-list type="ignore-fragment">
+    <url>.+</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>
