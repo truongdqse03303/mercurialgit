@@ -2,8 +2,15 @@
   replace: '<body(.*?)>(.+)</body>' '<body$1><div id="clwrapper">$2</div></body>';
 }
 
+a#n-plan[onclick] {
+  attribute: * set "MM_openBrWindow('http://www2.489ban.net/v4/client/planinbound/list/customer/kyushuhtl/lang/4','','toolbar=yes,scrollbars=yes,resizable=yes,width=800,height=600')";
+}
+
 // @RULESET
 // URL #= http://www\.kyushuhtl\.co\.jp/(?:$|index\.html.*)
 script[type="text/javascript"][src^="http://cgi.kyushuhtl.co.jp/ranking_cgi/"] {
   attribute: charset ignore;
+}
+a#n-plan[href^="http://www2.489ban.net/"] {
+  attribute: href rewrite "http://www2.489ban.net/v4/client/planinbound/list/customer/kyushuhtl/lang/4";
 }
