@@ -3,6 +3,6 @@ form[action="http://www.google.co.jp/search"] input[type="hidden"][name#="[io]e"
   attribute: value rewrite "UTF-8";
 }
 
-a[href$="/shopguide/floorguide/"] {
-  attribute: href rewrite "http://miyazaki-aeonmall.com/shopguide/floorguide_en/";
+a[href$="/floorguide/"] {
+  attribute: href rewrite "http://miyazaki-aeonmall.com/floorguide-en/";
 }
