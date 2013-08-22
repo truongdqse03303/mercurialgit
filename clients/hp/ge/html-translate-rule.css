@@ -1,8 +1,9 @@
-/* Fix error on google search */
+div#translation a[href="http://fukuoka-aeonmall.com/"] {
+  attribute: href ignore;
+}
 form[action="http://www.google.co.jp/search"] input[type="hidden"][name#="[io]e"] {
   attribute: value rewrite "UTF-8";
 }
-
-div#cal1Container * {
+div#translation ul, div#cal1Container * {
     attribute: cltx add 'exclude';
 }
