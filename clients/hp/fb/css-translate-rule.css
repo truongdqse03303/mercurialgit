@@ -1,5 +1,0 @@
-// @RULESET
-// URL = http://www.consortium.or.jp/css/style.css
-@preprocess {
-  replace: '#body\\{' '#clwrapper{';
-}
