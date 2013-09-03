@@ -2,3 +2,11 @@
   eid: CR-JE;
   dictionaries: "KOMAGANE_DIC KOMAGANE_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+@engine komagane/main {
+  eid: CR-JE;
+  dictionaries: "KOMAGANE_DIC_MASTER KOMAGANE_TM_MASTER GOVT TOURISM";
+}
+@engine komagane/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
+}

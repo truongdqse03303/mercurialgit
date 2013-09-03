@@ -2,3 +2,11 @@
   eid: CR-JCT;
   dictionaries: "KOMAGANE_DIC KOMAGANE_TM CROSS_DIC CROSS_TM";
 }
+@engine komagane/main {
+  eid: CR-JCT;
+  dictionaries: "KOMAGANE_DIC_MASTER KOMAGANE_TM_MASTER";
+}
+@engine komagane/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}
