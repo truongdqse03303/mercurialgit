@@ -2,3 +2,11 @@
   eid: CR-JC;
   dictionaries: "NASUSHIOBARA_DIC NASUSHIOBARA_TM CROSS_DIC CROSS_TM";
 }
+@engine nasushiobara/main {
+  eid: CR-JC;
+  dictionaries: "NASUSHIOBARA_DIC_MASTER NASUSHIOBARA_TM_MASTER";
+}
+@engine nasushiobara/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}

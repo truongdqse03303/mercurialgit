@@ -2,3 +2,11 @@
   eid: BR-JA.ES.EN;
   dictionaries: "NASUSHIOBARA_DIC NASUSHIOBARA_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+@engine nasushiobara/main {
+  eid: BR-JA.ES.EN;
+  dictionaries: "NASUSHIOBARA_DIC_MASTER NASUSHIOBARA_TM_MASTER GOVT TOURISM";
+}
+@engine nasushiobara/cross {
+  eid: BR-JA.ES.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
+}
