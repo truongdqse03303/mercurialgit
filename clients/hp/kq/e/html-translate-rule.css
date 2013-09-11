@@ -1,0 +1,15 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM DEPART FASHION BRAND HOBBY BEAUTY GOURMET INTERNET";
+}
+
+@engine iwataya-mitsukoshi/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION HOBBY BEAUTY GOURMET";
+}
+
+@engine iwataya-mitsukoshi/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION HOBBY BEAUTY GOURMET";
+}
+

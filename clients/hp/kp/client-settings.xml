@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>宇都宮東武ホテルグランデ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tobuhotel-utsunomiya/service e7aa068975224a7a554f0e0ecf494894f1cf4b47</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="ww2.tobuhotel.co.jp" path="/utsunomiya/" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- 携帯翻訳用URL -->
+  <url-list type="mobile">
+    <url>http://ww2\.tobuhotel\.co\.jp/utsunomiya/mobile/.*</url>
+  </url-list>
+  
+  <!-- 携帯用URLのチェック -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.MobileURLCheckResourceHandler</type>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

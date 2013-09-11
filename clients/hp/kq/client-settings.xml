@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>福岡岩田屋</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>iwataya-mitsukoshi/service f250d74c671b653e67e5ed35c929097e8127c689</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.iwataya-mitsukoshi.co.jp" />
+    <request hostname="www.i.iwataya-mitsukoshi.co.jp" />
+    <request hostname="www.m.iwataya-mitsukoshi.co.jp" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.iwataya-mitsukoshi\.co\.jp/netmember/.*</url>
+    <url>http://www\.iwataya-mitsukoshi\.co\.jp/service/micard/.*</url>
+    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/net/.*</url>
+    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/netmember/.*</url>
+    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/real/floor/.*</url>
+    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/service/mibridal/.*</url>
+    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/member/.*</url>
+    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/service/micard/index.html</url>
+    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/service/az/index.html</url>
+    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/service/riyou/mikids.html</url>
+    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/mobile/index.html</url>
+    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/net/.*</url>
+    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/netmember/.*</url>
+    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/service/micard/.*</url>
+    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/member/.*</url>
+    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/service/mibridal/index.html</url>
+    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/service/riyou/mikids.html</url>
+    <url>http://www\.([im]\.)?iwataya-mitsukoshi\.co\.jp/int/.*</url>
+  </url-list>
+
+  <!-- 特定ページのURLエンコーディングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
+    <param>
+      <param-name>encode.url.1</param-name>
+      <param-value>.+/real/brand/result.asp$</param-value>
+    </param>
+    <param>
+      <param-name>encode.charset.1</param-name>
+      <param-value>Shift_JIS</param-value>
+    </param>
+    <priority>4</priority>
+    <terminal>true</terminal>
+  </resource-handler>
+  
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>shift_jis</charset>
+</client-settings>

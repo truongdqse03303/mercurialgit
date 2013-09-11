@@ -1,0 +1,19 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM DEPART NETSHOP FASHION BRAND BEAUTY";
+}
+
+@engine iwataya-mitsukoshi/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER NETSHOP FASHION BEAUTY";
+}
+
+@engine iwataya-mitsukoshi/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER NETSHOP FASHION BEAUTY";
+}
+
+body {
+  attribute: lang add 'zh';
+}
+
