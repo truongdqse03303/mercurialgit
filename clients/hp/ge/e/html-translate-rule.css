@@ -11,6 +11,6 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
 }
 
-a[href$="floorguide/index.html"] {
-  attribute: href rewrite "http://fukuoka-aeonmall.com/shopguide/floorguide-fr/index.html";
+a[href^="/floorguide"] {
+  attribute: href rewrite "http://fukuoka-aeonmall.com/floorguide-en/";
 }

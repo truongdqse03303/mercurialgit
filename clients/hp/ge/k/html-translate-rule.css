@@ -11,6 +11,6 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
-a[href$="floorguide/index.html"] {
-  attribute: href rewrite "http://fukuoka-aeonmall.com/shopguide/floorguide-fr/index.html";
+a[href^="/floorguide"] {
+  attribute: href rewrite "http://fukuoka-aeonmall.com/floorguide-kr/";
 }
