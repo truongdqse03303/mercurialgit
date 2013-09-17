@@ -9,27 +9,8 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.nanao.lg.jp" />
-    <!-- テスト用 -->
-    <request hostname="pub.copy.nanao.cms8341.jp" />
   </request-list>
   
-  <!-- テスト用 Basic認証 -->
-  <resource-handler>
-    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
-    <param>
-      <param-name>header.name.auth</param-name>
-      <param-value>Authorization</param-value>
-    </param>
-    <param>
-      <param-name>header.value.auth</param-name>
-      <param-value>Basic bmFuYW8tY29weTpQMndQa0N2YQ==</param-value>
-    </param>
-    <param>
-      <param-name>header.applied.auth</param-name>
-      <param-value>http://pub\.copy\.nanao\.cms8341\.jp/.*</param-value>
-    </param>
-  </resource-handler>
-
   <!-- 携帯翻訳用設定を追加 -->
   <setting-id>mb-*</setting-id>
 
