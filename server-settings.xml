@@ -65,13 +65,6 @@
     <connection-timeout>5000</connection-timeout>
     <socket-timeout>90000</socket-timeout>
     <max-concurrency>30</max-concurrency>
-    <extra name="extra">
-      <url>http://tsextra.transer.com/clsoap/clsoap.cgi</url>
-      <max-concurrency>10</max-concurrency>
-      <client-list>
-        <client>ax</client>
-      </client-list>
-    </extra>
   </translation-server>
   
   <!-- pdf translation server -->
