@@ -1,0 +1,12 @@
+#btnSearch {
+  attribute: onclick set 'var w=window.open();w.location.href="http://tobu.rwiths.net/portal/yoyaku/tm_en_yoyaku.html?f_no=1514";return false;';
+}
+a[href='http://tobu.rwiths.net/r-withs/tfi0010a.do?hotelNo=1514'] {
+  attribute: * rewrite 'http://tobu.rwiths.net/portal/yoyaku/tm_en_room_info.html?f_no=1514';
+}
+a[href='http://tobu.rwiths.net/portal/yoyaku/tm_kakunin.html'] {
+  attribute: * rewrite 'http://tobu.rwiths.net/portal/yoyaku/tm_en_kakunin.html';
+}
+a[href='http://tobu.rwiths.net/portal/yoyaku/tm_kaiin_henkou.html'] {
+  attribute: * rewrite 'http://tobu.rwiths.net/portal/yoyaku/tm_en_kaiin_henkou.html';
+}

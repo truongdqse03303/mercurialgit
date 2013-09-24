@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://ww2.tobuhotel.co.jp/utsunomiya/cms/wp-content/themes/grande2014/js/common.js
+@preprocess {
+  replace: "jQuery\\('#btnSearch'\\)\\.click\\(buildParam\\);" "";
+}
