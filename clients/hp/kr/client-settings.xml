@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>弥富市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>yatomi/service 2088fc35fa910e9707740a2f31d964b373cfa7c7</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.yatomi.aichi.jp" />
+    <request hostname="www.city.yatomi.lg.jp" />
+    <request hostname="www.yatomi-library.com" />
+    <request hostname="c11opc4n.securesites.net" path="/m/" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- 携帯翻訳用URL -->
+  <url-list type="mobile">
+    <url>http://www\.city\.yatomi\.(?:aichi|lg)\.jp/m/.*</url>
+    <url>http://c11opc4n\.securesites\.net/m/.*</url>
+  </url-list>
+  
+  <!-- 携帯用URLのチェック -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.MobileURLCheckResourceHandler</type>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>Shift_JIS</charset>
+</client-settings>

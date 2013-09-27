@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-JA.PT.EN;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOURMET";
+}
+@engine smilring/main {
+  eid: BR-JA.PT.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOURMET";
+}
+@engine smilring/cross {
+  eid: BR-JA.PT.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
+}

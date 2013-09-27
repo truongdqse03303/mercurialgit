@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= http://www\.city\.yatomi\.(?:aichi|lg)\.jp/(?:$|index.html)
+@preprocess {
+  replace: 'http://city.yatomi.aichi.jp/topic/index.php' 'http://www.city.yatomi.aichi.jp/topic/index.php';
+}
