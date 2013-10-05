@@ -11,10 +11,18 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
-a[href$="/shopguide/floorguide/index.html"] {
+a[href$="/floorguide/"] {
   attribute: href rewrite "@RewriteFloorGuide";
 }
 
 @rewrite RewriteFloorGuide {
-  if (absurl matches "(http://rinkusennan-aeonmall\\.com/shopguide)/floorguide/(.+)") return "{$1}/floorguide_en/{$2}";
+  if (absurl matches "(http://rinkusennan-aeonmall\\.com)/floorguide/(.*)") return "{$1}/floorguide-en/{$2}";
+}
+
+a[href$="/shopguide/floorguide/index.html"] {
+  attribute: href rewrite "@RewriteShoppingFloorGuide";
+}
+
+@rewrite RewriteShoppingFloorGuide {
+  if (absurl matches "(http://rinkusennan-aeonmall\\.com/shopguide)/floorguide/(.+)") return "{$1}/floorguide-en/{$2}";
 }
