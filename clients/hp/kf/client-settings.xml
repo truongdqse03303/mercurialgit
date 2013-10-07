@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www3.hbf.ne.jp" path="/~ekini/" />
+    <request hostname="ekini.bfweb.jp" />
   </request-list>
 
   <!-- HTML断片翻訳を行わない -->
