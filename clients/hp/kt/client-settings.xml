@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>長浜市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nagahama/service baad36f23e43f31e0b77a847c0ea3c943f5ac9e1</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.nagahama.shiga.jp" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>www\.city\.nagahama\.shiga\.jp/index\.cfm/10[\054].*</url>
+    <url>www\.city\.nagahama\.shiga\.jp/section/nagahama_corpora/.*</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

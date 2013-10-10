@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>天草市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>amakusa/service e2f185174ce70b11ae94b1a6510439ea20f400bf</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.amakusa.kumamoto.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
