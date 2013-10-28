@@ -14,3 +14,10 @@
 body {
   attribute: lang add 'zh';
 }
+form[action$="/search/"] {
+  attribute: action rewrite "@RewriteSearch";
+}
+
+@rewrite RewriteSearch {
+  if (absurl matches "(http://www\\.arita\\.jp)/search/(.*)") return "{$1}/search_cn/{$2}";
+}

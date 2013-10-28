@@ -10,3 +10,10 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
+form[action$="/search/"] {
+  attribute: action rewrite "@RewriteSearch";
+}
+
+@rewrite RewriteSearch {
+  if (absurl matches "(http://www\\.arita\\.jp)/search/(.*)") return "{$1}/search_cnt/{$2}";
+}
