@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>BALANCE工房</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>b-kobo/service d83c520054ac8ca4037d9a848fd0259d8f29908f</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="b-kobo.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

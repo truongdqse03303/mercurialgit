@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>神戸ハーバーランドｕｍｉｅ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>umie/service b873b6a5c5f600f31da23feeff3083f79d0ae29c</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="umie.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
