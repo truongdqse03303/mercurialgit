@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.gojsf.com" />
+    <request hostname="www.gojsf.com" path="/jp" />
   </request-list>
   
   <!-- 使用する設定IDの一覧 -->
