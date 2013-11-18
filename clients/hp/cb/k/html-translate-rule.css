@@ -11,6 +11,14 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+a[href$="/floorguide/"] {
+  attribute: href rewrite "@RewriteFloorGuide";
+}
+
+@rewrite RewriteFloorGuide {
+  if (absurl matches "(http://narita-aeonmall\\.com)/floorguide/(.*)") return "{$1}/floorguide-ko/{$2}";
+}
+
 a[href$="/shopguide/floorguide/"] {
   attribute: href rewrite "http://narita-aeonmall.com/shopguide/floorguide_ko/";
 }

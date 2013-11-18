@@ -15,6 +15,14 @@ body {
   attribute: lang add 'zh';
 }
 
+a[href$="/floorguide/"] {
+  attribute: href rewrite "@RewriteFloorGuide";
+}
+
+@rewrite RewriteFloorGuide {
+  if (absurl matches "(http://narita-aeonmall\\.com)/floorguide/(.*)") return "{$1}/floorguide-cn/{$2}";
+}
+
 a[href$="/shopguide/floorguide/"] {
   attribute: href rewrite "http://narita-aeonmall.com/shopguide/floorguide_cn/";
 }

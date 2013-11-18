@@ -11,6 +11,14 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
 }
 
+a[href$="/floorguide/"] {
+  attribute: href rewrite "@RewriteFloorGuide";
+}
+
+@rewrite RewriteFloorGuide {
+  if (absurl matches "(http://narita-aeonmall\\.com)/floorguide/(.*)") return "{$1}/floorguide-en/{$2}";
+}
+
 a[href$="/shopguide/floorguide/"] {
   attribute: href rewrite "http://narita-aeonmall.com/shopguide/floorguide_en/";
 }
