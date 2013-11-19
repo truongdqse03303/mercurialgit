@@ -14,6 +14,12 @@
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 
+  <!-- 断片翻訳スクリプトタグを挿入しない場合に以下を記載 -->
+  <extension-param>
+    <param-name>fragment.translate.tag.insert.setting</param-name>
+    <param-value>unset</param-value>
+  </extension-param>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
