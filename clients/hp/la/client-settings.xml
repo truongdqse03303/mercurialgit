@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>宮城県川崎町</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kawasaki-miyagi/service b8c1def2f3ff8b8a4a337c778fe310a16eb20398</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.kawasaki.miyagi.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
