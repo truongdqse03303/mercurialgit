@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@postprocess {
+  replace: "<!--kr.css-->" "<link href=\"http://www.harves.co.jp/common/css/kr.css\" rel=\"stylesheet\" type=\"text/css\"/>";
+}

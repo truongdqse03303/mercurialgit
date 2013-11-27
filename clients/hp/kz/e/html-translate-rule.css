@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
 }
+
+@postprocess {
+  replace: "<!--en.css-->" "<link href=\"http://www.harves.co.jp/common/css/en.css\" rel=\"stylesheet\" type=\"text/css\"/>";
+}
