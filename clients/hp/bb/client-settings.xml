@@ -44,10 +44,4 @@
   <!-- コンテンツキャッシュを使用するかどうかの設定 -->
   <!-- 省略可能。デフォルト値は、false -->  
   <use-cache>false</use-cache>
-
-  <!-- 断片翻訳スクリプトタグを挿入しない場合に以下を記載 -->
-  <extension-param>
-    <param-name>fragment.translate.tag.insert.setting</param-name>
-    <param-value>unset</param-value>
-  </extension-param>
 </client-settings>
