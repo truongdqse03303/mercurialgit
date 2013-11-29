@@ -31,4 +31,17 @@
   
   <!-- サイトで使用される文字セット -->
   <charset>Shift_JIS</charset>
+
+  <!-- ブランド検索ページのURLエンコーディングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
+    <param>
+      <param-name>encode.url.1</param-name>
+      <param-value>http://www\.mitsukoshi\.co\.jp/shop$</param-value>
+    </param>
+    <param>
+      <param-name>encode.charset.1</param-name>
+      <param-value>Shift_JIS</param-value>
+    </param>
+  </resource-handler>
 </client-settings>
