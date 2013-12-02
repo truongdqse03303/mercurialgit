@@ -10,3 +10,12 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT";
 }
+
+@postprocess {
+  replace: "<a href=\"/site/shisetsu-map/shisetsu-1\.html\">ty hall Way to</a>" "ty hall <a href=\"/site/shisetsu-map/shisetsu-1\.html\">Way to</a>";
+}
+
+@postprocess {
+  replace: "List of phone numbers ope<a href=\"/soshiki/1\.html\">n agency time according to</a>" "<a href=\"/soshiki/1\.html\">List of phone numbers</a> open agency time according to";
+}
+
