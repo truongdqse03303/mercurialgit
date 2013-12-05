@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>スターキャット・ケーブルネットワーク</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>starcat/service f050c72023b9dfbfc9accede96945dd46fec4a85</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.starcat.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

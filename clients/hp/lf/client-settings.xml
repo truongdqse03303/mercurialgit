@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社キューヘン</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kyuhen/service 439b1f8685de7a844eaaf02f57fd6fa0fe0c1f3b</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kyuhen.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

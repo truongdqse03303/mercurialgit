@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>イマジンホテル＆リゾート函館</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>imgnjp-hrhakodate/service 673af6169ddf70ebe928190482223bc00176b71a</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.imgnjp.com" path="/hrhakodate/" />
+  </request-list>
+
+  <!-- 断片翻訳スクリプトタグを挿入しない場合に以下を記載 -->
+  <extension-param>
+    <param-name>fragment.translate.tag.insert.setting</param-name>
+    <param-value>unset</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
