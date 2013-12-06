@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.sogo-seibu.jp" />
+    <request hostname="www.sogo-seibu.jp" path="/foreign/" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
