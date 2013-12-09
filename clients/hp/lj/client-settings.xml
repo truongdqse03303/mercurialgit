@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ビックカメラ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>biccamera/service d899460b9059194e5f56d01f96487f864b641968</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.biccamera.co.jp" />
+  </request-list>
+
+  <!-- PDF翻訳 -->
+  <extension-param>
+    <param-name>pdf.translate</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
