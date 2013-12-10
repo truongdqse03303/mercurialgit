@@ -69,7 +69,7 @@
   
   <!-- pdf translation server -->
   <translation-server type="pdf">
-    <url>http://210.158.217.77:12000/clsoap/clsoap.cgi</url>
+    <url>http://210.158.217.82:12000/clsoap/clsoap.cgi</url>
     <connection-timeout>5000</connection-timeout>
     <socket-timeout>180000</socket-timeout>
     <max-concurrency>6</max-concurrency>
