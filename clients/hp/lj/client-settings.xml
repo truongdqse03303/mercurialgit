@@ -11,6 +11,11 @@
     <request hostname="www.biccamera.co.jp" />
   </request-list>
 
+  <url-list type="ignore">
+    <url>http://www\.biccamera\.co\.jp/language/.*</url>
+    <url>http://www\.biccamera\.co\.jp/ir/.*</url>
+  </url-list>
+
   <!-- PDF翻訳 -->
   <extension-param>
     <param-name>pdf.translate</param-name>
