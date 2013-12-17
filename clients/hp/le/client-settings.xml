@@ -11,11 +11,10 @@
     <request hostname="www.arkhills.com" />
   </request-list>
 
-  <!-- 断片翻訳スクリプトタグを挿入しない場合に以下を記載 -->
-  <extension-param>
-    <param-name>fragment.translate.tag.insert.setting</param-name>
-    <param-value>unset</param-value>
-  </extension-param>
+  <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore-fragment">
+    <url>.+</url>
+  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
