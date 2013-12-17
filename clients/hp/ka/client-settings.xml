@@ -13,7 +13,7 @@
 
   <!-- HTML断片翻訳対象外のURL -->
   <url-list type="ignore-fragment">
-    <url>.+</url>
+    <url>http://www\.smilring\.com/shop/.*</url>
   </url-list>
 
   <!-- サイトで使用される文字セット -->
