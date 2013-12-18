@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.arkhills.com" />
+    <request hostname="arkhills11.loftwork.info" />
   </request-list>
 
   <!-- HTML断片翻訳対象外のURL -->
