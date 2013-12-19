@@ -1,0 +1,7 @@
+a[href$="/floorguide/"] {
+  attribute: href rewrite "@RewriteFloorGuide";
+}
+
+@rewrite RewriteFloorGuide {
+  if (absurl matches "(makuharishintoshin-aeonmall\\.com)/floorguide/(.*)") return "{$1}/floorguide-tr/{$2}";
+}
