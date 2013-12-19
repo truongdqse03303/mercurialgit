@@ -10,3 +10,11 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
+
+a[href$="/floorguide/"] {
+  attribute: href rewrite "@RewriteFloorGuide";
+}
+
+@rewrite RewriteFloorGuide {
+  if (absurl matches "(http://makuharishintoshin-aeonmall\.com)/floorguide/(.*)") return "{$1}/floorguide-tr/{$2}";
+}
