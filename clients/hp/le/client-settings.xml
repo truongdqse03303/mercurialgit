@@ -9,8 +9,26 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.arkhills.com" />
+    <!-- テスト用 -->
     <request hostname="arkhills11.loftwork.info" />
   </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic YXJraGlsbHMxMTpMV19hcmtoaWxsczEx</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://arkhills11\.loftwork\.info/.*</param-value>
+    </param>
+  </resource-handler>
 
   <!-- HTML断片翻訳対象外のURL -->
   <url-list type="ignore-fragment">
