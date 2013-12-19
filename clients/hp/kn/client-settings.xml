@@ -10,7 +10,12 @@
   <request-list>
     <request hostname="makuharishintoshin-aeonmall.com" />
   </request-list>
-  
+
+  <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://makuharishintoshin-aeonmall\.com/floorguide-tr/</url>
+  </url-list>
+
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 

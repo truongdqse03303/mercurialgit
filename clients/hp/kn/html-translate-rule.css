@@ -1,0 +1,11 @@
+a[href$="/floorguide/"] {
+  attribute: href rewrite "@RewriteFloorGuide";
+}
+
+@rewrite RewriteFloorGuide {
+  if (absurl matches "(http://makuharishintoshin-aeonmall\.com)/floorguide/(.*)") return "{$1}/floorguide-tr/{$2}";
+}
+
+a[href$="/floorguide"] {
+  attribute: href rewrite "http://makuharishintoshin-aeonmall.com/floorguide-tr/";
+}
