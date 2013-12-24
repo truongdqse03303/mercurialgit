@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>飛島村</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tobishima/service 89f80629249236a6144857f747ff0c7a85c552ee</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.vill.tobishima.aichi.jp" />
+    <request hostname="www1.vill.tobishima.lg.jp" path="/Library/" />
+    <request hostname="www.tobishima-syakyo.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
