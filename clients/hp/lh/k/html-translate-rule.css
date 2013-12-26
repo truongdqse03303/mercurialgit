@@ -10,3 +10,8 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@postprocess {
+  replace: '<dt class="langJ"><span>“ú–{Œê</span></dt>' '<dt class="langJ"><a href="http://www.starcat.co.jp/">“ú–{Œê</a></dt>';
+  replace: '<dd class="langK"><a href="http://www.starcat.co.jp.k.lh.hp.transer.com/">ŠØ‘Œê</a></dd>' '<dd class="langK"><span>ŠØ‘Œê</span></dd>';
+}

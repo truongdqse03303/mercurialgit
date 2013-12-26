@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT";
 }
+
+@postprocess {
+  replace: '<dt class="langJ"><span>“ú–{Œê</span></dt>' '<dt class="langJ"><a href="http://www.starcat.co.jp/">“ú–{Œê</a></dt>';
+  replace: '<dd class="langE"><a href="http://www.starcat.co.jp.e.lh.hp.transer.com/">‰pŒê</a></dd>' '<dd class="langE"><span>‰pŒê</span></dd>';
+}

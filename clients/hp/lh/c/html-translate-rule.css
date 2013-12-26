@@ -14,3 +14,8 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+  replace: '<dt class="langJ"><span>“ú–{Œê</span></dt>' '<dt class="langJ"><a href="http://www.starcat.co.jp/">“ú–{Œê</a></dt>';
+  replace: '<dd class="langC"><a href="http://www.starcat.co.jp.c.lh.hp.transer.com/">’†‘ŠÈ‘Ìš</a></dd>' '<dd class="langC"><span>’†‘ŠÈ‘Ìš</span></dd>';
+}
