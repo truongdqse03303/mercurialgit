@@ -12,6 +12,6 @@
 }
 
 @postprocess {
-  replace: '<dt class="langJ"><span>“ú–{Œê</span></dt>' '<dt class="langJ"><a href="http://www.starcat.co.jp/">“ú–{Œê</a></dt>';
-  replace: '<dd class="langT"><a href="http://www.starcat.co.jp.t.lh.hp.transer.com/">’†‘”É‘ÌŽš</a></dd>' '<dd class="langT"><span>’†‘”É‘ÌŽš</span></dd>';
+  replace: '<dt class="langJ"><span>æ—¥æœ¬èªž</span></dt>' '<dt class="langJ"><a href="http://www.starcat.co.jp/">æ—¥æœ¬èªž</a></dt>';
+  replace: '<dd class="langT"><a href="http://www.starcat.co.jp.t.lh.hp.transer.com/">ä¸­å›½ç¹ä½“å­—</a></dd>' '<dd class="langT"><span>ä¸­å›½ç¹ä½“å­—</span></dd>';
 }
