@@ -1,6 +1,6 @@
 // @RULESET
-// URL #= http://www\.city\.kumamoto\.kumamoto\.jp/Content/Themes/style_.+?\.css
-// URL = http://www.city.kumamoto.kumamoto.jp/content/Themes/stylesheet.css
+// URL #= http://www\.city\.kumamoto\.jp/Content/Themes/style_.+?\.css
+// URL = http://www.city.kumamoto.jp/content/Themes/stylesheet.css
 @preprocess {
   replace: 'body(\\s*\\{)' 'div#clwrapper$1';
 }
