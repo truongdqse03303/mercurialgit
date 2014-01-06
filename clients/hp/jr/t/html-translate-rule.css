@@ -10,3 +10,25 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
+
+a[href="http://www.489.jp/rg/smartphone/vroom2/search/smem_id/2003/op_id/1"] {
+  attribute: href rewrite "http://www.489.jp/rg/evroom2/elist1.php?smem_id=2003&op_id=1";
+}
+a[href="http://www.489.jp/rg/smartphone/vroom2/search/smem_id/2002/op_id/1"] {
+  attribute: href rewrite "http://www.489.jp/rg/evroom2/elist1.php?smem_id=2002&op_id=1";
+}
+a[href="http://www.489.jp/rg/smartphone/vroom2/search/smem_id/2068/op_id/1"] {
+  attribute: href rewrite "http://www.489.jp/rg/evroom2/elist1.php?smem_id=2068&op_id=1";
+}
+a[href="http://www.489.jp/rg/smartphone/vroom2/search/smem_id/2115/op_id/1"] {
+  attribute: href rewrite "http://www.489.jp/rg/evroom2/elist1.php?smem_id=2115&op_id=1";
+}
+a[href="https://sec.489.jp/rg/smartphone/member/mem_mail/smem_id/2002/"] {
+  attribute: href rewrite "https://sec.489.jp/rg/emember/emem_mail.php?smem_id=2002";
+}
+a[href="https://sec.489.jp/rg/smartphone/mpage/login/smem_id/2002/"] {
+  attribute: href rewrite "https://sec.489.jp/rg/empage/empage_login.php?smem_id=2002";
+}
+a[href="https://sec.489.jp/rg/smartphone/idpass/pass/smem_id/2002"] {
+  attribute: href rewrite "https://sec.489.jp/rg/epass/epass.php?smem_id=2002";
+}
