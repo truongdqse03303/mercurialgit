@@ -10,3 +10,9 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER COMPUTER";
 }
+
+// @RULESET
+// URL ^= http://www.biccamera.co.jp/shoplist/s_higashishin_map.html
+a[href='http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tpl/ja/map.php?&MAP=E139.42.22.76N35.41.17.01&CMR=cross_lng&KEY=bd96402192c1494895673a1e17431f32e33f507e&NM=%E3%83%93%E3%83%83%E3%82%AF%E3%83%AD%20%E3%83%93%E3%83%83%E3%82%AF%E3%82%AB%E3%83%A1%E3%83%A9%20%E6%96%B0%E5%AE%BF%E6%9D%B1%E5%8F%A3%E5%BA%97&ZM=10'] {
+  attribute: href rewrite 'http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tpl/ko/map.php?&MAP=E139.42.22.76N35.41.17.01&CMR=cross_lng&KEY=aa495c018ad919f280b6a46a1b837617299785c5&NM=%EB%B9%85%ED%81%AC%EB%A1%9C%E3%80%80%EB%B9%85%20%EC%B9%B4%EB%A9%94%EB%9D%BC%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%99%EC%AA%BD%20%EC%B6%9C%EA%B5%AC%EC%A0%90&ZM=10';
+}
