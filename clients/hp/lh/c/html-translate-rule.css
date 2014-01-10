@@ -18,4 +18,5 @@ body {
 @postprocess {
   replace: '<dt class="langJ"><span>日本語</span></dt>' '<dt class="langJ"><a href="http://www.starcat.co.jp/">日本語</a></dt>';
   replace: '<dd class="langC"><a href="http://www.starcat.co.jp.c.lh.hp.transer.com/">中国簡体字</a></dd>' '<dd class="langC"><span>中国簡体字</span></dd>';
+  replace: '<span>(0|([1-9][0-9]{0,2}(,[0-9]{3})*?))日</span>元' '<span>$1</span>日元';
 }
