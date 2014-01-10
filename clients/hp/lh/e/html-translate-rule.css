@@ -14,4 +14,5 @@
 @postprocess {
   replace: '<dt class="langJ"><span>日本語</span></dt>' '<dt class="langJ"><a href="http://www.starcat.co.jp/">日本語</a></dt>';
   replace: '<dd class="langE"><a href="http://www.starcat.co.jp.e.lh.hp.transer.com/">英語</a></dd>' '<dd class="langE"><span>英語</span></dd>';
+  replace: '<span>(0|([1-9][0-9]{0,2}(,[0-9]{3})*?)) ye</span>n' '<span>$1</span> yen';
 }
