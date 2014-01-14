@@ -20,11 +20,6 @@
     <url>www.kobe-orientalhotel.co.jp/magazine/</url>
   </url-list>
 
-  <!-- HTML断片翻訳対象外のURL -->
-  <url-list type="ignore-fragment">
-    <url>.+</url>
-  </url-list>
-
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
