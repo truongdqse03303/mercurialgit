@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>神戸メリケンパークホテル</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kobe-orientalhotel/service 5fc10c8581dffb5a748bb2804f475261ebd2cd43</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kobe-orientalhotel.co.jp" />
+    <request hostname="bemss.jp" path="/moh" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>www.kobe-orientalhotel.co.jp/magazine/</url>
+  </url-list>
+
+  <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore-fragment">
+    <url>.+</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

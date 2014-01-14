@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>伊豆の国市観光協会</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>izunotabi/service 1efa0c1bb8f9b5cf02d78a0d661f346fe8e814ab</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.izunotabi.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
