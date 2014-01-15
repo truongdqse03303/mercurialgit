@@ -9,6 +9,8 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.harves.co.jp" />
+    <!-- Googleサイト内検索 -->
+    <request hostname="www.google.co.jp" path="/search(\?.*&amp;?domains=www\.harves\.co\.jp.*)?" />
   </request-list>
   
   <!-- 使用する設定IDの一覧 -->
