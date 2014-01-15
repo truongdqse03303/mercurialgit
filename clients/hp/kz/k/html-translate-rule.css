@@ -14,3 +14,7 @@
 @postprocess {
   replace: "<!--kr.css-->" "<link href=\"http://www.harves.co.jp/common/css/kr.css\" rel=\"stylesheet\" type=\"text/css\"/>";
 }
+
+@postprocess {
+  replace: "'UA-16014599-7', 'harves.co.jp'" "'UA-16014599-9', 'transer.com'";
+}
