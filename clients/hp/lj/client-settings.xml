@@ -9,10 +9,12 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.biccamera.co.jp" />
+    <request hostname="www.biccamera.com" />
+    <request hostname="search.biccamera.com" />
+    <request hostname="sp.biccamera.com" />
   </request-list>
 
   <url-list type="ignore">
-    <url>http://www\.biccamera\.co\.jp/language/.*</url>
     <url>http://www\.biccamera\.co\.jp/ir/.*</url>
   </url-list>
 
@@ -35,6 +37,20 @@
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 
-  <!-- サイトで使用される文字セット -->
-  <!--charset>UTF-8</charset-->
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- 検索フォームの文字エンコード -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
+    <param>
+      <param-name>encode.url.search</param-name>
+      <param-value>http://search\.biccamera\.com/pall/search/\?s.ie=.+</param-value>
+    </param>
+    <param>
+      <param-name>encode.charset.search</param-name>
+      <param-value>Shift_JIS</param-value>
+    </param>
+  </resource-handler>
+  
 </client-settings>
