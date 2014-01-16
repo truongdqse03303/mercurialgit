@@ -18,3 +18,8 @@
 @postprocess {
   replace: "'UA-16014599-7', 'harves.co.jp'" "'UA-16014599-8', 'transer.com'";
 }
+
+//googleサイト内検索(検索エンジンID書換え)
+@postprocess {
+  replace: "'005863037217475340831:mngh7fknc8g'" "'005863037217475340831:ovix95io1_q'";
+}
