@@ -24,7 +24,12 @@
     </param>
     <priority>4</priority>
   </resource-handler>
-  
+
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>.+</url>
+  </url-list>
+
   <!-- サイトで使用される文字セット -->
   <charset>Shift_JIS</charset>
 </client-settings>

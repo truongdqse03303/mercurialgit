@@ -11,14 +11,17 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
-a[href$="/floorguide/"] {
+a[href$="/floorguide/"], a[href$="/floorguide"]{
   attribute: href rewrite "@RewriteFloorGuide";
 }
 
 @rewrite RewriteFloorGuide {
-  if (absurl matches "(http://narita-aeonmall\\.com)/floorguide/(.*)") return "{$1}/floorguide-ko/{$2}";
+  if (absurl matches "(http://narita-aeonmall\\.com)/floorguide(.*)") return "{$1}/floorguide-ko{$2}";
 }
 
-a[href$="/shopguide/floorguide/"] {
-  attribute: href rewrite "http://narita-aeonmall.com/shopguide/floorguide_ko/";
+
+// @RULESET
+// URL = http://narita-aeonmall.com/shop/lists/
+a[href="http://narita-aeonmall.com/floorguide/#page=2"]{
+  attribute: href rewrite "http://narita-aeonmall.com/floorguide-ko/#page=2";
 }
