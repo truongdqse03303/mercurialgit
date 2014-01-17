@@ -12,7 +12,7 @@
 }
 
 @postprocess {
-  replace: '<dt class="langJ"><span>日本語</span></dt>' '<dt class="langJ"><a href="http://www.starcat.co.jp/">日本語</a></dt>';
-  replace: '<dd class="langT"><a href="http://www.starcat.co.jp.t.lh.hp.transer.com/">中国繁体字</a></dd>' '<dd class="langT"><span>中国繁体字</span></dd>';
+  replace: '<dt class="langJ"><!--cltx--><span>日語</span></dt>' '<dt class="langJ"><!--cltx--><a href="http://www.starcat.co.jp/">日語</a></dt>';
+  replace: '<dd class="langT"><!--cltx--><a href="http://www.starcat.co.jp.t.lh.hp.transer.com/">中國繁體字</a></dd>' '<dd class="langT"><!--cltx--><span>中國繁體字</span></dd>';
   replace: '<span>(0|([1-9][0-9]{0,2}(,[0-9]{3})*?))日</span>圆' '<span>$1</span>日圆';
 }
