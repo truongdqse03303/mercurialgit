@@ -23,3 +23,7 @@
 @postprocess {
   replace: "'005863037217475340831:mngh7fknc8g'" "'005863037217475340831:rxjgyqkr9ao'";
 }
+
+@postprocess {
+  replace: '<input type="hidden" name="lang" value="ja" />' '<input type="hidden" name="lang" value="kr" />';
+}
