@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>壱岐観光連盟</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ikikankou/service 469b4a1985d7c314f390370b9dea1bcb2b58bc42</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.ikikankou.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
