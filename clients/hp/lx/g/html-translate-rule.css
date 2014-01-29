@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-JA.DE.EN;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT";
+}
+@engine pandp-invex/main {
+  eid: BR-JA.DE.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT";
+}
+@engine pandp-invex/cross {
+  eid: BR-JA.DE.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT";
+}

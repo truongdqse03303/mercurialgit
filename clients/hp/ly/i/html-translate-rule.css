@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-JA.IT.EN;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT";
+}
+@engine oishii-4510/main {
+  eid: BR-JA.IT.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT";
+}
+@engine oishii-4510/cross {
+  eid: BR-JA.IT.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT";
+}
