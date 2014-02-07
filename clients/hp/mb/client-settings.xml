@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>自由が丘オフィシャルガイドウェブ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>jiyugaoka-abc/service 76a8bf452b55335858b7bf9b6df2e634ae30645c</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.jiyugaoka-abc.com" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
