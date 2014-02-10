@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>大丸松坂屋</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>daimaru/service 1f76c4376dac454fb003ede4b0a7cad81117dad5</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.daimaru.co.jp" path="/foreign/" />
+    <request hostname="dmdepart.jp" path="/sakurafair/" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>www.daimaru.co.jp/foreign/brand/</url>
+  </url-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

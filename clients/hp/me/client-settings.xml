@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>松坂屋</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>matsuzakaya/service d6eb4540b7b27997abecc581090d24fac18fc7bd</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.matsuzakaya.co.jp" path="/foreign/" />
+    <request hostname="dmdepart.jp" path="/sakurafair/" />
+  </request-list>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>www.matsuzakaya.co.jp/foreign/brand/</url>
+  </url-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
