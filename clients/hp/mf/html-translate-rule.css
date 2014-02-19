@@ -1,0 +1,3 @@
+div[class^="__scrollable"] {
+  attribute: cltx add "exclude";
+}
