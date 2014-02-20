@@ -7,9 +7,9 @@
 }
 
 @postprocess {
-  replace: "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.e\.mb\.hp\.transer\.com/'\"" "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
-  replace: "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.c\.mb\.hp\.transer\.com/'\"" "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
-  replace: "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.t\.mb\.hp\.transer\.com/'\"" "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
-  replace: "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.k\.mb\.hp\.transer\.com/'\"" "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
+  replace: "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.e\.mb\.hp\.transer\.com/'\"" "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
+  replace: "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.c\.mb\.hp\.transer\.com/'\"" "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
+  replace: "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.t\.mb\.hp\.transer\.com/'\"" "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
+  replace: "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.k\.mb\.hp\.transer\.com/'\"" "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
   
 }
