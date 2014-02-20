@@ -1,4 +1,5 @@
 @preprocess {
+  replace: '<input type="button" value="日本語"' '<input type="button" class="cl-norewrite" value="日本語" cltx="exclude"';
   replace: '<input type="button" value="English"' '<input type="button" class="cl-notranslate cl-norewrite" value="English" cltx="exclude"';
   replace: '<input type="button" value="中文（簡体）"' '<input type="button" class="cl-notranslate cl-norewrite" value="中文(簡体)" cltx="exclude"';
   replace: '<input type="button" value="中文（繁体）"' '<input type="button" class="cl-notranslate cl-norewrite" value="中文(繁体)" cltx="exclude"';
@@ -6,8 +7,9 @@
 }
 
 @postprocess {
-  replace: "<input type=\"button\" value=\"일본어\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.k\.mb\.hp\.transer\.com/'\" cltx>" "<input type=\"button\"  class=\"cl-notranslate cl-norewrite \" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\" value=\"日本語\" cltx>";
-  replace: "<input type=\"button\" value=\"日語\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.t\.mb\.hp\.transer\.com/'\" cltx>" "<input type=\"button\" class=\"cl-notranslate cl-norewrite\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\" value=\"日本語\" cltx>";
-  replace: "<input type=\"button\" value=\"日语\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.c\.mb\.hp\.transer\.com/'\" cltx>" "<input type=\"button\" class=\"cl-notranslate cl-norewrite\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\" value=\"日本語\" cltx>";
-  replace: "<input type=\"button\" value=\"Japanese\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.e\.mb\.hp\.transer\.com/'\" cltx>" "<input type=\"button\" class=\"cl-notranslate cl-norewrite\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\" value=\"日本語\" cltx>";
+  replace: "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.e\.mb\.hp\.transer\.com/'\"" "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
+  replace: "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.c\.mb\.hp\.transer\.com/'\"" "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
+  replace: "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.t\.mb\.hp\.transer\.com/'\"" "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
+  replace: "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.k\.mb\.hp\.transer\.com/'\"" "onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
+  
 }
