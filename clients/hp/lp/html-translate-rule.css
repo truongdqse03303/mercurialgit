@@ -1,3 +1,8 @@
 body {
   attribute: style add "background-position-y:125px;";
 }
+
+@preprocess {
+  replace: "<!-- crosslanguage:delete -->\n<!-- start 日本語検索コンテンツ部分 -->" "<!-- /crosslanguage:delete -->\n<!-- end 日本語検索コンテンツ部分 -->";
+  replace: '<div id="n_online" style="display:none;">' '<div id="n_online" >';
+}
