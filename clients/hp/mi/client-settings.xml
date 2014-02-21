@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>成田東武ホテルエアポート</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tobuhotel-narita/service 31f301122431a203947bf569f694d5571ad79f0f</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="ww2.tobuhotel.co.jp" path="/narita/" />
+  </request-list>
+
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>.+</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
