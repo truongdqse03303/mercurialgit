@@ -7,6 +7,10 @@ body {
   replace: '<div id="n_online" style="display:none;">' '<div id="n_online" >';
 }
 
+@postprocess {
+  replace: '<a href="index.php">' '<a href="http://www.kobe-orientalhotel.co.jp/index.php">';
+  replace: '<a href="english/">' '<a href="http://www.kobe-orientalhotel.co.jp/english/">';
+}
 li[class^="menu01 odd firstChild lastChild"] {
   attribute: class add 'cl-notranslate cl-norewrite';
   attribute: cltx add 'exclude';
