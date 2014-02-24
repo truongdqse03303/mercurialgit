@@ -3,7 +3,7 @@ body {
 }
 
 @preprocess {
-  replace: "<!-- crosslanguage:delete -->(\r|\n)+?<!-- start 日本語検索コンテンツ部分 -->" "<!-- /crosslanguage:delete -->(\r|\n)+?<!-- end 日本語検索コンテンツ部分 -->";
+  replace: "<!-- crosslanguage:delete -->(\r|\n)+?<!-- start 日本語検索コンテンツ部分 -->" "<!-- /crosslanguage:delete -->";
   replace: '<div id="n_online" style="display:none;">' '<div id="n_online" >';
 }
 
