@@ -6,3 +6,13 @@ body {
   replace: "<!-- crosslanguage:delete -->\n<!-- start 日本語検索コンテンツ部分 -->" "<!-- /crosslanguage:delete -->\n<!-- end 日本語検索コンテンツ部分 -->";
   replace: '<div id="n_online" style="display:none;">' '<div id="n_online" >';
 }
+
+li[class^="menu01 odd firstChild lastChild"] {
+  attribute: class add 'cl-notranslate cl-norewrite';
+  attribute: cltx add 'exclude';
+}
+
+ul[class^="menu02_sub-tate lastChild"] li{
+  attribute: class add 'cl-notranslate cl-norewrite';
+  attribute: cltx add 'exclude';
+}
