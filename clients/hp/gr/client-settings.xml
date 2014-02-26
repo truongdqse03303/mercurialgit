@@ -11,6 +11,11 @@
     <request hostname="s.mxtv.jp" />
   </request-list>
 
+  <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore-fragment">
+    <url>http://s\.mxtv\.jp/kurobas/.*</url>
+  </url-list>
+
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 </client-settings>
