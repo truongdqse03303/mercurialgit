@@ -1,6 +1,14 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "KIF_DIC KIF_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT";
+}
+@engine kifjp/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
+}
+@engine kifjp/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
 
 body {

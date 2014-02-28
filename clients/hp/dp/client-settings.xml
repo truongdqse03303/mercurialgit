@@ -4,23 +4,12 @@
   <name>かながわ国際交流財団</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>kif/kif01 265239ad1cfd463a1605b134c9600c4f0aa7c1d9</licence>
+  <licence>kifjp/service c4b3e5981f788391b7bd11d3a8877afae0a5ce6a</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.k-i-a.or.jp" />
+    <request hostname="www.kifjp.org" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www.k-i-a.or.jp/foreig_residents/</url>
-    <url>http://www.k-i-a.or.jp/medical/[^/]+/index.html</url>
-  </url-list>
-
-  <!-- HTML断片翻訳を行わないURLの一覧 -->
-  <url-list type="ignore-fragment">
-    <url>.+</url>
-  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>
