@@ -13,7 +13,6 @@
 
   <!-- 翻訳対象外URL -->
   <url-list type="ignore">
-    <url>http://www\.tomorrowland\.co\.jp/members/.*</url>
     <url>http://www\.tomorrowland\.co\.jp/catalogue/.*</url>
   </url-list>
 
