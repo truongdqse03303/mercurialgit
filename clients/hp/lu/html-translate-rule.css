@@ -1,0 +1,3 @@
+@preprocess {
+  replace: '(http://www\.city\.omuta\.lg\.jp.*?)&sub(.*?)' '$1&amp;sub$2';
+}
