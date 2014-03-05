@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>阿蘇市地域振興公社</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>giahs-aso/service 4b9e92df45ae42066bbdf2aa425f48d1ad32f5a9</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.giahs-aso.jp" />
+    <request hostname="giahs-aso.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

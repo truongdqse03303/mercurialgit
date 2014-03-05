@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>豊見城市</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>okinawa-tomigusuku/service b33be116040555cc0964544384e967d219a6fed1</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.tomigusuku.okinawa.jp" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>静岡市文化財課</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shizuoka-bunkazai/service 7b5da2010847ef31d73976364236ec51f48b7405</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.shizuoka-bunkazai.jp" />
+    <request hostname="city.shizuoka-bunkazai.jp" />
+  </request-list>
+
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>body</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

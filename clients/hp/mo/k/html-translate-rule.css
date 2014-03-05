@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine welcome-sumida/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine welcome-sumida/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}

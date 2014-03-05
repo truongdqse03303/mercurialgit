@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>取手市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ibaraki-toride/service 26d581eed141933b74985b062b7029eeaa51cc7a</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.toride.ibaraki.jp" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
