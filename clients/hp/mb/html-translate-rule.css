@@ -1,3 +1,11 @@
+div#wrap_top {
+  attribute: cltx add ' ';
+}
+
+div#image-navigation-text {
+  attribute: cltx add 'exclude';
+}
+
 @preprocess {
   replace: '<input type="button" value="日本語"' '<input type="button" class="cl-norewrite" value="日本語" cltx="exclude"';
   replace: '<input type="button" value="English"' '<input type="button" class="cl-notranslate cl-norewrite" value="English" cltx="exclude"';
