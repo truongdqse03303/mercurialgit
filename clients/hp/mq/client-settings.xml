@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>札幌芸術の森</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>artpark/service 9e7846a8b2b0aa977703105a14ff0714875bf1bd</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.artpark.or.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

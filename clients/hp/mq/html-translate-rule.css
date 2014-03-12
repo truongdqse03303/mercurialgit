@@ -1,0 +1,7 @@
+div[class^="bx-wrapper"] *, div[class^="facebook"] * {
+  attribute: cltx add 'exclude';
+}
+
+@preprocess {
+  replace: 'http://artpark.or.jp' 'http://www.artpark.or.jp';
+}
