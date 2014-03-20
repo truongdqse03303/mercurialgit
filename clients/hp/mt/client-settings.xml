@@ -24,9 +24,7 @@
     <request hostname="www.seibu-la.co.jp" path="/adachi-agri/" />
     <request hostname="www.sjc.ne.jp" path="/adsc/" />
     <request hostname="www.yuu.or.jp" />
-    <request hostname="www1.adachi.ne.jp" path="/ara-vc/" />
-    <request hostname="www1.adachi.ne.jp" path="/biotop/" />
-    <request hostname="www1.adachi.ne.jp" path="/seibutu/" />
+    <request hostname="www1.adachi.ne.jp" path="/(?:ara-vc/|biotop/|seibutu/)" />
     <request hostname="www1.ocn.ne.jp" path="/~aud/" />
     <request hostname="www.city.adachi.tokyo.jp" path="/mobile/" />
   </request-list>
