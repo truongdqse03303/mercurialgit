@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>足立区役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-office-adachi/service 58e6c7ae4cf668a3a42d4aa3986137056a02c3c6</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="adachi.syakyo.com" />
+    <request hostname="adachi1010.jp" />
+    <request hostname="adachi-dankai.genki365.net" />
+    <request hostname="adachikanko.net" />
+    <request hostname="adachi-kyodo.genki365.net" />
+    <request hostname="adachi-sports.or.jp" />
+    <request hostname="www.a-tokimeki.net" />
+    <request hostname="www.ayss.jp" />
+    <request hostname="www.city.adachi.tokyo.jp" path="/smartphone/" />
+    <request hostname="www.galaxcity.jp" />
+    <request hostname="www.gikai-adachi.jp" />
+    <request hostname="www.kousya.jp" path="/tokimeki/" />
+    <request hostname="www.lib.adachi.tokyo.jp" />
+    <request hostname="www.seibu-la.co.jp" path="/adachi-agri/" />
+    <request hostname="www.sjc.ne.jp" path="/adsc/" />
+    <request hostname="www.yuu.or.jp" />
+    <request hostname="www1.adachi.ne.jp" path="/ara-vc/" />
+    <request hostname="www1.adachi.ne.jp" path="/biotop/" />
+    <request hostname="www1.adachi.ne.jp" path="/seibutu/" />
+    <request hostname="www1.ocn.ne.jp" path="/~aud/" />
+    <request hostname="www.city.adachi.tokyo.jp" path="/mobile/" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
