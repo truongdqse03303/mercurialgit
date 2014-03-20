@@ -16,7 +16,7 @@
     <request hostname="adachi-sports.or.jp" />
     <request hostname="www.a-tokimeki.net" />
     <request hostname="www.ayss.jp" />
-    <request hostname="www.city.adachi.tokyo.jp" path="/smartphone/" />
+    <request hostname="www.city.adachi.tokyo.jp" path="/(?:smartphone/|mobile/)" />
     <request hostname="www.galaxcity.jp" />
     <request hostname="www.gikai-adachi.jp" />
     <request hostname="www.kousya.jp" path="/tokimeki/" />
@@ -26,7 +26,6 @@
     <request hostname="www.yuu.or.jp" />
     <request hostname="www1.adachi.ne.jp" path="/(?:ara-vc/|biotop/|seibutu/)" />
     <request hostname="www1.ocn.ne.jp" path="/~aud/" />
-    <request hostname="www.city.adachi.tokyo.jp" path="/mobile/" />
   </request-list>
   
   <!-- 使用する設定IDの一覧 -->
