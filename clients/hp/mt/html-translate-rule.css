@@ -1,0 +1,15 @@
+@preprocess {
+  replace: 'http://www.adachi1010.jp' 'http://adachi1010.jp';
+}
+
+// @RULESET
+// URL ^= http://www.a-tokimeki.net/
+body {
+  attribute: style add "background-position-y:27px;";
+}
+
+// @RULESET
+// URL ^= http://www.lib.adachi.tokyo.jp/
+div#logo {
+  attribute: cltx add 'exclude';
+}

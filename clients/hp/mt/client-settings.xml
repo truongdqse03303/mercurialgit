@@ -31,6 +31,14 @@
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>http://adachi1010\.jp/.*</url>
+    <url>http://adachikanko\.net/.*</url>
+    <url>http://www\.kousya\.jp/tokimeki/.*</url>
+  </url-list>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
+  <charset url="http://www.yuu.or.jp/.*">Shift_JIS</charset>
 </client-settings>
