@@ -13,10 +13,11 @@
     <request hostname="adachi-dankai.genki365.net" />
     <request hostname="adachikanko.net" />
     <request hostname="adachi-kyodo.genki365.net" />
+    <request hostname="genki365.net" />
     <request hostname="adachi-sports.or.jp" />
     <request hostname="www.a-tokimeki.net" />
     <request hostname="www.ayss.jp" />
-    <request hostname="www.city.adachi.tokyo.jp" path="/(?:smartphone/|mobile/)" />
+    <request hostname="www.city.adachi.tokyo.jp" />
     <request hostname="www.galaxcity.jp" />
     <request hostname="www.gikai-adachi.jp" />
     <request hostname="www.kousya.jp" path="/tokimeki/" />
