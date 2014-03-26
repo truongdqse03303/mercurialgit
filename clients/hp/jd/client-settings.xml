@@ -8,7 +8,13 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.jikei.ac.jp" path="/hospital/honin/" />
+    <request hostname="www.jikei.ac.jp">
+      <path-list>
+        <path value="/hospital/honin/" />
+        <path value="/hospital/(?:social.html|history.html|rinen.html|rinsyo.html|prv_security.html)" />
+        <path value="/seminar/seminar.html" />
+      </path-list>
+    </request>
   </request-list>
 
   <!-- サイトで使用される文字セット -->
