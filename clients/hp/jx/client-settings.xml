@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.canalcity.co.jp" />
+    <request hostname="canalcity.co.jp" />
   </request-list>
   
   <!-- 使用する設定IDの一覧 -->
@@ -17,6 +18,7 @@
   <!-- 携帯翻訳用URL -->
   <url-list type="mobile">
     <url>http://www\.canalcity\.co\.jp/mobile/.*</url>
+    <url>http://canalcity\.co\.jp/mobile/.*</url>
   </url-list>
   
   <!-- 携帯用URLのチェック -->
