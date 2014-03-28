@@ -1,0 +1,3 @@
+div[class^="slideThumb"] {
+  attribute: cltx add 'exclude';
+}
