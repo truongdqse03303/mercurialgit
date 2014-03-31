@@ -11,8 +11,7 @@
     <request hostname="www.jikei.ac.jp">
       <path-list>
         <path value="/hospital/honin/" />
-        <path value="/hospital/(?:social.html|history.html|rinen.html|rinsyo.html|prv_security.html)" />
-        <path value="/seminar/seminar.html" />
+        <path value="/hospital/prv_security.html" />
       </path-list>
     </request>
   </request-list>
