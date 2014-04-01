@@ -27,6 +27,7 @@
     <request hostname="www.yuu.or.jp" />
     <request hostname="www1.adachi.ne.jp" path="/(?:ara-vc/|biotop/|seibutu/)" />
     <request hostname="www1.ocn.ne.jp" path="/~aud/" />
+    <request hostname="www.adachi-faq.jp" />
   </request-list>
   
   <!-- 使用する設定IDの一覧 -->
