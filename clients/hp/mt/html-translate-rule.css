@@ -3,6 +3,12 @@
 }
 
 // @RULESET
+// URL ^= http://www.city.adachi.tokyo.jp/gomi/kurashi/kankyo/haikibutusyoritesuuryoukaitei.html
+@preprocess {
+  replace: "<strong class=\"txt_red\">(.+?)</strong><strong class=\"txt_red\">(.+?)</strong></p>" "<strong class=\"txt_red\">$1$2</strong></p>";
+}
+
+// @RULESET
 // URL ^= http://www.a-tokimeki.net/
 body {
   attribute: style add "background-position-y:27px;";
