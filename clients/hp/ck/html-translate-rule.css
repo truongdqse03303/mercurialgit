@@ -1,3 +1,13 @@
+@preprocess {
+  replace: 'common/css/base.css' 'en/common/css/base.css';
+  replace: 'common/css/reset.css' 'en/common/css/reset.css';
+  replace: 'common/css/style.css' 'en/common/css/style.css';
+  replace: 'common/js/jquery.slides.min.js' 'en/common/js/jquery.slides.min.js';
+  replace: 'common/js/jquery-effects.js' 'en/common/js/jquery-effects.js';
+  replace: 'common/js/slides.jquery.js' 'en/common/js/slides.jquery.js';
+  replace: 'common/js/slides.min.jquery.js' 'en/common/js/slides.min.jquery.js';
+}
+
 // @RULESET
 // URL #= http://www.tv-tokyo.co.jp(?:$|/$|/index.html)
 #newtxheaderArea {
