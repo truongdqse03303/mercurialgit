@@ -1,0 +1,9 @@
+div#g-nav, p.jshowoff-slidelinks, p.jshowoff-1-slidelinks, ul.tab-menu, div#tmp_mymenu_status {
+  attribute: cltx add 'exclude';
+  }
+
+// @RULESET
+// URL ^= http://www.city.chofu.tokyo.jp/www/contents/1387824786087/index.html
+div#tmp_mymenu_manager {
+  attribute: cltx add 'exclude';
+  }
