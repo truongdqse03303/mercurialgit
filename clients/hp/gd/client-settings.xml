@@ -24,6 +24,11 @@
     <priority>4</priority>
   </resource-handler>
  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://kyoto-aeonmall\.com/floorguide-en/</url>
+  </url-list>
+
   <!-- サイトで使用される文字セット -->
   <charset>shift_jis</charset>
 </client-settings>
