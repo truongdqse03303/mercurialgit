@@ -13,7 +13,7 @@
   
   <!-- 翻訳しないURLの一覧 -->
   <url-list type="ignore">
-    <url>http://rinkusennan-aeonmall.com/shopguide/floorguide/.*</url>
+    <url>http://rinkusennan-aeonmall.com/floorguide.*</url>
   </url-list>
   
   <!-- URLとリソース種類のマッピングの設定 -->

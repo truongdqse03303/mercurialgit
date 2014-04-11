@@ -11,7 +11,3 @@ form[action="http://www.google.co.jp/search"] input[type="hidden"][name#="[io]e"
 div#cal1Container {
   attribute: cltx add 'exclude';
 }
-
-a[href$="/shopguide/floorguide/index.html"] {
-  attribute: href rewrite "http://laketownkaze-aeonmall.com/shopguide/floorguide-tr/index.html";
-}
