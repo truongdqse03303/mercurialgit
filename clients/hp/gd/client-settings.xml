@@ -26,7 +26,7 @@
  
   <!-- 翻訳しないURLの一覧 -->
   <url-list type="ignore">
-    <url>http://kyoto-aeonmall\.com/floorguide-en/</url>
+    <url>http://kyoto-aeonmall\.com/floorguide.*</url>
   </url-list>
 
   <!-- サイトで使用される文字セット -->

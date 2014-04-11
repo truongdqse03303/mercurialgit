@@ -15,6 +15,18 @@ body {
   attribute: lang add 'zh';
 }
 
-a[href$="floorguide/index.html"] {
-  attribute: href rewrite "http://kyoto-aeonmall.com/shopguide/floorguide-ch/index.html";
+a[href$="/floorguide/"] {
+  attribute: href rewrite "@RewriteFloorGuide";
+}
+
+@rewrite RewriteFloorGuide {
+  if (absurl matches "(http://kyoto-aeonmall\\.com)/floorguide/(.*)") return "{$1}/floorguide-ch/{$2}";
+}
+
+a[href$="/floorguide"] {
+  attribute: href rewrite "@RewriteFloorGuide2";
+}
+
+@rewrite RewriteFloorGuide2 {
+  if (absurl matches "(http://kyoto-aeonmall\\.com)/floorguide(.*)") return "{$1}/floorguide-ch{$2}";
 }
