@@ -12,5 +12,5 @@
   </request-list>
   
   <!-- サイトで使用される文字セット -->
-  <charset>Shift_JIS</charset>
+  <charset>UTF-8</charset>
 </client-settings>
