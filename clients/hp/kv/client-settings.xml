@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
   <name>神戸ハーバーランドｕｍｉｅ</name>
@@ -16,6 +16,11 @@
     <param-name>show.translate.header</param-name>
     <param-value>body</param-value>
   </extension-param>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://umie.jp/floorguide/</url>
+  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

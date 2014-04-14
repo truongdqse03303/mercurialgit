@@ -13,6 +13,11 @@
   
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://laketown-outlet.jp/floorguide/</url>
+  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
