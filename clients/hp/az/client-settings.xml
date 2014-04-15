@@ -23,7 +23,12 @@
     <url>http://www\.isetan\.co\.jp/icm2/jsp/store/shinjuku/floor_guide/floor_map/1f\.jsp</url>
     <url>http://www\.isetan\.co\.jp/icm2/jsp/store/shinjuku/event/(?:seijin|harefuri|1006recruitfair|mensetsu|shichigosan)/index\.jsp</url>
   </url-list>
-  
+
+  <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore-fragment">
+    <url>http://www\.isetan\.co\.jp/icm2/jsp/store/shinjuku/eat/.+</url>
+  </url-list>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
   
