@@ -19,6 +19,11 @@
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
   
+    <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>http://osaka\.wjr-isetan\.co\.jp/restaurant/.*</url>
+  </url-list>
+  
   <!-- サイトで使用される文字セット -->
-  <charset>Shift_JIS</charset>
+  <charset>shift_jis</charset>
 </client-settings>
