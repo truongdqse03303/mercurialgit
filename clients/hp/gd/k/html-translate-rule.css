@@ -16,7 +16,7 @@ a[href$="/floorguide/"] {
 }
 
 @rewrite RewriteFloorGuide {
-  if (absurl matches "(http://kyoto-aeonmall\\.com)/floorguide/(.*)") return "{$1}/floorguide-en/{$2}";
+  if (absurl matches "(http://kyoto-aeonmall\\.com)/floorguide/(.*)") return "{$1}/floorguide-ko/{$2}";
 }
 
 a[href$="/floorguide"] {
@@ -24,5 +24,5 @@ a[href$="/floorguide"] {
 }
 
 @rewrite RewriteFloorGuide2 {
-  if (absurl matches "(http://kyoto-aeonmall\\.com)/floorguide(.*)") return "{$1}/floorguide-en{$2}";
+  if (absurl matches "(http://kyoto-aeonmall\\.com)/floorguide(.*)") return "{$1}/floorguide-ko{$2}";
 }
