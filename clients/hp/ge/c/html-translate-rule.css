@@ -14,7 +14,3 @@
 body {
   attribute: lang add 'zh';
 }
-
-a[href^="/floorguide"] {
-  attribute: href rewrite "http://fukuoka-aeonmall.com/floorguide-ch/";
-}

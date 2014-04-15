@@ -10,11 +10,3 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
 }
-
-a[href$="/floorguide/"] {
-  attribute: href rewrite "@RewriteFloorGuide";
-}
-
-@rewrite RewriteFloorGuide {
-  if (absurl matches "(http://laketownkaze-aeonmall\\.com)/floorguide/(.*)") return "{$1}/floorguide-tr/{$2}";
-}
