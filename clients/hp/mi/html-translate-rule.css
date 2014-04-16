@@ -1,0 +1,7 @@
+a[target="_blank"][href="http://tobu.rwiths.net/r-withs/tfi0010a.do?hotelNo=888"] {
+  attribute: href rewrite "http://tobu.rwiths.net/r-withs/tfi0010a.do?hotelNo=888&f_lang=en";
+}
+
+@preprocess {
+ replace: '<input type="hidden" name="hotelNo" value="888">' '<input type="hidden" name="hotelNo" value="888"><input type="hidden" name="f_lang" value="en">';
+}
