@@ -4,5 +4,5 @@ form[action="http://www.google.co.jp/search"] input[type="hidden"][name#="[io]e"
 }
 
 a[href$="/floorguide/"] {
-  attribute: href rewrite "http://miyazaki-aeonmall.com/floorguide-en/";
+  attribute: href rewrite "http://miyazaki-aeonmall.com/floorguide/";
 }
