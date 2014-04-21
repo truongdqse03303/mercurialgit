@@ -12,7 +12,7 @@
       <path-list>
         <path value="/index\.(?:php|html)" />
         <path value="/news[0-9]{11}\.html" />
-        <path value="/(?:about_jma|aboutsite|activity|admin|admission|contact|css|demo|envipolicy|faq|img|information|js|news|news_cms|popup|privacy|security|sitemap)(?:/.*|$)$" />
+        <path value="/(?:about_jma|aboutsite|activity|admin|admission|contact|css|demo|envipolicy|faq|img|information|js|news|news_cms|popup|privacy|security|sitemap|pb/demo)(?:/.*|$)$" />
       </path-list>
     </request>
   </request-list>
@@ -20,6 +20,23 @@
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic YmZhY2U6OTI1Ng==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://www\.jma\.or\.jp/pb/demo/.*</param-value>
+    </param>
+  </resource-handler>
+  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
