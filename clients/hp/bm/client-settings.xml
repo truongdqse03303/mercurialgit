@@ -16,6 +16,11 @@
         <path value="/store/1210/" />
       </path-list>
     </request>
+    <request hostname="mitsukoshi.mistore.jp">
+      <path-list>
+        <path value="/store/ginza.*" />
+      </path-list>
+    </request>
   </request-list>
 
   <!-- 翻訳しないURLの一覧 -->
