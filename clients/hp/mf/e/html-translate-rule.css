@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
 }
+
+@postprocess {
+  replace: '(<a href="/corporate/gaiyo\.html">COMPANY PROFILE</a>) (<a href="/recruit/" target="_blank">RECRUIT</a>)' "$1&emsp;$2";
+  replace: 'Click here to see ou<a href="/corporate/privacy.html"><u>r pr</u></a>ivacy policy.<br />' 'Click here to see <a href="/corporate/privacy.html"><u>our privacy</u></a> policy.<br />';
+}
