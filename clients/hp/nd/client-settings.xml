@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>静岡県道路公社</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>siz-road/service ce5d126a05b10afe10c7f7325c729956632dc34d</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="siz-road.or.jp" />
+  </request-list>
+  
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>http://siz-road\.or\.jp/.+</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
