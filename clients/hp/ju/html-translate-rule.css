@@ -1,3 +1,9 @@
 @preprocess {
   replace: '㍍' '';
 }
+
+// @RULESET
+// URL #= http://www\.apahotel\.com/language/.*
+div.inner_bt{
+  attribute: cltx add "exclude";
+}
