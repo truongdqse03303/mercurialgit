@@ -1,5 +1,0 @@
-// @ RULESET
-// URL = http://www.qigong-z.com/yiyuan.html
-table td[background] {
-  attribute: * rewrite "{absurl}";
-}
