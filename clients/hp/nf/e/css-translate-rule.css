@@ -1,0 +1,11 @@
+// @RULESET
+// URL = http://www.city.mitaka.tokyo.jp/c_css/base.css
+@preprocess {
+  replace: '(#Support li \\{.+?)float: left;' '$1';
+}
+
+// @RULESET
+// URL = http://www.city.mitaka.tokyo.jp/c_css/index.css
+@preprocess {
+  replace: '(#Case li \\{.+?)float: left;' '$1';
+}
