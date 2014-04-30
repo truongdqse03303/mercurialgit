@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER NETSHOP FASHION";
 }
+
+@postprocess {
+  replace: '<a href="/floorguide" target="_blank">' '<a href="http://canalcity.co.jp/floorguide_tch.pdf" target="_blank">';
+}

@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
 }
+
+@postprocess {
+  replace: '<a href="/floorguide" target="_blank">' '<a href="http://canalcity.co.jp/floorguide_en.pdf" target="_blank">';
+}

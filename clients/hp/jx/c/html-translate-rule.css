@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+  replace: '<a href="/floorguide" target="_blank">' '<a href="http://canalcity.co.jp/floorguide_sch.pdf" target="_blank">';
+}
