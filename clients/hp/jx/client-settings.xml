@@ -21,10 +21,10 @@
     <url>http://canalcity\.co\.jp/mobile/.*</url>
   </url-list>
 
-  <!-- 免責事項をフッターに表示 -->
+  <!-- 免責事項を非表示 -->
   <extension-param>
     <param-name>show.translate.header</param-name>
-    <param-value>body</param-value>
+    <param-value>false</param-value>
   </extension-param>
 
   <!-- 携帯用URLのチェック -->
