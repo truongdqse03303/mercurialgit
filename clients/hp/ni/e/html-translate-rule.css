@@ -12,6 +12,7 @@
 }
 
 @postprocess {
+  replace: 'http://www.city.naha.okinawa.jp/kdb/search.php?sp=true&lang=ja' 'http://www.city.naha.okinawa.jp/kdb/search.php?sp=true&lang=en';
   replace: '<span><a href="news.html">List of</a></span> latest information' 'latest information<span><a href="news.html">List</a></span>';
   replace: '<span><a href="http://nahanavi\.ti-da\.net/" target="_blank">List of</a></span> Naha-shi tourist association staff blog' 'Naha-shi tourist association staff blog<span><a href="http://nahanavi\.ti-da\.net/" target="_blank">List</a></span>';
 }

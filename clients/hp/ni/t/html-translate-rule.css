@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+@postprocess {
+  replace: 'http://www.city.naha.okinawa.jp/kdb/search.php?sp=true&lang=ja' 'http://www.city.naha.okinawa.jp/kdb/search.php?sp=true&lang=tc';
+}
