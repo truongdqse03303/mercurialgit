@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>那覇市観光協会</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>naha-navi/service 375e7d644bf28e8a6401816ca46fa5458ad082e6</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.naha-navi.or.jp" />
+    <request hostname="sub.naha-navi.or.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

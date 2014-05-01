@@ -1,0 +1,18 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET INTERNET";
+}
+@engine naha-navi/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
+}
+@engine naha-navi/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
+}
+
+@postprocess {
+  replace: '<span><a href="news.html">List of</a></span> latest information' 'latest information<span><a href="news.html">List</a></span>';
+  replace: '<span><a href="http://nahanavi\.ti-da\.net/" target="_blank">List of</a></span> Naha-shi tourist association staff blog' 'Naha-shi tourist association staff blog<span><a href="http://nahanavi\.ti-da\.net/" target="_blank">List</a></span>';
+}
+
