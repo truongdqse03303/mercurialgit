@@ -15,6 +15,6 @@ body {
   attribute: lang add 'zh';
 }
 
-@postprocess {
-  replace: 'http://www.city.naha.okinawa.jp/kdb/search.php?sp=true&lang=ja' 'http://www.city.naha.okinawa.jp/kdb/search.php?sp=true&lang=cn';
+@preprocess {
+  replace: 'sp=true&lang=ja' 'sp=true&amp;lang=cn';
 }

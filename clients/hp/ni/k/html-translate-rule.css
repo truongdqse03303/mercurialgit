@@ -11,6 +11,6 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
-@postprocess {
-  replace: 'http://www.city.naha.okinawa.jp/kdb/search.php?sp=true&lang=ja' 'http://www.city.naha.okinawa.jp/kdb/search.php?sp=true&lang=kr';
+@preprocess {
+  replace: 'sp=true&lang=ja' 'sp=true&amp;lang=kr';
 }
