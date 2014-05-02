@@ -15,7 +15,7 @@
       </path-list>
     </request>
     <request hostname="i.isetan.co.jp" path="/(?:shinjuku/|cgi-bin/top/js_get.cgi|common/(?:css2|css3|js|images?)/)" />
-    <request hostname=" isetan.mistore.jp" path="/store/shinjuku.*" />
+    <request hostname="isetan.mistore.jp" path="/store/shinjuku.*" />
   </request-list>
 
   <!-- 翻訳しないURLの一覧 -->
