@@ -21,3 +21,7 @@
   replace: '<span><a href="news\.html">' '<span style="padding-left:70px;"><a href="news.html">';
   replace: '<span><a href="http://nahanavi\.ti-da.net/"' '<span style="padding-left:130px;"><a href="http://nahanavi.ti-da.net/"';
 }
+
+#cse-search-box {
+  attribute: style add 'left:670px;width:240px;';
+}
