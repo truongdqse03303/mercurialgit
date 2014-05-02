@@ -14,6 +14,7 @@
 @postprocess {
   replace: '(<a href="/corporate/gaiyo\.html">COMPANY PROFILE</a>) (<a href="http://www\.tomorrowland\.co\.jp/recruit/" target="_blank">RECRUIT</a>)' '$1&emsp;$2';
   replace: '(<a href="/sp/corporate/gaiyo\.html">COMPANY PROFILE</a>) (<a href="http://www\.tomorrowland\.co\.jp/recruit/" target="_blank">RECRUIT</a>)' '$1&emsp;$2';
+  replace: '(<a href="/sp/corporate/gaiyo\.html" rel="external">COMPANY PROFILE</a>) (<a href="http://www\.tomorrowland\.co\.jp/recruit/" target="_blank" rel="external">RECRUIT</a>)' '$1&emsp;$2';
 }
 
 // @RULESET
