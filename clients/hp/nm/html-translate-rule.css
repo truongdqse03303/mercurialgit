@@ -1,0 +1,44 @@
+@postprocess {
+  replace: '/buy/buy/' '/buy/';
+  replace: '/rent/rent/' '/rent/';
+  replace: '/search/img/' '/img/';
+  replace: '/buy/common/img/' '/common/img/';
+  replace: '/buy/search/buy/img/' '/buy/img/';
+  replace: '/buy/search/common/img/' '/common/img/';
+  replace: '/api/search/area_line/buy/img/' '/img/';
+}
+
+div#hd,
+ul.tab_menu,
+p.btn_main01,
+div.top_bnr_area,
+div.bnr_box01,
+div.bnr_box02,
+p.okiniri_bookmark,
+div.pagetop,
+ul.right_box,
+p.right_btn,
+p.btn01,
+p.btn02,
+p.btn04,
+div#side_osusume_slide,
+p.interview_img01,
+p.interview_img02,
+p.interview_img03,
+p.left_img,
+ul.ttl_nav,
+div.btn_box,
+ul.tab_search_result_menu,
+div.photobox1,
+div.photobox2,
+div#det_slide,
+button#cboxClose {
+  attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL = http://listsothebysrealty.co.jp/mansiongallery/
+// URL = http://listsothebysrealty.co.jp/mansiongallery/index.html
+div.bg_nav01, div.bg_nav02, div.bg_nav03, div.bg_nav04, p.close {
+  attribute: cltx add 'exclude';
+}

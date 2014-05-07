@@ -1,0 +1,28 @@
+div#outer_header {
+  attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL = http://www.nishitetsu-sumai.com/econoa/
+// URL = http://www.nishitetsu-sumai.com/econoa/index.html
+div#wrapper {
+  attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL = http://www.nishitetsu-sumai.com/econoa/renovation/index.html
+p[class="mb30 center"] {
+  attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL = http://www.nishitetsu-sumai.com/econoa/case/index.html
+div.gallery_block {
+  attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL #= http://www\.nishitetsu-sumai\.com/econoa/buken/.+
+div.bukken_block_photo, div.picList, div#datail_table_block {
+  attribute: cltx add 'exclude';
+}

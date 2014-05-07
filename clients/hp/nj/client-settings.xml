@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>コスタビスタ沖縄</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>costavista-okinawa/service b97a957f42186da6b5c002d028aef699655d5431</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.costavista.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

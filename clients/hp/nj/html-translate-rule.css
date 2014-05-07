@@ -1,0 +1,3 @@
+div#header, div#menu, div#top_area, div#costavista_resort, div#top_links, div#category_index, div.page_scroll_navi, div.beta_menu {
+  attribute: cltx add 'exclude';
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>西日本鉄道株式会社住宅事業本部</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nishitetsu-sumai/service ff07901aa418328ccc6bfd27d974c7c5be9cf105</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.nishitetsu-sumai.com" path="/econoa" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

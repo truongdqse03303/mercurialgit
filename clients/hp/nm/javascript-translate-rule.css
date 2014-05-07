@@ -1,0 +1,23 @@
+// @RULESET
+// URL =http://listsothebysrealty.co.jp/common/js/bukken.js?v=2.1.0
+@preprocess {
+  // $.ajaxのエラーメッセージの詳細を表示させるためのreplace
+  replace: "function \\(jqXHR, textStatus\\)" "function (jqXHR, textStatus, errorThrown)";
+  replace: "console.log\\(textStatus\\);" "console.log(textStatus); console.log(errorThrown);";
+  //
+  
+  replace: "\\+area," "+area+'.json',";
+}
+
+// @RULESET
+// URL =http://listsothebysrealty.co.jp/mansiongallery/common/js/mansiongallery.js
+@preprocess {
+  replace: "\\+area," "+area+'.json',";
+}
+
+// @RULESET
+// URL =http://listsothebysrealty.co.jp/common/js/common.js?v=2.1.0
+@postprocess {
+  replace: "list\\[i\\]\\.detail_url" "list[i].detail_url.replace(/listsothebysrealty.co.jp/g, location.hostname)";
+}
+

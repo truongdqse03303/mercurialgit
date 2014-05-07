@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>リストインターナショナルリアルティ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>listsothebysrealty/service bf3b612c8a80e7974af18253f083b1b58f0e7c3b</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="listsothebysrealty.co.jp" />
+  </request-list>
+  
+  <!-- 翻訳対象外のURL -->
+  <url-list type="ignore">
+    <url>http://listsothebysrealty\.co\.jp/rent/.*</url>
+    <url>http://listsothebysrealty\.co\.jp/build/.*</url>
+  </url-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://listsothebysrealty\.co\.jp/global/search/action/ajax_reci_areacodeAction\.php.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
