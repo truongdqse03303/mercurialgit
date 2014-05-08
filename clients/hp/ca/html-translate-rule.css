@@ -7,3 +7,9 @@ iframe[id="gmap"][src],iframe[name="gmap"][src] {
 li, li *, dd, dd *, dt, dt *, td, td * {
   content: translate split exclude '\\[|\\]';
 }
+
+// @RULESET
+// URL = http://www.city.suwa.lg.jp/panorama/main.html
+@preprocess {
+  replace: '(<p class="readmore">.*?パノラマを見る</a>) (<a href="#suwa_map">マップへ戻る</a></p>)' '<p class="readmore" style="float:right;">$2 $1</p>';
+}
