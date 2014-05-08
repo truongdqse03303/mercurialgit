@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess {
+  replace: 'lang=ja_jp' 'lang=ko_kr';
+}
