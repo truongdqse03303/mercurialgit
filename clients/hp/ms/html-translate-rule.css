@@ -1,0 +1,3 @@
+div#gnavi, div#top_facility_link {
+  attribute: cltx add 'exclude';
+}

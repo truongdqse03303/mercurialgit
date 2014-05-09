@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+@preprocess {
+  replace: '(<div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve">.*?)(<!-- RSPEAK_START -->)' '<!-- crosslanguage:delete -->$1<!-- /crosslanguage:delete -->$2';
+}
