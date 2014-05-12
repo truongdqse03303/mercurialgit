@@ -21,3 +21,13 @@
   replace: "list\\[i\\]\\.detail_url" "list[i].detail_url.replace(/listsothebysrealty.co.jp/g, location.hostname)";
 }
 
+// @RULESET
+// URL =http://listsothebysrealty.co.jp/common/js/jquery.bxslider.js
+@preprocess {
+  replace: '<div class="bx-controls-direction" />' '<div class="bx-controls-direction" cltx="exclude" />';
+  replace: '(position = slider\.children\.eq\\(0\\)\.position\\(\\);)' '$1\n\r					 position.left = parseInt(slider.children[slider.active.index].style.width)';
+  replace: '(position = slider\.children\.eq\\(slider\.children\.length - 1\\)\.position\\(\\);)' '$1\n\r					 position.left = parseInt(slider.children[slider.active.index].style.width) * slider.children.length';
+  replace: '(position = el\.find\\(\'\.bx-clone\'\\)\.eq\\(slider\.settings\.maxSlides\\)\.position\\(\\);)' '$1\n\r					 position.left = parseInt(slider.children[slider.active.index].style.width) * (slider.children.length + 1)';
+  replace: '(position = slider\.children\.eq\\(requestEl\\)\.position\\(\\);)' '$1\n\r					 position.left = parseInt(slider.children[slider.active.index].style.width) * (requestEl + 1)';
+}
+
