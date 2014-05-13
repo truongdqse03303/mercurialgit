@@ -42,3 +42,9 @@
 @postprocess {
   replace: '<span class="or">Or search<u> for an application by typing "T</u>OMORROWLAND".</span>' '<span class="or">Or <u>search for an application by typing "TOMORROWLAND".</u></span>';
 }
+
+// @RULESET
+// URL #= http://www\.tomorrowland\.co\.jp/(?:sp/)?news/2014/04/april-262014-open-in-mariebelle-new-york-jiyugaoka\.html
+@postprocess {
+  replace: 'mesmerizing man<a href="http://www.mariebelle.jp/" target="_blank">y celebrities</a>.<br><br />' 'mesmerizing many <a href="http://www.mariebelle.jp/" target="_blank">celebrities</a>.<br><br />';
+}
