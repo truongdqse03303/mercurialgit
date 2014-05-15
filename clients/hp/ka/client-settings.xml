@@ -21,7 +21,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://www\.smilring\.com/application/controllers/SearchInput\.php</param-value>
+      <param-value>http://www\.smilring\.com/application/controllers/.+\.php</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
