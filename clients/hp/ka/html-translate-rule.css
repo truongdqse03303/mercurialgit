@@ -1,3 +1,7 @@
 div#Header span{
   tag: delete;
 }
+
+input[placeholder] {
+  attribute: placeholder translate;
+}
