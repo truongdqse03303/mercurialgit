@@ -5,3 +5,11 @@ div#Header span{
 input[placeholder] {
   attribute: placeholder translate;
 }
+
+// @RULESET
+// URL #=http://www\.smilring\.com/application/html/EventSelect\.html.*
+@preprocess {
+  replace: '"選択してください"' 'document.getElementById("select-placeholder").placeholder';
+  replace: '(<input type="hidden" id="genrea_s" name="genrea_s" value="" tabindex="-1">)' '$1\n		<input type="hidden" id="select-placeholder" placeholder="選択してください">';
+}
+
