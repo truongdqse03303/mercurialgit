@@ -6,6 +6,10 @@ input[placeholder] {
   attribute: placeholder translate;
 }
 
+@preprocess {
+  replace: '(Maproute\.html\?.*?)&(.*?)&(.*?)&' '$1&amp;$2&amp;$3&amp;';
+}
+
 // @RULESET
 // URL #=http://www\.smilring\.com/application/html/EventSelect\.html.*
 @preprocess {
