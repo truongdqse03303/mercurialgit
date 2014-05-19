@@ -13,6 +13,9 @@
 
 @preprocess {
   replace: 'sp=true&lang=ja' 'sp=true&amp;lang=en';
+  replace: 'NahaNavi\.swf' 'http://naha-navi.or.jp/NahaNaviEnglish.swf';
+  replace: '\'movie\'\, \'NahaNavi\'\,' '\'movie\', \'NahaNaviEnglish\',';
+  replace: 'assets/javascripts/config\.js' 'http://naha-navi.or.jp/assets/javascripts/configEN.js';
 }
 
 @postprocess {

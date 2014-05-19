@@ -17,4 +17,7 @@ body {
 
 @preprocess {
   replace: 'sp=true&lang=ja' 'sp=true&amp;lang=cn';
+  replace: 'NahaNavi\.swf' 'http://naha-navi.or.jp/NahaNavikantai.swf';
+  replace: '\'movie\'\, \'NahaNavi\'\,' '\'movie\', \'NahaNavikantai\',';
+  replace: 'assets/javascripts/config\.js' 'http://naha-navi.or.jp/assets/javascripts/configCH.js';
 }
