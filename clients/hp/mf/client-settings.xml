@@ -15,6 +15,7 @@
   <url-list type="ignore">
     <url>http://www\.tomorrowland\.co\.jp/catalogue/.*</url>
     <url>http://www\.tomorrowland\.co\.jp/recruit/.*</url>
+    <url>http://www\.tomorrowland\.co\.jp/mariebelle/.*</url>
   </url-list>
 
   <!-- 使用する設定IDの一覧 -->
