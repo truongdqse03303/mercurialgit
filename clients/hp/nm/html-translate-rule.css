@@ -1,3 +1,12 @@
+@preprocess {
+  replace: '(<span class="deta">.*?</span>)' '<p>$1</p>';
+  replace: '(<ul class="pc_gnav clearfix">.*?</li>.*?</li>)(.*?</li>.*?</li>)' '$1<!-- crosslanguage:delete -->$2<!-- /crosslanguage:delete -->';
+  replace: '(<ul class="sp_gnav clearfix">.*?</li>.*?</li>)(.*?</li>.*?</li>)' '$1<!-- crosslanguage:delete -->$2<!-- /crosslanguage:delete -->';
+  replace: '(<div class="top_bnr_area link_area">.*?</div>)' '<!-- crosslanguage:delete -->$1<!-- /crosslanguage:delete -->';
+  replace: '(<div class="bnr_box01 clearfix">.*?</div>.*?</div>)' '<!-- crosslanguage:delete -->$1<!-- /crosslanguage:delete -->';
+  replace: '(<ul class="ft_nav clearfix link_area">.*?</ul>.*?</ul>)(.*?</ul>.*?</ul>)' '$1<!-- crosslanguage:delete -->$2<!-- /crosslanguage:delete -->';
+}
+
 @postprocess {
   replace: '/buy/buy/' '/buy/';
   replace: '/rent/rent/' '/rent/';
@@ -33,6 +42,12 @@ div.photobox2,
 div#det_slide,
 button#cboxClose {
   attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL = http://listsothebysrealty.co.jp/sitemap.html
+@preprocess {
+  replace: '(<div class="sitemap_link">.*?</div>.*?</div>.*?</div>)(.*?</div>.*?</div>)' '$1<!-- crosslanguage:delete -->$2<!-- /crosslanguage:delete -->';
 }
 
 // @RULESET
