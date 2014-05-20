@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.city.adachi.tokyo.jp/shared/js/setting_onload.js
+@preprocess {
+  replace: '(lifeChangeImgSrc\.replace)\\(.*, changeImgSuffix\\)' '$1(/\.([^\.]+$)/, changeImgSuffix+"\\$1")';
+}
