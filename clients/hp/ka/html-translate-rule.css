@@ -6,16 +6,18 @@ div#Header span{
   tag: delete;
 }
 
+input[placeholder] {
+  attribute: placeholder translate;
+}
+
+// @RULESET
+// URL #=http://www\.smilring\.com/application/html/Maproute\.html.*
 div#map_canvas {
   attribute: style set 'top:70px !important; width: 100%; height: 90%; position: absolute; z-index: -1;';
 }
 
 div#free-search {
   attribute: style set 'height: auto;';
-}
-
-input[placeholder] {
-  attribute: placeholder translate;
 }
 
 // @RULESET
