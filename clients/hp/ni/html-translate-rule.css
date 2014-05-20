@@ -1,0 +1,7 @@
+// @RULESET
+// URL = http://www.naha-navi.or.jp/sampleZH.html
+// URL = http://www.naha-navi.or.jp/sampleZHT.html
+// URL = http://www.naha-navi.or.jp/sampleKR.html
+@preprocess {
+  replace: '(<body>)(.*?)(<!-- Japanese -->)' '$1\n<div class="cl-notranslate">$2</div>\n$3';
+}

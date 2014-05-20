@@ -16,5 +16,4 @@
   replace: 'NahaNavi\.swf' 'http://naha-navi.or.jp/NahaNavihangul.swf';
   replace: '\'movie\'\, \'NahaNavi\'\,' '\'movie\', \'NahaNavihangul\',';
   replace: 'assets/javascripts/config\.js' 'http://naha-navi.or.jp/assets/javascripts/configKR.js';
-  replace: '(<!-- Korean -->.*?<!-- Korean -->)' '<div class="cl-notranslate">$1</div>';
 }
