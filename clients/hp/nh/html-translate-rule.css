@@ -1,4 +1,4 @@
-div#header, div#lnv {
+div#header, div#lnv, div.colorboximg {
   attribute: cltx add 'exclude';
 }
 

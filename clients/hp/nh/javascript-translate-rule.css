@@ -3,3 +3,11 @@
 @preprocess {
   replace: "(dataType:\"xml\",)" "$1 beforeSend: function\(xhr\){ xhr.overrideMimeType\(\"text/xml;charset=Shift_JIS\"\);},";
 }
+
+// @RULESET
+// URL =http://housekihiroba.jp/js/jquery.colorbox.js
+@preprocess {
+  replace: '(<div id="colorbox") (/>)' '$1 cltx="exclude" $2';
+  replace: "(/\.\\(gif\\|png\\|jpg\\|jpeg\\|bmp\\|tif\\))\\$(/i)" "$1.*$2";
+}
+
