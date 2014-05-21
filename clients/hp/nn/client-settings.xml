@@ -4,7 +4,7 @@
   <name>日本中央研究所</name>
   
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>nck-inc/service d8a87f0338de28b605db67bef4987415bc938625</licence>
+  <licence>nck-gp/service f3fcf02420b8096b0d4720a8a40c370c9c43253c</licence>
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>

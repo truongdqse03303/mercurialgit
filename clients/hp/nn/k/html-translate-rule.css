@@ -2,11 +2,11 @@
   eid: CR-JK;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
 }
-@engine nck-inc/main {
+@engine nck-gp/main {
   eid: CR-JK;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
-@engine nck-inc/cross {
+@engine nck-gp/cross {
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }

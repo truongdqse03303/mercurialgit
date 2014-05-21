@@ -2,11 +2,11 @@
   eid: CR-JE;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET INTERNET";
 }
-@engine nck-inc/main {
+@engine nck-gp/main {
   eid: CR-JE;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
 }
-@engine nck-inc/cross {
+@engine nck-gp/cross {
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
