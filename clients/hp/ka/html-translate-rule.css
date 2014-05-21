@@ -13,7 +13,7 @@ input[placeholder] {
 // @RULESET
 // URL #=http://www\.smilring\.com/application/html/Maproute\.html.*
 div#map_canvas {
-  attribute: style set 'top:70px !important; width: 100%; height: 90%; position: absolute; z-index: -1;';
+  attribute: style set 'top: auto !important; width: 100%; height: 90%; position: absolute; z-index: -1; margin-top:40px;';
 }
 
 div#free-search {
