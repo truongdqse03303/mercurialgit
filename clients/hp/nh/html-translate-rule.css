@@ -5,8 +5,8 @@ div#header, div#lnv, div.colorboximg {
 a[href="/contents/guide/about.html"] {
   attribute: href rewrite "/shop/contents/about_en.aspx";
 }
-a[href="/contents/guide/siharai.html"] {
-  attribute: href rewrite "/shop/contents/dutyfree_en.aspx";
+a[href#="/shop/contact/contact.aspx?.+"] {
+  attribute: href rewrite "mailto:houseki-h@u-s.co.jp?subject=%E3%80%90E-mail contact%E3%80%91&body=Please fill in the content";
 }
 a[href="/contents/guide/h_qa.html"] {
   attribute: href rewrite "/shop/contents/h_qa_en.aspx";
