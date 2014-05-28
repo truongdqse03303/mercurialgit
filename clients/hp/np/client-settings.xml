@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>宮古市</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>iwate-miyako/service 780584f1deec909c40197426bc128c5648b32d2c</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.miyako.iwate.jp" />
+    <request hostname="kitakamisanchi.city.miyako.iwate.jp" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

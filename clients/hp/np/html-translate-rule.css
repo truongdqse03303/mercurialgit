@@ -1,0 +1,4 @@
+@preprocess {
+  replace: '(<span class="menulist_recdate" style="font-size: 75%">)<span>(.*?)</span>(</span>)' '$1<p style="display: inline;">$2</p>$3';
+}
+

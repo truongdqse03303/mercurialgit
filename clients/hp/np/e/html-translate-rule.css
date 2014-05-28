@@ -1,0 +1,17 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET INTERNET";
+}
+@engine iwate-miyako/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
+}
+@engine iwate-miyako/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
+}
+
+@preprocess {
+  replace: 'value="元"' 'value="Original"';
+  replace: 'value="あ"' 'value="a"';
+}
