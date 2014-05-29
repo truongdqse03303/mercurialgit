@@ -10,3 +10,8 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+img[src$="houou_naiyou_on_r1.gif"] {
+  attribute: src rewrite "http://www.city.mitaka.tokyo.jp/honyaku/chh/top/bnr_musen_l_b5.gif";
+}
+

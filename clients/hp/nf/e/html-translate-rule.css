@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+img[src$="houou_naiyou_on_r1.gif"] {
+  attribute: src rewrite "http://www.city.mitaka.tokyo.jp/honyaku/en/top/bnr_musen_l_en.gif";
+}
