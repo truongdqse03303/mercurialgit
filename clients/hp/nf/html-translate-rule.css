@@ -1,12 +1,3 @@
-// @RULESET
-// URL = http://www.city.mitaka.tokyo.jp/
-// URL = http://www.city.mitaka.tokyo.jp/index.html
-@preprocess {
-  replace: '(<a href="/c_anzen/.*?</a>)' '</p>$1<p style="display: inline;">';
-}
-
-// @RULESET
-// URL #= http://www.city.mitaka.tokyo.jp/c_anzen/.*
 @preprocess {
   replace: '<p (class="breadcrumb">.*?</p>)' '<div $1</div>';
   replace: '(<span>現在地</span>&nbsp;)' '$1<p style="display: inline;">';
