@@ -22,5 +22,6 @@
   <setting-id>mb-*</setting-id>
 
   <!-- サイトで使用される文字セット -->
-  <!--charset>UTF-8</charset-->
+  <!--charset>Shift_JIS</charset-->
+  <charset url="http://www\.city\.mitaka\.tokyo\.jp/c_js/ex\.js">Shift_JIS</charset>
 </client-settings>
