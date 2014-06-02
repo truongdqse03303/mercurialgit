@@ -1,0 +1,8 @@
+ul.gnaviTop, ul#nav, ul#menu, div#SideMenu, div#KankouContents, div#gnaviBg, div.header {
+  attribute: cltx add 'exclude';
+}
+
+@preprocess {
+  replace: '<li>(<span>.*?</span>)' '<li><p style="display: inline;">$1</p>';
+  replace: '(<a title=.*?</a>)' '<p style="display: inline;">$1</p>';
+}
