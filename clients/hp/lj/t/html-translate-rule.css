@@ -13,6 +13,7 @@
 
 // @RULESET
 // URL ^= http://www.biccamera.co.jp/shoplist/s_higashishin_map.html
+// URL ^= http://www.biccamera.co.jp/shoplist/shop-116.html
 a[href='http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tpl/ja/map.php?&MAP=E139.42.22.76N35.41.17.01&CMR=cross_lng&KEY=bd96402192c1494895673a1e17431f32e33f507e&NM=%E3%83%93%E3%83%83%E3%82%AF%E3%83%AD%20%E3%83%93%E3%83%83%E3%82%AF%E3%82%AB%E3%83%A1%E3%83%A9%20%E6%96%B0%E5%AE%BF%E6%9D%B1%E5%8F%A3%E5%BA%97&ZM=10'] {
   attribute: href rewrite 'http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tpl/zh1/map.php?&MAP=E139.42.22.76N35.41.17.01&CMR=cross_lng&KEY=bed6a8db574f99b460d909619f7858f53e778d60&NM=BICQLO%20%20%E5%BF%85%E9%85%B7%E6%96%B0%E5%AE%BF%E6%9D%B1%E5%8F%A3%E5%BA%97&ZM=10';
 }
