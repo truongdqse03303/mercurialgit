@@ -11,10 +11,6 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
-img[src$="houou_naiyou_on_r1.gif"] {
-  attribute: src rewrite "http://www.city.mitaka.tokyo.jp/honyaku/ko/top/bnr_musen_l_ko.gif";
-}
-
 @preprocess {
   replace: '(<a href="/foreign/korean/index\.html")' '$1 class="cl-notranslate"';
 }

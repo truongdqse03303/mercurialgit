@@ -4,4 +4,6 @@
   replace: '(<img src="/c_images/crumbs\.gif" width="28" height="8" alt="の中の" title="">)' '</p>$1<p style="display: inline;">';
   replace: '(<a href="/c_anzen/.*?</a>)' '</p>$1<p style="display: inline;">';
   replace: '(<a href="/c_press/.*?</a>)' '</p>$1<p style="display: inline;">';
+  replace: '(<img src="/housou/web/bousai_housou\.gif")' '$1 id="BousaiHousou"';
+  replace: '(<body id="index")' '$1 onload="replaceimg()"';
 }

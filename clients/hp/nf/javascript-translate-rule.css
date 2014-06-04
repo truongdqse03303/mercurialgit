@@ -1,0 +1,6 @@
+// @RULESET
+// URL =http://www.city.mitaka.tokyo.jp/c_js/ex.js
+@preprocess {
+  replace: '(function dispprintbt)' 'function replaceimg() { var img = document.getElementById("BousaiHousou"); if(img.height == 1) return; if(location.hostname.indexOf(".e.") != -1) { img.src = "http://www.city.mitaka.tokyo.jp/honyaku/en/top/bnr_musen_l_en.gif"; } else if(location.hostname.indexOf(".c.") != -1) { img.src = "http://www.city.mitaka.tokyo.jp/honyaku/chk/top/bnr_bousai_l_gb.gif"; } else if(location.hostname.indexOf(".t.") != -1) { img.src = "http://www.city.mitaka.tokyo.jp/honyaku/chh/top/bnr_musen_l_b5.gif"; } else if(location.hostname.indexOf(".k.") != -1) { img.src = "http://www.city.mitaka.tokyo.jp/honyaku/ko/top/bnr_musen_l_ko.gif"; } }\r\n\r\n$1';
+}
+

@@ -14,7 +14,3 @@
 body {
   attribute: lang add 'zh';
 }
-
-img[src$="houou_naiyou_on_r1.gif"] {
-  attribute: src rewrite "http://www.city.mitaka.tokyo.jp/honyaku/chk/top/bnr_bousai_l_gb.gif";
-}
