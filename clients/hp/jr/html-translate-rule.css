@@ -2,8 +2,11 @@
   replace: 'vroom2/list4\.php' 'evroom2/elist4.php';
   replace: 'mpage/mpage_login\.php' 'empage/empage_login.php';
   replace: 'cancel/can_login\.php' 'ecancel/ecan_login.php';
-  replace: 'smartphone/vroom2/search/smem_id/(\d{4})/op_id/(\d{1})' 'evroom2/elist4.php?smem_id=$1&op_id=$2';
-  replace: 'smartphone/cancel/login/smem_id/(\d{4})/' 'ecancel/ecan_login.php?smem_id=$1';
+  replace: 'smartphone/vroom2/search/smem_id/([0-9]{4})/op_id/([0-9]{1})' 'evroom2/elist4.php?smem_id=$1&op_id=$2';
+  replace: 'smartphone/cancel/login/smem_id/([0-9]{4})/' 'ecancel/ecan_login.php?smem_id=$1';
+  replace: 'smartphone/member/mem_mail/smem_id/([0-9]{4})/' 'emember/emem_mail.php?smem_id=$1';
+  replace: 'smartphone/mpage/login/smem_id/([0-9]{4})/' 'empage/empage_login.php?smem_id=$1';
+  replace: 'smartphone/idpass/pass/smem_id/([0-9]{4})' 'epass/epass.php?smem_id=$1';
 }
 
 a[href="https://sec.489.jp/rg/member/mem_mail.php?smem_id=2002"] {
