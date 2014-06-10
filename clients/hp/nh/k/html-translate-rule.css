@@ -10,3 +10,8 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@postprocess {
+  replace: "'UA-2642328-5'" "'UA-51800530-4'";
+  replace: "'housekihiroba\.jp','housekihiroba\.u-s\.co\.jp'" "'http://housekihiroba.jp.k.nh.hp.transer.com','http://housekihiroba.u-s.co.jp.k.nh.hp.transer.com'";
+}
