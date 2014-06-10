@@ -1,0 +1,7 @@
+div[id="scrollIMG"] {
+  attribute: cltx add 'exclude';
+}
+
+@preprocess {
+  replace: '<p>(静岡市葵区千代538番地の11 経済局 農林水産部 中山間地振興課)(／TEL：054-294-8805</p>)' '<p style="display: inline;">$1</p><p style="display: inline;">$2';
+}

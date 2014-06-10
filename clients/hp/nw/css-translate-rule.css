@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.okushizuoka.jp/shared/css/layout.css
+@preprocess {
+  replace: "(contact p.*?)absolute;(.*?)(left)" "$1relative;$3";
+}

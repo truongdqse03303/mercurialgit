@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>静岡市中山間地振興課（オクシズ）</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>okushizuoka/service 71fffc7748a9f1c99965ce2f19d25394dff8267c</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.okushizuoka.jp" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+  
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>body</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

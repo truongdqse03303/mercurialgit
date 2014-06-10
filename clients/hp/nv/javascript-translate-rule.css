@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.resortwedding.info/js/lightbox2/js/lightbox.js
+@preprocess {
+  replace: "(id:'lightbox')" "$1, cltx: 'exclude'";
+}

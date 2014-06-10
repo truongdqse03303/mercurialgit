@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社高島屋</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>takashimaya/service 4efa2599d37f6fff8fca1056f672fde892e1e2e1</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.takashimaya.co.jp" path="(/sp/|/)(tokyo|shinjuku|yokohama|osaka|kyoto)/(topics|event)/" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

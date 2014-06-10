@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>箱根小田原ブライダル協議会</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>resortwedding/service ee50521d47f0d0812b80211b654ba5d9bf758bfa</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.resortwedding.info" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
