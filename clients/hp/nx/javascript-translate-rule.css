@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.hotel-sekitei.co.jp/gallery/js/lightbox.js
+@preprocess {
+  replace: "(objLightbox\.setAttribute\\('id','lightbox'\\);)" "$1 objLightbox.setAttribute('cltx','exclude');";
+}

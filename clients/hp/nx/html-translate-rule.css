@@ -1,0 +1,9 @@
+@preprocess {
+  replace: '(<span>\\d{4}\.\\d{2}\.\\d{2}掲載</span>)' '<p style="display: inline;">$1</p>';
+}
+
+// @RULESET
+// URL #=http://www\.hotel-sekitei\.co\.jp/gallery/gallery\.html.*
+div#main {
+  attribute: cltx add 'exclude';
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ホテル石庭</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hotel-sekitei/service 62ae129e0ee77e9c4f03ca8ecec3433fe341a5b3</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.hotel-sekitei.co.jp" />
+  </request-list>
+  
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
