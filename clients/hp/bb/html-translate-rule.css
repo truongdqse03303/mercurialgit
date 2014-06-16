@@ -1,4 +1,4 @@
-@preprocess {
+@postprocess {
   replace: 'UA-2642328-5' 'UA-48374796-10';
   replace: "'housekihiroba\.jp','housekihiroba\.u-s\.co\.jp'" "'housekihiroba.jp.e.bb.hp.transer.com'";
 }
