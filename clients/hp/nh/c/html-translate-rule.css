@@ -14,8 +14,3 @@
 body {
   attribute: lang add 'zh';
 }
-
-@postprocess {
-  replace: "'UA-2642328-5'" "'UA-51800530-2'";
-  replace: "'housekihiroba\.jp','housekihiroba\.u-s\.co\.jp'" "'housekihiroba.jp.c.nh.hp.transer.com','housekihiroba.u-s.co.jp.c.nh.hp.transer.com'";
-}
