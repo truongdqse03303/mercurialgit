@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.takashimaya.co.jp" path="(/sp/|/)(tokyo|shinjuku|yokohama|osaka|kyoto)/(topics|event)/" />
+    <request hostname="www.takashimaya.co.jp"/>
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
