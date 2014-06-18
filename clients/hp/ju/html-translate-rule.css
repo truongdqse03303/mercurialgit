@@ -4,6 +4,6 @@
 
 // @RULESET
 // URL #= http://www\.apahotel\.com/language/.*
-div.inner_bt{
+div.inner_bt, p[class="pagetop over"] {
   attribute: cltx add "exclude";
 }

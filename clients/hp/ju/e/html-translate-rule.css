@@ -18,7 +18,7 @@
 }
 
 // @RULESET
-// URL #=http://www.apahotel.com/language/.+/
+// URL #=http://www.apahotel.com/language/(|.+/)
 @postprocess {
   replace: '(<span class="red">)( There are )(.*?)(</span>)(.*?)(\.</p>)' '$2$1$3$5$4$6';
 }
