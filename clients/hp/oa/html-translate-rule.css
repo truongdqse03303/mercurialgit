@@ -1,0 +1,4 @@
+@preprocess {
+  replace: '(<li class="day">.*?>)((\\d{1}|\\d{2})/(\\d{1}|\\d{2})) ' '$1<p style="display: inline;">$2</p> ';
+  replace: '(<span style="color:#E60012;">予告</span>)' '<p style="display: inline; font-size: 18px; font-weight: bold; line-height: 24px; word-break: normal; padding: 0;">$1</p>';
+}

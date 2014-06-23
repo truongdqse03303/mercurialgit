@@ -1,0 +1,28 @@
+body {
+  attribute: style add 'background-position-y: 28px;';
+}
+
+p#address {
+  attribute: style add 'width: 1058px;';
+}
+
+div#pagenation, div#footer, div#sisetsuMenu, div[class="fb-like fb_iframe_widget"] {
+  attribute: cltx add 'exclude';
+}
+
+@preprocess {
+  replace: '(<h2 id="title">)(体験学習のお知らせ)(<span>exprience</span></h2>)' '$1<p style="display: inline;">$2</p>$3';
+  replace: '(<li><a href="sisetsulist\.php\?.*?>)(.*?)\\(' '$1<p style="color: inherit; display: inline; background-color: transparent;">$2</p>(';
+}
+
+// @RULESET
+// URL = http://oshino.jp/link.php
+@preprocess {
+  replace: '(<li><a href="http://.*?>)(.*?)(<span>)' '$1<p style="display: inline;">$2</p>$3';
+}
+
+// @RULESET
+// URL = http://oshino.jp/asset.php
+@preprocess {
+  replace: '(<li><a href="\./asset\.php\?.*?)(<span>.*?</span>)' '$1<p style="display: inline;">$2</p>';
+}

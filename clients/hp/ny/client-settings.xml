@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>北上市</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>iwate-kitakami/service 92d738796bd276ff11eab261a4f6fa6466072360</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.kitakami.iwate.jp" />
+  </request-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+  
+  <!-- 翻訳しないURLの一覧 -->
+  <url-list type="ignore">
+    <url>http://city.kitakami.iwate.jp/(english|china|korea)/.*</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
