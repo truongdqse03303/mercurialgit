@@ -24,7 +24,7 @@
   <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-message{padding:1em 0 0.2em 0.2em;clear:both;font-family:\"ヒラギノ角 Pro W3\",\"HIragino Kaku Gothic Pro\",\"メイリオ\",Meiryo,\"MS Pゴシック\",sans-serif;font-size:12px;}</param-value>
+    <param-value>style:#site-translate-message{clear:both;font-family:\"ヒラギノ角 Pro W3\",\"HIragino Kaku Gothic Pro\",\"メイリオ\",Meiryo,\"MS Pゴシック\",sans-serif;font-size:12px;}</param-value>
   </extension-param>
   
   <!-- 免責事項をフッターに表示 -->
