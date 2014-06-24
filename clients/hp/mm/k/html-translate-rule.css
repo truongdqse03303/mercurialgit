@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess {
+  replace: "(.+?)/shared/css/jp.css(.+?)" "$1/shared/css/ko.css$2";
+}

@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@preprocess {
+  replace: "(.+?)/shared/css/jp.css(.+?)" "$1/shared/css/cn.css$2";
+}

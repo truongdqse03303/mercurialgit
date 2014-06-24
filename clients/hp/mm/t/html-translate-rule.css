@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+@preprocess {
+  replace: "(.+?)/shared/css/jp.css(.+?)" "$1/shared/css/tw.css$2";
+}

@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+@preprocess {
+  replace: "(.+?)/shared/css/jp.css(.+?)" "$1/shared/css/en.css$2";
+}
