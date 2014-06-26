@@ -35,7 +35,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
     <param>
       <param-name>encode.url.smilring</param-name>
-      <param-value>^http://www\.smilring\.com/shop/.*</param-value>
+      <param-value>^http://www\.smilring\.com/application/html/.*</param-value>
     </param>
     <param>
       <param-name>encode.charset.smilring</param-name>
