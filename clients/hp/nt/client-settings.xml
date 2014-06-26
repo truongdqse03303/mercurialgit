@@ -9,27 +9,8 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.roppongihills.com" />
-    <!--request hostname="work.roppongihills.com" /-->
   </request-list>
   
-  <!-- Basic認証 
-  <resource-handler>
-    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
-    <param>
-      <param-name>header.name.auth</param-name>
-      <param-value>Authorization</param-value>
-    </param>
-    <param>
-      <param-name>header.value.auth</param-name>
-      <param-value>Basic Y3Jvc3NsYW5ndWFnZToxR3FBcU0zUQ==</param-value>
-    </param>
-    <param>
-      <param-name>header.applied.auth</param-name>
-      <param-value>http://work\.roppongihills\.com/.*</param-value>
-    </param>
-  </resource-handler>
-  -->
-
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
