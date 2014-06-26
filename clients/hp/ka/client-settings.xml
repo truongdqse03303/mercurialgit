@@ -30,6 +30,21 @@
     <priority>4</priority>
   </resource-handler>
 
+  <!-- www.smilring.com内ページのURLエンコーディングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
+    <param>
+      <param-name>encode.url.smilring</param-name>
+      <param-value>^http://www\.smilring\.com/shop/.*</param-value>
+    </param>
+    <param>
+      <param-name>encode.charset.smilring</param-name>
+      <param-value>Shift_JIS</param-value>
+    </param>
+    <priority>4</priority>
+    <terminal>true</terminal>
+  </resource-handler>
+
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>
 </client-settings>
