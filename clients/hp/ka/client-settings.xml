@@ -21,7 +21,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
     <param>
       <param-name>encode.url.keyword</param-name>
-      <param-value>.+/application/controllers/ShopTop\.html\?shopcd=.+</param-value>
+      <param-value>.+/application/.+</param-value>
     </param>
     <param>
       <param-name>encode.charset.keyword</param-name>
