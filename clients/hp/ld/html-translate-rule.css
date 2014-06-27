@@ -1,5 +1,5 @@
 // @RULESET
-// URL = http://www.sogo-seibu.jp/foreign/.+?/ikebukuro/sale.html
+// URL #= http://www.sogo-seibu.jp/foreign/(en|ch|ty|ko)/ikebukuro/sale.html
 span {
   text-flow: break;
 }
