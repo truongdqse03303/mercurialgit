@@ -15,5 +15,4 @@
   replace: "'UA-2642328-5'" "'UA-2642328-10'";
   replace: "'housekihiroba\.jp','housekihiroba\.u-s\.co\.jp'" "'housekihiroba.jp.t.nh.hp.transer.com','housekihiroba.u-s.co.jp.t.nh.hp.transer.com'";
   replace: '(<meta name="google-site-verification".*?/>)' '$1\n<meta name="google-site-verification" content="dNy9cw56eB08kA7JWqsCtd6xqFMCz92U3rJE8Gfclt0" />';
-  replace: "['housekihiroba\.u-s\.co\.jp']" "['housekihiroba.u-s.co.jp.t.nh.hp.transer.com']";
 }
