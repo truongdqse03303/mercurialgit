@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>松島町役場</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>miyagi-matsushima/service fa0b45e5bdab2965817f45245f6bb0ba241c0bdf</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.matsushima.miyagi.jp" />
+    <request hostname="www.town.miyagi-matsushima.lg.jp" />
+  </request-list>
+  
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>.+</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

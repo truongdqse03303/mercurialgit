@@ -1,0 +1,7 @@
+a, strong {
+  text-flow: break;
+}
+
+@preprocess {
+ replace: '(<p style="text-align: left)">(.*?)(（<a title="" href="http://www\.town\.miyagi-matsushima\.lg\.jp/map/">地図</a>）)' '$1; display: inline;">$2</p><p style="text-align: left; display: inline;"> $3';
+}
