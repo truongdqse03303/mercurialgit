@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= http://www\.takashimaya\.co\.jp/sp/.*
+@postprocess {
+  replace: ' cltx' '';
+}
