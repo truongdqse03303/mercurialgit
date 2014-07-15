@@ -14,3 +14,7 @@
 @preprocess {
   replace: 'lang=ja_jp' 'lang=ko_kr';
 }
+
+@preprocess {
+  replace: "'UA-49040681-1', 'oki-park.jp'" "'UA-52797886-1', 'auto'";
+}

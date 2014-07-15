@@ -14,3 +14,7 @@
 @preprocess {
   replace: '(<div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve">.*?)(<!-- RSPEAK_START -->)' '<!-- crosslanguage:delete -->$1<!-- /crosslanguage:delete -->$2';
 }
+
+@preprocess {
+  replace: "'UA-49040681-1', 'oki-park.jp'" "'UA-52811603-1', 'auto'";
+}
