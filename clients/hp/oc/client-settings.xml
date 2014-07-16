@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>北広島市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hokkaido-kitahiroshima/service 24c06378e0d31362bdb5eac4fccda7553c29856e</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.kitahiroshima.hokkaido.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
