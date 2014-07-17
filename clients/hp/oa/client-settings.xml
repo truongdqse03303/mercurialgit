@@ -16,4 +16,10 @@
   
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
+  
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{z-index:100000;}</param-value>
+  </extension-param>
 </client-settings>
