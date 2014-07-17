@@ -1,0 +1,5 @@
+@preprocess {
+  replace: '(#Header .inner \\{.*?)position:static;' '$1';
+  replace: '(#popup #Contents \\{.*?)top:75px;' '$1top:120px;';
+  replace: '(#popup .btn-print \\{.*?)top:0;' '$1top:45px;';
+}

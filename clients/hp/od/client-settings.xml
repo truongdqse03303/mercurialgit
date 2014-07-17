@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>福島県庁</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>pref-fukushima/service a5d72ff05d7f2cd1e69e107e6b219f6f365b38a1</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.pref.fukushima.lg.jp" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>.+</url>
+  </url-list>
+
+  <!-- PDF翻訳 -->
+  <extension-param>
+    <param-name>pdf.translate</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+  <!-- トークンチェック(ロボット対策) -->
+  <extension-param>
+    <param-name>token.check.resource</param-name>
+    <param-value>pdf</param-value>
+  </extension-param>
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+  <charset url=".+\.pdf">UTF-8</charset>
+</client-settings>

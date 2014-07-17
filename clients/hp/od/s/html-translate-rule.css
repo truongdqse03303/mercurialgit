@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-JA.ES.EN;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET";
+}
+@engine pref-fukushima/main {
+  eid: BR-JA.ES.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
+}
+@engine pref-fukushima/cross {
+  eid: BR-JA.ES.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
+}
