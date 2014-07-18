@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>元禄産業株式会社</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>mawaru-genrokuzusi/service d14d1e5fa976430dddd2950d51dff211122fa6b4</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.mawaru-genrokuzusi.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
