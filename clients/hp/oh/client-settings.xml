@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>東急ハンズ</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tokyu-hands/service 491448fdcc6ffdeb0007a00c5c1d27e22e31e267</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.tokyu-hands.co.jp" />
+  </request-list>
+  
+  <!-- 翻訳対象外のURL -->
+  <url-list type="ignore">
+    <url>http://www\.tokyu-hands\.co\.jp/foreign\.html</url>
+    <url>http://www\.tokyu-hands\.co\.jp/(en|ch1|ch2|th|ko)/.*</url>
+  </url-list>
+  
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>body</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
