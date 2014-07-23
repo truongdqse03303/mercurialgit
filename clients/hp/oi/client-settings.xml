@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社図書館流通センター</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>trc/service a5a2431ba5110988c0cdaa14f80e6cce0c7e2063</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.trc.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

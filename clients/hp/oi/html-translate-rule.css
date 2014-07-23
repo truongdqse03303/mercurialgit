@@ -1,0 +1,12 @@
+ul[id="feed"] > li > span {
+  text-flow: break;
+}
+
+div[id="glovalNav"],
+nav[id="glovalNav"],
+div[id="topImg"],
+div[id="topMain"],
+div[id="contents"],
+footer {
+  attribute: cltx add 'exclude';
+}
