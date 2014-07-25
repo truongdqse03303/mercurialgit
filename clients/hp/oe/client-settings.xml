@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="www.printemps-ginza.co.jp" />
   </request-list>
-  
-  <!-- HTML断片翻訳を行わないURLの一覧 -->
-  <url-list type="ignore-fragment">
-    <url>.+</url>
-  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

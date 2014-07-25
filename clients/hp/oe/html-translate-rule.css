@@ -1,0 +1,8 @@
+div[class="newsArea"] > dl > dd > ul > li > span {
+  text-flow: break;
+}
+
+div[id="mainImage"],
+body[class="second"] > div {
+  attribute: cltx add 'exclude';
+}
