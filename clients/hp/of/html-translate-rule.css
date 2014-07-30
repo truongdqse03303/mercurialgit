@@ -1,0 +1,3 @@
+div.clearfix, ul#right_navi, p#pageTop{
+ attribute: cltx add 'exclude';
+}
