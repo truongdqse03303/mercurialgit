@@ -1,3 +1,7 @@
-div.clearfix, ul#right_navi, p#pageTop{
+div.clearfix, ul#right_navi, p#pageTop, div.rightPane{
  attribute: cltx add 'exclude';
+}
+
+div#footContents{
+ attribute: cltx add ' ';
 }
