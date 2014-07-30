@@ -1,0 +1,3 @@
+div#galleryContents li, div#galleryThumbnail li, div#slideshow li{
+ attribute: cltx add 'exclude';
+}
