@@ -8,13 +8,13 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="listsothebysrealty.co.jp" />
+    <request hostname="www.listsothebysrealty.co.jp" />
   </request-list>
   
   <!-- 翻訳対象外のURL -->
   <url-list type="ignore">
-    <url>http://listsothebysrealty\.co\.jp/rent/.*</url>
-    <url>http://listsothebysrealty\.co\.jp/build/.*</url>
+    <url>http://www\.listsothebysrealty\.co\.jp/rent/.*</url>
+    <url>http://www\.listsothebysrealty\.co\.jp/build/.*</url>
   </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
@@ -25,7 +25,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://listsothebysrealty\.co\.jp/global/search/action/ajax_reci_areacodeAction\.php.+</param-value>
+      <param-value>http://www\.listsothebysrealty\.co\.jp/global/search/action/ajax_reci_areacodeAction\.php.+</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>

@@ -1,5 +1,5 @@
 // @RULESET
-// URL =http://listsothebysrealty.co.jp/common/js/bukken.js?v=2.1.0
+// URL =http://www.listsothebysrealty.co.jp/common/js/bukken.js?v=2.1.0
 @preprocess {
   // $.ajaxのエラーメッセージの詳細を表示させるためのreplace
   replace: "function \\(jqXHR, textStatus\\)" "function (jqXHR, textStatus, errorThrown)";
@@ -10,19 +10,19 @@
 }
 
 // @RULESET
-// URL =http://listsothebysrealty.co.jp/mansiongallery/common/js/mansiongallery.js
+// URL =http://www.listsothebysrealty.co.jp/mansiongallery/common/js/mansiongallery.js
 @preprocess {
   replace: "\\+area," "+area+'.json',";
 }
 
 // @RULESET
-// URL =http://listsothebysrealty.co.jp/common/js/common.js?v=2.1.0
+// URL =http://www.listsothebysrealty.co.jp/common/js/common.js?v=2.1.0
 @postprocess {
-  replace: "list\\[i\\]\\.detail_url" "list[i].detail_url.replace(/listsothebysrealty.co.jp/g, location.hostname)";
+  replace: "list\\[i\\]\\.detail_url" "list[i].detail_url.replace(/www.listsothebysrealty.co.jp/g, location.hostname)";
 }
 
 // @RULESET
-// URL =http://listsothebysrealty.co.jp/common/js/jquery.bxslider.js
+// URL =http://www.listsothebysrealty.co.jp/common/js/jquery.bxslider.js
 @preprocess {
   replace: '<div class="bx-controls-direction" />' '<div class="bx-controls-direction" cltx="exclude" />';
   replace: '(position = slider\.children\.eq\\(0\\)\.position\\(\\);)' '$1\n\r					 position.left = parseInt(slider.children[slider.active.index].style.width)';

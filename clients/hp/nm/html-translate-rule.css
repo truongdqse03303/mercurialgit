@@ -47,14 +47,14 @@ button#cboxClose {
 }
 
 // @RULESET
-// URL = http://listsothebysrealty.co.jp/sitemap.html
+// URL = http://www.listsothebysrealty.co.jp/sitemap.html
 @preprocess {
   replace: '(<div class="sitemap_link">.*?</div>.*?</div>.*?</div>)(.*?</div>.*?</div>)' '$1<!-- crosslanguage:delete -->$2<!-- /crosslanguage:delete -->';
 }
 
 // @RULESET
-// URL = http://listsothebysrealty.co.jp/mansiongallery/
-// URL = http://listsothebysrealty.co.jp/mansiongallery/index.html
+// URL = http://www.listsothebysrealty.co.jp/mansiongallery/
+// URL = http://www.listsothebysrealty.co.jp/mansiongallery/index.html
 div.bg_nav01, div.bg_nav02, div.bg_nav03, div.bg_nav04, p.close {
   attribute: cltx add 'exclude';
 }
