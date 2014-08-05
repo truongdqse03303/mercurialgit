@@ -1,7 +1,7 @@
 // @RULESET
 // URL ^= http://www.maach-ecute.jp/css/contents.css
 @preprocess {
-  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)padding-top: 90px;' '$1padding: 90px 40px 0px; font-size: 80%;';
+  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)padding-top: 90px;' '$1padding: 90px 40px 0px; font-size: 75%;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.b\\{)left: 108px;top: 237px;' '$1left: 92px;top: 237px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.c\\{)left: 249px;top: 302px;' '$1left: 233px;top: 302px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.d\\{)left: 352px;top: 367px;' '$1left: 335px;top: 367px;';
