@@ -13,17 +13,17 @@
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.n\\{)left: 155px;top: 385px;' '$1left: 140px;top: 385px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.o\\{)left: 325px;top: 430px;' '$1left: 290px;top: 430px; width:90px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.q\\{)left: 130px;top: 515px;' '$1left: 70px;top: 515px;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a01 p\\{)' '$1 font-size:80%;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a02 p\\{)' '$1 font-size:80%;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a03 p\\{)' '$1 font-size:80%;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a04 p\\{)' '$1 font-size:80%;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a05 p\\{)' '$1 font-size:80%;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a06 p\\{)' '$1 font-size:80%;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a07 p\\{)' '$1 font-size:80%;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a08 p\\{)' '$1 font-size:80%;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a09 p\\{)' '$1 font-size:80%;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a10 p\\{)' '$1 font-size:80%;';
-  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a11 p\\{)' '$1 font-size:80%;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a01 \\{.+?)top: 175px;\n\\s*width: 155px;\n\\s*height: 107px;' '$1top: 99px;	width: 151px;	height: 183px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a02 \\{.+?)top: 100px;\n\\s*width: 185px;\n\\s*height: 127px;' '$1top: 30px;	width: 165px;	height: 197px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a03 \\{.+?)height: 133px;' '$1height: 170px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a04 \\{.+?)height: 113px;' '$1height: 171px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a05 \\{.+?)height: 113px;' '$1height: 183px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a06 \\{.+?)height: 110px;' '$1height: 164px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a07 \\{.+?)top: 600px;\n\\s*width: 169px;\n\\s*height: 103px;' '$1top: 523px;	width: 169px;	height: 180px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a08 \\{.+?)height: 113px;' '$1height: 191px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a09 \\{.+?)top: 230px;\n\\s*width: 165px;\n\\s*height: 97px;' '$1top: 147px;	width: 169px;	height: 180px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a10 \\{.+?)top: 150px;\n\\s*width: 155px;\n\\s*height: 125px;' '$1top: 90px;	width: 166px;	height: 185px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a11 \\{.+?)top: 166px;\n\\s*width: 165px;\n\\s*height: 166px;' '$1top: 102px;	width: 165px;	height: 230px;';
 }
 
 
