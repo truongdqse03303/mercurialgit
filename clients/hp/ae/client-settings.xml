@@ -10,7 +10,6 @@
   <request-list>
     <request hostname="www.mic21.com" />
     <request hostname="mic.diver-online.com" />
-    <request hostname="appleworld.com" />
     <request hostname="www.tos-asp.jp">
       <path-list resource="false">
         <path value="/agent/mic21/js/search\?type=tour.+" />
@@ -27,7 +26,6 @@
   <!-- 翻訳しないURLの一覧 -->
   <url-list type="ignore">
     <url>.*/n/staff/subimage_list\?.+</url>
-    <url>http://appleworld\.com/.+/jquery\.ui\..+?.css</url>
   </url-list>
   
   <!-- shop3.genesis-ec.com内ページのURLエンコーディングの設定 -->
