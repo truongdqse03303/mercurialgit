@@ -1,0 +1,27 @@
+// @RULESET
+// URL ^= http://www.maach-ecute.jp/css/contents.css
+@preprocess {
+  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)padding-top: 90px;' '$1padding: 95px 45px 0px; font-size: 80%;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.b\\{)left: 108px;top: 237px;' '$1left: 92px;top: 237px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.c\\{)left: 249px;top: 302px;' '$1left: 233px;top: 302px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.d\\{)left: 352px;top: 367px;' '$1left: 335px;top: 367px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.e\\{)left: 400px;top: 355px;' '$1left: 400px;top: 390px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.f\\{)left: 410px;top: 300px;' '$1left: 336px;top: 300px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.g\\{)left: 500px;top: 310px;' '$1left: 440px;top: 310px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.h\\{)left: 465px;top: 355px;' '$1left: 465px;top: 375px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.k\\{)left: 120px;top: 330px;' '$1left: 100px;top: 330px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.n\\{)left: 155px;top: 385px;' '$1left: 140px;top: 385px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.o\\{)left: 325px;top: 430px;' '$1left: 290px;top: 430px; width:90px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.q\\{)left: 130px;top: 515px;' '$1left: 70px;top: 515px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a01 \\{.+?)top: 175px;\n\\s*width: 155px;\n\\s*height: 107px;' '$1top: 99px;	width: 151px;	height: 183px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a02 \\{.+?)top: 100px;\n\\s*width: 185px;\n\\s*height: 127px;' '$1top: 30px;	width: 165px;	height: 197px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a03 \\{.+?)height: 127px;' '$1height: 170px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a04 \\{.+?)height: 113px;' '$1height: 171px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a05 \\{.+?)height: 113px;' '$1height: 183px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a06 \\{.+?)height: 110px;' '$1height: 164px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a07 \\{.+?)top: 600px;\n\\s*width: 169px;\n\\s*height: 103px;' '$1top: 523px;	width: 169px;	height: 180px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a08 \\{.+?)height: 113px;' '$1height: 191px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a09 \\{.+?)top: 230px;\n\\s*width: 165px;\n\\s*height: 97px;' '$1top: 147px;	width: 169px;	height: 180px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a10 \\{.+?)top: 150px;\n\\s*width: 155px;\n\\s*height: 125px;' '$1top: 90px;	width: 166px;	height: 185px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a11 \\{.+?)top: 166px;\n\\s*width: 165px;\n\\s*height: 166px;' '$1top: 102px;	width: 165px;	height: 230px;';
+}
