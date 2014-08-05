@@ -1,7 +1,7 @@
 // @RULESET
 // URL ^= http://www.maach-ecute.jp/css/contents.css
 @preprocess {
-  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)letter-spacing:0.6px;\n\\s*padding-top: 90px;' '$1letter-spacing:0.3px;padding: 95px 50px 0px; font-size: 80%;';
+  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)letter-spacing:0.6px;\n\\s*padding-top: 90px;' '$1letter-spacing:0.3px;\n	padding: 95px 50px 0px; font-size: 80%;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.b\\{)left: 108px;top: 237px;' '$1left: 92px;top: 237px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.c\\{)left: 249px;top: 302px;' '$1left: 233px;top: 302px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.d\\{)left: 352px;top: 367px;' '$1left: 335px;top: 367px;';
@@ -25,3 +25,6 @@
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a10 \\{.+?)top: 150px;\n\\s*width: 155px;\n\\s*height: 125px;' '$1top: 90px;	width: 166px;	height: 185px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a11 \\{.+?)top: 166px;\n\\s*width: 165px;\n\\s*height: 166px;' '$1top: 102px;	width: 165px;	height: 230px;';
 }
+
+letter-spacing:0.6px;
+	padding-top: 90px;
