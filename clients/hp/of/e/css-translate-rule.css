@@ -25,4 +25,21 @@
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a09 \\{.+?)top: 230px;\r\n\\s*width: 165px;\r\n\\s*height: 97px;' '$1top: 147px;\r\n	width: 169px;\r\n	height: 180px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a10 \\{.+?)top: 150px;\r\n\\s*width: 155px;\r\n\\s*height: 125px;' '$1top: 90px;\r\n	width: 166px;\r\n	height: 185px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .a11 \\{.+?)top: 166px;\r\n\\s*width: 165px;\r\n\\s*height: 166px;' '$1top: 102px;\r\n	width: 165px;\r\n	height: 230px;';
+
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.b\\{)left: 95px;top: 207px;' '$1left: 80px;top: 207px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.c\\{)left: 218px;top: 263px;' '$1left: 200px;top: 263px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.d\\{)left: 307px;top: 320px;' '$1left: 290px;top: 320px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.e\\{)left: 345px;top: 305px;' '$1left: 345px;top: 345px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.f\\{)left: 355px;top: 258px;' '$1left: 300px;top: 258px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.g\\{)left: 435px;top: 265px;' '$1left: 385px;top: 265px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.h\\{)left: 410px;top: 310px;' '$1left: 410px;top: 320px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.n\\{)left: 130px;top: 337px;' '$1left: 120px;top: 337px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.o\\{)left: 270px;top: 375px;' '$1left: 255px;top: 375px; width:90px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.q\\{)left: 105px;top: 455px;' '$1left: 60px;top: 455px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .a01 \\{.+?)top: 135px;\r\n\\s*width: 155px;\r\n\\s*height: 107px;' '$1top: 59px;\r\n	width: 151px;\r\n	height: 183px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .a02 \\{.+?)top: 70px;\r\n\\s*width: 185px;\r\n\\s*height: 127px;' '$1top: 0px;\r\n	width: 165px;\r\n	height: 197px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .a07 \\{.+?)top: 450px;\r\n\\s*width: 169px;\r\n\\s*height: 103px;' '$1top: 373px;	width: 169px;	height: 180px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .a09 \\{.+?)top: 185px;\r\n\\s*width: 165px;\r\n\\s*height: 97px;' '$1top: 102px;\r\n	width: 169px;\r\n	height: 180px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .a10 \\{.+?)top: 110px;\r\n\\s*width: 155px;\r\n\\s*height: 125px;' '$1top: 50px;\r\n	width: 166px;\r\n	height: 185px;';
+  replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .a11 \\{.+?)top: 126px;\r\n\\s*width: 165px;\r\n\\s*height: 166px;' '$1top: 62px;\r\n	width: 165px;\r\n	height: 230px;';
 }
