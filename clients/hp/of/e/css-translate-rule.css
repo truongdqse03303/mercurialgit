@@ -52,4 +52,26 @@
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.n\\{)left: 77px;' '$1left: 70px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.o\\{)left: 155px;top: 213px;' '$1left: 145px;top: 213px; width:40px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map2 .map_bg2 p.q\\{)left: 55px;' '$1left: 40px;';
+
+  replace: '(.map_l p.a\\{.+?)top: 120px;' '$1top: 170px;';
+  replace: '(.map_l p.b\\{)left: 78px;top: 143px;' '$1left: 65px;top: 193px;';
+  replace: '(.map_l p.c\\{)left: 150px;top:177px;' '$1left: 140px;top:227px;';
+  replace: '(.map_l p.d\\{)left: 205px;top: 210px;' '$1left: 195px;top: 260px;';
+  replace: '(.map_l p.e\\{.+?)top:207px;' '$1top:277px;';
+  replace: '(.map_l p.f\\{)left: 235px;top: 175px;' '$1left: 200px;top: 225px;';
+  replace: '(.map_l p.g\\{)left: 280px;top: 180px;' '$1left: 250px;top: 230px;';
+  replace: '(.map_l p.h\\{)left: 272px;top: 205px;' '$1left: 265px;top: 270px;';
+  replace: '(.map_l p.i\\{.+?)top: 145px;' '$1top: 195px;';
+  replace: '(.map_l p.j\\{.+?)top: 180px;' '$1top: 230px;';
+  replace: '(.map_l p.k\\{.+?)top: 195px;' '$1top: 245px;';
+  replace: '(.map_l p.l\\{.+?)top: 175px;' '$1top: 225px;';
+  replace: '(.map_l p.m\\{.+?)top: 210px;' '$1top: 260px;';
+  replace: '(.map_l p.n\\{)left: 98px;top: 225px;' '$1left: 95px;top: 273px;';
+  replace: '(.map_l p.o\\{)left: 162px;top: 230px;' '$1left: 175px;top: 295px; width:50px;';
+  replace: '(.map_l p.p\\{.+?)top: 235px;' '$1top: 285px;';
+  replace: '(.map_l p.q\\{)left:  80px;top: 295px;' '$1left: 60px;top: 345px;';
+  replace: '(.map_l p.r\\{.+?)top: 270px;' '$1top: 320px;';
+  replace: '(.map_l p.s\\{.+?)top: 305px;' '$1top: 355px;';
+  replace: '(.map_l p.t\\{.+?)top: 365px;' '$1top: 415px;';
+  replace: '(.map_l p.u\\{.+?)top: 275px;' '$1top: 325px;';
 }

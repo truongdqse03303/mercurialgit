@@ -1,0 +1,25 @@
+// @RULESET
+// URL ^= http://www.maach-ecute.jp/css/contents.css
+@preprocess {
+  replace: '(.map_l p.a\\{.+?)top: 120px;' '$1top: 170px;';
+  replace: '(.map_l p.b\\{.+?)top: 143px;' '$1top: 193px;';
+  replace: '(.map_l p.c\\{.+?)top:177px;' '$1top:227px;';
+  replace: '(.map_l p.d\\{.+?)top: 210px;' '$1top: 260px;';
+  replace: '(.map_l p.e\\{.+?)top:207px;' '$1top:277px;';
+  replace: '(.map_l p.f\\{.+?)top: 175px;' '$1top: 225px;';
+  replace: '(.map_l p.g\\{.+?)top: 180px;' '$1top: 230px;';
+  replace: '(.map_l p.h\\{.+?)top: 205px;' '$1top: 270px;';
+  replace: '(.map_l p.i\\{.+?)top: 145px;' '$1top: 195px;';
+  replace: '(.map_l p.j\\{.+?)top: 180px;' '$1top: 230px;';
+  replace: '(.map_l p.k\\{.+?)top: 195px;' '$1top: 245px;';
+  replace: '(.map_l p.l\\{.+?)top: 175px;' '$1top: 225px;';
+  replace: '(.map_l p.m\\{.+?)top: 210px;' '$1top: 260px;';
+  replace: '(.map_l p.n\\{.+?)top: 225px;' '$1top: 273px;';
+  replace: '(.map_l p.o\\{.+?)top: 230px;' '$1top: 295px;';
+  replace: '(.map_l p.p\\{.+?)top: 235px;' '$1top: 285px;';
+  replace: '(.map_l p.q\\{.+?)top: 295px;' '$1top: 345px;';
+  replace: '(.map_l p.r\\{.+?)top: 270px;' '$1top: 320px;';
+  replace: '(.map_l p.s\\{.+?)top: 305px;' '$1top: 355px;';
+  replace: '(.map_l p.t\\{.+?)top: 365px;' '$1top: 415px;';
+  replace: '(.map_l p.u\\{.+?)top: 275px;' '$1top: 325px;';
+}
