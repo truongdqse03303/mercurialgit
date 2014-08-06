@@ -18,4 +18,5 @@ body {
 @preprocess {
   replace: 'http://goo.gl/maps/lZeT9' 'https://www.google.co.jp/maps/place/1+Chome-25+Kanda+Sudach%C5%8D,+Chiyoda-ku,+T%C5%8Dky%C5%8D-to/@35.696733,139.771425,18z/data=!4m7!1m4!3m3!1s0x60188c02d48d40ef:0x91cc59ea7009217b!2s1+Chome-25+Kanda+Sudach%C5%8D,+Chiyoda-ku,+T%C5%8Dky%C5%8D-to!3b1!3m1!1s0x60188c02d48d40ef:0x91cc59ea7009217b?hl=zh-CN';
   replace: '/images/common/kan_of.png' '/images/common/kan_ov.png';
+  replace: '/images/common/jp_ov.png' '/images/common/jp_of.png';
 }
