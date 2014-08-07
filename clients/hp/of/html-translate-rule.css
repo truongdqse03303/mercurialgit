@@ -1,4 +1,4 @@
-div.clearfix, ul#right_navi, p#pageTop, div.rightPane, ul.language_change{
+div.clearfix, ul#right_navi, p#pageTop, div.rightPane, ul.language_change, ul.language_change2{
  attribute: cltx add 'exclude';
 }
 
