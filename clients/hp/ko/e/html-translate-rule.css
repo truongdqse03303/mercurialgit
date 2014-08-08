@@ -10,3 +10,9 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM ELEC COMPUTER";
 }
+
+// @RULESET
+// URL = http://www.core.co.jp/company/company.html
+div.column {
+  attribute: style add 'font-size: 11px;';
+}
