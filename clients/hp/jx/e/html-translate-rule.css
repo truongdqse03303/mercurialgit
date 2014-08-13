@@ -13,5 +13,5 @@
 
 @postprocess {
   replace: '<a href="/floorguide" target="_blank">' '<a href="http://canalcity.co.jp/floorguide_en.pdf" target="_blank">';
-  replace: '"http://canalcity.co.jp/floorguide/pic.pdf"' '"http://canalcity.co.jp/floorguide_en.pdf"';
+  replace: '"http://canalcity.co.jp/files/image/505/pic.pdf"' '"http://canalcity.co.jp/floorguide_en.pdf"';
 }
