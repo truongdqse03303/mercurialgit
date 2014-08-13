@@ -17,4 +17,11 @@
   replace: '/images/common/jp_ov.png' '/images/common/jp_of.png';
   replace: '/images/common/en2_of.png' '/images/common/en2_ov.png';
   replace: '/images/common/jp2_ov.png' '/images/common/jp2_of.png';
+  replace: '(<p class="date update")>(<span>UPDATE</span>)( \\d{4}\.\\d{2}\.\\d{2}</p>)' '$1 style="display: inline;">$2</p><p class="date update" style="display: inline;">$3';
+}
+
+// @RULESET
+// URL = http://www.maach-ecute.jp/access.html
+div[id="contentsWrap"] > dl.line > dd[class="body1"] > dl > dd > strong {
+  attribute: style add 'font-weight: normal; font-style: normal;';
 }
