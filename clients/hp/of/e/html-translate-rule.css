@@ -29,5 +29,5 @@ div[id="contentsWrap"] > dl.line > dd[class="body1"] > dl > dd > strong {
 // @RULESET
 // URL = http://www.maach-ecute.jp/about.html
 div[id="mainImage"] > p {
-  attribute: style add 'padding: 85px 35px 0px; line-height: 37px; letter-spacing: 0.2px; font-size: 82%; -webkit-transform: scale(0.90);';
+  attribute: style add 'padding: 85px 35px 0px; line-height: 25px; letter-spacing: 0.2px; font-size: 100%; -webkit-transform: scale(0.90);';
 }
