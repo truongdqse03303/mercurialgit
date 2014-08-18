@@ -1,3 +1,7 @@
 div#galleryContents li, div#galleryThumbnail li, div#slideshow li{
  attribute: cltx add 'exclude';
 }
+
+@postprocess {
+  replace: '(<!--cltx--><span clid="[a-z][0-9]+" id="[a-z][0-9]+">)((</span>){1,})' '$2$1';
+}
