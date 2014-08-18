@@ -25,9 +25,3 @@
 div[id="contentsWrap"] > dl.line > dd[class="body1"] > dl > dd > strong {
   attribute: style add 'font-weight: normal; font-style: normal;';
 }
-
-// @RULESET
-// URL = http://www.maach-ecute.jp/about.html
-div[id="mainImage"] > p {
-  attribute: style add 'padding: 85px 35px 0px; line-height: 22px; letter-spacing: 0.2px; font-size: 95%; -webkit-transform: scale(0.90);';
-}

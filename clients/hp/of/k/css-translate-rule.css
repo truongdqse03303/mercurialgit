@@ -1,8 +1,8 @@
 // @RULESET
 // URL ^= http://www.maach-ecute.jp/css/contents.css
 @preprocess {
-  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)letter-spacing:0.6px;\r\n\\s*padding-top: 90px;' '$1letter-spacing:0.2px;\r\n	padding: 85px 45px 0px;\r\n	 font-size: 85%;';
-  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)padding-top: 78px;\r\n\\s*line-height: 22px;\r\n\\s*font-size:88%' '$1letter-spacing:0.2px;\r\n	padding: 75px 35px 0px;\r\n	line-height: 22px;\r\n	font-size: 85%;\r\n	-webkit-transform:scale(0.88);';
+  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)letter-spacing:0.6px;(.+?)padding-top: 90px;' '$1letter-spacing:0.2px;$2padding: 85px 45px 0px;\r\n	 font-size: 85%;';
+  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)padding-top: 78px;(.+?)line-height: 22px;(.+?)font-size:88%' '$1padding: 75px 35px 0px;$2line-height: 22px;$3font-size: 85%;\r\n	-webkit-transform:scale(0.88);\r\n	 letter-spacing:0.2px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.b\\{)left: 108px;top: 237px;' '$1left: 92px;top: 237px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.c\\{)left: 249px;top: 302px;' '$1left: 233px;top: 302px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.d\\{)left: 352px;top: 367px;' '$1left: 335px;top: 367px;';
