@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM ELEC COMPUTER";
 }
 
+ul#global_nav > li {
+  attribute: style add 'line-height: 20px;';
+}
+
 // @RULESET
 // URL = http://www.core.co.jp/company/company.html
 div.column {
