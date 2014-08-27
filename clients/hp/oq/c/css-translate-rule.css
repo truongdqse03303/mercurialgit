@@ -1,0 +1,6 @@
+// @RULESET
+// URL ^= http://bsbeauty.jp/wp/wp-content/themes/biztec/css/style.css
+@preprocess {
+  replace: '(footer #storeInfoContainer\\{.+?)width:255px;' '$1width:303px;';
+  replace: '(footer\\{.+?)height:330px;' '$1height:350px;';
+}
