@@ -1,6 +1,0 @@
-// @RULESET
-// URL = http://www.ndc.ac.jp/topics/index.html
-// URL #= http://www\.ndc\.ac\.jp/\d{4}/
-div#mainContents ul li * {
-  text-flow: break;
-}
