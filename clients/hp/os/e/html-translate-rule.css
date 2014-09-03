@@ -1,0 +1,19 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET INTERNET";
+}
+@engine jr-tower/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
+}
+@engine jr-tower/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
+}
+
+@preprocess {
+  replace: "www\.apiadome\.com" "www.apiadome.com.e.ot.hp.transer.com";
+  replace: "www\.sapporo-esta\.jp" "www.sapporo-esta.jp.e.ou.hp.transer.com";
+  replace: "www\.e-paseode\.com" "www.e-paseode.com.e.ov.hp.transer.com";
+  replace: "www\.stellarplace\.net" "www.stellarplace.net.e.ow.hp.transer.com";
+}

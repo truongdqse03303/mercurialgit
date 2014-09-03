@@ -1,0 +1,23 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT";
+}
+@engine sapporo-esta/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
+}
+@engine sapporo-esta/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
+}
+
+body {
+  attribute: lang add 'zh';
+}
+
+@preprocess {
+  replace: "www\.jr-tower\.com" "www.jr-tower.com.c.os.hp.transer.com";
+  replace: "www\.apiadome\.com" "www.apiadome.com.c.ot.hp.transer.com";
+  replace: "www\.e-paseode\.com" "www.e-paseode.com.c.ov.hp.transer.com";
+  replace: "www\.stellarplace\.net" "www.stellarplace.net.c.ow.hp.transer.com";
+}

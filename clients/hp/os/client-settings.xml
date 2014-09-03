@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>札幌駅総合開発(JR TOWER)</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>jr-tower/service c9c350bd08245c936c3a54a7bcaf03e5196d3ba8</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.jr-tower.com" />
+  </request-list>
+  
+  <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://www.jr-tower.com/(?:m|card|recruit).*</url>
+  </url-list>
+  
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www.jr-tower.com/(|smp/)api/.*.php.*</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

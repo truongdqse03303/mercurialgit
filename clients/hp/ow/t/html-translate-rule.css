@@ -1,0 +1,19 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT";
+}
+@engine stellarplace/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
+}
+@engine stellarplace/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
+}
+
+@preprocess {
+  replace: "www\.jr-tower\.com" "www.jr-tower.com.t.os.hp.transer.com";
+  replace: "www\.apiadome\.com" "www.apiadome.com.t.ot.hp.transer.com";
+  replace: "www\.sapporo-esta\.jp" "www.sapporo-esta.jp.t.ou.hp.transer.com";
+  replace: "www\.e-paseode\.com" "www.e-paseode.com.t.ov.hp.transer.com";
+}

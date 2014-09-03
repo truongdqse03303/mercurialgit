@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>札幌駅総合開発(APIA)</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>apiadome/service bc2a87cd1bcdc70c593bc8c338771b53142a683a</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.apiadome.com" />
+  </request-list>
+  
+  <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://www.apiadome.com/(?:m|magazine|recruit).*</url>
+  </url-list>
+  
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www\.apiadome\.com/(|smp/)api/.*.php.*</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

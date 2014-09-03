@@ -1,0 +1,19 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine e-paseode/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine e-paseode/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+@preprocess {
+  replace: "www\.jr-tower\.com" "www.jr-tower.com.k.os.hp.transer.com";
+  replace: "www\.apiadome\.com" "www.apiadome.com.k.ot.hp.transer.com";
+  replace: "www\.sapporo-esta\.jp" "www.sapporo-esta.jp.k.ou.hp.transer.com";
+  replace: "www\.stellarplace\.net" "www.stellarplace.net.k.ow.hp.transer.com";
+}

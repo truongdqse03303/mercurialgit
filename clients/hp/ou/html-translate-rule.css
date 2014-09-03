@@ -1,0 +1,17 @@
+@preprocess {
+  replace: "\\('#event_prev_next_bt'\\)\.click\\(" "('div#content').on('click', 'p.shopListMore', ";
+  replace: "(\\('div#content'\\))(.*?)this(.*?)this(.*?)this(.*?)this(.*?)this(.*?)this(.*)(return false;)" "$1$2this.firstElementChild$3this.firstElementChild$4this.firstElementChild$5this.firstElementChild$6this.firstElementChild$7this.firstElementChild$8$9";
+  replace: "(\\('div#content'\\).*?)(post_status = \"active\";)" "$1\$(this).removeAttr('clftx');this.removeChild(this.childNodes[1]);$2";
+  replace: "(var ck_date = )(\\$\\('div\.event_month'\\)\.text\\(\\))(\\+\\$\\(this\\)\.text\\(\\)\\+\"日\");" "var calendar = { 'January': '01月', 'February': '02月', 'March': '03月', 'April': '04月', 'May': '05月', 'June': '06月', 'July': '07月', 'August': '08月', 'September': '09月', 'October': '10月', 'November': '11月', 'December': '12月' };\r\nvar spl = $2.split(', ');$1encodeURI(spl[1]+'年'+calendar[spl[0]]$3);";
+  replace: '<span( id="shop_news_dinning_place" ><img src="" alt="" width="100%" /></)span>' '<p$1p>';
+  replace: '<span( id="dinning_cafe_place" ><img src="" alt="" width="100%" /></)span>' '<p$1p>';
+  replace: '<span( class="detail_date" id="topic_top_post_date"></)span>' '<p$1p>';
+  replace: "((\\$\\('#ftrPlace p'\\))\.click\\(function\\(\\) \\{)" "$1$2.removeAttr('clftx');$2.html($2.html().replace(/<!--cltx-->/g, \"\"));";
+}
+
+div[id="visual"],
+p[class="imgView"],
+ul[id="listGallery"],
+p[id="pageTop"] {
+  attribute: cltx add 'exclude';
+}

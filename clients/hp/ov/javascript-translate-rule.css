@@ -1,0 +1,9 @@
+@preprocess {
+  replace: "(\\$\\(duplicate_row_html\\)\.appendTo\\(\\$\\('(#.*?)'\\)\\);)" "$1\$('$2 .detail_list').removeAttr('clftx');if($('$2 .detail_list').html())$('$2 .detail_list').html($('$2 .detail_list').html().replace(/<!--cltx-->/g, \"\"));";
+}
+
+// @RULESET
+// URL #=http://.*/jquery\.common\.run\.js
+@postprocess {
+  replace: "((\\$\\('#ftrPlace p'\\))\.click\\(function\\(\\) \\{)" "$1$2.removeAttr('clftx');$2.html($2.html().replace(/<!--cltx-->/g, \"\"));";
+}
