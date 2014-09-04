@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.apahotel.com" />
+    <request hostname="www.apahotel.com" path="/language/"/>
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
