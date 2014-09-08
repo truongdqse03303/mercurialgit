@@ -10,6 +10,13 @@
   <request-list>
     <request hostname="www.trc.co.jp" />
   </request-list>
+  
+  <!-- 翻訳対象外URL -->
+  <url-list type="ignore">
+    <url>http://www\.trc\.co\.jp/recruit/(kyujin/.*|recruit\.html|publiclib\.html)</url>
+    <url>http://www\.trc\.co\.jp/information/.*</url>
+    <url>http://www\.trc\.co\.jp/topics/event/.*</url>
+  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
