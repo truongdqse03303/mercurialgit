@@ -1,0 +1,12 @@
+// @RULESET
+// URL ^= http://www.listsothebysrealty.co.jp/common/css/jquery.bxslider.css
+@preprocess {
+  replace: '\.\./img/ico_osusume_prev\.gif' 'http://www.listsothebysrealty.co.jp/trans_img/en/common/img/ico_osusume_prev.gif';
+  replace: '\.\./img/ico_osusume_next\.gif' 'http://www.listsothebysrealty.co.jp/trans_img/en/common/img/ico_osusume_next.gif';
+}
+
+// @RULESET
+// URL ^= http://www.listsothebysrealty.co.jp/common/css/pc.css?v=2.1.0
+@preprocess {
+  replace: '\.\./\.\./sale/img/btn_sale_kiso01\.gif' 'http://www.listsothebysrealty.co.jp/trans_img/en/sale/img/btn_sale_kiso01.gif';
+}
