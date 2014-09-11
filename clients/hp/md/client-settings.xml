@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.daimaru.co.jp" />
-    <request hostname="dmdepart.jp" path="/sakurafair/" />
+    <request hostname="dmdepart.jp" />
   </request-list>
   
   <!-- 翻訳しないURLの一覧 -->
