@@ -11,7 +11,3 @@
   eid: CR-JE;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
-
-@preprocess {
-  replace: "'UA-27684312-1'" "'UA-48374796-7'";
-}

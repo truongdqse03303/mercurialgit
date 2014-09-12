@@ -11,12 +11,6 @@
     <request hostname="[^/]+" />
   </request-list>
   
-  <!-- HTML断片翻訳のスプリクトタグの挿入位置 -->
-  <extension-param>
-    <param-name>fragment.translate.tag.insert.position</param-name>
-    <param-value>html</param-value>
-  </extension-param>
-  
   <!-- robots.txt -->
   <resource-handler>
     <type name="robotstxt">jp.co.crosslanguage.translate.url.request.process.resource.handler.ContentRespondResourceHandler</type>
@@ -46,11 +40,6 @@
     <priority>1</priority>
     <terminal>true</terminal>
   </resource-handler>
-  
-  <extension-param>
-    <param-name>show.translate.header</param-name>
-    <param-value>body</param-value>
-  </extension-param>
   
   <!-- コンテンツキャッシュを使用するかどうかの設定 -->
   <!-- 省略可能。デフォルト値は、false -->  
