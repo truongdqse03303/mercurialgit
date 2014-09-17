@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT JICHITAI SYSDB";
+}
+@engine chigasaki/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT JICHITAI SYSDB";
+}
+@engine chigasaki/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT JICHITAI SYSDB";
+}
+
+body {
+  attribute: lang add 'zh';
+}

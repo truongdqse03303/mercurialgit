@@ -41,12 +41,6 @@
     <terminal>true</terminal>
   </resource-handler>
   
-  <!-- HTML断片翻訳のスプリクトタグの挿入しないURLパターン -->
- <extension-param>
-   <param-name>fragment.translate.tag.unset.url.pattern</param-name>
-   <param-value>.+</param-value>
- </extension-param>
-  
   <!-- コンテンツキャッシュを使用するかどうかの設定 -->
   <!-- 省略可能。デフォルト値は、false -->  
   <use-cache>false</use-cache>
