@@ -16,8 +16,12 @@ body {
 }
 
 @preprocess {
-  replace: "www\.jr-tower\.com" "www.jr-tower.com.c.os.hp.transer.com";
-  replace: "www\.sapporo-esta\.jp" "www.sapporo-esta.jp.c.ou.hp.transer.com";
-  replace: "www\.e-paseode\.com" "www.e-paseode.com.c.ov.hp.transer.com";
-  replace: "www\.stellarplace\.net" "www.stellarplace.net.c.ow.hp.transer.com";
+  replace: "www\.jr-tower\.com\"" "www.jr-tower.com.c.os.hp.transer.com\"";
+  replace: "www\.sapporo-esta\.jp\"" "www.sapporo-esta.jp.c.ou.hp.transer.com\"";
+  replace: "www\.e-paseode\.com\"" "www.e-paseode.com.c.ov.hp.transer.com\"";
+  replace: "www\.stellarplace\.net\"" "www.stellarplace.net.c.ow.hp.transer.com\"";
+  replace: "www\.jr-tower\.com/" "www.jr-tower.com.c.os.hp.transer.com/";
+  replace: "www\.sapporo-esta\.jp/" "www.sapporo-esta.jp.c.ou.hp.transer.com/";
+  replace: "www\.e-paseode\.com/" "www.e-paseode.com.c.ov.hp.transer.com/";
+  replace: "www\.stellarplace\.net/" "www.stellarplace.net.c.ow.hp.transer.com/";
 }
