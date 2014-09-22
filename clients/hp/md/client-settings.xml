@@ -15,25 +15,6 @@
   <!-- 翻訳しないURLの一覧 -->
   <url-list type="ignore">
     <url>www.daimaru.co.jp/foreign/brand/</url>
-    <url>www.daimaru.co.jp/fukuoka/</url>
-    <url>www.daimaru.co.jp/yamashina/</url>
-    <url>www.daimaru.co.jp/smp/yamashina/</url>
-    <url>www.daimaru.co.jp/suma/</url>
-    <url>www.daimaru.co.jp/smp/suma/</url>
-    <url>www.daimaru.co.jp/ashiya/</url>
-    <url>www.daimaru.co.jp/smp/ashiya/</url>
-    <url>www.daimaru.co.jp/urawa-parco/</url>
-    <url>www.daimaru.co.jp/smp/urawa-parco/</url>
-    <url>www.daimaru.co.jp/musee_air/</url>
-    <url>www.daimaru.co.jp/storeinfo/index.html</url>
-    <url>www.daimaru.co.jp/smp/storeinfo/index.html</url>
-    <url>www.daimaru.co.jp/card/index.html</url>
-    <url>www.daimaru.co.jp/smp/card/index.html</url>
-    <url>www.daimaru.co.jp/faq/index.html</url>
-    <url>www.daimaru.co.jp/smp/faq/index.html</url>
-    <url>www.daimaru.co.jp/sitemap/index.html</url>
-    <url>dmdepart.jp/siteinfo/index.html</url>
-    <url>dmdepart.jp/privacy/index.html</url>
   </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->

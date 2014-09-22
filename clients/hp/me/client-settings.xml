@@ -15,15 +15,6 @@
   <!-- 翻訳しないURLの一覧 -->
   <url-list type="ignore">
     <url>www.matsuzakaya.co.jp/foreign/brand/</url>
-    <url>www.matsuzakaya.co.jp/storeinfo/index.html</url>
-    <url>www.matsuzakaya.co.jp/smp/storeinfo/index.html</url>
-    <url>www.matsuzakaya.co.jp/card/index.html</url>
-    <url>www.matsuzakaya.co.jp/smp/card/index.html</url>
-    <url>www.matsuzakaya.co.jp/faq/index.html</url>
-    <url>www.matsuzakaya.co.jp/smp/faq/index.html</url>
-    <url>www.matsuzakaya.co.jp/sitemap/index.html</url>
-    <url>dmdepart.jp/siteinfo/index.html</url>
-    <url>dmdepart.jp/privacy/index.html</url>
   </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
