@@ -21,7 +21,7 @@
   <!-- PDF翻訳 -->
   <extension-param>
     <param-name>pdf.translate</param-name>
-    <param-value>true</param-value>
+    <param-value>false</param-value>
   </extension-param>
 
   <!-- トークンチェック(ロボット対策) -->
