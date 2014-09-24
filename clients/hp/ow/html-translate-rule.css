@@ -6,6 +6,7 @@
   replace: '<span( id="shop_news_dinning_place" ><img src="" alt="" width="100%" /></)span>' '<p$1p>';
   replace: '<span( id="dinning_cafe_place" ><img src="" alt="" width="100%" /></)span>' '<p$1p>';
   replace: '<span( class="detail_date" id="topic_top_post_date"></)span>' '<p$1p>';
+  replace: '<span( class="detail_shop" id="ranking_list_tenant_name"></)span>' '<p$1p>';
   replace: "((\\$\\('#ftrPlace p'\\))\.click\\(function\\(\\) \\{)" "$1$2.removeAttr('clftx');$2.html($2.html().replace(/<!--cltx-->/g, \"\"));";
 }
 

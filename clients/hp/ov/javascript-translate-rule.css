@@ -1,4 +1,5 @@
 @preprocess {
+  replace: "(var shop_news_html = \\$\\('#shopnews_loop_text'\\)\.html\\(\\);)" "\$('#shopnews_row').removeAttr('clftx');$1";
   replace: "(\\$\\(duplicate_row_html\\)\.appendTo\\(\\$\\('(#.*?)'\\)\\);)" "$1\$('$2 .detail_list').removeAttr('clftx');if($('$2 .detail_list').html())$('$2 .detail_list').html($('$2 .detail_list').html().replace(/<!--cltx-->/g, \"\"));";
 }
 

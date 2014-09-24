@@ -21,7 +21,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://www\.stellarplace\.net/(|smp/)api/.*.php.*</param-value>
+      <param-value>http://www\.stellarplace\.net/((|smp/)api/.*.php.*|SEventControll/.*)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
