@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.hotelkeihan.co.jp/tower/common/js/resercation.js
+@preprocess {
+  replace: '(\\$\\("\.btnSearch a"\\)\.)(click)\\((function\\(\\)\\{)' '$1live("$2" ,$3';
+}
