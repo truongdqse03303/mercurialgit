@@ -1,8 +1,6 @@
 // @RULESET
 // URL ^= http://www.maach-ecute.jp/css/contents.css
 @preprocess {
-  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)letter-spacing:0.6px;(.+?)padding-top: 90px;' '$1letter-spacing:0.2px;$2padding: 95px 50px 0px;\r\n	font-size: 80%;';
-  replace: '(#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{.+?)padding-top: 78px;(.+?)line-height: 22px;(.+?)font-size:88%' '$1padding: 85px 35px 0px;$2line-height: 22px;$3font-size: 75%;\r\n	-webkit-transform:scale(0.90);\r\n	letter-spacing:0.2px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.b\\{)left: 108px;top: 237px;' '$1left: 92px;top: 237px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.c\\{)left: 249px;top: 302px;' '$1left: 233px;top: 302px;';
   replace: '(#access #wrapper #contents #leftPane #contentsWrap .map .map_bg p.d\\{)left: 352px;top: 367px;' '$1left: 335px;top: 367px;';
@@ -74,4 +72,6 @@
   replace: '(.map_l p.s\\{.+?)top: 305px;' '$1top: 355px;';
   replace: '(.map_l p.t\\{.+?)top: 365px;' '$1top: 415px;';
   replace: '(.map_l p.u\\{.+?)top: 275px;' '$1top: 325px;';
+
+  replace: '/images/about/img1\.png' '/images/about/img1_en.png';
 }

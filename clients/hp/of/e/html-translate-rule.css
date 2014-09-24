@@ -25,3 +25,9 @@
 div[id="contentsWrap"] > dl.line > dd[class="body1"] > dl > dd > strong {
   attribute: style add 'font-weight: normal; font-style: normal;';
 }
+
+// @RULESET
+// URL = http://www.maach-ecute.jp/about.html
+@preprocess {
+  replace: '(<div id="mainImage")>(.*?)(</div>)' '$1 style="height: 415px;"><!-- crosslanguage:delete -->$2<!-- /crosslanguage:delete -->$3';
+}
