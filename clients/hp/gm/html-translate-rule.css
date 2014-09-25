@@ -1,3 +1,7 @@
+p[class="btnSearch"] {
+  attribute: cltx add 'exclude';
+}
+
 // @RULESET
 // URL #= http://www.hotelkeihan.co.jp/(index\.php.*)?
 // URL #= http://aa124c08j8.smartrelease.jp/(index\.php.*)?
