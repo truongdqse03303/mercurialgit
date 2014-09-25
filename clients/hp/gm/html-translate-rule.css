@@ -1,4 +1,4 @@
-p[class="btnSearch"] {
+p[class="btnSearch"], div[class="languagechange"] {
   attribute: cltx add 'exclude';
 }
 
