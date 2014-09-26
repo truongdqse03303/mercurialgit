@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="miguide.jp" path="/(ginza|kyoto|iwataya)/.*" />
+    <request hostname="miguide.jp" path="/(ginza|kyoto|iwataya|today)/.*" />
   </request-list>
   
   <!-- コンテンツキャッシュ使用有無の設定-->
