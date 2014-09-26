@@ -1,0 +1,5 @@
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/(shinsaibashi|umedamise|kyoto|kobe|tokyo|sapporo)/js/specialInfo\.js
+@preprocess {
+  replace: '(\\$\\("#mainContent)("\\)\.)prepend' '$1 p$2after';
+}

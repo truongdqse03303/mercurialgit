@@ -1,3 +1,15 @@
 div#galleryContents li, div#galleryThumbnail li, div#slideshow li{
  attribute: cltx add 'exclude';
 }
+
+// @RULESET
+// URL #=http://www\.matsuzakaya\.co\.jp/(|smp/)(nagoya|ueno|shizuoka|takatsuki|toyota)/(|index\.html)
+@preprocess {
+  replace: 'ブランド・ショップ検索' 'ブランド情報';
+  replace: 'ブランド検索' 'ブランド情報';
+  replace: '"http://www\.matsuzakaya\.co\.jp/nagoya/brand/index\.shtml"' '"http://www.matsuzakaya.co.jp/foreign/nagoya/brand.html"';
+  replace: '"http://www\.matsuzakaya\.co\.jp/ueno/brand/index\.shtml"' '"http://www.matsuzakaya.co.jp/foreign/ueno/brand.html"';
+  replace: '"http://www\.matsuzakaya\.co\.jp/shizuoka/brand/index\.shtml"' '"http://www.matsuzakaya.co.jp/foreign/shizuoka/brand.html"';
+  replace: '"http://www\.matsuzakaya\.co\.jp/takatsuki/brand/index\.shtml"' '"http://www.matsuzakaya.co.jp/foreign/takatsuki/brand.html"';
+  replace: '"(/(|smp/)(nagoya|ueno|shizuoka|takatsuki|toyota)/service/)index\(.html)"' '"$1gaikoku$4"';
+}

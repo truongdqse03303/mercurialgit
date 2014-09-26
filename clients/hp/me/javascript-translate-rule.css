@@ -1,0 +1,5 @@
+// @RULESET
+// URL #=http://www\.matsuzakaya\.co\.jp/(nagoya|ueno|shizuoka)/js/specialInfo\.js
+@preprocess {
+  replace: '(\\$\\("#mainContent)("\\)\.)prepend' '$1 p$2after';
+}

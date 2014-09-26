@@ -10,3 +10,99 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/shinsaibashi/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="/foreign/campaign/shinsaibashi/"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/730x349_t.jpg"></a></p>';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/umedamise/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="/foreign/campaign/umeda/"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/730x349_t.jpg"></a></p>';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/kyoto/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="/foreign/campaign/kyoto/"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/730x349_t.jpg"></a></p>';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/kobe/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="/foreign/campaign/kobe/"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/730x349_t.jpg"></a></p>';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/tokyo/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><img width="730" height="349" border="0" usemap="#mainImageLink" alt="" src="/tokyo/images/main_t.jpg"><map id="mainImageLink" name="mainImageLink"><area href="/tokyo/fl/e/best/" coords="0,0,341,348" shape="rect"><area href="http://www.daimaru.co.jp.e.md.hp.transer.com/foreign/campaign/tokyo/" coords="341,0,730,353" shape="rect"></map></p>';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/sapporo/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="/foreign/campaign/sapporo/"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/730x349_t.jpg"></a></p>';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/smp/shinsaibashi/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/smp/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/shinsaibashi/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_t.jpg"></a></p>$1';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/smp/umedamise/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/smp/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/umeda/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_t.jpg"></a></p>$1';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/smp/kyoto/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/smp/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/kyoto/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_t.jpg"></a></p>$1';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/smp/kobe/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/smp/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/kobe/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_t.jpg"></a></p>$1';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/smp/tokyo/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/smp/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/tokyo/fl/s/c/"><img width="355" alt="" src="/smp/tokyo/images/main_t.jpg"></a></p>$1';
+}
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/smp/sapporo/(|index\.html)
+@postprocess {
+  replace: '<script type="text/javascript" src="/smp/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/sapporo/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_t.jpg"></a></p>';
+}

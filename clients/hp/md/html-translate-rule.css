@@ -5,3 +5,17 @@ div#galleryContents li, div#galleryThumbnail li, div#slideshow li{
 @postprocess {
   replace: '(<!--cltx--><span clid="[a-z][0-9]+" id="[a-z][0-9]+">)((</span>){1,})' '$2$1';
 }
+
+// @RULESET
+// URL #=http://www\.daimaru\.co\.jp/(|smp/)(shinsaibashi|umedamise|kyoto|kobe|tokyo|sapporo)/(|index\.html)
+@preprocess {
+  replace: 'ブランド・ショップ検索' 'ブランド情報';
+  replace: 'ブランド検索' 'ブランド情報';
+  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=1"' '"http://www.daimaru.co.jp/foreign/shinsaibashi/brand.html"';
+  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=6"' '"http://www.daimaru.co.jp/foreign/umeda/brand.html"';
+  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=3"' '"http://www.daimaru.co.jp/foreign/kyoto/brand.html"';
+  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=4"' '"http://www.daimaru.co.jp/foreign/kobe/brand.html"';
+  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=2"' '"http://www.daimaru.co.jp/foreign/tokyo/brand.html"';
+  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=7"' '"http://www.daimaru.co.jp/foreign/sapporo/brand.html"';
+  replace: '"(/(|smp/)(shinsaibashi|umedamise|kyoto|kobe|tokyo|sapporo)/service/)index\(.html)"' '"$1gaikoku$4"';
+}
