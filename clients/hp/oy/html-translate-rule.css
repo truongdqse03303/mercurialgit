@@ -1,0 +1,8 @@
+div#feature, div#toparea, div#tp_membership, div#under-btn, div#fw_detail ul {
+  attribute: cltx add 'exclude';
+}
+
+@postprocess {
+  replace: '(It is )(<span class="fsl14">)(... power supottohe line of)(</span>)( once-in-a-lifetime chance - Suzuka in camellias so)' '$2$1$3$5$4';
+}
+

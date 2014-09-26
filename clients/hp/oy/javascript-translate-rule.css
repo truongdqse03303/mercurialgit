@@ -1,0 +1,4 @@
+@preprocess {
+  replace: '(ul id=\\\\"cal\\\\")' '$1 cltx=\\\\"exclude\\\\"';
+  replace: '(div id=\\\\"area\\\\")' '$1 cltx=\\\\"exclude\\\\"';
+}

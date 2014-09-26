@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>鈴鹿市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-suzuka/service 3149d74e6f0b839454dfc57c2cca53f4e2c56b63</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.suzuka.lg.jp" />
+    <request hostname="www.danjokyodosankaku.city.suzuka.lg.jp" />
+    <request hostname="www.edu.city.suzuka.mie.jp" path="/museum/.*" />
+    <request hostname="www.kanko.suzuka.mie.jp" />
+    <request hostname="suzuka21.com" />
+  </request-list>
+  
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>http://www.kanko.suzuka.mie.jp/kodayu/.*</url>
+  </url-list>
+  
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
