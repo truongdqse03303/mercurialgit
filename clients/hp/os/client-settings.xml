@@ -21,7 +21,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://www.jr-tower.com/(|smp/)api/.*.php.*</param-value>
+      <param-value>http://www.jr-tower.com/((|smp/)api/.*.php.*|SEventControll/t38_move_sun/getmovesun.*)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
@@ -32,4 +32,10 @@
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
+  
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;z-index:0;}</param-value>
+  </extension-param>
 </client-settings>

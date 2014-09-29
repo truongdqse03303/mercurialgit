@@ -16,3 +16,8 @@ ul[id="listGallery"],
 p[id="pageTop"] {
   attribute: cltx add 'exclude';
 }
+
+body {
+  attribute: style add 'background-position-y: 26px;';
+}
+

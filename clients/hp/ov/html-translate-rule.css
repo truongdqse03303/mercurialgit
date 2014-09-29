@@ -12,6 +12,11 @@
 div[id="visual"],
 p[class="imgView"],
 ul[id="listGallery"],
-p[id="pageTop"] {
+p[id="pageTop"],
+div[id="sideTwitter"] {
   attribute: cltx add 'exclude';
+}
+
+body {
+  attribute: style add 'background-position-y: 26px;';
 }
