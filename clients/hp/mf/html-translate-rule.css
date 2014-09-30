@@ -4,4 +4,5 @@ div[class^="__scrollable"], div#gbox {
 
 @postprocess {
   replace: '<a (.*?)href="http://www.tomorrowland.co.jp.e.mf.hp.transer.com/"(.*?)>ENGLISH</a>' '<a $1href="http://www.tomorrowland.co.jp/"$2>JAPANESE</a>';
+  replace: 'crosslanguage-translate-jaen(.*?>)ENGLISH(</a>)' 'crosslanguage-translate-org$1JAPANESE$2';
 }
