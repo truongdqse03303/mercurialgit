@@ -96,7 +96,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/tokyo/fl/s/c/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_e.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/tokyo/fl/s/c/"><img width="300" alt="" src="http://dmdepart.jp/fl/images/710x264_e.jpg"></a></p>$1';
 }
 
 // @RULESET
