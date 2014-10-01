@@ -16,7 +16,8 @@ body {
 }
 
 // @RULESET
-// URL #=http://www\.matsuzakaya\.co\.jp/nagoya/(|index\.html)
+// URL =http://www.matsuzakaya.co.jp/nagoya/
+// URL =http://www.matsuzakaya.co.jp/nagoya/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/nagoya/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -24,7 +25,8 @@ body {
 }
 
 // @RULESET
-// URL #=http://www\.matsuzakaya\.co\.jp/ueno/(|index\.html)
+// URL =http://www.matsuzakaya.co.jp/ueno/
+// URL =http://www.matsuzakaya.co.jp/ueno/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/ueno/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -32,7 +34,8 @@ body {
 }
 
 // @RULESET
-// URL #=http://www\.matsuzakaya\.co\.jp/shizuoka/(|index\.html)
+// URL =http://www.matsuzakaya.co.jp/shizuoka/
+// URL =http://www.matsuzakaya.co.jp/shizuoka/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/shizuoka/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -40,7 +43,8 @@ body {
 }
 
 // @RULESET
-// URL #=http://www\.matsuzakaya\.co\.jp/smp/nagoya/(|index\.html)
+// URL =http://www.matsuzakaya.co.jp/smp/nagoya/
+// URL =http://www.matsuzakaya.co.jp/smp/nagoya/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/nagoya/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -48,7 +52,8 @@ body {
 }
 
 // @RULESET
-// URL #=http://www\.matsuzakaya\.co\.jp/smp/ueno/(|index\.html)
+// URL =http://www.matsuzakaya.co.jp/smp/ueno/
+// URL =http://www.matsuzakaya.co.jp/smp/ueno/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/ueno/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -56,7 +61,8 @@ body {
 }
 
 // @RULESET
-// URL #=http://www\.matsuzakaya\.co\.jp/smp/shizuoka/(|index\.html)
+// URL =http://www.matsuzakaya.co.jp/smp/shizuoka/
+// URL =http://www.matsuzakaya.co.jp/smp/shizuoka/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/shizuoka/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';

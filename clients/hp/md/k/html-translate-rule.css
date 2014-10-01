@@ -12,7 +12,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/shinsaibashi/(|index\.html)
+// URL =http://www.daimaru.co.jp/shinsaibashi/
+// URL =http://www.daimaru.co.jp/shinsaibashi/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -20,7 +21,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/umedamise/(|index\.html)
+// URL =http://www.daimaru.co.jp/umedamise/
+// URL =http://www.daimaru.co.jp/umedamise/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -28,7 +30,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/kyoto/(|index\.html)
+// URL =http://www.daimaru.co.jp/kyoto/
+// URL =http://www.daimaru.co.jp/kyoto/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -36,7 +39,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/kobe/(|index\.html)
+// URL =http://www.daimaru.co.jp/kobe/
+// URL =http://www.daimaru.co.jp/kobe/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -44,7 +48,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/tokyo/(|index\.html)
+// URL =http://www.daimaru.co.jp/tokyo/
+// URL =http://www.daimaru.co.jp/tokyo/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -52,7 +57,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/sapporo/(|index\.html)
+// URL =http://www.daimaru.co.jp/sapporo/
+// URL =http://www.daimaru.co.jp/sapporo/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -60,7 +66,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/smp/shinsaibashi/(|index\.html)
+// URL =http://www.daimaru.co.jp/smp/shinsaibashi/
+// URL =http://www.daimaru.co.jp/smp/shinsaibashi/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -68,7 +75,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/smp/umedamise/(|index\.html)
+// URL =http://www.daimaru.co.jp/smp/umedamise/
+// URL =http://www.daimaru.co.jp/smp/umedamise/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -76,7 +84,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/smp/kyoto/(|index\.html)
+// URL =http://www.daimaru.co.jp/smp/kyoto/
+// URL =http://www.daimaru.co.jp/smp/kyoto/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -84,7 +93,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/smp/kobe/(|index\.html)
+// URL =http://www.daimaru.co.jp/smp/kobe/
+// URL =http://www.daimaru.co.jp/smp/kobe/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -92,7 +102,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/smp/tokyo/(|index\.html)
+// URL =http://www.daimaru.co.jp/smp/tokyo/
+// URL =http://www.daimaru.co.jp/smp/tokyo/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
@@ -100,7 +111,8 @@
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/smp/sapporo/(|index\.html)
+// URL =http://www.daimaru.co.jp/smp/sapporo/
+// URL =http://www.daimaru.co.jp/smp/sapporo/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
