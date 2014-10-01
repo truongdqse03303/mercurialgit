@@ -67,6 +67,7 @@
 
 // @RULESET
 // URL =http://dmdepart.jp/fl/
+// URL =http://dmdepart.jp/fl/smp/
 @preprocess {
   replace: "www\.daimaru\.co\.jp/" "www.daimaru.co.jp.e.md.hp.transer.com/";
 }

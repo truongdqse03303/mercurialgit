@@ -125,6 +125,7 @@ body {
 
 // @RULESET
 // URL =http://dmdepart.jp/fl/
+// URL =http://dmdepart.jp/fl/smp/
 @preprocess {
   replace: "www\.matsuzakaya\.co\.jp/" "www.matsuzakaya.co.jp.c.me.hp.transer.com/";
 }
