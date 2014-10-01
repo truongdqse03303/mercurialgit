@@ -107,3 +107,8 @@
   replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/sapporo/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_k.jpg"></a></p>$1';
 }
 
+// @RULESET
+// URL =http://dmdepart.jp/fl/
+@preprocess {
+  replace: "www\.matsuzakaya\.co\.jp/" "www.matsuzakaya.co.jp.k.me.hp.transer.com/";
+}

@@ -58,3 +58,9 @@
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
   replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/shizuoka/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_t.jpg"></a></p>$1';
 }
+
+// @RULESET
+// URL =http://dmdepart.jp/fl/
+@preprocess {
+  replace: "www\.daimaru\.co\.jp/" "www.daimaru.co.jp.t.md.hp.transer.com/";
+}
