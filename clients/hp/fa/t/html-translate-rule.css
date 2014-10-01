@@ -25,12 +25,14 @@ a[href^="http://mlttpl-mapserv.incrementp.co.jp/"] {
 
 // @RULESET
 // URL = http://www.tokyu-dept.co.jp/shinqs/foreign/index.html/
+// URL = http://www.tokyu-dept.co.jp/shinqs/foreign/
 a[href^="http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tokyu05/ja/map.php?&MAP=E139.42.25.74N35.39.21.15&CMR=tokyu05&KEY=3780cafb00ab1631c9884489813e41af3ccc9ffa&NM=%E6%B8%8B%E8%B0%B7%E3%83%92%E3%82%AB%E3%83%AA%E3%82%A8%E3%80%80ShinQs&ZM=10"] {
   attribute: href rewrite "http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tokyu05/zh1/map.php?&MAP=E139.42.25.74N35.39.21.15&CMR=tokyu05&KEY=ac3cbe9b32e63dacc80eabd97f98d3abb16d323c&NM=%E6%B6%A9%E8%B0%B7Hikarie%20ShinQs&ZM=10";
 }
 
 // @RULESET
 // URL = http://www.tokyu-dept.co.jp/sapporo/foreign/index.html/
+// URL = http://www.tokyu-dept.co.jp/sapporo/foreign/
 a[href^="http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tokyu05/ja/map.php?&MAP=E141.21.24.11N43.03.50.55&CMR=tokyu05&KEY=16268217335858371872b780a9c7c591dfd04319&NM=%E6%9D%B1%E6%80%A5%E7%99%BE%E8%B2%A8%E5%BA%97%E6%9C%AD%E5%B9%8C%E5%BA%97&ZM=10"] {
   attribute: href rewrite "http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tokyu05/zh2/map.php?&MAP=E141.21.24.11N43.03.50.55&CMR=tokyu05&KEY=c0a61c13ab95e76644c56956f89183784f3ed207&NM=%E6%9D%B1%E6%80%A5%E7%99%BE%E8%B2%A8%E5%85%AC%E5%8F%B8%E6%9C%AD%E5%B9%8C%E5%BA%97&ZM=10";
 }
