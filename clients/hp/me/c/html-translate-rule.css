@@ -48,7 +48,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/nagoya/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/nagoya/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/nagoya/"><img width="300" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -57,7 +57,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/ueno/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/ueno/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/ueno/"><img width="300" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -66,7 +66,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/shizuoka/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/shizuoka/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/shizuoka/"><img width="300" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
 }
 
 // @RULESET

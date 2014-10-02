@@ -75,7 +75,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/shinsaibashi/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/shinsaibashi/"><img width="300" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -84,7 +84,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/umeda/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/umeda/"><img width="300" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -93,7 +93,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/kyoto/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/kyoto/"><img width="300" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -102,7 +102,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/kobe/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/kobe/"><img width="300" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -120,7 +120,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/sapporo/"><img width="355" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/foreign/campaign/s/sapporo/"><img width="300" alt="" src="http://dmdepart.jp/fl/images/710x264_c.jpg"></a></p>$1';
 }
 
 // @RULESET
