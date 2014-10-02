@@ -29,6 +29,12 @@
   <url-list type="ignore-fragment">
     <url>.+</url>
   </url-list>
+  
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <charset>Shift_JIS</charset>
