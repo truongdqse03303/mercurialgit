@@ -16,6 +16,9 @@
     <param-name>fragment.translate.tag.insert.position</param-name>
     <param-value>html</param-value>
   </extension-param>
+  
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
