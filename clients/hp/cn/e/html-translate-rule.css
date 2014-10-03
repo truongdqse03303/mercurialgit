@@ -24,3 +24,10 @@
 a[href] {
   attribute: href rewrite @RewriteInquiry;
 }
+
+// @RULESET
+// URL = http://www.musashi-engineering.co.jp/products/098_3-1-1-12.html
+@postprocess {
+  replace: 'Exclusive software "M<sup>uC</sup>OM(.)808"' 'Exclusive software "MuCOM<sup>$1</sup>808"';
+  replace: 'exclusive softwar<sup>e </sup>"MuCOM(.)808"' 'Exclusive software "MuCOM<sup>$1</sup>808"';
+}
