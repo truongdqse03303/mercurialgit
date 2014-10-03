@@ -25,9 +25,9 @@ a[href] {
   attribute: href rewrite @RewriteInquiry;
 }
 
-// @RULESET
-// URL = http://www.musashi-engineering.co.jp/products/098_3-1-1-12.html
 @postprocess {
   replace: 'Exclusive software "M<sup>uC</sup>OM(.)808"' 'Exclusive software "MuCOM<sup>$1</sup>808"';
   replace: 'exclusive softwar<sup>e </sup>"MuCOM(.)808"' 'Exclusive software "MuCOM<sup>$1</sup>808"';
+  replace: 'Outstanding co<b><span style="color:#FF0000">ntinuous discharge stabil</span></b>ity.' 'Outstanding <b><span style="color:#FF0000">continuous discharge stability</span></b>.';
+  replace: 'It is "centrally managed"<b><span style="color:#FF0000"> from an exte</span></b>rior device.' 'It is "<b><span style="color:#FF0000">centrally managed</span></b>" from an exterior device.';
 }
