@@ -18,9 +18,3 @@
   replace: '/images/common/han2_of.png' '/images/common/han2_ov.png';
   replace: '/images/common/jp2_ov.png' '/images/common/jp2_of.png';
 }
-
-// @RULESET
-// URL = http://www.maach-ecute.jp/about.html
-@preprocess {
-  replace: '(<div id="mainImage")>(.*?)(</div>)' '$1 style="height: 415px;"><!-- crosslanguage:delete -->$2<!-- /crosslanguage:delete -->$3';
-}

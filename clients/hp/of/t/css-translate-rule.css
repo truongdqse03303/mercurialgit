@@ -24,4 +24,7 @@
   replace: '(.map_l p.u\\{.+?)top: 275px;' '$1top: 325px;';
 
   replace: '/images/about/img1\.png' '/images/about/img1_han.png';
+  replace: '(@media screen and \\(min-width: 769px\\) \\{.*?#about #wrapper #contents #leftPane #contentsWrap #mainImage \\{)(.*?#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{)' '$1height: 415px;$2display: none;';
+  replace: '(@media screen and \\(max-width: 768px\\) \\{.*?#about #wrapper #contents #leftPane #contentsWrap #mainImage \\{)(.*?#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{)' '$1height: 415px;$2display: none;';
+  replace: '(@media screen and \\(max-width: 481px\\) \\{.*?#about #wrapper #contents #leftPane #contentsWrap #mainImage \\{)(.*?#about #wrapper #contents #leftPane #contentsWrap #mainImage p\\{)' '$1height: auto;$2display: block;';
 }
