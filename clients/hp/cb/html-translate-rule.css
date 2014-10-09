@@ -6,3 +6,7 @@ ul[id="menu"] {
 form[action="http://www.google.co.jp/search"] > input[type="hidden"][name#="[io]e"] {
   attribute: value set 'UTF-8';
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+}
