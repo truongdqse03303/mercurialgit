@@ -49,3 +49,9 @@ a[href] {
   replace: 'Using its original jet mechanism, it ca<span style="color:#FF0000"><b>n dispense material on the nano- lev</b></span>el.' 'Using its original jet mechanism, <span style="color:#FF0000"><b>it can dispense material on the nano- level.</b></span>';
   replace: '<span style="color:#FF0000"><b>The durability is 4 times that of conventional mo</b></span>dels.' '<span style="color:#FF0000"><b>The durability is 4 times that of conventional models.</b></span>';
 }
+
+// @RULESET
+// URL = http://www.musashi-engineering.co.jp/products/099_3-1-1-1.html
+@postprocess {
+  replace: '<h3><!--cltx-->Σ\'s three greatest functions improve discharge accuracy and solves liquid waste</h3>' '<h3 style="background: url(\'/english/common/img/bg_h_level3_2.jpg\') 0px 50%;" cltx><!--cltx-->Σ\'s three greatest functions improve discharge accuracy and solves </br>liquid waste</h3>';
+}
