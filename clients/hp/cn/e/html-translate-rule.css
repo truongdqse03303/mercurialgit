@@ -53,5 +53,5 @@ a[href] {
 // @RULESET
 // URL = http://www.musashi-engineering.co.jp/products/099_3-1-1-1.html
 @postprocess {
-  //replace: '<h3><!--cltx-->Σ\'s three greatest functions improve discharge accuracy and solves liquid waste</h3>' '<h3 style="background: url(\'/english/common/img/bg_h_level3_2.jpg\') 0px 50%;" cltx><!--cltx-->Σ\'s three greatest functions improve discharge accuracy and solves </br>liquid waste</h3>';
+  replace: '<h3><!--cltx-->Σ\'s three greatest functions improve discharge accuracy and solves liquid waste</h3>' '<h3 style="background: url(\'/english/common/img/bg_h_level3_2.jpg\') 0px 50%;" cltx><!--cltx-->Σ\'s three greatest functions improve discharge accuracy and solves </br>liquid waste</h3>';
 }
