@@ -1,0 +1,5 @@
+ul.topUL li.info01 *,
+a[href='http://www.city.takarazuka.hyogo.jp/?PTN=LV3&LV2=10&LV3=53&LV4=5&regid=509'],
+a[href='http://www.city.takarazuka.hyogo.jp/?PTN=LV3&LV2=10&LV3=53&LV4=5&regid=4190'] {
+  text-flow: break;
+}
