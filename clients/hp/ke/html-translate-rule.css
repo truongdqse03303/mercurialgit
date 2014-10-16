@@ -3,13 +3,14 @@ form[action="http://www.google.co.jp/search"] input[name="ie"] {
 }
 
 // @RULESET
+// URL = http://www.city.shinagawa.tokyo.jp/sample/01.htm
+span {
+  text-flow: break;
+}
+
+// @RULESET
 // URL #= http://www.city.shinagawa.tokyo.jp/(index\.html.*)?
 @preprocess {
   replace: "(function PhotoChange\\(no\\)\\{).+?\\}" "$1var p=document.getElementById('newsRead').parentNode;if(p){document.getElementById('newsPhoto_path').href=photo_data[no][0];document.getElementById('newsPhoto').src=photo_data[no][0];document.getElementById('newsPhoto').alt=photo_data[no][1];p.innerHTML='';var t1=document.createElement('p');var t2=document.createElement('span');t2.id='newsDate';t2.innerHTML=hp_data[no][0];t1.appendChild(t2);p.appendChild(t1);t1=document.createElement('p');t2=document.createElement('a');t2.id='newsTitle';t2.href=hp_data[no][1];t2.innerHTML=hp_data[no][2];t1.appendChild(t2);p.appendChild(t1);t1=document.createElement('p');t1.id='newsRead';t1.innerHTML=hp_data[no][3];p.appendChild(t1);}}";
 }
 
-// @RULESET
-// URL = http://www.city.shinagawa.tokyo.jp/sample/01.htm
-span {
-  text-flow: break;
-}
