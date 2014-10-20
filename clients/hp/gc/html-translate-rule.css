@@ -13,5 +13,5 @@ div#cal1Container {
 }
 
 @postprocess {
-  replace: '<a href="http://www\.aeonmall\.co\.jp/shop/default\.aspx\\?bannerid=ml03_YLbPqZPy".*?(<img.*?/>).*?</a>' '$1';
+  replace: '<a href="http://www\.aeonmall\.co\.jp/shop/default\.aspx\\?bannerid=.*?(<img.*?/>).*?</a>' '$1';
 }
