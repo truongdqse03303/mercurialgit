@@ -7,7 +7,6 @@ a[href$="/floorguide/"] {
   attribute: href rewrite "http://miyazaki-aeonmall.com/floorguide/";
 }
 
-div#corporatelogo ul.symbolmarks li a {
-  attribute: href set 'javascript:void(0)';
-  attribute: target delete;
+@postprocess {
+  replace: '<a href="http://www\.aeonmall\.co\.jp/shop/default\.aspx\\?bannerid=ml03_YLbPqZPy".*?(<img.*?/>).*?</a>' '$1';
 }

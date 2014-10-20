@@ -11,7 +11,6 @@ form[action="http://www.google.co.jp/search"] > input[type="hidden"][name#="[io]
   replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
 
-div#corporatelogo ul.symbolmarks li a {
-  attribute: href set 'javascript:void(0)';
-  attribute: target delete;
+@postprocess {
+  replace: '<a href="http://www\.aeonmall\.co\.jp/shop/default\.aspx\\?bannerid=ml03_YLbPqZPy".*?(<img.*?/>).*?</a>' '$1';
 }
