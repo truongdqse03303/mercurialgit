@@ -6,3 +6,8 @@ form[action="http://www.google.co.jp/search"] input[type="hidden"][name#="[io]e"
 a[href$="/floorguide/"] {
   attribute: href rewrite "http://miyazaki-aeonmall.com/floorguide/";
 }
+
+div#corporatelogo ul.symbolmarks li a {
+  attribute: href set 'javascript:void(0)';
+  attribute: target delete;
+}

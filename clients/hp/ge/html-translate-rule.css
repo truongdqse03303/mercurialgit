@@ -7,3 +7,8 @@ form[action="http://www.google.co.jp/search"] input[type="hidden"][name#="[io]e"
 div#translation ul, div#cal1Container * {
     attribute: cltx add 'exclude';
 }
+
+div#corporatelogo ul.symbolmarks li a {
+  attribute: href set 'javascript:void(0)';
+  attribute: target delete;
+}

@@ -10,3 +10,8 @@ form[action="http://www.google.co.jp/search"] > input[type="hidden"][name#="[io]
 @preprocess {
   replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
+
+div#corporatelogo ul.symbolmarks li a {
+  attribute: href set 'javascript:void(0)';
+  attribute: target delete;
+}
