@@ -1,0 +1,3 @@
+.cartinfo span, .price > span {
+  text-flow: break;
+}
