@@ -12,6 +12,11 @@
     <request hostname="210.237.184.56" />
   </request-list>
   
+  <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://www\.city\.omuta\.lg\.jp/EmbedMap/GetGeomData\.aspx</url>
+  </url-list>
+  
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 
