@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.kojima.net" />
+    <request hostname="shopinfo.kojima.net" />
   </request-list>
   
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
