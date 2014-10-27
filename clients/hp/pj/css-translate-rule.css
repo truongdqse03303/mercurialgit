@@ -6,3 +6,9 @@
   replace: "(\.pages #global_section.*?top:) 92px;" "$1 112px;";
   replace: "(\.pages \.top_images.*?margin-top:) 140px;" "$1 160px;";
 }
+
+// @RULESET
+// URL =http://kigyouhoumu-soleil.jp/wp-content/themes/original/style.css
+@preprocess {
+  replace: "(\.header\\{)" "header > p{margin: 0 !important;border: 1px dotted #FF0000;background-color: #FFFFFF}$1";
+}

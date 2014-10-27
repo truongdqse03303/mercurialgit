@@ -9,3 +9,9 @@
 #header > .inner {
   attribute: style add 'margin-top: 20px;';
 }
+
+// @RULESET
+// URL #=http://kigyouhoumu-soleil\.jp/.*
+@preprocess {
+  replace: '(<div class="header">)' "<header></header>$1";
+}
