@@ -1,0 +1,11 @@
+#black-studio-tinymce-3 li {
+  attribute: style add 'height: auto;';
+}
+
+#header {
+  attribute: style add 'height: 110px;';
+}
+
+#header > .inner {
+  attribute: style add 'margin-top: 20px;';
+}

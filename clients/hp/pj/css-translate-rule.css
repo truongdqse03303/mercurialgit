@@ -1,0 +1,8 @@
+// @RULESET
+// URL =http://maru-soleil.jp/wp-content/themes/soleil/css/common.css?date=20140121
+@preprocess {
+  replace: "(#header h1 a img:hover)" "#header > p{top: 0px; width: 100%; margin-top: 0px; position: absolute;border: 1px dotted #FF0000;background-color: #FFFFFF}$1";
+  replace: "(\.top \.top_images.*?) 92px(.*?) 547px" "$1 112px$2 567px";
+  replace: "(\.pages #global_section.*?top:) 92px;" "$1 112px;";
+  replace: "(\.pages \.top_images.*?margin-top:) 140px;" "$1 160px;";
+}

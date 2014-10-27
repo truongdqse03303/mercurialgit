@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM SYSTEM LAW BUSINESS ACCOUNT INTERNET";
+}
+@engine maru-soleil/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER SYSTEM LAW BUSINESS ACCOUNT";
+}
+@engine maru-soleil/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM LAW BUSINESS ACCOUNT";
+}
