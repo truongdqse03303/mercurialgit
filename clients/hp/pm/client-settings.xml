@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ステーションビルMIDORI</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>eki-midori/service 9cf7cae0416231f7d5d7cb22121932552d2ee75d</licence>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.eki-midori.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
