@@ -12,5 +12,5 @@ form[action="http://www.google.co.jp/search"] > input[type="hidden"][name#="[io]
 }
 
 @postprocess {
-  replace: '<a href="http://www\.aeonmall\.co\.jp/shop/default\.aspx\\?bannerid=.*?(<img.*?/>).*?</a>' '$1';
+  replace: '<a href="http://www\.aeonmall\.co\.jp/" target="_blank">.*?(<img.*?/>).*?</a>' '$1';
 }

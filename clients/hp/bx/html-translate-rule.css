@@ -3,6 +3,14 @@ ul[id="menu"] {
   attribute: cltx add 'exclude';
 }
 
+@preprocess {
+  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+}
+
+@postprocess {
+  replace: '<a href="http://www\.aeonmall\.co\.jp/" target="_blank">.*?(<img.*?/>).*?</a>' '$1';
+}
+
 // @RULESET
 // URL #= http://rinkusennan-aeonmall.com/.*
 #cal1container {
@@ -11,8 +19,4 @@ ul[id="menu"] {
 
 form > input[type="hidden"][name="ie"] {
   attribute: value set 'utf-8';
-}
-
-@postprocess {
-  replace: '<a href="http://www\.aeonmall\.co\.jp/shop/default\.aspx\\?bannerid=.*?(<img.*?/>).*?</a>' '$1';
 }
