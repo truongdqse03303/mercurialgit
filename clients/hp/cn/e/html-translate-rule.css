@@ -48,6 +48,11 @@ a[href] {
   replace: '<span style="color:#FF0000"><b>It can shoot liquids of medium and high viscosity at high spee</b></span>ds.' '<span style="color:#FF0000"><b>It can shoot liquids of medium and high viscosity at high speeds.</b></span>';
   replace: 'Using its original jet mechanism, it ca<span style="color:#FF0000"><b>n dispense material on the nano- lev</b></span>el.' 'Using its original jet mechanism, <span style="color:#FF0000"><b>it can dispense material on the nano- level.</b></span>';
   replace: '<span style="color:#FF0000"><b>The durability is 4 times that of conventional mo</b></span>dels.' '<span style="color:#FF0000"><b>The durability is 4 times that of conventional models.</b></span>';
+  replace: 'MuCAD(.)<sup>I</sup>V' 'MuCAD<sup>$1</sup>IV';
+  replace: 'You can make dispens<span style="color:#FF0000"><b>ing programs by controlling dispensing lines and </b></span>dispensing dots on the CAD screen through mouse controls.' 'You can make dispensing programs <span style="color:#FF0000"><b>by controlling dispensing lines and dispensing dots on the CAD screen</b></span> through mouse controls.';
+  replace: 'Includes a 3D display confirmation function for visually confirming <b><span style="color:#FF0000">the completed</span></b> dispensing program.' 'Includes a <b><span style="color:#FF0000">3D display</span></b> confirmation function for visually confirming the completed dispensing program.';
+  replace: '<span style="color:#FF0000"><b>Can load and edit DFX and Gerber dat</b></span>a.' '<span style="color:#FF0000"><b>Can load and edit DFX and Gerber data.</b></span>';
+  replace: '<span style="color:#FF0000"><b>Includes a wafer mapping fun</span></b>ction.' 'Includes a <span style="color:#FF0000"><b>wafer mapping function</span></b>.';
 }
 
 // @RULESET
