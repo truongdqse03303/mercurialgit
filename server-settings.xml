@@ -39,11 +39,11 @@
     <setting-id>tm-*,img</setting-id>
     <extension-param>
       <param-name>img.include.script.url</param-name>
-      <param-value>http://hpmanage.transer.com/edit/site_imgchg/</param-value>
+      <param-value>http://hpmanage.transer.com/edit/site_imgchg</param-value>
     </extension-param>
     <extension-param>
       <param-name>tm-*.include.script.url</param-name>
-      <param-value>http://hpmanage.transer.com/edit/site_dic/</param-value>
+      <param-value>http://hpmanage.transer.com/edit/site_dic</param-value>
     </extension-param>
     <extension-param>
       <param-name>tm-*|img.cross.licence</param-name>
