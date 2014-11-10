@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://trusty.jp/partners/common/base.css
+@preprocess {
+  replace: "(body \\{.*?)\\}" "$1 background-position-y: 29px;}";
+}
