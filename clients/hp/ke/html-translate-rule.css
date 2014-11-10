@@ -3,7 +3,7 @@ form[action="http://www.google.co.jp/search"] input[name="ie"] {
 }
 
 @preprocess {
-  replace: '(<span class="day">.*?</span>)' '<p style="display: inline;">$1</p>';
+  replace: '(<span class="day">.*?</span>)' '$1\t';
   replace: '(<span class="date">\\d{4}年(\\d{1}|\\d{2})月(\\d{1}|\\d{2})日</span>)' '<p style="display: inline;">$1</p>';
 }
 
