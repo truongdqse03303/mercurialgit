@@ -2,10 +2,8 @@ form[action="http://www.google.co.jp/search"] input[name="ie"] {
   attribute: value set 'UTF-8';
 }
 
-// @RULESET
-// URL = http://www.city.shinagawa.tokyo.jp/sample/01.htm
-span {
-  text-flow: break;
+@preprocess {
+  replace: '(<span class="date">\\d{4}年(\\d{1}|\\d{2})月(\\d{1}|\\d{2})日</span>)' '<p style="display: inline;">$1</p>';
 }
 
 // @RULESET
