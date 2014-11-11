@@ -3,3 +3,9 @@
 @preprocess {
   replace: '(\\$\\("#mainContent)("\\)\.)prepend' '$1 p$2after';
 }
+
+// @RULESET
+// URL =http://dmdepart.jp/camicissima/common/js/config.js
+@preprocess {
+  replace: "'UA-19142011-1'" "'UA-56621341-1'";
+}

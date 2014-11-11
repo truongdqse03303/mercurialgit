@@ -2,6 +2,11 @@ div#galleryContents li, div#galleryThumbnail li, div#slideshow li{
  attribute: cltx add 'exclude';
 }
 
+@postprocess {
+  replace: '"UA-1216099-16"' '"UA-56621341-1"';
+  replace: "'UA-19142011-1'" "'UA-56621341-1'";
+}
+
 // @RULESET
 // URL #=http://www\.matsuzakaya\.co\.jp/(|smp/)(nagoya|ueno|shizuoka|takatsuki|toyota)/(|index\.html)
 @preprocess {
