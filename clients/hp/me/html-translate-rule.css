@@ -3,7 +3,7 @@ div#galleryContents li, div#galleryThumbnail li, div#slideshow li{
 }
 
 @preprocess {
-  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+  replace:'<!-- crosslanguage:show.*?/crosslanguage:show -->' '<p class="mt10"><a href="http://nijajani.com/" target="_blank"><img src="/common/images/store/com_nav_bn02.jpg" alt="" width="209" height="50" /></a></p><p class="mt10"><a href="http://weibo.cn/qr/userinfo?uid=5200185773" target="_blank"><img src="/common/images/store/com_nav_bn03.jpg" alt="" width="209" height="50" /></a></p><p class="mt10"><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/common/images/store/com_nav_bn04.jpg" alt="" width="209" height="50" /></a></p><p class="mt10"><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/common/images/store/com_nav_bn05.jpg" alt="" width="209" height="50" /></a></p>';
 }
 
 @postprocess {
@@ -21,7 +21,7 @@ div#galleryContents li, div#galleryThumbnail li, div#slideshow li{
   replace: '"http://www\.matsuzakaya\.co\.jp/shizuoka/brand/index\.shtml"' '"http://www.matsuzakaya.co.jp/foreign/shizuoka/brand.html"';
   replace: '"http://www\.matsuzakaya\.co\.jp/takatsuki/brand/index\.shtml"' '"http://www.matsuzakaya.co.jp/foreign/takatsuki/brand.html"';
   replace: '"(/(|smp/)takatsuki/service/)index\(.html)"' '"$1gaikoku$4"';
-  replace: '(<ul class="btnLink01">.*?</ul>)' '$1<div class="officialAccount"><ul><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" width="104" alt=""></a></li><li class="socialPlugin noBorder"><ul><li><a href="http://m.weibo.cn/u/5200185773" target="_blank"><img src="/smp/common/images/com_ic23.png" width="31" alt="weibo"></a></li><li><a href="http://www.wechat.com/mobile/ja/" target="_blank"><img src="/smp/common/images/com_ic24.png" width="31" alt="WeChat"></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic25.png" width="31" alt="Facebook"></a></li></ul></li></ul></div>';
+  replace: '(<ul class="btnLink01">.*?</ul>)' '$1<div class="officialAccount"><ul><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" width="104" alt=""></a></li><li class="socialPlugin noBorder"><ul><li><a href="http://weibo.cn/qr/userinfo?uid=5200185773" target="_blank"><img src="/smp/common/images/com_ic26.png" width="31" alt="weibo"></a></li><li><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/smp/common/images/com_ic27.png" width="31" alt="WeChat"></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic28.png" width="31" alt="Facebook"></a></li></ul></li></ul></div>';
 }
 
 // @RULESET
@@ -34,6 +34,6 @@ div#galleryContents li, div#galleryThumbnail li, div#slideshow li{
   replace: '"http://www\.matsuzakaya\.co\.jp/shizuoka/brand/index\.shtml"' '"http://www.matsuzakaya.co.jp/foreign/shizuoka/brand.html"';
   replace: '"http://www\.matsuzakaya\.co\.jp/takatsuki/brand/index\.shtml"' '"http://www.matsuzakaya.co.jp/foreign/takatsuki/brand.html"';
   replace: '"(/(|smp/)(nagoya|ueno|shizuoka|toyota)/service/)index\(.html)"' '"$1gaikoku$4"';
-  replace: '<div class="officialAccount">.*?</div>' '<div class="officialAccount"><ul><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" width="104" alt=""></a></li><li class="socialPlugin noBorder"><ul><li><a href="http://m.weibo.cn/u/5200185773" target="_blank"><img src="/smp/common/images/com_ic23.png" width="31" alt="weibo"></a></li><li><a href="http://www.wechat.com/mobile/ja/" target="_blank"><img src="/smp/common/images/com_ic24.png" width="31" alt="WeChat"></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic25.png" width="31" alt="Facebook"></a></li></ul></li></ul></div>';
+  replace: '<div class="officialAccount">.*?</div>' '<div class="officialAccount"><ul><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" width="104" alt=""></a></li><li class="socialPlugin noBorder"><ul><li><a href="http://weibo.cn/qr/userinfo?uid=5200185773" target="_blank"><img src="/smp/common/images/com_ic26.png" width="31" alt="weibo"></a></li><li><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/smp/common/images/com_ic27.png" width="31" alt="WeChat"></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic28.png" width="31" alt="Facebook"></a></li></ul></li></ul></div>';
 }
 
