@@ -1,6 +1,6 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET INTERNET";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET";
 }
 @engine heartcore_demo/main {
   eid: CR-JE;
