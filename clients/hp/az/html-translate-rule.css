@@ -5,5 +5,5 @@ form[action="http://search-sitenaviplus.fresheye.com/"] input[type="hidden"][nam
 
 @preprocess {
   replace: '(img_map(b2|b1|1|2|3|4|5|6|7|8)f)(\.jpg)' '$1_e$3';
-  replace: 'img_map7rf(\.jpg)' 'img_map7f_e$3';
+  replace: 'img_map7rf(\.jpg)' 'img_map7f_e$1';
 }
