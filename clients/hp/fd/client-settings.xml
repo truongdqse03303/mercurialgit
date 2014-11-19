@@ -11,13 +11,6 @@
     <request hostname="www.bs11.jp" />
   </request-list>
 
-  <!-- 翻訳対象外URL -->
-  <url-list type="ignore">
-    <url>http://www\.bs11\.jp/news/.*</url>
-    <url>http://www\.bs11\.jp/anime/.*</url>
-    <url>http://www\.bs11\.jp/cgi-bin/bs11/bs11_message\.cgi</url>
-  </url-list>
-
   <url-list type="ignore-fragment">
     <url>.+</url>
   </url-list>

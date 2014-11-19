@@ -22,13 +22,6 @@
     </request>
   </request-list>
 
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.mitsukoshi\.co\.jp/store/1010/fcs/.*</url>
-    <url>http://www\.mitsukoshi\.co\.jp/store/1010/mailmagazine/index\.html</url>
-    <url>http://www\.mitsukoshi\.co\.jp/store/1010/(?:fashion|mensfashion|baby|living|food)/.*</url>
-  </url-list>
-
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 

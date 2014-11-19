@@ -11,8 +11,4 @@
     <request hostname="www.city.fukuyama.hiroshima.jp" />
   </request-list>
 
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.city\.fukuyama\.hiroshima\.jp/shiminsoudan/(?:english|china|korean|portuguese)/</url>
-  </url-list>
 </client-settings>

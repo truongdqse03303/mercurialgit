@@ -10,13 +10,6 @@
   <request-list>
     <request hostname="www.musashi-engineering.co.jp" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.musashi-engineering\.co\.jp/recruit/.*</url>
-	<url>http://www\.musashi-engineering\.co\.jp/special/automotive_2013\.html.*</url>
-	<url>http://www\.musashi-engineering\.co\.jp/gaihi/.*</url>
-  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

@@ -22,11 +22,6 @@
       </path-list>
     </request>
   </request-list>
-
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>.*/n/staff/subimage_list\?.+</url>
-  </url-list>
   
   <!-- shop3.genesis-ec.com内ページのURLエンコーディングの設定 -->
   <resource-handler>

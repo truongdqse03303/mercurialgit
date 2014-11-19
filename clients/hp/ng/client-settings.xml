@@ -11,11 +11,6 @@
     <request hostname="funtrip-japan.com" />
   </request-list>
   
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://funtrip-japan.com/uanage/.*</url>
-  </url-list>
-  
   <!-- 免責事項をフッターに表示 -->
   <extension-param>
     <param-name>show.translate.header</param-name>

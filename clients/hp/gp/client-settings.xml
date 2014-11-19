@@ -11,13 +11,6 @@
     <request hostname="www.hitocom.co.jp" />
   </request-list>
 
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.hitocom\.co\.jp/recruit/.*</url>
-    <url>http://www\.hitocom\.co\.jp/cn/.*</url>
-    <url>http://www\.hitocom\.co\.jp/ir/.*</url>
-  </url-list>
-
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 

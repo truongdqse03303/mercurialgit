@@ -11,11 +11,6 @@
     <request hostname="www.stellarplace.net" />
   </request-list>
   
-  <!-- 翻訳対象外 -->
-  <url-list type="ignore">
-    <url>http://www.stellarplace.net/(?:m|mail_magazine|recruit).*</url>
-  </url-list>
-  
   <!-- URLとリソース種類のマッピングの設定 -->
   <resource-handler>
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>

@@ -12,11 +12,6 @@
     <request hostname="otaru.gr.jp" />
   </request-list>
 
-  <!-- 翻訳対象外のURL -->
-  <url-list type="ignore">
-    <url>http://www\.city\.otaru\.lg\.jp/multilingual\.html.*</url>
-  </url-list>
-
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>
 </client-settings>

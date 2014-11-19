@@ -11,13 +11,6 @@
     <request hostname="www.city.mitaka.tokyo.jp" />
   </request-list>
   
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www.city.mitaka.tokyo.jp/foreign/english/index.html</url>
-    <url>http://www.city.mitaka.tokyo.jp/foreign/korean/index.html</url>
-    <url>http://www.city.mitaka.tokyo.jp/foreign/chinese/index.html</url>
-  </url-list>
-  
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 

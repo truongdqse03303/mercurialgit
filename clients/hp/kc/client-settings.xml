@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="harajuku.press.jpn.com" />
   </request-list>
-  
-  <!-- 翻訳対象外 -->
-  <url-list type="ignore">
-    <url>http://harajuku\.press\.jpn\.com/(?:sp/)?translate/.*</url>
-  </url-list>
 
   <!-- 免責事項をフッターに表示 -->
   <extension-param>

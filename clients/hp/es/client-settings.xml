@@ -13,11 +13,6 @@
     <request hostname="www.kankou-matsue.jp" />
   </request-list>
 
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.city\.matsue\.shimane\.jp/banner/.+</url>
-  </url-list>
-
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>
 </client-settings>

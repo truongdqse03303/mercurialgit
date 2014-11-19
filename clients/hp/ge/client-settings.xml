@@ -24,11 +24,6 @@
     <priority>4</priority>
   </resource-handler>
   
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://fukuoka-aeonmall.com/floorguide/</url>
-  </url-list>
-  
   <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
     <param-name>site.translate.header.style</param-name>

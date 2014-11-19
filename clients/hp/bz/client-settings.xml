@@ -10,13 +10,7 @@
   <request-list>
     <request hostname="www.suzutec.co.jp" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.suzutec\.co\.jp/contact/.*</url>
-    <url>http://www\.suzutec\.co\.jp/recruit/.*</url>
-  </url-list>
-  
+
   <!-- サイトで使用される文字セット -->
   <charset>utf-8</charset>
 </client-settings>

@@ -11,12 +11,6 @@
     <request hostname="www.jrhakatacity.com" />
   </request-list>
 
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.jrhakatacity\.com/translation/$</url>
-    <url>http://www\.jrhakatacity\.com/shop/beautyandyouth/blog/images/.+\.BMP</url>
-  </url-list>
-
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 

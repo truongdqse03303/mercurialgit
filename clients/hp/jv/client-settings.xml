@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="www.town.minamiizu.shizuoka.jp" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.town\.minamiizu\.shizuoka\.jp/docs/2013031200026/</url>
-  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>

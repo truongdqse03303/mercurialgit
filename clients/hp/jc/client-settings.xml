@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="www.city.nagasaki.lg.jp" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.city\.nagasaki\.lg\.jp/(?:peace|endou)/</url>
-  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>

@@ -11,12 +11,6 @@
     <request hostname="shibuyakukanko.jp" />
   </request-list>
 
-  
-  <!-- キャッシュされないPDFをダウンロードしない -->
-  <url-list type="ignore">
-    <url>.+/_images/mappdf/.+\.pdf</url>
-  </url-list>
-
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 </client-settings>

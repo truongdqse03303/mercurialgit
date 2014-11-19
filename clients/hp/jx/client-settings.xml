@@ -32,11 +32,6 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.MobileURLCheckResourceHandler</type>
   </resource-handler>
   
-  <!-- 翻訳対象外のURL -->
-  <url-list type="ignore">
-    <url>http://canalcity\.co\.jp/static/detail/visitors_(en|c|t|k)</url>
-  </url-list>
-
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>

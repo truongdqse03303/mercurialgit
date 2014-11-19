@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="www.maach-ecute.jp" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www.maach-ecute.jp/compliance.html</url>
-  </url-list>
 
   <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>

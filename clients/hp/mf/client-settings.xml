@@ -11,13 +11,6 @@
     <request hostname="www.tomorrowland.co.jp" />
   </request-list>
 
-  <!-- 翻訳対象外URL -->
-  <url-list type="ignore">
-    <url>http://www\.tomorrowland\.co\.jp/catalogue/.*</url>
-    <url>http://www\.tomorrowland\.co\.jp/recruit/.*</url>
-    <url>http://www\.tomorrowland\.co\.jp/jamesperse/.*</url>
-  </url-list>
-
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 

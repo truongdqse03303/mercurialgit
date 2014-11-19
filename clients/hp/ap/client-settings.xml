@@ -10,10 +10,5 @@
   <request-list>
     <request hostname="www.city.setouchi.lg.jp" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.city\.setouchi\.lg\.jp/i/.*</url>
-    <url>http://www\.city\.setouchi\.lg\.jp/(~osa-token/)?english/.*</url>
-  </url-list>
+
 </client-settings>

@@ -11,11 +11,6 @@
     <request hostname="ocw.cc.sophia.ac.jp" />
   </request-list>
 
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://ocw\.cc\.sophia\.ac\.jp/translation/?</url>
-  </url-list>
-
   <!-- クライアントより指定のヘッダーを送信 -->
   <resource-handler>
     <type name="xtranslation">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>

@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="info.keionet.com" path="/$|/index.html|/shinjuku/" />
   </request-list>
-
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://info\.keionet\.com/shinjuku/foreign/(?:index|ch_k|ch_h|kor)\.html</url>
-  </url-list>
   
   <!-- サイトで使用される文字セット -->
   <charset>utf-8</charset>

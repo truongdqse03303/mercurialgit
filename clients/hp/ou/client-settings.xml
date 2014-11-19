@@ -11,11 +11,6 @@
     <request hostname="www.sapporo-esta.jp" />
   </request-list>
   
-  <!-- 翻訳対象外 -->
-  <url-list type="ignore">
-    <url>http://www.sapporo-esta.jp/(?:m|recruit).*</url>
-  </url-list>
-  
   <!-- URLとリソース種類のマッピングの設定 -->
   <resource-handler>
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>

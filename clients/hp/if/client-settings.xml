@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="miyazaki-aeonmall.com" />
   </request-list>
-
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://miyazaki-aeonmall\.com/floorguide/</url>
-  </url-list>
   
   <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>

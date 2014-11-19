@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="www.kurabo.co.jp" path="/el/|/img/" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.kurabo\.co\.jp/el/world/</url>
-  </url-list>
 
   <!-- URLとリソース種類のマッピングの設定 -->
   <resource-handler>

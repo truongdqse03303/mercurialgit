@@ -11,11 +11,6 @@
     <request hostname="kanko-chiyoda.jp" />
     <request hostname="www.kanko-chiyoda.jp" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://(?:www\.)?kanko-chiyoda\.jp/tabid/(?:2491|2508|2515|2498)/Default\.aspx</url>
-  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>

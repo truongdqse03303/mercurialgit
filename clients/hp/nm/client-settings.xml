@@ -10,12 +10,6 @@
   <request-list>
     <request hostname="www.listsothebysrealty.co.jp" />
   </request-list>
-  
-  <!-- 翻訳対象外のURL -->
-  <url-list type="ignore">
-    <url>http://www\.listsothebysrealty\.co\.jp/rent/.*</url>
-    <url>http://www\.listsothebysrealty\.co\.jp/build/.*</url>
-  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="sumida-brand.jp" />
   </request-list>
-  
-  <!-- 翻訳対象外のURL -->
-  <url-list type="ignore">
-    <url>http://sumida-brand\.jp/catalog/brand2010/index\.html.*</url>
-  </url-list>
 
   <!-- HTML断片翻訳対象外のURL -->
   <url-list type="ignore-fragment">

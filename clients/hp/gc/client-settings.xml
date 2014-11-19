@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="laketownkaze-aeonmall.com" />
   </request-list>
-  
-  <url-list type="ignore">
-    <url>laketownkaze-aeonmall.com/flier/.+</url>
-    <url>http://laketownkaze-aeonmall.com/floorguide/</url>
-  </url-list>
  
  <resource-handler>
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>

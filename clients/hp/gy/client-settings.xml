@@ -11,12 +11,6 @@
     <request hostname="www.aichi-med-u.ac.jp" />
   </request-list>
 
-  <!-- 翻訳対象外URL -->
-  <url-list type="ignore">
-    <url>http://www\.aichi-med-u\.ac\.jp/su10/su100[12]/(?:index\.html)?(?:\?.*)?</url>
-    <url>http://www\.aichi-med-u\.ac\.jp/english/.*</url>
-  </url-list>
-
   <!-- HTML断片翻訳対象外のURL -->
   <url-list type="ignore-fragment">
     <url>.+</url>

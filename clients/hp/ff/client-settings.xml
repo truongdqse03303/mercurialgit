@@ -11,11 +11,6 @@
     <request hostname="www.kuraka.co.jp" path="/sanki/" />
   </request-list>
 
-  <!-- キャッシュされないPDFをダウンロードしない -->
-  <url-list type="ignore">
-    <url>.+/.+\.pdf</url>
-  </url-list>
-
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 

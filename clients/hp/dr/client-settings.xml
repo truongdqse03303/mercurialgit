@@ -11,11 +11,6 @@
     <request hostname="www.aisen.co.jp" />
   </request-list>
   
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.aisen\.co\.jp/ebook/.+</url>
-  </url-list>
-  
   <!-- HTML断片翻訳を行わないURLの一覧 -->
   <url-list type="ignore-fragment">
     <url>http://www\.aisen\.co\.jp/products/.+</url>

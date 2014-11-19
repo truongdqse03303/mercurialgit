@@ -10,12 +10,6 @@
   <request-list>
     <request hostname="www.city.nagahama.shiga.jp" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>www\.city\.nagahama\.shiga\.jp/index\.cfm/10[\054].*</url>
-    <url>www\.city\.nagahama\.shiga\.jp/section/nagahama_corpora/.*</url>
-  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

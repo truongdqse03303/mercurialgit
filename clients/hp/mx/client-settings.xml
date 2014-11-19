@@ -14,11 +14,6 @@
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
   
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://laketown-outlet.jp/floorguide/</url>
-  </url-list>
-  
   <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
     <param-name>site.translate.header.style</param-name>

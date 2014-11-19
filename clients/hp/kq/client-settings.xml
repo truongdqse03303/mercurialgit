@@ -12,28 +12,6 @@
     <request hostname="www.i.iwataya-mitsukoshi.co.jp" />
     <request hostname="www.m.iwataya-mitsukoshi.co.jp" />
   </request-list>
-  
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.iwataya-mitsukoshi\.co\.jp/netmember/.*</url>
-    <url>http://www\.iwataya-mitsukoshi\.co\.jp/service/micard/.*</url>
-    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/net/.*</url>
-    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/netmember/.*</url>
-    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/real/floor/.*</url>
-    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/service/mibridal/.*</url>
-    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/member/.*</url>
-    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/service/micard/index.html</url>
-    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/service/az/index.html</url>
-    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/service/riyou/mikids.html</url>
-    <url>http://www\.i\.iwataya-mitsukoshi\.co\.jp/mobile/index.html</url>
-    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/net/.*</url>
-    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/netmember/.*</url>
-    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/service/micard/.*</url>
-    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/member/.*</url>
-    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/service/mibridal/index.html</url>
-    <url>http://www\.m\.iwataya-mitsukoshi\.co\.jp/service/riyou/mikids.html</url>
-    <url>http://www\.([im]\.)?iwataya-mitsukoshi\.co\.jp/int/.*</url>
-  </url-list>
 
   <!-- 特定ページのURLエンコーディングの設定 -->
   <resource-handler>

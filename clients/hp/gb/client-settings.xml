@@ -10,11 +10,6 @@
   <request-list>
     <request hostname="www.kousei-grp.co.jp" />
   </request-list>
-  
-  <!-- 翻訳対象外URL -->
-  <url-list type="ignore">
-    <url>http://www\.kousei-grp\.co\.jp/toiawase/?</url>
-  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

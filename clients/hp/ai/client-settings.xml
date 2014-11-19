@@ -11,11 +11,6 @@
     <request hostname="osaka.wjr-isetan.co.jp" />
   </request-list>
 
-  <!-- 翻訳対象外 -->
-  <url-list type="ignore">
-    <url>http://osaka\.wjr-isetan\.co.jp/translation/(?:index|s_chinese|t_chinese|hangul)\.html</url>
-  </url-list>
-
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
   

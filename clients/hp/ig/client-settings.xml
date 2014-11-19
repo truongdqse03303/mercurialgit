@@ -14,13 +14,6 @@
     <request hostname="gkanri.city.toki.lg.jp" />
   </request-list>
   
-  <!-- 翻訳しないURLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.city\.toki\.lg\.jp/(?:discuss|d1w_reiki|wcore/public_comment)/.*</url>
-    <url>http://www\.city\.toki\.lg\.jp/wcore/hp/page000006900/hpg000006893\.htm</url>
-    <url>http://gkanri\.city\.toki\.lg\.jp/FreeFileWeb/filedownload\.asp.*</url>
-  </url-list>
-  
   <!-- 検索フォームの文字エンコード -->
   <resource-handler>
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
