@@ -10,3 +10,11 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+.znews {
+  attribute: style add 'right: 164px';
+}
+
+footer > div > nav > div.matsumoto {
+  attribute: style add 'width: auto;';
+}

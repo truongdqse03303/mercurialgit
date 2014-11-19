@@ -1,0 +1,7 @@
+.twitterbox {
+  attribute: cltx add 'exclude';
+}
+
+@preprocess {
+  replace: '(<span>Midori</span>)' '$1\t';
+}
