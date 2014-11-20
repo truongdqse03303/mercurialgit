@@ -17,11 +17,6 @@
    <param-value>false</param-value>
   </extension-param>
   
-  <!-- 翻訳対象外URLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.jr-takashimaya\.co\.jp/(digital_catalog|gate)/.*</url>
-  </url-list>
-
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
