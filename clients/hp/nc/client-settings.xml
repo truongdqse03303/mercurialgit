@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="www.chuo-kanko.or.jp" />
     <request hostname="tokuhain.chuo-kanko.or.jp" />
+    <request hostname="chuo-kanko.or.jp" />
   </request-list>
   
   <!-- HTML断片翻訳を行わないURLの一覧 -->
