@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://toba.izumigo.co.jp/common/css/top.css
+@preprocess {
+  replace: "(#contents #search li)" "#site-translate-message {line-height: normal;}\n$1";
+}
