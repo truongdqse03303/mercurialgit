@@ -11,10 +11,10 @@
     <request hostname="[^/]+" />
   </request-list>
   
-  <!-- HTML断片翻訳のスプリクトタグの挿入位置 -->
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
   <extension-param>
-    <param-name>fragment.translate.tag.insert.position</param-name>
-    <param-value>html</param-value>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
   </extension-param>
   
   <!-- コンテンツキャッシュ使用有無の設定-->
