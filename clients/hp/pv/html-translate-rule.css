@@ -1,0 +1,13 @@
+// @RULESET
+// URL = http://www.city.toda.saitama.jp/
+// URL = http://www.city.toda.saitama.jp/index.html
+@preprocess {
+  replace: '<!\-\- whatsnew \-\->' '<!-- whatsnew --><!--';
+  replace: '<!\-\- whatsnew\\(e\\) \-\->' '--><!-- whatsnew(e) --><iframe src="http://www.city.toda.saitama.jp/temp/pcswhatsnew.html" name="pcswhatsnew" frameborder="1" scrolling="auto" width="530" height="400"> </iframe>';
+}
+
+// @RULESET
+// URL = http://www.city.toda.saitama.jp/temp/pcswhatsnew.html
+@postprocess {
+  replace: 'target="_self"' 'target="_top"';
+}
