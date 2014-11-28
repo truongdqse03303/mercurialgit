@@ -9,6 +9,8 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.toda.saitama.jp" />
+    <request hostname="www.toda-c.ed.jp" />
+    <request hostname="www2.city.toda.saitama.jp" />
   </request-list>
   
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
