@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>阿蘇温泉協会</name>
+  <name>阿蘇温泉観光旅館協同組合</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
   <licence>aso-onsen/service b77bbeef5c3374693bad9d1d3f594bd54cfecd8c</licence>
