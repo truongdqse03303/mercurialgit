@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT";
+}
+@engine asocity-kanko/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
+}
+@engine asocity-kanko/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
+}
+
+@postprocess {
+  replace: "(onsen\.aso\.ne\.jp)" "$1.t.py.hp.transer.com";
+}

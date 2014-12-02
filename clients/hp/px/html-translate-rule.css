@@ -1,0 +1,7 @@
+@preprocess {
+  replace: '(<a href="javascript:void\\(0\\)" onclick="getAttrName\\(this\\)">.*?</a></span>)' '$1\t';
+}
+
+ul.items {
+  attribute: cltx add 'include';
+} 

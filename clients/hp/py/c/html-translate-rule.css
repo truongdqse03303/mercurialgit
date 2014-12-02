@@ -1,0 +1,20 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT";
+}
+@engine aso-onsen/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
+}
+@engine aso-onsen/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
+}
+
+body {
+  attribute: lang add 'zh';
+}
+
+@postprocess {
+  replace: "(www\.asocity-kanko\.jp)" "$1.c.px.hp.transer.com";
+}
