@@ -11,3 +11,8 @@
   eid: CR-JE;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
+
+@postprocess {
+  replace: 'UA-29028432-1' 'UA-48374796-10';
+  replace: "('_setDomainName', )'tomorrowland.co.jp'" "$1'www.tomorrowland.co.jp.e.bb.hp.transer.com'";
+}
