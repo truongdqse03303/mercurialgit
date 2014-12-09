@@ -20,6 +20,6 @@
   <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{z-index:100000;}</param-value>
+    <param-value>style:#site-translate-header-wrapper{z-index:100000; width:auto !important;}</param-value>
   </extension-param>
 </client-settings>
