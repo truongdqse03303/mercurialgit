@@ -58,6 +58,38 @@
       <param-value>classpath:/script/rule/img</param-value>
     </extension-param>
   </application>
+  <application>
+    <id>hpcn</id>
+    <domain>hpcn.transer-cn.com</domain>
+    <extension-param>
+      <param-name>ts.client.id</param-name>
+      <param-value>@homepage</param-value>
+    </extension-param>
+    <!-- ルールキャッシュ -->
+    <extension-param>
+      <param-name>translate.rulesheet.cache</param-name>
+      <param-value>700</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>replace.rule.cache</param-name>
+      <param-value>100</param-value>
+    </extension-param>
+    <!-- PDF内画像の保存先 -->
+    <extension-param>
+      <param-name>pdf.image.store</param-name>
+      <param-value>210.158.217.82:11211</param-value>
+    </extension-param>
+    <!-- PDF変換の最大ページ数 -->
+    <extension-param>
+      <param-name>pdf.output.pages</param-name>
+      <param-value>-10</param-value>
+    </extension-param>
+    <!-- 改善訳報告メール送信サーバー -->
+    <extension-param>
+      <param-name>mail.host</param-name>
+      <param-value>mail1.crosslanguage.co.jp</param-value>
+    </extension-param>
+  </application>
   
   <!-- default translation server -->
   <translation-server>
