@@ -31,7 +31,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://sapporo-chikagai\.sc-concierge\.jp/.*</param-value>
+      <param-value>http://(www\.sapporo-chikagai\.jp|sapporo-chikagai\.sc-concierge\.jp)/.*</param-value>
     </param>
   </resource-handler>
 
