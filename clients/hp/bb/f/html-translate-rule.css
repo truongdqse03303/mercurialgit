@@ -1,3 +1,7 @@
 @engine default {
   eid: BR-JA.FR.EN;
 }
+@engine cross/test {
+  eid: BR-JA.FR.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}

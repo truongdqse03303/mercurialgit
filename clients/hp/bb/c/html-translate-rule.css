@@ -6,6 +6,10 @@
   eid: CR-JC;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
+@engine cross/test {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
 
 body {
   attribute: lang add 'zh';
