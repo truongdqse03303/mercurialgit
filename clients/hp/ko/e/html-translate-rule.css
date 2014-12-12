@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM ELEC COMPUTER";
 }
 
+@postprocess {
+  replace: '(In the times of rapid changes, the Core Group suggests new values and leads the innovation of all )<br />' '$1';
+}
+
 ul#global_nav > li {
   attribute: style add 'line-height: 20px;';
 }
