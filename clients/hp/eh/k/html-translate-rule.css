@@ -3,10 +3,10 @@
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
 }
 @engine tobu-dept/main {
-  eid: CR-JE;
+  eid: CR-JK;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
 @engine tobu-dept/cross {
-  eid: CR-JE;
+  eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
