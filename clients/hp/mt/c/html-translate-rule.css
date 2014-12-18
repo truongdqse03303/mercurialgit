@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+  replace: 'ＰＤＦ，:，' 'ＰＤＦ:';
+}
