@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.takashimaya.co.jp" path="/((tokyo|shinjuku|yokohama|osaka|kyoto)/(store_information/(topics|event)|clearance)|sp)/.*" />
+    <request hostname="www.takashimaya.co.jp" path="/(((tokyo|shinjuku|yokohama|osaka|kyoto)/(store_information/(topics|event)|clearance)|sp)/.*|shinjuku/event/(cosme|accessory_press)\.html)" />
   </request-list>
   
   <!-- HTML断片翻訳のスプリクトタグの挿入位置 -->
