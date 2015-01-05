@@ -1,7 +1,12 @@
 // @RULESET
 // URL =http://ieyasu400.shizuoka.jp/wp-content/themes/ieyasu400/style_screen.css
-// URL =http://ieyasu400.shizuoka.jp/wp-content/themes/ieyasu400/style_mobile.css
 @preprocess {
   replace: "(\.subMenu.*?)top: 0;" "$1top: 28px;";
+}
+
+// @RULESET
+// URL =http://ieyasu400.shizuoka.jp/wp-content/themes/ieyasu400/style_mobile.css
+@preprocess {
   replace: "(\.site-header.*?)top: 0;" "$1top: 27px;";
 }
+
