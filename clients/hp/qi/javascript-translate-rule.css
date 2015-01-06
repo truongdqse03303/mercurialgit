@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.shinkibus.com/js/searchline.js
+@preprocess {
+  replace: '(var startdd = \\$\\("#S_DD"\\).val\\(\\))' '$1.slice(0, -2)';
+}
