@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<client-settings>
-  <url-list type="ignore">
-    
-  <url id="1" type="regex">www\.shinkibus\.com/(disney|kani|fujikyu|nabana|nagashima|usj|bus_hotel|bustabi|yutori|jyunrei|hiking|hime-trip|kidzania|kazenokami_hanahime|kaigai|himecen|fujitozan)/.*</url><url id="2" type="exact">^http://www\.shinkibus\.com/robin/summer2014/index\.html$</url></url-list>
-</client-settings>
