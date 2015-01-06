@@ -1,3 +1,7 @@
+@preprocess {
+  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+}
+
 h2, h2 > div.titleleft {
   content: translate split both "｜";
 }
