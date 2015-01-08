@@ -8,7 +8,15 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.takashimaya.co.jp" path="/(((tokyo|shinjuku|yokohama|osaka|kyoto)/(store_information/(topics|event)|clearance|event3)|sp|(tokyo|shinjuku|osaka|kyoto)/event2)/.*|shinjuku/event/(cosme|accessory_press)\.html)" />
+    <request hostname="www.takashimaya.co.jp" />
+      <path-list resource="false">
+        <path value="/((tokyo|shinjuku|yokohama|osaka|kyoto)/(store_information/(topics|event)|clearance)|sp)/.*" />
+        <path value="/shinjuku/event/(cosme|accessory_press)\.html" />
+        <path value="/(tokyo|shinjuku|osaka|kyoto)/event2/.*" />
+        <path value="/(tokyo|shinjuku|yokohama|osaka|kyoto)/event3/.*" />
+        <path value="/(tokyo|shinjuku|osaka|kyoto)/store_information/event2/.*" />
+        <path value="/(tokyo|shinjuku|yokohama|osaka|kyoto)/store_information/event3/.*" />
+      </path-list>
   </request-list>
   
   <!-- HTML断片翻訳のスプリクトタグの挿入位置 -->
