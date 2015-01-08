@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.izukyu.co.jp/javascript/mm_menu.js
+@preprocess {
+  replace: '(<span id="menuContainer")(></span>)' '$1 cltx="include"$2';
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>伊豆急行株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>izukyu/service e90a165bb322620f0f45d04afc5e71cfebcb04c0</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.izukyu.co.jp" />
+  </request-list>
+  
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+  <charset url="http://www.izukyu.co.jp/guide/guide1.html">Shift_JIS</charset>
+</client-settings>
