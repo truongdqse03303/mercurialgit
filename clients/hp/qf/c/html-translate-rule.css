@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@preprocess {
+  replace: 'common/m-(home|news|floorguide|pointcard|parking|access)-ov.gif' 'common/_zh/m-$1-ov.gif';
+}

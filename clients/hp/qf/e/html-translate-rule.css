@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET TOURISM";
 }
+
+@preprocess {
+  replace: 'common/m-(home|news|floorguide|pointcard|parking|access)-ov.gif' 'common/_en/m-$1-ov.gif';
+}

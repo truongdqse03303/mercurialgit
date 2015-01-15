@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
+
+@preprocess {
+  replace: 'common/m-(home|news|floorguide|pointcard|parking|access)-ov.gif' 'common/_zht/m-$1-ov.gif';
+}

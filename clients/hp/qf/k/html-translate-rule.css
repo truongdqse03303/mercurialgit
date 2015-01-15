@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess {
+  replace: 'common/m-(home|news|floorguide|pointcard|parking|access)-ov.gif' 'common/_ko/m-$1-ov.gif';
+}
