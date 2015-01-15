@@ -1,0 +1,26 @@
+// @RULESET
+// URL =http://navi.city.chichibu.lg.jp/wp/wp-content/plugins/event-organiser/js/fullcalendar.min.js?ver=2.10.0
+@preprocess {
+  replace: 'l.(click)\\((function.*?)(mousedown)\\((function.*?)(\.appendTo\\(e\\))' 'l$5, e.on("$1", ".fc-button-" + g, $2on("$3", ".fc-button-" + g, $4';
+  replace: '(n\.find\\("h2"\\))' '$1.removeAttr("clftx")';
+  replace: '(e=d\.url)' 'host=window.location.host.replace(/navi\\\\.city\\\\.chichibu\\\\.lg\\\\.jp|www\\\\.city\\\\.chichibu\\\\.lg\\\\.jp/, ""), $1.replace(/(navi\\\\.city\\\\.chichibu\\\\.lg\\\\.jp|www\\\\.city\\\\.chichibu\\\\.lg\\\\.jp)/, "\\$1"+host)';
+}
+
+// @RULESET
+// URL =http://navi.city.chichibu.lg.jp/wp/wp-content/plugins/event-organiser/js/qtip2.js?ver=2.10.0
+@preprocess {
+  replace: '("alert")' '$1, cltx: "include"';
+}
+
+// @RULESET
+// URL =http://navi.city.chichibu.lg.jp/wp/wp-content/plugins/event-organiser/js/frontend.min.js?ver=2.10.0
+@preprocess {
+  replace: 'a\\(("\.eo-cal-filter")\\)\.(change)\\((function)' 'a(".fc-header-right").on("$2", $1, $3';
+}
+
+// @RULESET
+// URL =http://www.chichibuakiyabank.com/js/rss.js
+@postprocess {
+  replace: '(http://www\.chichibuakiyabank\.com)\.e\.qg\.hp\.local\.crosslanguage\.co\.jp(/public/\\?feed=rss2&post_type=cpt_ivent)' '$1$2';
+}
+

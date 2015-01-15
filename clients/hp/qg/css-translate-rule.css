@@ -1,0 +1,11 @@
+// @RULESET
+// URL =http://www.chichibu-hsp.org/wp/wp-content/themes/cik/css/common.css
+@preprocess {
+  replace: '(url\\(\.\./images/common/bg\.gif\\) #ffffff repeat-x top;)' '$1 background-position-y: 30px;';
+}
+
+// @RULESET
+// URL =http://www.chichibu.ne.jp/~ssinrinp/container_1A_2c_top.css
+@preprocess {
+  replace: '(bg_1A_01_0.\.png.*?top left;)' '$1 background-position-y: 26px;';
+}

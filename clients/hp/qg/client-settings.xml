@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>秩父市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>saitama-chichibu/service 62de496aebd2bb2553467ef945c5a9b40bbe2fee</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.chichibu.lg.jp" />
+    <request hostname="navi.city.chichibu.lg.jp" />
+    <request hostname="www.chichibu-geo.com" />
+    <request hostname="www.chichibuakiyabank.com" />
+    <request hostname="www.chichibu-hsp.org" />
+    <request hostname="morinokatsujin.com" />
+    <request hostname="www.scinex.co.jp" path="/wagamachi/loco/11207/dl_pc\.html" />
+    <request hostname="www.c-koyo.com" />
+    <request hostname="yakatu.shopro.co.jp" />
+    <request hostname="www.chichibu.ne.jp" path="/~(ssinrinp|jibasan/bunka-s|kousha|cfd)/.*" />
+    <request hostname="www.fukushi-saitama.or.jp" path="/site/.*" />
+    <request hostname="www.chichibu-cci.or.jp" />
+    <request hostname="www.sjc.ne.jp" path="/chichibu/.*" />
+    <request hostname="www.cknk.jp" />
+    <request hostname="www.yadonet-chichibu.jp" />
+    <request hostname="www.chichibu.co.jp" path="/~wado/.*" />
+    <request hostname="www.mokurikaku.com" />
+    <request hostname="chichibu-ishikai.jp" />
+    <request hostname="chichibu118.fc2web.com" />
+    <request hostname="www.jiba.or.jp" path="/chichibu/.*" />
+    <request hostname="www.c-kouiki.jp" />
+    <request hostname="chichibu-jc.com" />
+    <request hostname="www.chichibuji.gr.jp" />
+    <request hostname="www.fruits.ne.jp" path="/~karisaka/.*" />
+    <request hostname="www.police.pref.saitama.lg.jp" path="/kenke/kesatsusho/chichibu/.*" />
+  </request-list>
+  
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://navi\.city\.chichibu\.lg\.jp/wp/.+\.php.+</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+  
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+  </extension-param>
+  
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

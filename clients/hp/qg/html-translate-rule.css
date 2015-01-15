@@ -1,0 +1,44 @@
+// @RULESET
+// URL #= http://navi.city.chichibu.lg.jp/.*
+.eo-fullcalendar, .qtip {
+  attribute: cltx add 'include';
+}
+
+@preprocess {
+  replace: '(http:././navi\.city\.chichibu\.lg\.jp)(.)/' '$1.e.qg.hp.transer.com$2/';
+  replace: "(<option value='http://navi\.city\.chichibu\.lg\.jp)/" "$1.e.qg.hp.transer.com/";
+}
+
+// @RULESET
+// URL #= http://www.c-koyo.com/.*
+#ai1ec-container {
+  attribute: cltx add 'include';
+}
+
+a {
+  attribute: data-href rewrite "@RewriteHtmlUrlAttribute";
+}
+
+// @RULESET
+// URL #= http://www.chichibu-cci.or.jp/.*
+#container {
+  attribute: cltx add 'include';
+}
+
+// @RULESET
+// URL #= http://www.cknk.jp/.*
+.mapArea {
+  attribute: cltx add 'include';
+}
+
+// @RULESET
+// URL #= http://chichibu-jc.com/.*
+span[class="sync form5 "] {
+  attribute: cltx add 'include';
+}
+
+// @RULESET
+// URL #= http://www.chichibuji.gr.jp/.*
+.textwidget {
+  attribute: cltx add 'include';
+}
