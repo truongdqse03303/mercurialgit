@@ -10,3 +10,9 @@
   eid: BR-JA.ES.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+// @RULESET
+// URL #= http://www.city.chichibu.lg.jp/.*
+@preprocess {
+  replace: 'secure/10868/bnr_cvg\.gif' 'http://chichibuLB-98700442.ap-northeast-1.elb.amazonaws.com/Images/translation/bnr_en_cvg.gif';
+}
