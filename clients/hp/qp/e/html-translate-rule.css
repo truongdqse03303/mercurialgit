@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT TOURISM SYSTEM LAW INTERNET";
+}
+@engine pref-kumamoto/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT TOURISM SYSTEM LAW";
+}
+@engine pref-kumamoto/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM SYSTEM LAW";
+}
