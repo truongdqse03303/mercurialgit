@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.westin-osaka.co.jp/css/font-awesome.min.css
+:css {
+  attribute: url rewrite "@RewriteRegisteredDomainOfAbsurl";
+}
