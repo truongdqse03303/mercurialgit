@@ -21,3 +21,9 @@ div#image-navigation-text {
   replace: "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com\.k\.mb\.hp\.transer\.com/'\"" "<input type=\"button\" class=\"cl-norewrite\" value=\"日本語\" cltx=\"exclude\" onclick=\"location\.href='http://www\.jiyugaoka-abc\.com/'\"";
   
 }
+
+// @RULESET
+// URL #= http://www\.jiyugaoka-abc\.com/mobile/.*
+img[src],input[type#="image"][src] {
+  attribute: * rewrite "@RewriteRegisteredDomainOfAbsurl";
+}
