@@ -11,6 +11,23 @@
     <request hostname="www.jiyugaoka-abc.com" />
   </request-list>
   
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic bWppeXU6emNwa3Nr</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://www\.jiyugaoka-abc\.com/mobile/.*</param-value>
+    </param>
+  </resource-handler>
+  
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 
