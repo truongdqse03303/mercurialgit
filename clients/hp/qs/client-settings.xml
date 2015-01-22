@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>公益財団法人　日本棋院</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nihonkiin/service 6969afafb00760e036da43fadeaf3bf979aae002</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.nihonkiin.or.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
