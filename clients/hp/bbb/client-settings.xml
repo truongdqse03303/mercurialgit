@@ -20,9 +20,6 @@
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
   
-  <!-- 使用する設定IDの一覧 -->
-  <setting-id replace="true">ru</setting-id>
-  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
