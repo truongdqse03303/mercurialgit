@@ -131,8 +131,8 @@
 a[href^="http://www.daimaru.co.jp/fukuoka/company/hakata.html"] {
   attribute: href rewrite "http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/korea/index.html";
 }
-a[href^="http://www.daimaru.co.jp/fukuoka/hdm/store_info/"] {
-  attribute: href rewrite "http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/korea/entertainment/index.html";
+@preprocess {
+  replace: 'a href="http://www\.daimaru\.co\.jp/fukuoka/hdm/store_info/"' 'a href="http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/korea/entertainment/index.html"';
 }
 a[href^="http://wakaba.coara.or.jp/cg25000/floorguide/index.php?type=search"] {
   attribute: href rewrite "http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/korea/recommend/index.html";
