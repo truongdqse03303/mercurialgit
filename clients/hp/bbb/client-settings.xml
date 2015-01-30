@@ -20,6 +20,17 @@
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
   
+  <!-- PDF翻訳 -->
+  <extension-param>
+    <param-name>pdf.translate</param-name>
+    <param-value>true</param-value>
+  </extension-param>
+  <!-- トークンチェック(ロボット対策) -->
+  <extension-param>
+    <param-name>token.check.resource</param-name>
+    <param-value>pdf</param-value>
+  </extension-param>
   <!-- サイトで使用される文字セット -->
-  <!--charset>UTF-8</charset-->
+  <charset>UTF-8</charset>
+  <charset url=".+\.pdf">UTF-8</charset>
 </client-settings>
