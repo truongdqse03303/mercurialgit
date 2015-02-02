@@ -8,6 +8,7 @@ div#galleryContents li, div#galleryThumbnail li, div#slideshow li{
 
 @postprocess {
   replace: "'UA-19142011-2'" "'UA-56621341-1'";
+  replace: "'UA-19142011-1'" "'UA-56621341-1'";
   replace: '(<!--cltx--><span clid="[a-z][0-9]+" id="[a-z][0-9]+">)((</span>){1,})' '$2$1';
 }
 
