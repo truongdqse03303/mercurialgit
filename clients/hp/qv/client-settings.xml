@@ -12,6 +12,9 @@
     <request hostname="test2015web.city.shizuoka.jp" />
   </request-list>
   
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+  
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
   <extension-param>
    <param-name>default.fragment.translate</param-name>
