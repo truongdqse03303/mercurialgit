@@ -1,5 +1,6 @@
 @postprocess {
   replace: "'UA-19142011-1'" "'UA-56621341-1'";
+  replace: "'UA-19142011-2'" "'UA-56621341-1'";
 }
 
 // @RULESET
