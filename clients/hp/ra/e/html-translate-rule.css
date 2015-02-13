@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM HOBBY FASHION ENTER INTERNET";
+}
+@engine incubenews/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER HOBBY FASHION ENTER";
+}
+@engine incubenews/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER HOBBY FASHION ENTER";
+}
