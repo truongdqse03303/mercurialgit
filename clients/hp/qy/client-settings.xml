@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>高知県観光コンベンション</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>attaka/service 3882fcbd78dd355773e8293def37a606bbd37073</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.attaka.or.jp" />
+    <request hostname="www.kochi-fc.jp" />
+    <request hostname="kochi-toubu.jp" />
+    <request hostname="www.chisanchisho.pref.kochi.lg.jp" />
+    <request hostname="www.kochi-marugoto.pref.kochi.lg.jp" />
+  </request-list>
+  
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
