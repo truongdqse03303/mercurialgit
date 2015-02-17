@@ -132,12 +132,11 @@ body {
 
 // @RULESET
 // URL =http://dmdepart.jp/flnews/
-a[href] {
-  attribute: href rewrite "@RewriteLinks";
+a[href="http://www.matsuzakaya.co.jp/ueno/"] {
+  attribute: href rewrite "http://www.matsuzakaya.co.jp.c.me.hp.transer.com/ueno/";
 }
-@urlmap RewriteLinks {
-  "http://www.matsuzakaya.co.jp/ueno/" : "http://www.matsuzakaya.co.jp.c.me.hp.transer.com/ueno/";
-  "http://www.matsuzakaya.co.jp/nagoya/inbound/en/" : "http://www.matsuzakaya.co.jp/nagoya/inbound/ch/";
+a[href="http://www.matsuzakaya.co.jp/nagoya/inbound/en/"] {
+  attribute: href rewrite "http://www.matsuzakaya.co.jp/nagoya/inbound/ch/";
 }
 
 // @RULESET

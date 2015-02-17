@@ -128,11 +128,9 @@
 
 // @RULESET
 // URL =http://dmdepart.jp/flnews/
-a[href] {
-  attribute: href rewrite "@RewriteLinks";
+a[href="http://www.matsuzakaya.co.jp/ueno/"] {
+  attribute: href rewrite "http://www.matsuzakaya.co.jp.e.me.hp.transer.com/ueno/";
 }
-@urlmap RewriteLinks {
-  "http://www.matsuzakaya.co.jp/ueno/" : "http://www.matsuzakaya.co.jp.e.me.hp.transer.com/ueno/";}
 
 // @RULESET
 // URL #=http://www.daimaru.co.jp/fukuoka/.*
