@@ -10,3 +10,16 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+a[href] {
+  attribute: href rewrite "@RewriteLinks";
+}
+
+@urlmap RewriteLinks {
+  "http://www.outlet-rera.com/agent/" : "http://www.outlet-rera.com/kor/agent/";
+  "http://www.outlet-rera.com/facilities/" : "http://www.outlet-rera.com/kor/facilities/";
+  "http://www.outlet-rera.com/access/" : "http://www.outlet-rera.com/kor/access/";
+  "http://outlet-rera.megacom.jp/agent" : "http://outlet-rera.megacom.jp/kor/agent/";
+  "http://outlet-rera.megacom.jp/facilities/" : "http://outlet-rera.megacom.jp/kor/facilities/";
+  "http://outlet-rera.megacom.jp/access/" : "http://outlet-rera.megacom.jp/kor/access/";
+}
