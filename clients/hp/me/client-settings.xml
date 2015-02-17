@@ -11,6 +11,17 @@
     <request hostname="www.matsuzakaya.co.jp" />
     <request hostname="dmdepart.jp" />
   </request-list>
+  
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+  
+  <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore-fragment">
+    <url>http://dmdepart\.jp/flnews/present/.*</url>
+  </url-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

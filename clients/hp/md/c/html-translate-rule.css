@@ -21,7 +21,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="/shinsaibashi/service/gaikoku.html"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/20150113_730x349_c.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp/flnews/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
 }
 
 // @RULESET
@@ -30,7 +30,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="/umedamise/service/gaikoku.html"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/20150113_730x349_c.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp/flnews/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
 }
 
 // @RULESET
@@ -39,7 +39,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="/kyoto/service/gaikoku.html"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/20150113_730x349_c.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp/flnews/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
 }
 
 // @RULESET
@@ -48,7 +48,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="/kobe/service/gaikoku.html"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/20150113_730x349_c.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp/flnews/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
 }
 
 // @RULESET
@@ -57,7 +57,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><img width="730" height="349" border="0" usemap="#mainImageLink" alt="" src="/tokyo/images/20150113_main_c.jpg"><map id="mainImageLink" name="mainImageLink"><area href="/tokyo/fl/c/best/" coords="0,0,341,348" shape="rect"><area href="/tokyo/service/gaikoku.html" coords="341,0,730,353" shape="rect"></map></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><img width="730" height="349" border="0" usemap="#mainImageLink" alt="" src="/tokyo/images/storemain_tokyo_pc_c.jpg"><map id="mainImageLink" name="mainImageLink"><area href="/tokyo/fl/c/best/" coords="0,0,341,348" shape="rect"><area href="http://dmdepart.jp/flnews/" target="_blank" coords="341,0,730,353" shape="rect"></map></p>';
 }
 
 // @RULESET
@@ -66,7 +66,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="/sapporo/service/gaikoku.html"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/20150113_730x349_c.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp/flnews/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
 }
 
 // @RULESET
@@ -75,7 +75,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/smp/shinsaibashi/service/gaikoku.html"><img width="300" alt="" src="http://dmdepart.jp/fl/images/20150113_710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp/flnews/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -84,7 +84,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/smp/umedamise/service/gaikoku.html"><img width="300" alt="" src="http://dmdepart.jp/fl/images/20150113_710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp/flnews/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -93,7 +93,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/smp/kyoto/service/gaikoku.html"><img width="300" alt="" src="http://dmdepart.jp/fl/images/20150113_710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp/flnews/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -102,7 +102,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/smp/kobe/service/gaikoku.html"><img width="300" alt="" src="http://dmdepart.jp/fl/images/20150113_710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp/flnews/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -111,7 +111,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/tokyo/fl/s/c/"><img width="300" alt="" src="http://dmdepart.jp/fl/images/20150113_710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><img src="/smp/tokyo/images/storemain_tokyo_smp_c.jpg" alt="" width="300" usemap="#Map"><map name="Map"><area shape="rect" coords="0,1,150,110" href="/tokyo/fl/s/c/"><area shape="rect" coords="150,0,299,111" href="http://dmdepart.jp/flnews/" target="_blank"></map></p>$1';
 }
 
 // @RULESET
@@ -120,7 +120,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="/smp/sapporo/service/gaikoku.html"><img width="300" alt="" src="http://dmdepart.jp/fl/images/20150113_710x264_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp/flnews/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -128,6 +128,16 @@ body {
 // URL =http://dmdepart.jp/fl/smp/
 @preprocess {
   replace: "www\.matsuzakaya\.co\.jp/" "www.matsuzakaya.co.jp.c.me.hp.transer.com/";
+}
+
+// @RULESET
+// URL =http://dmdepart.jp/flnews/
+a[href] {
+  attribute: href rewrite "@RewriteLinks";
+}
+@urlmap RewriteLinks {
+  "http://www.matsuzakaya.co.jp/ueno/" : "http://www.matsuzakaya.co.jp.c.me.hp.transer.com/ueno/";
+  "http://www.matsuzakaya.co.jp/nagoya/inbound/en/" : "http://www.matsuzakaya.co.jp/nagoya/inbound/ch/";
 }
 
 // @RULESET
