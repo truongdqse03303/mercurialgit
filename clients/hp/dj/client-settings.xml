@@ -9,5 +9,6 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.sakura.lg.jp" />
+    <request hostname="www.sakurashi-kankou.or.jp" />
   </request-list>
 </client-settings>
