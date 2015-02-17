@@ -20,7 +20,7 @@ a[href] {
 }
 
 @urlmap RewriteLinks {
-  "http://www.outlet-rera.com/agent/" : "http://www.outlet-rera.com/chi_t/agent/";
+  "http://www.outlet-rera.com/agent" : "http://www.outlet-rera.com/chi_t/agent/";
   "http://www.outlet-rera.com/facilities/" : "http://www.outlet-rera.com/chi_t/facilities/";
   "http://www.outlet-rera.com/access/" : "http://www.outlet-rera.com/chi_t/access/";
   "http://outlet-rera.megacom.jp/agent" : "http://outlet-rera.megacom.jp/chi_t/agent/";
