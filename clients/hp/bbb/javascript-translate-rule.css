@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.sunsun-numazu.jp/js/mee.main.js
+@preprocess {
+  replace: 'meec\.mee\.lang\\(\\)' '"ja"';
+}

@@ -8,7 +8,8 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="[^/]+" />
+    <!-- <request hostname="[^/]+" /> -->
+    <request hostname="www.sunsun-numazu.jp" />
   </request-list>
   
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
