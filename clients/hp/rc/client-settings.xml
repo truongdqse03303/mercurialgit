@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>長野県岡谷市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nagano-okaya/service 9f40fb3155515c559bc791b9fbcf4d313637df11</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.okaya.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
