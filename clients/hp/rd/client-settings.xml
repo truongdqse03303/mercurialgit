@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>金沢市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-kanazawa/service 12273bb913c6d27c8f24001463a2e8aca1db654f</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www4.city.kanazawa.lg.jp" />
+    <request hostname="kanazawa-bousai.com" />
+    <!--<request hostname="www2.city.kanazawa.ishikawa.jp" path="/uketsuke/uketsuketop.html" />-->
+    <request hostname="www2.wagamachi-guide.com" path="/kanazawa-mss/" />
+    <request hostname="www.kanazawa-kosodate.net" />
+    <request hostname="www.lib.kanazawa.ishikawa.jp" />
+    <request hostname="info.city.kanazawa.ishikawa.jp" />
+    
+    
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
