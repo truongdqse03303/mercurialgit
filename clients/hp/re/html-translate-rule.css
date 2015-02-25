@@ -1,0 +1,18 @@
+table[summary="Google"]
+{attribute: cltx add "exclude";
+}
+
+form[action="http://www.google.co.jp/search"]
+{attribute: accept-charset add "Shift-JIS";
+}
+
+@preprocess {
+replace: '(<span class="red">.*?)(</span></li>|</span> </li>)' '<p style="display: inline;">$1</span></p></li>';
+replace: '<li>(<strong>.*?</strong>)' '<li><p style="display: inline;">$1</p>';
+}
+
+// @RULESET
+// URL = http://www.city.osaki.miyagi.jp/r-new.html
+@preprocess {
+replace: '(<span class="red">.*?</span>)(</li>| </li>|.*?<li>)' '<p style="display: inline;">$1</p>$2';
+}
