@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM SYSTEM LAW";
 }
+
+@postprocess {
+replace: '(<a class="rsbtn_play" accesskey="L" title="We read aloud by sound" href="http://app.as.readspeaker.com/cgi-bin/rsent\\?customerid=7871&amp;lang=)ja_jp(&amp;readid=content&amp;url=" cltx>)' '$1en_us$2';
+}
+

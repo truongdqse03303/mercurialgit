@@ -10,3 +10,6 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER LAW";
 }
+@postprocess {
+replace: '(<a class="rsbtn_play" accesskey="L" title="We read aloud by sound" href="http://app.as.readspeaker.com/cgi-bin/rsent\\?customerid=7871&amp;lang=)ja_jp(&amp;readid=content&amp;url=" cltx>)' '$1ko_kr$2';
+}
