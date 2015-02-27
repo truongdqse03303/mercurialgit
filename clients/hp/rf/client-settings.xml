@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>上尾市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-ageo/service 425bcc799ebf65b68af9803e5fc34d89cf15d3a7</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.ageo.lg.jp" />
+  </request-list>
+  
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
