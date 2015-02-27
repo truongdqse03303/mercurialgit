@@ -6,3 +6,7 @@
   eid: CR-JE;
   dictionaries: "KURUME_DIC_MASTER KURUME_TM_MASTER GOVT TOURISM";
 }
+
+@preprocess{
+replace: 'UA-24341568-1' 'UA-24341568-3';
+}

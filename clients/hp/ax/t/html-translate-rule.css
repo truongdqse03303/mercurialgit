@@ -6,3 +6,7 @@
   eid: CR-JCT;
   dictionaries: "KURUME_DIC_MASTER KURUME_TM_MASTER";
 }
+
+@preprocess {
+replace: 'UA-24341568-1' 'UA-24341568-5';
+}
