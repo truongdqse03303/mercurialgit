@@ -73,12 +73,39 @@
     </filter>
   </appender>
 
+  <appender name="DB" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_DIR}/db.log</file>
+    <append>true</append>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <!-- daily rollover -->
+      <fileNamePattern>${LOG_DIR}/db-%d{yyyy-MM}.log.gz</fileNamePattern>
+      <maxHistory>6</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS}\t[%thread]\t%-5level\t%msg%n</pattern>
+    </encoder>
+    <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+      <evaluator>
+        <matcher>
+          <name>pattern1</name>
+          <regex>${FILTER_PATTERN}</regex>
+        </matcher>
+        <expression>pattern1.matches(formattedMessage)</expression>
+      </evaluator>
+      <OnMismatch>NEUTRAL</OnMismatch>
+      <OnMatch>DENY</OnMatch>
+    </filter>
+  </appender>
+
   <!-- loggers -->
   <logger name="hp" level="INFO" additivity="false">
     <appender-ref ref="HP" />
   </logger>
   <logger name="hpstage" level="WARN" additivity="false">
     <appender-ref ref="HPSTAGE" />
+  </logger>
+  <logger name="db" level="INFO" additivity="false">
+    <appender-ref ref="DB" />
   </logger>
   <root level="ERROR">
     <appender-ref ref="FILE" />

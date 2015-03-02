@@ -36,7 +36,7 @@
   <application>
     <id>hpstage</id>
     <domain>hpstage.transer.com</domain>
-    <setting-id>tm-*,img</setting-id>
+    <setting-id>tm-*,img,cfm-*</setting-id>
     <extension-param>
       <param-name>img.include.script.url</param-name>
       <param-value>http://hpmanage.transer.com/edit/site_imgchg</param-value>
@@ -46,11 +46,11 @@
       <param-value>http://hpmanage.transer.com/edit/site_dic</param-value>
     </extension-param>
     <extension-param>
-      <param-name>tm-*|img.cross.licence</param-name>
+      <param-name>tm-*|img|cfm-*.cross.licence</param-name>
       <param-value>clkey</param-value>
     </extension-param>
     <extension-param>
-      <param-name>tm-*|img.cross.query</param-name>
+      <param-name>tm-*|img|cfm-*.cross.query</param-name>
       <param-value>clkey,clhash</param-value>
     </extension-param>
     <extension-param>
@@ -106,6 +106,27 @@
     <socket-timeout>180000</socket-timeout>
     <max-concurrency>6</max-concurrency>
   </translation-server>
+  
+  <!-- ロボット用のTranslation Serverの情報 -->
+  <translation-server type="robot">
+    <url>http://ts-bot.transer.com:12000/clsoap/clsoap.cgi</url>
+    <connection-timeout>5000</connection-timeout>
+    <socket-timeout>90000</socket-timeout>
+    <max-concurrency>30</max-concurrency>
+  </translation-server>
+
+  <!-- 翻訳結果キャッシュサーバを利用する設定ID(カンマ区切り) -->
+  <translatedcache-sid>th,v,id,tm-th,tm-v,tm-id,cfm-th,cfm-v,cfm-id</translatedcache-sid>
+  
+  <!-- 断片翻訳キャッシュ番号の上限と達した場合の削除するレコード数 -->
+  <fragment-maxseq>500</fragment-maxseq>
+  <fragment-deletecount>100</fragment-deletecount>
+  
+  <!-- キャッシュヒット時アクセスログを出力するアプリケーションID(カンマ区切り) -->
+  <accesslogoutput-aid>hp,hpcn</accesslogoutput-aid>
+  
+  <!-- DB接続タイムアウト時間 -->
+  <dbconnection-timeout>300</dbconnection-timeout>
 
   <!-- 信頼できるクライアント -->
   <trusted-client>127.0.0.1</trusted-client>

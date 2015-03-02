@@ -1,0 +1,8 @@
+@engine default {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM";
+}
+@engine heartcore_demo/main {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM_MASTER";
+}
