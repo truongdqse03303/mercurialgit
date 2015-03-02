@@ -19,7 +19,6 @@
     <request hostname="www.ayss.jp" />
     <request hostname="www.city.adachi.tokyo.jp" />
     <request hostname="www.galaxcity.jp" />
-    <request hostname="www.gikai-adachi.jp" />
     <request hostname="www.kousya.jp" path="/tokimeki/" />
     <request hostname="www.lib.adachi.tokyo.jp" />
     <request hostname="www.seibu-la.co.jp" path="/adachi-agri/" />
