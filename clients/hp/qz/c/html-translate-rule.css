@@ -15,6 +15,6 @@ body {
   attribute: lang add 'zh';
 }
 
-@postprocess {
-replace: '(<a class="rsbtn_play" accesskey="L" title="We read aloud by sound" href="http://app.as.readspeaker.com/cgi-bin/rsent\\?customerid=7871&amp;lang=)ja_jp(&amp;readid=content&amp;url=" cltx>)' '$1zh_cn$2';
+@preprocess {
+replace: '(<a class="rsbtn_play" accesskey="L" .*?href="http://app.as.readspeaker.com/cgi-bin/rsent\\?customerid=7871&amp;lang=)ja_jp(&amp;readid=content&amp;url=">)' '$1zh_cn$2';
 }
