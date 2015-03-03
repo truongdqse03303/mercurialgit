@@ -1,0 +1,12 @@
+// @RULESET
+// URL #= .*/css/contents.css
+@preprocess {
+replace: '(.cate_box.*?width: 187px;(.*?)float: right;)(.*?\\})' '$1 $2word-wrap: break-word;$3';
+}
+
+// @RULESET
+// URL #= .*/css/s/contents.css
+
+@preprocess {
+replace: '(.cate_box.*?width: 65%;(.*?)float: right;)(.*?\\})' '$1 $2word-wrap: break-word;$3';
+}
