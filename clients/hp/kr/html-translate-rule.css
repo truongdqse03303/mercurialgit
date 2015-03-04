@@ -1,3 +1,7 @@
+@postprocess {
+  replace: '(http://www\.city\.yatomi\.lg\.jp)/cgi-evt(/_res/projects/default_project/_page_/)' '$1$2';
+}
+
 // @RULESET
 // URL #= http://www\.city\.yatomi\.(?:aichi|lg)\.jp/(?:$|index.html)
 @preprocess {
