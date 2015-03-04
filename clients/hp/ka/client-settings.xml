@@ -9,11 +9,13 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.smilring.com" />
+    <request hostname="www.real-co-ltd.ne.jp" />
   </request-list>
 
   <!-- HTML断片翻訳対象外のURL -->
   <url-list type="ignore-fragment">
     <url>http://www\.smilring\.com/shop/.*</url>
+    <url>http://www\.real-co-ltd\.ne\.jp/.*</url>
   </url-list>
   
     <!-- URLとリソース種類のマッピングの設定 -->
