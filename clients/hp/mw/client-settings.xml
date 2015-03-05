@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.chofu.tokyo.jp" />
-    <request hostname="sodai.tokyokankyo.or.jp" path="/.S.5iajwwc5sdbykin30z4jsklq../.*" />
+    <request hostname="sodai.tokyokankyo.or.jp" />
   </request-list>
   
   <!-- 使用する設定IDの一覧 -->
