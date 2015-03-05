@@ -12,6 +12,21 @@
 }
 
 // @RULESET
+// URL = http://www.fukuicity-navi.com/convention/fukui/fukui.asp
+@preprocess {
+replace:'(<p class="PageMenu">.*福井の名所</a>)(.*</p>)' '$1<br>$2';
+replace:'(FukuiPhotoArea End.*?p class="MdsText")' '$1 style="word-wrap: break-word;"';
+}
+@preprocess{
+
+}
+// @RULESET
+// URL = http://www.fukuicity-navi.com/convention/service/supportmember_01.asp
+@preprocess {
+replace:'(<p class="PageMenu">.*観光協会</a>)(.*?#Menu09">.*?企画・装飾・ＰＣＯ</a>)(.*?</p>)' '$1<br>$2<br>$3';
+}
+
+// @RULESET
 // URL = http://www.fukuicity-navi.com/convention/index.php
 @preprocess{
 replace:'(<p class="Mds")' '$1 style="font-size:57%;"';
