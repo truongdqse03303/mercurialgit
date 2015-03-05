@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>（財）福井観光コンベンション協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>fukuicity-navi/service 3b231216a4e16316e444ee323b4a2fe5ee57eb9a</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.fukuicity-navi.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

@@ -1,0 +1,20 @@
+form[id="SerachForm"]
+{attribute: accept-charset add "EUC-JP";
+attribute: onclick add "document.charset='EUC-JP';";
+}
+
+// @RULESET
+// URL = http://www.fukuicity-navi.com/convention/fukui/fukui.asp
+@preprocess {
+replace:'(<p class="PageMenu">.*福井の名所</a>)(.*</p>)' '$1<br>$2';
+replace:'(FukuiPhotoArea End.*?p class="MdsText")' '$1 style="word-wrap: break-word;"';
+}
+@preprocess{
+
+}
+// @RULESET
+// URL = http://www.fukuicity-navi.com/convention/service/supportmember_01.asp
+@preprocess {
+replace:'(<p class="PageMenu">.*観光協会</a>)(.*?#Menu09">.*?企画・装飾・ＰＣＯ</a>)(.*?</p>)' '$1<br>$2<br>$3';
+}
+
