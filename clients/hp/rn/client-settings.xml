@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>イオンモール旭川</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>asahikawaekimae-aeonmall/service c90e3d8135b05db3e5bd15a2eda8415b32530f93</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="asahikawaekimae-aeonmall.com" />
+  </request-list>
+
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+  
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
