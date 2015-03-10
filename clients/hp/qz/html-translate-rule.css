@@ -1,0 +1,7 @@
+@preprocess{
+replace:'（(<span class="publish_date">)(\\d{4}年(\\d{2}|\\d{1})月(\\d{2}|\\d{1})日)(</span>)）' '$1 ($2) $5';
+}
+
+ul>li span{
+text-flow:break;
+}
