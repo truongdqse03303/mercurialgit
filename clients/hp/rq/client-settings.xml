@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>茨城県阿見町</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>town-ami/service 6a706d7dbf4d7bcffdb512a8a03f1a3564f2e68b</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.ami.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
