@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>加賀市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-ishikawa/service 2f4339df3720e3627c77637611e14919efb4eb90</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.kaga.ishikawa.jp" />
+    <request hostname="kagashibousai-mail.jp" />
+  </request-list>
+  
+    
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www\.city\.kaga\.ishikawa\.jp/eco/cgi/jsRSS\.cgi.*</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
