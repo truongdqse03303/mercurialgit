@@ -1,0 +1,3 @@
+.span_a, .span_b, .span_b > a {
+  text-flow: break;
+}
