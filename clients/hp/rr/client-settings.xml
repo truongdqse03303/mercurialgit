@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>茂原市</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>chiba-mobara/service acfa983bd56945217edfb2c07e06b0d4548ab295</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.mobara.chiba.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
