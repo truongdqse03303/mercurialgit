@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.town.nagomi.lg.jp/kankou/
+@postprocess {
+replace: '(<img width="1000" .*?src=".*?)c_id=27\\&amp;id=7%E2%8A%82_id=1\\&amp;gzkbn=0\\&amp;set_pic=1"(.*?/>)' '$1c_id=27\\&id=7\\&sub_id=1\\&gzkbn=0\\&set_pic=1$2';
+}
