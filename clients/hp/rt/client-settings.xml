@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>四日市市</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-yokkaichi/service 23befd1bf385f3ed837f0aaf51c258abf0652c27</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www5.city.yokkaichi.mie.jp" />
+    <request hostname="www.city.yokkaichi.mie.jp" />
+    <request hostname="bousai2.city.yokkaichi.mie.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
