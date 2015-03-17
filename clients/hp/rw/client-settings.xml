@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>日野町役場</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shiga-hino/service 4487702c943a8dc0519085e44f198d40a00322f8</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.shiga-hino.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
