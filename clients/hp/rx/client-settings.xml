@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>湖西市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kosai-sizuoka/service 0167634645b2abf6bbed741dd635ccce7707ab79</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.kosai.shizuoka.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

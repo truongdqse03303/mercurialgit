@@ -1,0 +1,3 @@
+@preprocess {
+replace: '(<span class="totalcount">.*?</span>)' '<p style="display: inline;">$1</p>';
+}
