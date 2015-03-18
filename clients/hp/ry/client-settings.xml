@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>箱根町役場</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>town-hakone/service 070137806cb861e6a1670082af175d2c98ed5751</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.hakone.kanagawa.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
