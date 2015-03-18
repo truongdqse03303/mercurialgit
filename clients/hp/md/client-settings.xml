@@ -28,6 +28,4 @@
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
-  <charset url="http://www.daimaru.co.jp/fukuoka/">Shift_JIS</charset>
-  <charset url="http://www.daimaru.co.jp/fukuoka/index.html">Shift_JIS</charset>
 </client-settings>
