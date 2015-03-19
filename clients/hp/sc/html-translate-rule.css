@@ -1,0 +1,6 @@
+// @RULESET
+// URL ^= http://0101.ejworks.com/stores/guide/store
+// URL ^= http://0101.ejworks.com/stores/guide/crosslanguage.fragment.translate/
+div#mainimg, div.wc_ranking_tab_leftbox {
+  attribute: cltx add 'exclude';
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>イージェーワークス</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>0101-ejworks/service 30ab82f6bbbb2b265b76841c37c8ca7068683e5f</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="0101.ejworks.com" />
+  </request-list>
+  
+  <!-- CGIのレスポンスを翻訳処理しないように設定 -->
+  <resource-handler>
+    <type name="marui-cgi">jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www\.0101\.co\.jp/(?:cgi-bin/marui_to_voi/.+|storetopics/[0-9]/[0-9]+/info\.xml)</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>BINARY</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+  
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+  
+   <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic MDEwMS5kZXY6NjFMWTI5bjg=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://0101\.ejworks\.com/.*</param-value>
+    </param>
+  </resource-handler>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
