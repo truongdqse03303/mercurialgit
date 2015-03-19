@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="www.daimaru.co.jp" />
     <request hostname="dmdepart.jp" />
+    <request hostname="wakaba.coara.or.jp" />
   </request-list>
   
   <!-- 免責ヘッダーを絶対座標で指定 -->
