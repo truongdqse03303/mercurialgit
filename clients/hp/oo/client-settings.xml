@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="kougeihin.jp" />
+    <request hostname="kir112712.kir.jp" />
   </request-list>
   
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
@@ -16,7 +17,24 @@
    <param-name>default.fragment.translate</param-name>
    <param-value>false</param-value>
  </extension-param>
-
+ 
+<!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic NHNpdGU6dGVzdDAzMjA=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://kir112712\.kir\.jp/.*</param-value>
+    </param>
+  </resource-handler>
+   
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
