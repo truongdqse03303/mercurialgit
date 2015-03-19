@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>粟国デジタルアーカイブ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>aguni-archive/service ddc0b67265e4f16ce4a42d4a85dba786e732e2c4</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.aguni-archive.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
