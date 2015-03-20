@@ -11,6 +11,12 @@
     <request hostname="www.porta.co.jp" />
   </request-list>
   
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+  
   <!-- 免責事項をフッターに表示 -->
   <extension-param>
     <param-name>show.translate.header</param-name>
