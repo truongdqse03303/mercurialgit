@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>京都ステーションセンター株式会社（京都ポルタ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kyoto-porta/service ace0147795bbc2f2fafc64ebc2e06b670c072c20</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.porta.co.jp" />
+  </request-list>
+  
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>body</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
