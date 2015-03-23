@@ -1,0 +1,7 @@
+li>span{
+  text-flow: break;
+}
+
+#ui-tab>ul{
+ attribute: cltx add 'exclude';
+}
