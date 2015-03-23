@@ -3,6 +3,11 @@
   dictionaries: "YPDC_DIC YPDC_TM SYSTEM OCEAN";
 }
 
+@engine ypdc/ypdc02 {
+  eid: CR-JC;
+  dictionaries: "YPDC_DIC_MASTER YPDC_TM_MASTER SYSTEM OCEAN";
+}
+
 body {
   attribute: lang add 'zh';
 }
