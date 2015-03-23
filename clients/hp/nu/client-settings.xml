@@ -19,6 +19,7 @@
         <path value="/shinjuku/store_info/event/dento/.*" />
         <path value="/(tokyo|shinjuku)/store_info/ohanami/.*" />
         <path value="/yokohama/store_info/event/hanami\.html" />
+        <path value="/(tokyo|shinjuku|yokohama|osaka|kyoto)/store_info/.*" />
       </path-list>
   </request-list>
   
