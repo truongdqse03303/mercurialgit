@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.shinkibus.co.jp/experience2/css/boilerplate.css
+:css {
+  attribute: url rewrite "@RewriteRegisteredDomainOfAbsurl";
+}
