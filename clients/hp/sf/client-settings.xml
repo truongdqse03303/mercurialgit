@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>北海道旅客船協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ho-ships/service 15c3b2d621c51445b293ead3a6aff40f6ccd158c</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.ho-ships.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
