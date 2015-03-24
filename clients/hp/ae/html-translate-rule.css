@@ -16,3 +16,11 @@ iframe[src] {
 :javascript { 
   attribute: url rewrite "@RewriteGoogleMap";
 }
+
+// @RULESET
+// URL #= .*ranking.html
+@preprocess {
+  replace: 'https' 'http';
+ }
+
+

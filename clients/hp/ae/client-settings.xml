@@ -21,15 +21,22 @@
         <path value="/17302/css/.+\.(?:css|js|html)" />
       </path-list>
     </request>
+    <request hostname="ec.mic21.com" />
+    <request hostname="blog.mic21.com" />
   </request-list>
   
-  <!-- shop3.genesis-ec.com内ページのURLエンコーディングの設定 -->
+   <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore-fragment">
+    <url>http://blog.mic21.com.*</url>
+  </url-list>
+  
+    <!-- shop3.genesis-ec.com内ページのURLエンコーディングの設定 -->
   <resource-handler>
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
     <param>
       <param-name>encode.url.shop3</param-name>
       <param-value>^http://shop3\.genesis-ec\.com/search/list\.asp\?shopcd=17302&amp;(?:.+?&amp;)?(?:kwd=[^&amp;]+|kwd2=[^&amp;]+)(?:(?!&amp;.*page=[0-9]+)&amp;.+?)?$</param-value>
-    </param>
+      </param>
     <param>
       <param-name>encode.charset.shop3</param-name>
       <param-value>Shift_JIS</param-value>
@@ -37,17 +44,24 @@
     <priority>4</priority>
     <terminal>true</terminal>
   </resource-handler>
-  <!-- URLとリソース種類のマッピングの設定 -->
+    
+    <!-- URLとリソース種類のマッピングの設定 -->
   <resource-handler>
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>^http://www\.tos-asp\.jp/agent/mic21/js/search\?type=tour.+</param-value>
+      <param-value>^(http://www\.tos-asp\.jp/agent/mic21/js/search\?type=tour.+|http://shop3\.genesis-ec\.com/ranking/Ranking\.asp\?shopcd=17302)</param-value>
+      
     </param>
-    <param>
+     <param>
       <param-name>resource.type.name</param-name>
       <param-value>JAVASCRIPT</param-value>
     </param>
     <priority>4</priority>
   </resource-handler>
-</client-settings>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+  <charset url=".*ranking.html">Shift_JIS</charset>
+  <charset url="http://shop3.genesis-ec.com/ranking/Ranking.asp?shopcd=17302">Shift_JIS</charset>
+  </client-settings>
