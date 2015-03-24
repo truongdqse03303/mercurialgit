@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>知立市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>aichi-chiryu/service 2bde8e6878063f4c1a312cba8b910096137f7b9c</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.chiryu.aichi.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

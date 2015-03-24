@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.city.chiryu.aichi.jp/
+@preprocess {
+  replace: '(<li>)(<a href=.*?class="ic">.*?</a>)(<span class="date">.*?</span>)(</li>)' '$1<p style="display: inline;">$2</p><p style="display: inline;">$3</p>$4';
+}
