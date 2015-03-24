@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "YUMERUN-NET_DIC YUMERUN-NET_TM CROSS_DIC CROSS_TM GOVT INTERNET";
 }
+
+@engine yumerun-net/main {
+  eid: CR-JE;
+  dictionaries: "YUMERUN-NET_DIC_MASTER YUMERUN-NET_TM_MASTER GOVT";
+}

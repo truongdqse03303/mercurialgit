@@ -2,3 +2,8 @@
   eid: CR-JCT;
   dictionaries: "HIRATSUKA_DIC HIRATSUKA_TM CROSS_DIC CROSS_TM";
 }
+
+@engine hiratsuka/main {
+  eid: CR-JCT;
+  dictionaries: "HIRATSUKA_DIC_MASTER HIRATSUKA_TM_MASTER";
+}

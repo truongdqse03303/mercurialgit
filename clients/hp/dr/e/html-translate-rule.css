@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "AISEN_DIC AISEN_TM CROSS_DIC CROSS_TM INTERNET NETDB";
 }
+
+@engine aisen/main {
+  eid: CR-JE;
+  dictionaries: "AISEN_DIC_MASTER AISEN_TM_MASTER NETDB";
+}

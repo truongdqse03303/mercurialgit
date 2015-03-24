@@ -2,3 +2,8 @@
   eid: CR-JCT;
   dictionaries: "SHINJUKU-OHDOORI_DIC SHINJUKU-OHDOORI_TM";
 }
+
+@engine shinjuku-ohdoori/main {
+  eid: CR-JCT;
+  dictionaries: "SHINJUKU-OHDOORI_DIC_MASTER SHINJUKU-OHDOORI_TM_MASTER";
+}

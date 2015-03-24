@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "KIUI_DIC KIUI_TM CROSS_DIC CROSS_TM INTERNET";
 }
+
+@engine kiui/main {
+  eid: CR-JE;
+  dictionaries: "KIUI_DIC_MASTER KIUI_TM_MASTER";
+}

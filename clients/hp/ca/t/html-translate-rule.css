@@ -3,6 +3,11 @@
   dictionaries: "SUWA_DIC SUWA_TM CROSS_DIC CROSS_TM";
 }
 
+@engine suwa/main {
+  eid: CR-JCT;
+  dictionaries: "SUWA_DIC_MASTER SUWA_TM_MASTER";
+}
+
 div[class*="new_info_list"] > ul > li {
   content: translate split exclude '\\[|\\]';
 }

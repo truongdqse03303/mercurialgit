@@ -2,3 +2,8 @@
   eid: BR-JA.PT.EN;
   dictionaries: "KUROBE_TM KUROBE_DIC CROSS_DIC CROSS_TM GOVT TOURISM GOURMET INTERNET";
 }
+
+@engine kurobe/main {
+  eid: BR-JA.PT.EN;
+  dictionaries: "KUROBE_TM_MASTER KUROBE_DIC_MASTER GOVT TOURISM GOURMET";
+}

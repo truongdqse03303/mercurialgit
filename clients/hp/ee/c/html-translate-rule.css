@@ -3,6 +3,11 @@
   dictionaries: "K-KANKOU_DIC K-KANKOU_TM CROSS_DIC CROSS_TM";
 }
 
+@engine k-kankou/main {
+  eid: CR-JC;
+  dictionaries: "K-KANKOU_DIC_MASTER K-KANKOU_TM_MASTER";
+}
+
 body {
   attribute: lang add 'zh';
 }

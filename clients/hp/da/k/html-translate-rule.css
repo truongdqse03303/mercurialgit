@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "FUKUYAMA_DIC FUKUYAMA_TM CROSS_TM";
 }
+
+@engine fukuyama/main {
+  eid: CR-JK;
+  dictionaries: "FUKUYAMA_DIC_MASTER FUKUYAMA_TM_MASTER";
+}

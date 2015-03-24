@@ -3,6 +3,11 @@
   dictionaries: "AISEN_DIC AISEN_TM CROSS_DIC CROSS_TM";
 }
 
+@engine aisen/main {
+  eid: CR-JCT;
+  dictionaries: "AISEN_DIC_MASTER AISEN_TM_MASTER";
+}
+
 // @RULESET
 // URL #= http://www\.aisen\.co\.jp/(index\.html)?
 div[class^="facebook"], div[class="twitterHead"] {

@@ -3,6 +3,11 @@
   dictionaries: "SHIMAMOTOCHO_DIC SHIMAMOTOCHO_TM CROSS_DIC CROSS_TM";
 }
 
+@engine shimamotocho/main {
+  eid: CR-JC;
+  dictionaries: "SHIMAMOTOCHO_DIC_MASTER SHIMAMOTOCHO_TM_MASTER";
+}
+
 body {
   attribute: lang add 'zh';
 }

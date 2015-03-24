@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "SUZUTEC_DIC SUZUTEC_TM CROSS_DIC CROSS_TM INTERNET SYSTEM MECHA AGRI";
 }
+
+@engine suzutec/main {
+  eid: CR-JE;
+  dictionaries: "SUZUTEC_DIC_MASTER SUZUTEC_TM_MASTER SYSTEM MECHA AGRI";
+}

@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "SUZUTEC_DIC SUZUTEC_TM CROSS_TM SYSTEM MECHA";
 }
+
+@engine suzutec/main {
+  eid: CR-JK;
+  dictionaries: "SUZUTEC_DIC_MASTER SUZUTEC_TM_MASTER SYSTEM MECHA";
+}

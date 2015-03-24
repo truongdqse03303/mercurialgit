@@ -3,6 +3,11 @@
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM SYSTEM NETSHOP";
 }
 
+@engine hyousetsu/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER SYSTEM NETSHOP";
+}
+
 body {
   attribute: lang add 'zh';
 }

@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "ASO-GEOPARK_DIC ASO-GEOPARK_TM CROSS_DIC CROSS_TM TOURISM INTERNET";
 }
+
+@engine aso-geopark/main {
+  eid: CR-JE;
+  dictionaries: "ASO-GEOPARK_DIC_MASTER ASO-GEOPARK_TM_MASTER TOURISM";
+}

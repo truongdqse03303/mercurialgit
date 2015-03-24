@@ -2,3 +2,8 @@
   eid: BR-JA.PT.EN;
   dictionaries: "FUKUYAMA_DIC FUKUYAMA_TM CROSS_DIC CROSS_TM GOVT INTERNET";
 }
+
+@engine fukuyama/main {
+  eid: BR-JA.PT.EN;
+  dictionaries: "FUKUYAMA_DIC_MASTER FUKUYAMA_TM_MASTER GOVT";
+}

@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "NOMI_DIC NOMI_TM CROSS_TM";
 }
+
+@engine nomi/main {
+  eid: CR-JK;
+  dictionaries: "NOMI_DIC_MASTER NOMI_TM_MASTER";
+}

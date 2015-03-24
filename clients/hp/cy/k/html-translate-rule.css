@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "SAMMU_DIC SAMMU_TM CROSS_TM";
 }
+
+@engine sammu/main {
+  eid: CR-JK;
+  dictionaries: "SAMMU_DIC_MASTER SAMMU_TM_MASTER";
+}

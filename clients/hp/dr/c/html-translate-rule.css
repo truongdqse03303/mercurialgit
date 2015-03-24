@@ -3,6 +3,11 @@
   dictionaries: "AISEN_DIC AISEN_TM CROSS_DIC CROSS_TM NETDB";
 }
 
+@engine aisen/main {
+  eid: CR-JC;
+  dictionaries: "AISEN_DIC_MASTER AISEN_TM_MASTER NETDB";
+}
+
 body {
   attribute: lang add 'zh';
 }

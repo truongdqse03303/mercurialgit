@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "SHIROYAMA-G_DIC SHIROYAMA-G_TM CROSS_TM";
 }
+
+@engine shiroyama-g/main {
+  eid: CR-JK;
+  dictionaries: "SHIROYAMA-G_DIC_MASTER SHIROYAMA-G_TM_MASTER";
+}

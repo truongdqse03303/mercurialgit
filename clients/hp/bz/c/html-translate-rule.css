@@ -3,6 +3,11 @@
   dictionaries: "SUZUTEC_DIC SUZUTEC_TM CROSS_DIC CROSS_TM SYSTEM MECHA";
 }
 
+@engine suzutec/main {
+  eid: CR-JC;
+  dictionaries: "SUZUTEC_DIC_MASTER SUZUTEC_TM_MASTER SYSTEM MECHA";
+}
+
 body {
   attribute: lang add 'zh';
 }

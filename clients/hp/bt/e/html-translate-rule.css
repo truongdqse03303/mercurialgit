@@ -3,6 +3,11 @@
   dictionaries: "BOUSAI-HIROSHIMA_DIC BOUSAI-HIROSHIMA_TM CROSS_DIC CROSS_TM GOVT INTERNET";
 }
 
+@engine bousai-hiroshima/main {
+  eid: CR-JE;
+  dictionaries: "BOUSAI-HIROSHIMA_DIC_MASTER BOUSAI-HIROSHIMA_TM_MASTER GOVT";
+}
+
 link[type="text/css"][href] {
   attribute: href rewrite "@RewriteStyleSheetLocation";
 }

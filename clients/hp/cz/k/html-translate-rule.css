@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "KANIE_DIC KANIE_TM CROSS_TM";
 }
+
+@engine kanie/main {
+  eid: CR-JK;
+  dictionaries: "KANIE_DIC_MASTER KANIE_TM_MASTER";
+}

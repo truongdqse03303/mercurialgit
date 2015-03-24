@@ -3,6 +3,11 @@
   dictionaries: "KITANOHOSHI_DIC KITANOHOSHI_TM CROSS_DIC CROSS_TM";
 }
 
+@engine kitanohoshi/main {
+  eid: CR-JC;
+  dictionaries: "KITANOHOSHI_DIC_MASTER KITANOHOSHI_TM_MASTER";
+}
+
 body {
   attribute: lang add 'zh';
 }

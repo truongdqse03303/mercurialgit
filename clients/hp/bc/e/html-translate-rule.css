@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "NONOICHI_DIC NONOICHI_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@engine nonoichi/main {
+  eid: CR-JE;
+  dictionaries: "NONOICHI_DIC_MASTER NONOICHI_TM_MASTER GOVT TOURISM";
+}

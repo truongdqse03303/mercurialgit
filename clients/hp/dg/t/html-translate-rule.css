@@ -2,3 +2,8 @@
   eid: CR-JCT;
   dictionaries: "YUMERUN-NET_DIC YUMERUN-NET_TM CROSS_DIC CROSS_TM";
 }
+
+@engine yumerun-net/main {
+  eid: CR-JCT;
+  dictionaries: "YUMERUN-NET_DIC_MASTER YUMERUN-NET_TM_MASTER";
+}

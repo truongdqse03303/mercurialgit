@@ -2,3 +2,8 @@
   eid: CR-JCT;
   dictionaries: "KOGETU_DIC KOGETU_TM CROSS_DIC CROSS_TM";
 }
+
+@engine kogetu/main {
+  eid: CR-JCT;
+  dictionaries: "KOGETU_DIC_MASTER KOGETU_TM_MASTER";
+}

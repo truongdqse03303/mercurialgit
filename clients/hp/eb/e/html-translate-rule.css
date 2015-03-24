@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "YOYAKUNAVI_DIC YOYAKUNAVI_TM CROSS_DIC CROSS_TM INTERNET";
 }
+
+@engine yoyakunavi/main {
+  eid: CR-JE;
+  dictionaries: "YOYAKUNAVI_DIC_MASTER YOYAKUNAVI_TM_MASTER";
+}

@@ -3,6 +3,11 @@
   dictionaries: "NANJOCITY_DIC NANJOCITY_TM CROSS_DIC CROSS_TM";
 }
 
+@engine nanjocity/main {
+  eid: CR-JCT;
+  dictionaries: "NANJOCITY_DIC_MASTER NANJOCITY_TM_MASTER";
+}
+
 body {
   attribute: style add "font-family:SimSun,arial,sans-serif;";
 }

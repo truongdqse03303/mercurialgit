@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "SAKURA_DIC SAKURA_TM CROSS_DIC CROSS_TM GOVT TOURISM SPORTS INTERNET";
 }
+
+@engine tochigi-sakura/main {
+  eid: CR-JE;
+  dictionaries: "SAKURA_DIC_MASTER SAKURA_TM_MASTER GOVT TOURISM SPORTS";
+}

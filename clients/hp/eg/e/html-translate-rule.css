@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "KOGETU_DIC KOGETU_TM CROSS_DIC CROSS_TM TOURISM GOURMET INTERNET";
 }
+
+@engine kogetu/main {
+  eid: CR-JE;
+  dictionaries: "KOGETU_DIC_MASTER KOGETU_TM_MASTER TOURISM GOURMET";
+}

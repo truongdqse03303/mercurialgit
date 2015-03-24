@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "ASO-GEOPARK_DIC ASO-GEOPARK_TM CROSS_TM";
 }
+
+@engine aso-geopark/main {
+  eid: CR-JK;
+  dictionaries: "ASO-GEOPARK_DIC_MASTER ASO-GEOPARK_TM_MASTER";
+}

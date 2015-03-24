@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "SHISUI_DIC SHISUI_TM CROSS_TM";
 }
+
+@engine shisui/main {
+  eid: CR-JK;
+  dictionaries: "SHISUI_DIC_MASTER SHISUI_TM_MASTER";
+}

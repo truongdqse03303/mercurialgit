@@ -3,6 +3,11 @@
   dictionaries: "NOMI_DIC NOMI_TM CROSS_DIC CROSS_TM";
 }
 
+@engine nomi/main {
+  eid: CR-JC;
+  dictionaries: "NOMI_DIC_MASTER NOMI_TM_MASTER";
+}
+
 body {
   attribute: style add "font-family:SimSun, 'ＭＳ Ｐゴシック', sans-serif !important;";
 }

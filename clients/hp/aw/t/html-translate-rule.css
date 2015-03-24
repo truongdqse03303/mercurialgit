@@ -2,3 +2,8 @@
   eid: CR-JCT;
   dictionaries: "TOKONAME_DIC TOKONAME_TM";
 }
+
+@engine tokoname/main {
+  eid: CR-JCT;
+  dictionaries: "TOKONAME_DIC_MASTER TOKONAME_TM_MASTER";
+}

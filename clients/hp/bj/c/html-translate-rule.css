@@ -2,3 +2,8 @@
   eid: CR-JC;
   dictionaries: "KIRISHIMA_DIC KIRISHIMA_TM CROSS_DIC CROSS_TM";
 }
+
+@engine kirishima/main {
+  eid: CR-JC;
+  dictionaries: "KIRISHIMA_DIC_MASTER KIRISHIMA_TM_MASTER";
+}

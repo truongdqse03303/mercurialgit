@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "KIRINBEER-EN_DIC KIRINBEER-EN_TM CROSS_TM";
 }
+
+@engine kirinbeer-en/main {
+  eid: CR-JK;
+  dictionaries: "KIRINBEER-EN_DIC_MASTER KIRINBEER-EN_TM_MASTER";
+}

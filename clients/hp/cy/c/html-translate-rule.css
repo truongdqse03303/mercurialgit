@@ -3,6 +3,12 @@
   dictionaries: "SAMMU_DIC SAMMU_TM CROSS_DIC CROSS_TM";
 }
 
+@engine sammu/main {
+  eid: CR-JC;
+  dictionaries: "SAMMU_DIC_MASTER SAMMU_TM_MASTER";
+}
+
+
 body {
   attribute: lang add 'zh';
 }

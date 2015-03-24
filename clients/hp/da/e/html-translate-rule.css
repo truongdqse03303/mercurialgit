@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "FUKUYAMA_DIC FUKUYAMA_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@engine fukuyama/main {
+  eid: CR-JE;
+  dictionaries: "FUKUYAMA_DIC_MASTER FUKUYAMA_TM_MASTER GOVT TOURISM";
+}

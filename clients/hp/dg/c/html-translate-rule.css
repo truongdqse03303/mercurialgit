@@ -3,6 +3,11 @@
   dictionaries: "YUMERUN-NET_DIC YUMERUN-NET_TM CROSS_DIC CROSS_TM";
 }
 
+@engine yumerun-net/main {
+  eid: CR-JC;
+  dictionaries: "YUMERUN-NET_DIC_MASTER YUMERUN-NET_TM_MASTER";
+}
+
 body {
   attribute: lang add 'zh';
 }

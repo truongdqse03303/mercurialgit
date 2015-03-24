@@ -3,6 +3,11 @@
   dictionaries: "SUWA_DIC SUWA_TM CROSS_DIC CROSS_TM";
 }
 
+@engine suwa/main {
+  eid: CR-JC;
+  dictionaries: "SUWA_DIC_MASTER SUWA_TM_MASTER";
+}
+
 body {
   attribute: lang add 'zh';
 }

@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "ROKKASHO_DIC ROKKASHO_TM GOVT TOURISM INTERNET";
 }
+
+@engine rokkasho/main {
+  eid: CR-JE;
+  dictionaries: "ROKKASHO_DIC_MASTER ROKKASHO_TM_MASTER GOVT TOURISM";
+}

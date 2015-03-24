@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "K-KANKOU_DIC K-KANKOU_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@engine k-kankou/main {
+  eid: CR-JE;
+  dictionaries: "K-KANKOU_DIC_MASTER K-KANKOU_TM_MASTER GOVT TOURISM";
+}

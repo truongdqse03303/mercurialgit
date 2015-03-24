@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "KEIONET_DIC KEIONET_TM CROSS_TM";
 }
+
+@engine keionet/main {
+  eid: CR-JK;
+  dictionaries: "KEIONET_DIC_MASTER KEIONET_TM_MASTER";
+}

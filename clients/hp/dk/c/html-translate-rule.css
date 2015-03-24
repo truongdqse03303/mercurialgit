@@ -3,6 +3,11 @@
   dictionaries: "SHIMABARA_DIC SHIMABARA_TM CROSS_DIC CROSS_TM";
 }
 
+@engine shimabara/main {
+  eid: CR-JC;
+  dictionaries: "SHIMABARA_DIC_MASTER SHIMABARA_TM_MASTER";
+}
+
 body {
   attribute: lang add 'zh';
 }

@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "KYOTANGO_DIC KYOTANGO_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@engine kyotango/main {
+  eid: CR-JE;
+  dictionaries: "KYOTANGO_DIC_MASTER KYOTANGO_TM_MASTER GOVT TOURISM";
+}

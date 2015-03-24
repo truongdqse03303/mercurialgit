@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "ROKKASHO_DIC ROKKASHO_TM";
 }
+
+@engine rokkasho/main {
+  eid: CR-JK;
+  dictionaries: "ROKKASHO_DIC_MASTER ROKKASHO_TM_MASTER";
+}

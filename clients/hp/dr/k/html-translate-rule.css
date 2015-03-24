@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "AISEN_DIC AISEN_TM CROSS_TM";
 }
+
+@engine aisen/main {
+  eid: CR-JK;
+  dictionaries: "AISEN_DIC_MASTER AISEN_TM_MASTER";
+}

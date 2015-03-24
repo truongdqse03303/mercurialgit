@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "SAPPORO-DOME_DIC SAPPORO-DOME_TM CROSS_DIC CROSS_TM GOURMET INTERNET";
 }
+
+@engine sapporo-dome/main {
+  eid: CR-JE;
+  dictionaries: "SAPPORO-DOME_DIC_MASTER SAPPORO-DOME_TM_MASTER GOURMET";
+}

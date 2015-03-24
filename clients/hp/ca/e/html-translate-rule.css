@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "SUWA_DIC SUWA_TM CROSS_DIC CROSS_TM GOVT TOURISM GOURMET INTERNET";
 }
+
+@engine suwa/main {
+  eid: CR-JE;
+  dictionaries: "SUWA_DIC_MASTER SUWA_TM_MASTER GOVT TOURISM GOURMET";
+}

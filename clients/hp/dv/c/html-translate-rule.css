@@ -3,6 +3,11 @@
   dictionaries: "KIRINBEER-EN_DIC KIRINBEER-EN_TM CROSS_DIC CROSS_TM";
 }
 
+@engine kirinbeer-en/main {
+  eid: CR-JC;
+  dictionaries: "KIRINBEER-EN_DIC_MASTER KIRINBEER-EN_TM_MASTER";
+}
+
 body {
   attribute: lang add 'zh';
 }

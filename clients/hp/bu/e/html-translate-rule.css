@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "SHIKAOI_DIC SHIKAOI_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@engine shikaoi/main {
+  eid: CR-JE;
+  dictionaries: "SHIKAOI_DIC_MASTER SHIKAOI_TM_MASTER GOVT TOURISM";
+}

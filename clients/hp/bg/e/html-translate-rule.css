@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "NOMI_DIC NOMI_TM CROSS_DIC CROSS_TM INTERNET GOVT TOURISM";
 }
+
+@engine nomi/main {
+  eid: CR-JE;
+  dictionaries: "NOMI_DIC_MASTER NOMI_TM_MASTER GOVT TOURISM";
+}

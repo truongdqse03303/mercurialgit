@@ -2,3 +2,8 @@
   eid: BR-JA.DE.EN;
   dictionaries: "NANJOCITY_DIC NANJOCITY_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@engine nanjocity/main {
+  eid: BR-JA.DE.EN;
+  dictionaries: "NANJOCITY_DIC_MASTER NANJOCITY_TM_MASTER GOVT TOURISM";
+}

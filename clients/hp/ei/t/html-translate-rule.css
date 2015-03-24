@@ -3,6 +3,11 @@
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
 }
 
+@engine kirikoku/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+
 a[href="http://www.jhpds.net/kirishimakokusai/uw/uwp3100/uww3101.do?yadNo=322385"] {
   attribute: href rewrite "http://big5.tabimado.net/portal/bgmy/bg_reserve_05.main?f_no=18243";
 }

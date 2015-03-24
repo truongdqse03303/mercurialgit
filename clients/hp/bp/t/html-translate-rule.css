@@ -3,6 +3,11 @@
   dictionaries: "KEIONET_DIC KEIONET_TM CROSS_TM NETSHOP FASHION DEPART";
 }
 
+@engine keionet/main {
+  eid: CR-JCT;
+  dictionaries: "KEIONET_DIC_MASTER KEIONET_TM_MASTER NETSHOP FASHION DEPART";
+}
+
 body {
   attribute: style add "font-family:SimSun,arial,helvetica,clean,sans-serif;";
 }

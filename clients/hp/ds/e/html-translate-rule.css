@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "SHISUI_DIC SHISUI_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@engine shisui/main {
+  eid: CR-JE;
+  dictionaries: "SHISUI_DIC_MASTER SHISUI_TM_MASTER GOVT TOURISM";
+}

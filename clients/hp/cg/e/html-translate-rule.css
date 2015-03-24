@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "TAIKI_DIC TAIKI_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET SYSTEM AERO";
 }
+
+@engine taiki/main {
+  eid: CR-JE;
+  dictionaries: "TAIKI_DIC_MASTER TAIKI_TM_MASTER GOVT TOURISM SYSTEM AERO";
+}

@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "SUWA_DIC SUWA_TM CROSS_TM";
 }
+
+@engine suwa/main {
+  eid: CR-JK;
+  dictionaries: "SUWA_DIC_MASTER SUWA_TM_MASTER";
+}

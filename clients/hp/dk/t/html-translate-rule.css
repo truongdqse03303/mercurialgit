@@ -2,3 +2,8 @@
   eid: CR-JCT;
   dictionaries: "SHIMABARA_DIC SHIMABARA_TM CROSS_DIC CROSS_TM";
 }
+
+@engine shimabara/main {
+  eid: CR-JCT;
+  dictionaries: "SHIMABARA_DIC_MASTER SHIMABARA_TM_MASTER";
+}

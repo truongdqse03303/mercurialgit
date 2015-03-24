@@ -3,6 +3,11 @@
   dictionaries: "SHISUI_DIC SHISUI_TM CROSS_DIC CROSS_TM";
 }
 
+@engine shisui/main {
+  eid: CR-JC;
+  dictionaries: "SHISUI_DIC_MASTER SHISUI_TM_MASTER";
+}
+
 body {
   attribute: lang add 'zh';
 }

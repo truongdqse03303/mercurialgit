@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "TOKONAME_DIC TOKONAME_TM GOVT TOURISM INTERNET";
 }
+
+@engine tokoname/main {
+  eid: CR-JE;
+  dictionaries: "TOKONAME_DIC_MASTER TOKONAME_TM_MASTER GOVT TOURISM";
+}

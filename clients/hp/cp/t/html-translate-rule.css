@@ -2,3 +2,8 @@
   eid: CR-JCT;
   dictionaries: "SHIMIZU-KANKOU_DIC SHIMIZU-KANKOU_TM CROSS_DIC CROSS_TM";
 }
+
+@engine shimizu-kankou/main {
+  eid: CR-JCT;
+  dictionaries: "SHIMIZU-KANKOU_DIC_MASTER SHIMIZU-KANKOU_TM_MASTER";
+}

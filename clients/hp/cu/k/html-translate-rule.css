@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "HIRAKATA_DIC HIRAKATA_TM CROSS_TM";
 }
+
+@engine hirakata/main {
+  eid: CR-JK;
+  dictionaries: "HIRAKATA_DIC_MASTER HIRAKATA_TM_MASTER";
+}

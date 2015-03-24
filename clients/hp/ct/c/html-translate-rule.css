@@ -3,6 +3,12 @@
   dictionaries: "MINAMIAWAJI_DIC MINAMIAWAJI_TM CROSS_DIC CROSS_TM";
 }
 
+@engine minamiawaji/main {
+  eid: CR-JC;
+  dictionaries: "MINAMIAWAJI_DIC_MASTER MINAMIAWAJI_TM_MASTER";
+}
+
+
 body {
   attribute: lang add 'zh';
 }

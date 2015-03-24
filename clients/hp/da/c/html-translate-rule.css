@@ -3,6 +3,12 @@
   dictionaries: "FUKUYAMA_DIC FUKUYAMA_TM CROSS_DIC CROSS_TM";
 }
 
+@engine fukuyama/main {
+  eid: CR-JC;
+  dictionaries: "FUKUYAMA_DIC_MASTER FUKUYAMA_TM_MASTER";
+}
+
+
 body {
   attribute: lang add 'zh';
 }

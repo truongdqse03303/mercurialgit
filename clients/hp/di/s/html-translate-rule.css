@@ -2,3 +2,8 @@
   eid: BR-JA.ES.EN;
   dictionaries: "HIRATSUKA_DIC HIRATSUKA_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@engine hiratsuka/main {
+  eid: BR-JA.ES.EN;
+  dictionaries: "HIRATSUKA_DIC_MASTER HIRATSUKA_TM_MASTER GOVT TOURISM";
+}

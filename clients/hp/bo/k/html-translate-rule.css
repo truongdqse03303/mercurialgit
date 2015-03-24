@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "SAKURA_DIC SAKURA_TM CROSS_TM";
 }
+
+@engine tochigi-sakura/main {
+  eid: CR-JK;
+  dictionaries: "SAKURA_DIC_MASTER SAKURA_TM_MASTER";
+}

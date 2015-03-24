@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "KITANOHOSHI_DIC KITANOHOSHI_TM CROSS_DIC CROSS_TM TOURISM INTERNET";
 }
+
+@engine kitanohoshi/main {
+  eid: CR-JE;
+  dictionaries: "KITANOHOSHI_DIC_MASTER KITANOHOSHI_TM_MASTER TOURISM";
+}

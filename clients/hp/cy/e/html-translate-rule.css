@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "SAMMU_DIC SAMMU_TM CROSS_DIC CROSS_TM GOVT INTERNET";
 }
+
+@engine sammu/main {
+  eid: CR-JE;
+  dictionaries: "SAMMU_DIC_MASTER SAMMU_TM_MASTER GOVT";
+}

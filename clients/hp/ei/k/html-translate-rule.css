@@ -3,6 +3,11 @@
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
 }
 
+@engine kirikoku/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+
 a[href="http://www.jhpds.net/kirishimakokusai/uw/uwp3100/uww3101.do?yadNo=322385"] {
   attribute: href rewrite "http://www.travel.rakuten.co.kr/hotelinfo/43/18243/";
 }

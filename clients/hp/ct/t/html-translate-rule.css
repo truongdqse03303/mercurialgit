@@ -2,3 +2,8 @@
   eid: CR-JCT;
   dictionaries: "MINAMIAWAJI_DIC MINAMIAWAJI_TM CROSS_DIC CROSS_TM";
 }
+
+@engine minamiawaji/main {
+  eid: CR-JCT;
+  dictionaries: "MINAMIAWAJI_DIC_MASTER MINAMIAWAJI_TM_MASTER";
+}

@@ -2,3 +2,8 @@
   eid: CR-JCT;
   dictionaries: "KOSHI_DIC KOSHI_TM CROSS_DIC CROSS_TM";
 }
+
+@engine koshi/main {
+  eid: CR-JCT;
+  dictionaries: "KOSHI_DIC_MASTER KOSHI_TM_MASTER";
+}

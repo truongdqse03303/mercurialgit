@@ -2,3 +2,8 @@
   eid: CR-JC;
   dictionaries: "KUROBE_TM KUROBE_DIC CROSS_DIC CROSS_TM";
 }
+
+@engine kurobe/main {
+  eid: CR-JC;
+  dictionaries: "KUROBE_TM_MASTER KUROBE_DIC_MASTER";
+}

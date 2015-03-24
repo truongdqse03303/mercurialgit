@@ -3,6 +3,11 @@
   dictionaries: "KANIE_DIC KANIE_TM CROSS_DIC CROSS_TM";
 }
 
+@engine kanie/main {
+  eid: CR-JC;
+  dictionaries: "KANIE_DIC_MASTER KANIE_TM_MASTER";
+}
+
 body {
   attribute: lang add 'zh';
 }

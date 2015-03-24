@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "NANJOCITY_DIC NANJOCITY_TM CROSS_TM";
 }
+
+@engine nanjocity/main {
+  eid: CR-JK;
+  dictionaries: "NANJOCITY_DIC_MASTER NANJOCITY_TM_MASTER";
+}

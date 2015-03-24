@@ -3,6 +3,11 @@
   dictionaries: "TOKYO23-SEISOU_DIC TOKYO23-SEISOU_TM CROSS_DIC CROSS_TM";
 }
 
+@engine tokyo23-seisou/main {
+  eid: CR-JC;
+  dictionaries: "TOKYO23-SEISOU_DIC_MASTER TOKYO23-SEISOU_TM_MASTER";
+}
+
 body {
   attribute: lang add 'zh';
 }

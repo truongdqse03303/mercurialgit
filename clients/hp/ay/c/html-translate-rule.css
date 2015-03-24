@@ -2,3 +2,8 @@
   eid: CR-JC;
   dictionaries: "ISHIKAWA-RYOKANHOTEL_DIC ISHIKAWA-RYOKANHOTEL_TM";
 }
+
+@engine ishikawa-ryokanhotel/main {
+  eid: CR-JC;
+  dictionaries: "ISHIKAWA-RYOKANHOTEL_DIC_MASTER ISHIKAWA-RYOKANHOTEL_TM_MASTER";
+}

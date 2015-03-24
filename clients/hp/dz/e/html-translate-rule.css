@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "SHIMAMOTOCHO_DIC SHIMAMOTOCHO_TM CROSS_DIC CROSS_TM GOVT INTERNET";
 }
+
+@engine shimamotocho/main {
+  eid: CR-JE;
+  dictionaries: "SHIMAMOTOCHO_DIC_MASTER SHIMAMOTOCHO_TM_MASTER GOVT";
+}

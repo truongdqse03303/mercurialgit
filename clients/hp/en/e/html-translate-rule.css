@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@engine cs-kitahiroshima/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT TOURISM";
+}

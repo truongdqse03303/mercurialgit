@@ -3,6 +3,11 @@
   dictionaries: "BOUSAI-HIROSHIMA_DIC BOUSAI-HIROSHIMA_TM CROSS_TM";
 }
 
+@engine bousai-hiroshima/main {
+  eid: CR-JK;
+  dictionaries: "BOUSAI-HIROSHIMA_DIC_MASTER BOUSAI-HIROSHIMA_TM_MASTER";
+}
+
 link[type="text/css"][href] {
   attribute: href rewrite "@RewriteStyleSheetLocation";
 }

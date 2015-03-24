@@ -2,3 +2,8 @@
   eid: CR-JK;
   dictionaries: "AWAJI_DIC AWAJI_TM CROSS_TM";
 }
+
+@engine awaji/main {
+  eid: CR-JK;
+  dictionaries: "AWAJI_DIC_MASTER AWAJI_TM_MASTER";
+}

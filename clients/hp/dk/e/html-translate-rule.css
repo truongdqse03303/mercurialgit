@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "SHIMABARA_DIC SHIMABARA_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
 }
+
+@engine shimabara/main {
+  eid: CR-JE;
+  dictionaries: "SHIMABARA_DIC_MASTER SHIMABARA_TM_MASTER GOVT TOURISM";
+}

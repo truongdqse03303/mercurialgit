@@ -2,3 +2,8 @@
   eid: CR-JE;
   dictionaries: "TOKYO23-SEISOU_DIC TOKYO23-SEISOU_TM CROSS_DIC CROSS_TM GOVT INTERNET";
 }
+
+@engine tokyo23-seisou/main {
+  eid: CR-JE;
+  dictionaries: "TOKYO23-SEISOU_DIC_MASTER TOKYO23-SEISOU_TM_MASTER GOVT";
+}
