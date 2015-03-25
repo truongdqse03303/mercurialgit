@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>輪島市役所</name>
-  
+  <name>輪島ナビ</name>
+
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>wajimanavi/wajimanavi01 88e886866650c3f18a018b41296dffbe19f98f52</licence>
-  
+  <licence>wajimanavi/service eb13533dcf9e16d811ad094b6e49a3d194c11f51</licence>
+
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="wajimanavi.lg.jp" />

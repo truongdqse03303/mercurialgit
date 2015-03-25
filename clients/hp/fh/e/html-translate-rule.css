@@ -1,10 +1,14 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "WAJIMANAVI_DIC WAJIMANAVI_TM GOVT TOURISM INTERNET";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET INTERNET";
 }
-@engine wajimanavi/wajimanavi02 {
+@engine wajimanavi/main {
   eid: CR-JE;
-  dictionaries: "WAJIMANAVI_DIC_MASTER WAJIMANAVI_TM_MASTER GOVT TOURISM";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
+}
+@engine wajimanavi/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
 
 // @RULESET

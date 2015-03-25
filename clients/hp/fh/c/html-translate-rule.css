@@ -1,10 +1,14 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "WAJIMANAVI_DIC WAJIMANAVI_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT";
 }
-@engine wajimanavi/wajimanavi02 {
+@engine wajimanavi/main {
   eid: CR-JC;
-  dictionaries: "WAJIMANAVI_DIC_MASTER WAJIMANAVI_TM_MASTER";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
+}
+@engine wajimanavi/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
 
 body {
