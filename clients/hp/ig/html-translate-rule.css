@@ -1,5 +1,0 @@
-// @RULESET
-// URL $= /wcore/index.htm
-#cse-search-box div.FL_R {
-  attribute: style set 'white-space: nowrap;';
-}

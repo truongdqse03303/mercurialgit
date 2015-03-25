@@ -1,9 +1,0 @@
-@engine default {
-  eid: CR-JE;
-  dictionaries: "STATRAVEL_DIC STATRAVEL_TM CROSS_DIC CROSS_TM TOURISM INTERNET";
-}
-
-@engine statravel/main {
-  eid: CR-JE;
-  dictionaries: "STATRAVEL_DIC_MASTER STATRAVEL_TM_MASTER TOURISM";
-}

@@ -1,9 +1,0 @@
-@engine default {
-  eid: CR-JK;
-  dictionaries: "YOYAKUNAVI_DIC YOYAKUNAVI_TM CROSS_TM";
-}
-
-@engine yoyakunavi/main {
-  eid: CR-JK;
-  dictionaries: "YOYAKUNAVI_DIC_MASTER YOYAKUNAVI_TM_MASTER";
-}
