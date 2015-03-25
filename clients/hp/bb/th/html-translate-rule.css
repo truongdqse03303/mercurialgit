@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JATH;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine cross/demo {
+  eid: MS-JATH;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine cross/test {
+  eid: MS-JATH;
+  dictionaries: "CROSS_TM_MASTER";
+}

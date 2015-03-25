@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine cross/demo {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine cross/test {
+  eid: MS-JAVI;
+  dictionaries: "CROSS_TM_MASTER";
+}
