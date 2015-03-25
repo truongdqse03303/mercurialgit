@@ -16,11 +16,11 @@
       </path-list>
     </request>
     <request hostname="shop3.genesis-ec.com">
-      <path-list resource="false">
-        <path value="/[^?]+\?(?:.+&amp;)?shopcd=17302(?:&amp;.+)?$" />
-        <path value="/17302/css/.+\.(?:css|js|html)" />
-      </path-list>
-    </request>
+      <!--<path-list resource="false">-->
+        <!--<path value="/[^?]+\?(?:.+&amp;)?shopcd=17302(?:&amp;.+)?$" />-->
+        <!--<path value="/17302/css/.+\.(?:css|js|html)" />-->
+      <!--</path-list>-->
+     </request>
     <request hostname="ec.mic21.com" />
     <request hostname="blog.mic21.com" />
   </request-list>
@@ -51,8 +51,7 @@
     <param>
       <param-name>resource.url.pattern</param-name>
       <param-value>^(http://www\.tos-asp\.jp/agent/mic21/js/search\?type=tour.+|http://shop3\.genesis-ec\.com/ranking/Ranking\.asp\?shopcd=17302)</param-value>
-      
-    </param>
+          </param>
      <param>
       <param-name>resource.type.name</param-name>
       <param-value>JAVASCRIPT</param-value>
