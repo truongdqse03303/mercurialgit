@@ -1,4 +1,12 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "WJR-ISETAN_DIC WJR-ISETAN_TM FASHION BEAUTY SPORTS";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION SPORTS INTERNET";
+}
+@engine wjr-isetan/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION SPORTS";
+}
+@engine wjr-isetan/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION SPORTS";
 }

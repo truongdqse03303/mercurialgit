@@ -1,8 +1,12 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "TAGAWA_DIC TAGAWA_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
 }
-@engine tagawa/tagawa02 {
+@engine tagawa/main {
   eid: CR-JK;
-  dictionaries: "TAGAWA_DIC_MASTER TAGAWA_TM_MASTER";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine tagawa/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
 }

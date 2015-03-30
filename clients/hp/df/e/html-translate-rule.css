@@ -1,9 +1,12 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "YPDC_DIC YPDC_TM GOVT INTERNET SYSTEM OCEAN";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM SYSTEM OCEAN INTERNET";
 }
-
-@engine ypdc/ypdc02 {
+@engine ypdc/main {
   eid: CR-JE;
-  dictionaries: "YPDC_DIC_MASTER YPDC_TM_MASTER GOVT INTERNET SYSTEM OCEAN";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER SYSTEM OCEAN";
+}
+@engine ypdc/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM OCEAN";
 }

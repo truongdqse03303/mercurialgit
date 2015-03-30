@@ -1,8 +1,12 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "KODAIRA_DIC KODAIRA_TM GOVT SPORTS INTERNET";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET INTERNET";
 }
-@engine kodaira/kodaira02 {
+@engine kodaira/main {
   eid: CR-JE;
-  dictionaries: "KODAIRA_DIC_MASTER KODAIRA_TM_MASTER GOVT SPORTS";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
+}
+@engine kodaira/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }

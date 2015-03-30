@@ -2,13 +2,15 @@
 <client-settings>
   <!-- クライアント名（任意） -->
   <name>大垣市役所</name>
-  
-  <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>ogaki/ogaki01 3310d593aa8248c19e8712ec60131c0294a34707</licence>
 
-  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ogaki/service d8f0ab4bd659b02be8816a56a093a3cab361d970</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.ogaki.lg.jp" />
   </request-list>
 
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
 </client-settings>

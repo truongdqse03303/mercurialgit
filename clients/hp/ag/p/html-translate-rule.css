@@ -1,8 +1,12 @@
 @engine default {
   eid: BR-JA.PT.EN;
-  dictionaries: "KARIYA_TM KARIYA_DIC GOVT TOURISM INTERNET";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET";
 }
-@engine kariya/kariya02 {
+@engine kariya/main {
   eid: BR-JA.PT.EN;
-  dictionaries: "KARIYA_TM_MASTER KARIYA_DIC_MASTER GOVT TOURISM";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
+}
+@engine kariya/cross {
+  eid: BR-JA.PT.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }

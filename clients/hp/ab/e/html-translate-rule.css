@@ -1,4 +1,12 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "OGAKI_DIC OGAKI_TM GOVT TOURISM INTERNET";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET INTERNET";
+}
+@engine ogaki/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
+}
+@engine ogaki/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }

@@ -1,6 +1,14 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "WJR-ISETAN_DIC WJR-ISETAN_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION";
+}
+@engine wjr-isetan/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION";
+}
+@engine wjr-isetan/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
 
 body {

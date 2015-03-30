@@ -1,8 +1,16 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "TAGAWA_DIC TAGAWA_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT";
 }
-@engine tagawa/tagawa02 {
+@engine tagawa/main {
   eid: CR-JC;
-  dictionaries: "TAGAWA_DIC_MASTER TAGAWA_TM_MASTER";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
+}
+@engine tagawa/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
+}
+
+body {
+  attribute: lang add 'zh';
 }

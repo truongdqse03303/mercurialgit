@@ -2,10 +2,10 @@
 <client-settings>
   <!-- クライアント名（任意） -->
   <name>JR西日本伊勢丹京都店</name>
-  
+
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>wjr-isetan-kyoto/wjr-isetan-kyoto01 d3adfc58b15302f678d6ca433c259287e1271d93</licence>
-  
+  <licence>wjr-isetan-kyoto/service c72787627f80dcb0a856ac238510948d71d73822</licence>
+
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="kyoto.wjr-isetan.co.jp" />

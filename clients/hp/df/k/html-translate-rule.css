@@ -1,9 +1,12 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "YPDC_DIC YPDC_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
 }
-
-@engine ypdc/ypdc02 {
+@engine ypdc/main {
   eid: CR-JK;
-  dictionaries: "YPDC_DIC_MASTER YPDC_TM_MASTER";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine ypdc/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
 }

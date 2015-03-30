@@ -1,8 +1,12 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "KODAIRA_DIC KODAIRA_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
 }
-@engine kodaira/kodaira02 {
+@engine kodaira/main {
   eid: CR-JK;
-  dictionaries: "KODAIRA_DIC_MASTER KODAIRA_TM_MASTER";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine kodaira/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
 }

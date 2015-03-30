@@ -1,8 +1,12 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "ISETAN-KYOTO_DIC ISETAN-KYOTO_TM DEPART FASHION GOURMET INTERNET";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOURMET INTERNET";
 }
-@engine wjr-isetan-kyoto/wjr-isetan-kyoto02 {
+@engine wjr-isetan-kyoto/main {
   eid: CR-JE;
-  dictionaries: "ISETAN-KYOTO_DIC_MASTER ISETAN-KYOTO_TM_MASTER FASHION GOURMET";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOURMET";
+}
+@engine wjr-isetan-kyoto/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOURMET";
 }

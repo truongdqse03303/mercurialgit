@@ -1,4 +1,12 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "WJR-ISETAN_DIC WJR-ISETAN_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine wjr-isetan/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine wjr-isetan/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
 }

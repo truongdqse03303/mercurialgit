@@ -2,11 +2,11 @@
 <client-settings>
   <!-- クライアント名（任意） -->
   <name>JR大阪三越伊勢丹</name>
-  
-  <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>wjr-isetan/osaka01 d30278dff70cc0fbda726d2194e6f488a88abc5f</licence>
 
-  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>wjr-isetan/service e7199eaaa004338be1a8fbb55ac5a62a6664c778</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="osaka.wjr-isetan.co.jp" />
   </request-list>

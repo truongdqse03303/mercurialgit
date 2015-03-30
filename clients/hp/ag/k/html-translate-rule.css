@@ -1,8 +1,12 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "KARIYA_TM KARIYA_DIC";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
 }
-@engine kariya/kariya02 {
+@engine kariya/main {
   eid: CR-JK;
-  dictionaries: "KARIYA_TM_MASTER KARIYA_DIC_MASTER";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine kariya/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
 }

@@ -1,4 +1,12 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "MUSASHINO_DIC MUSASHINO_TM GOVT SPORTS INTERNET";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT SPORTS INTERNET";
+}
+@engine musashino/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT SPORTS";
+}
+@engine musashino/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT SPORTS";
 }

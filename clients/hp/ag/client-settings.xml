@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>刈谷市</name>
-  
-  <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>kariya/kariya01 f54737ded70ca8deecd602f52f3bf440c4a13e1f</licence>
+  <name>刈谷市役所</name>
 
-  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kariya/service 662b5d4740e4150ed0267966f030084b5feea2f8</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.kariya.lg.jp" />
     <!-- Googleサイト内検索 -->

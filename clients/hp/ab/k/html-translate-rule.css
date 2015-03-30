@@ -1,4 +1,12 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "OGAKI_DIC OGAKI_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine ogaki/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine ogaki/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
 }

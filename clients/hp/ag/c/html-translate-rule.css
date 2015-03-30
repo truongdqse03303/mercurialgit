@@ -1,8 +1,16 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "KARIYA_TM KARIYA_DIC";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT";
 }
-@engine kariya/kariya02 {
+@engine kariya/main {
   eid: CR-JC;
-  dictionaries: "KARIYA_TM_MASTER KARIYA_DIC_MASTER";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
+}
+@engine kariya/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
+}
+
+body {
+  attribute: lang add 'zh';
 }

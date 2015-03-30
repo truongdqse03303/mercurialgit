@@ -1,8 +1,12 @@
 @engine default {
   eid: CR-JE;
-  dictionaries: "TAGAWA_DIC TAGAWA_TM GOVT TOURISM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET INTERNET";
 }
-@engine tagawa/tagawa02 {
+@engine tagawa/main {
   eid: CR-JE;
-  dictionaries: "TAGAWA_DIC_MASTER TAGAWA_TM_MASTER GOVT TOURISM";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
+}
+@engine tagawa/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }

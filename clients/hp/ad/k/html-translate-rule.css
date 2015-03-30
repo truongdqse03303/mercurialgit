@@ -1,4 +1,12 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "MUSASHINO_DIC MUSASHINO_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine musashino/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine musashino/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
 }

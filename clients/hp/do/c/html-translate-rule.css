@@ -1,10 +1,14 @@
 @engine default {
   eid: CR-JC;
-  dictionaries: "ISETAN-KYOTO_DIC ISETAN-KYOTO_TM NETSHOP FASHION DEPART";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
 }
-@engine wjr-isetan-kyoto/wjr-isetan-kyoto02 {
+@engine wjr-isetan-kyoto/main {
   eid: CR-JC;
-  dictionaries: "ISETAN-KYOTO_DIC_MASTER ISETAN-KYOTO_TM_MASTER NETSHOP FASHION";
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine wjr-isetan-kyoto/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
 
 body {

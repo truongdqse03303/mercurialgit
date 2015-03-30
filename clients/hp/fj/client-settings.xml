@@ -2,10 +2,10 @@
 <client-settings>
   <!-- クライアント名（任意） -->
   <name>小平市役所</name>
-  
+
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>kodaira/kodaira01 2c75ed742fae3df2816ce09de953ff20b350cc5e</licence>
-  
+  <licence>kodaira/service 1b0ec787024b6c767436fafdfc042a14002da268</licence>
+
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.kodaira.tokyo.jp" />
