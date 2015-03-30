@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "WJR-ISETAN_DIC WJR-ISETAN_TM";
+}

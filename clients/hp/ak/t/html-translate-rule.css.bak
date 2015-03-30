@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "TAGAWA_DIC TAGAWA_TM";
+}
+@engine tagawa/tagawa02 {
+  eid: CR-JCT;
+  dictionaries: "TAGAWA_DIC_MASTER TAGAWA_TM_MASTER";
+}

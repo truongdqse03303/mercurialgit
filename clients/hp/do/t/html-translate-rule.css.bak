@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "ISETAN-KYOTO_DIC ISETAN-KYOTO_TM NETSHOP FASHION DEPART";
+}
+@engine wjr-isetan-kyoto/wjr-isetan-kyoto02 {
+  eid: CR-JCT;
+  dictionaries: "ISETAN-KYOTO_DIC_MASTER ISETAN-KYOTO_TM_MASTER NETSHOP FASHION";
+}

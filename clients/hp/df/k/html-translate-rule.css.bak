@@ -1,0 +1,9 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "YPDC_DIC YPDC_TM";
+}
+
+@engine ypdc/ypdc02 {
+  eid: CR-JK;
+  dictionaries: "YPDC_DIC_MASTER YPDC_TM_MASTER";
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>田川市役所</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tagawa/tagawa01 191c8ab7d3c83309994a21866e074de0ca24c19d</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="www.joho.tagawa.fukuoka.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <charset>utf-8</charset>
+</client-settings>

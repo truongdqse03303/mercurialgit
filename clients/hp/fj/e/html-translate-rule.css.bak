@@ -1,0 +1,8 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "KODAIRA_DIC KODAIRA_TM GOVT SPORTS INTERNET";
+}
+@engine kodaira/kodaira02 {
+  eid: CR-JE;
+  dictionaries: "KODAIRA_DIC_MASTER KODAIRA_TM_MASTER GOVT SPORTS";
+}

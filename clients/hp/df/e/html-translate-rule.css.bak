@@ -1,0 +1,9 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "YPDC_DIC YPDC_TM GOVT INTERNET SYSTEM OCEAN";
+}
+
+@engine ypdc/ypdc02 {
+  eid: CR-JE;
+  dictionaries: "YPDC_DIC_MASTER YPDC_TM_MASTER GOVT INTERNET SYSTEM OCEAN";
+}

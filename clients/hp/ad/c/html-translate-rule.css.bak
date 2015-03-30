@@ -1,0 +1,4 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "MUSASHINO_DIC MUSASHINO_TM";
+}

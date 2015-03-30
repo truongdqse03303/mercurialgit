@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>JR大阪三越伊勢丹</name>
+  
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>wjr-isetan/osaka01 d30278dff70cc0fbda726d2194e6f488a88abc5f</licence>
+
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+  <request-list>
+    <request hostname="osaka.wjr-isetan.co.jp" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+    <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>http://osaka\.wjr-isetan\.co\.jp/restaurant/.*</url>
+  </url-list>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>shift_jis</charset>
+</client-settings>
