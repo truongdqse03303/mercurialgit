@@ -1,4 +1,16 @@
 // @RULESET
+// URL #= http://ec.mic21.com/.*
+@preprocess{
+replace: 'UA-655753-6' 'UA-655753-10';
+}
+
+// @RULESET
+// URL #= http://www.mic21.com/.*
+@preprocess{
+replace: 'UA-655753-1' 'UA-655753-11';
+}
+
+// @RULESET
 // URL ^= http://shop3.genesis-ec.com/search/search.asp
 form[name="FrmMenu2"] {
   attribute: method rewrite "GET";
