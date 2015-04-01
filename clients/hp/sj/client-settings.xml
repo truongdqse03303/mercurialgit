@@ -8,8 +8,8 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="*.city.yokohama.lg.jp" />
-    <request hostname="*.city.yokohama.jp" />
+    <request hostname="[^/]+\.city\.yokohama\.lg\.jp" />
+    <request hostname="[^/]+\.city\.yokohama\.jp" />
   </request-list>
   
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
