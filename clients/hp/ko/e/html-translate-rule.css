@@ -15,8 +15,12 @@
   replace: '(In the times of rapid changes, the Core Group suggests new values and leads the innovation of all )<br />' '$1';
 }
 
+ul#global_nav {
+  attribute: style add 'width: 840px;';
+}
+
 ul#global_nav > li {
-  attribute: style add 'line-height: 20px;';
+  attribute: style add 'width: 120px; line-height: 20px;';
 }
 
 // @RULESET
