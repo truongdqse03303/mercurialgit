@@ -4,7 +4,7 @@
   <name>大垣市役所</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>ogaki/service d8f0ab4bd659b02be8816a56a093a3cab361d970</licence>
+  <licence>ogaki/service 347a5b0d7c0992ba0ce710bc9fcd275547d1f26b</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
