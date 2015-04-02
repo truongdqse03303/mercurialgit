@@ -11,16 +11,16 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM ELEC COMPUTER";
 }
 
-@postprocess {
-  replace: '(In the times of rapid changes, the Core Group suggests new values and leads the innovation of all )<br />' '$1';
-}
-
-ul#global_nav {
-  attribute: style add 'width: 840px;';
-}
-
 ul#global_nav > li {
   attribute: style add 'width: 120px; line-height: 20px;';
+}
+
+@postprocess {
+  replace: '(In the times of rapid changes, the Core Group suggests new values and leads the innovation of all )<br />' '$1';
+  replace: 'Advanced tec<span>hnology Advanced Technology</span>' 'Advanced technology<span>Advanced Technology</span>';
+  replace: '(<li) style="width: 120px; line-height: 20px;"(><!--cltx--><a href="index\.php">)' '$1$2';
+  replace: '(<li) style="width: 120px; line-height: 20px;"(><!--cltx--><a href="si/index\.html">)' '$1$2';
+  replace: '(<li style="width:) 120px; (line-height: 20px;"><!--cltx--><a href="ir/index\.php">)' '$1 170px; $2';
 }
 
 // @RULESET
