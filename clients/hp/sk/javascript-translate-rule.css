@@ -1,0 +1,21 @@
+// @RULESET
+// URL =http://www.takayama-gh.com/js/top.js
+@preprocess {
+  replace: "(\.text\\('(もっと見る|閉じる)'\\);)" "$1\nobj.contents().filter(function(){return this.nodeType==8;}).remove();\nobj.removeAttr('clftx');";
+}
+
+// @RULESET
+// URL =http://www.takayama-gh.com/js/food.js
+@preprocess {
+  replace: "(\\('li', '#viThumb\\))\.hover\\(" "$1.live('hover', ";
+  replace: "(\\('table', '\.comment'\\)).*?\.hover\\(" "$1.live('hover', ";
+  replace: "(\\('#prevBtn'\\))\.click\\(function" "$1.live('click', function";
+  replace: "(\\('#nextBtn'\\))\.click\\(function" "$1.live('click', function";
+}
+
+// @RULESET
+// URL =http://www.takayama-gh.com/js/plan.js
+@preprocess {
+  replace: "(\\$item\.find\\('\.info \.price strong'\\)\.text\\(p\.price_type\\);)" "\$item.find('.info .price').contents().filter(function(){return this.nodeType==8;}).remove();\n$1";
+  replace: "(\\$item\.find\\('\.btn li:first-child a:first-child'\\)\.attr\\('href', p\.url_detail\\);)" "\$item.find('.btn li').contents().filter(function(){return this.nodeType==8;}).remove();\n\$item.find('.btn li').removeAttr('clftx');\n$1";
+}
