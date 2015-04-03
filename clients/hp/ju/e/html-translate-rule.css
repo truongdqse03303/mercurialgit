@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
 
+@preprocess {
+  replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+}
+
 // @RULESET
 // URL #=http://www.apahotel.com/language/.+/tokyobay-makuhari/
 @preprocess {
