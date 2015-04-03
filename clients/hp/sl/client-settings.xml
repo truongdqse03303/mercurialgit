@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>大東市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-daito/service f2a6dd02279ba1c821848de090a84aa836b1700a</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.daito.lg.jp" />
+    <request hostname="paa.jp" path="/t/130201/" />
+    <request hostname="www.higashiosaka-toshiseisou.or.jp" />
+    <request hostname="www.iimorireienkumiai.shijonawate.osaka.jp" />
+    <request hostname="saikibyouji.ec-net.jp" />
+    <request hostname="www.ysdnet.ne.jp" />
+    <request hostname="daitokids.net" />
+    <request hostname="www.syakyo-daito.jp" />
+    <request hostname="www.daito-across.jp" />
+    <request hostname="daito.gijiroku.com" path="/gikai/" />
+    <request hostname="ed.city.daito.osaka.jp" />
+    <request hostname="www.kitakawachi-yakan-qq.com" />
+    <request hostname="www.librarydaito.jp" />
+    <request hostname="www.mono-daito.jp" />
+  </request-list>
+
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
