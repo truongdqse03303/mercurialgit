@@ -10,3 +10,13 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+@preprocess {
+  replace: '\\(月\\)' '(Mon)';
+  replace: '\\(火\\)' '(Tue)';
+  replace: '\\(水\\)' '(Wed)';
+  replace: '\\(木\\)' '(Thu)';
+  replace: '\\(金\\)' '(Fri)';
+  replace: '\\(土\\)' '(Sat)';
+  replace: '\\(日\\)' '(Sun)';
+}
