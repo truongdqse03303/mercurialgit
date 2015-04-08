@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>栃木県庁</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tochigi/service 28a753889535f86f8b8df77cb9fd284fb1a55ec5</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.pref.tochigi.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
