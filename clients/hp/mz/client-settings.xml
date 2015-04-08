@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.fujisawa-kanko.jp" />
+    <request hostname="dokopura.jp" path="/fujisawa/.*" />
   </request-list>
   
   <!-- 使用する設定IDの一覧 -->

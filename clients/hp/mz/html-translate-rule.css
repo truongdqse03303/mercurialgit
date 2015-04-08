@@ -1,0 +1,4 @@
+form[action="list.php"] {
+  attribute: accept-charset add "EUC-JP";
+  attribute: onclick add "document.charset='EUC-JP';";
+}
