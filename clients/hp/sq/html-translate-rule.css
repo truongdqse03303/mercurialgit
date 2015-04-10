@@ -1,4 +1,4 @@
-div#searchArea, div#searchAreaS {
+div#searchArea, div#searchAreaS, div#inc_tweet_wrap {
   attribute: cltx add 'include';
 }
 
