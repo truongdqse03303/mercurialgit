@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.lumine.ne.jp/common/js/inc_globalside.js
+@preprocess {
+  replace: '(\\$\\("a\.modal"\\))\.(click)\\((function)' '$1.live("$2", $3';
+}

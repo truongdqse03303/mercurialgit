@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.kise-beachpalace.jp/js/jquery/jquery.ui.datepicker.js
+@preprocess {
+  replace: '(class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible")' '$1 cltx="include"';
+}

@@ -1,0 +1,7 @@
+div#searchArea, div#searchAreaS {
+  attribute: cltx add 'include';
+}
+
+@preprocess {
+  replace: '(mode=a)&(lang)' '$1&amp;$2';
+}

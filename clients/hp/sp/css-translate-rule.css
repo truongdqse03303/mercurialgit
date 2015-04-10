@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.kise-beachpalace.jp/css/common2.css
+@preprocess {
+  replace: '(url\\("\.\./img/bg_body_w\.gif"\\) repeat-x left) top;' '$1 26px;';
+}
