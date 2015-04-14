@@ -11,6 +11,9 @@
     <request hostname="www.csa.gr.jp" />
   </request-list>
   
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
   <extension-param>
    <param-name>default.fragment.translate</param-name>
