@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社フラッグス</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>flagsweb/service a8993b6bbad513f917f80481076bd2c11f12d121</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.flagsweb.jp" />
+  </request-list>
+  
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+  </extension-param>
+  
+  <!-- 免責事項を指定の場所に表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>body</param-value>
+  </extension-param>
+  
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-message{width:auto !important; color:#ffffff !important; background-color:#000000 !important;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

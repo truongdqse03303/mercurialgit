@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION HOBBY TOURISM INTERNET";
+}
+@engine flagsweb/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION HOBBY TOURISM";
+}
+@engine flagsweb/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION HOBBY TOURISM";
+}

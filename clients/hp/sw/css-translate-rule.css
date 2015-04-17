@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.flagsweb.jp/sp/css/common.css
+@preprocess {
+  replace: '(#header.*?)height: 53px;' '$1';
+}
