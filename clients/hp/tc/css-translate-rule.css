@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://izufull.com/style/default.css
+@preprocess {
+  replace: '(url\\(\.\./image/head_main_back\.png\\) no-repeat top center;)' '$1 background-position-y: 27px;';
+}

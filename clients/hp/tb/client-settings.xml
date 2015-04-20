@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>グレイス沖縄</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>graceokinawa/service c4702727facacd25d0fc884c579fac53318df020</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.graceokinawa.com" />
+  </request-list>
+  
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
