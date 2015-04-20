@@ -11,6 +11,12 @@
     <request hostname="www.first-cabin.jp" />
   </request-list>
   
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>th,v,id</param-value>
+  </extension-param>
+  
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 

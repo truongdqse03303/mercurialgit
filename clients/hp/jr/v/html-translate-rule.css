@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine first-cabin/main {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine first-cabin/cross {
+  eid: MS-JAVI;
+  dictionaries: "CROSS_TM_MASTER";
+}
