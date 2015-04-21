@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
 
+@preprocess {
+  replace:'<!-- crosslanguage-t:show(.*?)/crosslanguage-t:show -->' '$1';
+}
+
 // @RULESET
 // URL =http://www.daimaru.co.jp/shinsaibashi/
 // URL =http://www.daimaru.co.jp/shinsaibashi/index.html

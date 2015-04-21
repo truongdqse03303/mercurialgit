@@ -15,6 +15,10 @@ body {
   attribute: lang add 'zh';
 }
 
+@preprocess {
+  replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
+}
+
 // @RULESET
 // URL =http://www.matsuzakaya.co.jp/nagoya/
 // URL =http://www.matsuzakaya.co.jp/nagoya/index.html

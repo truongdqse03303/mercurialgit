@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
 }
 
+@preprocess {
+  replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+}
+
 // @RULESET
 // URL =http://www.matsuzakaya.co.jp/nagoya/
 // URL =http://www.matsuzakaya.co.jp/nagoya/index.html

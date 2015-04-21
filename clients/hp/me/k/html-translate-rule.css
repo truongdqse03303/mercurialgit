@@ -11,6 +11,10 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+@preprocess {
+  replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
+}
+
 // @RULESET
 // URL =http://www.matsuzakaya.co.jp/nagoya/
 // URL =http://www.matsuzakaya.co.jp/nagoya/index.html
