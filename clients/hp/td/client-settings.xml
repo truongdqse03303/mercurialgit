@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>神奈川県湯河原町</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>town-yugawara/service c89919e563ed90ba3d471e6490e1476b45fd3805</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.yugawara.kanagawa.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
