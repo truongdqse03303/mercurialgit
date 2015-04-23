@@ -10,3 +10,10 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOURMET TOURISM ART";
 }
+
+// @ RULESET
+// URL = http://www.rokkatei.co.jp/shop/index.html
+@postprocess {
+replace:'<span class="body2"><font color="#cc0000"><strong>(.*?)</strong></font></span><span class="body1">(.*?)0120-12-6666.</span>' 
+'$1<span class="body1">$2</span><span class="body2"><font color="#cc0000"><strong> 0120-12-6666</strong></font></span>.';
+}
