@@ -1,0 +1,4 @@
+@preprocess{
+replace:'<strong id="bukkenCount">(.*?)</strong>''<p style="display: inline;"><strong id="bukkenCount">$1</strong></p>';
+replace:'<div class="counterArea">(.*?)<p><strong>(.*?)</strong>''<div class="counterArea">$1<p><p style="display: inline;"><strong>$2</strong></p>';
+}

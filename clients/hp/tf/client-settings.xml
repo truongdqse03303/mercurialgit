@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>アットホーム</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>sk-athome/service 22d2d64db073d48b2d9fd1ff15be09de3de04c78</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="g3d.athome.co.jp" />
+    <request hostname="g3d.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
