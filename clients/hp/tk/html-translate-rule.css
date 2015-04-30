@@ -1,0 +1,9 @@
+p[class="mT10 mB10 font11"],
+span[class="up"],
+span[class="link font13"]{
+  text-flow: break;
+}
+
+p>span[class="link"]{
+  text-flow: break;
+}

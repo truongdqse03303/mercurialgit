@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社アトレ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>atre/service be3745a2d06b25a4e80909b212e121236b567c7b</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.atre.co.jp" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+  
+    <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
