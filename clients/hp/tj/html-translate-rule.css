@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.city.nikko.lg.jp/annai/map/siyakusho.html
+h3,p,a{
+  text-flow: break;
+}
