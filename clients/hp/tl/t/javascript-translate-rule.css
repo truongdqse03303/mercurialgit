@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.livehills.ne.jp/rightmenu.js
+@preprocess {
+  replace: '(url.replace\\(")http://www\.livehills\.ne\.jp(", ""\\);)' '$1http://www\.livehills\.ne\.jp\.t\.tl\.hp\.transer\.com$2';
+}

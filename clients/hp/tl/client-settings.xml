@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>丸紅株式会社 北海道支店</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>livehills/service 07c6be05288da4cd194ec051b4c1557864bf4b46</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.livehills.ne.jp" />
+  </request-list>
+  
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
