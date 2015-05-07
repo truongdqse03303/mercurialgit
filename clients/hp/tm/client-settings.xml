@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>天満屋</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tenmaya/service 0aa85f4bc26c0540283a1490085a190ab09134b8</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+  <path-list resource="false">
+  	<path value="/(stores.html|okayama/|tsuyama/|kurashiki/|fukuyama/|portplaza/|alpark/|hacchobori/|midorii/|yonago/|takamatsu/)" />
+    </path-list>
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
