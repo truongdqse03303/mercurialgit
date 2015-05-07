@@ -8,9 +8,17 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-  <path-list resource="false">
-   <path value="/(okayama/|tsuyama/|kurashiki/|fukuyama/|portplaza/|alpark/|hacchobori/|midorii/|yonago/|takamatsu/|stores.html)" />
-  </path-list>
+    <request hostname="www.tenmaya.co.jp" path="/stores.html" />
+    <request hostname="www.tenmaya.co.jp" path="/okayama/" />
+    <request hostname="www.tenmaya.co.jp" path="/tsuyama/" />
+    <request hostname="www.tenmaya.co.jp" path="/kurashiki/" />
+    <request hostname="www.tenmaya.co.jp" path="/fukuyama/" />
+    <request hostname="www.tenmaya.co.jp" path="/portplaza/" />
+    <request hostname="www.tenmaya.co.jp" path="/alpark/" />
+    <request hostname="www.tenmaya.co.jp" path="/hacchobori/" />
+    <request hostname="www.tenmaya.co.jp" path="/midorii/" />
+    <request hostname="www.tenmaya.co.jp" path="/yonago/" />
+    <request hostname="www.tenmaya.co.jp" path="/takamatsu/" />
   </request-list>
 
   <!-- サイトで使用される文字セット -->
