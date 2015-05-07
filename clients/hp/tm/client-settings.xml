@@ -20,6 +20,15 @@
     <request hostname="www.tenmaya.co.jp" path="/yonago/" />
     <request hostname="www.tenmaya.co.jp" path="/takamatsu/" />
   </request-list>
+  
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.tenmaya.co.jp" />
+      <path-list resource="false">
+      <path value="/(okayama|tsuyama|kurashiki|fukuyama|portplaza|alpark|hacchobori|midorii|yonago|takamatsu)/.*" />
+      <path value="//stores\.html" />
+      </path-list>
+  </request-list>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
