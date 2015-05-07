@@ -2,5 +2,6 @@
 // URL = http://newotanisapporo.com/dousou_plan.html
 @preprocess{
 replace: '(<dt>.*?)(<span class="mr30 font_c03 font_s120">.*?</span>)(.*?</dt>)' '$1<p style="display: inline;">$2</p>$3';
+replace: '(<td>.*?)(<span class="font_c03 font_s120">.*?</span>)' '$1<p style="display: inline;">$2</p>';
 }
 
