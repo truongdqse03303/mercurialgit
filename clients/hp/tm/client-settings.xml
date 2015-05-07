@@ -9,8 +9,8 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
   <path-list resource="false">
-  	<path value="/(stores.html|okayama/|tsuyama/|kurashiki/|fukuyama/|portplaza/|alpark/|hacchobori/|midorii/|yonago/|takamatsu/)" />
-    </path-list>
+   <path value="/(okayama/|tsuyama/|kurashiki/|fukuyama/|portplaza/|alpark/|hacchobori/|midorii/|yonago/|takamatsu/|stores.html)" />
+  </path-list>
   </request-list>
 
   <!-- サイトで使用される文字セット -->
