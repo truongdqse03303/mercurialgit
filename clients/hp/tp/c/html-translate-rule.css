@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM METAL CHEMICAL";
+}
+@engine sekisuijushi/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER METAL CHEMICAL";
+}
+@engine sekisuijushi/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER METAL CHEMICAL";
+}
+
+body {
+  attribute: lang add 'zh';
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>古潭</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ramen-kotan/service 96dd6f8f2c04bd9e1d0590cebb160aa6413d68e0</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.ramen-kotan.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
