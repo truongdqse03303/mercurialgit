@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>熱海市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>atami/service ede2063f4c0baa5728d57a5c95dc581c79130ad0</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.atami.shizuoka.jp" />
+    <request hostname="www.earthhome.co.jp" />
+    <request hostname="www.uptown-izu.com" path="/as/" />
+    <request hostname="www.kawanishi-clinic.com" />
+    <request hostname="www.himawari.com" />
+    <request hostname="www.grandview-atami.com" />
+    <request hostname="www.tokyu-resort.co.jp" path="/atami_yugawara/" />
+  </request-list>
+  
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

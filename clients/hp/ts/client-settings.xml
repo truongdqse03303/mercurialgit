@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>檜枝岐村役場</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>oze-info/service fbb3a297e8bbf54c3c21eab3d2d0c2e895259c56</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.oze-info.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

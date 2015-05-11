@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>みなかみ町役場</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>minakami/service e92567832f8dd237ffc80784a693c00f87f001cf</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.minakami.gunma.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
