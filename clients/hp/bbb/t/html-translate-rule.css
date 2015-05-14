@@ -10,3 +10,8 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+@postprocess {
+  replace: 'UA-48397272-1' 'UA-48374796-10';
+  replace: "('_setDomainName', )'miguide.jp'" "$1'miguide.jp.t.bbb.hp.transer.com'";
+}

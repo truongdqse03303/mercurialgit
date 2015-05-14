@@ -1,3 +1,8 @@
+span {
+  text-flow: break;
+}
+
+
 // @RULESET
 // URL #= http://www\.takashimaya\.co\.jp/sp/.*
 @postprocess {
