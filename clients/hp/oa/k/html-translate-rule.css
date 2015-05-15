@@ -10,3 +10,18 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL #= http://miguide.jp/iwataya/list.*
+@preprocess{
+replace: 'UA-54839635-1' 'UA-54839635-3';
+}
+
+
+// @RULESET
+// URL #= http://miguide.jp/fmitsukoshi/list.*
+@preprocess{
+replace: 'UA-58509441-1' 'UA-58509441-3';
+}
+
+

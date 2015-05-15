@@ -10,3 +10,27 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+// @RULESET
+// URL #= http://miguide.jp/iwataya/list.*
+@preprocess{
+replace: 'UA-54839635-1' 'UA-54839635-5';
+}
+
+// @RULESET
+// URL #= http://miguide.jp/today/list.*
+@preprocess{
+replace: 'UA-48397272-1' 'UA-48397272-6';
+}
+
+// @RULESET
+// URL #= http://miguide.jp/fmitsukoshi/list.*
+@preprocess{
+replace: 'UA-58509441-1' 'UA-58509441-5';
+}
+
+// @RULESET
+// URL #= http://miguide.jp/ginza/list.*
+@preprocess{
+replace: 'UA-53068929-1' 'UA-53068929-5';
+}
