@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://miguide.jp/kyoto/common/js/ga.js
+@preprocess{
+replace: 'UA-53073430-1' 'UA-53073430-6';
+}
