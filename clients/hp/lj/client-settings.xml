@@ -35,6 +35,12 @@
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
+  
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>th,v,id</param-value>
+  </extension-param>
 
   <!-- 検索フォームの文字エンコード -->
   <resource-handler>

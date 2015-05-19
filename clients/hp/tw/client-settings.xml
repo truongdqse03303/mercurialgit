@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>伊勢丹ガイド</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>isetanguide/service 0030137b215afae359434ac21730b17cf87081cf</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.isetanguide.com" />
+    <request hostname="isetanguide.com" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
