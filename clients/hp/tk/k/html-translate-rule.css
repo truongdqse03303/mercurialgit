@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+div[id="info"]{
+attribute: cltx add 'exclude';
+}

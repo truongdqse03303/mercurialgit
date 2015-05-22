@@ -12,3 +12,15 @@ p>span[class="link"]{
   text-flow: break;
 }
 
+// @RULESET
+// URL #= http://www\.atre\.co\.jp/s/recruit/detail\.php.*
+a[class="list_back"]>b{
+text-flow: break;
+}
+
+// @RULESET
+// URL #= http://www\.atre\.co\.jp/s/search/index\.php.*
+span[class="pg"],span[class="current_page"],a{
+text-flow: break;
+}
+
