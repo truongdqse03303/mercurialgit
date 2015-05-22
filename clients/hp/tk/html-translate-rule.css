@@ -1,3 +1,7 @@
+@preprocess {
+  replace: 'UA-11311297-1' 'UA-11311297-4';
+}
+
 p[class="mT10 mB10 font11"],
 span[class="up"],
 span[class="link font13"]{
@@ -8,6 +12,3 @@ p>span[class="link"]{
   text-flow: break;
 }
 
-@preprocess {
-  replace: 'UA-11311297-1' 'UA-11311297-4';
-}
