@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server-settings>
+  <!-- Application domains -->
+  <application>
+    <id>hc</id>
+    <domain>hc.transer.com</domain>
+    <extension-param>
+      <param-name>ts.client.id</param-name>
+      <param-value>@homepage</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>use.replace.rule</param-name>
+      <param-value>true</param-value>
+    </extension-param>
+  </application>
+  <application>
+    <id>hccn</id>
+    <domain>hccn.transer-cn.com</domain>
+    <extension-param>
+      <param-name>ts.client.id</param-name>
+      <param-value>@homepage</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>use.replace.rule</param-name>
+      <param-value>true</param-value>
+    </extension-param>
+  </application>
+  
+  <!-- Translation Server -->
+  <translation-server>
+    <url>http://tshp.transer.com:12000/clsoap/clsoap.cgi</url>
+    <connection-timeout>5000</connection-timeout>
+    <socket-timeout>300000</socket-timeout>
+  </translation-server>
+
+  <!-- ロボット用のTranslation Serverの情報 -->
+  <translation-server type="robot">
+    <url>http://ts-bot.transer.com:12000/clsoap/clsoap.cgi</url>
+    <connection-timeout>5000</connection-timeout>
+    <socket-timeout>300000</socket-timeout>
+  </translation-server>
+
+  <!-- 翻訳結果キャッシュサーバを利用する設定ID(カンマ区切り) -->
+  <translatedcache-sid>th,v,id,tm-th,tm-v,tm-id,cfm-th,cfm-v,cfm-id</translatedcache-sid>
+  
+  <!-- 断片翻訳キャッシュ番号の上限と達した場合の削除するレコード数 -->
+  <fragment-maxseq>500</fragment-maxseq>
+  <fragment-deletecount>100</fragment-deletecount>
+  
+  <!-- キャッシュヒット時アクセスログを出力するアプリケーションID(カンマ区切り) -->
+  <accesslogoutput-aid>hp,hc,hccn</accesslogoutput-aid>
+  
+  <!-- DB接続タイムアウト時間 -->
+  <dbconnection-timeout>300</dbconnection-timeout>
+
+  <!-- 信頼できるクライアント -->
+  <trusted-client>127.0.0.1</trusted-client>
+  
+  <!-- リクエストエラーページ-->
+  <extension-param>
+    <param-name>request.error.page</param-name>
+    <param-value>/WEB-INF/pages/requestError.jsp</param-value>
+  </extension-param>
+  <!-- robots.txt -->
+  <extension-param>
+    <param-name>robots.txt.path</param-name>
+    <param-value>/opt/site-translate/config/robots.txt</param-value>
+  </extension-param>
+  <!-- 備案ライセンス -->
+  <extension-param>
+    <param-name>icp.licence.footer</param-name>
+    <param-value>&#x3C;div id=&#x22;site-translate-footer&#x22; cltx=&#x22;exclude&#x22; style=&#x22;width:100% !important; padding: 10px 0 !important; text-align:center !important; font-family:SimSun !important;&#x22;&#x3E;&#36797;ICP&#22791;11018103&#21495;-1&#x3C;/div&#x3E;</param-value>
+  </extension-param>
+</server-settings>
+
