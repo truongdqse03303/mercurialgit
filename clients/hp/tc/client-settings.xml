@@ -17,7 +17,7 @@
    <param-value>false</param-value>
   </extension-param>
   
-    <!-- 免責事項をフッターに表示 -->
+     <!-- 免責事項をフッターに表示 -->
   <extension-param>
     <param-name>show.translate.header</param-name>
     <param-value>body</param-value>
