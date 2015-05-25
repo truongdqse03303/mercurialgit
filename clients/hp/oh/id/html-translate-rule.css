@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JAID;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine tokyu-hands/main {
+  eid: MS-JAID;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine tokyu-hands/cross {
+  eid: MS-JAID;
+  dictionaries: "CROSS_TM_MASTER";
+}
