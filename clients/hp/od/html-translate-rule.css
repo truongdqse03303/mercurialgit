@@ -2,6 +2,10 @@
   replace: '(\\(\\d{4}年(\\d{1}|\\d{2})月(\\d{1}|\\d{2})日更新\\))' '<p style="display: inline;">$1</p>';
 }
 
+ui,li,span[class="span_a"],span[class="span_b"]{
+  text-flow: break;
+}
+
 // @RULESET
 // URL #= http://www\.pref\.fukushima\.lg\.jp/site/portal/.*
 @preprocess {

@@ -1,0 +1,3 @@
+@postprocess{
+replace:'(<li class="name">)<!--cltx-->(.*?</a>)' '$1$2';
+}

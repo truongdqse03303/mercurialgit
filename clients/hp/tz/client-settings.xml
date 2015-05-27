@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社横浜岡田屋（横須賀モアーズ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>yokosuka-mores/service d6c44264c34891b2e283febedbc8575cec46d732</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="yokosuka-mores.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
