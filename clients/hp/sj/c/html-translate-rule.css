@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@preprocess {
+  replace: 'www\.city\.yokohama\.lg\.jp' 'translate-zhs\.city\.yokohama\.lg\.jp';
+}

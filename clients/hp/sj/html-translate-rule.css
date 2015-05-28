@@ -1,3 +1,15 @@
 #new_movie_inner, #searchResult {
   attribute: cltx add 'include';
 }
+
+ul>li>a{
+  text-flow: break;
+}
+
+li>span>a{
+  text-flow: break;
+}
+
+@preprocess {
+    replace: 'index\.html' '';
+    }

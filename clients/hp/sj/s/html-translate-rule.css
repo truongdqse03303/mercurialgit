@@ -10,3 +10,6 @@
   eid: BR-JA.ES.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+@preprocess {
+  replace: "www\.city\.yokohama\.lg\.jp" "translate-es\.city\.yokohama\.lg\.jp";
+}

@@ -10,3 +10,6 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+@preprocess {
+  replace: "www\.city\.yokohama\.lg\.jp" "translate-zht\.city\.yokohama\.lg\.jp";
+}
