@@ -1,3 +1,7 @@
 @postprocess{
 replace:'(<li class="name">)<!--cltx-->(.*?</a>)' '$1$2';
 }
+
+div[class="page-hd-lang cl-notranslate"]{
+attribute: cltx add "exclude";
+}
