@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>サッポロドラッグストア</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>sapporo-drug/service 14fdf3905b2682d85e33ae130abc686496ccfc5a</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.sapporo-drug.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
