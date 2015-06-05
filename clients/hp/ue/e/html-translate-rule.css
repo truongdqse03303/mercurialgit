@@ -1,0 +1,17 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT ART INTERNET";
+}
+@engine tomakomai-lib/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT ART";
+}
+@engine tomakomai-lib/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT ART";
+}
+
+div[id="box1"] > ul > li[class="navi-li"] > a {
+  attribute: style add 'line-height: 20px;';
+}
+

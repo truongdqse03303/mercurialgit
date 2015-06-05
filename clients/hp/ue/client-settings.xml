@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>苫小牧市立中央図書館</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tomakomai-lib/service 258491edd83acd6826f904e11c6a28be49814f30</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.tomakomai-lib.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
