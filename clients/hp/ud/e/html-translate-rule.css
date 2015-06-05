@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT TOURISM ART";
 }
+
+@preprocess {
+  replace: '(<div.*?class="panel-grid-cell".*?)(id="pgc-9023-0-2".*?>)' '$1style="position: relative; top: 0; left:170px;"$2';
+}
+
