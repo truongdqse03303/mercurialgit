@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>株式会社横浜岡田屋（横須賀モアーズ）</name>
+  <name>アミュプラザ長崎</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>yokosuka-mores/service d6c44264c34891b2e283febedbc8575cec46d732</licence>
+  <licence>amu-n/service e71c1b61deeb741f232903deb395559636e51d94</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="yokosuka-mores.jp" />
+    <request hostname="www.amu-n.co.jp" />
   </request-list>
-  
-     <!-- デフォルトでHTML断片翻訳を行うかどうか -->
-  <extension-param>
+
+ <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+ <extension-param>
    <param-name>default.fragment.translate</param-name>
    <param-value>false</param-value>
  </extension-param>
-  
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>

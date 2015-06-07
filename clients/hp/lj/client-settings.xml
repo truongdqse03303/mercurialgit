@@ -42,6 +42,36 @@
    <param-value>th,v,id</param-value>
   </extension-param>
 
+  <!-- URLとリソース種類のマッピングの設定 ここから -->
+  <!-- PCページ-->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www\.biccamera\.com/bc/js/floorMapList\.xml</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+  
+<!-- スマホページ-->
+ <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www\.biccamera\.com/bc/js_sp/floorMapList\.xml</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+  <!-- URLとリソース種類のマッピングの設定 ここまで -->
+  
   <!-- 検索フォームの文字エンコード -->
   <resource-handler>
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
@@ -56,3 +86,5 @@
   </resource-handler>
   
 </client-settings>
+
+ 
