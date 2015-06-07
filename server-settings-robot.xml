@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server-settings>
+  <!-- Application domains -->
+  <application>
+    <id>hp</id>
+    <domain>hp.transer.com</domain>
+    <extension-param>
+      <param-name>ts.client.id</param-name>
+      <param-value>@homepage</param-value>
+    </extension-param>
+    <!-- ルールキャッシュ -->
+    <extension-param>
+      <param-name>translate.rulesheet.cache</param-name>
+      <param-value>700</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>replace.rule.cache</param-name>
+      <param-value>100</param-value>
+    </extension-param>
+    <!-- PDF内画像の保存先 -->
+    <extension-param>
+      <param-name>pdf.image.store</param-name>
+      <param-value>hp-ts-02:11211</param-value>
+    </extension-param>
+    <!-- PDF変換の最大ページ数 -->
+    <extension-param>
+      <param-name>pdf.output.pages</param-name>
+      <param-value>-10</param-value>
+    </extension-param>
+    <!-- 改善訳報告メール送信サーバー -->
+    <extension-param>
+      <param-name>mail.host</param-name>
+      <param-value>mail.crosslanguage.co.jp</param-value>
+    </extension-param>
+  </application>
+  <application>
+    <id>hpstage</id>
+    <domain>hpstage.transer.com</domain>
+    <setting-id>tm-*,img,cfm-*</setting-id>
+    <extension-param>
+      <param-name>img.include.script.url</param-name>
+      <param-value>http://hpmanage.transer.com/edit/site_imgchg</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>tm-*.include.script.url</param-name>
+      <param-value>http://hpmanage.transer.com/edit/site_dic</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>tm-*|img|cfm-*.cross.licence</param-name>
+      <param-value>clkey</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>tm-*|img|cfm-*.cross.query</param-name>
+      <param-value>clkey,clhash</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>img.common.rule</param-name>
+      <param-value>classpath:/script/rule/img</param-value>
+    </extension-param>
+  </application>
+  <application>
+    <id>hpcn</id>
+    <domain>hpcn.transer-cn.com</domain>
+    <extension-param>
+      <param-name>ts.client.id</param-name>
+      <param-value>@homepage</param-value>
+    </extension-param>
+    <!-- ルールキャッシュ -->
+    <extension-param>
+      <param-name>translate.rulesheet.cache</param-name>
+      <param-value>700</param-value>
+    </extension-param>
+    <extension-param>
+      <param-name>replace.rule.cache</param-name>
+      <param-value>100</param-value>
+    </extension-param>
+    <!-- PDF内画像の保存先 -->
+    <extension-param>
+      <param-name>pdf.image.store</param-name>
+      <param-value>hp-ts-bot:11211</param-value>
+    </extension-param>
+    <!-- PDF変換の最大ページ数 -->
+    <extension-param>
+      <param-name>pdf.output.pages</param-name>
+      <param-value>-10</param-value>
+    </extension-param>
+    <!-- 改善訳報告メール送信サーバー -->
+    <extension-param>
+      <param-name>mail.host</param-name>
+      <param-value>mail.crosslanguage.co.jp</param-value>
+    </extension-param>
+  </application>
+  
+  <!-- default translation server -->
+  <translation-server>
+    <url>http://hp-ts-bot:12000/clsoap/clsoap.cgi</url>
+    <connection-timeout>5000</connection-timeout>
+    <socket-timeout>90000</socket-timeout>
+    <max-concurrency>30</max-concurrency>
+  </translation-server>
+  
+  <!-- pdf translation server -->
+  <translation-server type="pdf">
+    <url>http://hp-ts-bot:12000/clsoap/clsoap.cgi</url>
+    <connection-timeout>5000</connection-timeout>
+    <socket-timeout>180000</socket-timeout>
+    <max-concurrency>6</max-concurrency>
+  </translation-server>
+  
+  <!-- ロボット用のTranslation Serverの情報 -->
+  <translation-server type="robot">
+    <url>http://hp-ts-bot:12000/clsoap/clsoap.cgi</url>
+    <connection-timeout>5000</connection-timeout>
+    <socket-timeout>90000</socket-timeout>
+    <max-concurrency>30</max-concurrency>
+  </translation-server>
+
+  <!-- 翻訳結果キャッシュサーバを利用する設定ID(カンマ区切り) -->
+  <translatedcache-sid>th,v,id,tm-th,tm-v,tm-id,cfm-th,cfm-v,cfm-id</translatedcache-sid>
+  
+  <!-- 断片翻訳キャッシュ番号の上限と達した場合の削除するレコード数 -->
+  <fragment-maxseq>500</fragment-maxseq>
+  <fragment-deletecount>100</fragment-deletecount>
+  
+  <!-- キャッシュヒット時アクセスログを出力するアプリケーションID(カンマ区切り) -->
+  <accesslogoutput-aid>hp,hpcn</accesslogoutput-aid>
+  
+  <!-- DB接続タイムアウト時間 -->
+  <dbconnection-timeout>300</dbconnection-timeout>
+
+  <!-- 信頼できるクライアント -->
+  <trusted-client>127.0.0.1</trusted-client>
+  
+  <!-- リクエストエラーページ-->
+  <extension-param>
+    <param-name>request.error.page</param-name>
+    <param-value>/WEB-INF/pages/requestError.jsp</param-value>
+  </extension-param>
+  <!-- robots.txt -->
+  <extension-param>
+    <param-name>robots.txt.path</param-name>
+    <param-value>/opt/site-translate/config/robots.txt</param-value>
+  </extension-param>
+</server-settings>
