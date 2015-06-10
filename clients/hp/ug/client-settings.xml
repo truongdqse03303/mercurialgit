@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>女満別空港</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>mmb-airport/service 45b787f8aebca371ba1e393cf0f79dcc50c8c40b</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="mmb-airport.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

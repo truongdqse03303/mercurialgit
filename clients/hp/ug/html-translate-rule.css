@@ -1,0 +1,7 @@
+h4[class="Bus02"],h4[class="Bus03"]{
+ attribute: style add 'line-height:20px; vertical-align:middle; display:table-cell; padding-bottom:10px;';
+}
+
+body.page {
+    attribute: style add "background-position:0px 26px;";
+}
