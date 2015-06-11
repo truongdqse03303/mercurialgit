@@ -10,3 +10,13 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET TOURISM";
 }
+
+@postprocess {
+replace:'(<p>.*?<strong><span><strong><span>.*?</span>.*?)</strong>(.*?</span>)</strong>(.*?)<span style="font-size: large;">(.*?)075-365-7538(.*?)</span>(.*?</p>)' '$1$2$3$4<span style="font-size: large;">075-365-7538</span>$5$6</strong></strong>';
+replace: '(<p>.*?)<a title="Shop List" href="/shop/" cltx>(.*?)</a>(.*?)(shop.*?s.*?webpage.)(</p>)' '$1$2$3<a title="Shop List"href="/shop/" cltx>$4</a>$5';
+replace: '(<p>.*?<span>.*?</span>)<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">(lease.*?visit.*?)(.*?)</a>(.*?)</span>(.*?</span>)<a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">(.*?visit)(.*?)</a>(<span>.*?)(</span>)</p>'
+ '$1$2<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">$3$4</a>$5$6<a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">$7$8</a></p>';
+
+}
+
+

@@ -14,3 +14,12 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+replace:'(<p>.*?)<strong><span><strong><span>(.*?)防灾(</span>)(.*?)</strong>(.*?)</span></strong><span style="font-size: large;">(.*?)075(</span>)-365-7538(.*?</p>)' '$1$2<strong><span>防灾$4$5$6</spaan></strong><span style="font-size: large;">075-365-7538</span>$8';
+replace: '(<p>.*?)<a title="店铺一览" href="/shop/" cltx>(.*?)</a>这里(.*?</p>)' '$1$2<a title="店铺一览" href="/shop/" cltx>这里</a>$3';
+replace: '(<p>.*?</span>)<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">请使用(.*?)</a><span>(.*?)</span>(.*?</span>)<a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">(.*?)</a><span>系(.*?)</p>'
+ '$1请使用<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">$2$3</a>$4$5系<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">$6</a></p>';
+
+}
+

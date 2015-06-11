@@ -10,3 +10,10 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@postprocess {
+replace:'(<p>.*?)매<a title="숍 일람" href="/shop/" cltx>장 페이지를(.*?)</a>(.*?</p>)' '$1<a title="숍 일람" href="/shop/" cltx>매장 페이지</a>를$2$3';
+replace:'(<p>.*?<strong><span>)(.*?</strong>)(.*?</span>)</strong>"<span style="font-size: large;">.*?075-365-7</span>538(.*?</p>)' '$1$2$3"</strong><span style="font-size: large;"> 075-365-7538</span>$4';
+replace:'(<p>.*?교토.*?관광문의는.*?)교토.*?</span><a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">(.*?)</a>(.*?</span>.*?<span>버스 또는.*?지하철.*?문의는.*?)교</span><a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">(.*?)</a>(.*?)' 
+'$1</span><a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">교토 $2</a>$3</span><a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">교$4</a>$5';
+}
