@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<replace-rule-list>
-    <replace-rule>
-        <pattern>http://www.aso-geopark.jp/common/img/top_body_bg.jpg</pattern>
-        <replacement>http://www.aso-geopark.jp/common/img/top_body_bg_trans.jpg</replacement>
-    </replace-rule>
-</replace-rule-list>

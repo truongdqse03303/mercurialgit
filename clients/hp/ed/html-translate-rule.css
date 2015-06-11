@@ -1,5 +1,0 @@
-// @RULESET
-// URL ^= http://www.aso-geopark.jp/news/
-div#contents > div.mainUnit > table a {
-  text-flow: break;
-}
