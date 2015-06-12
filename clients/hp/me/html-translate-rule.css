@@ -1,4 +1,4 @@
-div#galleryContents li, div#galleryThumbnail li, div#slideshow li{
+div#galleryContents li, div#galleryThumbnail li, div#slideshow li,div#headerForeignLinks li{
  attribute: cltx add 'exclude';
 }
 
