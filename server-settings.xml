@@ -20,7 +20,7 @@
     <!-- PDF内画像の保存先 -->
     <extension-param>
       <param-name>pdf.image.store</param-name>
-      <param-value>210.158.217.82:11211</param-value>
+      <param-value>ts-pdf.transer.com:11211</param-value>
     </extension-param>
     <!-- PDF変換の最大ページ数 -->
     <extension-param>
@@ -30,7 +30,7 @@
     <!-- 改善訳報告メール送信サーバー -->
     <extension-param>
       <param-name>mail.host</param-name>
-      <param-value>mail1.crosslanguage.co.jp</param-value>
+      <param-value>mail.crosslanguage.co.jp</param-value>
     </extension-param>
   </application>
   <application>
@@ -77,7 +77,7 @@
     <!-- PDF内画像の保存先 -->
     <extension-param>
       <param-name>pdf.image.store</param-name>
-      <param-value>210.158.217.82:11211</param-value>
+      <param-value>ts-pdf.transer.com:11211</param-value>
     </extension-param>
     <!-- PDF変換の最大ページ数 -->
     <extension-param>
@@ -87,7 +87,7 @@
     <!-- 改善訳報告メール送信サーバー -->
     <extension-param>
       <param-name>mail.host</param-name>
-      <param-value>mail1.crosslanguage.co.jp</param-value>
+      <param-value>mail.crosslanguage.co.jp</param-value>
     </extension-param>
   </application>
   
@@ -101,7 +101,7 @@
   
   <!-- pdf translation server -->
   <translation-server type="pdf">
-    <url>http://210.158.217.82:12000/clsoap/clsoap.cgi</url>
+    <url>http://ts-pdf.transer.com:12000/clsoap/clsoap.cgi</url>
     <connection-timeout>5000</connection-timeout>
     <socket-timeout>180000</socket-timeout>
     <max-concurrency>6</max-concurrency>
