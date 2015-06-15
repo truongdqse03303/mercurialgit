@@ -9,6 +9,7 @@
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
     <request hostname="www.crosslanguage.co.jp" path="/wormly/" />
+    <request hostname="wormly.crosslanguage.co.jp" path="/wormly/" />
   </request-list>
 
   <!-- 使用する設定IDの一覧 -->
