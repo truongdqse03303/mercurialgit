@@ -10,3 +10,6 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER ENTER ANIME HOBBY";
 }
+@preprocess {
+  replace: 'UA-3778845-1' 'UA-3778845-3';
+}
