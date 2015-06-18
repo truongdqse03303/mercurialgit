@@ -1,5 +1,0 @@
-// @RULESET
-// URL ^= http://bashofu.jp/process.html
-ul.movies li a span {
-  text-flow: break;
-}
