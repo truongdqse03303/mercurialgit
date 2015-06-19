@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>奥飛観光開発（新穂高ロープウェイ)</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shinhotaka-ropeway/service 582d82e9fea866b4337c61f9e2b92ca5f3b11d26</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.shinhotaka-ropeway.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
