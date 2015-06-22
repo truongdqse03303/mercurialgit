@@ -18,7 +18,7 @@
     </request>
     <request hostname="mitsukoshi.mistore.jp">
       <path-list>
-        <path value="/store/ginza.*" />
+        <path value="/store.*" />
       </path-list>
     </request>
   </request-list>
