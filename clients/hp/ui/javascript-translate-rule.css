@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.hikarie.jp/scripts/readFloorShop.js
+@preprocess {
+  replace: ".bind" ".live";
+}
