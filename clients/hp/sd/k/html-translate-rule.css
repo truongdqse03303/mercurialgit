@@ -16,4 +16,16 @@ replace:'(<p>.*?)매<a title="숍 일람" href="/shop/" cltx>장 페이지를(.*
 replace:'(<p>.*?<strong><span>)(.*?</strong>)(.*?</span>)</strong>"<span style="font-size: large;">.*?075-365-7</span>538(.*?</p>)' '$1$2$3"</strong><span style="font-size: large;"> 075-365-7538</span>$4';
 replace:'(<p>.*?교토.*?관광문의는.*?)교토.*?</span><a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">(.*?)</a>(.*?</span>.*?<span>버스 또는.*?지하철.*?문의는.*?)교</span><a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">(.*?)</a>(.*?)' 
 '$1</span><a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">교토 $2</a>$3</span><a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">교$4</a>$5';
+replace:'(<li.*?class="all.*?selected">.*?)(<a.*?data-option-value=.*?)모두(</a></li>)' '$1$2All$3';
+replace:'(<a.*?data-filter-value.*?\.s1.*?>)아(</a>)' '$1Oh$2';
+replace:'(<a.*?data-filter-value.*?\.s2.*?>)인가(</a>)' '$1ka$2';
+replace:'(<a.*?data-filter-value.*?\.s3.*?>)' '$1sa';
+replace:'(<a.*?data-filter-value.*?\.s4.*?>)타(</a>)' '$1ta$2';
+replace:'(<a.*?data-filter-value.*?\.s5.*?>)' '$1na';
+replace:'(<a.*?data-filter-value.*?\.s6.*?>)하(</a>)' '$1ha$2';
+replace:'(<a.*?data-filter-value.*?\.s7.*?>)마(</a>)' '$1ma$2';
+replace:'(<a.*?data-filter-value.*?\.s8.*?>)들(</a>)' '$1ra$2';
+replace:'(<a.*?data-filter-value.*?\.s9.*?>)\\(이\\)나(</a>)' '$1ya$2';
+replace:'(<a.*?data-filter-value.*?\.s10.*?>)원(</a>)' '$1wa$2';
+replace:'(<a.*?data-filter-value.*?\.s11.*?>)\\(을\\)를(</a>)' '$1o$2';
 }
