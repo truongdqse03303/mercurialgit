@@ -1,4 +1,22 @@
 // @RULESET
+// URL =http://www.hikarie.jp/scripts/shopping.js
+@preprocess {
+  replace: "(\\('a.btn-more'\\)).on" "$1.live";
+}
+
+// @RULESET
+// URL =http://www.hikarie.jp/scripts/cafe_restaurant.js
+@preprocess {
+  replace: "(\\('a.btn-more'\\)).on" "$1.live";
+}
+
+// @RULESET
+// URL =http://www.hikarie.jp/scripts/design_art_theater.js
+@preprocess {
+  replace: "(\\('a.btn-more'\\)).on" "$1.live";
+}
+
+// @RULESET
 // URL =http://www.hikarie.jp/scripts/readFloorShop.js
 @preprocess {
   replace: ".bind" ".live";
