@@ -21,7 +21,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/nagoya/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/t/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_t.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_t.jpg"></a></p>';
 }
 
 // @RULESET
@@ -30,7 +30,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/ueno/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/t/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_t.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_t.jpg"></a></p>';
 }
 
 // @RULESET
@@ -39,7 +39,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/shizuoka/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/t/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_t.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_t.jpg"></a></p>';
 }
 
 // @RULESET
@@ -48,7 +48,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/nagoya/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/t/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_t.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_t.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -57,7 +57,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/ueno/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/t/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_t.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_t.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -66,7 +66,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/shizuoka/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/t/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_t.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.t.me.hp.transer.com/flnews/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_t.jpg"></a></p>$1';
 }
 
 // @RULESET
