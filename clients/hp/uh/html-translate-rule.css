@@ -1,5 +1,9 @@
-span > span{
+span, span{
 text-flow: break;
+}
+
+@postprocess{
+replace: '(<span class="choose">.*?</span>);' '$1' ;
 }
 
 @preprocess{
