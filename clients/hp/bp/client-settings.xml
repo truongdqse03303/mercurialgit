@@ -11,6 +11,9 @@
     <request hostname="info.keionet.com" path="/$|/index.html|/shinjuku/" />
   </request-list>
   
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
   <!-- サイトで使用される文字セット -->
   <charset>utf-8</charset>
 </client-settings>

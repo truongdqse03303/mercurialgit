@@ -10,6 +10,9 @@
   <request-list>
     <request hostname="www.tobu-dept.jp" />
   </request-list>
+  
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
 
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>
