@@ -71,6 +71,12 @@
     </param>
   </resource-handler>
   
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+  </extension-param>
+  
 </client-settings>
 
  
