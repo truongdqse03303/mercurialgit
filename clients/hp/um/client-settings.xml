@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>日本エージェンシー（富山フューチャー開発）様</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>favore/service 397c8230df81922c11f9daf2c6022193f82d3e00</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.favore.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
