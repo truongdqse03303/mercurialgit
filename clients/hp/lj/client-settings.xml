@@ -71,12 +71,11 @@
     </param>
   </resource-handler>
   
-  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
-  <extension-param>
-   <param-name>default.fragment.translate</param-name>
-   <param-value>false</param-value>
-  </extension-param>
-  
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>http://www.biccamera.co.jp.th.lj.hp.local-transer.co.jp/shopguide/.*</url>
+  </url-list>
+
 </client-settings>
 
  
