@@ -14,6 +14,11 @@
     <request hostname="sp.biccamera.com" />
   </request-list>
   
+  <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>http://www\.biccamera\.co\.jp/shopguide/.*</url>
+  </url-list>
+
   <!-- PDF翻訳 -->
   <extension-param>
     <param-name>pdf.translate</param-name>
@@ -70,11 +75,6 @@
       <param-value>Shift_JIS</param-value>
     </param>
   </resource-handler>
-  
-  <!-- HTML断片翻訳を行わないURLの一覧 -->
-  <url-list type="ignore-fragment">
-    <url>http://www.biccamera.co.jp/shopguide/index.html</url>
-  </url-list>
 
 </client-settings>
 
