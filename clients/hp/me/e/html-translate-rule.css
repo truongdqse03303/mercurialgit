@@ -75,3 +75,9 @@
 @preprocess {
   replace: "www\.daimaru\.co\.jp/" "www.daimaru.co.jp.e.md.hp.transer.com/";
 }
+
+// @RULESET
+// URL =http://dmdepart.jp/flnews/
+@preprocess {
+  replace: '(<meta http-equiv="refresh" content="3 ; URL=)s(/index.html">)' '$1e$2';
+}

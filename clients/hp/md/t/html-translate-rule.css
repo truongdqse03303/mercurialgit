@@ -138,3 +138,9 @@ a[href="http://www.matsuzakaya.co.jp/ueno/"] {
 a[href="http://www.matsuzakaya.co.jp/nagoya/inbound/en/"] {
   attribute: href rewrite "http://www.matsuzakaya.co.jp/nagoya/inbound/tch/";
 }
+
+// @RULESET
+// URL =http://dmdepart.jp/flnews/
+@preprocess {
+  replace: '(<meta http-equiv="refresh" content="3 ; URL=)s(/index.html">)' '$1t$2';
+}

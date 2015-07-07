@@ -153,3 +153,9 @@ a[href^="http://wakaba.coara.or.jp/cg25000/floorguide/index.php?type=search"] {
 a[href^="http://wakaba.coara.or.jp/cg25000/floorguide/index.php?type=top"] {
   attribute: href rewrite "http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/korea/floormap/index.html";
 }
+
+// @RULESET
+// URL =http://dmdepart.jp/flnews/
+@preprocess {
+  replace: '(<meta http-equiv="refresh" content="3 ; URL=)s(/index.html">)' '$1k$2';
+}
