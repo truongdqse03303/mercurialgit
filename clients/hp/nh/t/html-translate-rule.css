@@ -17,3 +17,6 @@
   replace: "\\['housekihiroba\.u-s\.co\.jp'\\]" "['housekihiroba.u-s.co.jp.t.nh.hp.transer.com']";
   replace: "\\['housekihiroba\.jp'\\]" "['housekihiroba.jp.t.nh.hp.transer.com']";
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1'; }
