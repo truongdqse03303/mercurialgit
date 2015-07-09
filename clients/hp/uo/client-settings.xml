@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>沖縄ツーリスト株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>otsinternational/service 0ce816e69d16930911b770a972f3c13431baafea</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.otsinternational.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
