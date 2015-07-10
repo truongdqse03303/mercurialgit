@@ -1,0 +1,6 @@
+// @RULESET
+// URL #= http://douraku.co.jp/form_list/(honten.html|nakamise.html|higashimise.html)
+
+@preprocess {
+  replace: '&lang=' '&amp;lang=';
+}
