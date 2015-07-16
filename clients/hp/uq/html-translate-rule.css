@@ -1,0 +1,7 @@
+// @RULESET
+// URL ^= http://www.nambaparks.com
+@preprocess {
+
+replace:'<table cellspacing="" cellpadding="" border="0" style="width: 193px; border: 0px solid;">' '<table cellspacing="" cellpadding="" border="0" style="width: 193px; border: 0px solid;" class="cl-notranslate">';
+
+}
