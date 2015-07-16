@@ -10,6 +10,6 @@
 
 @postprocess {
 
-replace: '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.c.bk.hp.local-transer.co.jp/wedding/" />' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp/wedding/" />';
+replace: '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.c.bk.hp.transer.com/wedding/" />' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp/wedding/" />';
 
 }
