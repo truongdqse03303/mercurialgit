@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社トッキー</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>cocolo-station/service 0dafd2e8b618caac42c34e2042f5449e86f6eed7</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.cocolo-station.jp" />
+    <request hostname="www.hotelmets-familio.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
