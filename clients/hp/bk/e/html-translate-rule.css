@@ -7,3 +7,9 @@
   eid: CR-JE;
   dictionaries: "SHIROYAMA-G_DIC_MASTER SHIROYAMA-G_TM_MASTER TOURISM GOURMET";
 }
+
+@postprocess {
+
+replace: '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.e.bk.hp.local-transer.co.jp/wedding/" />' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp/wedding/" />';
+
+}
