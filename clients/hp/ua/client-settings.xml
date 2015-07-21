@@ -9,10 +9,16 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="hokkaido-garden.jp" />
+     <path-list>
+        <path value="/news/" />
+    </path-list>
   </request-list>
   
   <request-list>
     <request hostname="www.hokkaido-garden.jp" />
+         <path-list>
+        <path value="/news/" />
+    </path-list>
   </request-list>
   
   <!-- サイトで使用される文字セット -->
