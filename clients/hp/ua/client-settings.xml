@@ -9,9 +9,12 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="hokkaido-garden.jp" />
+  </request-list>
+  
+  <request-list>
     <request hostname="www.hokkaido-garden.jp" />
   </request-list>
-
+  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
