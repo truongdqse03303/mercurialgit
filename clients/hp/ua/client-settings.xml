@@ -21,6 +21,31 @@
     </path-list>
   </request-list>
   
+    <request-list>
+    <request hostname="www.hokkaido-garden.jp.e.ua.hp.transer.com" />
+         <path-list>
+        <path value="/.*" />
+    </path-list>
+  </request-list>
+  
+      <request-list>
+    <request hostname="www.hokkaido-garden.jp.c.ua.hp.transer.com" />
+             <path-list>
+        <path value="/.*" />
+  </request-list>
+  
+      <request-list>
+    <request hostname="www.hokkaido-garden.jp.t.ua.hp.transer.com" />
+             <path-list>
+        <path value="/.*" />
+  </request-list>
+  
+      <request-list>
+    <request hostname="www.hokkaido-garden.jp.k.ua.hp.transer.com" />
+             <path-list>
+        <path value="/.*" />
+  </request-list>
+  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
