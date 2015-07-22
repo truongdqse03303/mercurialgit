@@ -1,0 +1,23 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine route-inn/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine route-inn/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+@postprocess {
+
+replace:'<strong>홋카이도・도호쿠</strong>' '<strong style="font-size: 10px;">홋카이도・도호쿠</strong>';
+replace:'<strong>관동</strong>' '<strong style="font-size: 11px;">관동</strong>';
+replace:'<strong>중부</strong>' '<strong style="font-size: 11px;">중부</strong>';
+replace:'<strong>칸사이</strong>' '<strong style="font-size: 12px;">칸사이</strong>';
+replace:'<strong>츄코쿠, 시코쿠</strong>' '<strong style="font-size: 14px;">츄코쿠, 시코쿠</strong>';
+replace:'<strong>큐슈・오키나와</strong>' '<strong  style="font-size: 14px;">큐슈・오키나와</strong>';
+
+}
