@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER DEPART FASHION HOBBY BEAUTY GOURMET INTERNET";
 }
+
+@preprocess {
+replace: "'UA-18169377-9'" "'UA-18169377-11'";
+}
