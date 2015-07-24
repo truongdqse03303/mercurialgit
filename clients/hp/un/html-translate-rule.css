@@ -9,3 +9,8 @@ attribute: style add 'margin-left:-34px;';
 attribute: style add 'margin-left:-53px;';
 
 }
+
+@postprocess {
+  replace: '<i>KATO KAZUK</i>' '<i>KATO KAZUKI</i>';
+  replace: '<i>MAMIYA KAZUT</i>' '<i>MAMIYA KAZUTO</i>';
+}
