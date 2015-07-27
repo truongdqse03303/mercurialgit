@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>アイテック阪急阪神株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>japan-baseball/service 0c46e0a22ddf0dcce8b86939097fa08c938acd8b</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.japan-baseball.jp" />
+    <request hostname="shop.japan-baseball.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
