@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
+
+@preprocess{
+replace: 'UA-48132452-1' 'UA-48132452-5';
+}
