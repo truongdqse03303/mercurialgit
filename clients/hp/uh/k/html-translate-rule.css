@@ -10,3 +10,9 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@postprocess {
+
+replace: '<div id="conts">' '<div id="conts" style="font-size: 0px;">'; 
+
+}
