@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>墨田区観光協会（visit-sumida）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>visit-sumida/service 57ae7f725df1195fe0238a49e3fdccde4b4501e5</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="visit-sumida.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
