@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>鹿児島県大島郡瀬戸内町</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>setouchi/service b7eea643380d0aed31f7f974d52e6ad04c48b486</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.setouchi.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
