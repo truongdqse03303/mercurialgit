@@ -11,7 +11,24 @@
     <request hostname="www.cocolo-station.jp" />
     <request hostname="www.hotelmets-familio.jp" />
   </request-list>
-
+  
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic dG9ra3k6dG9ra3k=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://www\.(hotelmets-familio|cocolo-station)\.jp.*</param-value>
+    </param>
+  </resource-handler>
+  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
