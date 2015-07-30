@@ -1,0 +1,8 @@
+@postprocess {
+
+replace:'<a href="http://www.shinkibus.co.jp.e.rz.hp.transer.com/" target="_blank">''<a href="http://www.shinkibus.co.jp/" target="_blank">';
+replace:'<a href="http://www.shinkibus.co.jp.c.rz.hp.transer.com/" target="_blank">''<a href="http://www.shinkibus.co.jp/" target="_blank">';
+replace:'<a href="http://www.shinkibus.co.jp.t.rz.hp.transer.com/" target="_blank">''<a href="http://www.shinkibus.co.jp/" target="_blank">';
+replace:'<a href="http://www.shinkibus.co.jp.k.rz.hp.transer.com/" target="_blank">''<a href="http://www.shinkibus.co.jp/" target="_blank">';
+
+}
