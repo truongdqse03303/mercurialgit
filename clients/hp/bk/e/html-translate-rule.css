@@ -8,12 +8,3 @@
   dictionaries: "SHIROYAMA-G_DIC_MASTER SHIROYAMA-G_TM_MASTER TOURISM GOURMET";
 }
 
-@postprocess {
-
-replace: '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.e.bk.hp.transer.com/wedding/" />' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp/wedding/" />';
-replace: '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.e.bk.hp.transer.com/wedding/faq/" />' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp/wedding/faq/" />';
-replace: '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.e.bk.hp.transer.com/wedding/information/" />' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp/wedding/information/" />';
-replace: '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.e.bk.hp.transer.com/wedding/beauty/" />' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp/wedding/beauty/" />';
-replace: '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.e.bk.hp.transer.com/wedding/gallery/" />' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp/wedding/gallery/" />';
-
-}

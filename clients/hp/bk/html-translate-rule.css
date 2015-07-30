@@ -11,3 +11,12 @@ script[type="text/javascript"][src^="http://maps.google.com/maps"] {
 #map {
   attribute: cltx add 'exclude';
 }
+
+// @RULESET
+// URL #= http://www\.shiroyama-g\.co\.jp.*
+@postprocess {
+replace:'<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.c.bk.hp.transer.com' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp';
+replace:'<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.e.bk.hp.transer.com' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp';
+replace:'<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.t.bk.hp.transer.com' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp';
+replace:'<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp.k.bk.hp.transer.com' '<link rel="alternate" hreflang="ja" href="http://www.shiroyama-g.co.jp';
+}
