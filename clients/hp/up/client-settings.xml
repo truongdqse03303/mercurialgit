@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.uruma.lg.jp" />
-    <request hostname="iamcms.uruma.iamdn.com/" />
+    <request hostname="iamcms.uruma.iamdn.com" />
   </request-list>
   
     <!-- Basic認証 -->
@@ -25,7 +25,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://iamcms\.uruma\.iamdn\.com/.*</param-value>
+      <param-value>http://iamcms\.uruma\.iamdn\.com.*</param-value>
     </param>
   </resource-handler>
 
