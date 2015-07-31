@@ -11,12 +11,6 @@
     <request hostname="kisarazu-aeonmall.com" />
   </request-list>
   
-  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
-  <extension-param>
-   <param-name>default.fragment.translate</param-name>
-   <param-value>false</param-value>
-  </extension-param>
-  
   <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
     <param-name>site.translate.header.style</param-name>
