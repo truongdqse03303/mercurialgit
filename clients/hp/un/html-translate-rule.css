@@ -12,5 +12,13 @@ attribute: style add 'margin-left:-53px;';
 
 @postprocess {
   replace: '<i>KATO KAZUK</i>' '<i>KATO KAZUKI</i>';
+  replace: '<em>IVIEW PROFILE</em>' '<em>VIEW PROFILE</em>';
+  
   replace: '<i>MAMIYA KAZUT</i>' '<i>MAMIYA KAZUTO</i>';
+  replace: '<em>OVIEW PROFILE</em>' '<em>VIEW PROFILE</em>';
+}
+
+@preprocess {
+  replace: '<div class="companyRight">' '<div class="companyRight cl-notranslate">';
+
 }
