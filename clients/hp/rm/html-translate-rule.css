@@ -2,24 +2,3 @@
   replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
 
-div#bar {
-  attribute: style add 'margin-top: 25px;';
-}
-
-@preprocess {
-  replace:'<a href="#" class="fade">' '<a href="#" class="fade" style="margin-top: 25px;">';
-}
-
-li.lang openTtl > a.fade {
-  attribute: style add 'margin-top: 25px;';
-}
-
-a.wrap > img {
-  attribute: style add 'margin-top: 24px;';
-}
-
-div.spCont > form > input {
-
-attribute: style add 'margin: 14px;';
-
-}
