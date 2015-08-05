@@ -1,3 +1,7 @@
 @preprocess {
 replace: "'UA-64306301-2'" "'UA-64306301-1'";
 }
+
+li.spBtn > a > span {
+  attribute: cltx add 'exclude;';
+}
