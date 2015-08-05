@@ -16,6 +16,11 @@ attribute: style add 'margin-left:-53px;';
   
   replace: '<i>MAMIYA KAZUT</i>' '<i>MAMIYA KAZUTO</i>';
   replace: '<em>OVIEW PROFILE</em>' '<em>VIEW PROFILE</em>';
+  
+  replace: '<i>ENOMOTO SHUNICH</i>' '<i>ENOMOTO SHUNICHI</i>';
+  
+  replace: '<i>HUANG CHINGY</i>' '<i>HUANG CHINGYU</i>';
+  replace: '<em>UVIEW PROFILE</em>' '<em>VIEW PROFILE</em>';
 }
 
 @preprocess {
