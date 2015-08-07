@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>なんばシティ（南海電気鉄道株式会社）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nambacity/service 3b4b0823d09d3ffd399f6f82c139710dc1a6a016</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="nambacity.com" />
+    <request hostname="www.nambacity.com" path="/s/" />
+    <request hostname="www.nambacity.com" path="/m/" />
+  </request-list>
+  
+  <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore">
+    <url>http://www\.nambacity\.com/(pointcard|recruit)/</url>
+    <url>http://www.nambacity.com/others/eventspace.html</url>
+    <url>http://www\.nambacity\.com/event/(10point.html|line.html)</url>
+    
+    <url>http://www\.nambacity\.com/m/(pointcard|recruit)/</url>
+    <url>http://www.nambacity.com/m/others/eventspace.html</url>
+    <url>http://www\.nambacity\.com/m/event/(10point.html|line.html)</url>
+    
+    <url>http://www\.nambacity\.com/s/(pointcard|recruit)/</url>
+    <url>http://www.nambacity.com/s/others/eventspace.html</url>
+    <url>http://www\.nambacity\.com/s/event/(10point.htmlline.html)</url>
+  </url-list>
+
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
