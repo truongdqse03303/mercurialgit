@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>E-ma（イーマ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>e-ma-bldg/service 3e74c9522971a9899115279e28f7c175584538f5</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.e-ma-bldg.com" path="/s/" />
+    <request hostname="e-ma-bldg.com" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
