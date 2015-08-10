@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.e-ma-bldg.com" path="/s/" />
+    <request hostname="www.e-ma-bldg.com" />
     <request hostname="e-ma-bldg.com" />
   </request-list>
 
