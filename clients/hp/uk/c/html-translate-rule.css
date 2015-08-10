@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+td > span {
+  text-flow: break;
+}
