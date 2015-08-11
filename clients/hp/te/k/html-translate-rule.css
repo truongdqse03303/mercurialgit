@@ -21,5 +21,5 @@ replace:'<p><!--cltx-->다음 요건 <span style="COLOR: #ff0000">1' '<p><!--clt
 replace:'에</span>' '</span>에';
 replace:'4<span style="COLOR: #ff0000">의 어느 </span>한가지에 반드시 해당되셔야 합니다.</p>' '4의<span style="COLOR: #ff0000"> 어느 한가지</span>에 반드시 해당되셔야 합니다.</p>';
 replace:'0<span style="COLOR: #ff0000"><strong>570－0114－92' '<span style="COLOR: #ff0000"><strong>0570－0114－92';
-replace:'</strong><span style="COLOR: #000000">(.*?)(\\) (.*?)요금이 듭니다.</span></span></p>' '$1$2 $3</strong><span style="COLOR: #000000">요금이 듭니다.</span></span></p>';
+
 }
