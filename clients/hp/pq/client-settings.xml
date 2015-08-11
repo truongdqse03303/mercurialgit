@@ -10,13 +10,7 @@
   <request-list>
     <request hostname="aeonmall-okayama.com" />
   </request-list>
-    
-  <!-- 免責ヘッダーを絶対座標で指定 -->
-  <extension-param>
-    <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
-  </extension-param>
-  
+
   <!-- URLとリソース種類のマッピングの設定 -->
   <!--ajax通信配下にhtmlファイルを呼んでいるクラスがある。TmplDeck.prototype.drawのthis._fetchedText.match(re)のfetchedText.match-->
   <resource-handler>
@@ -31,6 +25,18 @@
     </param>
     <priority>4</priority>
   </resource-handler>
+
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>footer</param-value>
+  </extension-param>
+  
+    <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+ </extension-param>  
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
