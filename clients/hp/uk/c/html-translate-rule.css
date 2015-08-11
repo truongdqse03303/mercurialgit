@@ -18,3 +18,7 @@ body {
 td > span {
   text-flow: break;
 }
+
+* {
+  text-flow: break;
+}
