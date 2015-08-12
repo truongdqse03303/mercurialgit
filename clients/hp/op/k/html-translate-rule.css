@@ -10,3 +10,8 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@postprocess {
+replace:'＜□□□(\(.+?\))＞' '＜한국어＞;';
+replace:'□□□□□□' '생활 가이드북';
+}
