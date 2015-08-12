@@ -14,4 +14,5 @@
 @postprocess {
 replace:'＜□□□(\(.+?\))＞' '＜한국어＞;';
 replace:'□□□□□□' '생활 가이드북';
+replace:'<li lang="ko" xml:lang="ko" class="cl-notranslate"><a class="crosslanguage-translate-jako" href="#" title="□□□" cltx>한국어</a></li>' '<li lang="ko" xml:lang="ko" class="cl-notranslate"><a class="crosslanguage-translate-jako" href="#" title="한국어" cltx>한국어</a></li>';
 }
