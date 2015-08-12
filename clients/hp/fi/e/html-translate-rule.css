@@ -19,6 +19,6 @@ link[rel="stylesheet"][type="text/css"][href$="/css/import.css"] {
   if (absurl equals "http://jikei-ur.umin.jp/css/import.css") return "/css/main_en.css";
 }
 
-@preprocess {
+@postprocess {
   replace: '<link rel="stylesheet" href="css/styles.css" />' '<link rel="stylesheet" href="css/styles_en.css" />';
 }
