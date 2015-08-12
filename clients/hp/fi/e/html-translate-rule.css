@@ -18,3 +18,7 @@ link[rel="stylesheet"][type="text/css"][href$="/css/import.css"] {
 @rewrite RewriteImportCss {
   if (absurl equals "http://jikei-ur.umin.jp/css/import.css") return "/css/main_en.css";
 }
+
+@preprocess {
+  replace: '<link rel="stylesheet" href="css/styles.css" />' '<link rel="stylesheet" href="css/styles_en.css" />';
+}
