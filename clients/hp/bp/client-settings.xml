@@ -14,6 +14,12 @@
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
   
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>footer</param-value>
+  </extension-param>
+  
   <!-- サイトで使用される文字セット -->
   <charset>utf-8</charset>
 </client-settings>
