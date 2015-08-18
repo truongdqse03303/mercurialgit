@@ -12,5 +12,6 @@
 }
 
 @preprocess{
+replace: '\"nambaparks\.com\"' '\"nambaparks\.com\.t\.uq\.hp\.transer\.com\"';
 replace: 'UA-48132452-1' 'UA-48132452-5';
 }
