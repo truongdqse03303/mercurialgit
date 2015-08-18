@@ -16,4 +16,5 @@
 @postprocess {
 replace:'<span class="body2"><font color="#cc0000"><strong>(.*?)</strong></font></span><span class="body1">(.*?)0120-12-6666.</span>' 
 '$1<span class="body1">$2</span><span class="body2"><font color="#cc0000"><strong> 0120-12-6666</strong></font></span>.';
+replace:'<span class="body1">For the stores that feature a tea room, please be s<a href="cafe.html" target="_top">ure to check the inf</a>ormation for the tea room.</span>' '<span class="body1">For the stores that feature a tea room, please be sure to check the <a href="cafe.html" target="_top">information for the tea room.</a></span>';
 }
