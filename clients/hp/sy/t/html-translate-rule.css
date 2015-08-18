@@ -16,4 +16,6 @@
 @postprocess {
 replace:'<span class="body2"><font color="#cc0000"><strong>(.*?)0120-</strong></font></span><span class="body1">12-6666。</span>' 
 '$1<span class="body2"><font color="#cc0000"><strong>0120-12-6666</strong></font></span><span class="body1">。</span>';
+replace:'欲知兼設咖啡館的店舖詳<a href="cafe.html" target="_top">(.*?)</a>(.*?)。</span>' '欲知兼設咖啡館的店舖詳 $1<a href="cafe.html" target="_top">$2</a>。</span>';
+replace:'R<a href="http://www.restaurant-home.jp/" target="_blank">ESTAURANT HOME</a>' '<a href="http://www.restaurant-home.jp/" target="_blank">RESTAURANT HOME</a>';
 }
