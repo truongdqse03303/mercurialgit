@@ -13,14 +13,13 @@
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
-
-  <!-- 免責ヘッダーは表示しない -->
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
-    <param-name>show.translate.header</param-name>
-    <param-value>false</param-value>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
   </extension-param>
-</client-settings>
-
+  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
