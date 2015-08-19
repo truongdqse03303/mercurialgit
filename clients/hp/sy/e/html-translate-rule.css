@@ -17,6 +17,5 @@
 replace:'<span class="body2"><font color="#cc0000"><strong>(.*?)</strong></font></span><span class="body1">(.*?)0120-12-6666.</span>' 
 '$1<span class="body1">$2</span><span class="body2"><font color="#cc0000"><strong> 0120-12-6666</strong></font></span>.';
 replace:'2nd flo<a href="http://www.restaurant-home.jp/" target="_blank">or:' '2nd floor:<a href="http://www.restaurant-home.jp/" target="_blank">';
-replace:'(.*?)<a href="cafe.html" target="_top">(.*?) inf</a>ormation for the tea room.' '$1$2<a href="cafe.html" target="_top"> information for the tea room.</a>';
-replace:'s<a href="http://www.rokkatei.co.jp/shop/cafe.html" target="_top">ure to check the' 'sure to check the<a href="http://www.rokkatei.co.jp/shop/cafe.html" target="_top">';
+replace:'s<a href="cafe.html" target="_top">ure to check the inf</a>ormation for the tea room.</span>' 'sure to check the<a href="cafe.html" target="_top"> information for the tea room.</a></span>';
 }
