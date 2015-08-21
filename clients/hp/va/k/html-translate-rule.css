@@ -1,0 +1,18 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine hibiya-chanter/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine hibiya-chanter/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+@postprocess {
+
+replace:'<a href="http://hibiya-chanter.sc-concierge.jp.k.va.hp.local-transer.co.jp/language_kr/">□□□</a>''<a href="http://hibiya-chanter.sc-concierge.jp.k.va.hp.local-transer.co.jp/language_kr/">한국어</a>';
+
+}
