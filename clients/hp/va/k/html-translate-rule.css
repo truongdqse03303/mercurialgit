@@ -10,9 +10,3 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
-
-@postprocess {
-
-replace:'<a href="http://hibiya-chanter.sc-concierge.jp.k.va.hp.transer.com/language_kr/">□□□</a>''<a href="http://hibiya-chanter.sc-concierge.jp.k.va.hp.transer.com/language_kr/">한국어</a>';
-
-}
