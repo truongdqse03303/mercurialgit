@@ -48,6 +48,12 @@ div.column {
 replace: ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="../ir/index.php">Stockholder, Investor Relations</a></li>' ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="../ir/index.php" style="font-size: 8px;">Stockholder, Investor Relations</a></li>';
 }
 
+// @RULESET
+// URL #= http://www\.core\.co\.jp/en.*
+@postprocess {
+replace:'<li style="width: 120px; line-height: 20px;"><!--cltx--><a href="http://www.core.co.jp.e.ko.hp.transer.com/ir/">Stockholder, Investor Relations</a></li>' '<li style="width: 120px; line-height: 20px;"><!--cltx--><a href="http://www.core.co.jp.e.ko.hp.transer.com/ir/" style="font-size: 8px;">Stockholder, Investor Relations</a></li>';
+}
+
 // URL = http://www.core.co.jp/si/
 @postprocess {
 replace:'<dt><!--cltx-->Medical care, health care</dt>' '<dt style="font-size: 11px;"><!--cltx-->Medical care, health care</dt>';
