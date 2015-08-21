@@ -79,6 +79,7 @@ replace: ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="../i
 replace: ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="ir/index.php">Stockholder, Investor Relations</a></li>' ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="ir/index.php" style="font-size: 8px;">Stockholder, Investor Relations</a></li>';
 }
 
+
 // @RULESET
 // URL = http://www.core.co.jp/product/m2m/
 // URL = http://www.core.co.jp/product/m2m/index.html
@@ -92,7 +93,9 @@ replace: ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="ir/i
 // URL = http://www.core.co.jp/product/security/index.html
 @postprocess {
  replace:'<li style="width: 120px; line-height: 20px;">' '<li style="width: 192px; line-height: 20px;">';
+ replace: '<ul id="header_nav" class="cf">' '<ul id="header_nav" class="cf" style="margin-right: -77px;">';
 }
+
 
 // @RULESET
 // URL = http://www.core.co.jp/product/embedded/
@@ -104,4 +107,3 @@ replace: ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="ir/i
 @postprocess {
  replace:'<li style="width: 120px; line-height: 20px;">' '<li style="width: 240px; line-height: 20px;">';
 }
-
