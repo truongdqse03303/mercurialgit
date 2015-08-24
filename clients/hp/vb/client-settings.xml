@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>駅パラ(JR東日本)</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ekipara/service d55648be4c611065446b5826262c0e21e3af0d4c</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.ekipara.com" />
+    <request hostname="103.28.167.98" />
+    <request hostname="wwwtest.ekipara.com" />
+  </request-list>
+  
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
