@@ -1,0 +1,17 @@
+// @RULESET
+// URL #= http://www\.snowtomamu\.jp.*
+section#fb {
+  attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL #= http://www\.snowtomamu\.jp.*
+@preprocess {
+replace:'<ul class="class_list">' '<ul class="class_list cl-notranslate">';
+}
+
+// @RULESET
+// URL #= http://www\.snowtomamu\.jp.*
+div#lang > ul > li {
+  attribute: class add 'cl-notranslate';
+}
