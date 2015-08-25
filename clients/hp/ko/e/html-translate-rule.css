@@ -73,6 +73,12 @@ replace: ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="../i
 }
  
 // @RULESET
+// URL #= http://www\.core\.co\.jp/ir.*
+@postprocess {
+replace: ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="index.php">Stockholder, Investor Relations</a></li>' ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="index.php" style="font-size: 8px;">Stockholder, Investor Relations</a></li>';
+}
+ 
+// @RULESET
 // URL = http://www.core.co.jp/
 // URL = http://www.core.co.jp/index.php
 @postprocess {
@@ -81,15 +87,15 @@ replace: ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="ir/i
 
 
 // @RULESET
-// URL = http://www.core.co.jp/product/m2m/
+// URL #= http://www\.core\.co\.jp/product/m2m.*
+// URL #= http://www\.core\.co\.jp/product/gnss.*
+// URL #= http://www\.core\.co\.jp/product/smartdevice.*
+// URL #= http://www\.core\.co\.jp/product/society.*
+// URL #= http://www\.core\.co\.jp/product/security.*
 // URL = http://www.core.co.jp/product/m2m/index.html
-// URL = http://www.core.co.jp/product/gnss/
 // URL = http://www.core.co.jp/product/gnss/index.html
-// URL = http://www.core.co.jp/product/smartdevice/
 // URL = http://www.core.co.jp/product/smartdevice/index.html
-// URL = http://www.core.co.jp/product/society/
 // URL = http://www.core.co.jp/product/society/index.html
-// URL = http://www.core.co.jp/product/security/
 // URL = http://www.core.co.jp/product/security/index.html
 @postprocess {
  replace:'<li style="width: 120px; line-height: 20px;">' '<li style="width: 192px; line-height: 20px;">';
