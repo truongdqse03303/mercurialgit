@@ -15,6 +15,23 @@
   
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
+  
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic YnVpbGRpbmdtYW5hZ2VyOlU0emg1Mmdw</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://(wwwtest\.ekipara\.com|103\.28\.167\.98).*</param-value>
+    </param>
+  </resource-handler>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
