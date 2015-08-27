@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>イオンモール</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>aeonmall/service 1d7d0380cb66340748ebabf374a93ad2ff2f51b9</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="asahikawaekimae-aeonmall.com" />
+    <request hostname="natori-aeonmall.com" />
+    <request hostname="laketownkaze-aeonmall.com" />
+    <request hostname="laketown-outlet.jp" />
+    <request hostname="narita-aeonmall.com" />
+    <request hostname="kisarazu-aeonmall.com" />
+    <request hostname="odaka-aeonmall.com" />
+    <request hostname="kyoto-aeonmall.com" />
+    <request hostname="kyotokatsuragawa-aeonmall.com" />
+    <request hostname="yamatokoriyama-aeonmall.com" />
+    <request hostname="rinkusennan-aeonmall.com" />
+    <request hostname="umie.jp" />
+    <request hostname="aeonmall-okayama.com" />
+    <request hostname="fukuoka-aeonmall.com" />
+    <request hostname="miyazaki-aeonmall.com" />
+    <request hostname="tendo-aeonmall.com" />
+    <request hostname="makuharishintoshin-aeonmall.com" />
+    <request hostname="kofushowa-aeonmall.com" />
+    <request hostname="higashiura-aeonmall.com" />
+    <request hostname="tokoname-aeonmall.com" />
+    <request hostname="suzuka-aeonmall.com" />
+    <request hostname="kashihara-aeonmall.com" />
+    <request hostname="tsurumiryokuchi-aeonmall.com" />
+    <request hostname="osakadomecity-aeonmall.com" />
+    <request hostname="kobekita-aeonmall.com" />
+    <request hostname="wakayama-aeonmall.com" />
+    <request hostname="hiroshimafuchu-aeonmall.com" />
+    <request hostname="chikushino-aeonmall.com" />
+    <request hostname="kochi-aeonmall.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
