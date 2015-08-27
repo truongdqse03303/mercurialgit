@@ -10,3 +10,10 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
+
+// @RULESET
+// URL #= http://www\.e-ma-bldg\.com.*
+// URL #= http://e-ma-bldg\.com.*
+@postprocess {
+ replace:'<a href="https://twitter.com/share" class="twitter-share-button">tweet</a>' '<a href="https://twitter.com/share" class="twitter-share-button" data-lang="zh-tw">推文</a>'; 
+}

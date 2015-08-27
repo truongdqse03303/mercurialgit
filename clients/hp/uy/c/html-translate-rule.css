@@ -14,3 +14,10 @@
 body {
   attribute: lang add 'zh';
 }
+
+// @RULESET
+// URL #= http://www\.e-ma-bldg\.com.*
+// URL #= http://e-ma-bldg\.com.*
+@postprocess {
+ replace:'<a href="https://twitter.com/share" class="twitter-share-button">tweet</a>' '<a href="https://twitter.com/share" class="twitter-share-button" data-lang="zh-cn">发推</a>';
+}

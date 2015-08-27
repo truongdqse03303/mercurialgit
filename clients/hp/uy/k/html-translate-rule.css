@@ -10,3 +10,10 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL #= http://www\.e-ma-bldg\.com.*
+// URL #= http://e-ma-bldg\.com.*
+@postprocess{
+  replace:'<a href="https://twitter.com/share" class="twitter-share-button">트윗</a>' '<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ko">트윗하기</a>';
+}
