@@ -15,3 +15,7 @@ li > a {
   attribute: style add 'font-size: 10px;';
   attribute: style add 'margin-top: 10px;';
 }
+
+a.parent {
+  attribute: style delete;
+}
