@@ -11,8 +11,6 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
-// @RULESET
-// URL = http://makuharishintoshin-aeonmall.com/
 @postprocess {
- replace:'<a href="http://makuharishintoshin-aeonmall.com.k.vd.hp.transer.com/floorguide-en/" class="fade" target="_blank">' '<a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank">';
+ replace:'<a class="fade" href="http://makuharishintoshin-aeonmall.com.k.vd.hp.transer.com/floorguide/" target="_blank">' '<a class="fade" href="http://makuharishintoshin-aeonmall.com/floorguide-en/" target="_blank">';
 }
