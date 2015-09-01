@@ -14,5 +14,5 @@
 // @RULESET
 // URL = http://makuharishintoshin-aeonmall.com/
 @postprocess {
- replace:'<a href="http://makuharishintoshin-aeonmall.com.t.vd.hp.local-transer.co.jp/floorguide/" class="fade" target="_blank">' '<a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank">';
+ replace:'<a href="http://makuharishintoshin-aeonmall.com.t.vd.hp.transer.com/floorguide/" class="fade" target="_blank">' '<a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank">';
 }
