@@ -10,3 +10,9 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL = http://makuharishintoshin-aeonmall.com/
+@postprocess {
+ replace:'<a href="http://makuharishintoshin-aeonmall.com.k.vd.hp.local-transer.co.jp/floorguide/" class="fade" target="_blank">' '<a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank">';
+}
