@@ -18,5 +18,5 @@ body {
 // @RULESET
 // URL = http://makuharishintoshin-aeonmall.com/
 @postprocess {
- replace:'<a href="http://makuharishintoshin-aeonmall.com(.*?)/floorguide(.*?)/" class="fade" target="_blank">' '<a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank">';
+ replace:'<a href="http://makuharishintoshin-aeonmall.com.c.vd.hp.transer.com/floorguide-ch/" class="fade" target="_blank">' '<a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank">';
 }
