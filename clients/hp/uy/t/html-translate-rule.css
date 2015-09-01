@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
 
+@preprocess{
+replace: 'UA-38589525-1' 'UA-38589525-6';
+}
+
 // @RULESET
 // URL #= http://www\.e-ma-bldg\.com.*
 // URL #= http://e-ma-bldg\.com.*
