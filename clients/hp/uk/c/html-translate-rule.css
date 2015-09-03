@@ -22,3 +22,7 @@ td > span {
 * {
   text-flow: break;
 }
+
+@postprocess {
+ replace:'<option value="http://shinhotaka-ropeway.jp.c.uk.hp.transer.com/" label="中国简身体" cltx>' '<option value="http://shinhotaka-ropeway.jp.c.uk.hp.transer.com/" label="中国简体" cltx>';
+}

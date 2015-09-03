@@ -10,3 +10,9 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER ECOLOGY";
 }
+
+@postprocess {
+ replace:'<option value="" label="선택 ▼" selected cltx>' '<option value="" label="選択 ▼" selected cltx>';
+ replace:'<option value="http://shinhotaka-ropeway.jp.c.uk.hp.transer.com/" label="중국□체" cltx>' '<option value="http://shinhotaka-ropeway.jp.c.uk.hp.transer.com/" label="中国简体" cltx>';
+ replace:'<option value="http://shinhotaka-ropeway.jp.k.uk.hp.transer.com/" label="□□□" cltx>' '<option value="http://shinhotaka-ropeway.jp.k.uk.hp.transer.com/" label="한국어" cltx>';
+}
