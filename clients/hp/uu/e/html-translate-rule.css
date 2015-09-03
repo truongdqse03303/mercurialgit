@@ -20,6 +20,10 @@ a.parent {
   attribute: style delete;
 }
 
+div.mm-content-base > ul > li > a {
+  attribute: style delete;
+}
+
 @preprocess{
 replace: 'UA-44932080-1' 'UA-44932080-3';
 }
