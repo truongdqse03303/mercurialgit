@@ -14,3 +14,7 @@
 @preprocess{
 replace: 'UA-44932080-1' 'UA-44932080-4';
 }
+
+p#bt-gn {
+ attribute: clftx delete;
+}

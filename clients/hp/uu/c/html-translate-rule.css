@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+p#bt-gn {
+ attribute: clftx delete;
+}

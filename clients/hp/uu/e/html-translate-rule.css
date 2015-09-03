@@ -23,3 +23,7 @@ a.parent {
 @preprocess{
 replace: 'UA-44932080-1' 'UA-44932080-3';
 }
+
+p#bt-gn {
+ attribute: clftx delete;
+}
