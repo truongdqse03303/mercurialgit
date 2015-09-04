@@ -110,6 +110,13 @@ replace: ' <li style="width: 120px; line-height: 20px;"><!--cltx--><a href="ir/i
 // URL = http://www.core.co.jp/product/embedded/case/index.html
 // URL = http://www.core.co.jp/product/embedded/dl/
 // URL = http://www.core.co.jp/product/embedded/dl/index.html
+// URL #= http://www\.core\.co\.jp/product/embedded/m2masura/(index|asura_csac|tanpopo_asura|ran_asura|sasa_asura).html
+// URL #= http://www\.core\.co\.jp/product/embedded/lcdasura/(index|kiri_asura|camellia_asura|matsu_asura|take_asura).html
+// URL = http://www.core.co.jp/product/embedded/monodukuri/index.html
+// URL #= http://www\.core\.co\.jp/product/embedded/guimiddleware/(index|genware4_3|genware_lite|d-amp_driver|karuiine|karueezo|dyna_comware).html
+// URL #= http://www\.core\.co\.jp/product/embedded/osnetworkmiddleware/(index|cente|grape_gr-file|zepro_ip|zepro_mirror|grape_gr-usb|c3|net3).html
+// URL #= http://www\.core\.co\.jp/product/embedded/tool/(index|iar|realtime_hyper|palmice3).html
+// URL #= http://www\.core\.co\.jp/product/embedded/other/(answers|device_sql|aes|halcon|labview).html
 @postprocess {
  replace:'<li style="width: 120px; line-height: 20px;">' '<li style="width: 240px; line-height: 20px;">';
 }
