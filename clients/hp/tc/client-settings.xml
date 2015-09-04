@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="izufull.com" />
+    <request hostname="150.60.109.149" />
   </request-list>
   
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
