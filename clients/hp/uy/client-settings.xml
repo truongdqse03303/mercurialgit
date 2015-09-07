@@ -15,18 +15,20 @@
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
   
-  <!-- 免責ヘッダーを絶対座標で指定 -->
-  <extension-param>
-    <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
-  </extension-param>
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+      <extension-param>
+          <param-name>default.fragment.translate</param-name>
+              <param-value>false</param-value>
+      </extension-param>
   
-<!-- デフォルトでHTML断片翻訳を行うかどうか -->
-  <extension-param>
-   <param-name>default.fragment.translate</param-name>
-   <param-value>false</param-value>
-  </extension-param>
-  
+  <!-- 免責ヘッダー個別設定-->
+       <site-translate-message>
+          <message settingid="e">This\x20page\x20is\x20translated\x20using\x20machine\x20translation\x2e\x20Please\x20note\x20that\x20the\x20content\x20may\x20not\x20be\x20100\x25\x20accurate\x2e</message>
+          <message settingid="t">\u9019\u500b\u7db2\u9801\u662f\u88ab\u6a5f\u5668\u9032\u884c\u7ffb\u8b6f\u7684\u3002\u7ffb\u8b6f\u7d50\u679c\u4e0d\u53ef\u80fd100\x25\u6b63\u78ba\u3002\u671b\u60a8\u591a\u7406\u89e3\u800c\u5229\u7528\u3002</message>
+       	  <message settingid="k">\uc774\x20\ud398\uc774\uc9c0\ub294\x20\uae30\uacc4\ubc88\uc5ed\uc744\x20\uc774\uc6a9\ud574\x20\ubc88\uc5ed\ub418\uc5c8\uc2b5\ub2c8\ub2e4\x2e\x20\ubc88\uc5ed\uacb0\uacfc\uac00\x20100\x25\x20\uc815\ud655\ud558\uc9c0\x20\uc54a\ub294\x20\uc810\x20\uc591\ud574\x20\ubd80\ud0c1\ub4dc\ub9bd\ub2c8\ub2e4\x2e</message>
+          <message settingid="c">\u8fd9\u4e2a\u7f51\u9875\u662f\u88ab\u673a\u5668\u8fdb\u884c\u7ffb\u8bd1\u7684\u3002\u7ffb\u8bd1\u7ed3\u679c\u4e0d\u53ef\u80fd100\x25\u6b63\u786e\u3002\u671b\u60a8\u591a\u7406\u89e3\u800c\u5229\u7528\u3002</message>
+       </site-translate-message>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
