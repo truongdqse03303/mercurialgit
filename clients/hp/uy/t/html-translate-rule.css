@@ -20,4 +20,5 @@ replace: 'UA-38589525-1' 'UA-38589525-6';
 // URL #= http://e-ma-bldg\.com.*
 @postprocess {
  replace:'<a href="https://twitter.com/share" class="twitter-share-button">tweet</a>' '<a href="https://twitter.com/share" class="twitter-share-button" data-lang="zh-tw">推文</a>'; 
+   replace: '<img src="../images/btn_line.png" width="82" height="20" alt="用LINE送" cltx>' '<img src="http://www.e-ma-bldg.com/language/line_btn.png" width="82" height="20" alt="用LINE送" cltx>';
 }
