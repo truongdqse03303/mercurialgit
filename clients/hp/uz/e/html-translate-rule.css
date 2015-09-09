@@ -16,3 +16,7 @@
 @postprocess{
 replace: '<span>arch store</span>' '<span>search store</span>';
 }
+
+@preprocess{
+replace: 'UA-39252718-1' 'UA-39252718-4';
+}
