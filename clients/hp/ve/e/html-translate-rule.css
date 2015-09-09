@@ -1,0 +1,21 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOURMET FASHION INTERNET";
+}
+@engine tsuruya-dept/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOURMET FASHION";
+}
+@engine tsuruya-dept/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
+}
+
+@postprocess {
+  replace: 'Sazae comes over! Friday, September 4 .5 days Saturday .6 days Su<font color="red">nd</font>ay' 'Sazae comes over! Friday, September 4 .5 days Saturday .6 days <font color="red">Sunday</font>';
+  replace: 'From Saturday, September 19 to Sunday, Septem<font color="#FF0000">ber</font>' 'From Saturday, September 19 to <font color="#FF0000">Sunday</font>,September';
+  replace: 'From Saturday, September 12 to 27th Su<font color="#FF0000">nd</font>ay' 'From Saturday, September 12 to 27th <font color="#FF0000">Sunday</font>';
+  replace: 'September 26 .27 days Su<font color="#FF0000">nd</font>ay' 'September 26 .27 days <font color="#FF0000">Sunday</font>';
+  replace: '- Sunday, Septemb<font color="#FF0000">er </font>13 from 11:00 a.m. to 3:00 p.m. east hall the seventh floor salon de chateau during holding</li>' '- <font color="#FF0000">Sunday</font>, September 13 from 11:00 a.m. to 3:00 p.m. east hall the seventh floor salon de chateau during holding</li>';  
+  replace: 'October 12 (.*?)<font color="#FF0000">(.*?) (\\()(.*?)</font>(.*?)(\\))' 'October 12 <font color="#FF0000"> $3$1$2 $4$5$6</font>';  
+}

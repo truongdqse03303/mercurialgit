@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JATH;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine tsuruya-dept/main {
+  eid: MS-JATH;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine tsuruya-dept/cross {
+  eid: MS-JATH;
+  dictionaries: "CROSS_TM_MASTER";
+}
