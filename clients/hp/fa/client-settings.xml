@@ -20,6 +20,12 @@
   <!--url-list type="ignore-fragment">
     <url>http://www\.tokyu-dept\.co\.jp/shinqs/.*</url>
   </url-list-->
+  
+  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+ </extension-param>
 
   <!-- URLとリソース種類のマッピングの設定 -->
   <resource-handler>
