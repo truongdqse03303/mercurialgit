@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>那須烏山市</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nasukarasuyama/service 8dcb28963d0ec2a84beeb6e0a4bec14bf5a80e2a</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.nasukarasuyama.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
