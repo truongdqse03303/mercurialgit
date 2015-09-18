@@ -31,6 +31,12 @@
     <param-name>site.translate.header.style</param-name>
     <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
   </extension-param>
+  
+    <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+ </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
