@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ルミネ テストサイト</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>lumine-test/service d3a2b5a48ead52ef176e378c4b9626a4cbebf538</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="oct.lumine.ne.jp" />
+    <request hostname="sept.lumine.ne.jp" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
