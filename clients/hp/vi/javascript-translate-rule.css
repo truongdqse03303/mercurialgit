@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.biccamera.co.jp/tool/js/ga.js
+@preprocess {
+  replace: "UA-35153364-1" "UA-35153364-2";
+}

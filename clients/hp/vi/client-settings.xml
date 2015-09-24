@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ビックカメラ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>biccamera-asia/service bcc9d96707da0dec605498d9cf9734be1bbebb99</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.biccamera.co.jp" />
+    <request hostname="www.biccamera.com" />
+  </request-list>
+  
+    <!-- HTML断片翻訳を行わないURLの一覧 -->
+  <url-list type="ignore-fragment">
+    <url>http://www\.biccamera\.co\.jp/shopguide/.*</url>
+  </url-list>
+  
+    <!-- PDF翻訳 -->
+  <extension-param>
+    <param-name>pdf.translate</param-name>
+    <param-value>false</param-value>
+  </extension-param>
+  
+    <!-- トークンチェック(ロボット対策) -->
+  <extension-param>
+    <param-name>token.check.resource</param-name>
+    <param-value>pdf</param-value>
+  </extension-param>
+  
+    <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+  <charset url=".+\.pdf">UTF-8</charset>
+
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>th,v,id</param-value>
+  </extension-param>
+
+  <!-- URLとリソース種類のマッピングの設定 ここから -->
+  <!-- PCページ-->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www\.biccamera\.com/bc/(js/floorMapList\.xml|js_sp/floorMapList\.xml)</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+  <!-- URLとリソース種類のマッピングの設定 ここまで -->
+  
+  <!-- 検索フォームの文字エンコード -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
+    <param>
+      <param-name>encode.url.search</param-name>
+      <param-value>http://search\.biccamera\.com/pall/search/\?s.ie=.+</param-value>
+    </param>
+    <param>
+      <param-name>encode.charset.search</param-name>
+      <param-value>Shift_JIS</param-value>
+    </param>
+  </resource-handler>
+
+</client-settings>

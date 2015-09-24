@@ -1,0 +1,7 @@
+@preprocess {
+  replace: '(<a href="\\*" onclick="window\.print\\(\\)">印刷する</a>)' '<p>$1</p>';
+}
+
+div[id=keySearchBox]{
+attribute: cltx add 'exclude';
+}
