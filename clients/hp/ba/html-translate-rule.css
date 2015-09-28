@@ -13,3 +13,9 @@ div.box_index {
 div.box_list > h4 {
   content: ignore;
 }
+
+// @RULESET
+// URL ^= http://www.marui-imai.jp/sapporo/s_top/index.html/
+@postprocess {
+replace:'<script src="http://i.isetan.co.jp/maruiimai/sapporo/js/recents.js" type="text/javascript"></script>' '<script src="http://i.isetan.co.jp.e.ba.hp.transer.com/maruiimai/sapporo/js/recents.js" type="text/javascript"></script>';
+}
