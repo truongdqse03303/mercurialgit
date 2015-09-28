@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>千葉ステーションビル 千葉ペリエ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>perie/service 0d1396a96b0516e7688e5d95bea144efc97c4c7f</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.perie.co.jp" />
+    <request hostname="157.71.193.85" />
+    <request hostname="157.71.193.86" />
+    <request hostname="perie.stitch.co.jp" />
+    <request hostname="www.ekipara.com" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+    <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore-fragment">
+    <url>http://157\.71\.193\.(85|86)/cms/*</url>
+    <url>http://www\.perie\.co\.jp/cms/*</url>
+    <url>http://perie\.stitch\.co\.jp/cms/*</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
