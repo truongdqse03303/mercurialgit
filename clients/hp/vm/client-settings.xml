@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>三陸ジオパーク推進協議会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>sanriku-geo/service c57416e3d8baf9d1354dc360aab39a82794b0c95</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="sanriku-geo.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
