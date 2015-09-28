@@ -19,43 +19,7 @@
     <param-name>show.translate.header</param-name>
     <param-value>false</param-value>
   </extension-param>
-  
-    <!-- robots.txt -->
-  <resource-handler>
-    <type name="robotstxt">jp.co.crosslanguage.translate.url.request.process.resource.handler.ContentRespondResourceHandler</type>
-    <param>
-      <param-name>response.url.pattern</param-name>
-      <param-value>.+/robots.txt</param-value>
-    </param>
-    <param>
-      <param-name>response.content.path</param-name>
-      <param-value>classpath:/script/robots.txt</param-value>
-    </param>
-    <param>
-      <param-name>response.content.type</param-name>
-      <param-value>text/plain</param-value>
-    </param>
-    <priority>1</priority>
-  </resource-handler>
-  <!-- ホストヘッダーの検証-->
-  <resource-handler>
-    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.HostHeaderCheckResourceHandler</type>
-    <priority>1</priority>
-    <terminal>true</terminal>
-  </resource-handler>
-  <!-- リソースの不正なパターンを検証 -->
-  <resource-handler>
-    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.PatternValidateResourceHandler</type>
-    <priority>1</priority>
-    <terminal>true</terminal>
-  </resource-handler>
-  
-    <!-- デフォルトでHTML断片翻訳を行うかどうか -->
-  <extension-param>
-   <param-name>default.fragment.translate</param-name>
-   <param-value>false</param-value>
- </extension-param>
-   
+          
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>
 </client-settings>
