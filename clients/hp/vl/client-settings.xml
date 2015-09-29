@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>日本百貨店協会 百貨店ワールド</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>departinfo-new/service 159a9d5ac58cef21546fe00a8267acc94f602342</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.departinfo.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
