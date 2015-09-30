@@ -1,5 +1,6 @@
 // @RULESET
 // URL = http://nambacity.com/css/top.css
+// URL = http://www.nambacity.com/css/top.css
 @preprocess {
   replace: 'letter-spacing: -3px' 'letter-spacing: -1px';
 }
