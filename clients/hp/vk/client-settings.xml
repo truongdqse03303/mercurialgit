@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="oct.lumine.ne.jp" />
     <request hostname="sept.lumine.ne.jp" />
+    <request hostname="www.ekipara.com" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
