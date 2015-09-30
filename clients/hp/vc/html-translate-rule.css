@@ -15,3 +15,12 @@ replace:'<ul class="class_list">' '<ul class="class_list cl-notranslate">';
 div#lang > ul > li {
   attribute: class add 'cl-notranslate';
 }
+
+// @RULESET
+// URL #= http://www\.snowtomamu\.jp/special/xmas.*
+@postprocess {
+  replace:'<p class="logo"><a href="http://www.snowtomamu.jp/winter/topics2015/index_zh.html"><img src="img/header_logo.png" width="231" height="52" alt="星野TOMAMU度假村" cltx></a></p>' '<p class="logo"><a href="http://www.snowtomamu.jp/winter/topics2015/index_zh.html"><img src="img/header_logo.png" width="231" height="52" alt="星野TOMAMU度假村" class="cl-norewrite"cltx></a></p>';
+  replace:'<p class="logo"><a href="http://www.snowtomamu.jp/winter/en/"><img src="img/header_logo.png" width="231" height="52" alt="Hoshino Resorts TOMAMU" cltx></a></p>' '<p class="logo"><a href="http://www.snowtomamu.jp/winter/en/"><img src="img/header_logo.png" width="231" height="52" alt="Hoshino Resorts TOMAMU" class="cl-norewrite" cltx></a></p>';
+  replace:'<p class="logo"><a href="http://www.snowtomamu.jp/winter/topics2015/index_ko.html"><img src="img/header_logo.png" width="231" height="52" alt="호시노리조트 토마무" cltx></a></p>' '<p class="logo"><a href="http://www.snowtomamu.jp/winter/topics2015/index_ko.html"><img src="img/header_logo.png" width="231" height="52" alt="호시노리조트 토마무" class="cl-norewrite" cltx></a></p>';  
+  replace:'<p class="logo"><a href="http://www.snowtomamu.jp/winter/topics2015/index_cn.html"><img src="img/header_logo.png" width="231" height="52" alt="星野TOMAMU度假村" cltx></a></p>' '<p class="logo"><a href="http://www.snowtomamu.jp/winter/topics2015/index_cn.html"><img src="img/header_logo.png" width="231" height="52" alt="星野TOMAMU度假村" class="cl-norewrite" cltx></a></p>';  
+}
