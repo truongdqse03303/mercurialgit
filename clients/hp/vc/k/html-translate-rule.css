@@ -10,3 +10,9 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL = http://www.snowtomamu.jp/special/xmas/
+@postprocess {
+replace: '<p class="logo"><a href="/winter/">' '<p class="logo"><a href="http://www.snowtomamu.jp/winter/topics2015/index_ko.html" class="cl-norewrite">';
+}

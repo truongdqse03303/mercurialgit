@@ -10,3 +10,9 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
+
+// @RULESET
+// URL = http://www.snowtomamu.jp/special/xmas/
+@postprocess {
+replace: '<p class="logo"><a href="/winter/">' '<p class="logo"><a href="http://www.snowtomamu.jp/winter/" class="cl-norewrite">';
+}
