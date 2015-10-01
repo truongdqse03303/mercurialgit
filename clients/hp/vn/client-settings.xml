@@ -24,6 +24,25 @@
     <url>http://www\.perie\.co\.jp/cms/*</url>
     <url>http://perie\.stitch\.co\.jp/cms/*</url>
   </url-list>
+  
+    <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic cGVyaWU6dGVzdHNpdGU=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://perie\.stitch\.co\.jp/</param-value>
+    </param>
+  </resource-handler>
+  
+  
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
