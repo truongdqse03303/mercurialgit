@@ -50,3 +50,11 @@
 @postprocess {
   replace: 'mesmerizing man<a href="http://www.mariebelle.jp/" target="_blank">y celebrities</a>.<br><br />' 'mesmerizing many <a href="http://www.mariebelle.jp/" target="_blank">celebrities</a>.<br><br />';
 }
+
+// @RULESET
+// URL = http://www.tomorrowland.co.jp/new-index20150929.php
+// URL = http://www.tomorrowland.co.jp/new2015-informationservice/index.html
+@postprocess {
+	replace: '<span class="stay">JP</span><span class="inline">' '<a href="http://www.tomorrowland.co.jp/">JP</a><span class="inline">';
+    replace: '<a href="http://www.tomorrowland.co.jp.e.mf.hp.transer.com/">EN</a><span class="inline">' '<span class="stay">EN</span><span class="inline">';
+}

@@ -10,3 +10,11 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL = http://www.tomorrowland.co.jp/new-index20150929.php
+// URL = http://www.tomorrowland.co.jp/new2015-informationservice/index.html
+@postprocess {
+	replace: '<span class="stay">JP</span><span class="inline">' '<a href="http://www.tomorrowland.co.jp/">JP</a><span class="inline">';
+    replace: '<a href="http://www.tomorrowland.co.jp.k.mf.hp.transer.com/">KR</a>' '<span class="stay">KR</span>';
+}
