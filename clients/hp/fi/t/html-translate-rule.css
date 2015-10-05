@@ -10,3 +10,8 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
+
+@postprocess {
+replace:'<link rel="stylesheet" href="css/styles.css" />' '<link rel="stylesheet" href="css/styles_cht.css" />';
+replace:'<link rel="stylesheet" href="../css/styles.css" />' '<link rel="stylesheet" href="../css/styles_cht.css" />';
+}

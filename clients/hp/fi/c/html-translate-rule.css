@@ -14,3 +14,9 @@
 body {
   attribute: lang add 'zh';
 }
+
+
+@postprocess {
+replace: '<link rel="stylesheet" href="css/styles.css" />' '<link rel="stylesheet" href="css/styles_ch.css" />';
+replace: '<link rel="stylesheet" href="../css/styles.css" />' '<link rel="stylesheet" href="../css/styles_ch.css" />';
+}

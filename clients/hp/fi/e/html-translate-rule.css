@@ -20,5 +20,6 @@ link[rel="stylesheet"][type="text/css"][href$="/css/import.css"] {
 }
 
 @postprocess {
-  replace: '<link rel="stylesheet" href="css/styles.css" />' '<link rel="stylesheet" href="css/styles_en.css" />';
+replace: '<link rel="stylesheet" href="css/styles.css" />' '<link rel="stylesheet" href="css/styles_en.css" />';
+replace: '<link rel="stylesheet" href="../css/styles.css" />' '<link rel="stylesheet" href="../css/styles_en.css" />';  
 }
