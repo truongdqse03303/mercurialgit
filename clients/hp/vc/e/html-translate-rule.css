@@ -14,5 +14,5 @@
 // @RULESET
 // URL = http://www.snowtomamu.jp/special/xmas/
 @postprocess {
-replace: '<p class="logo"><a href="/winter/">' '<p class="logo"><a href="http://www.snowtomamu.jp/winter/" class="cl-norewrite">';
+replace: '<p class="logo"><a href="/winter/">' '<p class="logo"><a href="http://www.snowtomamu.jp.e.vc.hp.transer.com/winter/" class="cl-norewrite">';
 }
