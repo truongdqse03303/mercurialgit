@@ -12,10 +12,10 @@
 }
 
 @postprocess {
- replace:'<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com.t.vd.hp.transer.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="樓層向導" /></a></div>' '<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="樓層向導" /></a></div>';
- replace:'<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com.t.vd.hp.transer.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="樓層向導" /></a></div>' '<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="樓層向導" /></a></div>';
+ replace:'<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com.t.vd.hp.local-transer.co.jp/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="樓層向導" /></a></div>' '<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="樓層向導" /></a></div>';
+ replace:'<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com.t.vd.hp.local-transer.co.jp/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="樓層向導" /></a></div>' '<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="樓層向導" /></a></div>';
 }
 
-div.bnr.pcCont {
- attribute: clftx delete;
+@postprocess {
+  replace:'<a href="#" class="fade"><span class="txtInner">越發看諮詢</span></a>' '<a href="#" class="fade"><span class=" ">越發看諮詢</span></a>';
 }
