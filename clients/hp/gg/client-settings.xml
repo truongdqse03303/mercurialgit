@@ -28,7 +28,7 @@
   
     <!-- 翻訳対象外URLの一覧 -->
   <url-list type="ignore">
-    <url>http://www\.neconome\.com/110168/index\.html</url>
+    <url>http://www\.neconome\.com/</url>
   </url-list>
 
   <!-- 使用する設定IDの一覧 -->
