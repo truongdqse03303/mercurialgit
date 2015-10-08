@@ -26,11 +26,6 @@
     <url>http://www2\.wagamachi-guide\.com/.+</url>
   </url-list>
   
-    <!-- 翻訳対象外URLの一覧 -->
-  <url-list type="ignore">
-    <url>http://www\.neconome\.com/</url>
-  </url-list>
-
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 
