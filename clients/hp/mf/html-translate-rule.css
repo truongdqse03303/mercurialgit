@@ -6,3 +6,7 @@ div[class^="__scrollable"], div#gbox {
   replace: '<a (.*?)href="http://www.tomorrowland.co.jp.e.mf.hp.transer.com/"(.*?)>ENGLISH</a>' '<a $1href="http://www.tomorrowland.co.jp/"$2>JAPANESE</a>';
   replace: 'crosslanguage-translate-jaen(.*?>)ENGLISH(</a>)' 'crosslanguage-translate-org$1JAPANESE$2';
 }
+
+@preprocess {
+  replace: '<a href="http://www.tomorrowland.co.jp/" class="gj">JP</a>' '<a href="http://www.tomorrowland.co.jp/" class="gj cl-norewrite">JP</a>';
+}
