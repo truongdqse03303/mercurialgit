@@ -12,8 +12,8 @@
 }
 
 @postprocess {
- replace:'<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com.e.vd.hp.local-transer.co.jp/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="Floor guide" /></a></div>' '<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="Floor guide" /></a></div>';
- replace:'<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com.e.vd.hp.local-transer.co.jp/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="Floor guide" /></a></div>' '<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="Floor guide" /></a></div>';
+ replace:'<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com.e.vd.hp.transer.co.jp/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="Floor guide" /></a></div>' '<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="Floor guide" /></a></div>';
+ replace:'<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com.e.vd.hp.transer.co.jp/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="Floor guide" /></a></div>' '<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="Floor guide" /></a></div>';
 }
 
 @postprocess {

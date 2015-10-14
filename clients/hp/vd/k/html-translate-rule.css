@@ -12,8 +12,8 @@
 }
 
 @postprocess {
- replace:'<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com.k.vd.hp.local-transer.co.jp/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="플로어 가이드" /></a></div>' '<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="플로어 가이드" /></a></div>';
- replace:'<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com.k.vd.hp.local-transer.co.jp/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="플로어 가이드" /></a></div>' '<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="플로어 가이드" /></a></div>';
+ replace:'<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com.k.vd.hp.transer.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="플로어 가이드" /></a></div>' '<div class="bnr pcCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="플로어 가이드" /></a></div>';
+ replace:'<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com.k.vd.hp.transer.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="플로어 가이드" /></a></div>' '<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="플로어 가이드" /></a></div>';
 }
 
 @postprocess {
