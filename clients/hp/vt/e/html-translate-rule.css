@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM IT SYSTEM FINANCE MARKET INTERNET";
+}
+@engine vision/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER IT SYSTEM FINANCE MARKET";
+}
+@engine vision/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT SYSTEM FINANCE MARKET";
+}
+
+div.inner_right > p {
+ attribute: style add "font-size:12px;";
+}
