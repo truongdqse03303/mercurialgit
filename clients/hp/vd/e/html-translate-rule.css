@@ -19,3 +19,12 @@
 @postprocess {
   replace:'<a href="#" class="fade"><span class="txtInner">We see INFORMATION more</span></a></p>' '<a href="#" class="fade"><span class=" ">We see INFORMATION more</span></a></p>';
 }
+
+@postprocess {
+ replace:'<div class="bnr pcCont"><a href="http://wakayama-aeonmall.com/floorguide/" class="fade" target="_blank">' '<div class="bnr pcCont"><a href="http://wakayama-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
+ replace:'<div class="bnr spCont"><a href="http://wakayama-aeonmall.com/floorguide/" class="fade" target="_blank">' '<div class="bnr spCont"><a href="http://wakayama-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
+}
+
+@preprocess {
+  replace:'<a href="http://wakayama-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://wakayama-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
+}

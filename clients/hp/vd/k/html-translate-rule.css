@@ -19,3 +19,7 @@
 @postprocess {
   replace:'<a href="#" class="fade"><span class="txtInner">인포메이션을 더 본다</span></a>' '<a href="#" class="fade"><span class=" ">인포메이션을 더 본다</span></a>';
 }
+
+@preprocess {
+  replace:'<a href="http://wakayama-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://wakayama-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
+}
