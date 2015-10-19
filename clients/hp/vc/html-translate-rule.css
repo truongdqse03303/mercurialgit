@@ -15,3 +15,9 @@ replace:'<ul class="class_list">' '<ul class="class_list cl-notranslate">';
 div#lang > ul > li {
   attribute: class add 'cl-notranslate';
 }
+
+@postprocess {
+replace: '<li><a href="http://www.snowtomamu.jp/winter/ski/seasonpass/" class="cl-norewrite" target="_blank">' '<li><a href="http://www.snowtomamu.jp/winter/en/ski/seasonpass/" class="cl-norewrite" target="_blank">';
+replace: '<figure><a href="http://www.snowtomamu.jp/winter/ski/seasonpass/" class="cl-norewrite" target="_blank">' '<figure><a href="http://www.snowtomamu.jp/winter/en/ski/seasonpass/" class="cl-norewrite" target="_blank">';
+replace: '<h3><!--cltx--><a href="http://www.snowtomamu.jp/winter/ski/seasonpass/" class="cl-norewrite" target="_blank">' '<h3><!--cltx--><a href="http://www.snowtomamu.jp/winter/en/ski/seasonpass/" class="cl-norewrite" target="_blank">';
+}
