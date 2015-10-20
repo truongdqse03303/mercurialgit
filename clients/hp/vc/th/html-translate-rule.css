@@ -11,6 +11,10 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+@preprocess {
+replace: 'UA-5864174-1' 'UA-5864174-6';
+}
+
 // @RULESET
 // URL = http://www.snowtomamu.jp/special/xmas/
 @postprocess {
