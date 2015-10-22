@@ -25,3 +25,7 @@ replace: '<h3><!--cltx--><a href="http://www.snowtomamu.jp/winter/ski/seasonpass
 article#pickup {
 attribute: cltx add 'exclude';
 }
+
+article#topics {
+attribute: cltx add 'exclude';
+}
