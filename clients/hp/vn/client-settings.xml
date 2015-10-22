@@ -38,11 +38,9 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://perie\.stitch\.co\.jp/</param-value>
+      <param-value>http://(perie\.stitch\.co\.jp|157\.71\.193\.85).*</param-value>
     </param>
   </resource-handler>
-  
-  
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
