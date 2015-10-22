@@ -21,3 +21,7 @@ replace: '<li><a href="http://www.snowtomamu.jp/winter/ski/seasonpass/" class="c
 replace: '<figure><a href="http://www.snowtomamu.jp/winter/ski/seasonpass/" class="cl-norewrite" target="_blank">' '<figure><a href="http://www.snowtomamu.jp/winter/en/ski/seasonpass/" class="cl-norewrite" target="_blank">';
 replace: '<h3><!--cltx--><a href="http://www.snowtomamu.jp/winter/ski/seasonpass/" class="cl-norewrite" target="_blank">' '<h3><!--cltx--><a href="http://www.snowtomamu.jp/winter/en/ski/seasonpass/" class="cl-norewrite" target="_blank">';
 }
+
+article#pickup {
+attribute: cltx add 'exclude';
+}
