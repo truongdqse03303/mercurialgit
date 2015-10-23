@@ -20,10 +20,6 @@ body {
  replace:'<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com.c.vd.hp.transer.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="楼层向导" /></a></div>' '<div class="bnr spCont"><a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank"><img src="http://makuharishintoshin-aeonmall.com/files/ad/38/photo1.gif" alt="楼层向导" /></a></div>';
 }
 
-@postprocess {
-  replace:'<a href="#" class="fade"><span class="txtInner">越发看问讯处</span></a>' '<a href="#" class="fade"><span class=" ">越发看问讯处</span></a>';
-}
-
 @preprocess {
   replace:'<a href="http://wakayama-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://wakayama-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
 }
