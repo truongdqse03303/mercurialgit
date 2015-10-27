@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.lumine.ne.jp" />
+    <request hostname="renew.lumine.ne.jp" />
   </request-list>
   
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->

@@ -5,3 +5,7 @@ div#searchArea, div#searchAreaS, div#inc_tweet_wrap {
 @preprocess {
   replace: '(mode=a)&(lang)' '$1&amp;$2';
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+}
