@@ -1,0 +1,3 @@
+div#menu > div#menu-inner > nav.naver.enabled  {
+	attribute: cltx add 'exclude';
+	}
