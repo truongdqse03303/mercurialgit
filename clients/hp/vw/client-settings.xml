@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ホスピタリティ ツーリズム専門学校大阪</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>trajal/service 1dd48d85136beaec79de0b551abd1093d32bc023</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.trajal.info" />
+    <request hostname="trajal-topics.cocolog-nifty.com" />
+  </request-list>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>th,v,id</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

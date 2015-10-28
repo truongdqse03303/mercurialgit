@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine trajal/main {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine trajal/cross {
+  eid: MS-JAVI;
+  dictionaries: "CROSS_TM_MASTER";
+}
