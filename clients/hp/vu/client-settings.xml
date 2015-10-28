@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.anime-washoku-chuoline.com" path="/.*" />
+    <request hostname="www.anime-washoku-chuoline.com" />
   </request-list>
 
   <!-- サイトで使用される文字セット -->
