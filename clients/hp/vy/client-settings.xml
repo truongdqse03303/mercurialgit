@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>町田市観光コンベンション協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>machida-guide/service 2625f064641c840fde7a8d5b832f3cd08a8a6dff</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="machida-guide.or.jp" />
+  </request-list>
+  
+      <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://machida-guide\.or\.jp/memberguide/</url>
+    <url>http://machida-guide\.or\.jp/insertion\.html</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
