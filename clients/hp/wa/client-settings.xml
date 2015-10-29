@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>博多リバレインモール</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hakata-riverainmall/service 80afb4f35420fb6e3f3cc40ebca7524007cb5acd</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.hakata-riverainmall.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
