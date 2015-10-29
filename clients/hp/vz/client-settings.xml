@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>白水館</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hakusuikan/service 3a5d9d5d5fb2a688a2e160a0ac56c8bcb58e2072</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.hakusuikan.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
