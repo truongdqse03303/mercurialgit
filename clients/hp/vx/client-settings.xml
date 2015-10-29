@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>吟松</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ginsyou/service 98484d78428b2b211580527ab6ccf67b6af11dab</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="ginsyou.com" />
+    <request hostname="www.ginsyou.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
