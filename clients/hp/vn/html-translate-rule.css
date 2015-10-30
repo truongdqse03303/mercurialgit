@@ -4,4 +4,8 @@ div.sp_gnav.sp > ul > li {
  
 div.slide_wrap {
  attribute: cltx add 'exclude';
+ }
+ 
+div.slide_wrap_sp {
+ attribute: cltx add 'exclude';
  } 
