@@ -1,0 +1,3 @@
+div.sp_gnav.sp > ul > li {
+ attribute: cltx add 'exclude';
+ }
