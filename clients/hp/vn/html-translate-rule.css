@@ -1,3 +1,7 @@
 div.sp_gnav.sp > ul > li {
  attribute: cltx add 'exclude';
  }
+ 
+div.slide_wrap {
+ attribute: cltx add 'exclude';
+ } 
