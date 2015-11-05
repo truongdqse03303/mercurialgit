@@ -6,3 +6,7 @@
 // @RULESET
 // URL #= http://www\.ekipara\.com/building/.*
 @data html { encoding: force "Shift-JIS"; }
+
+// @RULESET
+// URL #= http://www\.ekipara\.com/smartphone/.*
+@data html { encoding: force "UTF-8"; }
