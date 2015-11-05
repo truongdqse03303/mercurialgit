@@ -1,5 +1,3 @@
 @preprocess {
   replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
-
-@data html { encoding: force "Shift-JIS"; }
