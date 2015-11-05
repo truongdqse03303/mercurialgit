@@ -4,5 +4,5 @@
 
 
 // @RULESET
-// URL #= http://www\.ekipara\.com/building/(.*?)\.html
+// URL #= http://www\.ekipara\.com/building/.*
 @data html { encoding: force "Shift-JIS"; }
