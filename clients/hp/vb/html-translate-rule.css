@@ -1,3 +1,8 @@
 @preprocess {
   replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
+
+
+// @RULESET
+// URL #= http://www\.ekipara\.com/building/(.*?)\.html
+@data html { encoding: force "Shift-JIS"; }
