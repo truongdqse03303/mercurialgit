@@ -9,3 +9,5 @@ div.slide_wrap {
 div.slide_wrap_sp {
  attribute: cltx add 'exclude';
  } 
+ 
+@data html { encoding: force "Shift-JIS"; }
