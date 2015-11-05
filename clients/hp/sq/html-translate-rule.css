@@ -9,5 +9,3 @@ div#searchArea, div#searchAreaS, div#inc_tweet_wrap {
 @preprocess {
   replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
-
-@data html { encoding: force "Shift-JIS"; }
