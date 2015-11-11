@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM IT SYSTEM BUSINESS COMPUTER INTERNET";
+}
+@engine crosslanguage_2/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER IT SYSTEM BUSINESS COMPUTER";
+}
+@engine crosslanguage_2/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT SYSTEM BUSINESS COMPUTER";
+}
+
+@preprocess {
+  replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+}
