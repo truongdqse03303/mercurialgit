@@ -11,12 +11,13 @@
     <request hostname="oct.lumine.ne.jp" />
     <request hostname="sept.lumine.ne.jp" />
     <request hostname="www.ekipara.com" />
+    <request hostname="stage.lumine.ne.jp" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
-
-  <!-- Basic認証 -->
+  
+    <!-- Basic認証 -->
   <resource-handler>
     <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
     <param>
@@ -25,11 +26,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic bHVtaW5lOjIwMTVjbXM=</param-value>
+      <param-value>Basic bHVtaW5lOnRlc3RzaXRl</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://oct\.lumine\.ne\.jp.*</param-value>
+      <param-value>http://stage.lumine.ne.jp/.*</param-value>
     </param>
   </resource-handler>
 
