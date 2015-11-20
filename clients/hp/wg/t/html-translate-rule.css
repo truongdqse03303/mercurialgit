@@ -1,0 +1,19 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION";
+}
+@engine ima-hikarigaoka/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION";
+}
+@engine ima-hikarigaoka/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
+}
+
+@postprocess {
+replace:'<a href="http://www.ima-hikarigaoka.jp.t.wg.hp.transer.com/flyer/151113/" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/151113/" target="_blank">';
+replace:'<a href="http://www.ima-hikarigaoka.jp.t.wg.hp.transer.com/flyer/151113_2/#page=1" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/151113_2/#page=1" target="_blank">';
+replace:'<a href="http://www.ima-hikarigaoka.jp.t.wg.hp.transer.com/flyer/151023/" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/151023/" target="_blank">';
+replace:'<a href="http://www.ima-hikarigaoka.jp.t.wg.hp.transer.com/flyer/150925_2/#page=1" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/150925_2/#page=1" target="_blank">';
+}

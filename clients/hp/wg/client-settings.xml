@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社新都市ライフ（光が丘IMA）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ima-hikarigaoka/service e0f998bd2cac463af7fa9f251f6a8742368dad95</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.ima-hikarigaoka.jp" />
+  </request-list>
+  
+    <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://www\.ima-hikarigaoka\.jp/imahall/</url>
+    <url>http://www\.ima-hikarigaoka\.jp/sp/imahall/</url>
+  </url-list>
+  
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
