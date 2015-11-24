@@ -16,6 +16,7 @@ replace:'E on' 'AEON';
 }
 
 @postprocess {
+replace:'<a href="http://www.ima-hikarigaoka.jp.e.wg.hp.transer.com/flyer/151124/#page=1" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/151124/#page=1" target="_blank">';
 replace:'<a href="http://www.ima-hikarigaoka.jp.e.wg.hp.transer.com/flyer/151113/" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/151113/" target="_blank">';
 replace:'<a href="http://www.ima-hikarigaoka.jp.e.wg.hp.transer.com/flyer/151113_2/#page=1" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/151113_2/#page=1" target="_blank">';
 replace:'<a href="http://www.ima-hikarigaoka.jp.e.wg.hp.transer.com/flyer/151023/" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/151023/" target="_blank">';
