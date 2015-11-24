@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="www.cocolo-station.jp" />
     <request hostname="www.hotelmets-familio.jp" />
+    <request hostname="www.ekipara.com" />
   </request-list>
   
   <!-- Basic認証 -->
