@@ -14,3 +14,7 @@
 @preprocess {
   replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
 }
+
+@postprocess {
+  replace:'<title cltx>Station building portal site &quot;station Para&quot;</title>' '<title cltx>Station building portal site &quot;ekipara&quot;</title>';
+}
