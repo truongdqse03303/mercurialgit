@@ -22,3 +22,6 @@ span[class="pg"],span[class="current_page"],a{
 text-flow: break;
 }
 
+@preprocess {
+  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+}

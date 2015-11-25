@@ -14,3 +14,7 @@
 div[id="info"]{
 attribute: cltx add 'exclude';
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
+}

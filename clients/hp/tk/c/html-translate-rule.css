@@ -18,3 +18,7 @@ body {
 @preprocess {
   replace: 'UA-11311297-1' 'UA-11311297-4';
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
+}
