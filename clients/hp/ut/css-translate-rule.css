@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.route-inn.co.jp/css/navi.css
+@postprocess {
+replace: 'margin:0 auto;' 'margin:0.8px auto;';
+}
