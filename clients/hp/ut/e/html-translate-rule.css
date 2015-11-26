@@ -21,3 +21,7 @@ replace:'<strong>Chugoku, Shikoku</strong>' '<strong style="font-size: 11px;">Ch
 replace:'<strong>Kyushu, Okinawa</strong>' '<strong  style="font-size: 10px;">Kyushu, Okinawa</strong>';
 
 }
+
+@postprocess {
+replace: '<a href="hotel_rules.html">thes</a>e Terms of Use.' '<a href="hotel_rules.html">these</a> Terms of Use.';
+ }

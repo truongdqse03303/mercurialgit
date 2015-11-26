@@ -1,4 +1,26 @@
 body {
   attribute: style add 'background-position:0px 26px;';
-}
+  }
 
+div#header > div.n_logo > a > img {
+  attribute: style add 'padding-top:22px;';
+  }
+  
+  
+// @RULESET
+// URL #= http://www\.route-inn\.co\.jp/
+@postprocess {
+  replace:'SUN' 'DAY';
+  }
+
+div#page_right_box > h2.title_right > strong {
+  attribute: style add 'font-size:12px;';
+  }
+
+input.days_box {
+  attribute: style add 'margin-left:1px;';
+  }
+
+div.jcalendar-selects {
+  attribute: style add 'font-size:10px;';
+  }

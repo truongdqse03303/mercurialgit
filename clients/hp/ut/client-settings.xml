@@ -13,7 +13,18 @@
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
-
+  
+    <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://www\.route-inn\.co\.jp/ponta/</url>
+  </url-list>
+  
+      <!-- デフォルトでHTML断片翻訳を行うかどうか -->
+  <extension-param>
+   <param-name>default.fragment.translate</param-name>
+   <param-value>false</param-value>
+ </extension-param>
+  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
