@@ -18,3 +18,7 @@
 @postprocess {
   replace:'<title cltx>Station building portal site &quot;station Para&quot;</title>' '<title cltx>Station building portal site &quot;ekipara&quot;</title>';
 }
+
+@postprocess {
+  replace: '<span class="y_name">Nishi-Chiba</span>' '<span class="y_name">Nishi&#x2D;Chiba</span>';
+}
