@@ -13,3 +13,7 @@
 @preprocess {
   replace: "www\.city\.yokohama\.lg\.jp" "translate-zht\.city\.yokohama\.lg\.jp";
 }
+
+@postprocess {
+  replace: '<a class="cl-norewrite cl-notranslate" href="http://translate-zht.city.yokohama.lg.jp/kyoiku/library/">(.*?)' '<a class="cl-norewrite cl-notranslate" href="http://www.city.yokohama.lg.jp/kyoiku/library/">$1';
+}
