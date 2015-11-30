@@ -1,3 +1,7 @@
-div.header-in {
-	attribute: 'style' add 'padding-top: 50px;';
+body#home {
+ attribute: 'style' add 'padding-top: 27px;';
+}
+
+nav#gNav > ul > li {
+ attribute: 'style' add 'margin-top: 55px;';
 }
