@@ -1,3 +1,7 @@
 header.mod-hd {
  attribute: cltx add 'exclude';
 }
+
+div.mod-slider02 { 
+ attribute: cltx add 'exclude';
+ }
