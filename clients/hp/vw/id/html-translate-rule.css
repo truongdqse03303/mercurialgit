@@ -10,3 +10,11 @@
   eid: MS-JAID;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+span.date {
+  attribute: style add "letter-spacing:-2px;";
+}
+
+@postprocess {
+  replace: 'pada 07/01' '07/01';
+}

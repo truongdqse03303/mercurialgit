@@ -10,3 +10,11 @@
   eid: MS-JATH;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+span.date {
+  attribute: style add "letter-spacing:-2px;";
+}
+
+@postprocess {
+  replace: '06/19japanese' '06/19';
+}
