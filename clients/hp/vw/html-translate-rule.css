@@ -5,3 +5,9 @@ body#home {
 nav#gNav > ul > li {
  attribute: 'style' add 'margin-top: 55px;';
 }
+
+// @RULESET
+// URL #= http://www\.trajal\.info/sp/
+p > span {
+	text-flow: break;
+}
