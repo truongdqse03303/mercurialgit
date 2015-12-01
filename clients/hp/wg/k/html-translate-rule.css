@@ -17,4 +17,9 @@ replace:'<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/flyer/151113
 replace:'<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/flyer/151113_2/#page=1" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/151113_2/#page=1" target="_blank">';
 replace:'<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/flyer/151023/" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/151023/" target="_blank">';
 replace:'<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/flyer/150925_2/#page=1" target="_blank">' '<a href="http://www.ima-hikarigaoka.jp/flyer/150925_2/#page=1" target="_blank">';
+replace:'<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/">일본어</a>' '<a href="http://www.ima-hikarigaoka.jp/">일본어</a>';
 }
+
+@preprocess {
+replace:'<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/">한국어</a>' '<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/" class="cl-notranslate">한국어</a>';
+} 
