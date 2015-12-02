@@ -17,6 +17,13 @@
     <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
   </extension-param>
 
+ <!-- ホストヘッダーの検証-->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.HostHeaderCheckResourceHandler</type>
+    <priority>1</priority>
+    <terminal>true</terminal>
+  </resource-handler>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
