@@ -7,3 +7,7 @@
   eid: CR-JE;
   dictionaries: "FUKUYAMA_DIC_MASTER FUKUYAMA_TM_MASTER GOVT TOURISM";
 }
+
+@postprocess {
+replace:'<title cltx>Fukuyama-shi homepage top page</title>' '<title cltx>Fukuyama city homepage top page</title>';
+}
