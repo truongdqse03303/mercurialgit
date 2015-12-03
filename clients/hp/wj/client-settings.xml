@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>鳥羽グランドホテル</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>jgh/service 5ed555c3a4d40ec39bcd6f4bf2a6d0b2dbf850b4</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="jgh.jp" />
+    <request hostname="www.jgh.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
