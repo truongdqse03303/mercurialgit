@@ -1,3 +1,7 @@
 @preprocess {
 replace: 'UA-46298010-1' 'UA-63273425-1';
 }
+
+div > select#sel_lang {
+ attribute: class add 'cl-notranslate';
+}
