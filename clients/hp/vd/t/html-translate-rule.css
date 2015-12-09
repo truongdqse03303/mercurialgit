@@ -12,34 +12,75 @@
 }
 
 // @RULESET
-// URL #= http://(wakayama-aeonmall|asahikawaekimae-aeonmall)\.com
+// URL #= http://tokoname-aeonmall\.com
 @preprocess {
- replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-tr/" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-tr/" target="blank" class="fade cl-norewrite">';
 }
-
-@preprocess {
-  replace:'<a href="http://wakayama-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://wakayama-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
-}
-
-@preprocess {
-  replace:'<a href="http://asahikawaekimae-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://asahikawaekimae-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
-}
-
 
 // @RULESET
-// URL #= http://(makuharishintoshin-aeonmall|kyoto-aeonmall)\.com
+// URL #= http://tsurumiryokuchi-aeonmall\.com
 @preprocess {
- replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-en/" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-tr/" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="/floorguide/" class="fade" target="_blank">' '<a href="/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
+  replace:'<a href="http://tsurumiryokuchi-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://tsurumiryokuchi-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
 }
 
+// @RULESET
+// URL #= http://kochi-aeonmall\.com
 @preprocess {
- replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide/" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide_tr/" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="/floorguide/" class="fade" target="_blank">' '<a href="/floorguide_tr/" class="fade cl-norewrite" target="_blank">';
+  replace:'<a href="http://kochi-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://kochi-aeonmall.com/floorguide_tr/" class="fade cl-norewrite" target="_blank">';
 }
 
+// @RULESET
+// URL #= http://makuharishintoshin-aeonmall\.com
 @preprocess {
-  replace:'<a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://makuharishintoshin-aeonmall.com/floorguide-en/" class="fade cl-norewrite" target="_blank">';
+  replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-ch/" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="http://makuharishintoshin-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://makuharishintoshin-aeonmall.com/floorguide-ch/" class="fade cl-norewrite" target="_blank">';
 }
 
+// @RULESET
+// URL #= http://narita-aeonmall\.com
 @preprocess {
-  replace:'<a href="http://kyoto-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://kyoto-aeonmall.com/floorguide-en/" class="fade cl-norewrite" target="_blank">';
+  replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-cn/" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="http://narita-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://narita-aeonmall.com/floorguide-cn/" class="fade cl-norewrite" target="_blank">';
+}
+
+// @RULESET
+// URL #= http://kyoto-aeonmall\.com
+@preprocess {
+  replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-ch/" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="/floorguide/" class="fade" target="_blank">' '<a href="/floorguide-ch/" class="fade cl-norewrite" target="_blank">';
+}
+
+// @RULESET
+// URL #= http://odaka-aeonmall\.com
+@preprocess {
+  replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-tw/" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="http://odaka-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://odaka-aeonmall.com/floorguide-tw/" class="fade cl-norewrite" target="_blank">';
+}
+
+// @RULESET
+// URL #= http://kisarazu-aeonmall\.com
+@preprocess {
+  replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-ch/" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="/floorguide/" class="fade" target="_blank">' '<a href="/floorguide-ch/" class="fade cl-norewrite" target="_blank">';
+  replace:'<a href="http://kisarazu-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://kisarazu-aeonmall.com/floorguide-ch/" class="fade cl-norewrite" target="_blank">';
+}
+
+// @RULESET
+// URL #= http://rinkusennan-aeonmall\.com
+@preprocess {
+  replace: '<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-cn/" target="blank" class="fade cl-norewrite">';
+  replace: '<a href="/floorguide/" class="fade" target="_blank">' '<a href="/floorguide-cn/" class="fade cl-norewrite" target="_blank">';
+  replace: '<a href="http://rinkusennan-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://rinkusennan-aeonmall.com/floorguide-cn/" class="fade cl-norewrite" target="_blank">';
+}
+
+// @RULESET
+// URL #= http://asahikawaekimae-aeonmall.com
+@preprocess {
+  replace: '<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-tr/" target="blank" class="fade cl-norewrite">';
+  replace: '<a href="/floorguide/" class="fade" target="_blank">' '<a href="/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
+  replace: '<a href="http://asahikawaekimae-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://asahikawaekimae-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
 }
