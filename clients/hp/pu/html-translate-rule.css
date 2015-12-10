@@ -13,3 +13,7 @@ body {
 @preprocess {
   replace: '(http://)(kamogata\.com)' '$1www.$2';
 }
+
+@postprocess {
+replace:'style="text-indent: -350px;' '';
+}
