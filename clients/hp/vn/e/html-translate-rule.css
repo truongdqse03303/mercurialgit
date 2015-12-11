@@ -18,3 +18,7 @@
 @postprocess {
   replace:'<title cltx>Station building portal site &quot;station Para&quot;</title>' '<title cltx>Station building portal site &quot;ekipara&quot;</title>';
 }
+
+@preprocess {
+  replace: 'UA-22823163-1' 'UA-22823163-2';
+}
