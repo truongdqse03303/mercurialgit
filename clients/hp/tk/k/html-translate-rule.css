@@ -18,3 +18,7 @@ attribute: cltx add 'exclude';
 @preprocess {
   replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
 }
+
+@preprocess {
+  replace: 'UA-11311297-1' 'UA-11311297-8';
+}
