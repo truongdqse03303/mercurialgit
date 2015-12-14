@@ -10,3 +10,30 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+
+// @RULESET
+// URL #= http://www\.cms\.mitaka08\.sd\.serco\.co\.jp/c_saigai/.*
+div#TopNavi {
+  attribute: style add "margin-top: -50px;";
+  }
+
+// @RULESET
+// URL #= http://www\.cms\.mitaka08\.sd\.serco\.co\.jp/c_saigai/.*
+@postprocess {
+  replace: 'To the body text' 'To the text';
+  replace: 'Mobile site' 'Mobile';
+  }
+  
+// @RULESET
+// URL #=http://www\.cms\.mitaka08\.sd\.serco\.co\.jp/sp/
+@postprocess {
+  replace: 'The damage situation \\(November 25, 2015 16:45\\) of Nozaki area' 'The damage situation of Nozaki area (November 25, 2015 16:45)';
+  }
+  
+
+// @RULESET
+// URL #=http://www\.city\.mitaka\.tokyo\.jp/sub03/
+@postprocess {
+ replace: '<a href="/c_categories/index03005001.html">' '<a href="/c_categories/index03005001.html" style="font-size: 14px;" >';
+}

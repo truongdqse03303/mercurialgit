@@ -9,12 +9,36 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.mitaka.tokyo.jp" />
+    <request hostname="www.cms.mitaka08.sd.serco.co.jp" />    
   </request-list>
-  
+
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 
-  <!-- サイトで使用される文字セット -->
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic c2VyY286c2VyY28=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://www\.cms\.mitaka08\.sd\.serco\.co\.jp/.*</param-value>
+    </param>
+  </resource-handler>
+  
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+  
+    <!-- サイトで使用される文字セット -->
   <!--charset>Shift_JIS</charset-->
   <charset url="http://www\.city\.mitaka\.tokyo\.jp/c_js/ex\.js">Shift_JIS</charset>
 </client-settings>
