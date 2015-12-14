@@ -24,5 +24,5 @@ replace: '<p class="logo"><a href="/winter/">' '<p class="logo"><a href="http://
 // @RULESET
 // URL #= http://www\.snowtomamu\.jp/winter/
 @postprocess {
-replace: '<a href="http://www.snowtomamu.jp/winter/reserve/index.php#tower">' '<a href="http://www.snowtomamu.jp/winter/reserve_th/index.php#tower" class="cl-norewirte">';
+replace: '<a href="http://www.snowtomamu.jp/winter/reserve_th/index.php#risonare">' '<a href="http://www.snowtomamu.jp/winter/reserve_th/index.php#risonare" class="cl-norewrite">';
 }
