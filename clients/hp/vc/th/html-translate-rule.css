@@ -20,3 +20,10 @@ replace: 'UA-5864174-1' 'UA-5864174-6';
 @postprocess {
 replace: '<p class="logo"><a href="/winter/">' '<p class="logo"><a href="http://www.snowtomamu.jp.e.vc.hp.transer.com/winter/" class="cl-norewrite">';
 }
+
+// @RULESET
+// URL #= http://www\.snowtomamu\.jp/winter/
+@postprocess {
+replace: '<a href="/winter/reserve/index.php#risonare">' '<a href="/winter/reserve_th/index.php#risonare" class="cl-norewrite">';
+replace: '<a href="/winter/reserve/index.php#tower">' '<a href="/winter/reserve_th/index.php#tower" class="cl-norewrite">';
+}
