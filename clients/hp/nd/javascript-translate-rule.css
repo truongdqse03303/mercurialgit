@@ -1,5 +1,0 @@
-// @RULESET
-// URL =http://siz-road.or.jp/sz/wp-content/themes/shizuoka_douro2/common/js/rollover.js
-@preprocess {
-  replace: '(x\.src)=a\\[i\\+2\\]' '$1=$1.replace(/(\.[^\.]+$)/, "_on\\$1")';
-}
