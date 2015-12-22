@@ -10,3 +10,11 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOURMET TOURISM BEAUTY";
 }
+
+div.menu02 > a {
+  attribute: style add "font-size:0px;";
+}
+
+div.menu03 > a {
+    attribute: style add "font-size:0px;";
+}

@@ -2,14 +2,6 @@
   attribute: style add 'height: auto;';
 }
 
-.wrap a, #wrapp a {
-  attribute: style add 'text-indent: -350px;';
-}
-
-body {
-  attribute: style add 'background-position-y: 27px;';
-}
-
 @preprocess {
   replace: '(http://)(kamogata\.com)' '$1www.$2';
 }
