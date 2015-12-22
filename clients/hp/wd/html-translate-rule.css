@@ -1,0 +1,11 @@
+div#header {
+attribute: clftx add 'exclude';
+}
+
+div.text-center {
+attribute: clftx add 'exclude';
+}
+
+@preprocess {
+ replace: '<div class="boxLanguages">' '<div class="boxLanguages cl-notranslate">';
+}
