@@ -31,3 +31,7 @@ replace:'<a href="../information/">Facility information</a>' '<a href="../inform
 replace:'<a href="../events/">Event information</a>' '<a href="../events/">Event</a>';
 replace:'<a href="../recruit/">Job opportunities</a>' '<a href="../recruit/">Job</a>';
 }
+
+ul.boxCommon.clearfix > li > a{
+attribute: style add "font-size:7px;";
+}
