@@ -15,10 +15,19 @@ dl.calendarBox {
 attribute: style add 'font-size:9px;';
 }
 
+
 @postprocess {
 replace:'<a href="floorguide/">Floor guide</a>' '<a href="floorguide/">Floor</a>';
 replace:'<a href="recommends/">Recommended product</a>' '<a href="recommends/">Recommended</a>';
 replace:'<a href="information/">Facility information</a>' '<a href="information/">Facility</a>';
 replace:'<a href="events/">Event information</a>' '<a href="events/">Event</a>';
 replace:'<a href="recruit/">Job opportunities</a>' '<a href="recruit/">Job</a>';
+}
+
+@postprocess {
+replace:'<a href="../floorguide/">Floor guide</a>' '<a href="../floorguide/">Floor</a>';
+replace:'<a href="../recommends/">Recommended product</a>' '<a href="../recommends/">Recommended</a>';
+replace:'<a href="../information/">Facility information</a>' '<a href="../information/">Facility</a>';
+replace:'<a href="../events/">Event information</a>' '<a href="../events/">Event</a>';
+replace:'<a href="../recruit/">Job opportunities</a>' '<a href="../recruit/">Job</a>';
 }
