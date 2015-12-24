@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>JR名古屋駅（ショッピング店・飲食店）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nsk-eki/service 4a6993d2bdec0d37fdec72b031a3ef21dd774953</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.nsk-eki.com" />
+  </request-list>
+
+  <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore">
+    <url>http://www\.nsk-eki\.com/koka/</url>
+    <url>http://www\.nsk-eki\.com/(excard.html|contact.html|privacy.html|company.html|link.html)</url>
+  </url-list>
+  
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
