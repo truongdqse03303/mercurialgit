@@ -17,6 +17,20 @@
     <url>http://www\.nsk-eki\.com/(excard.html|contact.html|privacy.html|company.html|link.html)</url>
   </url-list>
   
+      <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www\.nsk-eki\.com/(aj|css)/.*</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
