@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.city.mitaka.tokyo.jp/c_js/uaswitch_mitaka.js
+@preprocess {
+  replace: '三鷹市 スタイル' '三鹰市样式';
+}

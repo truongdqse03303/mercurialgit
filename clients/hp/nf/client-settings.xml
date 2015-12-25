@@ -41,4 +41,5 @@
     <!-- サイトで使用される文字セット -->
   <!--charset>Shift_JIS</charset-->
   <charset url="http://www\.city\.mitaka\.tokyo\.jp/c_js/ex\.js">Shift_JIS</charset>
+  <charset url="http://www\.city\.mitaka\.tokyo\.jp/c_js/uaswitch_mitaka\.js">Shift_JIS</charset>  
 </client-settings>
