@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社横浜スカイビル</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>yokohama-sky/service 23bd123b07a6e0befc418e350c7eb371677fcbca</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.yokohama-sky.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
