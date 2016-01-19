@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社コメ兵</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>komehyo/service becae0eb30bc1a12e5a48adfb3fead63149a54c8</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.komehyo.co.jp" />
+    <request hostname="122.208.213.10" path="/komehyo/" />
+  </request-list>
+  
+    <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic a29tZWh5bzpkcmVhbQ==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://122.208.213.10/komehyo/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
