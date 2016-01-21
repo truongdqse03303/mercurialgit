@@ -1,0 +1,18 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM IT SYSTEM BUSINESS INTERNET";
+}
+@engine jrbuskanto/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM IT SYSTEM BUSINESS";
+}
+@engine jrbuskanto/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM IT SYSTEM BUSINESS";
+}
+
+@postprocess {
+ replace:'<a href="#RANGE!A25">Tokyo Station' '<a style="margin: -134px;" href="#RANGE!A25">Tokyo Station';
+ replace:'<a href="#RANGE!A73">Shinjuku' '<a style="margin: -134px;" href="#RANGE!A73">Shinjuku'; 
+ replace:'<a href="#RANGE!A159">Tokyo' '<a style="margin: -134px;" href="#RANGE!A159">Tokyo';  
+}
