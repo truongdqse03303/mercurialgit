@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
 }
+
+@postprocess {
+replace:'<dt><!--cltx-->Rope 72 system</dt>' '<dt style="font-size: 11px;"><!--cltx-->Rope 72 system</dt>';
+replace:'<dt><!--cltx-->New side 81 system</dt>' '<dt style="margin-left: -2px;" style="font-size: 10px;"><!--cltx-->New side 81 system</dt>';
+}
