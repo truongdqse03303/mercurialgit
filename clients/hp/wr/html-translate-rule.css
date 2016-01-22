@@ -1,3 +1,3 @@
 @postprocess {
-replace:'<dt><!--cltx-->Contact information</dt>' '<dt style="font-size: 10px;"><!--cltx-->Contact information</dt>';
+replace:'<dt><!--cltx-->Contact information</dt>' '<dt style="font-size: 8px;"><!--cltx-->Contact information</dt>';
 }
