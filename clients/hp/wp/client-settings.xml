@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.nihon-kankou.or.jp" />
+    <request hostname="en.nks.iamdn.com" />    
   </request-list>
   
   <!-- コンテンツキャッシュ使用有無の設定-->
@@ -19,7 +20,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://www.nihon-kankou.or.jp/ajax/.*</param-value>
+      <param-value>http://(www.nihon-kankou.or.jp|en.nks.iamdn.com)/ajax/.*</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
