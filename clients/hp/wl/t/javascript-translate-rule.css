@@ -1,0 +1,13 @@
+// @RULESET
+// URL =http://t-www.atre.co.jp.t.wl.hp.transer.com/common/js_frontend/common.js
+@preprocess {
+    replace:'開く' '開放';
+    replace:'閉じる' '親密';
+}
+
+// @RULESET
+// URL =http://t-www.atre.co.jp/common/js_frontend/common.js
+@preprocess {
+    replace:'開く' '開放';
+    replace:'閉じる' '親密';
+}

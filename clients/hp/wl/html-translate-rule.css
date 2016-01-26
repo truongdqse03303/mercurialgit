@@ -5,3 +5,15 @@
  replace: '<option value="">简体中文</option>' '<option value="" class="cl-notranslate">简体中文</option>';
  replace: '<option value="">한글</option>' '<option value="" class="cl-notranslate">한글</option>';
 }
+
+p.pageTopBtn {
+ attribute: cltx add 'exclude';
+}
+
+div.bx-controls-direction {
+ attribute: cltx add 'exclude';
+}
+
+div.pluginConnectButton {
+ attribute: cltx add 'exclude';
+}

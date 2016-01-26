@@ -17,5 +17,6 @@ select.inpWLL {
 
 @postprocess {
     replace:'Atrai' 'Atre';
-    replace:'Atto- Levi' 'Atrevie';     
+    replace:'Atto- Levi' 'Atrevie';
+    replace:'open up' 'open';
 }
