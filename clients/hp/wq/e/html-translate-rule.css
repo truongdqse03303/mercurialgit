@@ -14,3 +14,7 @@
 dd {
  attribute: style add 'font-size: 12px;';
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+}
