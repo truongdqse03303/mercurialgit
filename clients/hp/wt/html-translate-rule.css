@@ -38,10 +38,6 @@ html#facebook, div#id ,div.pluginButton, a.twitter-share-button{
  attribute: clftx add 'exclude';
  }
 
-@preprocess {
- replace:'<div id="util">' '<div id="util" class="cl-notranslate">';
-}
-
 hr.hide {
   attribute: clftx add 'exclude';
 }
