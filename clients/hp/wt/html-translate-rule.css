@@ -1,0 +1,51 @@
+p.btn , div.scate.scate1{
+ attribute: clftx add 'exclude';
+}
+
+div.scate.scate2{
+ attribute: clftx add 'exclude';
+}
+
+div.scate.scate3{
+ attribute: clftx add 'exclude';
+}
+
+div.scate.scate4{
+ attribute: clftx add 'exclude';
+}
+
+div.scate.scate5{
+ attribute: clftx add 'exclude';
+}
+
+div.scate.scate6{
+ attribute: clftx add 'exclude';
+}
+
+div.scate.scate7{
+ attribute: clftx add 'exclude';
+}
+
+div.scate.scate8{
+ attribute: clftx add 'exclude';
+}
+
+h2.tismenu, div#tw {
+ attribute: clftx add 'exclude';
+}
+
+html#facebook, div#id ,div.pluginButton, a.twitter-share-button{
+ attribute: clftx add 'exclude';
+ }
+
+@preprocess {
+ replace:'<div id="util">' '<div id="util" class="cl-notranslate">';
+}
+
+hr.hide {
+  attribute: clftx add 'exclude';
+}
+
+p.hnplus {
+    attribute: style add 'padding-top:55px;';
+}
