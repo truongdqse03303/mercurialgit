@@ -1,0 +1,48 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM FASHION GOURMET INTERNET";
+}
+@engine hokkaido/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM FASHION GOURMET";
+}
+@engine hokkaido/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
+}
+
+@preprocess {
+ replace:'http://town.ashoro.hokkaido.jp/' 'http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/';
+}
+
+li > a {
+ text-flow: break;
+}
+
+@postprocess {
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/shokai/post.html">' '<a style="font-size: 9px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/shokai/post.html">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/gyousei/post-8.html">' '<a style="font-size: 9px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/gyousei/post-8.html">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/bousaih/post-15.html">' '<a style="font-size: 8px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/bousaih/post-15.html">'; 
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/kouhou">' '<a style="font-size: smaller;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/kouhou">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/gomi/post-22.html">' '<a style="font-size: 6px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/gomi/post-22.html">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/download/post-23.html">' '<a style="font-size: 9px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/download/post-23.html">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/ninp/post-28.html">' '<a style="font-size: 7px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/ninp/post-28.html">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/kekkonetc-1/post-48.html">' '<a style="font-size: 8px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/kekkonetc-1/post-48.html">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/koseki/post-53.html">' '<a style="font-size: 7px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/koseki/post-53.html">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/fukusi/post-63.html">' '<a style="font-size: 7px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/fukusi/post-63.html">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/nenk/post-135.html">' '<a style="font-size: 8px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/nenk/post-135.html">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/ik/post-155.html">' '<a style="font-size: 6px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/ik/post-155.html">'; 
+}
+
+@postprocess {
+ replace:'100%' '95%';
+}
+
+@postprocess {
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/ki//index.html">' '<a style="font-size: 7px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/ki//index.html">';
+ replace:'<a href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/kb/">' '<a style="font-size: 7px;" href="http://www.town.ashoro.hokkaido.jp.e.wu.hp.transer.com/kb/">';
+}
+
+
+
+

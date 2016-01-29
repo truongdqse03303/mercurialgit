@@ -1,0 +1,20 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION";
+}
+@engine hokkaido/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION";
+}
+@engine hokkaido/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
+}
+
+body {
+  attribute: lang add 'zh';
+}
+
+@preprocess {
+ replace:'http://town.ashoro.hokkaido.jp/' 'http://www.town.ashoro.hokkaido.jp.c.wu.hp.transer.com/';
+}

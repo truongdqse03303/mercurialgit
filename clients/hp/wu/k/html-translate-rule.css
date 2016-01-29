@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine hokkaido/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine hokkaido/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+@preprocess {
+ replace:'http://town.ashoro.hokkaido.jp/' 'http://www.town.ashoro.hokkaido.jp.k.wu.hp.transer.com/';
+}
