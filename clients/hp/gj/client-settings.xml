@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="www.elecom.co.jp" />
     <request hostname="www2.elecom.co.jp" />
+    <request hostname="search-elecom.dga.jp" />    
   </request-list>
 
   <!-- サイトで使用される文字セット -->
