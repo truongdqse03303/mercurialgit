@@ -25,7 +25,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://tomioka\.r-cms\.jp/</param-value>
+      <param-value>http://tomioka\.r-cms\.jp/.*</param-value>
     </param>
   </resource-handler>
   
