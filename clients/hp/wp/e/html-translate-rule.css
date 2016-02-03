@@ -14,3 +14,17 @@
 @preprocess {
   replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
 }
+
+.pagenation {
+  attribute: cltx add 'exclude';
+}
+
+@postprocess {
+ replace:'‘O' 'previous';
+ replace:'ŽŸ' 'next';
+}
+
+@postprocess {
+ replace:'Ten cases' '10 cases';
+ replace:'cas</em>' 'cas';
+}
