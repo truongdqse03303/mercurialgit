@@ -26,5 +26,6 @@
 
 @postprocess {
  replace:'Ten cases' '10 cases';
- replace:'cas</em>' 'cas';
+ replace:'cas</em>es\.</span>' '</em>cases.</span>';
+ replace:'ca</em>ses\.</span>' '</em>cases.</span>';
 }
