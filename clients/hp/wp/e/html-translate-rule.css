@@ -20,8 +20,8 @@
 }
 
 @postprocess {
- replace:'‘O' 'previous';
- replace:'Ÿ' 'next';
+ replace:'å‰' 'previous';
+ replace:'æ¬¡' 'next';
 }
 
 @postprocess {
