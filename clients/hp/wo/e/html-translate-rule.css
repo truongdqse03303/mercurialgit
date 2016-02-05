@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
 }
+
+
+div.detailBox {
+ attribute: style add 'letter-spacing: -1px; ';
+}
