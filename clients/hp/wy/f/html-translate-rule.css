@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-JA.FR.EN;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM IT BUSINESS";
+}
+@engine yokohamatriathlon/main {
+  eid: BR-JA.FR.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM IT BUSINESS";
+}
+@engine yokohamatriathlon/cross {
+  eid: BR-JA.FR.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM IT BUSINESS";
+}

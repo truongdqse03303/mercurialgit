@@ -1,0 +1,27 @@
+body {
+  attribute: style add "background-position:0px 27px;";
+}
+
+div#wcsbox > h2 {
+  attribute: clftx add 'exclude';
+}
+
+div#ystbox > h2 {
+  attribute: clftx add 'exclude';
+}
+
+div.u15 {
+  attribute: clftx add 'exclude';
+}
+
+p {
+  attribute: clftx add 'exclude';
+}
+
+h2 {
+  attribute: clftx add 'exclude';
+}
+
+ul > li {
+  attribute: clftx add 'exclude';
+}
