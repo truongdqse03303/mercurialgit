@@ -21,6 +21,7 @@
         <path value="/yokohama/store_info/event/hanami\.html" />
         <path value="/(tokyo|shinjuku|yokohama|osaka|kyoto)/store_info/.*" />
         <path value="/tokyo/clearance/.*" />
+        <path value="/store/special/doraemon_hellokitty/.*" />
       </path-list>
   </request-list>
   
