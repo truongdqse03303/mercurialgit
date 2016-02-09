@@ -1,0 +1,13 @@
+// @RULESET
+// URL =http://prov-www.atre.co.jp.e.wx.hp.transer.com/common/js_frontend/common.js
+@preprocess {
+    replace:'開く' 'Open';
+    replace:'閉じる' 'Close';
+}
+
+// @RULESET
+// URL =http://prov-www.atre.co.jp/common/js_frontend/common.js
+@preprocess {
+    replace:'開く' 'Open';
+    replace:'閉じる' 'Close';
+}

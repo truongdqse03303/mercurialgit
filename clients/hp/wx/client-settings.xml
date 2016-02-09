@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>DNPデジタルコム（株式会社アトレ テストサイト）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>dnp-atre-test/service 4ba7fb5636192db15f15058f4f20821d7f182c21</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="prov-www.atre.co.jp" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+    <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic Z3Vlc3Q6aFgyTlNpOVU=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://prov-www.atre.co.jp/.*</param-value>
+    </param>
+  </resource-handler>
+  
+    <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>footer</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
