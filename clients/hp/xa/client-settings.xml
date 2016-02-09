@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ベイクルーズ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>baycrews/service cedd2fbddcf2d58fc111200d916f13f7beb1f62d</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.baycrews.co.jp" />
+  </request-list>
+  
+    <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://www\.baycrews\.co\.jp/shared/js/brandSelection\.js</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>BINARY</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+ 
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
