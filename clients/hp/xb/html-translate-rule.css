@@ -5,3 +5,7 @@ div.bx-controls-direction {
 div#tokinet_movies > div {
   attribute: clftx add 'exclude';
 }
+
+div#topWelcome > span {
+ attribute: style add 'font-size: 10px;';
+}
