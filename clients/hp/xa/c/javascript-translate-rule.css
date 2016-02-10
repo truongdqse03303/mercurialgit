@@ -1,0 +1,5 @@
+// @RULESET
+// URL #=http://www\.baycrews\.co\.jp/shared/js/setting\.js
+@preprocess {
+    replace:'www\.baycrews\.co\.jp' 'www.baycrews.co.jp.c.xa.hp.transer.com';
+}
