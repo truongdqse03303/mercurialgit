@@ -34,9 +34,17 @@ h2.tismenu, div#tw {
  attribute: clftx add 'exclude';
 }
 
-html#facebook, div#id , a.twitter-share-button{
+a.twitter-share-button{
  attribute: clftx add 'exclude';
  }
+
+div#fb {
+  attribute: cltx add 'exclude';
+}
+
+html#facebook {
+  attribute: cltx add 'exclude';
+}
 
 div.pluginButton {
   attribute: cltx add 'exclude';
