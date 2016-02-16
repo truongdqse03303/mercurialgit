@@ -40,3 +40,7 @@ select.inpWLL {
 @postprocess {
     replace:'<table cellspacing="0" class="evtTbl01">' '<table cellspacing="0" class="evtTbl01 langPatE">';
 }
+
+@postprocess {
+ replace:'<option value="http://t-www.atre.co.jp/contact' '<option value="http://t-www.atre.co.jp.e.wl.hp.transer.com/contact';
+}

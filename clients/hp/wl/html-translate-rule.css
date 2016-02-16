@@ -17,7 +17,3 @@ div.bx-controls-direction {
 div.pluginConnectButton {
  attribute: cltx add 'exclude';
 }
-
-@postprocess {
- replace:'<option value="http://t-www.atre.co.jp/contact' '<option value="http://t-www.atre.co.jp.e.wl.hp.transer.com/contact';
-}
