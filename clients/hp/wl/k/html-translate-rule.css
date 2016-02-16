@@ -10,3 +10,11 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@postprocess {
+  replace:'<div class="hdrStoreWrap">' '<div class="hdrStoreWrap langPatK">';
+}
+
+@postprocess {
+ replace:'<option value="http://t-www.atre.co.jp/contact' '<option value="http://t-www.atre.co.jp.k.wl.hp.transer.com/contact';
+}

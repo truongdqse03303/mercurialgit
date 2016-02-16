@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+ replace:'<option value="http://t-www.atre.co.jp/contact' '<option value="http://t-www.atre.co.jp.c.wl.hpcn.transer-cn.com/contact';
+}

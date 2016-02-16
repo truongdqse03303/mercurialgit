@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
+
+@postprocess {
+ replace:'<option value="http://t-www.atre.co.jp/contact' '<option value="http://t-www.atre.co.jp.t.wl.hp.transer.com/contact';
+}
