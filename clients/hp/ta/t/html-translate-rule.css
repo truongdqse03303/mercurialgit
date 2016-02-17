@@ -10,3 +10,9 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER BEAUTY";
 }
+
+// @RULESET
+// URL #= http://newotanisapporo.com/.*
+@postprocess {
+replace:"http://newotanisapporo.com/" "http://newotanisapporo.com.t.ta.hp.transer.com/";
+}

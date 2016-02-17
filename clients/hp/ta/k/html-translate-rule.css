@@ -10,3 +10,9 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL #= http://newotanisapporo.com/.*
+@postprocess {
+replace:"http://newotanisapporo.com/" "http://newotanisapporo.com.k.ta.hp.transer.com/";
+}

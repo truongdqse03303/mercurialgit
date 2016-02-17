@@ -14,3 +14,9 @@
 body {
   attribute: lang add 'zh';
 }
+
+// @RULESET
+// URL #= http://newotanisapporo.com/.*
+@postprocess {
+replace:"http://newotanisapporo.com/" "http://newotanisapporo.com.c.ta.hp.transer.com/";
+}

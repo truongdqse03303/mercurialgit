@@ -10,3 +10,17 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET BEAUTY";
 }
+
+dd {
+  attribute: style add 'font-size:9px;';
+}
+
+table {
+   attribute: style add 'font-size:10px;';
+}
+
+// @RULESET
+// URL #= http://newotanisapporo.com/.*
+@postprocess {
+replace:"http://newotanisapporo.com/" "http://newotanisapporo.com.e.ta.hp.transer.com/";
+}
