@@ -28,9 +28,3 @@ replace:'<p class="page_text only_pc"><!--cltx-->Keihin-Tohoku Line, Saikyo Line
 replace:'<span class="shop_text">JR Saikyo Line "Toda Station" direct connection' '<span class="shop_text">JR Saikyo Line <br>"Toda Station" direct connection';
 replace:'<span class="shop_text">JR Yokosuka Line "Hodogaya Station" direct connection' '<span class="shop_text">JR Yokosuka Line<br>"Hodogaya Station" direct connection';
 }
-
-// @RULESET
-// URL #= http://beans.jrtk.jp/.*
-div.fb-like {
-attribute: clftx add 'exclude';
-}
