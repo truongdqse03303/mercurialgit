@@ -1,0 +1,36 @@
+// @RULESET
+// URL = http://www.jrtk.jp/company/jigyou.html
+div#jigyou-left-box > ol > li > a {
+text-flow: break;
+}
+
+// @RULESET
+// URL #= http://www.jrtk.jp/search/.*
+form {
+attribute: clftx add 'exclude';
+}
+
+
+// @RULESET
+// URL = http://beans.jrtk.jp/
+@postprocess {
+replace:'<!--cltx-->Takasaki Line, Tohoku Main Line "Akabane Station" direct connection' '<!--cltx-->Takasaki Line, Tohoku Main Line<br>"Akabane Station" direct connection';
+replace:'<span class="shop_text">JR Joban Line "Kameari Station" direct connection' '<span class="shop_text">JR Joban Line "Kameari Station"<br>direct connection';
+replace:'<span class="shop_text">JR Saikyo Line "Toda-Koen Station" direct connection' '<span class="shop_text">JR Saikyo Line "Toda-Koen Station"<br>direct connection';
+replace:'<span class="shop_text">JR Saikyo Line, Musashino Line "Musashi-Urawa Station" direct connection' '<span class="shop_text">JR Saikyo Line, Musashino Line<br>"Musashi-Urawa Station" direct connection';
+replace:'<span class="shop_text">JR Saikyo Line "Yono-Hommachi Station" direct connection' '<span class="shop_text">JR Saikyo Line<br>"Yono-Hommachi Station" direct <br>connection';
+replace:'<span class="shop_text">JR Keihin-Tohoku Line "Nishi-Kawaguchi Station" direct connection' '<span class="shop_text">JR Keihin-Tohoku Line <br>"Nishi-Kawaguchi Station" direct connection';
+replace:'<span class="shop_text">JR Nanbu Line "Musashi-Nakahara Station" direct connection' '<span class="shop_text">JR Nanbu Line "Musashi-Nakahara Station" <br>direct connection';
+replace:'<span class="shop_text">JR Nanbu Line "Musashi-Shinjo Station" direct connection' '<span class="shop_text">JR Nanbu Line "Musashi-Shinjo Station"<br>direct connection';
+replace:'<span class="shop_text">JR Yokohama Line "Nakayama Station" direct connection' '<span class="shop_text">JR Yokohama Line<br>"Nakayama Station" direct connection';
+replace:'<span class="shop_text">JR Keihin-Tohoku Line, Negishi Line "Shin-Sugita Station" direct connection</span>' '<span class="shop_text">JR Keihin-Tohoku Line, Negishi Line <br>"Shin-Sugita Station" direct connection</span>';
+replace:'<p class="page_text only_pc"><!--cltx-->Keihin-Tohoku Line, Saikyo Line, Takasaki Line, Tohoku Main Line, Joban Line, Musashino Line, Nanbu Line, Yokohama Line, Negishi Line, Yokosuka Line<br><!--cltx-->We wait with shopping center beans of station direct connection' '<p class="page_text only_pc"><!--cltx-->Keihin-Tohoku Line, Saikyo Line, Takasaki Line, Tohoku Main Line, Joban Line, Musashino Line, Nanbu Line, Yokohama Line, Negishi Line, <br>Yokosuka Line<!--cltx-->We wait with shopping center beans of station direct connection';
+replace:'<span class="shop_text">JR Saikyo Line "Toda Station" direct connection' '<span class="shop_text">JR Saikyo Line <br>"Toda Station" direct connection';
+replace:'<span class="shop_text">JR Yokosuka Line "Hodogaya Station" direct connection' '<span class="shop_text">JR Yokosuka Line<br>"Hodogaya Station" direct connection';
+}
+
+// @RULESET
+// URL #= http://beans.jrtk.jp/.*
+div.fb-like {
+attribute: clftx add 'exclude';
+}

@@ -1,0 +1,24 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine jrtk/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine jrtk/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+@preprocess {
+  replace:'http://www.jrtk.jp/b-1gp/' 'http://www.jrtk.jp.k.wz.hp.transer.com/b-1gp/';
+}
+
+@preprocess {
+  replace:'http://www.jrtk.jp/2k540/' 'http://www.jrtk.jp.k.wz.hp.transer.com/2k540/';
+}
+
+@preprocess {
+  replace:'http://www.jrtk.jp/asagaya-anime-street/' 'http://www.jrtk.jp.k.wz.hp.transer.com/asagaya-anime-street/';
+}

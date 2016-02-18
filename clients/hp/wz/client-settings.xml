@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ジェイアール東日本都市開発</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>jrtk/service a5fdb1d5e0dca51f3215ab5729353c0adc4477db</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.jrtk.jp" />
+    <request hostname="shapo.jrtk.jp" />
+    <request hostname="beans.jrtk.jp" />
+    <request hostname="daiya.jrtk.jp" />
+    <request hostname="dila.jrtk.jp" />
+  </request-list>
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
