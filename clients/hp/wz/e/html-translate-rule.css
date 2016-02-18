@@ -11,6 +11,23 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
 }
 
+// @RULESET
+// URL #= http://www\.jrtk\.jp/search/
+@postprocess {
+ replace:'<span>walk </span>' 'walk </span>';
+ replace:'<span>e walk </span>' 'e walk </span>';
+ replace:'A 0-minute' '<span>A 0-minute</span>';
+ replace:'A 1-minute' '<span>A 1-minute</span>';
+ replace:'A 2-minute' '<span>A 2-minute</span>';
+ replace:'A 3-minute' '<span>A 3-minute</span>';
+ replace:'A 4-minute' '<span>A 4-minute</span>';
+ replace:'A 5-minute' '<span>A 5-minute</span>'; 
+ replace:'A 6-minute' '<span>A 6-minute</span>';   
+ replace:'A 7-minute' '<span>A 7-minute</span>';    
+ replace:'A 10-minute' '<span>A 10-minute</span>'; 
+ replace:'A 11-minute' '<span>A 11-minute</span>';   
+}
+
 @preprocess {
   replace:'http://www.jrtk.jp/b-1gp/' 'http://www.jrtk.jp.e.wz.hp.transer.com/b-1gp/';
 }
