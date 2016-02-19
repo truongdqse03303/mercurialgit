@@ -10,3 +10,41 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET TOURISM";
 }
+
+select.inpWLL {
+	attribute: style add 'font-size: 11px;';
+}
+
+@postprocess {
+    replace:'Atrai' 'Atre';
+    replace:'Atto- Levi' 'Atrevie';
+    replace:'open up' 'open';
+}
+
+@postprocess {
+    replace:'<div class="hdrStoreWrap">' '<div class="hdrStoreWrap langPatE">';
+}
+
+@postprocess {
+    replace:'<span class="telLink">' '<span>';
+}
+
+@postprocess {
+    replace:'<div class="iconArea">' '<div class="iconArea langPatE">';
+}
+
+@postprocess {
+    replace:'<ul class="tblList04Sub sgl">' '<ul class="tblList04Sub sgl langPatE">';
+}
+
+@postprocess {
+    replace:'<table cellspacing="0" class="evtTbl01">' '<table cellspacing="0" class="evtTbl01 langPatE">';
+}
+
+@postprocess {
+ replace:'<option value="http://www.atre.co.jp/contact' '<option value="http://www.atre.co.jp.e.ww.hp.transer.com/contact';
+}
+
+@preprocess {
+replace: "'UA-72579279-1'" "'UA-72579279-2'";
+}

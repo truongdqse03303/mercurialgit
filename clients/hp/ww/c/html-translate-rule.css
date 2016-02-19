@@ -14,3 +14,11 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+ replace:'<option value="http://www.atre.co.jp/contact' '<option value="http://www.atre.co.jp.c.ww.hpcn.transer-cn.com/contact';
+}
+
+@preprocess {
+replace: "'UA-72579279-1'" "'UA-72579279-3'";
+}
