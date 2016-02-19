@@ -20,3 +20,27 @@ select.inpWLL {
     replace:'Atto- Levi' 'Atrevie';
     replace:'open up' 'open';
 }
+
+@postprocess {
+    replace:'<div class="hdrStoreWrap">' '<div class="hdrStoreWrap langPatE">';
+}
+
+@postprocess {
+    replace:'<span class="telLink">' '<span>';
+}
+
+@postprocess {
+    replace:'<div class="iconArea">' '<div class="iconArea langPatE">';
+}
+
+@postprocess {
+    replace:'<ul class="tblList04Sub sgl">' '<ul class="tblList04Sub sgl langPatE">';
+}
+
+@postprocess {
+    replace:'<table cellspacing="0" class="evtTbl01">' '<table cellspacing="0" class="evtTbl01 langPatE">';
+}
+
+@postprocess {
+ replace:'<option value="http://prov-www.atre.co.jp/contact' '<option value="http://prov-www.atre.co.jp.e.wx.hp.transer.com/contact';
+}
