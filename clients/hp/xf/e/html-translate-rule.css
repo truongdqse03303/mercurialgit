@@ -1,0 +1,50 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM IT SYSTEM ARCHI INTERNET";
+}
+@engine meiji-jisho/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM IT SYSTEM ARCHI";
+}
+@engine meiji-jisho/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM IT SYSTEM ARCHI";
+}
+
+span.red {
+  text-flow: break;
+}
+
+li.member > p {
+  attribute: style add 'font-size: 11px;';
+}
+
+div[class="bx-controls-direction"] {
+  attribute: cltx add 'exclude';
+}
+
+.seaviewColor {
+  text-flow: break;
+}
+
+.newColor {
+  text-flow: break;
+}
+
+.seasideColor {
+  text-flow: break;
+}
+
+.label {
+  text-flow: break;
+}
+
+@postprocess {
+ replace:'kaikin' 'umichika';
+ replace:'We see the sea' 'kaimi';
+}
+
+@postprocess{
+ replace:'8</strong>1' '81</strong>';
+ replace:'6</strong>0' '60</strong>'; 
+}
