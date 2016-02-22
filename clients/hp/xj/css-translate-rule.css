@@ -1,0 +1,6 @@
+// @RULESET
+// URL #= http://www\.meiji-jisho\.com/common/css/main\.css
+@postprocess {
+ replace:'width:50px' 'width:64px';
+}
+
