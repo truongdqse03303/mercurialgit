@@ -29,7 +29,7 @@
  
    <!-- HTML断片翻訳対象外のURL -->
    <url-list type="ignore">
-    <url>http://www\.jrtk\.jp/(company/|develop/|sc|office/|sell/|recruit/)</url>
+    <url>http://www\.jrtk\.jp/(company/|develop/|sc/|office/|sell/|recruit/|newestates/|topics/)</url>
     <url>http://www\.jrtk\.jp/</url>
     <url>http://www\.jrtk\.jp/search/search\.shtml</url>
     <url>http://www\.jrtk\.jp/r-lieto/urawatokiwa/</url>    
