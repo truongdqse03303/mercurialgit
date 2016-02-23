@@ -10,15 +10,3 @@
   eid: BR-JA.FR.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
 }
-
-@preprocess {
-  replace:'http://www.jrtk.jp/b-1gp/' 'http://www.jrtk.jp.f.wz.hp.transer.com/b-1gp/';
-}
-
-@preprocess {
-  replace:'http://www.jrtk.jp/2k540/' 'http://www.jrtk.jp.f.wz.hp.transer.com/2k540/';
-}
-
-@preprocess {
-  replace:'http://www.jrtk.jp/asagaya-anime-street/' 'http://www.jrtk.jp.f.wz.hp.transer.com/asagaya-anime-street/';
-}
