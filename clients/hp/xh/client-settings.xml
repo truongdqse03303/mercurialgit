@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>加賀市観光交流機構（KAGA旅・まちネット）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tabimati/service 684a7efd93461f0b798eac626ebaf6ff22c62fc6</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.tabimati.net" />
+    <request hostname="tabimati.net" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
