@@ -1,0 +1,7 @@
+div#menu {
+ attribute: cltx add 'exclude';
+}
+
+iframe {
+  attribute: cltx add 'exclude';
+}

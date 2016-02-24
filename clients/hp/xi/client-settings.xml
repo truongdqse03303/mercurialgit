@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>日本中央研究所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nck-inc/service edbf711d05eee822a2b721e4e2b8525de06dc3fb</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.nck-inc.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
