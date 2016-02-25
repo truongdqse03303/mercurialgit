@@ -27,3 +27,10 @@
  replace:'A 10-minute' '<span>A 10-minute</span>'; 
  replace:'A 11-minute' '<span>A 11-minute</span>';   
 }
+
+// @RULESET
+// URL #= http://www\.jrtk\.jp/b-1gp/access/
+@postprocess {
+replace: '<span>Weekdays</span>' '<span style="font-size:10px">Weekdays</span>';
+replace: '<span>Sat.Sun.holidays</span>' '<span style="font-size:10px">Sat.Sun.<br>holidays</span>';
+}
