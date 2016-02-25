@@ -48,3 +48,8 @@ select.inpWLL {
 @preprocess {
 replace: "'UA-72579279-1'" "'UA-72579279-2'";
 }
+
+@postprocess {
+replace:'<ul class="sideMyAtreLink">' '<ul class="sideMyAtreLink langPatE">';
+replace:'<ul class="btnList04">' '<ul class="btnList04 langPatE">';
+}
