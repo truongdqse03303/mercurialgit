@@ -12,6 +12,22 @@ div[id#="(?:information|attention-content|info-tab-content1|pickup-list)"] li, d
 script[type="text/javascript"][src^="http://maps.google.co.jp/maps"] {
   attribute: src rewrite "@RewriteGMapKey";
 }
+
+// @RULESET
+// URL #= http://www\.city\.funabashi\.lg\.jp(?:$|/$|/index\.html)?
+div[id#="(?:information|attention-content|info-tab-content1|pickup-list)"] li, div[class~="menu"] li {
+  attribute: style add 'width:90%; vertical-align:bottom';
+}
+
+// @RULESET
+// URL ^= http://www.city.funabashi.lg.jp/hinanbasho/
+@rewrite RewriteGMapKey {
+  if (url matches "^(http://maps\\.google\\.co\\.jp/maps\\?file=api&v=1&key)=[^&]+(&.*)?") return "{$1}=ABQIAAAA5Zml1Sp9TNull8J1iSCjjhSLBd_ehwk02Zc_eccLsn5T-paCNxTPIdPwLcDiZuJ0OPxvuMDCytZQyg{$2}";
+}
+script[type="text/javascript"][src^="http://maps.google.co.jp/maps"] {
+  attribute: src rewrite "@RewriteGMapKey";
+}
+
 #gmaparea {
   attribute: cltx add 'exclude';
 }
