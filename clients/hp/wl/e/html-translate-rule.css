@@ -44,3 +44,8 @@ select.inpWLL {
 @postprocess {
  replace:'<option value="http://t-www.atre.co.jp/contact' '<option value="http://t-www.atre.co.jp.e.wl.hp.transer.com/contact';
 }
+
+@postprocess {
+replace:'<ul class="sideMyAtreLink">' '<ul class="sideMyAtreLink langPatE">';
+replace:'<ul class="btnList04">' '<ul class="btnList04 langPatE">';
+}
