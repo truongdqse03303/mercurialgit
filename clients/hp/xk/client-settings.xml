@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>九州急行バス</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nishitetsu/service 8d034dd3380ee711b46ce770531ea6756c9678fd</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.nishitetsu.ne.jp" path="/kyushugo/" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
