@@ -20,3 +20,7 @@ nav.global-nav > ul {
  replace:'<h2><!--cltx-->Access to Shizuoka-shi</h2>' ' <h2  style="font-size: 12px;"><!--cltx-->Access to Shizuoka-shi</h2>';
  replace:'<h2><!--cltx-->Sightseeing, amenity information</h2>' '<h2  style="font-size: 12px;"><!--cltx-->Sightseeing, amenity information</h2>'; 
 }
+
+@preprocess {
+ replace:'class="lang-jp"' 'class="lang-en"';
+}

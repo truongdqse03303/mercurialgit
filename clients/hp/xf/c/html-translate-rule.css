@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@preprocess {
+ replace:'class="lang-jp"' 'class="lang-cn"';
+}
