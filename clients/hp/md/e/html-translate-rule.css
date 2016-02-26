@@ -57,7 +57,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><img width="730" height="349" border="0" usemap="#mainImageLink" alt="" src="/tokyo/images/storemain_tokyo_pc_e.jpg"><map id="mainImageLink" name="mainImageLink"><area href="/tokyo/fl/e/best/" coords="0,0,341,348" shape="rect"><area href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank" coords="341,0,730,353" shape="rect"></map></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><img width="730" height="349" border="0" usemap="#mainImageLink" alt="" src="/tokyo/images/storemain_tokyo_pc02_e.jpg"><map id="mainImageLink" name="mainImageLink"><area href="/tokyo/fl/e/best/" coords="0,0,341,348" shape="rect"><area href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank" coords="341,0,730,353" shape="rect"></map></p>';
 }
 
 // @RULESET
@@ -111,7 +111,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><img src="/smp/tokyo/images/storemain_tokyo_smp_e.jpg" alt="" width="300" usemap="#Map"><map name="Map"><area shape="rect" coords="0,1,150,110" href="/tokyo/fl/s/e/"><area shape="rect" coords="150,0,299,111" href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"></map></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><img src="/smp/tokyo/images/storemain_tokyo_smp02_e.jpg" alt="" width="300" usemap="#Map"><map name="Map"><area shape="rect" coords="0,1,150,110" href="/tokyo/fl/s/e/"><area shape="rect" coords="150,0,299,111" href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"></map></p>$1';
 }
 
 // @RULESET
