@@ -1,3 +1,7 @@
 div.parts_page_nation {
   attribute: cltx add 'exclude';
 }
+
+div.big {
+  attribute: style add 'font-size: 25px;';
+}
