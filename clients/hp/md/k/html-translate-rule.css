@@ -55,8 +55,7 @@
 // URL =http://www.daimaru.co.jp/tokyo/
 // URL =http://www.daimaru.co.jp/tokyo/index.html
 @postprocess {
-  replace: '<script type="text/javascript" src="/tokyo/js/galleryImg\.js" charse
-t="UTF-8"></script>' '';
+  replace: '<script type="text/javascript" src="/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
   replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><img width="730" height="349" border="0" usemap="#mainImageLink" alt="" src="/tokyo/images/storemain_tokyo_pc02_k.jpg"><map id="mainImageLink" name="mainImageLink"><area href="/tokyo/fl/k/best/" coords="0,0,341,348" shape="rect"><area href="http://dmdepart.jp.k.md.hp.transer.com/flnews/k/" target="_blank" coords="341,-3,732,175" shape="rect"><area href="http://www.daimaru.co.jp.k.md.hp.transer.com/tokyo/ds/160129_index_ds.html" coords="340,174,731,352" shape="rect"></map></p>';
 }
