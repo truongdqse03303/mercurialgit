@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社南日本情報処理センター</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>minamiosumi/service 5636058ee44fcac0665f1728d85f138d4d7f993c</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.minamiosumi.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

@@ -1,0 +1,29 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM IT SYSTEM BUSINESS INTERNET";
+}
+@engine minamiosumi/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM IT SYSTEM BUSINESS";
+}
+@engine minamiosumi/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM IT SYSTEM BUSINESS";
+}
+
+ul.small > li > a {
+  text-flow: break;
+}
+
+@postprocess {
+  replace:'We updated o' 'We updated';
+  replace:'published o' 'published';
+}
+
+tr > td {
+  attribute: style add 'font-size: 11px;';
+}
+
+#twitter-widget-0 {
+  attribute: cltx add 'exclude';
+}
