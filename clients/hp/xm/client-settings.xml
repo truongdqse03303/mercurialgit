@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>新宿観光振興協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kanko-shinjuku/service 6e53124d895d9f6cd243a1d0629e0eaf697fc45f</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kanko-shinjuku.jp" />
+    <request hostname="kanko-shinjuku.jp" />
+    <request hostname="test.kanko-shinjuku.com" />
+  </request-list>
+
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
