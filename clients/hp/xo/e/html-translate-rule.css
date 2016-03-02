@@ -11,10 +11,6 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM IT SYSTEM BUSINESS";
 }
 
-@postprocess {
-  replace:'<a href="/about_pizza/pizzaiolo.html">' '<a style="font-size: 10px;" href="/about_pizza/pizzaiolo.html">';
-
-}
 
 @postprocess {
   replace:'<p class="restbtn"><!--cltx-->We <a href="/delivery.html">look' '<p class="restbtn"><!--cltx--><a href="/delivery.html">We look';
