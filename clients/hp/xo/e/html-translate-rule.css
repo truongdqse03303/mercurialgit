@@ -38,3 +38,11 @@ div.pager {
 dd {
   attribute: style add "font-size: 11px;";
 }
+
+dt {
+  attribute: style add "font-size: 11px; font-weight: 800;";
+}
+
+ul#menu {
+  attribute: style add "font-size: 10px;";
+}
