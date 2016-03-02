@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://shinhotaka-ropeway.jp/wp-content/themes/shinhotaka/style_price.css
+@preprocess {
+  replace: 'img_price_eigyou_th01.gif' 'ko/img_price_eigyou_th01_ko.gif';
+}
