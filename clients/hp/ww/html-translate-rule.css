@@ -17,3 +17,7 @@ div.bx-controls-direction {
 div.pluginConnectButton {
  attribute: cltx add 'exclude';
 }
+
+.hdrLangBtn {
+  attribute: cltx add 'exclude';
+}
