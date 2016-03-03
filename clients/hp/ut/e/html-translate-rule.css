@@ -26,6 +26,6 @@ replace:'<strong>Kyushu, Okinawa</strong>' '<strong  style="font-size: 10px;">Ky
 replace: '<a href="hotel_rules.html">thes</a>e Terms of Use.' '<a href="hotel_rules.html">these</a> Terms of Use.';
  }
  
-@postprocess {
-replace: '<span class="tel">TEL:</span><span class="tel_num"> 0897-31-251</span>1' '<span class="tel">TEL:</span><span class="tel_num"> 0897-31-2511</span>';
+@preprocess {
+replace: '</span> TEL' '</span><br style="display:none;"> TEL';
 }
