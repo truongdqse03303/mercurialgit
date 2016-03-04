@@ -12,8 +12,10 @@
 }
 
 // @RULESET
-// URL #= http://www\.nambacity\.com/
-// URL #= http://nambacity\.com/
+// URL #= http://www\.nambacity\.com.*
+// URL #= http://nambacity\.com.*
 @preprocess{
 replace: 'UA-39252718-1' 'UA-39252718-6';
+replace: 'UA-39252718-2' 'UA-39252718-6';
+replace: 'UA-39252718-3' 'UA-39252718-6';
 }
