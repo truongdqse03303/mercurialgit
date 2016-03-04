@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ビックカメラテストサイト</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>biccamera-test/service ed7a13aadc1e26b0a3b46bf7a00401ea6e664165</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.stage.biccamera.com" />
+    <request hostname="www.stage2.biccamera.com" />
+    <request hostname="54.64.208.42" />
+  </request-list>
+
+  <!-- 使用する設定IDの一覧 -->
+  <setting-id>mb-*</setting-id>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>th,v,id</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
