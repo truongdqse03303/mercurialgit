@@ -1,6 +1,0 @@
-// @RULESET
-// URL = http://www.bs11.jp/common/css/common_module.css
-@preprocess {
-  replace: '(#globalnavSub \\{.+?)top: 89px;' '$1top: 116px;';
-  replace: '(div#googleSearchBox input.search \\{ *)width: 140px;' '$1width: 120px;';
-}
