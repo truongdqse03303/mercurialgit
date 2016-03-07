@@ -90,11 +90,3 @@ body {
   replace: '<a href="/floorguide/" class="fade" target="_blank">' '<a href="/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
   replace: '<a href="http://asahikawaekimae-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://asahikawaekimae-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
 }
-
-// @RULESET
-// URL #= http://wakayama-aeonmall.com
-@preprocess {
-  replace: '<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-tr/" target="blank" class="fade cl-norewrite">';
-  replace: '<a href="/floorguide/" class="fade" target="_blank">' '<a href="/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
-  replace: '<a href="http://wakayama-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://wakayama-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
-}
