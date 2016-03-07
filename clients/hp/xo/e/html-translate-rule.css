@@ -11,15 +11,9 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM IT SYSTEM BUSINESS";
 }
 
-
 @postprocess {
   replace:'<p class="restbtn"><!--cltx-->We <a href="/delivery.html">look' '<p class="restbtn"><!--cltx--><a href="/delivery.html">We look';
-  replace:'<a href="/pizzafest/" target="_blank">' '<a style="font-size: 12px;" href="/pizzafest/" target="_blank">';
   replace:'<a href="/about_pizza/qualita.html">' '<a style="font-size: 10px;" href="/about_pizza/qualita.html">';
-}
-
-ul.footer_nav2 {
-  attribute: style add "font-size: 11px;";
 }
 
 div.pager {
@@ -29,16 +23,4 @@ div.pager {
 @preprocess {
   replace:'前へ' 'Forward';
   replace:'次へ' 'To next';
-}
-
-dd {
-  attribute: style add "font-size: 11px;";
-}
-
-dt {
-  attribute: style add "font-size: 11px; font-weight: 800;";
-}
-
-ul#menu {
-  attribute: style add "font-size: 10px;";
 }
