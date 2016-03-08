@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT SYSTEM LAW";
 }
+
+@postprocess {
+  replace: '前へ' 'Forward';
+  replace: '次へ' 'To next';
+}

@@ -1,0 +1,12 @@
+div#nextload2 {
+ attribute: clftx add 'exclude';
+}
+
+div#snsButtonArea {
+  attribute: cltx add 'exclude';
+}
+
+
+div.changePageLink {
+   attribute: cltx add 'exclude';
+}
