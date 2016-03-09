@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>キヤノン電子テクノロジー株式会社（氷見市役所）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>toyama/service 0c26cd41a7fa860e370f1fdee5966a68f33c0550</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.himi.toyama.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
