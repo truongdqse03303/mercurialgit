@@ -1,0 +1,20 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM FASHION GOURMET INTERNET";
+}
+@engine cenova/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM FASHION GOURMET";
+}
+@engine cenova/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
+}
+
+dd.shopname > a {
+  attribute: style add 'font-size: 10px;';
+}
+
+@postprocess {
+  replace:'<em>Gue</em>st' '<em>Guest</em>';
+}

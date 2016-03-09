@@ -1,0 +1,19 @@
+.bx-controls-direction {
+  attribute: cltx add 'exclude';
+}
+
+.nivo-controlNav {
+  attribute: cltx add 'exclude';
+}
+
+.menu_button {
+  attribute: cltx add 'exclude';
+}
+
+p.social {
+  attribute: clftx add 'exclude';
+}
+
+p.mark {
+  attribute: cltx add 'exclude';
+}

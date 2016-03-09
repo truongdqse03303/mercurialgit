@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社Samurai（静鉄プロパティマネジメント)</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>cenova/service 4168dc30de2ee832eff82306ab2274c583487757</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.cenova.jp" />
+    <request hostname="o2o.samurai-ar.info" />
+    <request hostname="cenova-stg.samurai-ar.info" />
+  </request-list>
+  
+    <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic c2Vub2JhOnNlbm9iYQ==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://cenova-stg\.samurai-ar\.info/.*</param-value>
+    </param>
+  </resource-handler>
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
