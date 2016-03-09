@@ -1,0 +1,15 @@
+p#request {
+ attribute: cltx add 'exclude';
+}
+
+.fb-page {
+  attribute: cltx add 'exclude';
+}
+
+.txtR {
+ attribute: style add 'letter-spacing: -1px;'; 
+}
+
+div#bestr {
+  attribute: style add 'padding-top: 20px;'; 
+}

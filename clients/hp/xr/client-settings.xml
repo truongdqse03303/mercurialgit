@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社エコ計画（悠湯里庵、旅籠：2施設)</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kawaba-yutorian/service 848a1e9da6e03c58478a790ae80f1a37b90b9e08</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="kawaba-yutorian.jp" />
+    <request hostname="www.yakushi-hatago.co.jp" />
+  </request-list>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>th</param-value>
+  </extension-param>
+  
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
