@@ -13,3 +13,7 @@ p#request {
 div#bestr {
   attribute: style add 'padding-top: 20px;'; 
 }
+
+body {
+  attribute: style add "background-position:0px 27px;";
+}
