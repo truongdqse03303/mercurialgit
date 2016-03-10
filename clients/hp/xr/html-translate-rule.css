@@ -15,5 +15,5 @@ div#bestr {
 }
 
 body {
-  attribute: style add 'background-position-y: 21px;';
+ attribute: style set 'background-position: center 22px !important;';
 }
