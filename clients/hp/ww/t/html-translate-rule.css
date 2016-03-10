@@ -22,3 +22,7 @@ replace: "'UA-72579279-1'" "'UA-72579279-4'";
 @postprocess {
 replace:'data-url="http://www.atre.co.jp/' 'data-url="http://www.atre.co.jp.t.ww.hp.transer.com/';
 }
+
+@postprocess {
+replace:'<ul class="btnList04">' '<ul class="btnList04 langPatE">';
+}
