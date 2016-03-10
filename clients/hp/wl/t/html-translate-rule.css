@@ -14,7 +14,3 @@
 @postprocess {
  replace:'<option value="http://t-www.atre.co.jp/contact' '<option value="http://t-www.atre.co.jp.t.wl.hp.transer.com/contact';
 }
-
-@postprocess {
- replace:'<ul class="btnList04">' '<ul class="btnList04 langPatE">';
-}
