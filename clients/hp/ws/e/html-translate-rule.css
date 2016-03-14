@@ -10,3 +10,51 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION IT HOBBY";
 }
+
+// @RULESET
+// URL #= http://www\.komehyo\.co\.jp/store/nagoya-honkan
+@postprocess {
+ replace:'<br style="display: none;" nagoya-honkan="" mapchange="">' '<object width="850" height="500" data="http://www.e-map.ne.jp/p/cross123/dtl/kome001/?p_f1=1"></object>';
+}
+
+// @RULESET
+// URL #= http://www\.komehyo\.co\.jp/store/shinjuku
+@postprocess {
+ replace:'<br style="display: none;" shinjuku="" mapchange="">' '<object width="850" height="500" data="http://www.e-map.ne.jp/p/cross123/dtl/kome002/?p_f1=1"></object>';
+}
+
+// @RULESET
+// URL #= http://www\.komehyo\.co\.jp/store/ginza
+@postprocess {
+ replace:'<br style="display: none;" ginza="" mapchange="">' '<object width="850" height="500" data="http://www.e-map.ne.jp/p/cross123/dtl/kome003/?p_f1=1"></object>';
+}
+
+// @RULESET
+// URL #= http://www\.komehyo\.co\.jp/store/aoyama
+@postprocess {
+ replace:'<br style="display: none;" aoyama="" mapchange="">' '<object width="850" height="500" data="http://www.e-map.ne.jp/p/cross123/dtl/kome004/?p_f1=1"></object>';
+}
+
+// @RULESET
+// URL #= http://www\.komehyo\.co\.jp/store/shibuya-kouen
+@postprocess {
+ replace:'<br style="display: none;" shibuya-kouen="" mapchange="">' '<object width="850" height="500" data="http://www.e-map.ne.jp/p/cross123/dtl/kome005/?p_f1=1"></object>';
+}
+
+// @RULESET
+// URL #= http://www\.komehyo\.co\.jp/store/osaka-shinsaibashi
+@postprocess {
+ replace:'<br style="display: none;" osaka-shinsaibashi="" mapchange="">' '<object width="850" height="500" data="http://www.e-map.ne.jp/p/cross123/dtl/kome006/?p_f1=1"></object>';
+}
+
+// @RULESET
+// URL #= http://www\.komehyo\.co\.jp/store/kobe-sannomiya
+@postprocess {
+ replace:'<br style="display: none;" kobe-sannomiya="" mapchange="">' '<object width="850" height="500" data="http://www.e-map.ne.jp/p/cross123/dtl/kome007/?p_f1=1"></object>';
+}
+
+// @RULESET
+// URL #= http://www\.komehyo\.co\.jp/store/kyoto-shinkyogoku
+@postprocess {
+ replace:'<br style="display: none;" kyoto-shinkyogoku="" mapchange="">' '<object width="850" height="500" data="http://www.e-map.ne.jp/p/cross123/dtl/kome008/?p_f1=1"></object>';
+}
