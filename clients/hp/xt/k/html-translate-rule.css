@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM BUSINESS";
+}
+@engine c-c-c/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER BUSINESS";
+}
+@engine c-c-c/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER BUSINESS";
+}
+
+@preprocess {
+ replace:'class="lang-jp"' 'class="lang-ko"';
+}
