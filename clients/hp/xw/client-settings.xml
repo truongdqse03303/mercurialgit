@@ -10,12 +10,6 @@
   <request-list>
     <request hostname="signage.takamatsu-kankou.net" path="/jp/" />
   </request-list>
-  
-      <!-- 免責ヘッダーは表示しない -->
-  <extension-param>
-    <param-name>show.translate.header</param-name>
-    <param-value>false</param-value>
-  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
