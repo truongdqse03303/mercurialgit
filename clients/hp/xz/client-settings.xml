@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ルミネ（タブレットページ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>newoman/service 7d20d33b9264e73450393317742300c7e83315b6</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.newoman.jp" />
+    <request hostname="stage.newoman.jp" path="/tb/webroot" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
