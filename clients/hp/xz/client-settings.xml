@@ -11,7 +11,30 @@
     <request hostname="www.newoman.jp" />
     <request hostname="stage.newoman.jp" path="/tb/webroot" />
   </request-list>
+  
+    <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic bmV3b21hbjpIa3NpMTk5</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://stage\.newoman\.jp/tb/webroot/.*</param-value>
+    </param>
+  </resource-handler>
 
+  <!-- 免責ヘッダーは表示しない -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>false</param-value>
+  </extension-param>
+  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
