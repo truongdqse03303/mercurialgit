@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>高松市（デジタルサイネージ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>takamatsu-kankou/service 34435ceec763c4676302a51456fcd7c66992a4c2</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="signage.takamatsu-kankou.net" path="/jp/" />
+  </request-list>
+  
+      <!-- 免責ヘッダーは表示しない -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>false</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

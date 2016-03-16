@@ -1,0 +1,24 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOURMET IT INTERNET";
+}
+@engine takamatsu-kankou/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOURMET IT";
+}
+@engine takamatsu-kankou/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET IT";
+}
+
+div.service-description > p {
+  attribute: style add 'font-size: 15px;';
+}
+
+dd {
+  attribute: style add 'font-size: 10px;';
+}
+
+p.caption {
+  attribute: style add 'font-size: 12px;';
+}

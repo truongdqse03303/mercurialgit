@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-JA.FR.EN;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOURMET IT";
+}
+@engine takamatsu-kankou/main {
+  eid: BR-JA.FR.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOURMET IT";
+}
+@engine takamatsu-kankou/cross {
+  eid: BR-JA.FR.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET IT";
+}
