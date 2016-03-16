@@ -1,0 +1,3 @@
+@preprocess {
+replace:'<nav class="sNavi pc">' '<nav class="sNavi pc cl-notranslate">';
+}
