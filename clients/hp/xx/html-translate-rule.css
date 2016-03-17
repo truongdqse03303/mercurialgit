@@ -1,3 +1,7 @@
 @preprocess {
-replace:'<nav class="sNavi pc">' '<nav class="sNavi pc cl-notranslate">';
+  replace:'<nav class="sNavi pc">' '<nav class="sNavi pc cl-notranslate">';
+}
+
+ul.social-button-syncer {
+  attribute: cltx add 'exclude';
 }
