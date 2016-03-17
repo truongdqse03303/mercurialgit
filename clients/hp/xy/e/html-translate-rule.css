@@ -14,3 +14,31 @@
 #cname {
  attribute: style add 'letter-spacing: -1px;';
 }
+
+article#enjoyline {
+ attribute: style add 'font-size: 11px;';
+}
+
+h1.h1_gexp {
+ attribute: style add 'font-size: 16px;';
+}
+
+a#topsample {
+ attribute: style add 'font-size: 12px;';
+}
+
+@postprocess {
+ replace:'<b style="font-weight:bold; font-size:16px; color:#036;">Crossing the sea experience note of intellect forest ka island</b>' '<b style="font-weight:bold; font-size:16px; color:#036;">Crossing the sea experience note <br>of intellect forest ka island</b>';
+}
+
+p#psc004p1 {
+  attribute: style add 'font-size: 11px;';
+}
+
+div.linkbox {
+  attribute: style add 'font-size: 11px;';
+}
+
+@postprocess {
+  replace:'<a href="http://kagoshima-live.com/chiringashima.html" target="_blank">Link to intellect forest ka island live view</a>' '<a href="http://kagoshima-live.com/chiringashima.html" target="_blank" style="font-size: 13px;">Link to intellect forest ka island live view</a>';
+}
