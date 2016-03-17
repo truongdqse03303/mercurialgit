@@ -22,3 +22,11 @@ dd {
 p.caption {
   attribute: style add 'font-size: 12px;';
 }
+
+div#page_navfull {
+  attribute: style add 'white-space: nowrap !important;';
+}
+
+@postprocess {
+  replace:'<li><!--cltx--><a href="index22.html">22</a></li>' '<br><li><!--cltx--><a href="index22.html">22</a></li>';
+}
