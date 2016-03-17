@@ -42,3 +42,7 @@ div.linkbox {
 @postprocess {
   replace:'<a href="http://kagoshima-live.com/chiringashima.html" target="_blank">Link to intellect forest ka island live view</a>' '<a href="http://kagoshima-live.com/chiringashima.html" target="_blank" style="font-size: 13px;">Link to intellect forest ka island live view</a>';
 }
+
+div#pscintro {
+  attribute: style add 'font-size: 11px;';
+}
