@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>KITTE博多</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kitte-hakata/service 898353d139649e03b1d796a45944d142ea8e5a49</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="kitte-hakata.jp" />
+    <request hostname="www.kitte-hakata.jp" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
