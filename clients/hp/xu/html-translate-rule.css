@@ -1,0 +1,23 @@
+div.slider-box {
+ attribute: cltx add 'exclude';
+}
+
+div#twitter {
+ attribute: cltx add 'exclude';
+}
+
+.side_nav {
+ attribute: style add 'font-size: 10px;';
+}
+
+.koho {
+  attribute: style add 'font-size: 14px;';
+}
+
+td > a {
+  attribute: style add 'letter-spacing: -1px; font-size: 11px;';
+}
+
+.text_ss {
+   attribute: style add 'font-size: 9px;';
+}
