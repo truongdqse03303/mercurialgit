@@ -10,3 +10,7 @@ div#snsButtonArea {
 div.changePageLink {
    attribute: cltx add 'exclude';
 }
+
+div.bx-controls-direction {
+   attribute: cltx add 'exclude';
+}
