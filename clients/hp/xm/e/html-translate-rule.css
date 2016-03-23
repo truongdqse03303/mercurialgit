@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET IT";
 }
+
+@preprocess {
+replace: 'UA-50301300-1' 'UA-50301300-2';
+}
