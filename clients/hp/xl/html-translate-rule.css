@@ -14,3 +14,7 @@ div.changePageLink {
 div.bx-controls-direction {
    attribute: cltx add 'exclude';
 }
+
+div.bx-pager {
+   attribute: cltx add 'exclude';
+}
