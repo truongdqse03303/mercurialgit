@@ -10,3 +10,8 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@postprocess {
+  replace: 'type="text/javascript" src="/tb/webroot/js','type="text/javascript" src="http://www.newoman.jp/tb/webroot/js';
+  replace: 'rel="stylesheet" href="/tb/webroot','rel="stylesheet" href="http://www.newoman.jp/tb/webroot';
+}
