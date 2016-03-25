@@ -1,0 +1,15 @@
+ul.flex-direction-nav > li {
+ attribute: cltx add 'exclude';
+}
+
+.fb-page {
+  attribute: cltx add 'exclude';
+}
+
+.tweet {
+  attribute: cltx add 'exclude';
+}
+
+@preprocess {
+  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+}

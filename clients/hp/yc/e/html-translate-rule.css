@@ -1,0 +1,69 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM FASHION GOURMET INTERNET";
+}
+@engine ecute/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM FASHION GOURMET";
+}
+@engine ecute/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
+}
+
+#topEvent {
+ attribute: style add 'font-size:9px;';
+}
+
+@postprocess {
+ replace:'20</span>(.*?) OPEN' '20$1</span> OPEN';
+}
+
+@preprocess {
+  replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+}
+
+
+@postprocess {
+  replace:'<a href="/omiya/">Omiya</a>' '<a href="/omiya/" style="letter-spacing: 5px;">Omiya</a>';
+}
+
+@postprocess {
+  replace:'<a href="/shinagawa/">Shinagawa</a>' '<a href="/shinagawa/" style="letter-spacing: 5px;">Shinagawa</a>';
+}
+
+@postprocess {
+  replace:'<a href="/shinagawasouth/">Shinagawa south</a>' '<a href="/shinagawasouth/" style="letter-spacing: -2px;">Shinagawa south</a>';
+}
+
+@postprocess {
+  replace:'<a href="/tachikawa/">Tachikawa</a>' '<a href="/tachikawa/" style="letter-spacing: 5px;">Tachikawa</a>';
+}
+
+@postprocess {
+  replace:'<a href="/nippori/">Nippori</a>' '<a href="/nippori/" style="letter-spacing: 5px;">Nippori</a>';
+}
+
+@postprocess {
+  replace:'<a href="/tokyo/">Tokyo</a>' '<a href="/tokyo/" style="letter-spacing: 5px;">Tokyo</a>';
+}
+
+@postprocess {
+  replace:'<a href="/ueno/">Ueno</a>' '<a href="/ueno/" style="letter-spacing: 5px;">Ueno</a>';
+}
+
+@postprocess {
+  replace:'<a href="/akabane/">Akabane</a>' '<a href="/akabane/" style="letter-spacing: 5px;">Akabane</a>';
+}
+
+@postprocess {
+  replace:'<a href="http://www.maach-ecute.jp/" target="_blank">Forever bridge</a>' '<a style="letter-spacing: 5px;" href="http://www.maach-ecute.jp/" target="_blank">Forever bridge</a>';
+}
+
+div.container {
+  attribute: style add 'font-size:20px;';
+}
+
+footer#common-footer > section > h1 {
+  attribute: style add "letter-spacing:10px;";
+}
