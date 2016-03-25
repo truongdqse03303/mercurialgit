@@ -13,3 +13,7 @@ ul.flex-direction-nav > li {
 @preprocess {
   replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
+
+.twitter {
+  attribute: cltx add 'exclude';
+}
