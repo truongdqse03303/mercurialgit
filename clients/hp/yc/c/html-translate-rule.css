@@ -22,41 +22,41 @@ body {
 // @RULESET
 // URL = http://www.ecute.jp/omiya/
 @postprocess {
-  replace: 'http://www.ecute.jp' 'http://www.ecute.jp.c.yc.hp.transer.com/omiya/';
+  replace: 'href="http://www.ecute.jp' 'href="http://www.ecute.jp.c.yc.hp.transer.com/omiya';
 }
 
 // @RULESET
 // URL = http://www.ecute.jp/shinagawa/
 @postprocess {
-  replace: 'http://www.ecute.jp' 'http://www.ecute.jp.c.yc.hp.transer.com/shinagawa/';
+  replace: 'href="http://www.ecute.jp' 'href="http://www.ecute.jp.c.yc.hp.transer.com/shinagawa';
 }
 
 // @RULESET
 // URL = http://www.ecute.jp/shinagawasouth/
 @postprocess {
-  replace: 'http://www.ecute.jp' 'http://www.ecute.jp.c.yc.hp.transer.com/shinagawasouth/';
+  replace: 'href="http://www.ecute.jp' 'href="http://www.ecute.jp.c.yc.hp.transer.com/shinagawasouth';
 }
 
 // @RULESET
 // URL = http://www.ecute.jp/nippori/
 @postprocess {
-  replace: 'http://www.ecute.jp' 'http://www.ecute.jp.c.yc.hp.transer.com/nippori/';
+  replace: 'href="http://www.ecute.jp' 'href="http://www.ecute.jp.c.yc.hp.transer.com/nippori';
 }
 
 // @RULESET
 // URL = http://www.ecute.jp/tokyo/
 @postprocess {
-  replace: 'http://www.ecute.jp' 'http://www.ecute.jp.c.yc.hp.transer.com/tokyo/';
+  replace: 'href="http://www.ecute.jp' 'href="http://www.ecute.jp.c.yc.hp.transer.com/tokyo';
 }
 
 // @RULESET
 // URL = http://www.ecute.jp/ueno/
 @postprocess {
-  replace: 'http://www.ecute.jp' 'http://www.ecute.jp.c.yc.hp.transer.com/ueno/';
+  replace: 'href="http://www.ecute.jp' 'href="http://www.ecute.jp.c.yc.hp.transer.com/ueno';
 }
 
 // @RULESET
 // URL = http://www.ecute.jp/akabane/
 @postprocess {
-  replace: 'http://www.ecute.jp' 'http://www.ecute.jp.c.yc.hp.transer.com/akabane/';
+  replace: 'href="http://www.ecute.jp' 'href="http://www.ecute.jp.c.yc.hp.transer.com/akabane';
 }
