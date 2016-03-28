@@ -4,7 +4,7 @@
   <name>デモ用</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>demo/athome f998da4db89b4938b488210ac4049f3acad8658b</licence>
+  <licence>demo/service f998da4db89b4938b488210ac4049f3acad8658b</licence>
 
   <!-- クライアントが使用できるドメインの一覧 -->
   <request-list>
