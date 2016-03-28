@@ -12,7 +12,7 @@
 }
 
 @postprocess {
- replace:'https://cantabi.jp' 'http://cantabi.jp.e.ye.hp.local-transer.co.jp';
+ replace:'https://cantabi.jp' 'http://cantabi.jp.e.ye.hp.transer.com';
 }
 
 span.ic-aria {
