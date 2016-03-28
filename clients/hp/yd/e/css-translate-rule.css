@@ -1,0 +1,17 @@
+// @RULESET
+// URL = http://www.densen-store.com/user_data/packages/default/css/contents.css
+@preprocess {
+  replace: 'font-size:16px;' 'font-size:10px;';
+}
+
+// @RULESET
+// URL = http://www.densen-store.com/user_data/packages/default/css/densen/cnt.css
+@preprocess {
+  replace: 'font-size:15px;' 'font-size:13px;';
+}
+
+// @RULESET
+// URL = http://www.densen-store.com/user_data/packages/sphone/css/products.css
+@preprocess {
+  replace: 'font-size: 11px;' 'font-size: 6px;';
+}
