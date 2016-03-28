@@ -1,0 +1,16 @@
+@engine default {
+  eid: MS-JAID;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine cantabi/main {
+  eid: MS-JAID;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine cantabi/cross {
+  eid: MS-JAID;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+@postprocess {
+ replace:'https://cantabi.jp' 'http://cantabi.jp.id.ye.hp.transer.com';
+}

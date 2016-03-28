@@ -1,0 +1,12 @@
+// @RULESET
+// URL =http://cantabi.jp/wordpress/wp-content/plugins/topo_service/js/topoutils.js?ver=3.9.11
+@preprocess {
+  replace: 'http://cantabi.jp/' 'http://cantabi.jp.e.ye.hp.local-transer.co.jp/';
+}
+
+
+// @RULESET
+// URL =http://cantabi.jp.e.ye.hp.local-transer.co.jp/wordpress/wp-content/plugins/topo_service/js/topoutils.js?ver=3.9.11
+@preprocess {
+  replace: 'http://cantabi.jp/' 'http://cantabi.jp.e.ye.hp.local-transer.co.jp/';
+}
