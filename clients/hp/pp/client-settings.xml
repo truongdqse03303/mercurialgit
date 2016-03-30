@@ -10,12 +10,36 @@
   <request-list>
     <request hostname="trusty.jp" />
     <request hostname="www.trusty.jp" />
+    <request hostname="ct.rion.mobi" />    
   </request-list>
   
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
   <extension-param>
    <param-name>default.fragment.translate</param-name>
    <param-value>false</param-value>
+  </extension-param>
+  
+    <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic Y3RyaW9ubW9iaTpOanNoZDdzdWR3NA==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://ct\.rion\.mobi/.*</param-value>
+    </param>
+  </resource-handler>
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->
