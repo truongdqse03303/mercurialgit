@@ -1,0 +1,19 @@
+li.flex-nav-prev {
+ attribute: cltx add 'exclude';
+}
+
+li.flex-nav-next {
+ attribute: cltx add 'exclude';
+}
+
+.sns-btns {
+ attribute: cltx add 'exclude';
+}
+
+.line-btn {
+ attribute: cltx add 'exclude';
+}
+
+.leaflet-control-zoom {
+  attribute: cltx add 'exclude';
+}
