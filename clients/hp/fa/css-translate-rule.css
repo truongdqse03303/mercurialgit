@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.tokyu-dept.co.jp/hinka-rinka/cmn/css/common.css
+@preprocess {
+  replace: 'z-index:500;' 'z-index:auto;';
+}
