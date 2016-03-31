@@ -1,0 +1,19 @@
+body {
+  attribute: style add "background-position:0px 26px;";
+}
+
+div#topFeature {
+ attribute: cltx add 'exclude';
+}
+
+div#main {
+ attribute: cltx add 'exclude';
+}
+
+div#right {
+ attribute: cltx add 'exclude';
+}
+
+ul#gnav {
+ attribute: cltx add 'exclude';
+}

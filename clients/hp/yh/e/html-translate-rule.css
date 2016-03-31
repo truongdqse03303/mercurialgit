@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM IT INTERNET";
+}
+@engine license-tour/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM IT";
+}
+@engine license-tour/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM IT";
+}
+
+@postprocess {
+ replace:'<option value="1">北海道</option>' '<option value="1">Hokkaido</option>';
+}
