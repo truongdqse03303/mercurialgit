@@ -21,3 +21,7 @@ li.flex-nav-next {
 #mainSlide {
   attribute: cltx add 'exclude';
 }
+
+.searchshopBt {
+  attribute: cltx add 'exclude';
+}
