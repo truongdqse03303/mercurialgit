@@ -13,4 +13,11 @@
 
 @postprocess {
  replace:'https://cantabi.jp' 'http://cantabi.jp.th.ye.hp.transer.com';
+ replace:'id="lang-jp" href="http://cantabi.jp./' 'id="lang-jp" href="http://cantabi.jp/';
+ replace:'id="lang-en" href="http://cantabi.jp..e.ye.hp.transer.com/' 'id="lang-en" href="http://cantabi.jp.e.ye.hp.transer.com/';
+ replace:'id="lang-zhs" href="http://cantabi.jp..c.ye.hp.transer.com/' 'id="lang-zhs" href="http://cantabi.jp.c.ye.hp.transer.com/';
+ replace:'id="lang-zht" href="http://cantabi.jp..t.ye.hp.transer.com/' 'id="lang-zht" href="http://cantabi.jp.t.ye.hp.transer.com/';
+ replace:'id="lang-ko" href="http://cantabi.jp..k.ye.hp.transer.com/' 'id="lang-ko" href="http://cantabi.jp.k.ye.hp.transer.com/';
+ replace:'id="lang-th" href="http://cantabi.jp..th.ye.hp.transer.com/' 'id="lang-th" href="http://cantabi.jp.th.ye.hp.transer.com/';
+ replace:'id="lang-vi" href="http://cantabi.jp..v.ye.hp.transer.com/' 'id="lang-vi" href="http://cantabi.jp.v.ye.hp.transer.com/';
 }
