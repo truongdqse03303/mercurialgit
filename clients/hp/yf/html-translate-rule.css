@@ -17,3 +17,7 @@ li.flex-nav-next {
 .leaflet-control-zoom {
   attribute: cltx add 'exclude';
 }
+
+#mainSlide {
+  attribute: cltx add 'exclude';
+}
