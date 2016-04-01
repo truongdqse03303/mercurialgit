@@ -14,3 +14,7 @@
 @postprocess {
  replace:'https://cantabi.jp' 'http://cantabi.jp.v.ye.hp.transer.com';
 }
+
+.wideslider {
+ attribute: cltx add 'exclude';
+}

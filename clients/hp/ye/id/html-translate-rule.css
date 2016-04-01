@@ -26,3 +26,7 @@ replace:'id="lang-th" href="http://cantabi.jp..th.ye.hp.transer.com/' 'id="lang-
 replace:'id="lang-vi" href="http://cantabi.jp..v.ye.hp.transer.com/' 'id="lang-vi" href="http://cantabi.jp.v.ye.hp.transer.com/';
 replace:'id="lang-id" href="http://cantabi.jp..id.ye.hp.transer.com/' 'id="lang-id" href="http://cantabi.jp.id.ye.hp.transer.com/';
 }
+
+.wideslider {
+ attribute: cltx add 'exclude';
+}
