@@ -18,3 +18,11 @@
 div#searchArea {
   attribute: cltx add 'exclude';
 }
+
+.easy-select-box-disp {
+  attribute: cltx add 'exclude';
+}
+
+li > a {
+  attribute: cltx add 'exclude';
+}
