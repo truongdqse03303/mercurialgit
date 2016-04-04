@@ -49,3 +49,7 @@ select.inpWLL {
 replace:'<ul class="sideMyAtreLink">' '<ul class="sideMyAtreLink langPatE">';
 replace:'<ul class="btnList04">' '<ul class="btnList04 langPatE">';
 }
+
+@postprocess {
+replace:'data-url="http://t-www.atre.co.jp/' 'data-url="http://t-www.atre.co.jp.e.wl.hp.transer.com/';
+}
