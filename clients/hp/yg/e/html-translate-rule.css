@@ -10,3 +10,29 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM SYSTEM LAW";
 }
+
+div.newsContentList > h3 {
+ attribute: style add 'letter-spacing: -1px;';
+}
+
+@postprocess {
+ replace:'<span class="kerning">ng</span>' 'ng<span class="kerning"></span>';
+}
+
+@postprocess {
+ replace:'Child c<span class="kerning">(.*?)</span>, educa<span class="kerning">(.*)' 'Child c$1<span class="kerning"></span>, educa$2<span class="kerning">';
+ replace:'<h2 class="categoryTitle"><!--cltx-->Indus<span class="kerning">(.*)' '<h2 class="categoryTitle"><!--cltx-->Indus$1<span class="kerning">';
+}
+
+.categoryTitleBox {
+ attribute: style add 'letter-spacing: -1px;';
+}
+
+.attentionTab {
+ attribute: style add 'white-space: nowrap; font-size: 14px;';
+}
+
+@postprocess {
+ replace:'needs reservat</span>ions,' 'needs reservations,</span>';
+ replace:'on the tele</span>phone' 'on the telephone</span>';
+}

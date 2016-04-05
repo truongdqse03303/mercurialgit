@@ -1,3 +1,11 @@
 div#MinWidthWrapperOut {
  attribute: cltx add 'exclude';
 }
+
+#siteHeader {
+ attribute: style add 'margin-top: 40px;';
+}
+
+div.categoryListGroupCommon {
+ attribute: cltx add 'exclude';
+}
