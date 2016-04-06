@@ -1,3 +1,7 @@
 div.guide {
 attribute: cltx add 'exclude';
 }
+
+div.event-retrieval-list {
+attribute: cltx add 'exclude';
+}
