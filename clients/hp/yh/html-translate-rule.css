@@ -17,3 +17,7 @@ div#right {
 ul#gnav {
  attribute: cltx add 'exclude';
 }
+
+@postprocess {
+ replace:'var name = "#header";' 'var name = "#header , #site-translate-header-wrapper";';
+}
