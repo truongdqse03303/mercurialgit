@@ -15,14 +15,10 @@
   replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
 }
 
-div#searchArea {
+option{
   attribute: cltx add 'exclude';
 }
 
-.easy-select-box-disp {
-  attribute: cltx add 'exclude';
-}
-
-li > a {
-  attribute: cltx add 'exclude';
+#controls {
+   attribute: cltx add 'exclude';
 }

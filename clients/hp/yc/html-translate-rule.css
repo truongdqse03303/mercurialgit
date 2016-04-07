@@ -21,3 +21,7 @@ ul.flex-direction-nav > li {
 #common-header {
    attribute: clftx add 'exclude';
 }
+
+#campaignBox li {
+  attribute: cltx add 'exclude';
+}
