@@ -24,3 +24,9 @@ div.shopList div.text span, div.shopList div.title h2 span {
 div.floor dl dd a span {
   text-flow: break;
 }
+
+// @RULESET
+// URL #= http://www\.tokyu-dept\.co\.jp/.*
+@preprocess {
+replace: '<div id="header">' '<div style="margin-top: 30px;" id="header">';
+}
