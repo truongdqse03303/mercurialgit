@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ヤマゼンコミュニケイションズ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tochinavi/service 4301209bfbb6e3df2af97d5091d66127f536468f</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.tochinavi.net" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
