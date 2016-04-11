@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>兵庫県・ひょうご防災ネット</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>bosai/service 0dcfef244c68bf8e7c8b83c8564ca87f8f69c4fd</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="bosai.net" />
+    <request hostname="web.bosai.pref.hyogo.lg.jp" />
+  </request-list>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>th,v,id</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

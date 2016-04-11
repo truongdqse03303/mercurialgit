@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM LAW ECOLOGY";
+}
+@engine bosai/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER LAW ECOLOGY";
+}
+@engine bosai/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER LAW ECOLOGY";
+}
