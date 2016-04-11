@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ICA（八ヶ岳高原ロッジ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>yatsugatake/service 1f71ad734c69deda3c62a0e7d70539a373b74e38</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.yatsugatake.co.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
