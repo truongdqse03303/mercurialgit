@@ -17,8 +17,6 @@
     <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
   </extension-param>
   
-  
-
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
