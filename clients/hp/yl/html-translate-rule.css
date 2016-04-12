@@ -1,0 +1,15 @@
+body {
+  attribute: style add "background-position:0px 27px;";
+}
+
+div#panel {
+  attribute: style add 'margin-top: 20px;';
+}
+
+a.ui-btn {
+  attribute: style add 'margin-top: 35px;';
+}
+
+@postprocess {
+  replace:'<img src="http://www.yatsugatake.co.jp/sp/img/logo.png" style="height:2em;" alt="" />' '<img src="http://www.yatsugatake.co.jp/sp/img/logo.png" style="height:2em; margin-top: 29px;" alt="" />';
+}

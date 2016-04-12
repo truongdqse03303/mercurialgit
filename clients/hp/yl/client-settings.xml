@@ -10,7 +10,14 @@
   <request-list>
     <request hostname="www.yatsugatake.co.jp" />
   </request-list>
+  
+     <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;z-index:1100;}</param-value>
+  </extension-param>
 
-  <!-- サイトで使用される文字セット -->
-  <!--charset>UTF-8</charset-->
+    <!-- サイトで使用される文字セット -->
+  <!--charset>Shift_JIS</charset-->
+  <charset url="http://www\.yatsugatake\.co\.jp/bridal/movie/index\.html">Shift_JIS</charset>  
 </client-settings>
