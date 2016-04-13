@@ -1,3 +1,7 @@
 #print-btn-area {
  attribute: cltx add 'exclude';
 }
+
+#fontController {
+ attribute: cltx add 'exclude';
+}
