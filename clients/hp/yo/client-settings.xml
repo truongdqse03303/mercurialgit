@@ -17,6 +17,25 @@
    <param-name>mst.logo.show</param-name>
    <param-value>th,v,id</param-value>
   </extension-param>
+    
+    <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://bosai\.net/e/.*</url>
+  </url-list>
+  
+    <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://web\.bosai\.pref\.hyogo\.lg\.jp/css/font-awesome\.css</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>BINARY</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
