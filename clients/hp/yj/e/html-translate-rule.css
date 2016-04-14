@@ -14,3 +14,7 @@
 .hLink {
  attribute: style add 'font-size:13px;';
 }
+
+#search-bg {
+  attribute: style add 'font-size:12px;';
+}
