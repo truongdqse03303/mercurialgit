@@ -13,3 +13,14 @@ a.ui-btn {
 @postprocess {
   replace:'<img src="http://www.yatsugatake.co.jp/sp/img/logo.png" style="height:2em;" alt="" />' '<img src="http://www.yatsugatake.co.jp/sp/img/logo.png" style="height:2em; margin-top: 29px;" alt="" />';
 }
+
+.bx-controls-direction {
+ attribute: cltx add 'exclude';
+}
+
+
+// @RULESET
+// URL #=http://www\.yatsugatake\.co\.jp/sale/thing/.*
+.header_top {
+  attribute: style add 'margin-top: 25px;';
+}
