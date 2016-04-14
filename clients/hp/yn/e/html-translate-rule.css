@@ -10,3 +10,12 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+@postprocess {
+ replace:'It is&gt; to next' 'It is to next&gt;';
+ replace:'To &lt;in front of' '&lt;To in front of';
+}
+
+@postprocess {
+ replace:'<img src="http://www.tochinavi.net/common/images/logo.png" width="230" height="80" alt="Site that comes to like Tochigi more. Horse chestnut navigator!" cltx><span>' '<img src="http://www.tochinavi.net/common/images/logo.png" width="230" height="80" alt="Site that comes to like Tochigi more. Horse chestnut navigator!" cltx><span style="margin-left:60px; margin-top:-9px;">';
+}

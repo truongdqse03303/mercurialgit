@@ -1,0 +1,19 @@
+article.mypage-header {
+attribute: style add 'white-space: nowrap;margin-top: 22px;';
+}
+
+.global-header {
+attribute: style add 'margin-top: 29px;';
+}
+
+.slider-btn {
+ attribute: cltx add 'exclude';
+}
+
+.bx-controls-direction {
+ attribute: cltx add 'exclude';
+}
+
+nav#SP-TOGGLE-MENU-CNT {
+ attribute: style add 'margin-top: 32px;';
+}
