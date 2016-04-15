@@ -24,3 +24,7 @@ a.ui-btn {
 .header_top {
   attribute: style add 'margin-top: 25px;';
 }
+
+.mean-bar {
+ attribute: cltx add 'exclude';
+}
