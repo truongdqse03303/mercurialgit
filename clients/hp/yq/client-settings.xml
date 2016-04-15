@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ヨリ未知SENDAI</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>yorimichi-sendai/service 1674ed27add1cb32ae3378a10bd81548b8fb302e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="yorimichi-sendai.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
