@@ -8,14 +8,19 @@
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="www.isetan.co.jp">
+    <request hostname="www.isetan.co.jp">    
       <path-list>
         <path value="/icm2/jsp/(?:store/(?:web_isetsu/)?shinjuku/|shopping/search/|others/)" />
         <path value="/icm2/jsp/(?:css|js|(?:store/)?images)/" />
       </path-list>
     </request>
     <request hostname="i.isetan.co.jp" path="/(?:shinjuku/|cgi-bin/top/js_get.cgi|common/(?:css2|css3|js|images?)/)" />
-    <request hostname="isetan.mistore.jp" path="/store.*" />
+    <request hostname="isetan.mistore.jp" path="/(sp/store|store)/.*" />
+  </request-list>
+  
+  <!-- 翻訳対象のリクエスト情報 （必須）-->
+   <request-list>
+    <request hostname="isetan.stage.mistore.jp" />
   </request-list>
 
   <!-- HTML断片翻訳対象外のURL -->
