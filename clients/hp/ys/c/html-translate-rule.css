@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM BEAUTY FASHION";
+}
+@engine cefinecosmetics/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER BEAUTY FASHION";
+}
+@engine cefinecosmetics/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER BEAUTY FASHION";
+}
+
+body {
+  attribute: lang add 'zh';
+}
