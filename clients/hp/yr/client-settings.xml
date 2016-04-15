@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>パセーラテナント会（NTT都市開発株式会社）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>pacela/service 3c9c608109736ebbe1e2e8d01d930b933536b9a7</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.pacela.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
