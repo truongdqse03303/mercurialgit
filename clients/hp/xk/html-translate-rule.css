@@ -5,3 +5,7 @@ attribute: cltx add 'exclude';
 div.event-retrieval-list {
 attribute: cltx add 'exclude';
 }
+
+.underlayer-wrap {
+attribute: cltx add 'exclude';
+}
