@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>西鉄興業株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nishitetsu-kogyo/service 85e5565867e6c9d590241b50616f288cc7a9ea63</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="nishitetsu-kogyo.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
