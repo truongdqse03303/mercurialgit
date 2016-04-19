@@ -1,0 +1,11 @@
+#slide {
+ attribute: cltx add 'exclude';
+}
+
+#twitter {
+ attribute: cltx add 'exclude';
+}
+
+.floor_ph_btn {
+ attribute: cltx add 'exclude';
+}
