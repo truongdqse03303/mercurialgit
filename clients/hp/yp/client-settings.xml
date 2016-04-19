@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.aquacity.jp" path="/sp/" />
+    <request hostname="www.aquacity.jp" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
