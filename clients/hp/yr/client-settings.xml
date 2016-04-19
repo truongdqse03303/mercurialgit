@@ -10,6 +10,11 @@
   <request-list>
     <request hostname="www.pacela.jp" />
   </request-list>
+  
+    <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.pacela\.jp/recruit/.*</url>
+  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
