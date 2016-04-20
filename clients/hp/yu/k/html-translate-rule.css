@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM ARCHI";
+}
+@engine tgt-kioicho/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER ARCHI";
+}
+@engine tgt-kioicho/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER ARCHI";
+}

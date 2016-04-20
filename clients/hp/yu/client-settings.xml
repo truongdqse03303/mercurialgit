@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社西武プロパティーズ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tgt-kioicho/service fb440fc66eecd6b1bb4cd9ff36c6c8abf9c7310e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.tgt-kioicho.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
