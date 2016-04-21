@@ -1,0 +1,11 @@
+.navPaginage {
+ attribute: style add 'white-space: nowrap;font-size: 14px;';
+}
+
+.styledSelectBox {
+ attribute: style add 'margin-top: 40px;';
+}
+
+.boxWhite {
+ attribute: cltx add 'exclude';
+}

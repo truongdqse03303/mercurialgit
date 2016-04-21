@@ -10,7 +10,20 @@
   <request-list>
     <request hostname="www.nagaden-net.co.jp" />
   </request-list>
-
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+  
+    <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.nagaden-net\.co\.jp/company/.*</url>
+    <url>http://www\.nagaden-net\.co\.jp/recruit/.*</url>
+    <url>http://www\.nagaden-net\.co\.jp/inquiry/.*</url>
+  </url-list>
+    
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>

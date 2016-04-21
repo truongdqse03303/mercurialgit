@@ -1,0 +1,8 @@
+// @RULESET
+// URL #= http://www\.nagaden-net\.co\.jp/common/js/pagenate\.js
+@postprocess {
+  replace: '前へ' 'Forward';
+  replace: '次へ' 'To next';
+  replace: '前のページへ' 'To the page in front'; 
+  replace: '次のページへ' 'To the next page';
+}
