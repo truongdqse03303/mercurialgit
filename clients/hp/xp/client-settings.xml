@@ -11,6 +11,8 @@
     <request hostname="www.stage.biccamera.com" />
     <request hostname="www.stage2.biccamera.com" />
     <request hostname="54.64.208.42" />
+    <request hostname="sake.stage.biccamera.com" />
+    <request hostname="sake.stage2.biccamera.com" />
   </request-list>
 
   <!-- 使用する設定IDの一覧 -->
