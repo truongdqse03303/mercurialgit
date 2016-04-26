@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.roppongihills.com" />
+    <request hostname="54.248.87.26" />    
   </request-list>
   
   <!-- 免責ヘッダーを絶対座標で指定 -->
@@ -16,6 +17,23 @@
     <param-name>site.translate.header.style</param-name>
     <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
   </extension-param>
+  
+    <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic cmhfc3RhZmY6bmtKQ2VzcVc=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://54\.248\.87\.26/.*</param-value>
+    </param>
+  </resource-handler>
   
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
