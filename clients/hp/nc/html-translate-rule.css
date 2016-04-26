@@ -1,0 +1,3 @@
+@postprocess {
+ replace: '<i class="fa fa-angle-left">' '<i class="fa fa-angle-left"><br style="display:none"/>';
+}
