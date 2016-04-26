@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.nagaden-net.co.jp" />
+    <request hostname="www.nagadenbus.co.jp" />
   </request-list>
   
     <!-- 免責ヘッダーを絶対座標で指定 -->
