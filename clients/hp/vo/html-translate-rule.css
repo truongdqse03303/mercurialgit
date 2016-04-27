@@ -1,3 +1,7 @@
 #first-col {
  attribute: clftx add 'exclude';
 }
+
+#sub-col {
+ attribute: cltx add 'exclude';
+}
