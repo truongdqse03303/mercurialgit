@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+ul.footer-navi-box > li > a {
+ attribute: style add 'font-size: 11px;';
+}
