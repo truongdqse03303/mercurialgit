@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>NCC</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ncc-nice/service 88c39bdf6368167871b961a9ef1948029b7cb7e0</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.ncc-nice.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

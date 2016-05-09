@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM SYSTEM CHEMICAL ARCHI ECOLOGY INTERNET";
+}
+@engine ncc-nice/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER SYSTEM CHEMICAL ARCHI ECOLOGY";
+}
+@engine ncc-nice/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM CHEMICAL ARCHI ECOLOGY";
+}

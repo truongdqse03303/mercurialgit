@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM CHEMICAL";
+}
+@engine ncc-nice/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER CHEMICAL";
+}
+@engine ncc-nice/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER CHEMICAL";
+}
+
+body {
+  attribute: lang add 'zh';
+}
