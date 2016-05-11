@@ -10,6 +10,23 @@
   <request-list>
     <request hostname="www.ncc-nice.com" />
   </request-list>
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+  
+        <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://www\.ncc-nice\.com/co_visit\.html</url>
+    <url>http://www\.ncc-nice\.com/event/(co_event\.html|co_event_rp\.html)</url>
+    <url>http://www\.ncc-nice\.com/co_mame2/c/251/(252|257|258|304|305|308|307)/</url>
+    <url>http://www\.ncc-nice\.com/co_staff\.html</url>
+    <url>http://www\.ncc-nice\.com/co_navi/c/269/(279|273|275|277)/</url>    
+    <url>http://www\.ncc-nice\.com/magazine/index\.html</url>
+    <url>http://www\.ncc-nice\.com/co_diary/article/mwP20160405182013\.html</url>
+  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

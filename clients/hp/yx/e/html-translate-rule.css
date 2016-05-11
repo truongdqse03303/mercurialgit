@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM CHEMICAL ARCHI ECOLOGY";
 }
+
+.wf-g {
+ attribute: style add 'white-space: nowrap; letter-spacing: -1px; margin-left: -37px;';
+}
