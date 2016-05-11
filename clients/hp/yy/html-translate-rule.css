@@ -1,0 +1,17 @@
+.bx-controls {
+ attribute: cltx add 'exclude';
+}
+
+.bx-controls-direction {
+ attribute: cltx add 'exclude';
+}
+
+.button-store {
+ attribute: style add 'white-space: nowrap;';
+}
+
+@postprocess {
+ replace:'<span class="couponSuffix">is discounted by</span>' 'is <span class="couponSuffix"> discounted by</span>';
+ replace:'<span class="couponValue">10 y</span>en' '<span class="couponValue">10 yen</span>';
+ replace:'<span class="couponValue">20 y</span>en' '<span class="couponValue">20 yen</span>';
+}

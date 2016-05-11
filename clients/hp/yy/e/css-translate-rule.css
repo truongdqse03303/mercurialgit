@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.matsukiyo.co.jp/css/mkn_ui/common/mkn-ui-header.css?cache=ver150701
+@postprocess {
+ replace:'355px' '600px';
+}
