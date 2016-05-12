@@ -10,3 +10,10 @@
   eid: MS-JATH;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/info/order/keep-howto\.jsp
+@postprocess {
+ replace: '"ห<a href="/bc/c/info/order/caution.jsp">มายเหตุ" </a>' '"<a href="/bc/c/info/order/caution.jsp">หมายเหตุ </a>"';
+ replace: 'วิธีการชำระเงิน โดยการเก็บแตกต่างกันไป</a>' 'วิธีการชำระเงิน</a> โดยการเก็บแตกต่างกันไป';
+}

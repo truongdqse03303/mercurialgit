@@ -10,3 +10,10 @@
   eid: MS-JAID;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/info/order/keep-howto\.jsp
+@postprocess {
+ replace: 'catatan"</a>' 'catatan</a>"';
+ replace: 'Metode pembayaran yang tersedia bervariasi oleh toko.</a>' 'Metode pembayaran</a> yang tersedia bervariasi oleh toko.'; 
+}
