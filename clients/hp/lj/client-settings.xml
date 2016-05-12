@@ -12,6 +12,7 @@
     <request hostname="www.biccamera.com" />
     <request hostname="search.biccamera.com" />
     <request hostname="sp.biccamera.com" />
+    <request hostname="sake.biccamera.com" />    
   </request-list>
   
   <!-- HTML断片翻訳を行わないURLの一覧 -->

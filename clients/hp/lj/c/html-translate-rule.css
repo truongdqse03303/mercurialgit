@@ -21,3 +21,11 @@ body {
 a[href='http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tpl/ja/map.php?&MAP=E139.42.22.76N35.41.17.01&CMR=cross_lng&KEY=bd96402192c1494895673a1e17431f32e33f507e&NM=%E3%83%93%E3%83%83%E3%82%AF%E3%83%AD%20%E3%83%93%E3%83%83%E3%82%AF%E3%82%AB%E3%83%A1%E3%83%A9%20%E6%96%B0%E5%AE%BF%E6%9D%B1%E5%8F%A3%E5%BA%97&ZM=10'] {
   attribute: href rewrite 'http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tpl/zh2/map.php?&MAP=E139.42.22.76N35.41.17.01&CMR=cross_lng&KEY=f1c090ad768564cfe955ff35c89f628b8f07925a&NM=BICQLO%20%E5%BF%85%E9%85%B7%20%E6%96%B0%E5%AE%BF%E4%B8%9C%E5%8F%A3%E5%BA%97&ZM=10';
 }
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/info/order/keep-howto\.jsp
+@postprocess {
+ replace: '<a href="/bc/c/info/order/caution.jsp">的《</a>注意事项》' '的《<a href="/bc/c/info/order/caution.jsp">注意事项</a>》';
+ replace: '可使用的支' '可使用的';
+ replace: '付方式根</a>据店铺有所不同' '支付方式根据</a>店铺有所不同';
+}
