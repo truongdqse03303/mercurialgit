@@ -33,7 +33,7 @@
   </extension-param>
   
   <!-- サイトで使用される文字セット -->
-  <charset>UTF-8</charset>
+  <!--charset>UTF-8</charset-->
   <charset url=".+\.pdf">UTF-8</charset>
 
   <!-- 使用する設定IDの一覧 -->
