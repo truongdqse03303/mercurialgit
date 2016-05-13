@@ -54,7 +54,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://www\.biccamera\.com/bc/(js/floorMapList\.xml|js_sp/floorMapList\.xml)</param-value>
+      <param-value>http://(www\.biccamera\.com|sake\.biccamera\.com)/(bc|bs)/(js/.*|js_sp/.*)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
@@ -63,6 +63,12 @@
     <priority>4</priority>
   </resource-handler>
   <!-- URLとリソース種類のマッピングの設定 ここまで -->
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
   
   <!-- 検索フォームの文字エンコード -->
   <resource-handler>
