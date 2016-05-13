@@ -64,12 +64,6 @@
   </resource-handler>
   <!-- URLとリソース種類のマッピングの設定 ここまで -->
   
-    <!-- 免責ヘッダーを絶対座標で指定 -->
-  <extension-param>
-    <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
-  </extension-param>
-  
   <!-- 検索フォームの文字エンコード -->
   <resource-handler>
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
