@@ -14,3 +14,12 @@
 .center {
  attribute: style add 'margin-top: 43px;';
 }
+
+@postprocess {
+ replace:'<dd><!--cltx--><span class="price"><b>([0-9])([0-9])([0-9])日</b>圆</span>' '<dd><!--cltx--><span class="price"><b>$1$2$3</b>日圆</span>';
+ replace:'<dd><!--cltx--><span class="price"><b>([0-9])([0-9])日</b>圆</span>' '<dd><!--cltx--><span class="price"><b>$1$2</b>日圆</span>';
+ replace:'<!--cltx--><span class="iC-price">([0-9])([0-9])日</span>圆' '<!--cltx--><span class="iC-price">$1$2</span>日圆';
+ replace:'<!--cltx--><span class="iC-price">([0-9])([0-9])([0-9])日</span>圆' '<!--cltx--><span class="iC-price">$1$2$3</span>日圆';
+ replace:'<!--cltx--><span class="iC-price">([0-9]),([0-9])([0-9])([0-9])日</span>圆' '<!--cltx--><span class="iC-price">$1,$2$3$4</span>日圆';
+ replace:'<span class="iC-tax">(\\()含稅</span>(\\))' '<span class="iC-tax">$1含稅$2</span>';  
+}

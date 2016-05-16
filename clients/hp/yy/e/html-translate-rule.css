@@ -11,12 +11,15 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
 }
 
-@postprocess {
- replace: '<span class="couponValue">([0-9])([0-9]) y</span>en' '<span class="couponValue">$1$2 yen</span>';
- replace: '<span class="price"><b>([0-9])([0-9])([0-9]) y</b>(.*?)</span>' '<span class="price"><b>$1$2$3 y$4</b></span>';
- replace: '<span class="couponPanel">It <span class="couponSuffix">is' '<span class="couponPanel">It is<span class="couponSuffix">';
-}
 
 .center {
  attribute: style add 'margin-top: -8px;';
+}
+
+@postprocess {
+ replace: '<dd><!--cltx--><span class="price"><b>([0-9])([0-9])([0-9]) y</b>en</span>' '<dd><!--cltx--><span class="price"><b>$1$2$3 </b>yen</span>';
+ replace: '<dd><!--cltx--><span class="price"><b>([0-9])([0-9]) y</b>en</span>' '<dd><!--cltx--><span class="price"><b>$1$2 </b>yen</span>';
+ replace: '<!--cltx--><span class="iC-price">([0-9])([0-9])([0-9]) y</span>en' '<!--cltx--><span class="iC-price">$1$2$3 </span>yen';
+ replace: '<!--cltx--><span class="iC-price">([0-9])([0-9]) y</span>en' '<!--cltx--><span class="iC-price">$1$2 </span>yen';
+ replace: '<!--cltx--><span class="iC-price">([0-9]),([0-9])([0-9])([0-9]) ye</span>n' '<!--cltx--><span class="iC-price">$1,$2$3$4 </span>yen'; 
 }
