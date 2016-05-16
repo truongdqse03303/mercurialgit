@@ -14,4 +14,9 @@
 @postprocess {
  replace: '<span class="couponValue">([0-9])([0-9]) y</span>en' '<span class="couponValue">$1$2 yen</span>';
  replace: '<span class="price"><b>([0-9])([0-9])([0-9]) y</b>(.*?)</span>' '<span class="price"><b>$1$2$3 y$4</b></span>';
+ replace: '<span class="couponPanel">It <span class="couponSuffix">is' '<span class="couponPanel">It is<span class="couponSuffix">';
+}
+
+.center {
+ attribute: style add 'margin-top: -8px;';
 }

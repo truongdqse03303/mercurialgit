@@ -14,3 +14,12 @@
 body {
   attribute: lang add 'zh';
 }
+
+.center {
+ attribute: style add 'margin-top: 43px;';
+}
+
+@postprocess {
+ replace: '</b>円</span>' '</b>元</span>';
+ replace: '<span class="couponValue">([0-9])([0-9])日</span>' '<span class="couponValue">$1$2</span>';
+}
