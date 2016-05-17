@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>クロスランゲージ多言語化対応</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>crosslanguage-multi/service 75b19ce9f922367237ab02118eed003e35bcf7e0</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.crosslanguage.co.jp" />
+  </request-list>
+
+  <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://www\.crosslanguage\.co\.jp/case/index\.html</url>
+    <url>http://www\.crosslanguage\.co\.jp/auto-translation/homepage/(case_general\.html|case\.html|case_local_government\.html)</url>
+    <url>http://www\.crosslanguage\.co\.jp/auto-translation/sdk/case\.html</url>
+    <url>http://www\.crosslanguage\.co\.jp/auto-translation/premium/</url>
+    <url>http://www\.crosslanguage\.co\.jp/support/</url>
+    <url>http://www\.crosslanguage\.co\.jp/products/announcement\.html</url>
+  </url-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>th,v,id</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

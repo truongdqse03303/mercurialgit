@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JAID;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine crosslanguage-multi/main {
+  eid: MS-JAID;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine crosslanguage-multi/cross {
+  eid: MS-JAID;
+  dictionaries: "CROSS_TM_MASTER";
+}
