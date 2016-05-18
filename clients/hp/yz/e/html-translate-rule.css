@@ -10,3 +10,27 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
 }
+
+#menu-item-79 > a {
+ attribute: style add 'white-space: nowrap;';
+}
+
+#menu-item-98 > a {
+ attribute: style add 'white-space: nowrap;';
+}
+
+#menu-item-513 > a {
+ attribute: style add 'white-space: nowrap;';
+}
+
+#menu-item-514 > a {
+ attribute: style add 'white-space: nowrap;';
+}
+
+#menu-item-515 > a {
+ attribute: style add 'white-space: nowrap;';
+}
+
+section > h2 > span {
+ attribute: style add 'white-space: nowrap; font-size: 27px;';
+}
