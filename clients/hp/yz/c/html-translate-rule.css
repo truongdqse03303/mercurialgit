@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+span.news_title {
+  text-flow: break;
+}

@@ -34,3 +34,18 @@
 section > h2 > span {
  attribute: style add 'white-space: nowrap; font-size: 27px;';
 }
+
+p > a {
+ attribute: style add 'font-size: 13px;';
+}
+
+span.news_title {
+  text-flow: break;
+}
+
+@preprocess {
+ replace: '<a href="http://ykip.co.jp/company/greeting/">' '<a href="http://ykip.co.jp.e.yz.hp.transer.com/company/greeting/" style="font-size: 16px;">';
+ replace: '<a href="http://ykip.co.jp/company/organization/">' '<a href="http://ykip.co.jp.e.yz.hp.transer.com/company/organization/" style="font-size: 16px;">';
+ replace: '<a href="http://ykip.co.jp/company/plan/" class="penone">' '<a href="http://ykip.co.jp.e.yz.hp.transer.com/company/plan/" class="penone" style="font-size: 16px;">';
+ replace: '<a href="http://ykip.co.jp/company/report/" class="penone">' '<a href="http://ykip.co.jp.e.yz.hp.transer.com/company/report/" class="penone" style="font-size: 16px;">'; 
+}
