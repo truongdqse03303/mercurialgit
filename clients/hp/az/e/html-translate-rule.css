@@ -17,3 +17,14 @@ a[href^="http://mlttpl-mapserv.incrementp.co.jp/multi/spot/isetan_1/ja/map.php"]
   attribute: href rewrite "http://mlttpl-mapserv.incrementp.co.jp/multi/spot/isetan_1/en/map.php?&MAP=E139.42.28.35N35.41.18.02&CMR=isetan&KEY=36926bafcbdc46674dbf3b053389194b2421a5ee&NM=ISETAN%20SHINJUKU&ZM=10";
 }
 
+// @RULESET
+// URL ^= http://isetan.mistore.jp/store/tachikawa/index.html
+@postprocess {
+ replace:'<em>Tachikaw</em><span>a store</span>' '<em></em><span>Tachikawa</span>';
+}
+
+// @RULESET
+// URL ^= http://isetan.mistore.jp/store/fuchu/index.html
+@postprocess {
+ replace:'Fu</em><span>chu shop</span>' '</em><span>Fuchu</span>';
+}
