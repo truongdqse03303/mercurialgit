@@ -9,7 +9,8 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.roppongihills.com" />
-    <request hostname="54.248.87.26" />    
+    <request hostname="54.248.87.26" />
+    <request hostname="ec2-52-68-0-141.ap-northeast-1.compute.amazonaws.com" />        
   </request-list>
   
   <!-- 免責ヘッダーを絶対座標で指定 -->
@@ -18,7 +19,7 @@
     <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
   </extension-param>
   
-    <!-- Basic認証 -->
+      <!-- Basic認証 -->
   <resource-handler>
     <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
     <param>
@@ -27,11 +28,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic cmhfc3RhZmY6bmtKQ2VzcVc=</param-value>
+      <param-value>Basic cmgtd2ViLXVzZXI6YTRMdzdEZTU=</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://54\.248\.87\.26/.*</param-value>
+      <param-value>http://ec2-52-68-0-141\.ap-northeast-1\.compute\.amazonaws.com/.*</param-value>
     </param>
   </resource-handler>
   
