@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>大阪地下街株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>osaka-chikagai/service da5bf773c59a3fa7f1a2176eb10c9cf3f34e9bc1</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="whity.osaka-chikagai.jp" />
+    <request hostname="walk.osaka-chikagai.jp" />
+    <request hostname="nannan.osaka-chikagai.jp" />
+    <request hostname="avetika.osaka-chikagai.jp" />
+    <request hostname="coms.osaka-chikagai.jp" />
+    <request hostname="www.osaka-chikagai.jp" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
