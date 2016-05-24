@@ -1,0 +1,30 @@
+// @RULESET
+// URL ^= http://avetika.osaka-chikagai.jp/common/css/default.css
+@postprocess {
+ replace:'margin: 0px;' 'margin-bottom: -14px;';
+}
+
+// @RULESET
+// URL ^= http://whity.osaka-chikagai.jp/common/css/default.css
+@postprocess {
+ replace:'margin: 0px;' 'margin-bottom: -14px;';
+}
+
+
+// @RULESET
+// URL ^= http://nannan.osaka-chikagai.jp/common/css/default.css
+@postprocess {
+ replace:'margin: 0px;' 'margin-bottom: -14px;';
+}
+
+// @RULESET
+// URL ^= http://coms.osaka-chikagai.jp/common/css/default.css
+@postprocess {
+ replace:'margin: 0px;' 'margin-bottom: -14px;';
+}
+
+// @RULESET
+// URL ^= http://walk.osaka-chikagai.jp/common/css/default.css
+@postprocess {
+ replace:'margin: 0px;' 'margin-bottom: -14px;';
+}
