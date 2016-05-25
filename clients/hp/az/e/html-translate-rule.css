@@ -20,11 +20,35 @@ a[href^="http://mlttpl-mapserv.incrementp.co.jp/multi/spot/isetan_1/ja/map.php"]
 // @RULESET
 // URL ^= http://isetan.mistore.jp/store/tachikawa/index.html
 @postprocess {
- replace:'<em>Tachikaw</em><span>a store</span>' '<em></em><span>Tachikawa</span>';
+replace:'<em>Tachikaw</em><span>a store</span>' '<em></em><span>Tachikawa store</span>';
 }
 
 // @RULESET
 // URL ^= http://isetan.mistore.jp/store/fuchu/index.html
 @postprocess {
- replace:'Fu</em><span>chu shop</span>' '</em><span>Fuchu</span>';
+replace:'Fu</em><span>chu shop</span>' '</em><span>Fuchu store</span>';
+}
+
+// @RULESET
+// URL ^= http://isetan.mistore.jp/store/shinjuku/index.html
+@postprocess {
+replace:'</em><span>Shinjuku</span>' '</em><span>Shinjuku store</span>';
+}
+
+// @RULESET
+// URL ^= http://isetan.mistore.jp/store/matsudo/index.html
+@postprocess {
+replace:'</em><span>Matsudo</span>' '</em><span>Matsudo store</span>';
+}
+
+// @RULESET
+// URL ^= http://isetan.mistore.jp/store/urawa/index.html
+@postprocess {
+replace:'</em><span> Urawa</span>' '</em><span>Urawa store</span>';
+}
+
+// @RULESET
+// URL ^= http://isetan.mistore.jp/store/sagamihara/index.html
+@postprocess {
+replace:'</em><span>Sagamihara</span>' '</em><span>Sagamihara store</span>';
 }
