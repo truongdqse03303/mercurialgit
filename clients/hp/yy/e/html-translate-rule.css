@@ -23,3 +23,7 @@
  replace: '<!--cltx--><span class="iC-price">([0-9])([0-9]) y</span>en' '<!--cltx--><span class="iC-price">$1$2 </span>yen';
  replace: '<!--cltx--><span class="iC-price">([0-9]),([0-9])([0-9])([0-9]) ye</span>n' '<!--cltx--><span class="iC-price">$1,$2$3$4 </span>yen'; 
 }
+
+@postprocess {
+ replace: 'Japanese yen&nbsp;' ' yen&nbsp;';
+}
