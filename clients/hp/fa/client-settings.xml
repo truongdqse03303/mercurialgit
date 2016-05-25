@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.tokyu-dept.co.jp" path="/(?:(?!sp/).*|sp(?:/$|/index\.html.*|/honten.*|/toyoko.*|/sapporo.*|/shinqs.*))" />
+    <request hostname="www.tokyu-dept.co.jp" path="/(?:(?!sp/).*|sp(?:/$|/index\.html.*|/honten.*|/toyoko.*|/sapporo.*|/shinqs.*|/kichijouji.*))" />
   </request-list>
 
   <!-- 翻訳対象外URLの一覧 -->
