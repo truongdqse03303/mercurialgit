@@ -22,12 +22,38 @@
 // @RULESET
 // URL ^= http://www.lumine.ne.jp/dutyfree/
 @postprocess {
-  replace:'visit the Jap</a>an Tourism Agency web site.' 'visit the Japan Tourism Agency web site.</a>';
+  replace:'For more <a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">information, visit the' 'For more information, visit the <a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">';
+  replace:'Jap</a>an Tourism Agency web site.' 'Japan Tourism Agency web site.</a>';  
 }
-
 
 // @RULESET
 // URL #= http://www\.lumine\.ne\.jp/(shinjuku/|ikebukuro/|est/|yurakucho/|yokohama/)dutyfree/
 @postprocess {
-  replace:'visit the Jap</a>an Tourism Agency web site.' 'visit the Japan Tourism Agency web site.</a>';
+  replace:'For more <a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">information, visit the' 'For more information, visit the <a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">';
+  replace:'Jap</a>an Tourism Agency web site.' 'Japan Tourism Agency web site.</a>'; 
+}
+
+@postprocess {
+  replace:'Right next to the south exit of JR Shinj<strong>uku Station!</strong>' '<strong>Right next</strong> to the south exit of JR Shinjuku Station!';
+  replace:'<strong>Shops are open until </strong>22:00 pm!</li>' 'Shops are <strong>open until 22:00 pm!</strong></li>';
+}
+
+@postprocess {
+  replace:'Located right at JR Ikebuku<strong>ro Station!</strong>' '<strong>Located right </strong>at JR Ikebukuro Station!';
+  replace:'<strong>Shops are open until 9</strong>:30 pm!' 'Shops are <strong>open until 9:30 pm!</strong>';
+}
+
+@postprocess {
+  replace:'Located right at JR Shinju<strong>ku Station!</strong>' '<strong>Located right</strong> at JR Shinjuku Station!';
+  replace:'<strong>Shops are open until </strong>10:00 pm!' 'Shops are <strong>open until 10:00 pm!</strong>';
+}
+
+@postprocess {
+  replace:'One-minute walk from the JR Yurak<strong>ucho Station!</strong>' '<strong>One-minute</strong> walk from the JR Yurakucho Station!';
+  replace:'<strong>Shops are open until 9:30 pm on weekdays and 9:00 o</strong>n weekends!' 'Shops are <strong>open until 9:30 pm on weekdays and 9:00 on weekends!</strong>';
+}
+
+@postprocess {
+  replace:'Located right at JR Yokoha<strong>ma Station!</strong>' '<strong>Located right</strong> at JR Yokohama Station!';
+  replace:'<strong>Shops are open until</strong> 9:00 pm!' 'Shops are <strong>open until 9:00 pm!</strong>';
 }
