@@ -18,3 +18,16 @@
 @postprocess {
   replace:'<title cltx>Station building portal site &quot;station Para&quot;</title>' '<title cltx>Station building portal site &quot;ekipara&quot;</title>';
 }
+
+// @RULESET
+// URL ^= http://www.lumine.ne.jp/dutyfree/
+@postprocess {
+  replace:'visit the Jap</a>an Tourism Agency web site.' 'visit the Japan Tourism Agency web site.</a>';
+}
+
+
+// @RULESET
+// URL #= http://www\.lumine\.ne\.jp/(shinjuku/|ikebukuro/|est/|yurakucho/|yokohama/)dutyfree/
+@postprocess {
+  replace:'visit the Jap</a>an Tourism Agency web site.' 'visit the Japan Tourism Agency web site.</a>';
+}
