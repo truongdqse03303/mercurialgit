@@ -1,0 +1,11 @@
+// @RULESET
+// URL #= http://www\.marinfood\.co\.jp\.e\.zc\.hp\.transer\.com/flexslider/css/flexslider\.css
+@postprocess {
+replace: "www.marinfood.co.jp/flex" "www.marinfood.co.jp.e.zc.hp.transer.com/flex";
+}
+
+// @RULESET
+// URL #= http://www\.marinfood\.co\.jp/flexslider/css/flexslider\.css
+@postprocess {
+replace: "www.marinfood.co.jp/flex" "www.marinfood.co.jp.e.zc.hp.transer.com/flex";
+}

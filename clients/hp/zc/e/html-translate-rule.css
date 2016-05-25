@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOURMET BEAUTY SYSTEM MARKET";
 }
+
+
+@postprocess {
+ replace:'"sameDomain"' '"always"';
+}

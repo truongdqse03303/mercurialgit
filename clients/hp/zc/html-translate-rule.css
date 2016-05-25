@@ -14,10 +14,6 @@ ol.flex-control-paging {
  attribute: cltx add 'exclude';
 }
 
-.flex-control-nav {
- attribute: cltx add 'exclude';
-}
-
 .fla_area2 {
  attribute: clftx add 'exclude';
 }
