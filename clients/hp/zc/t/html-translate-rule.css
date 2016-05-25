@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER BEAUTY";
 }
+
+@postprocess {
+ replace:'"sameDomain"' '"always"';
+}
