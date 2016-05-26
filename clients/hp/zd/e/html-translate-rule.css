@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOURMET FASHION TOURISM";
 }
+
+@postprocess {
+  replace: '<a href="/common/images/whity_escape_plan2013.pdf" target="_blank">About prevention of securing of Umeda underground refuge inundation</a>' '<a style="margin-right: -309px; white-space: nowrap;" href="/common/images/whity_escape_plan2013.pdf" target="_blank">About prevention of securing of Umeda underground refuge inundation</a>';
+}
