@@ -1,3 +1,7 @@
 #sidebar_lifeline_selector {
  attribute: style add 'width:203px;';
 }
+
+@postprocess {
+ replace: '<div style="display:none;" id="kisho_info_onoff"><!--cltx-->' '<div style="display:none;" id="kisho_info_onoff">';
+}
