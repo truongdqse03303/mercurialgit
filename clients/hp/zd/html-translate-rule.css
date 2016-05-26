@@ -1,15 +1,3 @@
-// @RULESET
-// URL #= http://(whity\.osaka-chikagai\.jp|walk\.osaka-chikagai\.jp|nannan\.osaka-chikagai\.jp|avetika\.osaka-chikagai\.jp|coms\.osaka-chikagai\.jp)/^(?!.*sp).+$
-#lang {
-  attribute: style add "margin-top: 18px;";
-}
-
-// @RULESET
-// URL #= http://(whity\.osaka-chikagai\.jp|walk\.osaka-chikagai\.jp|nannan\.osaka-chikagai\.jp|avetika\.osaka-chikagai\.jp|coms\.osaka-chikagai\.jp)/sp/.*
-#lang {
-  attribute: style add "margin-top: 44px;";
-}
-
 #slider1 {
   attribute: cltx add 'exclude';
 }
@@ -22,12 +10,24 @@
   attribute: cltx add 'exclude';
 }
 
-#fnav {
- attribute: style add "letter-spacing: -1px; font-size: 11px;";
-}
-
 // @RULESET
 // URL ^= http://www.osaka-chikagai.jp/
 #lang {
   attribute: style add "margin-top: 0px;";
+}
+
+// @RULESET
+// URL #= http://(whity\.osaka-chikagai\.jp|walk\.osaka-chikagai\.jp|nannan\.osaka-chikagai\.jp|avetika\.osaka-chikagai\.jp|coms\.osaka-chikagai\.jp)/^(?!.*sp).+$
+#lang {
+  attribute: style add "margin-top: 18px;";
+}
+
+// @RULESET
+// URL #= http://(whity\.osaka-chikagai\.jp|walk\.osaka-chikagai\.jp|nannan\.osaka-chikagai\.jp|avetika\.osaka-chikagai\.jp|coms\.osaka-chikagai\.jp)/sp/.*
+#lang {
+  attribute: style add "margin-top: 44px;";
+}
+
+#fnav {
+ attribute: style add "letter-spacing: -1px; font-size: 11px;";
 }
