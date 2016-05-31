@@ -25,9 +25,9 @@
   replace:'距JR有樂町站1<strong>分鐘！</strong>' '距JR有樂町站<strong>1分鐘！</strong>';
   replace:'平日營業至21點30分(.*?)周六(.*?)周日(.*?)節假日營業至21點（商品</strong>銷售店鋪）(.*)' '平日營業至21點30分$1周六$2周日$3節假日營業至21點（商品銷售店鋪）$4</strong>';  
   replace:'距JR池袋站0<strong>分鐘！' '距JR池袋站<strong>0分鐘！';
-  replace:'營業至晚上21點30分\\（商品銷</strong>售店鋪\\）' '營業至晚上21點30分（商品銷售店鋪）</strong>';
+  replace:'<strong>營業至晚上21點30分\\（商品銷</strong>售店鋪\\）' '營業至<strong>晚上21點30分（商品銷售店鋪）</strong>';
   replace:'距JR橫濱站0<strong>分鐘！</strong>' '距JR橫濱站<strong>0分鐘！</strong>';    
-  replace:'營業至晚上21點\\（商品銷</strong>售店鋪\\）' '營業至晚上21點（商品銷售店鋪）</strong>';  
+  replace:'<strong>營業至晚上21點\\（商品銷</strong>售店鋪\\）' '營業至<strong>晚上21點（商品銷售店鋪）</strong>';  
 }
 
 // @RULESET

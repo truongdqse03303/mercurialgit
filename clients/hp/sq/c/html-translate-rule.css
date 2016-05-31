@@ -29,9 +29,9 @@ body {
   replace:'1<strong>分钟' '<strong>1分钟';
   replace:'</strong>销售店铺\\）！' '销售店铺）！</strong>';
   replace:'距JR池袋站0<strong>分钟！</strong>' '距JR池袋站<strong>0分钟！</strong>';
-  replace:'<strong>营业至晚上21点30分\\（商品销</strong>售店铺\\）' '<strong>营业至晚上21点30分（商品销售店铺）</strong>';  
+  replace:'<strong>营业至晚上21点30分\\（商品销</strong>售店铺\\）' '营业至<strong>晚上21点30分（商品销售店铺）</strong>';  
   replace:'距JR横滨站0<strong>分钟！</strong>' '距JR横滨站<strong>0分钟！</strong>';
-  replace:'<strong>营业至晚上21点\\（商品销</strong>售店铺\\）' '<strong>营业至晚上21点（商品销售店铺）</strong>';
+  replace:'<strong>营业至晚上21点\\（商品销</strong>售店铺\\）' '营业至<strong>晚上21点（商品销售店铺）</strong>';
 }
 
 // @RULESET
