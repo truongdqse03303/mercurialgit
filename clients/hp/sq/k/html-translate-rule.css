@@ -14,3 +14,23 @@
 @preprocess {
   replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
 }
+
+// @RULESET
+// URL #= http://www.lumine.ne.jp/(.*)/dutyfree/
+@postprocess {
+  replace:'<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">내용은 관광청 홈페이지에</a>서 확인하시기 바랍니다.' '내용은<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine"> 관광청 홈페이지에</a>서 확인하시기 바랍니다.';
+  replace:'<strong>서 바로!</strong>' '서 <strong>바로!</strong>';
+  replace:'0<strong>분 거리!</strong>' '<strong>0분 거리!</strong>';
+  replace:'<strong>밤 10시\\(판매 숍\\)까</strong>' '<strong>밤 10시(판매 숍)</strong>까';
+  replace:'역에서 1<strong>분 거리!' '역에서 <strong>1분 거리!'; 
+  replace:'<strong>평일 21시 30분·토 일 공휴일 21시\\(판매 숍\\)</strong>까지 영업!</li>' '<strong>평일 21시 30분·토 일 공휴일 21시(판매 숍)까지 </strong>영업!</li>';
+  replace:'역에서 1<strong>분 거리!' '역에서 <strong>1분 거리!';
+  replace:'<strong>밤 21시 30분\\(판매 숍\\)까</strong>' '<strong>밤 21시 30분(판매 숍)</strong>까';
+  replace:'<strong>밤 21시\\(판매 숍\\)까</strong>' '<strong>밤 21시(판매 숍)</strong>까';
+}
+
+// @RULESET
+// URL #= http://www.lumine.ne.jp/dutyfree/
+@postprocess {
+  replace:'<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">내용은 관광청 홈페이지에</a>서 확인하시기 바랍니다.' '내용은<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine"> 관광청 홈페이지에</a>서 확인하시기 바랍니다.';
+}

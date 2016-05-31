@@ -18,3 +18,24 @@ body {
 @preprocess {
   replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
 }
+
+// @RULESET
+// URL #= http://www.lumine.ne.jp/(.*)/dutyfree/
+@postprocess {
+  replace:'※有关详<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">细信息，请访问观</a>光厅主页进行确认' '※有关详细信息，请访问<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">观光厅主页</a>进行确认';
+  replace:'营业到<strong>晚上22点\\(商品销售店铺</strong>\\)' '营业到<strong>晚上22点(商品销售店铺)</strong>';
+  replace:'距JR新宿站0<strong>分钟！</strong>' '距JR新宿站<strong>0分钟！</strong>';
+  replace:'<strong>营业至晚上10点\\（商品销</strong>售店铺\\）' '营业至<strong>晚上10点（商品销售店铺）</strong>';  
+  replace:'1<strong>分钟' '<strong>1分钟';
+  replace:'</strong>销售店铺\\）！' '销售店铺）！</strong>';
+  replace:'距JR池袋站0<strong>分钟！</strong>' '距JR池袋站<strong>0分钟！</strong>';
+  replace:'<strong>营业至晚上21点30分\\（商品销</strong>售店铺\\）' '<strong>营业至晚上21点30分（商品销售店铺）</strong>';  
+  replace:'距JR横滨站0<strong>分钟！</strong>' '距JR横滨站<strong>0分钟！</strong>';
+  replace:'<strong>营业至晚上21点\\（商品销</strong>售店铺\\）' '<strong>营业至晚上21点（商品销售店铺）</strong>';
+}
+
+// @RULESET
+// URL #= http://www\.lumine\.ne\.jp/dutyfree/
+@postprocess {
+  replace:'※有关详<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">细信息，请访问观</a>光厅主页进行确认' '※有关详细信息，请访问<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">观光厅主页</a>进行确认';
+}
