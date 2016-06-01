@@ -10,3 +10,23 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER HOBBY TOURISM SPORTS";
 }
+
+div.shop_list >ul > li > a {
+ attribute: style add 'font-size: 10px;';
+}
+
+form.wpcf7-form > p > input {
+ attribute: style add 'font-size: 12px;';
+}
+
+.gp-nishijin {
+ attribute: style add 'font-size: 10px;';
+}
+
+ul.facility_list > li > a {
+ attribute: style add 'font-size: 12px;';
+}
+
+@postprocess {
+ replace:'<a href="http://www.anytimefitness.co.jp/kyushu/" target="_blank">' '<a style="font-size: 10px;" href="http://www.anytimefitness.co.jp/kyushu/" target="_blank">';
+}
