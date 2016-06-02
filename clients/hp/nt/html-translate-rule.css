@@ -1,3 +1,19 @@
 div[class="MdPickUp01"], div[class="MdPcSnSWidgets01"] {
   attribute: cltx add 'exclude';
 }
+
+div.l-hero {
+   attribute: style add 'margin-top: 41px;';
+}
+
+ul.l-utility__list {
+   attribute: style add 'margin-top: 32px;';
+}
+
+h1.l-header__logo {
+   attribute: style add 'margin-top: 32px;';
+}
+
+div#l-utility {
+   attribute: style add 'height: 73px;';
+}
