@@ -16,9 +16,9 @@
   <!-- 免責事項をフッターに表示 -->
   <extension-param>
     <param-name>show.translate.header</param-name>
-    <param-value>footer</param-value>
+    <param-value>footer#l-footer</param-value>
   </extension-param>
-  
+    
       <!-- Basic認証 -->
   <resource-handler>
     <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
