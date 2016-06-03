@@ -19,7 +19,7 @@
   <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}#site-translate-header-wrapper p{font-size:10px;}</param-value>
   </extension-param>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
