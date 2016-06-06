@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM LAW";
+}
+@engine wakayama/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER LAW";
+}
+@engine wakayama/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER LAW";
+}

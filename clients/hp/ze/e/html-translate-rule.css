@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT TOURISM SYSTEM LAW INTERNET";
+}
+@engine wakayama/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT TOURISM SYSTEM LAW";
+}
+@engine wakayama/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM SYSTEM LAW";
+}
+
+.type023sitemap {
+ attribute: style add 'font-size: 10px;';
+}
