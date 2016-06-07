@@ -9,3 +9,7 @@
 div#facilities-box1 {
  attribute: style add "padding-left: 10px;";
 }
+
+@postprocess {
+ replace:'href="https://asp.hotel-story.ne.jp/ver3d/.*?"' 'href="http://www.bise.jp/inbound-reservation.html"';
+}
