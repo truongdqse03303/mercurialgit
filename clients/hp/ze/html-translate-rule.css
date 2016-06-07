@@ -8,3 +8,7 @@ body {
 span{
  text-flow: break;
 }
+
+// @RULESET
+// URL #= http://www\.town\.yuasa\.wakayama\.jp/suidou/.*
+@data html { encoding: force "UTF-8"; }
