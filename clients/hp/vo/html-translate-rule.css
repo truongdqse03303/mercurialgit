@@ -5,3 +5,7 @@
 #sub-col {
  attribute: cltx add 'exclude';
 }
+
+@postprocess {
+ replace:'href="https://asp.hotel-story.ne.jp/ver3d/.*?"' 'href="http://www.yugaf.com/inbound-reservation.html"';
+}
