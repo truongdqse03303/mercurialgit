@@ -1,3 +1,7 @@
+// @RULESET
+// URL #= http://www\.town\.yuasa\.wakayama\.jp/suidou/smarts/.*
+@data html { encoding: force "UTF-8"; }
+
 body {
  attribute: style add 'background-position: center 27px;';
 }
@@ -8,3 +12,4 @@ body {
 span{
  text-flow: break;
 }
+
