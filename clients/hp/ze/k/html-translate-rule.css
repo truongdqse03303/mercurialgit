@@ -10,3 +10,33 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER LAW";
 }
+
+div.contents_title {
+ attribute: clftx add 'exclude';
+}
+
+div.record_title {
+ attribute: clftx add 'exclude';
+}
+
+div.menu_title {
+ attribute: clftx add 'exclude';
+}
+
+div.HeaderMenuBlock {
+ attribute: cltx add 'exclude';
+}
+
+div.SideMenuBlock {
+ attribute: cltx add 'exclude';
+}
+
+body {
+ attribute: style add 'background-position: center 27px;';
+}
+
+// @RULESET
+// URL #= http://www\.town\.yuasa\.wakayama\.jp/publics/index/65/.*
+span{
+ text-flow: break;
+}

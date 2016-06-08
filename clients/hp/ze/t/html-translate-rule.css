@@ -10,3 +10,14 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+body {
+ attribute: style add 'background-position: center 27px;';
+}
+
+
+// @RULESET
+// URL #= http://www\.town\.yuasa\.wakayama\.jp/publics/index/65/.*
+span{
+ text-flow: break;
+}
