@@ -10,3 +10,76 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+
+// @RULESET
+// URL ^= http://license-tour.jp/
+@postprocess {
+ replace:'<dt>希望の合宿先</dt>' '<dt>희망의 합숙처</dt>';
+ replace:'<option value="1">北海道</option>''<option value="1">홋카이도</option>';
+ replace:'<option value="2">青森</option>' '<option value="2">아오모리</option>';
+ replace:'<option value="3">岩手</option>' '<option value="3">이와테</option>';
+ replace:'<option value="4">秋田</option>' '<option value="4">아키타</option>';
+ replace:'<option value="5">宮城</option>' '<option value="5">미야기</option>';
+ replace:'<option value="6">山形</option>' '<option value="6">야마가타</option>';
+ replace:'<option value="7">福島</option>' '<option value="7">후쿠시마</option>';
+ replace:'<option value="8">茨城</option>' '<option value="8">이바라키</option>';
+ replace:'<option value="9">栃木</option>' '<option value="9">토치기</option>';
+ replace:'<option value="10">群馬</option>' '<option value="10">군마</option>';
+ replace:'<option value="11">埼玉</option>' '<option value="11">사이타마</option>';
+ replace:'<option value="12">千葉</option>' '<option value="12">지바</option>';
+ replace:'<option value="13">東京</option>' '<option value="13">도쿄</option>';
+ replace:'<option value="14">神奈川</option>' '<option value="14">가나가와</option>';
+ replace:'<option value="15">山梨</option>' '<option value="15">야마나시</option>';
+ replace:'<option value="16">長野</option>' '<option value="16">나가노</option>';
+ replace:'<option value="17">新潟</option>' '<option value="17">니가타</option>';
+ replace:'<option value="18">富山</option>' '<option value="18">도야마</option>';
+ replace:'<option value="19">石川</option>' '<option value="19">이시카와</option>';
+ replace:'<option value="20">福井</option>' '<option value="20">후쿠이</option>';
+ replace:'<option value="21">岐阜</option>' '<option value="21">기후</option>';
+ replace:'<option value="22">静岡</option>' '<option value="22">시즈오카</option>';
+ replace:'<option value="23">愛知</option>' '<option value="23">아이치</option>';
+ replace:'<option value="24">三重</option>' '<option value="24">삼중</option>';
+ replace:'<option value="25">滋賀</option>' '<option value="25">시가</option>';
+ replace:'<option value="26">京都</option>' '<option value="26">교토</option>';
+ replace:'<option value="27">大阪</option>' '<option value="27">오사카</option>';
+ replace:'<option value="28">兵庫</option>' '<option value="28">효고</option>';
+ replace:'<option value="29">奈良</option>' '<option value="29">나라</option>';
+ replace:'<option value="30">和歌山</option>' '<option value="30">와카야마</option>';
+ replace:'<option value="31">鳥取</option>' '<option value="31">돗토리</option>';
+ replace:'<option value="32">島根</option>' '<option value="32">시마네</option>';
+ replace:'<option value="33">岡山</option>' '<option value="33">오카야마</option>';
+ replace:'<option value="34">広島</option>' '<option value="34">히로시마</option>';
+ replace:'<option value="35">山口</option>' '<option value="35">야마구치</option>';
+ replace:'<option value="36">徳島</option>' '<option value="36">도쿠시마</option>';
+ replace:'<option value="37">香川</option>' '<option value="37">가가와</option>';
+ replace:'<option value="38">愛媛</option>' '<option value="38">에히메</option>';
+ replace:'<option value="39">高知</option>' '<option value="39">고치</option>';
+ replace:'<option value="40">福岡</option>' '<option value="40">후쿠오카</option>';
+ replace:'<option value="41">佐賀</option>' '<option value="41">사가</option>';
+ replace:'<option value="42">長崎</option>' '<option value="42">나가사키</option>';
+ replace:'<option value="43">熊本</option>' '<option value="43">구마모토</option>';
+ replace:'<option value="44">大分</option>' '<option value="44">오이타</option>';
+ replace:'<option value="45">宮崎</option>' '<option value="45">미야자키</option>';
+ replace:'<option value="46">鹿児島</option>' '<option value="46">가고시마</option>';
+ replace:'<option value="47">沖縄</option>' '<option value="47">오키나와</option>';
+ replace:'<dt>取得する免許</dt>' '<dt>취득하는 면허</dt>';
+ replace:'<option value="">選択してください</option>' '<option value="">선택해</option>';
+ replace:'<option value="1">普通車MT</option>' '<option value="1">보통차MT</option>';
+ replace:'<option value="2">普通車AT</option>' '<option value="2">보통차AT</option>';
+ replace:'<option value="5">普通二輪MT</option>' '<option value="5">보통 이륜 MT</option>';
+ replace:'<option value="6">普通二輪AT</option>' '<option value="6">보통 이륜 AT</option>';
+ replace:'<option value="7">大型二輪MT</option>' '<option value="7">대형 이륜 MT</option>';
+ replace:'<option value="8">大型二輪AT</option>' '<option value="8">대형 이륜 AT</option>';
+ replace:'<option value="9">大型特殊</option>' '<option value="9">대형 특수</option>';
+ replace:'<option value="10">けん引</option>' '<option value="10">견인</option>';
+ replace:'<option value="11">中型車</option>' '<option value="11">중형차</option>';
+ replace:'<option value="12">大型車</option>' '<option value="12">대형차</option>';
+ replace:'<option value="13">普通二種</option>' '<option value="13">보통 2종</option>';
+ replace:'<option value="15">中型二種</option>' '<option value="15">중형 2종</option>';
+ replace:'<option value="16">大型二種</option>' '<option value="16">대형 2종</option>';
+ replace:'<span class="bl">お住まいのエリアを選択：</span>' '<span class="bl">살고 있는 에리어를 선택：</span>';
+ replace:'<option value="">選択してください</option>' '<option value="">선택해</option>';
+ replace:'<option value="13" selected="selected">東京</option>' '<option value="13" selected="selected">도쿄</option>';
+ replace:'<input type="submit" value="検索する" />' '<input type="submit" value="검색한다" />';
+}
