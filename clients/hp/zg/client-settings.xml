@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>佐賀県庁</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>saga/service 31e5281b10d8cc8bbd810b37f1a9b6211bac6297</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.pref.saga.lg.jp" />
+    <request hostname="wwwkensho.pref.saga.lg.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
