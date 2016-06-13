@@ -17,7 +17,7 @@
 
   <!-- 携帯翻訳用URL -->
   <url-list type="mobile">
-    <url>http://ww2\.tobuhotel\.co\.jp/utsunomiya/mobile/.*</url>
+    <url>http://www\.tobuhotel\.co\.jp/utsunomiya/mobile/.*</url>
   </url-list>
   
   <!-- 携帯用URLのチェック -->
