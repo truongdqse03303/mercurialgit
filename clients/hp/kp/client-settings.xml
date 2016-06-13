@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="ww2.tobuhotel.co.jp" path="/utsunomiya/" />
+    <request hostname="www.tobuhotel.co.jp" path="/utsunomiya/" />    
   </request-list>
   
   <!-- 使用する設定IDの一覧 -->
