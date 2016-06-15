@@ -11,6 +11,12 @@
     <request hostname="www.lib.moriya.ibaraki.jp" />
   </request-list>
 
+      <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://www\.lib\.moriya\.ibaraki\.jp/child/index\.html</url>
+    <url>http://www\.lib\.moriya\.ibaraki\.jp/user/(mailaddress\.html|password\.html)</url>
+  </url-list>
+  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>

@@ -10,3 +10,32 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT ART SYSTEM COMPUTER";
 }
+
+ul.tab {
+ attribute: style add 'font-size:10px;';
+}
+
+.flex-pause {
+ attribute: clftx add 'exclude';
+}
+
+ul.link_list {
+ attribute: style add 'margin-right:128px;';
+}
+
+p.txt_change {
+ attribute: style add 'margin-right:75px;';
+}
+
+// @RULESET
+// URL = http://www.lib.moriya.ibaraki.jp/
+@postprocess {
+replace:'<td class="sunday"><!--cltx-->Sunday</td>' '<td class="sunday"><!--cltx-->Sun</td>';
+replace:'<td class="weekday"><!--cltx-->Monday</td>' '<td class="weekday"><!--cltx-->Mon</td>';
+replace:'<td class="weekday"><!--cltx-->Tuesday</td>' '<td class="weekday"><!--cltx-->Tue</td>';
+replace:'<td class="weekday"><!--cltx-->Wednesday</td>' '<td class="weekday"><!--cltx-->Wed</td>';
+replace:'<td class="weekday"><!--cltx-->Thursday</td>' '<td class="weekday"><!--cltx-->Thu</td>';
+replace:'<td class="weekday"><!--cltx-->Friday</td>' '<td class="weekday"><!--cltx-->Fri</td>';
+replace:'<td class="saturday"><!--cltx-->Saturday</td>' '<td class="saturday"><!--cltx-->Sat</td>';
+}
+
