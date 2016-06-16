@@ -5,3 +5,7 @@
 body {
  attribute: style add 'overflow-y: hidden;';
 }
+
+div#sub_menu {
+ attribute: clftx add 'exclude';
+ }
