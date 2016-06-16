@@ -12,5 +12,5 @@
 }
 
 @postprocess {
- replace: '<p class="btnClose"><!--cltx-->把×闭起来</p>' '<p class="btnClose"><!--cltx-->× 把闭起来</p>';
+ replace: '<p class="btnClose"><!--cltx-->把×闭起来</p>' '<p class="btnClose"><!--cltx-->× 关闭</p>';
 }
