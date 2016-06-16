@@ -1,7 +1,7 @@
 // @RULESET
 // URL = http://www.city.funabashi.lg.jp/share/scripts/maintop.js
 @postprocess {
-replace: "'× とじる'" "'把×閉起來'";
+replace: "'× とじる'" "'× 把閉起來'";
 replace: "'戻る'" "'回來'";
 replace: "'次へ'" "'其次'";
 }
@@ -9,7 +9,7 @@ replace: "'次へ'" "'其次'";
 // @RULESET
 // URL = http://www.city.funabashi.lg.jp.t.ce.hp.transer.com/share/scripts/maintop.js
 @postprocess {
-replace: "'× とじる'" "'把×閉起來'";
+replace: "'× とじる'" "'× 把閉起來'";
 replace: "'戻る'" "'回來'";
 replace: "'次へ'" "'其次'";
 }

@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
+
+@postprocess {
+ replace: '<p class="btnClose"><!--cltx-->把×閉起來</p>' '<p class="btnClose"><!--cltx-->× 把閉起來</p>';
+}
