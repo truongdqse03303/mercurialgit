@@ -1,0 +1,15 @@
+// @RULESET
+// URL = http://www.city.funabashi.lg.jp/share/scripts/maintop.js
+@postprocess {
+replace: "'× とじる'" "'× Close'";
+replace: "'戻る'" "'Back'";
+replace: "'次へ'" "'Next'";
+}
+
+// @RULESET
+// URL = http://www.city.funabashi.lg.jp.e.ce.hp.transer.com/share/scripts/maintop.js
+@postprocess {
+replace: "'× とじる'" "'× Close'";
+replace: "'戻る'" "'Back'";
+replace: "'次へ'" "'Next'";
+}

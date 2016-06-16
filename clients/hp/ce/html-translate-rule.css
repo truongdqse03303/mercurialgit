@@ -1,3 +1,15 @@
+div.introjs-tooltipReferenceLayer {
+attribute: cltx add 'exclude';
+}
+
+div.introjs-tooltipbuttons {
+attribute: cltx add 'exclude';
+}
+
+.bx-controls-direction {
+  attribute: cltx add 'exclude';
+}
+
 // @RULESET
 // URL #= http://www\.city\.funabashi\.chiba\.jp(?:$|/$|/index\.html)?
 div[id#="(?:information|attention-content|info-tab-content1|pickup-list)"] li, div[class~="menu"] li {
@@ -31,3 +43,4 @@ script[type="text/javascript"][src^="http://maps.google.co.jp/maps"] {
 #gmaparea {
   attribute: cltx add 'exclude';
 }
+
