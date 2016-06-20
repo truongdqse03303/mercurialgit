@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>錦糸町ステーションビル（テルミナ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>termina/service 0b877a225d02f6880ed4d955b991374987cd9b42</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.termina.info" />
+  </request-list>
+  
+    <!-- HTML断片翻訳対象外のURL -->
+  <url-list type="ignore">
+    <url>http://www\.termina\.info/about/company\.php</url>
+    <url>http://www\.termina\.info/sp/about/company\.php</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
