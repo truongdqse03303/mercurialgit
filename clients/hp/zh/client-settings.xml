@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>綜合企画株式会社（山賀探訪なび）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>yamaga-tanbou/service 0e4bf9fd94749a397e2a0d03471bfed287d27bf1</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="yamaga-tanbou.jp" />
+    <request hostname="yamaga-kankoh.shin-test.net" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
