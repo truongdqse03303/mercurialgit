@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM ART IT SYSTEM COMPUTER INTERNET";
+}
+@engine ac/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER ART IT SYSTEM COMPUTER";
+}
+@engine ac/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER ART IT SYSTEM COMPUTER";
+}
