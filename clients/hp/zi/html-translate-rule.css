@@ -17,3 +17,7 @@ ul.cf {
 .flex-direction-nav > li {
  attribute: cltx add 'exclude';
 }
+
+.fb-like {
+  attribute: clftx add 'exclude';
+}
