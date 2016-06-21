@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.termina.info/sp/css/module.css
+@postprocess {
+ replace:'top:142px;' 'top:auto;';
+}
