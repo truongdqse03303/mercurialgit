@@ -21,3 +21,9 @@ ul.cf {
 .fb-like {
   attribute: clftx add 'exclude';
 }
+
+// @RULESET
+// URL #= http://www\.termina\.info/.*
+div#h-nav > h1 {
+ attribute: style add 'white-space: nowrap !important;';
+}
