@@ -10,3 +10,10 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
+
+// @RULESET
+// URL #= http://www\.termina\.info/access/.*
+@postprocess {
+  replace:'<span class="bold mid">([0-9])([0-9]) (.*?)</span>tes</td>' '<span class="bold mid">$1$2 </span>$3tes</td>';
+  replace:'<span class="bold mid">Nine m</span>inutes' '<span class="bold mid">9 </span>minutes';  
+}

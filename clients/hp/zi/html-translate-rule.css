@@ -1,0 +1,19 @@
+.sns_twitter {
+ attribute: clftx add 'exclude';
+}
+
+ul.ul-index-floor > li {
+ attribute: clftx add 'exclude';
+}
+
+ul.cf {
+ attribute: style add 'font-size:11px;';
+}
+
+.flex-control-nav > li {
+ attribute: cltx add 'exclude';
+}
+
+.flex-direction-nav > li {
+ attribute: cltx add 'exclude';
+}
