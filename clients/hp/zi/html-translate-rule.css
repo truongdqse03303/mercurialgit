@@ -27,3 +27,7 @@ ul.cf {
 div#h-nav > h1 {
  attribute: style add 'white-space: nowrap !important;';
 }
+
+body {
+  attribute: style add 'background-position:0px 24px !important;';
+}
