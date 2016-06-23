@@ -3,17 +3,3 @@
 @postprocess {
  replace:'top:142px;' 'top:auto;';
 }
-
-// @RULESET
-// URL = http://www.termina.info/css/style.css
-@postprocess {
- replace:'height:370px;' 'height: 346px;';
-}
-
-// @RULESET
-// URL = http://www.termina.info/css/module.css
-@postprocess {
- replace:'background-header.jpg\\) no-repeat center top' 'background-header.jpg) no-repeat center 25px';
- replace:'no-repeat center 30px' 'no-repeat center null'; 
-}
-
