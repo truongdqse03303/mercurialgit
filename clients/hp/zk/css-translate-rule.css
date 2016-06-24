@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= http://www\.nagaoka-id\.ac\.jp/css/smartphone_default\.css
+@postprocess {
+ replace:'top: 43px;' 'top: -6px;';
+}

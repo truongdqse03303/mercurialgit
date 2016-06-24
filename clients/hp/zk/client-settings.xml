@@ -28,6 +28,12 @@
       <param-value>http://test\.nagaoka-id\.ac\.jp/.*</param-value>
     </param>
   </resource-handler>
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;border-style: none;}</param-value>
+  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

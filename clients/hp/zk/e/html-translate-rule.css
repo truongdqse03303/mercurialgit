@@ -10,3 +10,13 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER ART IT SYSTEM COMPUTER";
 }
+
+ul.headerMenu {
+ attribute: style add 'letter-spacing: -1px; font-size: 13px;';
+}
+
+// @RULESET
+// URL #= http://www\.nagaoka-id\.ac\.jp/(examination|career)/.*
+.titleBox {
+ attribute: style add 'margin-top: -121px;';
+}

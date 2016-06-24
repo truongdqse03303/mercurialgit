@@ -1,0 +1,15 @@
+div#headerWrapper {
+ attribute: style add 'margin-top: 31px;';
+}
+
+div#wrapper{
+ attribute: style add 'background-color: #ffffff;';
+}
+
+#topMainImgPagenation {
+ attribute: cltx add 'exclude';
+}
+
+@postprocess {
+ replace: '</head>' '</head><div id="site-translate-header-wrapper">';
+}
