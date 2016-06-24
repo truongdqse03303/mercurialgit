@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER ART IT SYSTEM COMPUTER";
 }
 
+@preprocess {
+replace: "'UA-49436929-1'" "'UA-49436929-2'";
+}
+
 ul.headerMenu {
  attribute: style add 'letter-spacing: -1px; font-size: 13px;';
 }
@@ -19,4 +23,10 @@ ul.headerMenu {
 // URL #= http://www\.nagaoka-id\.ac\.jp/(examination|career)/.*
 .titleBox {
  attribute: style add 'margin-top: -121px;';
+}
+
+// @RULESET
+// URL = http://www.nagaoka-id.ac.jp/e/access/
+@postprocess {
+ replace:'<script src="http://maps.google.com/maps/api/js?sensor=true&language=jp"></script>' '<script src="http://maps.google.com/maps/api/js?sensor=true&language=en"></script>';
 }
