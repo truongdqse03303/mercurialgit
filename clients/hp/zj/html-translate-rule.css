@@ -1,0 +1,19 @@
+#contents_l {
+attribute: cltx add 'exclude';
+}
+
+#leftimg {
+attribute: cltx add 'exclude';
+}
+
+
+#contents_r {
+attribute: cltx add 'exclude';
+}
+
+
+// @RULESET
+// URL #= http://www\.esca-sc\.com/smart/.*
+#header-sp , #gnav {
+ attribute: 'style' add 'margin-top: 34px;';
+}
