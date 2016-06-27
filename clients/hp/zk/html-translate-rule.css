@@ -9,7 +9,3 @@ div#wrapper{
 #topMainImgPagenation {
  attribute: cltx add 'exclude';
 }
-
-@postprocess {
- replace: '</head>' '</head><div id="site-translate-header-wrapper">';
-}
