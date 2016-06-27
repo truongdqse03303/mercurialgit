@@ -1,8 +1,17 @@
-@postprocess {
-replace:'<div id="headerWrapper">' '<div id="headerWrapper" style="top:34px;">';
-replace:'<body>' '<body style="top:34px;">';
-replace:'<body class="top">' '<body class="top" style="top:34px;">';
-replace:'<div id="topHeader" style="z-index: 102;">' '<div id="topHeader" style="z-index: 102; top:34px;">';
+#headerWrapper {
+attribute: style add 'top:34px;';
+}
+
+body {
+attribute: style add 'top:34px;';
+}
+
+body.top {
+attribute: style add 'top:34px;';
+}
+
+div#topHeader {
+attribute: style set 'z-index: 102;top:34px;';
 }
 
 div#wrapper{
@@ -11,4 +20,10 @@ div#wrapper{
 
 #topMainImgPagenation {
  attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL = http://www.nagaoka-id.ac.jp/career/
+@postprocess {
+ replace:'<h2 style="margin-top: -1em;">' '<h2 style="margin-top: 0em;">';
 }
