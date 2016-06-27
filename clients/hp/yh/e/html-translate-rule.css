@@ -15,8 +15,27 @@ div#header > h1 {
   attribute: style add "letter-spacing:-1px;";
 }
 
-div#hosyo > span {
-  attribute: style add "letter-spacing: -3px; font-size: 16px;";
+
+div#hosyo {
+  attribute: style add "font-size: 11px;";
+}
+
+
+#pack {
+  attribute: style add "font-size: 11px;";
+}
+
+@postprocess {
+replace:'<a href="/language/">' '<a href="/language/" style="font-size:12px;">';
+replace:'<div id="hosyo">' '<div id="hosyo" style="font-size:11px">';
+replace:'<span class="bl fOrange lrg" style="letter-spacing: -3px; font-size: 16px;">' '<span class="bl fOrange lrg" style="letter-spacing: -2px; font-size: 16px;">';
+replace:'<div id="pack">' '<div id="pack" style="font-size:12.5px;">';
+replace:'<p class="tel">' '<p class="tel" style="right:-160px;">';
+replace:'<ul id="contact" class="cf">' '<ul id="contact" class="cf" style="right:-260px;">';
+replace:'<div class="licenseBox">' '<div class="licenseBox" style="font-size:10px">';
+replace:'<li class="ct01">' '<li class="ct01" style="font-size:10px;">';
+replace:'<li class="ct02">' '<li class="ct02" style="font-size:10px;">';
+replace:'<li class="ct03">' '<li class="ct03" style="font-size:10px;">';
 }
 
 // @RULESET
