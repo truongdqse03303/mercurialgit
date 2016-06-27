@@ -11,10 +11,6 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM SYSTEM LAW";
 }
 
-body {
- attribute: style add 'background-position: center 27px;';
-}
-
 .type023sitemap {
  attribute: style add 'font-size: 10px;';
 }

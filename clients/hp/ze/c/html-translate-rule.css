@@ -15,11 +15,6 @@ body {
   attribute: lang add 'zh';
 }
 
-body {
- attribute: style add 'background-position: center 27px;';
-}
-
-
 // @RULESET
 // URL #= http://www\.town\.yuasa\.wakayama\.jp/publics/index/65/.*
 span{

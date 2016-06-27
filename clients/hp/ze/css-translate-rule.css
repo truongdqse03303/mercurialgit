@@ -1,0 +1,7 @@
+// @RULESET
+// URL = http://www.town.yuasa.wakayama.jp/css/public/pc/default.css
+@postprocess {
+replace: 'line-height:150%;' 'line-height:150%; background-position: center 27px;';
+replace: 'line-height:145%;' 'line-height:145%; background-position: center 29px;';
+replace: 'line-height:130%;' 'line-height:130%; background-position: center 32px;';
+}
