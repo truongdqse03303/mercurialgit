@@ -17,3 +17,9 @@ attribute: cltx add 'exclude';
 #header-sp , #gnav {
  attribute: 'style' add 'margin-top: 34px;';
 }
+
+// @RULESET
+// URL #= http://www\.esca-sc\.com/(?!smart/).*
+body {
+ attribute: style add 'margin-top: 30px;';
+}
