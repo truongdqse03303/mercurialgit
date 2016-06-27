@@ -1,5 +1,8 @@
-div#headerWrapper {
- attribute: style add 'margin-top: 31px;';
+@postprocess {
+replace:'<div id="headerWrapper">' '<div id="headerWrapper" style="top:34px;">';
+replace:'<body>' '<body style="top:34px;">';
+replace:'<body class="top">' '<body class="top" style="top:34px;">';
+replace:'<div id="topHeader" style="z-index: 102;">' '<div id="topHeader" style="z-index: 102; top:34px;">';
 }
 
 div#wrapper{
