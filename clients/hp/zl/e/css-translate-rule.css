@@ -9,4 +9,5 @@
 // URL = http://taxitrip.0152.jp/common/css/style.css
 @postprocess {
  replace: 'margin-left: 200px;' 'margin-left: 400px;';
+ replace: 'margin-left: 380px;' 'margin-left: 466px;';
 }
