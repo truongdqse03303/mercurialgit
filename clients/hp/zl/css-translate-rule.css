@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://taxitrip.0152.jp/common/css/style.css
+@postprocess {
+ replace: 'margin-left: 380px;' 'margin-left: 466px;';
+}

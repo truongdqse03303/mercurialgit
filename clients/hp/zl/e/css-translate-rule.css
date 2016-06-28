@@ -1,0 +1,12 @@
+// @RULESET
+// URL = http://taxitrip.0152.jp/common/css/area.css
+@postprocess {
+ replace: 'font-size: 27px;' 'font-size: 23px;';
+ replace: 'font-size: 40px;' 'font-size: 22px;'; 
+}
+
+// @RULESET
+// URL = http://taxitrip.0152.jp/common/css/style.css
+@postprocess {
+ replace: 'margin-left: 200px;' 'margin-left: 400px;';
+}

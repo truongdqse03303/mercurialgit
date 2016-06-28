@@ -10,3 +10,16 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM IT";
 }
+
+
+// @RULESET
+// URL #= http://taxitrip\.0152\.jp/profile\.php
+dl> dt {
+ attribute: style add 'white-space: nowrap !important;';
+}
+
+// @RULESET
+// URL #= http://taxitrip\.0152\.jp/howto\.php 
+.small {
+  attribute: style add 'font-size: 13px;';
+}
