@@ -21,9 +21,3 @@ div#wrapper{
 #topMainImgPagenation {
  attribute: cltx add 'exclude';
 }
-
-// @RULESET
-// URL = http://www.nagaoka-id.ac.jp/career/
-@postprocess {
- replace:'<h2 style="margin-top: -1em;">' '<h2 style="margin-top: 0em;">';
-}

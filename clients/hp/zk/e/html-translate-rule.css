@@ -20,13 +20,19 @@ ul.headerMenu {
 }
 
 // @RULESET
-// URL #= http://www\.nagaoka-id\.ac\.jp/(examination|career)/.*
-.titleBox {
- attribute: style add 'margin-top: -121px;';
+// URL = http://www.nagaoka-id.ac.jp/career/
+@postprocess {
+ replace:'<h2 style="margin-top: -1em;">' '<h2 style="margin-top: -3em;">';
 }
 
 // @RULESET
-// URL = http://www.nagaoka-id.ac.jp/e/access/
-@postprocess {
- replace:'<script src="http://maps.google.com/maps/api/js?sensor=true&language=jp"></script>' '<script src="http://maps.google.com/maps/api/js?sensor=true&language=en"></script>';
+// URL #= http://www\.nagaoka-id\.ac\.jp/(examination|career)/.*
+.titleBox {
+ attribute: style add 'margin-top: auto;';
+}
+
+// @RULESET
+// URL = http://www.nagaoka-id.ac.jp/access/
+@preprocess {
+replace:'<script src="http://maps\.google\.com/maps/api/js\\?sensor=true&amp;language=jp">' '<script src="http://maps.google.com/maps/api/js?sensor=true&amp;language=en">';
 }
