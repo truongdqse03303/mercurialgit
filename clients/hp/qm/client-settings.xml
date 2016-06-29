@@ -9,11 +9,17 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.outlet-rera.com" />
-    <request hostname="outlet-rera.megacom.jp" />
+    <request hostname="outlet-rera.sc-concierge.jp" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
+  
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+   <extension-param>
+     <param-name>mst.logo.show</param-name>
+     <param-value>th,v,id</param-value>
+  </extension-param>
 
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
   <extension-param>
@@ -30,14 +36,14 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic cmVyYXRlc3Q6cmdGZHV0MkpkUnRSN2NiWg==</param-value>
+      <param-value>Basic cmVyYToyMDE2</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://outlet-rera\.megacom\.jp/.*</param-value>
+      <param-value>http://outlet-rera\.sc-concierge\.jp/.*</param-value>
     </param>
   </resource-handler>
-
+  
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
