@@ -10,3 +10,39 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL ^= http://avetika.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18589165-1' 'UA-18589165-5';
+}
+
+// @RULESET
+// URL ^= http://coms.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18589073-1' 'UA-18589073-5';
+}
+
+// @RULESET
+// URL ^= http://nannan.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18588786-1' 'UA-18588786-5';
+}
+
+// @RULESET
+// URL ^= http://walk.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18589923-1' 'UA-18589923-5';
+}
+
+// @RULESET
+// URL ^= http://whity.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18589922-1' 'UA-18589922-5';
+}
+
+// @RULESET
+// URL ^= http://www.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18589003-1' 'UA-18589003-5';
+}

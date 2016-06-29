@@ -14,3 +14,39 @@
 body {
   attribute: lang add 'zh';
 }
+
+// @RULESET
+// URL ^= http://avetika.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18589165-1' 'UA-18589165-2';
+}
+
+// @RULESET
+// URL ^= http://coms.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18589073-1' 'UA-18589073-2';
+}
+
+// @RULESET
+// URL ^= http://nannan.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18588786-1' 'UA-18588786-2';
+}
+
+// @RULESET
+// URL ^= http://walk.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18589923-1' 'UA-18589923-2';
+}
+
+// @RULESET
+// URL ^= http://whity.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18589922-1' 'UA-18589922-2';
+}
+
+// @RULESET
+// URL ^= http://www.osaka-chikagai.jp/
+@preprocess {
+replace: 'UA-18589003-1' 'UA-18589003-2';
+}
