@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.tgt-kioicho.jp/js/ga.js
+@preprocess {
+  replace: 'UA-66881906-1' 'UA-66881906-3';
+}
