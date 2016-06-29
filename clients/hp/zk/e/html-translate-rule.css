@@ -20,12 +20,6 @@ ul.headerMenu {
 }
 
 // @RULESET
-// URL = http://www.nagaoka-id.ac.jp/career/
-@postprocess {
- replace:'<h2 style="margin-top: -1em;">' '<h2 style="margin-top: -3em;">';
-}
-
-// @RULESET
 // URL #= http://www\.nagaoka-id\.ac\.jp/(examination|career)/.*
 .titleBox {
  attribute: style add 'margin-top: auto;';
