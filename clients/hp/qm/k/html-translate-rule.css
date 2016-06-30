@@ -17,7 +17,4 @@ a[href] {
 
 @urlmap RewriteLinks {
   "http://www.outlet-rera.com/agent" : "http://www.outlet-rera.com/kor/agent/";
-  "http://outlet-rera.megacom.jp/agent" : "http://outlet-rera.megacom.jp/kor/agent/";
-  "http://outlet-rera.megacom.jp/facilities/" : "http://outlet-rera.megacom.jp/kor/facilities/";
-  "http://outlet-rera.megacom.jp/access/" : "http://outlet-rera.megacom.jp/kor/access/";
 }
