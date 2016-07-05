@@ -17,7 +17,6 @@
    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:30px; position:fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;}</param-value>
 </extension-param>
 
- <!-- サイトで使用される文字セット -->
-  <charset>Shift_JIS</charset>
-  <charset url="http://www\.esca-sc\.com/topics\.html">Shift_JIS</charset>
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
 </client-settings>
