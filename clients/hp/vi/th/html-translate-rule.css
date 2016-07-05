@@ -11,9 +11,23 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+span#kanagawa {
+ attribute: style add 'font-size: 16px;';
+}
+
+div.osusume {
+ attribute: style add 'font-size: 13px;';
+}
+
 // @RULESET
 // URL #= http://www\.biccamera\.com/bc/c/info/order/keep-howto\.jsp
 @postprocess {
  replace: '"ห<a href="/bc/c/info/order/caution.jsp">มายเหตุ" </a>' '"<a href="/bc/c/info/order/caution.jsp">หมายเหตุ </a>"';
  replace: 'วิธีการชำระเงิน โดยการเก็บแตกต่างกันไป</a>' 'วิธีการชำระเงิน</a> โดยการเก็บแตกต่างกันไป';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/service/store/photo/.*
+p.link > a , .price > b {
+ text-flow: break;
 }

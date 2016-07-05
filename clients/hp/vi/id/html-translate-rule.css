@@ -11,9 +11,33 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+p.link {
+ attribute: style add 'margin-top: 32px;';
+}
+
+span#kanagawa {
+ attribute: style add 'font-size: 15px;';
+}
+
+div.osusume {
+ attribute: style add 'font-size: 13px;';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/shoplist/.*
+.select {
+ attribute: style add 'font-size: 17px;';
+}
+
 // @RULESET
 // URL #= http://www\.biccamera\.com/bc/c/info/order/keep-howto\.jsp
 @postprocess {
  replace: 'catatan"</a>' 'catatan</a>"';
  replace: 'Metode pembayaran yang tersedia bervariasi oleh toko.</a>' 'Metode pembayaran</a> yang tersedia bervariasi oleh toko.'; 
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/service/store/photo/.*
+p.link > a , .price > b {
+ text-flow: break;
 }

@@ -11,10 +11,33 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+p.link {
+ attribute: style add 'margin-top: 32px;';
+}
+
+span#kanagawa {
+ attribute: style add 'font-size: 15px;';
+}
+
+div.osusume {
+ attribute: style add 'font-size: 13px;';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/shoplist/.*
+.select {
+ attribute: style add 'font-size: 17px;';
+}
 
 // @RULESET
 // URL #= http://www\.biccamera\.com/bc/c/info/order/keep-howto\.jsp
 @postprocess {
  replace: '<a href="/bc/c/info/order/caution.jsp"> "ghi ch</a>ú"' ' "<a href="/bc/c/info/order/caution.jsp">ghi chú</a>"';
  replace: 'Phương thức thanh toán có sẵn tùy thuộc vào cửa hàng.</a>' 'Phương thức thanh toán</a> có sẵn tùy thuộc vào cửa hàng.';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/service/store/photo/.*
+p.link > a , .price > b {
+ text-flow: break;
 }

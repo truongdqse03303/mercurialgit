@@ -1,0 +1,6 @@
+// @RULESET
+// URL = http://www.biccamera.co.jp/bicsports/css/common.css
+@preprocess {
+ replace:'font-size:125%;' 'font-size:17px;';
+ replace:'font-size: 125%;' 'font-size:116%;'; 
+}
