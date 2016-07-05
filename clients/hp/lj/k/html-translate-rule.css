@@ -11,6 +11,10 @@
   dictionaries: "CROSS_TM_MASTER COMPUTER";
 }
 
+span#kanagawa {
+ attribute: style add 'font-size: 16px;';
+}
+
 // @RULESET
 // URL ^= http://www.biccamera.co.jp/shoplist/s_higashishin_map.html
 // URL ^= http://www.biccamera.co.jp/shoplist/shop-116.html

@@ -11,6 +11,32 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT SYSTEM COMPUTER";
 }
 
+p.link {
+ attribute: style add 'margin-top: 32px;';
+}
+
+@postprocess {
+ replace:'<b>eriod of one hour</b>' 'eriod<b> of one hour</b>';
+ replace:'<b>riod of three hours</b>' 'riod<b> of three hours</b>';
+ replace:'<b> of three hours</b>' 'of <b>three hours</b>';
+ replace:'<b>riod of 45 minutes</b>' 'riod of<b> 45 minutes</b>';
+ replace:'<b> of one hour</b>' ' of <b> one hour</b>'; 
+}
+
+span#kanagawa {
+ attribute: style add 'font-size: 16px;';
+}
+
+div.osusume {
+ attribute: style add 'font-size: 13px;';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/shopguide/service/bicdrug/.*
+div#clbox_slim > h2 > a {
+ attribute: style add 'padding-left: 0px;font-size: 11px;';
+}
+
 // @RULESET
 // URL ^= http://www.biccamera.co.jp/shoplist/s_higashishin_map.html
 // URL ^= http://www.biccamera.co.jp/shoplist/shop-116.html
@@ -23,3 +49,4 @@ a[href='http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tpl/ja/map.php?&MAP=E1
 @postprocess {
  replace: 'no<a href="/bc/c/info/order/caution.jsp">tice at t</a>' '<a href="/bc/c/info/order/caution.jsp">notice</a> at t';
 }
+
