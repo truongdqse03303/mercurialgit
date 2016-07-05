@@ -11,6 +11,8 @@
   dictionaries: "CROSS_TM_MASTER COMPUTER";
 }
 
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/shoplist/.*
 span#kanagawa {
  attribute: style add 'font-size: 16px;';
 }

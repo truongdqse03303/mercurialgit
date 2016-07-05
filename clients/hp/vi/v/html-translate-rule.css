@@ -11,22 +11,27 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+
+// @RULESET
+// URL = http://www.biccamera.co.jp/service/store/photo/index.html
 p.link {
  attribute: style add 'margin-top: 32px;';
 }
 
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/shoplist/.*
 span#kanagawa {
  attribute: style add 'font-size: 15px;';
 }
-
-div.osusume {
- attribute: style add 'font-size: 13px;';
-}
-
-// @RULESET
-// URL #= http://www\.biccamera\.co\.jp/shoplist/.*
 .select {
  attribute: style add 'font-size: 17px;';
+}
+
+
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/bicsports/.*
+div.osusume {
+ attribute: style add 'font-size: 13px;';
 }
 
 // @RULESET

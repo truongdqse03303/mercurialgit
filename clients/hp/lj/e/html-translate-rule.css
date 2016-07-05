@@ -11,6 +11,8 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT SYSTEM COMPUTER";
 }
 
+// @RULESET
+// URL = http://www.biccamera.co.jp/service/store/photo/index.html
 p.link {
  attribute: style add 'margin-top: 32px;';
 }
@@ -23,10 +25,14 @@ p.link {
  replace:'<b> of one hour</b>' ' of <b> one hour</b>'; 
 }
 
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/shoplist/.*
 span#kanagawa {
  attribute: style add 'font-size: 16px;';
 }
 
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/bicsports/.*
 div.osusume {
  attribute: style add 'font-size: 13px;';
 }
