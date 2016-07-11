@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>東日本鉄道文化財団</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ejrcf/service 62e3197a7175a44ceac0f52ad3a7a980fb3a9f71</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.ejrcf.or.jp" />
+  </request-list>
+
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.ejrcf\.or\.jp/(gallery|shinbashi|ome|mansei)/english/</url>
+    <url>http://www\.ejrcf\.or\.jp/(english|chinese)/</url>                
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
