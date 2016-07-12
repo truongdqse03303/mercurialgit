@@ -10,3 +10,15 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM ART SYSTEM MECHA";
 }
+
+// @RULESET
+// URL = http://www.ejrcf.or.jp/sitemap.html
+@preprocess {
+ replace: '<a href="gallery/facility.html">(.*?)' '<a href="gallery/facility.html"><br style="display:none;">$1';
+}
+
+// @RULESET
+// URL = http://www.ejrcf.or.jp/archive/index.html
+.lh180 > a {
+ attribute: style add 'white-space: nowrap;'; 
+}

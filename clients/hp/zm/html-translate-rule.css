@@ -1,0 +1,11 @@
+#globalNav > ul > li {
+   attribute: clftx add 'exclude';
+}
+
+div.sns_top, div.sns {
+   attribute: clftx add 'exclude';
+}
+
+#fb_area {
+   attribute: cltx add 'exclude';
+}
