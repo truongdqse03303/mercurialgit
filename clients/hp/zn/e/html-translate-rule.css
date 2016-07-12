@@ -10,3 +10,21 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
+
+// @RULESET
+// URL = http://www.wako.co.jp/
+div.title > p > a  {
+ attribute: style set 'font-size: 12px;';
+}
+
+// @RULESET
+// URL #= http://www\.wako\.co\.jp/store_information/main/main_building/.*
+@preprocess {
+ replace: '<a href="/store_information/main/main_building/(.*?)\.html#map" class="(.*?)">' '<a href="/store_information/main/main_building/$1.html#map" class="$2"><br style="display:none;">';
+ }
+ 
+// @RULESET
+// URL = http://www.wako.co.jp/faq/
+table {
+ attribute: style set "width:360px;";
+}

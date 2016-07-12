@@ -1,0 +1,28 @@
+div.carousel {
+ attribute: cltx add 'exclude';
+}
+
+div.twBtn {
+ attribute: clftx add 'exclude';
+}
+
+.fb-page {
+ attribute: clftx add 'exclude';
+}
+
+ul.flex-direction-nav > li {
+ attribute: cltx add 'exclude';
+}
+
+ol.flex-control-nav > li {
+ attribute: cltx add 'exclude';
+}
+
+#headerSpContactBtn, #headerSpgNaviBtn {
+ attribute: clftx add 'exclude';
+}
+
+#gNaviWrapSp, #headerContactWrapSp {
+   attribute: style set "margin-top: 52px;";
+}
+
