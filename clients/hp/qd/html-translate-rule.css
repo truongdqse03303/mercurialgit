@@ -1,7 +1,0 @@
-@postprocess {
-  replace: '(<span class="font17">)Fr(</span>)om<span class="font17">.*?May</span>.*?11.*?<span class="font17">to</span>.*?J<span class="font17">uly.*?</span>24' 'From $1 May11 $2 to $1 July24 $2';
-  replace: '(<span class="font17">)Fr(</span>)om <span class="font17">May 3</span>0 to <span class="font17">Se</span>pte<span class="font17">mber </span>30' 'From $1 May30 $2 to $1 September24 $2';
-  replace: '(<span class="font17">)Ju(</span>)ne<span class="font17"> 27</span>, Ju<span class="font17">l</span>y <span class="font17">26, </span>Sep<span class="font17">te</span>mb<span class="font17">er </span>27' '$1June 27$2, $1July 26$2, $1September 27$2';
-  replace: '(<span class="font17">)Ju(</span>)ly<span class="font17"> 19</span>, Ju<span class="font17">l</span>y <span class="font17">25, </span>Aug<span class="font17">us</span>t <span class="font17">2</span>, Au<span class="font17">gu</span>s<span class="font17">t 29</span>, A<span class="font17">ug</span>us<span class="font17">t 3</span>0, O<span class="font17">cto</span>be<span class="font17">r </span>3, <span class="font17">Octo</span>be<span class="font17">r</span> 4' 
-  '$1July 19$2, $1July 25$2, $1August 2$2, $1August 29$2, $1August 30$2, $1October 3$2, $1October 4$2';
-}
