@@ -10,6 +10,25 @@
   eid: MS-JAID;
   dictionaries: "CROSS_TM_MASTER";
 }
+@preprocess {
+replace:'charset=Shift_JIS' 'charset=UTF-8';
+}
+@postprocess {
+ replace: 'src="http://www\.biccamera\.com/bc/images/news/(.*?).jpg"' 'src="../images/news/$1.jpg"';
+}
+@postprocess {
+ replace: 'src="http://sake\.biccamera\.com/bs/images/news/(.*?).jpg"' 'src="../images/news/$1.jpg"';
+}
+@preprocess {
+ replace:'<span class="product_count">(.*?)</span>' '<span class="product_count">$1</span><br style="display:none;">';
+}
+div#CART-BOX.pulldown_area {
+ attribute: style add 'line-height:0.9;';
+}
+span.price {
+ attribute: style set 'font-size: 10px; letter-spacing:-0.1em;';
+}
+
 
 // @RULESET
 // URL = http://www.biccamera.co.jp/service/store/photo/index.html
@@ -25,12 +44,83 @@ span#kanagawa {
 .select {
  attribute: style add 'font-size: 17px;';
 }
-
+div#shoplist {
+ attribute: style add 'font-size: 13px;';
+}
 
 // @RULESET
 // URL #= http://www\.biccamera\.co\.jp/bicsports/.*
-div.osusume {
+#header3_inner, div.osusume {
  attribute: style add 'font-size: 13px;';
+}
+h2.blue_title {
+ attribute: style add 'font-size: 100%;';
+}
+h3.title {
+ attribute: style add 'font-size: 14px;line-height: 18px;display: table-cell;vertical-align: middle;';
+}
+.title, .shousai {
+ attribute: style add 'font-size: 10px;';
+}
+ol > li#no1, ol > li#no2, ol > li#no3, ol > li#no4, ol > li#no5 {
+ attribute: style add 'font-size: 15px;';
+}
+.news {
+ attribute: style add 'font-size: 14px;';
+}
+.link_shop {
+ attribute: style add 'font-size: 13px;';
+}
+div#footer.grid12.first {
+ attribute: style add 'width: 125%;margin-left: -150px;';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera.co\.jp/bictoys/.*
+#news {
+ attribute: style add 'font-size: 15px;';
+}
+#shop {
+ attribute: style add 'font-size: 11px;';
+}
+@preprocess {
+ replace: '<span class="small">' '<br style="display:none;"><span class="small">';
+}
+span.small {
+ attribute: style add 'font-size: 80%;margin-left: 160px;vertical-align: -5px;';
+}
+th.top_line {
+ attribute: width set '30%;';
+}
+td.top_line {
+ attribute: width set '20%;';
+}
+th {
+ attribute: width set '30%;';
+}
+td {
+ attribute: width set '20%;';
+}
+div#osusume > h3.top {
+ attribute: style add 'font-size: 12px;text-align: center;line-height: 14px;display: table-cell;vertical-align: middle;padding-left: 26px;';
+}
+div#osusume > ul > li.second > a > span.name {
+ attribute: style add 'line-height: 1.0;font-size: 80%;';
+}
+div#osusume > ul > li.third > a {
+ attribute: style add 'font-size:10px;';
+}
+div#osusume > ul > li.third_2 > a {
+ attribute: style add 'font-size:10px;';
+}
+div#osusume > ul > li.bottom > a {
+ attribute: style add 'font-size:10px;';
+}
+#best {
+ attribute: style add 'font-size: 11px;';
+}
+.navi_2 {
+ attribute: style add 'font-size: 11px;';
 }
 
 // @RULESET
@@ -44,4 +134,124 @@ div.osusume {
 // URL #= http://www\.biccamera\.co\.jp/service/store/photo/.*
 p.link > a , .price > b {
  text-flow: break;
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/service/rakuraku_online/.*
+ul.area {
+ attribute: style add 'font-size: 11px;letter-spacing: -0.1em;';
+}
+
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/service/bicsim/.*
+@postprocess {
+ replace: '<a href="/bc/c/service/sim/index.jsp">Atas Sumah</a></p></div>' '<a href="/bc/c/service/sim/index.jsp">Atas Sumah<br>&nbsp;</a></p></div>';
+ replace: '<a href="/bc/c/service/sim/whats_sim.jsp">Dan SIM\\?</a></p></div>' '<a href="/bc/c/service/sim/whats_sim.jsp">Dan SIM?<br>&nbsp;</a></p></div>';
+ replace: '<a href="/bc/c/service/bicsim/index.jsp">BIC SIM</a></p></div>' '<a href="/bc/c/service/bicsim/index.jsp">BIC SIM<br>&nbsp;</a></p></div>';
+ replace: '<a href="/bc/c/service/bicmobileone/index.jsp">BIC satu mobile</a></p></div>' '<a href="/bc/c/service/bicmobileone/index.jsp">BIC satu mobile<br>&nbsp;</a></p></div>';  
+ replace: '<a href="/bc/c/service/sim/price.jsp">Harga</a></p></div>' '<a href="/bc/c/service/sim/price.jsp">Harga<br>&nbsp;</a></p></div>';
+ replace: '>Toko</a></p></div>' '>Toko<br>&nbsp;</a></p></div>';
+ replace: '<a href="/bc/c/service/sim/qa.jsp">Q &amp; A</a></p></div>' '<a href="/bc/c/service/sim/qa.jsp">Q &amp; A<br>&nbsp;</a></p></div>';
+ replace: '<a href="/bc/disp/CSfDispListPage_001\.jsp\\?dispNo=001240020">Terminal</a></p></div>' '<a href="/bc/disp/CSfDispListPage_001.jsp?dispNo=001240020">Terminal<br>&nbsp;</a></p></div>'; 
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/life/futon/.*
+ul#headermenufull3 {
+ attribute: style add 'font-size: 11px;';
+}
+div.buystyle {
+  attribute: style set 'font-size: 9px;letter-spacing:-0.1em;white-space:nowrap;';
+}
+
+// @RULESET
+// URL #= http://www.biccamera.com/bc/c/topics/staffuse/.*
+#headermenufull4l {
+  attribute: style add 'font-size: 10px;letter-spacing: -0.1em;';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/contents/diaryplamo/.*
+@preprocess {
+ replace:'<span class="date">(.*?)</span>' '<span class="date">$1</span><br style="display:none;">';
+}
+
+// @RULESET
+// URL #= http://sake\.biccamera\.com/bs/(top|disp)/.*
+@preprocess {
+ replace: '<a href="//sake.biccamera.com(.*?)">' '<a href="http://sake.biccamera.com$1">';
+}
+
+// @RULESET
+// URL #= http://www.biccamera.co.jp/sport_activity/.*
+div#contents > p.syousai_link > a {
+ attribute: style add 'font-size: 11px;line-height: 9px;text-align: left;';
+}
+div#g_navi_list, div#menu_top ,h3.photo_title, span.text_bold {
+ attribute: style add 'font-size: 12px;';
+}
+#soft_ball {
+ attribute: style set 'font-size: 13px;';
+}
+.tournament {
+ attribute: style set 'font-size: 12px;letter-spacing: -0.1em;';
+}
+#league_1 {
+ attribute: style set 'font-size: 16px;';
+}
+div#footer.grid12.first {
+ attribute: style add 'width: 130%;margin-left: -200px;';
+}
+h3.title {
+ attribute: style add 'padding-left: 7px;height: 24px;';
+}
+@postprocess {
+ replace: 'Klik di sini untuk berita terakhirÅÑÅÑ' 'Klik di sini untuk <br> berita terakhirÅÑÅÑ';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/shopguide/office/.*
+h3.blue {
+ attribute: style add 'font-size: 16px;line-height: 16px;display: table-cell;vertical-align: middle;';
+}
+p#button > a, #sv_main {
+ attribute: style add 'padding: 1px;font-size: 9px;';
+}
+h2.list {
+ attribute: style add 'padding: 8px 0px 6px 50px;';
+}
+div#clbox_slim > h2 > a {
+ attribute: style add 'font-size: 12px;';
+}
+dt.no1_big ,dt.no2_big , dt.no3_big ,dt.no4_big ,dt.no5_big , dt.no6_big , dt.no7_big , dt.no8_big {
+ attribute: style add 'font-size: 14px;display: table-cell;line-height: 14px; vertical-align: middle;';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/cart/.*
+#TMP-BTN-7 {
+ attribute: style set 'font-size: 10px;letter-spacing: -0.1em;';
+}
+#TMP-BTN-11 {
+ attribute: style add 'font-size: 15px;';
+}
+#TMP-BTN-8 {
+  attribute: style add 'letter-spacing: -0.1em;';
+}
+.ico_arrow_left_1{
+  attribute: style add 'letter-spacing: -1px;';
+}
+.ico_arrow_wt_right_1 {
+  attribute: style add 'letter-spacing: -2px;';
+}
+@preprocess {
+ replace:'<span style="border-bottom:1px solid #000000;">(.*?)<font style="font-size:1.9em;font-family:Arial;">(.*?)</font>(.*?)</span>' '<span style="border-bottom:1px solid #000000;">$1<br style="display:none;"><font style="font-size:1.9em;font-family:Arial;">$2</font><br style="display:none;">$3</span>';
+}
+
+
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/.*
+div.foot {
+ attribute: style add 'font-size: 15px;width: 115%;margin-left: -80px;';
 }

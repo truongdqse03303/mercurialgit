@@ -10,6 +10,18 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER COMPUTER";
 }
+@preprocess {
+ replace:'charset=Shift_JIS' 'charset=UTF-8';
+}
+@preprocess {
+ replace:'<span class="product_count">(.*?)</span>' '<span class="product_count">$1</span><br style="display:none;">';
+}
+div#CART-BOX.pulldown_area {
+ attribute: style add 'line-height:0.9;';
+}
+span.price {
+ attribute: style set 'font-size: 10px; letter-spacing:-0.1em;';
+}
 
 // @RULESET
 // URL #= http://www\.biccamera\.co\.jp/shoplist/.*
@@ -22,4 +34,49 @@ span#kanagawa {
 // URL ^= http://www.biccamera.co.jp/shoplist/shop-116.html
 a[href='http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tpl/ja/map.php?&MAP=E139.42.22.76N35.41.17.01&CMR=cross_lng&KEY=bd96402192c1494895673a1e17431f32e33f507e&NM=%E3%83%93%E3%83%83%E3%82%AF%E3%83%AD%20%E3%83%93%E3%83%83%E3%82%AF%E3%82%AB%E3%83%A1%E3%83%A9%20%E6%96%B0%E5%AE%BF%E6%9D%B1%E5%8F%A3%E5%BA%97&ZM=10'] {
   attribute: href rewrite 'http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tpl/ko/map.php?&MAP=E139.42.22.76N35.41.17.01&CMR=cross_lng&KEY=aa495c018ad919f280b6a46a1b837617299785c5&NM=%EB%B9%85%ED%81%AC%EB%A1%9C%E3%80%80%EB%B9%85%20%EC%B9%B4%EB%A9%94%EB%9D%BC%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%99%EC%AA%BD%20%EC%B6%9C%EA%B5%AC%EC%A0%90&ZM=10';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/service/rakuraku_online/.*
+ul.area {
+ attribute: style add 'font-size: 11px;letter-spacing: -0.1em;';
+}
+
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/service/bicsim/.*
+@postprocess {
+ replace: '<a href="/bc/c/service/sim/index.jsp">스마호툽</a>' '<a href="/bc/c/service/sim/index.jsp">스마호툽<br>&nbsp;</a>';
+ replace: '<a href="/bc/c/service/sim/whats_sim.jsp">SIM이란\\?</a>' '<a href="/bc/c/service/sim/whats_sim.jsp">SIM이란?<br>&nbsp;</a>';
+ replace: '<a href="/bc/c/service/bicsim/index.jsp">BIC SIM</a>' '<a href="/bc/c/service/bicsim/index.jsp">BIC SIM<br>&nbsp;</a>';
+ replace: '<a href="/bc/c/service/bicmobileone/index.jsp">BIC 모바일 ONE</a>' '<a href="/bc/c/service/bicmobileone/index.jsp">BIC 모바일 ONE<br>&nbsp;</a>';
+ replace: '<a href="/bc/c/service/sim/price.jsp">요금</a>' '<a href="/bc/c/service/sim/price.jsp">요금<br>&nbsp;</a>';
+ replace: '<a href="/bc/c/service/sim/procedure.jsp">신청 순서</a>' '<a href="/bc/c/service/sim/procedure.jsp">신청 순서<br>&nbsp;</a>';
+ replace: '>점포</a></p></div>' '>점포<br>&nbsp;</a></p></div>';
+ replace: '<a href="/bc/c/service/sim/qa.jsp">Q＆A</a></p>' '<a href="/bc/c/service/sim/qa.jsp">Q<br>&nbsp;＆A</a></p>';
+ replace: '<a href="/bc/disp/CSfDispListPage_001\.jsp\\?dispNo=001240020">단말</a>' '<a href="/bc/disp/CSfDispListPage_001.jsp?dispNo=001240020">단말<br>&nbsp;</a>';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/life/futon/.*
+div.buystyle {
+  attribute: style set 'font-size: 16px;';
+}
+
+// @RULESET
+// URL #= http://sake\.biccamera\.com/bs/(top|disp)/.*
+@preprocess {
+ replace: '<a href="//sake.biccamera.com(.*?)">' '<a href="http://sake.biccamera.com$1">';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.co\.jp/shopguide/office/.*
+dt.no1_big ,dt.no2_big , dt.no3_big ,dt.no4_big ,dt.no5_big , dt.no6_big , dt.no7_big , dt.no8_big {
+ attribute: style add 'font-size: 13px;';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/cart/.*
+.ico_arrow_left_1{
+  attribute: style add 'letter-spacing: -2px;';
 }

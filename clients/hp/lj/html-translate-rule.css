@@ -5,3 +5,9 @@
 div[id=KEY-SEARCH-BOX]{
 attribute: cltx add 'exclude';
 }
+
+// @RULESET
+// URL #= http://www.biccamera.co.jp/sport_activity/.*
+div#banner {
+ attribute: clftx add 'exclude';
+}

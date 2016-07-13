@@ -14,6 +14,18 @@
 body {
   attribute: lang add 'zh';
 }
+@preprocess {
+ replace:'charset=Shift_JIS' 'charset=UTF-8';
+}
+@preprocess {
+ replace:'<span class="product_count">(.*?)</span>' '<span class="product_count">$1</span><br style="display:none;">';
+}
+div#CART-BOX.pulldown_area {
+ attribute: style add 'line-height:0.9;';
+}
+span.price {
+ attribute: style set 'font-size: 10px; letter-spacing:-0.1em;';
+}
 
 // @RULESET
 // URL ^= http://www.biccamera.co.jp/shoplist/s_higashishin_map.html
@@ -28,4 +40,16 @@ a[href='http://mlttpl-mapserv.incrementp.co.jp/multi/spot/tpl/ja/map.php?&MAP=E1
  replace: '<a href="/bc/c/info/order/caution.jsp">的《</a>注意事项》' '的《<a href="/bc/c/info/order/caution.jsp">注意事项</a>》';
  replace: '可使用的支' '可使用的';
  replace: '付方式根</a>据店铺有所不同' '支付方式根据</a>店铺有所不同';
+}
+
+// @RULESET
+// URL #= http://www\.biccamera\.com/bc/c/contents/diaryplamo/.*
+div.entry > a > span{
+ text-flow: break;
+}
+
+// @RULESET
+// URL #= http://sake\.biccamera\.com/bs/(top|disp)/.*
+@preprocess {
+ replace: '<a href="//sake.biccamera.com(.*?)">' '<a href="http://sake.biccamera.com$1">';
 }
