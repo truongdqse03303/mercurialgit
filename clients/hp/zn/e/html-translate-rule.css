@@ -11,10 +11,8 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
 
-// @RULESET
-// URL = http://www.wako.co.jp/
-div.title > p > a  {
- attribute: style set 'font-size: 12px;';
+div.telWrap > p.time {
+attribute: style add 'letter-spacing: -0.02em;';
 }
 
 // @RULESET
@@ -27,4 +25,10 @@ div.title > p > a  {
 // URL = http://www.wako.co.jp/faq/
 table {
  attribute: style set "width:360px;";
+}
+
+// @RULESET
+// URL #= http://www\.wako\.co\.jp/.*
+div.title > p > a {
+attribute: style set 'font-size: 11px;';
 }
