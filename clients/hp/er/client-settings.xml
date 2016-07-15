@@ -8,7 +8,6 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="kankounavi.city.suzu.lg.jp" />
     <request hostname="www.city.suzu.ishikawa.jp" />    
   </request-list>
 
