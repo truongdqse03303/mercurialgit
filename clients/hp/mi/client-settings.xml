@@ -8,7 +8,6 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="ww2.tobuhotel.co.jp" path="/narita/" />
     <request hostname="www.tobuhotel.co.jp" path="/narita/" />    
   </request-list>
 
