@@ -1,0 +1,29 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOURMET FASHION INTERNET";
+}
+@engine umikajiterrace/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOURMET FASHION";
+}
+@engine umikajiterrace/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
+}
+
+div.ftr {
+  attribute: style add 'white-space: nowrap;';
+}
+
+.h2tit > h2 {
+  attribute: style set 'font-size: 16px;';
+}
+
+// @RULESET
+// URL = http://www.umikajiterrace.com/
+@preprocess {
+ replace: '<span class="romafont">(.*?)</span>(.*?)' '<span class="romafont">$1<br style="display:none;"></span>$2';
+ replace: '<span class="food">(.*?)</span>' '<span class="food"><br style="display:none;">$1</span>';
+ replace: '<span class="shopping">(.*?)</span>' '<span class="shopping"><br style="display:none;">$1</span>';
+ }
+
