@@ -20,11 +20,10 @@ div.ftr {
 }
 
 @preprocess {
- replace: '<span class="romafont">(.*?)</span>(.*?)' '<span class="romafont">$1<br style="display:none;"></span>$2';
- replace: '<span class="food">(.*?)</span>' '<span class="food"><br style="display:none;">$1</span>';
- replace: '<span class="shopping">(.*?)</span>' '<span class="shopping"><br style="display:none;">$1</span>';
- replace: '<span class="taiken">(.*?)</span>' '<span class="taiken"><br style="display:none;">$1</span>'; 
- replace: '<span class="open">(.*?)</span>' '<span class="open"><br style="display:none;">$1</span>';  
+ replace: '<span class="romafont">(.*?)</span>(.*?)' '<br style="display:none;"><span class="romafont">$1</span>$2';
+ replace: '<span class="food">(.*?)</span>' '<br style="display:none;"><span class="food">$1</span>';
+ replace: '<span class="shopping">(.*?)</span>' '<br style="display:none;"><span class="shopping">$1</span>';
+ replace: '<span class="taiken">(.*?)</span>' '<br style="display:none;"><span class="taiken">$1</span>'; 
 }
 
 @postprocess {
@@ -32,11 +31,16 @@ div.ftr {
 }
 
 // @RULESET
-// URL = http://www.umikajiterrace.com/shop-restaurants/
+// URL #= http://www\.umikajiterrace\.com/shop-restaurants/.*
 @preprocess {
  replace: '<div class="shoplist-ftr"><span class="open">(.*?)</span><span class="tel">' '<div class="shoplist-ftr"><span class="open">$1</span><br style="display:none;"><span class="tel">';
 }
 
+// @RULESET
+// URL #= http://www\.umikajiterrace\.com/profile/.* 
+@preprocess {
+ replace: '<span class="open">(.*?)</span>' '<br style="display:none;"><span class="open">$1</span>';
+}
 
 // @RULESET
 // URL #= http://www\.umikajiterrace\.com/events/.*
