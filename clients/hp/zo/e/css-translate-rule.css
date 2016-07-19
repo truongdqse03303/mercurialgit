@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.umikajiterrace.com/wp/wp-content/themes/_twentytwelve/style.css?ver=4.2.9
+@preprocess {
+ replace:'font-size:15px;' 'font-size:11px;';
+}

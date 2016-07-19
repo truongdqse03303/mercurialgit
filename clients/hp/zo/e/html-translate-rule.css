@@ -19,11 +19,35 @@ div.ftr {
   attribute: style set 'font-size: 16px;';
 }
 
-// @RULESET
-// URL = http://www.umikajiterrace.com/
 @preprocess {
  replace: '<span class="romafont">(.*?)</span>(.*?)' '<span class="romafont">$1<br style="display:none;"></span>$2';
  replace: '<span class="food">(.*?)</span>' '<span class="food"><br style="display:none;">$1</span>';
  replace: '<span class="shopping">(.*?)</span>' '<span class="shopping"><br style="display:none;">$1</span>';
- }
+ replace: '<span class="taiken">(.*?)</span>' '<span class="taiken"><br style="display:none;">$1</span>'; 
+}
 
+@postprocess {
+  replace: '<a href="http://www\.umikajiterrace\.com.(.*?)/shop-restaurants/">Each shop details information</a>' '<a href="http://www.umikajiterrace.com.$1/shop-restaurants/">Each shop details <br>information</a>';
+}
+
+// @RULESET
+// URL = http://www.umikajiterrace.com/shop-restaurants/
+@preprocess {
+ replace: '<div class="shoplist-ftr"><span class="open">(.*?)</span><span class="tel">' '<div class="shoplist-ftr"><span class="open">$1</span><br style="display:none;"><span class="tel">';
+}
+
+
+// @RULESET
+// URL #= http://www\.umikajiterrace\.com/events/.*
+@preprocess {
+ replace: '<td colspan="3" id="prev"><a href="http://www\.umikajiterrace\.com/events/\\?(.*?)">&laquo; (.*?)</a>' '<td colspan="3" id="prev"><a href="http://www.umikajiterrace.com/events/?$1">&laquo; <br style="display:none;">$2</a>';
+}
+#next > a , #prev > a {
+   attribute: style set 'font-size: 12px; white-space: nowrap;';
+}
+
+// @RULESET
+// URL #= http://www\.umikajiterrace\.com/shop-news/.*
+h2.border-rd-t {
+  attribute: style set 'font-size: 16px;';
+}
