@@ -24,6 +24,7 @@ div.ftr {
  replace: '<span class="food">(.*?)</span>' '<span class="food"><br style="display:none;">$1</span>';
  replace: '<span class="shopping">(.*?)</span>' '<span class="shopping"><br style="display:none;">$1</span>';
  replace: '<span class="taiken">(.*?)</span>' '<span class="taiken"><br style="display:none;">$1</span>'; 
+ replace: '<span class="open">(.*?)</span>' '<span class="open"><br style="display:none;">$1</span>';  
 }
 
 @postprocess {
