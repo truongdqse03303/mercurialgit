@@ -2,6 +2,10 @@
   replace: '(<a href="\\*" onclick="window\.print\\(\\)">印刷する</a>)' '<p>$1</p>';
 }
 
+@postprocess {
+replace: '<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><meta http-equiv="X-UA-Compatible" content="IE=edge">' '<head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>';
+}
+
 div[id=KEY-SEARCH-BOX]{
 attribute: cltx add 'exclude';
 }
