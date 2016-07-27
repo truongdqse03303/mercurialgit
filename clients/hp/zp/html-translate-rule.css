@@ -26,4 +26,6 @@
   attribute: clftx set 'exclude';
 }
 
-
+@preprocess {
+  replace: '<a href="http://www.seibu-shop.jp/shinjuku/pepetimes/flyer/(.*?)/" target="_blank">' '<a href="http://www.seibu-shop.jp/shinjuku/pepetimes/flyer/$1/" target="_blank" class="cl-norewrite">';
+}
