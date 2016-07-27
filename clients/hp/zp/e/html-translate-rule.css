@@ -1,0 +1,85 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOURMET FASHION INTERNET";
+}
+@engine seibu-shop/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOURMET FASHION";
+}
+@engine seibu-shop/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
+}
+
+// @RULESET
+// URL #= http://www\.seibu-shop\.jp/emio/.*
+.btn-type06 {
+ attribute: style set 'font-size: 22px;';
+}
+.btn-type05 {
+ attribute: style set 'font-size: 20px;';
+}
+
+// @RULESET
+// URL #= http://www\.seibu-shop\.jp/shinyokohama/.*
+@postprocess {
+ replace: '<div class="blog-body__txt"><p><!--cltx--><span style="font-size: 140%;"><strong>-- - News - - - of closed days</strong></span></p>' '<div class="blog-body__txt"><p><!--cltx--><span style="font-size: 140%;"><strong>---News of closed days---</strong></span></p>';
+}
+
+// @RULESET
+// URL #= http://www\.seibu-shop\.jp/oizumi/.*
+@preprocess {
+ replace: '<p>(.*?)<strong><span style="color: #ff0000; font-size: 140%;">(.*?)</span></strong>(.*?)<strong><span style="color: #ff0000; font-size: 140%;">(.*?)</span></strong>(.*?)</p>' '<p>$1<strong><br style="display:none;"><span style="color: #ff0000; font-size: 140%;">$2</span></strong>$3<br style="display:none;"><strong><span style="color: #ff0000; font-size: 140%;">$4</span></strong>$5</p>';
+}
+@postprocess {
+ replace: '<p><!--cltx-->Among visitors<strong><br style="display:none;"><!--cltx-->(.*?) <span style="color: #ff0000; font-size: 140%;">five (.*?)</span>eople</strong><br style="display:none;"><!--cltx--><strong><span style="color: #ff0000; font-size: 140%;">On</span></strong>(.*?)!</p>' '<p><!--cltx-->Among visitors $1<strong><br style="display:none;"><!--cltx--> <span style="color: #ff0000; font-size: 140%;">five </span>$2eople</strong><br style="display:none;"><!--cltx--><strong><span style="color: #ff0000; font-size: 140%;"> On$3</span></strong>!</p>';
+}
+@preprocess {
+ replace: '<span style="color: #ff0000; font-size: 120%;">(.*?)</span>' '<br style="display:none;"><span style="color: #ff0000; font-size: 120%;"> $1</span>';
+}
+
+// @RULESET
+// URL #= http://www\.seibu-shop\.jp/iruma/.*
+@preprocess {
+ replace: '<h1 class="title-type03__txt">(.*?)' '<br style="display:none;"><h1 class="title-type03__txt">$1';
+ replace: '<span style="color: #000000;">(.*?)</span>(.*?)</span>(.*?)</span>' '<span style="color: #000000;"><br style="display:none;">$1</span>$2</span>$3</span>';
+ replace: '<div class="blog-body__txt"><p>(.*?)<span style="color: #ff0000;">(.*?)</span>(.*?)' '<div class="blog-body__txt"><p>$1<span style="color: #ff0000;">$2</span><br style="display:none;">$3';
+}
+// @RULESET
+// URL #= http://www\.seibu-shop\.jp/hannou/.*
+@preprocess {
+ replace:'<span style="color: #ff0000;">(.*?)<br /></span>' '<br style="display:none;"><span style="color: #ff0000;">$1<br /></span>';
+ replace:' <span style="color: #ff0000;">(.*?)<br /></span>' ' <br style="display:none;"><span style="color: #ff0000;">$1<br /></span>';
+ replace:'<span style="font-size: 140%;"><strong><span style="color: #ff0000;">' '<span style="font-size: 140%;"><strong><span style="color: #ff0000;"><br style="display:none;">';
+}
+
+// @RULESET
+// URL #= http://www\.seibu-shop\.jp/honkawagoe/.*
+@preprocess {
+ replace:'<span style="font-size: 120%;">(.*?)<span style="color: #0000ff;">' '<br style="display:none;"><span style="font-size: 120%;">$1<span style="color: #0000ff;">';
+}
+@postprocess {
+  replace: '<span style="color: #0000ff;">(.*?)</span>(.*?) ' '<span style="color: #0000ff;">$1$2</span>';
+}
+@preprocess {
+  replace: '<div class="blog-body__txt"><p>(.*?)<span style="color: #ff0000;"><strong>(.*?)</strong>' '<div class="blog-body__txt"><p>$1<br style="display:none;"><span style="color: #ff0000;"><strong>$2</strong>';
+}
+@preprocess {
+  replace: '<strong>(.*?)</strong></span><span style="font-size: 80%; color: #ff0000;">(.*?)</span>(.*?)</p>' '<strong>$1</strong></span><span style="font-size: 80%; color: #ff0000;">$2</span><br style="display:none;">$3</p>';
+}
+
+// @RULESET
+// URL #= http://www\.seibu-shop\.jp/shinjuku/.*
+@preprocess {
+ replace: '<span style="color: #ffcc00;"><strong>' '<br style="display:none;"><span style="color: #ffcc00;"><strong>';
+}
+
+// @RULESET
+// URL = http://www.seibu-shop.jp/
+@postprocess {
+ replace: '<span class="fz27">We look for event along the line</span>' '<span class="fz27">We look for <br>event along the line</span>';
+ replace: '<p><!--cltx-->We <span class="fz24">look for</span> <span class="fz26">objective</span><span class="fz30"> shop</span></p>' '<p><!--cltx--><span class="fz24">We look for</span> <span class="fz26">objective</span><br><span class="fz30"> shop</span></p>';
+}
+.list-btn01__btn {
+ attribute: style set 'letter-spacing: -0.1em;font-size: 13px;';
+}

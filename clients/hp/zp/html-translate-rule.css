@@ -1,0 +1,29 @@
+.flex-nav-prev , flex-nav-next {
+ attribute: clftx set 'exclude';
+}
+
+.flex-control-nav > li {
+ attribute: cltx set 'exclude';
+}
+
+.btn-language {
+ attribute: cltx set 'exclude';
+}
+
+.snsn-button > li {
+  attribute: clftx set 'exclude';
+}
+
+.fb-like {
+  attribute: clftx set 'exclude';
+}
+
+.lang-nav__list {
+ attribute: style add 'white-space: nowrap !important;';
+}
+
+.main__in {
+  attribute: clftx set 'exclude';
+}
+
+

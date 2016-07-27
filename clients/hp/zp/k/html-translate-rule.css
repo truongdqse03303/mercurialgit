@@ -1,0 +1,22 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine seibu-shop/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine seibu-shop/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+// @RULESET
+// URL #= http://www\.seibu-shop\.jp/(shinjuku|honkawagoe|hannou|iruma|baba|oizumi|shinyokohama|eimo)/sp/.*
+// URL #= http://www\.seibu-shop\.jp/(shinjuku|honkawagoe|hannou|iruma|baba|oizumi|shinyokohama|eimo)/.*
+@preprocess {
+ replace: '<a href="http://www.seibu-shop.jp/shinjuku/pepetimes/flyer/160715/" target="_blank">' '<a href="http://www.seibu-shop.jp/shinjuku/pepetimes/flyer/160715/" target="_blank" class="cl-norewrite">';
+ replace: '<a href="/(.*?)/th/" class="popmenu__list__link" lang="th">ไทย</a>' '<a href="/$1/th/" class="popmenu__list__link cl-notranslate" lang="th" >ไทย</a>';
+ replace: '<a href="/(.*?)/ko/" class="popmenu__list__link" lang="ko">한국어</a>' '<a href="/$1/ko/" class="popmenu__list__link cl-notranslate" lang="ko">한국어</a>';
+ replace: '<a href="/(.*?)/sp/th/" class="lang-nav__list__link" lang="th">ไทย</a>' '<a href="/$1/sp/th/" class="lang-nav__list__link cl-notranslate" lang="th">ไทย</a>';
+}

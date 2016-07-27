@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>西武プロパティーズ（西武ショップ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>seibu-shop/service 0f6a586c38b22744a941131375bea6c06945b2b4</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.seibu-shop.jp" />
+  </request-list>
+  
+    <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;z-index: 10000;position: relative;}</param-value>
+  </extension-param>
+  
+      <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://www.seibu-shop.jp/(shinjuku|honkawagoe|hannou|iruma|baba|shinyokohama|oizumi)/(en|ch|tw|ko|th)/</url>
+    <url>http://www.seibu-shop.jp/(shinjuku|honkawagoe|hannou|iruma|baba|shinyokohama|oizumi)/sp/(en|ch|tw|ko|th)/</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
