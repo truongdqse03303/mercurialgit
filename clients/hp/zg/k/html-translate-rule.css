@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER LAW";
 }
+
+@postprocess {
+replace:"cx = '006160629073588275082:vbxxx4xf2b4'" "cx = '006160629073588275082:ty5tevd6kqm'";
+}

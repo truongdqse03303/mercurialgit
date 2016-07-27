@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+@postprocess {
+replace:"cx = '006160629073588275082:vbxxx4xf2b4'" "cx = '006160629073588275082:_tnf060lca0'";
+}

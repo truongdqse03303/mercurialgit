@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM SYSTEM LAW";
 }
+
+@postprocess {
+replace:"cx = '006160629073588275082:vbxxx4xf2b4'" "cx = '006160629073588275082:zbiyeb2rig0'";
+}
