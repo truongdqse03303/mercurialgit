@@ -6,6 +6,10 @@
 replace: '<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><meta http-equiv="X-UA-Compatible" content="IE=edge">' '<head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>';
 }
 
+@preprocess {
+replace:'<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padding:4px;margin:4px 0px">' '<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padding:4px;margin:4px 0px;display:none;" clftx="exclude">';
+}
+
 div[id=KEY-SEARCH-BOX]{
 attribute: cltx add 'exclude';
 }
