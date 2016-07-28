@@ -29,3 +29,9 @@
 .homeslider-block {
   attribute: cltx add 'exclude';
 }
+
+// @RULESET
+// URL = http://www.seibu-shop.jp/emio/
+.carousel-slider01 {
+attribute: cltx set 'exclude';
+}
