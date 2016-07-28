@@ -1,7 +1,3 @@
-.flex-nav-prev , flex-nav-next {
- attribute: clftx set 'exclude';
-}
-
 .flex-control-nav > li {
  attribute: cltx set 'exclude';
 }
@@ -23,9 +19,13 @@
 }
 
 .main__in {
-  attribute: clftx set 'exclude';
+ attribute: clftx set 'exclude';
 }
 
 @preprocess {
   replace: '<a href="http://www.seibu-shop.jp/shinjuku/pepetimes/flyer/(.*?)/" target="_blank">' '<a href="http://www.seibu-shop.jp/shinjuku/pepetimes/flyer/$1/" target="_blank" class="cl-norewrite">';
+}
+
+.homeslider-block {
+  attribute: cltx add 'exclude';
 }
