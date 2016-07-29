@@ -13,6 +13,7 @@
 
 @preprocess {
   replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+  replace:'crosslanguage-e:delete' 'crosslanguage:delete';
 }
 
 @postprocess {
