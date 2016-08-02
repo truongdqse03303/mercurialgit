@@ -16,7 +16,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://www.city.yatsushiro.lg.jp/dynamic/common/handler/registersearchkeyword.ashx</param-value>
+       <param-value>http://www\.city\.yatsushiro\.lg\.jp/dynamic/common/handler/(RegisterSearchKeyword\.ashx|registersearchkeyword\.ashx)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
