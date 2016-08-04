@@ -27,5 +27,6 @@ replace: '<a href="hotel_rules.html">thes</a>e Terms of Use.' '<a href="hotel_ru
  }
  
 @preprocess {
+replace:'<strong>日</strong>' '<strong>Day</strong>';
 replace: '</span> TEL' '</span><br style="display:none;"> TEL';
 }
