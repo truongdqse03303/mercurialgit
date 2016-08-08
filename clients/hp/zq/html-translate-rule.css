@@ -10,6 +10,10 @@ body {
  attribute: cltx add 'exclude';
 }
 
+.bx-controls-direction{
+ attribute: cltx add 'exclude';
+}
+
 // @RULESET
 // URL #= http://www\.city\.gero\.lg\.jp/jichimaru_jpn/latest/list/.*
 @preprocess {
@@ -24,3 +28,4 @@ body {
 @preprocess {
  replace: '<span class="date">(.*?)</span><span class="monthButton linkColorBlack">' '<br style="display:none;"><span class="date">$1</span><br style="display:none;"><span class="monthButton linkColorBlack">';
 }
+
