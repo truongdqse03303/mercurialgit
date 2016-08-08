@@ -1,0 +1,26 @@
+body {
+  attribute: style add "background-position:0px 31px;";
+}
+
+.adMain {
+ attribute: clftx add 'exclude';
+}
+
+.snsBtn {
+ attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL #= http://www\.city\.gero\.lg\.jp/jichimaru_jpn/latest/list/.*
+@preprocess {
+ replace: '<li><span class="previous">&laquo;&nbsp;(.*?)</span></li>' '<li><span class="previous">&laquo;&nbsp;<br style="display:none;">$1</span></li>';
+ replace: '<li><a href="/jichimaru_jpn/latest/list/(.*?)">&laquo;&nbsp;(.*?)</a></li>' '<li><a href="/jichimaru_jpn/latest/list/$1">&laquo;&nbsp;<br style="display:none;">$2</a></li>';
+ replace: '<li><span class="next">(.*?)&nbsp;&raquo;</span></li>' '<li><span class="next">$1<br style="display:none;">&nbsp;&raquo;</span></li>';
+ replace: '<li><a href="/jichimaru_jpn/latest/list/(.*?)/\\(offset\\)/(.*?)">(.*?)&nbsp;&raquo;</a></li>' '<li><a href="/jichimaru_jpn/latest/list/$1/(offset)/$2">$3<br style="display:none;">&nbsp;&raquo;</a></li>'; 
+}
+
+// @RULESET
+// URL #= http://www\.city\.gero\.lg\.jp/kankou/.*
+@preprocess {
+ replace: '<span class="date">(.*?)</span><span class="monthButton linkColorBlack">' '<br style="display:none;"><span class="date">$1</span><br style="display:none;"><span class="monthButton linkColorBlack">';
+}

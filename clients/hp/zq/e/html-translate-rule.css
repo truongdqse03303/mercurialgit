@@ -1,0 +1,20 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT SYSTEM LAW INTERNET";
+}
+@engine gero/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT SYSTEM LAW";
+}
+@engine gero/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT SYSTEM LAW";
+}
+
+@preprocess {
+ replace: '<a href="/jichimaru_jpn/node_(.*?)/(.*?)/(.*?)/(.*?)">(.*?)</a>(.*?)' '<a href="/jichimaru_jpn/node_$1/$2/$3/$4">$5</a><br style="display:none;">$6';
+}
+
+@preprocess {
+ replace: '<dt><a href="/jichimaru_jpn/node_(.*?)/node_(.*?)/node_(.*?)">(.*?)</a>(.*?)</dt>' '<dt><a href="/jichimaru_jpn/node_$1/node_$2/node_$3">$4</a><br style="display:none;">$5</dt>';
+}
