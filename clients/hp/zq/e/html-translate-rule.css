@@ -18,3 +18,7 @@
 @preprocess {
  replace: '<dt><a href="/jichimaru_jpn/node_(.*?)/node_(.*?)/node_(.*?)">(.*?)</a>(.*?)</dt>' '<dt><a href="/jichimaru_jpn/node_$1/node_$2/node_$3">$4</a><br style="display:none;">$5</dt>';
 }
+
+.linkColorBlack {
+ attribute: style add "letter-spacing: -0.1em; text-align: center;text-indent: -0.1em;";
+}
