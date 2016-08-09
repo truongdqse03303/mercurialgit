@@ -20,5 +20,5 @@
 }
 
 .linkColorBlack {
- attribute: style add "letter-spacing: -0.1em; text-align: center;text-indent: -0.1em;";
+ attribute: style add "line-height: 12px;word-break: break-all;";
 }

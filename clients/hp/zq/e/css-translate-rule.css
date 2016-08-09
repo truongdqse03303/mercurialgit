@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://www.city.gero.lg.jp/extension/jichimaru_base/design/jichimaru_base/stylesheets/cmn/common.css
+@postprocess {
+ replace: 'padding:12px 0;' 'padding:18px 0;';
+}
