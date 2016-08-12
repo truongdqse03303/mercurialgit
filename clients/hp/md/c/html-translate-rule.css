@@ -152,6 +152,5 @@ a[href^="http://www.daimaru.co.jp/fukuoka/company/hakata.html"] {
   replace: 'a href="http://www\.daimaru\.co\.jp/fukuoka/hdm/store_info/"' 'a href="http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/chinese/entertainment/index.html"';
 }
 a[href^="http://wakaba.coara.or.jp/cg25000/floorguide/index.php?type=top"] {
-attribute: href rewrite "http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/english/floormap/
-index.html";
+attribute: href rewrite "http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/chinese/floormap/index.html";
 }
