@@ -14,6 +14,8 @@ header#site-area-header {
 
 // @RULESET
 // URL #= http://www\.daiwaresort\.jp/(royton|hachimantai|zaou|urabandai|rindou|tomiura|yatsugadake|matsushiro|hamanako|tonami|ise|nagahama|miyazu|kashihara|kushimoto|minabe|awaji|daisen|tosa|yahata|genkai|karatsu|beppu|kirishima|okinawa)/wedding/index.html/
+// URL #= http://www\.daiwaresort\.jp/(royton|hachimantai|zaou|urabandai|rindou|tomiura|yatsugadake|matsushiro|hamanako|tonami|ise|nagahama|miyazu|kashihara|kushimoto|minabe|awaji|daisen|tosa|yahata|genkai|karatsu|beppu|kirishima|okinawa)/wedding/(.*?)/index.html/
+// URL #= http://www\.daiwaresort\.jp\.e\.zr\.hp\.transer\.com/(royton|hachimantai|zaou|urabandai|rindou|tomiura|yatsugadake|matsushiro|hamanako|tonami|ise|nagahama|miyazu|kashihara|kushimoto|minabe|awaji|daisen|tosa|yahata|genkai|karatsu|beppu|kirishima|okinawa)/wedding/(.*?)/index.html/
 p.subText {
  attribute: style add 'margin-top: 13px;';
 }
@@ -29,7 +31,9 @@ p.number {
 @preprocess {
  replace: '50% 0 fixed no-repeat;' '50% 66px fixed no-repeat;';
 }
-
+.elem_headingCategoryPadder {
+  attribute: style add 'margin-top: 26px;';
+}
 
 // @RULESET
 // URL #= http://www\.daiwaresort\.jp/(.*?)/convention/index\.html/
