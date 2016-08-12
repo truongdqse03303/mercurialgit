@@ -1,0 +1,61 @@
+div#carouselNaviBlock {
+ attribute: cltx add 'exclude';
+}
+
+header#site-area-header {
+   attribute: style add 'margin-top: 40px;';
+}
+
+// @RULESET
+// URL #= http://www\.daiwaresort\.jp/contents/(.*?)/ana/tabisaku_(.*?)/.*
+#wrapper > #header > a > img {
+   attribute: style add 'margin-top: 36px;';
+}
+
+// @RULESET
+// URL #= http://www\.daiwaresort\.jp/(royton|hachimantai|zaou|urabandai|rindou|tomiura|yatsugadake|matsushiro|hamanako|tonami|ise|nagahama|miyazu|kashihara|kushimoto|minabe|awaji|daisen|tosa|yahata|genkai|karatsu|beppu|kirishima|okinawa)/wedding/index.html/
+p.subText {
+ attribute: style add 'margin-top: 13px;';
+}
+p.number {
+ attribute: style add 'white-space: nowrap;';
+}
+.separatorBlock {
+  attribute: style add 'margin-top: 14px;';
+}
+#hotelLogo > a > img {
+  attribute: style add 'margin-top: 20px;';
+}
+@preprocess {
+ replace: '50% 0 fixed no-repeat;' '50% 66px fixed no-repeat;';
+}
+
+
+// @RULESET
+// URL #= http://www\.daiwaresort\.jp/(.*?)/convention/index\.html/
+.headerPadder {
+ attribute: style add 'margin-top: 34px;';
+}
+
+
+// @RULESET
+// URL #= http://www\.daiwaresort\.jp/gaiyo/.*
+h1.logo, .logo_g, #left {
+  attribute: style add 'margin-top: 33px;';
+}
+#g_navi {
+  attribute: style add 'margin-top: 92px;';
+}
+
+// @RULESET
+// URL #= http://www\.daiwaresort\.jp
+// URL #= http://www\.daiwaresort\.jp/index\.html/.*
+// URL #= http://www\.daiwaresort\.jp/(.*?)/index\.html/.*
+// URL #= http://www\.daiwaresort\.jp/(.*?)/(.*?)/index\.html/.*
+div#logo {
+  attribute: style add 'margin-top: 22px;';
+}
+.languageNavi {
+  attribute: style add 'margin-top: 32px;';
+}
+

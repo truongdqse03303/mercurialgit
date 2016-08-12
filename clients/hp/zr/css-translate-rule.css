@@ -1,0 +1,17 @@
+// @RULESET
+// URL #= http://www.daiwaresort.jp/contents/(.*?)/ana/tabisaku_(.*?)/common/css/templates.css
+@postprocess {
+ replace: 'url\\(\.\./\.\./image/header_bg\.gif\\) repeat-x;' 'url(../../image/header_bg.gif) repeat-x;background-position: 0px 36px;';
+}
+
+// @RULESET
+// URL = http://www.daiwaresort.jp/commoncms/wedding/css/base.css
+@postprocess {
+ replace: 'margin:200px -12px 0 0;' 'margin:263px -12px 0 0;';
+}
+
+// @RULESET
+// URL = http://www.daiwaresort.jp/gaiyo/css/common.css
+@postprocess {
+ replace: '-webkit-text-size-adjust : 100% ;' '-webkit-text-size-adjust : 100% ;background-position: 0px 38px;';
+}
