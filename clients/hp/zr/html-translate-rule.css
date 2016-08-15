@@ -57,9 +57,11 @@ h1.logo, .logo_g, #left {
 // URL #= http://www\.daiwaresort\.jp/(.*?)/index\.html/.*
 // URL #= http://www\.daiwaresort\.jp/(.*?)/(.*?)/index\.html/.*
 div#logo {
-  attribute: style add 'margin-top: 22px;';
+  attribute: style add 'margin-top: 30px;';
 }
 .languageNavi {
   attribute: style add 'margin-top: 32px;';
 }
-
+.rightBlock {
+  attribute: style add 'margin-top: 9px;';
+}
