@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION";
+}
+@engine takashimaya-timessquare/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION";
+}
+@engine takashimaya-timessquare/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
+}

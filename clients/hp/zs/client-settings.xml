@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>東神開発株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>takashimaya-timessquare/service 6d0948daf9217fe391bfe9765959c1a3de936957</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="takashimaya-timessquare.jp" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
