@@ -7,6 +7,22 @@ header#site-area-header {
 }
 
 // @RULESET
+// URL = http://www.daiwaresort.jp/contents/royton/jal/jaldp_royton/index.html
+@postprocess {
+  replace: '<script type="text/javascript" src="http://www.jal.co.jp/domtour/jaldp/template/htl/js/include_Y15.js" charset="UTF-8">' '<script type="text/javascript" src="http://www.jal.co.jp/domtour/jaldp/template/htl/js/include_Y15.js" charset="Shift-JIS">';
+}
+div#wrapper {
+  attribute: style add 'margin-top: -15px;';
+}
+td > h1 > a > img {
+  attribute: style add 'margin-top: 65px;';
+}
+
+td.alR > a > img {
+  attribute: style add 'margin-top: 65px;';
+}
+
+// @RULESET
 // URL #= http://www\.daiwaresort\.jp/contents/(.*?)/ana/tabisaku_(.*?)/.*
 #wrapper > #header > a > img {
    attribute: style add 'margin-top: 36px;';
@@ -63,5 +79,5 @@ div#logo {
   attribute: style add 'margin-top: 32px;';
 }
 .rightBlock {
-  attribute: style add 'margin-top: 9px;';
+  attribute: style add 'margin-top: 34px;';
 }
