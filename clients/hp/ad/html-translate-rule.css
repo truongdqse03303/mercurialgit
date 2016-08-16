@@ -1,3 +1,19 @@
+p.btn, .paging, .tismenu, #tw , #fb{
+  attribute: clftx add 'exclude';
+}
+
+#randomad {
+  attribute: cltx add 'exclude';
+}
+
+@preprocess {
+  replace: '<span class="printl">' '<span class="printl"><br style="display:none;">';
+}
+
+@preprocess {
+  replace: '<caption>(.*?)<span>(.*?)</span></caption>' '<caption>$1<br style="display:none;"><span>$2</span></caption>';
+}
+
 // @RULESET
 // URL #= http://www\.city\.musashino\.lg\.jp/norimono_chuurin_chuusha/mu_bus/.+(?:/|/index.html)$
 ul.listlink li {
