@@ -19,6 +19,7 @@
     <request hostname="mitsukoshi.mistore.jp">
       <path-list>
         <path value="/store.*" />
+        <path value="/sp/store.*" />        
       </path-list>
     </request>
   </request-list>
