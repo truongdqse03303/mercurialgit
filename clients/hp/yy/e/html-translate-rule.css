@@ -27,3 +27,7 @@
 @postprocess {
  replace: 'Japanese yen&nbsp;' ' yen&nbsp;';
 }
+
+div.chkline.clearfix {
+attribute: style add "font-size:10px;";
+}

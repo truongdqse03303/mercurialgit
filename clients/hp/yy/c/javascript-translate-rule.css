@@ -1,0 +1,3 @@
+@postprocess {
+replace:'src="http://www.e-map.ne.jp.c.yy.hp.transer.com/cgi/sys_icon_select.cgi' 'src="http://www.e-map.ne.jp/cgi/sys_icon_select.cgi';
+}

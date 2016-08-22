@@ -13,3 +13,7 @@
 #mapto {
  attribute: cltx add 'exclude';
 }
+
+body {
+ attribute: style add 'overflow-y: hidden;';
+}
