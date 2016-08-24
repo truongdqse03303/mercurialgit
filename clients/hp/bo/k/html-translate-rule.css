@@ -7,3 +7,11 @@
   eid: CR-JK;
   dictionaries: "SAKURA_DIC_MASTER SAKURA_TM_MASTER";
 }
+
+div#top_search_a > ul > li {
+  attribute: clftx add 'exclude';
+}
+
+div.banner_list_tate > ul > li {
+  attribute: clftx add 'exclude';
+}
