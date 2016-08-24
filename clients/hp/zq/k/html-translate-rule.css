@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER LAW";
 }
+
+div.bg_img {
+attribute: cltx add 'exclude';
+}
