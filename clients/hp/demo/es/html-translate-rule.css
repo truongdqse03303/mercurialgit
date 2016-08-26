@@ -1,0 +1,12 @@
+@engine default {
+  eid: BO-ENES;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
+}
+@engine demo/main {
+  eid: BO-ENES;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine demo/cross {
+  eid: BO-ENES;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}

@@ -9,3 +9,7 @@ div.sns_top, div.sns {
 #fb_area {
    attribute: cltx add 'exclude';
 }
+
+@preprocess {
+ replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+}

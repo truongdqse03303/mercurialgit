@@ -12,6 +12,12 @@
 }
 
 // @RULESET
+// URL = http://www.ejrcf.or.jp/shinbashi/
+@preprocess {
+ replace: '<div id="gnavi">' '<div id="gnavi_en">';
+}
+
+// @RULESET
 // URL = http://www.ejrcf.or.jp/sitemap.html
 @preprocess {
  replace: '<a href="gallery/facility.html">(.*?)' '<a href="gallery/facility.html"><br style="display:none;">$1';
