@@ -26,6 +26,9 @@ div#CART-BOX.pulldown_area {
 span.price {
  attribute: style set 'font-size: 10px; letter-spacing:-0.1em;';
 }
+@preprocess {
+ replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
+}
 
 // @RULESET
 // URL ^= http://www.biccamera.co.jp/shoplist/s_higashishin_map.html

@@ -10,3 +10,6 @@
   eid: MS-JATH;
   dictionaries: "CROSS_TM_MASTER";
 }
+@preprocess {
+ replace:'<!-- crosslanguage-th:show(.*?)/crosslanguage-th:show -->' '$1';
+}

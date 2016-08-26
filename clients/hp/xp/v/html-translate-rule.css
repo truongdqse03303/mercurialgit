@@ -10,3 +10,6 @@
   eid: MS-JAVI;
   dictionaries: "CROSS_TM_MASTER";
 }
+@preprocess {
+ replace:'<!-- crosslanguage-v:show(.*?)/crosslanguage-v:show -->' '$1';
+}
