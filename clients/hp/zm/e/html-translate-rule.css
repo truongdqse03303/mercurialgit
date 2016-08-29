@@ -13,6 +13,7 @@
 
 // @RULESET
 // URL = http://www.ejrcf.or.jp/shinbashi/
+// URL = http://www.ejrcf.or.jp/shinbashi/index.html
 @preprocess {
  replace: '<div id="gnavi">' '<div id="gnavi_en">';
 }
