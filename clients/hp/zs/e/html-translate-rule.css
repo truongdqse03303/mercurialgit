@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
+
+
+.navi01 > a , .navi02 > a , .navi03 > a , .navi04 > a , .navi05 > a , .navi06 > a , .navi07 > a {
+ attribute: style add 'font-size: 16px;line-height: 17px;';
+}

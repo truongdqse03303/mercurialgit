@@ -1,0 +1,13 @@
+// @RULESET
+// URL #= http://takashimaya-timessquare.jp/css/(.*?)/index.css
+@postprocess {
+ replace: 'margin: 25px 0;' 'margin: 45px 0;';
+ replace: 'margin: 20px 0 12px;' 'margin: 45px 0 12px;';
+}
+
+// @RULESET
+// URL #= http://takashimaya-timessquare.jp/css/(.*?)/detail.css
+@postprocess {
+ replace: 'margin: 25px 0;' 'margin: 45px 0;';
+ replace: 'margin: 25px 0 31px;' 'margin: 45px 0 31px;';
+}

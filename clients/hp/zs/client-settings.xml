@@ -13,6 +13,12 @@
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
+  
+<!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important;z-index:10000;position: fixed; height: 28px;}#site-translate-header-wrapper p{font-size:10px;}</param-value>
+  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
