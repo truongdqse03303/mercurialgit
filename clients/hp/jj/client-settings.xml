@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="www.city.izu.shizuoka.jp" />
     <request hostname="kanko.city.izu.shizuoka.jp" />
+    <request hostname="livecamera.city.izu.shizuoka.jp" />    
   </request-list>
   
   <!-- サイトで使用される文字セット -->
