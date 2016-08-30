@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="license-tour.jp" />
+    <request hostname="gasyuku-menkyo.com" />        
   </request-list>
 
   <!-- Microsoft Translatorロゴを表示する設定ID -->
@@ -22,6 +23,23 @@
     <param-name>site.translate.header.style</param-name>
     <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
   </extension-param>
+  
+      <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic dG91cjp0ZXN0</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://gasyuku-menkyo\.com.*</param-value>
+    </param>
+  </resource-handler>
   
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
