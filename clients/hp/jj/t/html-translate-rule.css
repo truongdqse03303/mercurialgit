@@ -10,3 +10,27 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+// @RULESET
+// URL = http://livecamera.city.izu.shizuoka.jp/
+// URL = http://livecamera.city.izu.shizuoka.jp/index.php
+// URL = http://livecamera.city.izu.shizuoka.jp/movie.php
+@preprocess {
+replace:'<span class="shousai">' '<br style="display:none;"><span class="shousai">';
+}
+
+div#movie-photoArea > h1 > span.title {
+attribute:style add 'font-size: 22px;';
+}
+
+input#date_from.form-control {
+attribute:style add 'width: 120px; margin-left: 15px;';
+}
+
+input#date_to.form-control {
+attribute:style add 'width: 120px; margin-left: 15px;';
+}
+
+div#dateSelectArea > dl.time > dd > select {
+attribute:style add 'margin-left: 15px;';
+}

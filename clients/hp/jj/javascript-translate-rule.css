@@ -1,0 +1,3 @@
+@preprocess {
+replace:"<div class='ui-datepicker-header ui-widget-header ui-helper-clearfix" "<div clftx='exclude' class='ui-datepicker-header ui-widget-header ui-helper-clearfix";
+}

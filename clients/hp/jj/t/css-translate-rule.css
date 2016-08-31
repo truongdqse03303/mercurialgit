@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://livecamera.city.izu.shizuoka.jp/jquery-ui-1.11.4.custom/jquery-ui.css
+@postprocess {
+replace:'1.1em' '0.8em';
+}
