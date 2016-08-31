@@ -17,7 +17,7 @@
 // URL = http://livecamera.city.izu.shizuoka.jp/movie.php
 @preprocess {
 replace:'<span class="shousai">' '<br style="display:none;"><span class="shousai">';
-replace:'<span>ˆÉ“¤sŠÏŒõî•ñ</span>' '<span>ˆÉ“¤s</span><br><span>ŠÏŒõî•ñ</span>';
+replace:'<span>ä¼Šè±†å¸‚è¦³å…‰æƒ…å ±</span>' '<span>ä¼Šè±†å¸‚</span><br><span>è¦³å…‰æƒ…å ±</span>';
 }
 
 div.tab-1 > a > span {
