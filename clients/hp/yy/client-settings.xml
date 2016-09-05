@@ -10,7 +10,25 @@
   <request-list>
     <request hostname="www.matsukiyo.co.jp" />
     <request hostname="www.e-map.ne.jp" />
+    <request hostname="matsukiyo-omni.hmstd.net" />    
   </request-list>
+  
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic bWF0c3VraXlvX29tbmk6NDIxOTQx</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://matsukiyo-omni\.hmstd\.net.*</param-value>
+    </param>
+  </resource-handler>  
   
     <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
