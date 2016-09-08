@@ -1,0 +1,5 @@
+// @RULESET
+// URL ^= http://www.osaka-chikagai.jp/common/js/ga.js
+@preprocess {
+replace: 'UA-18589003-1' 'UA-18589003-5';
+}

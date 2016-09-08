@@ -41,8 +41,3 @@ replace: 'UA-18589923-1' 'UA-18589923-5';
 replace: 'UA-18589922-1' 'UA-18589922-5';
 }
 
-// @RULESET
-// URL ^= http://www.osaka-chikagai.jp/
-@preprocess {
-replace: 'UA-18589003-1' 'UA-18589003-5';
-}
