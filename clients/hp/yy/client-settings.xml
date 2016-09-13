@@ -41,7 +41,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://(www\.e-map\.ne\.jp.*?)/(p/matukiyo/.*?\.js.*?)</param-value>
+      <param-value>http://(www\.e-map\.ne\.jp.*?)/(p/matukiyo/.*?\.js.*?|smt/matukiyo/.*?.js.*?)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>

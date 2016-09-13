@@ -2,3 +2,8 @@
 replace:'src="http://www.e-map.ne.jp.e.yy.hp.transer.com/cgi/sys_icon_select.cgi' 'src="http://www.e-map.ne.jp/cgi/sys_icon_select.cgi';
 replace:'class="chkline clearfix"' 'class="chkline clearfix" style="font-size:10px;"';
 }
+
+@postprocess {
+replace:'PARENT_HTTP_HOST=www.e-map.ne.jp"' 'PARENT_HTTP_HOST=www.e-map.ne.jp.e.yy.hp.transer.com"';
+replace:'127.0.0.1' 'www.e-map.ne.jp.e.yy.hp.transer.com';
+}
