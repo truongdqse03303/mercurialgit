@@ -2,7 +2,6 @@
 replace:'src="http://www.e-map.ne.jp.t.yy.hp.transer.com/cgi/sys_icon_select.cgi' 'src="http://www.e-map.ne.jp/cgi/sys_icon_select.cgi';
 }
 
-@postprocess {
-replace:'PARENT_HTTP_HOST=www.e-map.ne.jp"' 'PARENT_HTTP_HOST=www.e-map.ne.jp.t.yy.hp.transer.com"';
-replace:'127.0.0.1' 'www.e-map.ne.jp.t.yy.hp.transer.com';
+@preprocess {
+replace:'http%3A%2F%2Fwww.e-map.ne.jp%2Fsmt%2Fmatukiyo%2Finf%2F' 'http%3A%2F%2Fwww.e-map.ne.jp.t.yy.hp.transer.com%2Fsmt%2Fmatukiyo%2Finf%2F';
 }
