@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>公益財団法人　日本スケート連盟</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>skatingjapan/service 8a6ee93859c0a4c3389449ab65c0712f875e06bf</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.skatingjapan.or.jp" />
+  </request-list>
+  
+    <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.skatingjapan\.or\.jp/(faq|guide|jsf|link|national|privacy|rink|schedule|sitemap.html)/*</url>
+    <url>http://www\.skatingjapan\.or\.jp/figure/music_list/.*</url>
+    <url>http://www\.skatingjapan\.or\.jp/figure/(file\.html|trick\.html)</url>    
+    <url>http://www\.skatingjapan\.or\.jp/(short|speed)/(file\.html|rule.html)</url>
+  </url-list>
+  
+<!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+ <param-name>site.translate.header.style</param-name>
+ <param-value>style:#site-translate-header-wrapper{width:100% !important;height:30px; position:fixed; top:0;}#site-translate-header-wrapper p{font-size:10px; letter-spaching: 0px;}</param-value>
+</extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

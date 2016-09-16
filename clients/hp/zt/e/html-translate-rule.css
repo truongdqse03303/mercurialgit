@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM SPORTS TOURISM HOBBY INTERNET";
+}
+@engine skatingjapan/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER SPORTS TOURISM HOBBY";
+}
+@engine skatingjapan/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SPORTS TOURISM HOBBY";
+}
+
+@preprocess {
+replace: 'UA-27275820-1' 'UA-84092521-1';
+}

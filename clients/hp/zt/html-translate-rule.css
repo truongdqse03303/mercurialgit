@@ -1,0 +1,15 @@
+body, header {
+ attribute: style set "margin-top: 34px;";
+}
+
+#page-top {
+ attribute: clftx add 'exclude';
+}
+
+#mv-nav > nav > ul > li {
+  attribute: clftx add 'exclude'; 
+}
+
+#news-tabs > li {
+  attribute: clftx add 'exclude';
+}
