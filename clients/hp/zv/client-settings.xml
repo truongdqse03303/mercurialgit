@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社マーベリックス</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tagengo-omotenashi/service 5ab9b018a44792e62b4dc06161a500c552cfb0e8</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="tagengo-omotenashi.com" />
+    <request hostname="www.tagengo-omotenashi.com" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
