@@ -13,6 +13,7 @@
 
 @postprocess {
  replace: '<span> The number of the word of mouth: (.*?) cases </span>' '<span> The number of the word <br>of mouth: $1 cases </span>';
+ replace: 'Åß' 'ZipcodeÅF';
 }
 
 .search_list {

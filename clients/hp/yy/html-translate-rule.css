@@ -14,10 +14,6 @@
  attribute: cltx add 'exclude';
 }
 
-body {
- attribute: style add 'overflow-y: hidden;';
-}
-
 div#box_map.box-map {
  attribute: cltx add 'exclude';
 }
