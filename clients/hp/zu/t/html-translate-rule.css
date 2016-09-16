@@ -1,0 +1,22 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION";
+}
+@engine park-funabashi/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION";
+}
+@engine park-funabashi/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
+}
+
+@preprocess {
+ replace: '&nbsp;(.*?)<font color="#ff0000">' '&nbsp;$1<br style="display:none;"><font color="#ff0000">';
+}
+
+// @RULESET
+// URL = http://www.park-funabashi.or.jp/cgi/sche14.cgi
+@preprocess {
+ replace: '<td height=20 width=160 style="padding-left: 10px;">(.*?)<font color="#ff0000">' '<td height=20 width=160 style="padding-left: 10px;">$1<br style="display:none;"><font color="#ff0000">';
+}
