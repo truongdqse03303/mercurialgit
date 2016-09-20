@@ -3,7 +3,7 @@ body, header {
 }
 
 #page-top {
- attribute: clftx add 'exclude';
+ attribute: clftx set 'exclude';
 }
 
 #mv-nav > nav > ul > li {

@@ -14,3 +14,11 @@
 @preprocess {
 replace: 'UA-27275820-1' 'UA-84092521-1';
 }
+
+.footer-link > dl > dt > a {
+ attribute: style add 'letter-spacing: -1px;';
+}
+
+li.news-current {
+ attribute: style add 'line-height: 11.5px;';
+}

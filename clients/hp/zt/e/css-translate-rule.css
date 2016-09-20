@@ -1,7 +1,7 @@
 // @RULESET
 // URL = http://www.skatingjapan.or.jp/common/css/base.css
 @postprocess {
- replace: 'margin-left: 40px;' 'margin-left: 5px;';
+ replace: 'margin-left: 40px;' 'margin-left: 0px;';
 }
 
 // @RULESET
