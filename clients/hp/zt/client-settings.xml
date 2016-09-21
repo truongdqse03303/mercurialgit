@@ -17,6 +17,7 @@
     <url>http://www\.skatingjapan\.or\.jp/figure/music_list/.*</url>
     <url>http://www\.skatingjapan\.or\.jp/figure/(file\.html|trick\.html)</url>    
     <url>http://www\.skatingjapan\.or\.jp/(short|speed)/(file\.html|rule.html)</url>
+    <url>http://www\.skatingjapan\.or\.jp/members/.*</url>
   </url-list>
   
 <!-- 免責ヘッダーを絶対座標で指定 -->
