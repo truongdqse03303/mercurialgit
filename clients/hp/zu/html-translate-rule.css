@@ -1,0 +1,7 @@
+tr > td {
+ attribute: clftx add 'exclude';
+}
+
+@postprocess {
+ replace: '<div align="center"><img src="http://vpack\.park-funabashi\.or\.jp/vpack/Count\.cgi\\?(.*?)" alt="counter" cltx></div>' '';
+}
