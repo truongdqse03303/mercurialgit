@@ -11,7 +11,12 @@
     <request hostname="www.park-funabashi.or.jp" />
   </request-list>
   
-    <resource-handler>
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.park-funabashi\.or\.jp/mailform\.html</url>
+  </url-list>
+
+  <resource-handler>
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.URLEncodeResourceHandler</type>
     <param>
       <param-name>encode.url.1</param-name>
