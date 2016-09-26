@@ -1,0 +1,14 @@
+// @RULESET
+// URL = http://www.oidemase.or.jp/css/common/basic.css
+@postprocess {
+  replace: 'margin: 0 0 3px;' 'margin: 0 -104px 3px;';
+}
+@postprocess {
+  replace: 'font-size:100% !important;' 'font-size:79% !important;';
+}
+@postprocess {
+  replace: 'width: 190px;' 'width: 389px;';
+  replace: 'width: 200px;' 'width: 206px;';
+  replace: 'margin: 0 0 -20px;' 'margin: 0px 111px -20px;';
+  replace: 'margin: 0 0 -10px;' 'margin: 0 -104px -10px';
+}

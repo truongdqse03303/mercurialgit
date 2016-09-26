@@ -1,0 +1,17 @@
+#dg-container > .dg-wrapper , #dg-container {
+   attribute: clftx add 'exclude';
+}
+
+#sns > li {
+   attribute: clftx add 'exclude';
+}
+
+@preprocess {
+   replace: '<div class="pankuzu"><b>(.*?)</b>&nbsp;  &nbsp;<a href="/tabiclub/list\.php\\?(.*?)" title="page 2">(.*?)</a>&nbsp;&nbsp;<a href="/tabiclub/list\.php\\?(.*?)" title="next page">(.*?)</a>&nbsp;&nbsp;</div>' '<div class="pankuzu"><b>$1</b>&nbsp;  <a href="/tabiclub/list\.php\\?$2" title="page 2">$3</a>&nbsp;&nbsp;<br style="display:none;"><a href="/tabiclub/list\.php\\?$4" title="next page">$5</a>&nbsp;&nbsp;</div>';
+   replace: '<div class="pankuzu"><a href="/tabiclub/list\.php\\?(.*?)" title="(.*?)">(.*?)</a>&nbsp;&nbsp;<a href="/tabiclub/list\.php\\?(.*?)" title="(.*?)">(.*?)</a>&nbsp;  &nbsp;<b>(.*?)</b>&nbsp;</div>' '<div class="pankuzu"><a href="/tabiclub/list\.php\\?$1" title="$2">$3</a>&nbsp;&nbsp;<br style="display:none;"><a href="/tabiclub/list\.php\\?$4" title="$5">$6</a>  &nbsp;<b>$7</b>&nbsp;</div>';
+}
+
+
+@postprocess {
+   replace: '<a href="/topics" class="title">(.*?)</a>''<a href="/topics" class="title" style="margin-top: 60px;">$1</a>';
+}

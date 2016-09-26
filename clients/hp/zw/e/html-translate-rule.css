@@ -10,3 +10,12 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
+
+#chaList {
+   attribute: style add 'line-height: 13px;';
+} 
+
+@postprocess {
+   replace: '<li><!--cltx--><a href="/about-yamaguchi/tourism">Sightseeing</a></li>' '<li><!--cltx--><a href="/about-yamaguchi/tourism">Sight<br>seeing</a></li>';
+   replace: '<a href="/about-yamaguchi/gourmet">Gourmet</a>' '<a href="/about-yamaguchi/gourmet">Gour<br>met</a>';   
+}
