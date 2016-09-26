@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>一般社団法人　山口県観光連盟</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>oidemase/service 0be13a4e044643f006995160e804b32124425a9e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.oidemase.or.jp" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
