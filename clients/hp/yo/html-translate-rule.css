@@ -2,6 +2,10 @@
  attribute: style add 'width:203px;';
 }
 
+@preprocess {
+replace: '<span class="alert' '<br style="display:none;"><span class="alert';
+}
+
 @postprocess {
  replace: '<div style="display:none;" id="kisho_info_onoff"><!--cltx-->' '<div style="display:none;" id="kisho_info_onoff">';
 }

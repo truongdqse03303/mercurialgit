@@ -10,3 +10,7 @@
   eid: CR-JT;
   dictionaries: "CROSS_TM_MASTER CROSS_TM_MASTER TOURISM";
 }
+
+li#selector_keihou > a {
+ attribute: style add 'height: 117px';
+}

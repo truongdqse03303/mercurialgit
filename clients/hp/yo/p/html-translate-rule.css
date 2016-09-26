@@ -10,3 +10,7 @@
   eid: BR-JA.PT.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT LAW ECOLOGY";
 }
+
+li#selector_keihou > a {
+ attribute: style add 'height: 117px';
+}
