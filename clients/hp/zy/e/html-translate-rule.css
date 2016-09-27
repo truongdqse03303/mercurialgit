@@ -10,3 +10,9 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER ENTER FASHION SYSTEM MARKET";
 }
+
+// @RULESET
+// URL #= http://www\.trans-action\.co\.jp.*?
+div.inner > nav#global-nav > ul > li > a {
+ attribute: style add "font-size:12px;";
+}
