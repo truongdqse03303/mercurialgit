@@ -19,3 +19,11 @@
    replace: '<li><!--cltx--><a href="/about-yamaguchi/tourism">Sightseeing</a></li>' '<li><!--cltx--><a href="/about-yamaguchi/tourism">Sight<br>seeing</a></li>';
    replace: '<a href="/about-yamaguchi/gourmet">Gourmet</a>' '<a href="/about-yamaguchi/gourmet">Gour<br>met</a>';   
 }
+
+@postprocess {
+   replace: 'href="https://www\.oidemase\.or\.jp/wp-content/plugins/wptouch-pro-3/themes/foundation/modules/font-awesome/font-awesome\.min\.css\\?ver=2\.2"' 'href="http://www.oidemase.or.jp.e.zw.hp.transer.com/wp-content/plugins/wptouch-pro-3/themes/foundation/modules/font-awesome/font-awesome.min.css?ver=2.2"';
+}
+
+.seasonText {
+ attribute: style set "font-size:12px;";
+}
