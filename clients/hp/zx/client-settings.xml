@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ひがし北海道5空港ネット運営協</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>easthokkaido-5airport/service a9411925deefd09f6973a79516c246d17822726e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.easthokkaido-5airport.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
