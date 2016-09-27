@@ -11,10 +11,6 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT SYSTEM LAW ECOLOGY";
 }
 
-li#selector_keihou > a {
- attribute: style add 'height: 117px';
-}
-
 // @RULESET
 // URL ^= http://bosai.net/community/index.do?id=52
 // URL ^= http://bosai.net/community/index.do?id=51
