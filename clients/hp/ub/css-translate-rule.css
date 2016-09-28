@@ -1,0 +1,5 @@
+// @RULESET
+// URL = http://amu-n.co.jp/css/common.css
+@preprocess {
+  replace: 'margin: 100px 0 0;' 'margin: 118px 0 0;';
+}

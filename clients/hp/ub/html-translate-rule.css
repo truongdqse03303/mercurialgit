@@ -1,0 +1,9 @@
+.index-gnav, .global-header, .gnav-in, .main-header {
+ attribute: style add "margin-top: 44px;";
+}
+
+// @RULESET
+// URL ^= http://amu-n.co.jp/sp/
+.index-gnav, .global-header, .gnav-in, .main-header {
+ attribute: style add "margin-top: 44px;";
+}
