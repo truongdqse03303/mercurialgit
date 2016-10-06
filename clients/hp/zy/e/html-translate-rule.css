@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER ENTER FASHION SYSTEM MARKET";
 }
 
+@preprocess {
+ replace:'<span>TRANSACTION</span>' '<span>TRANSACTION</span><br style="display:none;">';
+}
+
 // @RULESET
 // URL #= http://www\.trans-action\.co\.jp.*?
 div.inner > nav#global-nav > ul > li > a {

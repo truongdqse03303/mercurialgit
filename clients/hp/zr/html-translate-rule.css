@@ -8,6 +8,7 @@ header#site-area-header {
 
 // @RULESET
 // URL = http://www.daiwaresort.jp/contents/royton/jal/jaldp_royton/index.html
+// URL = http://dr03.compolex.com/contents/royton/jal/jaldp_royton/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="http://www.jal.co.jp/domtour/jaldp/template/htl/js/include_Y15.js" charset="UTF-8">' '<script type="text/javascript" src="http://www.jal.co.jp/domtour/jaldp/template/htl/js/include_Y15.js" charset="Shift-JIS">';
 }
@@ -24,6 +25,7 @@ td.alR > a > img {
 
 // @RULESET
 // URL #= http://www\.daiwaresort\.jp/contents/(.*?)/ana/tabisaku_(.*?)/.*
+// URL #= http://dr03\.compolex\.com/contents/(.*?)/ana/tabisaku_(.*?)/.*
 #wrapper > #header > a > img {
    attribute: style add 'margin-top: 36px;';
 }
@@ -32,6 +34,9 @@ td.alR > a > img {
 // URL #= http://www\.daiwaresort\.jp/(royton|hachimantai|zaou|urabandai|rindou|tomiura|yatsugadake|matsushiro|hamanako|tonami|ise|nagahama|miyazu|kashihara|kushimoto|minabe|awaji|daisen|tosa|yahata|genkai|karatsu|beppu|kirishima|okinawa)/wedding/index.html/
 // URL #= http://www\.daiwaresort\.jp/(royton|hachimantai|zaou|urabandai|rindou|tomiura|yatsugadake|matsushiro|hamanako|tonami|ise|nagahama|miyazu|kashihara|kushimoto|minabe|awaji|daisen|tosa|yahata|genkai|karatsu|beppu|kirishima|okinawa)/wedding/(.*?)/index.html/
 // URL #= http://www\.daiwaresort\.jp\.e\.zr\.hp\.transer\.com/(royton|hachimantai|zaou|urabandai|rindou|tomiura|yatsugadake|matsushiro|hamanako|tonami|ise|nagahama|miyazu|kashihara|kushimoto|minabe|awaji|daisen|tosa|yahata|genkai|karatsu|beppu|kirishima|okinawa)/wedding/(.*?)/index.html/
+// URL #= http://dr03\.compolex\.com/(royton|hachimantai|zaou|urabandai|rindou|tomiura|yatsugadake|matsushiro|hamanako|tonami|ise|nagahama|miyazu|kashihara|kushimoto|minabe|awaji|daisen|tosa|yahata|genkai|karatsu|beppu|kirishima|okinawa)/wedding/index.html/
+// URL #= http://dr03\.compolex\.com/(royton|hachimantai|zaou|urabandai|rindou|tomiura|yatsugadake|matsushiro|hamanako|tonami|ise|nagahama|miyazu|kashihara|kushimoto|minabe|awaji|daisen|tosa|yahata|genkai|karatsu|beppu|kirishima|okinawa)/wedding/(.*?)/index.html/
+// URL #= http://dr03\.compolex\.com\.e\.zr\.hp\.transer\.com/(royton|hachimantai|zaou|urabandai|rindou|tomiura|yatsugadake|matsushiro|hamanako|tonami|ise|nagahama|miyazu|kashihara|kushimoto|minabe|awaji|daisen|tosa|yahata|genkai|karatsu|beppu|kirishima|okinawa)/wedding/(.*?)/index.html/
 p.subText {
  attribute: style add 'margin-top: 13px;';
 }
@@ -53,6 +58,7 @@ p.number {
 
 // @RULESET
 // URL #= http://www\.daiwaresort\.jp/(.*?)/convention/index\.html/
+// URL #= http://dr03\.compolex\.com/(.*?)/convention/index\.html/
 .headerPadder {
  attribute: style add 'margin-top: 34px;';
 }
@@ -60,6 +66,7 @@ p.number {
 
 // @RULESET
 // URL #= http://www\.daiwaresort\.jp/gaiyo/.*
+// URL #= http://dr03\.compolex\.com/gaiyo/.*
 h1.logo, .logo_g, #left {
   attribute: style add 'margin-top: 33px;';
 }
@@ -72,6 +79,10 @@ h1.logo, .logo_g, #left {
 // URL #= http://www\.daiwaresort\.jp/index\.html/.*
 // URL #= http://www\.daiwaresort\.jp/(.*?)/index\.html/.*
 // URL #= http://www\.daiwaresort\.jp/(.*?)/(.*?)/index\.html/.*
+// URL #= http://dr03\.compolex\.com
+// URL #= http://dr03\.compolex\.com/index\.html/.*
+// URL #= http://dr03\.compolex\.com/(.*?)/index\.html/.*
+// URL #= http://dr03\.compolex\.com/(.*?)/(.*?)/index\.html/.*
 div#logo {
   attribute: style add 'margin-top: 30px;';
 }

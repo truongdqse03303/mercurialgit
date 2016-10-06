@@ -8,6 +8,10 @@ div.swiper-container {
  attribute: style add "top:34px;";
 }
 
+div.swiper-container > div.swiper-wrapper.company > div.swiper-slide {
+ attribute: style add "margin-top:34px;";
+}
+
 // @RULESET
 // URL #= http://www\.vapestudio\.jp.*?
 div#wrapper > header#header > div.sp_erace > div.inner.headerInner.relativeBlock {

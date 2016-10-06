@@ -12,6 +12,11 @@
     <request hostname="www.vapestudio.jp" />
   </request-list>
 
+  <!-- 翻訳対象外 -->
+  <url-list type="ignore">
+    <url>http://www\.trans-action\.co\.jp/contact/.*?</url>
+  </url-list>
+
   <extension-param>
     <param-name>site.translate.header.style</param-name>
     <param-value>style:#site-translate-header-wrapper{width:100% !important; height:30px; position:fixed; top:0; z-index:10000;}#site-translate-header-wrapper p{font-size:10px;}</param-value>
