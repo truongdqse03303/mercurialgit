@@ -3,12 +3,12 @@
 }
 
 @preprocess {
- replace: '<span class="alert(.*?)Žw</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
- replace: '<span class="alert(.*?)Š©</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
- replace: '<span class="alert(.*?)€</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
- replace: '<span class="alert(.*?)“Á</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
- replace: '<span class="alert(.*?)Œx</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
- replace: '<span class="alert(.*?)’</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)æŒ‡</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)å‹§</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)æº–</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)ç‰¹</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)è­¦</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)æ³¨</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
 }
 
 @postprocess {
