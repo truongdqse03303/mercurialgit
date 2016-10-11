@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>三井不動産リアルティ株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>rehouse/service 8486bc81cbbb9699ce0d48bcdbd1b03b33eebe74</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.rehouse.co.jp" path="(/cityBukkenList/.*|/toshin/search/.*|/toshin/bkdetail/.*|/investBukkenList/.*)" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

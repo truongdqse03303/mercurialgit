@@ -7,6 +7,50 @@ header#site-area-header {
 }
 
 // @RULESET
+// URL = http://www.daiwaresort.jp/contents/hellokittyroom/contents/areamap/index.html
+// URL #= http://www.daiwaresort.jp/contents/hellokittyroom/contents/room/.*?
+// URL = http://dr03.compolex.com/contents/hellokittyroom/contents/areamap/index.html
+// URL #= http://dr03.compolex.com/contents/hellokittyroom/contents/room/.*?
+div.site-wrapper > header.site-header {
+  attribute: style add 'margin-top:38px;';
+}
+
+nav.site-header-02 > div.inner > ul {
+  attribute: style add 'margin-top:-110px;margin-right:-20px;';
+}
+
+div.site-wrapper > main.main-contents {
+  attribute: style add 'margin-top:0;';
+}
+
+div.site-wrapper > main.main-contents > nav.navi-pankz > ul {
+  attribute: style add 'margin-top:200px;';
+}
+
+// @RULESET
+// URL #= http://www\.daiwaresort\.jp/contents/hellokittyroom/.*?
+// URL #= http://dr03\.compolex\.com/contents/hellokittyroom/.*?
+div.site-wrapper > header.site-header {
+  attribute: style add 'margin-top:38px;';
+}
+
+nav.site-header-02 > div.inner > ul {
+  attribute: style add 'margin-top:-110px;margin-right:-20px;';
+}
+
+div.site-wrapper > main.main-contents {
+  attribute: style add 'margin-top:0;';
+}
+
+div.site-wrapper > main.main-contents > section.areamap-section-01 {
+  attribute: style add 'margin-top:162px;';
+}
+
+div.site-wrapper > main.main-contents > nav.navi-pankz {
+  attribute: style add 'margin-top:200px;';
+}
+
+// @RULESET
 // URL = http://www.daiwaresort.jp/contents/royton/jal/jaldp_royton/index.html
 // URL = http://dr03.compolex.com/contents/royton/jal/jaldp_royton/index.html
 @postprocess {

@@ -3,7 +3,12 @@
 }
 
 @preprocess {
-replace: '<span class="alert' '<br style="display:none;"><span class="alert';
+ replace: '<span class="alert(.*?)Žw</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)Š©</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)€</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)“Á</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)Œx</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)’</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
 }
 
 @postprocess {

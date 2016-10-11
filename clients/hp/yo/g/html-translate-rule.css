@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT LAW ECOLOGY";
 }
 
+li#selector_keihou > a,li#selector_kankoku > a {
+ attribute: style add 'font-size: 14px';
+}
+
 // @RULESET
 // URL ^= http://bosai.net/community/index.do?id=52
 // URL ^= http://bosai.net/community/index.do?id=51

@@ -18,8 +18,8 @@
 <!-- 免責ヘッダーを絶対座標で指定 -->
  <extension-param>
    <param-name>site.translate.header.style</param-name>
-   <param-value>style:#site-translate-header-wrapper{width:100% !important; height:34px; position:fixed;}#site-translate-header-wrapper p{font-size:10px;}</param-value>
-</extension-param>
+   <param-value>style:#site-translate-header-wrapper{width:100% !important; height:34px; position:fixed;z-index:10000;}#site-translate-header-wrapper p{font-size:10px;}</param-value>
+ </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
