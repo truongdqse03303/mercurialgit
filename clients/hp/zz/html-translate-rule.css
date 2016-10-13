@@ -4,6 +4,7 @@ div#zoomImgItem {
 
 @preprocess {
   replace: '<strong class="noticeTxt01 noticeTxt02 noticeTxt03">(.*?)</strong>件見つかりました' '<strong class="noticeTxt01 noticeTxt02 noticeTxt03">$1</strong><br style="display:none;">件見つかりました';
+  replace: '<strong class="noticeTxt02 noticeTxt04">(.*?)</strong>' '<strong class="noticeTxt02 noticeTxt04">$1</strong><br style="display:none;">';
   replace: 'return false;">高い</a>｜</dd>' 'return false;"><br style="display:none;">高い</a><br style="display:none;">｜</dd>';
   replace: 'return false;">広い</a>｜</dd>' 'return false;"><br style="display:none;">広い</a><br style="display:none;">｜</dd>';
   replace: 'return false;">多い</a>｜</dd>' 'return false;"><br style="display:none;">多い</a><br style="display:none;">｜</dd>';
