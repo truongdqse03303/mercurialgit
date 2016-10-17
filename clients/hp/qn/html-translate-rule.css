@@ -1,3 +1,0 @@
-@postprocess {
-  replace: '(<h1 id="mincho1">)<!--cltx-->' '$1';
-}
