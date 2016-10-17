@@ -145,5 +145,3 @@ a[href="http://www.matsuzakaya.co.jp/nagoya/inbound/en/"] {
   replace: '(<meta http-equiv="refresh" content="3 ; URL=)s(/index.html">)' '$1t$2';
 }
 
-// @RULESET
-// URL #=http://www.daimaru.co.jp/fukuoka/.*
