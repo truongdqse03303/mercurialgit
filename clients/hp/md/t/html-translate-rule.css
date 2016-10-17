@@ -147,6 +147,3 @@ a[href="http://www.matsuzakaya.co.jp/nagoya/inbound/en/"] {
 
 // @RULESET
 // URL #=http://www.daimaru.co.jp/fukuoka/.*
-a[href^="http://wakaba.coara.or.jp/cg25000/floorguide/index.php?type=top"] {
-attribute: href rewrite "http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/tw/floormap/index.html";
-}
