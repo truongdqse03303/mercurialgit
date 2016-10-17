@@ -127,12 +127,6 @@ h1.logo, .logo_g, #left {
 // URL #= http://dr03\.compolex\.com/index\.html/.*
 // URL #= http://dr03\.compolex\.com/(.*?)/index\.html/.*
 // URL #= http://dr03\.compolex\.com/(.*?)/(.*?)/index\.html/.*
-div#logo {
-  attribute: style add 'margin-top: 30px;';
-}
-.languageNavi {
-  attribute: style add 'margin-top: 32px;';
-}
-.rightBlock {
-  attribute: style add 'margin-top: 34px;';
+div#header > div.headerPadder > div.headerPadder {
+ attribute: style add 'margin-top:34px;';
 }
