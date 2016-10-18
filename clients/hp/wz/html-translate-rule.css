@@ -1,3 +1,7 @@
+body {
+attribute:style add 'margin-top:44px;';
+}
+
 // @RULESET
 // URL = http://www.jrtk.jp/company/jigyou.html
 div#jigyou-left-box > ol > li > a {
