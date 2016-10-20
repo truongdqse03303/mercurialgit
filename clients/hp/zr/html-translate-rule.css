@@ -15,10 +15,6 @@ div.site-wrapper > header.site-header {
   attribute: style add 'margin-top:38px;';
 }
 
-nav.site-header-02 > div.inner > ul {
-  attribute: style add 'margin-top:-110px;margin-right:-20px;';
-}
-
 div.site-wrapper > main.main-contents {
   attribute: style add 'margin-top:0;';
 }
@@ -32,10 +28,6 @@ div.site-wrapper > main.main-contents > nav.navi-pankz > ul {
 // URL #= http://dr03\.compolex\.com/contents/hellokittyroom/.*?
 div.site-wrapper > header.site-header {
   attribute: style add 'margin-top:38px;';
-}
-
-nav.site-header-02 > div.inner > ul {
-  attribute: style add 'margin-top:-110px;margin-right:-20px;';
 }
 
 div.site-wrapper > main.main-contents {

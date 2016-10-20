@@ -23,3 +23,10 @@
 .search_listname {
  attribute: style add 'font-size: 10px;';
 }
+
+// @RULESET
+// URL #= http://www\.daiwaresort\.jp/contents/hellokittyroom/.*?
+// URL #= http://dr03\.compolex\.com/contents/hellokittyroom/.*?
+nav.site-header-02 > div.inner > ul > li > a{
+  attribute: style add 'font-size:10px;';
+}
