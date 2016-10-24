@@ -29,3 +29,8 @@
  replace:'cas</em>es\.</span>' '</em>cases.</span>';
  replace:'ca</em>ses\.</span>' '</em>cases.</span>';
 }
+
+@postprocess {
+ replace:'UA-52357561-1' 'UA-52357561-4';
+ replace:'UA-52898506-1' 'UA-52357561-4';
+}
