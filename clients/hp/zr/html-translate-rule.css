@@ -80,7 +80,7 @@ p.number {
  attribute: style add 'white-space: nowrap;';
 }
 .separatorBlock {
-  attribute: style add 'margin-top: 14px;';
+  attribute: style add 'margin-top: 20px;';
 }
 #hotelLogo > a > img {
   attribute: style add 'margin-top: 20px;';
@@ -91,14 +91,6 @@ p.number {
 .elem_headingCategoryPadder {
   attribute: style add 'margin-top: 26px;';
 }
-
-// @RULESET
-// URL #= http://www\.daiwaresort\.jp/(.*?)/convention/index\.html/
-// URL #= http://dr03\.compolex\.com/(.*?)/convention/index\.html/
-.headerPadder {
- attribute: style add 'margin-top: 34px;';
-}
-
 
 // @RULESET
 // URL #= http://www\.daiwaresort\.jp/gaiyo/.*
