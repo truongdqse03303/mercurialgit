@@ -14,3 +14,30 @@
 @postprocess {
  replace: '<div style="display:none;" id="kisho_info_onoff"><!--cltx-->' '<div style="display:none;" id="kisho_info_onoff">';
 }
+// @RULESET
+// URL = http://web.bosai.pref.hyogo.lg.jp/
+// URL = http://web.bosai.pref.hyogo.lg.jp/index.html
+@preprocess {
+ replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
+ replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
+ replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
+ replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
+ replace:'<div id="block_lifeline" class="block clearfix">' '<!-- crosslanguage:delete --><div id="block_lifeline" class="block clearfix">';
+ replace:'<!--/block_lifeline-->' '<!-- /crosslanguage:delete --><!--/block_lifeline-->';
+ replace:'<select id="sidebar_cities_selector" class="sidebar_selector">' '<!-- crosslanguage:delete --><select id="sidebar_cities_selector" class="sidebar_selector">';
+}
+
+// @RULESET
+// URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html
+@preprocess {
+ replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
+ replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
+ replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
+ replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
+ replace:'<div id="block_lifeline" class="block clearfix">' '<!-- crosslanguage:delete --><div id="block_lifeline" class="block clearfix">';
+ replace:'<!--/block_lifeline-->' '<!-- /crosslanguage:delete --><!--/block_lifeline-->';
+ replace:'<select id="sidebar_cities_selector" class="sidebar_selector">' '<!-- crosslanguage:delete --><select id="sidebar_cities_selector" class="sidebar_selector">';
+ replace:'<!--/lefter-->' '<!-- /crosslanguage:delete --></div><!--/box--></div><!--/lefter-->';
+}
