@@ -1,0 +1,143 @@
+@engine default {
+  eid: BR-JA.DE.EN;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT LAW ECOLOGY";
+}
+@engine bosainet/main {
+  eid: BR-JA.DE.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT LAW ECOLOGY";
+}
+@engine bosainet/cross {
+  eid: BR-JA.DE.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT LAW ECOLOGY";
+}
+
+// @RULESET
+// URL ^= http://bosai.net/community/index.do?id=52
+// URL ^= http://bosai.net/community/index.do?id=51
+// URL ^= http://bosai.net/community/index.do?id=50
+// URL ^= http://bosai.net/community/index.do?id=49
+// URL ^= http://bosai.net/community/index.do?id=48
+// URL ^= http://bosai.net/community/index.do?id=47
+// URL ^= http://bosai.net/community/index.do?id=46
+// URL ^= http://bosai.net/community/index.do?id=45
+// URL ^= http://bosai.net/community/index.do?id=44
+// URL ^= http://bosai.net/community/index.do?id=43
+// URL ^= http://bosai.net/community/index.do?id=42
+// URL ^= http://bosai.net/community/index.do?id=41
+// URL ^= http://bosai.net/community/index.do?id=40
+// URL ^= http://bosai.net/community/index.do?id=39
+// URL ^= http://bosai.net/community/index.do?id=38
+// URL ^= http://bosai.net/community/index.do?id=37
+// URL ^= http://bosai.net/community/index.do?id=36
+// URL ^= http://bosai.net/community/index.do?id=35
+// URL ^= http://bosai.net/community/index.do?id=34
+// URL ^= http://bosai.net/community/index.do?id=33
+// URL ^= http://bosai.net/community/index.do?id=32
+// URL ^= http://bosai.net/community/index.do?id=31
+// URL ^= http://bosai.net/community/index.do?id=30
+// URL ^= http://bosai.net/community/index.do?id=29
+// URL ^= http://bosai.net/community/index.do?id=28
+// URL ^= http://bosai.net/community/index.do?id=27
+// URL ^= http://bosai.net/community/index.do?id=26
+// URL ^= http://bosai.net/community/index.do?id=25
+// URL ^= http://bosai.net/community/index.do?id=24
+// URL ^= http://bosai.net/community/index.do?id=23
+// URL ^= http://bosai.net/community/index.do?id=22
+// URL ^= http://bosai.net/community/index.do?id=21
+// URL ^= http://bosai.net/community/index.do?id=20
+// URL ^= http://bosai.net/community/index.do?id=19
+// URL ^= http://bosai.net/community/index.do?id=18
+// URL ^= http://bosai.net/community/index.do?id=17
+// URL ^= http://bosai.net/community/index.do?id=16
+// URL ^= http://bosai.net/community/index.do?id=15
+// URL ^= http://bosai.net/community/index.do?id=14
+// URL ^= http://bosai.net/community/index.do?id=13
+// URL ^= http://bosai.net/community/index.do?id=3
+@postprocess {
+ replace:'href="http://bosai.net/index.do' 'href="http://bosai.net/selectlang/de/area.do';
+}
+
+// @RULESET
+// URL ^= http://bosai.net/community/index.do?id=
+@postprocess {
+ replace:'href="http://bosai.net/index.do' 'href="http://bosai.net/selectlang/de/area2.do';
+}
+
+// @RULESET
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=123
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=105
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=104
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=103
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=100
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=99
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=98
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=97
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=93
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=92
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=90
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=89
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=81
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=80
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=79
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=76
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=75
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=73
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=72
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=71
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=70
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=69
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=68
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=67
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=66
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=65
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=64
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=52
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=51
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=50
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=49
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=48
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=47
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=46
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=45
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=44
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=43
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=42
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=41
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=40
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=39
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=38
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=37
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=36
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=35
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=34
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=33
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=32
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=31
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=30
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=29
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=28
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=27
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=26
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=25
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=24
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=23
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=22
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=21
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=20
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=19
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=18
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=17
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=16
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=15
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=14
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=13
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=3
+@postprocess {
+ replace:'href="http://bosai.dev02.smartvalue.ad.jp/index.do' 'href="http://bosai.dev02.smartvalue.ad.jp/selectlang/de/area.do';
+}
+
+// @RULESET
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?id=
+@postprocess {
+ replace:'href="http://bosai.dev02.smartvalue.ad.jp/index.do' 'href="http://bosai.dev02.smartvalue.ad.jp/selectlang/de/area2.do';
+}
