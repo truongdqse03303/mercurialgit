@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ならファミリー</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>narafa/service 91b6f4d92c72e499f12aea161e76bdfcc3d9ef3a</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.narafa.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
