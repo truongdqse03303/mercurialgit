@@ -3,17 +3,19 @@
 }
 
 @preprocess {
- replace: '<span class="alert(.*?)指</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
- replace: '<span class="alert(.*?)勧</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
- replace: '<span class="alert(.*?)準</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
- replace: '<span class="alert(.*?)特</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
- replace: '<span class="alert(.*?)警</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
- replace: '<span class="alert(.*?)注</span>' '<br style="display:none;"><span class="alert$1&emsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)指</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)勧</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)準</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)特</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)警</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
+ replace: '<span class="alert(.*?)注</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
+ replace: '・' '<br style="display:none;">';
 }
 
 @postprocess {
  replace: '<div style="display:none;" id="kisho_info_onoff"><!--cltx-->' '<div style="display:none;" id="kisho_info_onoff">';
 }
+
 // @RULESET
 // URL = http://web.bosai.pref.hyogo.lg.jp/
 // URL = http://web.bosai.pref.hyogo.lg.jp/index.html
@@ -26,6 +28,8 @@
  replace:'<div id="block_lifeline" class="block clearfix">' '<!-- crosslanguage:delete --><div id="block_lifeline" class="block clearfix">';
  replace:'<!--/block_lifeline-->' '<!-- /crosslanguage:delete --><!--/block_lifeline-->';
  replace:'<select id="sidebar_cities_selector" class="sidebar_selector">' '<!-- crosslanguage:delete --><select id="sidebar_cities_selector" class="sidebar_selector">';
+ replace:'<div id="links" class="section three2 clearfix">' '<!-- crosslanguage:delete --><div id="links" class="section three2 clearfix">';
+ replace:'<!--/section-->' '<!-- /crosslanguage:delete --><!--/section-->';
 }
 
 // @RULESET
