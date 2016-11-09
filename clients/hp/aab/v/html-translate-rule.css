@@ -12,6 +12,12 @@
 }
 
 // @RULESET
+// URL ^= http://bosai.net/community/index.do?areaCode=
+@postprocess {
+ replace:'href="http://bosai.net/index.do' 'href="http://bosai.net/selectlang/vi/area.do';
+}
+
+// @RULESET
 // URL ^= http://bosai.net/community/index.do?id=52
 // URL ^= http://bosai.net/community/index.do?id=51
 // URL ^= http://bosai.net/community/index.do?id=50
@@ -61,6 +67,12 @@
 // URL ^= http://bosai.net/community/index.do?id=
 @postprocess {
  replace:'href="http://bosai.net/index.do' 'href="http://bosai.net/selectlang/vi/area2.do';
+}
+
+// @RULESET
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/community/index.do?areaCode=
+@postprocess {
+ replace:'href="http://bosai.dev02.smartvalue.ad.jp/index.do' 'href="http://bosai.dev02.smartvalue.ad.jp/selectlang/vi/area.do';
 }
 
 // @RULESET
