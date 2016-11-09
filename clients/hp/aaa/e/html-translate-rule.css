@@ -16,5 +16,9 @@
 }
 
 dd > dl > dt.hours, dd > dl > dt.parking, dd > dl > dt.rakudacard, dd > dl > dt.service {
-  attribute:style add 'text-align:right;';
+  attribute:style add 'text-indent:40px;';
+}
+
+dd > div.row.accessLinks > div.col-sm-3 > a {
+  attribute:style add 'text-indent:40px;';
 }
