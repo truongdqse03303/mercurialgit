@@ -1,0 +1,16 @@
+body {
+  attribute:style add 'margin-top:44px;';
+}
+
+div#header-sp {
+  attribute:style add 'margin-top:44px;';
+  attribute:cltx add 'exclude';
+}
+
+footer > div.pagetopBox {
+  attribute:cltx add 'exclude';
+}
+
+ul.snsBox {
+  attribute:cltx add 'exclude';
+}

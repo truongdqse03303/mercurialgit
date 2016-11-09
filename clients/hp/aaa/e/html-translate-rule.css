@@ -10,3 +10,11 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
+
+.infoLinks > li > a {
+  attribute:style add 'font-size:14px; line-height:20px;';
+}
+
+dd > dl > dt.hours, dd > dl > dt.parking, dd > dl > dt.rakudacard, dd > dl > dt.service {
+  attribute:style add 'text-align:right;';
+}
