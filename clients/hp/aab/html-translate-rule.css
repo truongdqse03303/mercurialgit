@@ -2,12 +2,12 @@
 // URL #= http://bosai\.net/weather/detail.*?
 // URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/weather/detail.*?
 @preprocess {
- replace: '市　' '市　<br style="display:none;">';
- replace: '区　' '区　<br style="display:none;">';
- replace: '町　' '町　<br style="display:none;">';
- replace: '村　' '村　<br style="display:none;">';
- replace: '市\\*' '市\\*<br style="display:none;">';
- replace: '区\\*' '区\\*<br style="display:none;">';
- replace: '町\\*' '町\\*<br style="display:none;">';
- replace: '村\\*' '村\\*<br style="display:none;">';
+ replace: '市　' '市<br style="display:none;">　';
+ replace: '区　' '区<br style="display:none;">　';
+ replace: '町　' '町<br style="display:none;">　';
+ replace: '村　' '村<br style="display:none;">　';
+ replace: '市\\*' '市<br style="display:none;">\\*';
+ replace: '区\\*' '区<br style="display:none;">\\*';
+ replace: '町\\*' '町<br style="display:none;">\\*';
+ replace: '村\\*' '村<br style="display:none;">\\*';
 }
