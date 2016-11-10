@@ -14,3 +14,7 @@ footer > div.pagetopBox {
 ul.snsBox {
   attribute:cltx add 'exclude';
 }
+
+ul.languages > li > a {
+  attribute:cltx add 'exclude';
+}
