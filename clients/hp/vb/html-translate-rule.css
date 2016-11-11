@@ -1,7 +1,10 @@
+div#coupon {
+  attribute:cltx add 'exclude';
+}
+
 @preprocess {
   replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
-
 
 // @RULESET
 // URL #= http://www\.ekipara\.com/building/.*
