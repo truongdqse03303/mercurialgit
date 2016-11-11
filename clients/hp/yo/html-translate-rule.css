@@ -13,7 +13,7 @@ div#informations_cities_selector > ul > li {
  replace: '<span class="alert(.*?)特</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
  replace: '<span class="alert(.*?)警</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
  replace: '<span class="alert(.*?)注</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
- replace: '・' '<br style="display:none;">';
+ replace: '・' '<br style="display:none;">・<br style="display:none;">';
 }
 
 @postprocess {
