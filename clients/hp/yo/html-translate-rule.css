@@ -2,6 +2,10 @@
  attribute: style add 'width:203px;';
 }
 
+div#informations_cities_selector > ul > li {
+ attribute: style add 'width:110px;';
+}
+
 div#box_weather_kankoku_cities.box_weather_tab_cities > dl > dt, div#box_weather_kankoku_cities.box_weather_tab_cities > dl > dd {
  attribute: style add 'width:130px;';
 }
