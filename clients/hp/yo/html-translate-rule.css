@@ -6,14 +6,6 @@ div#informations_cities_selector > ul > li {
  attribute: style add 'width:110px;';
 }
 
-div#box_weather_kankoku_cities.box_weather_tab_cities > dl > dt, div#box_weather_kankoku_cities.box_weather_tab_cities > dl > dd {
- attribute: style add 'width:130px;';
-}
-
-div#box_weather_keihou_cities.box_weather_tab_cities > dl > dt, div#box_weather_keihou_cities.box_weather_tab_cities > dl > dd {
- attribute: style add 'width:130px;';
-}
-
 @preprocess {
  replace: '<span class="alert(.*?)指</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
  replace: '<span class="alert(.*?)勧</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';

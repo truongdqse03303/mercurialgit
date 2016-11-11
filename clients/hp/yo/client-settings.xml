@@ -10,7 +10,8 @@
   <request-list>
     <request hostname="bosai.net" />
     <request hostname="web.bosai.pref.hyogo.lg.jp" />
-    <request hostname="bosai.dev02.smartvalue.ad.jp" />    
+    <request hostname="bosai.dev02.smartvalue.ad.jp" />
+    <request hostname="www.rkansai.net" />
   </request-list>
 
   <!-- Microsoft Translatorロゴを表示する設定ID -->
@@ -36,7 +37,9 @@
     <param>
       <param-name>resource.url.pattern</param-name>
       <param-value>http://web\.bosai\.pref\.hyogo\.lg\.jp/css/font-awesome\.css</param-value>
-      <param-value>http://web\.bosai\.pref\.hyogo\.lg\.jp/js/.*</param-value>      
+      <param-value>http://web\.bosai\.pref\.hyogo\.lg\.jp/js/.*</param-value>
+      <param-value>http://wwww\.rkansai\.net/sys/bosai/css/font-awesome\.css</param-value>
+      <param-value>http://www\.rkansai\.net/sys/bosai/js/.*</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
