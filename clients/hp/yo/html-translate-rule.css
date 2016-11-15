@@ -7,6 +7,12 @@ div#informations_cities_selector > ul > li {
 }
 
 @preprocess {
+ replace: "brbr" "<br />";
+ replace: "%FSP%" "<span style='padding-right:1em;'>";
+ replace: "%BSP%" "</span>";
+}
+
+@preprocess {
  replace: '<span class="alert(.*?)指</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
  replace: '<span class="alert(.*?)勧</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
  replace: '<span class="alert(.*?)準</span>' '<br style="display:none;"><span class="alert$1&nbsp;&nbsp;</span><br style="display:none;">';
