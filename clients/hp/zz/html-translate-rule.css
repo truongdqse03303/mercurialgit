@@ -12,6 +12,14 @@ div#zoomImgItem {
   replace: '<span class="icoAlt">新しいウィンドウが開きます</span>' '<span class="icoAlt">新しいウィンドウが開きます</span><br style="display:none;">';
 }
 
+@preprocess {
+  replace: 'src="//www.rehouse.co.jp/dir_sys/javascript/keywordSave.js"' 'src="http://www.rehouse.co.jp/dir_sys/javascript/keywordSave.js"';
+}
+
+@postprocess {
+  replace: "window.open\\('/(.*?)/lang/guide/index\.html'\\)" "window.open\\('http://www\.rehouse\.co\.jp/$1/lang/guide/index\.html'\\)";
+}
+
 @postprocess {
   replace: 'cltx>&lt;/&gt;' 'cltx>';
 }
