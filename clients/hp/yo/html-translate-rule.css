@@ -100,7 +100,7 @@ table#ResultList > tr > td {
 
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
- replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<li id="englishurl"><a href="en/index.html">English</a></li>' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
  replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
  replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
  replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
@@ -126,9 +126,7 @@ table#exist_data_higai > tr > td#ListCol1 {
  attribute: style add 'width:144px;';
 }
 
-table#exist_data_higai > tr > td#ListCol2,table#exist_data_higai > tr > td#ListCol3,table#exist_data_higai > tr > td#ListCol4,table#exist_data_higai
-> tr > td#ListCol5,table#exist_data_higai > tr > td#ListCol6,table#exist_data_higai > tr > td#ListCol7,table#exist_data_higai > tr > td#ListCol8,tabl
-e#exist_data_higai > tr > td#ListCol9,table#exist_data_higai > tr > td#ListCol10 {
+table#exist_data_higai > tr > td#ListCol2,table#exist_data_higai > tr > td#ListCol3,table#exist_data_higai > tr > td#ListCol4,table#exist_data_higai> tr > td#ListCol5,table#exist_data_higai > tr > td#ListCol6,table#exist_data_higai > tr > td#ListCol7,table#exist_data_higai > tr > td#ListCol8,table#exist_data_higai > tr > td#ListCol9,table#exist_data_higai > tr > td#ListCol10 {
  attribute: style add 'width:85px;';
 }
 
@@ -146,7 +144,7 @@ table#ResultList > tr > td {
 
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
- replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<li id="englishurl"><a href="en/index.html">English</a></li>' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
  replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
  replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
  replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
@@ -202,7 +200,7 @@ table[id^="ResultList"] {
 
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
- replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<li id="englishurl"><a href="en/index.html">English</a></li>' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
  replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
  replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
  replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
