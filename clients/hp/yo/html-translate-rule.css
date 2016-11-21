@@ -53,6 +53,18 @@ div#box_weather_keihou_cities.box_weather_tab_cities > dl > dt, div#box_weather_
 // URL = http://www.rkansai.net/sys/bosai/index.html
 // URL = http://bosai.dev02.smartvalue.ad.jp/
 // URL = http://bosai.dev02.smartvalue.ad.jp/index.html
+div#informations.section.four.clearfix > div.block > div.box > dl > dd {
+ attribute: style add 'height:50px;font-size:12px;';
+}
+
+div#informations.section.four.clearfix > div.block > div.box > dl > dt {
+ attribute: style add 'font-size:12px;';
+}
+
+div#informations.section.four.clearfix > div.block.rightest > div.box > dl#exist_data_taisei_shicho.columns.clearfix > dd {
+ attribute: style add 'height:100px;font-size:12px;';
+}
+
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
  replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
@@ -64,22 +76,6 @@ div#box_weather_keihou_cities.box_weather_tab_cities > dl > dt, div#box_weather_
  replace:'<select id="sidebar_cities_selector" class="sidebar_selector">' '<!-- crosslanguage:delete --><select id="sidebar_cities_selector" class="sidebar_selector">';
  replace:'<div id="links" class="section three2 clearfix">' '<!-- crosslanguage:delete --><div id="links" class="section three2 clearfix">';
  replace:'<!--/section-->' '<!-- /crosslanguage:delete --><!--/section-->';
-}
-
-// @RULESET
-// URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html
-// URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html
-// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html
-@preprocess {
- replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
- replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
- replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
- replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
- replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
- replace:'<div id="block_lifeline" class="block clearfix">' '<!-- crosslanguage:delete --><div id="block_lifeline" class="block clearfix">';
- replace:'<!--/block_lifeline-->' '<!-- /crosslanguage:delete --><!--/block_lifeline-->';
- replace:'<select id="sidebar_cities_selector" class="sidebar_selector">' '<!-- crosslanguage:delete --><select id="sidebar_cities_selector" class="sidebar_selector">';
- replace:'<!--/lefter-->' '<!-- /crosslanguage:delete --></div><!--/box--></div><!--/lefter-->';
 }
 
 // @RULESET
@@ -100,6 +96,18 @@ table#ResultList.chart {
 
 table#ResultList > tr > td {
  attribute: style add 'width:250px;';
+}
+
+@preprocess {
+ replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
+ replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
+ replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
+ replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
+ replace:'<div id="block_lifeline" class="block clearfix">' '<!-- crosslanguage:delete --><div id="block_lifeline" class="block clearfix">';
+ replace:'<!--/block_lifeline-->' '<!-- /crosslanguage:delete --><!--/block_lifeline-->';
+ replace:'<select id="sidebar_cities_selector" class="sidebar_selector">' '<!-- crosslanguage:delete --><select id="sidebar_cities_selector" class="sidebar_selector">';
+ replace:'<!--/lefter-->' '<!-- /crosslanguage:delete --></div><!--/box--></div><!--/lefter-->';
 }
 
 // @RULESET
@@ -136,20 +144,16 @@ table#ResultList > tr > td {
  attribute: style add 'width:85px;';
 }
 
-// @RULESET
-// URL = http://www.rkansai.net/sys/bosai/index.html
-// URL = http://web.bosai.pref.hyogo.lg.jp/index.html
-// URL = http://bosai.dev02.smartvalue.ad.jp/index.html
-div#informations.section.four.clearfix > div.block > div.box > dl > dd {
- attribute: style add 'height:50px;font-size:12px;';
-}
-
-div#informations.section.four.clearfix > div.block > div.box > dl > dt {
- attribute: style add 'font-size:12px;';
-}
-
-div#informations.section.four.clearfix > div.block.rightest > div.box > dl#exist_data_taisei_shicho.columns.clearfix > dd {
- attribute: style add 'height:100px;font-size:12px;';
+@preprocess {
+ replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
+ replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
+ replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
+ replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
+ replace:'<div id="block_lifeline" class="block clearfix">' '<!-- crosslanguage:delete --><div id="block_lifeline" class="block clearfix">';
+ replace:'<!--/block_lifeline-->' '<!-- /crosslanguage:delete --><!--/block_lifeline-->';
+ replace:'<select id="sidebar_cities_selector" class="sidebar_selector">' '<!-- crosslanguage:delete --><select id="sidebar_cities_selector" class="sidebar_selector">';
+ replace:'<!--/lefter-->' '<!-- /crosslanguage:delete --></div><!--/box--></div><!--/lefter-->';
 }
 
 // @RULESET
@@ -172,10 +176,22 @@ table[id^="ResultList"] {
  attribute: style add 'table-layout:fixed;word-wrap:break-word;';
 }
 
+@preprocess {
+ replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
+ replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
+ replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
+ replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
+ replace:'<div id="block_lifeline" class="block clearfix">' '<!-- crosslanguage:delete --><div id="block_lifeline" class="block clearfix">';
+ replace:'<!--/block_lifeline-->' '<!-- /crosslanguage:delete --><!--/block_lifeline-->';
+ replace:'<select id="sidebar_cities_selector" class="sidebar_selector">' '<!-- crosslanguage:delete --><select id="sidebar_cities_selector" class="sidebar_selector">';
+ replace:'<!--/lefter-->' '<!-- /crosslanguage:delete --></div><!--/box--></div><!--/lefter-->';
+}
+
 // @RULESET
-// URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html(.*?)
-// URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html(.*?)
-// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html(.*?)
+// URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html
+// URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html
+// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html
 table[id^="exist_data"] {
  attribute: style rewrite 'margin:0px;text-align:center;table-layout:fixed;font-size:13px;';
 }
@@ -183,3 +199,16 @@ table[id^="exist_data"] {
 table[id^="ResultList"] {
  attribute: style add 'table-layout:fixed;word-wrap:break-word;';
 }
+
+@preprocess {
+ replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
+ replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
+ replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
+ replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
+ replace:'<div id="block_lifeline" class="block clearfix">' '<!-- crosslanguage:delete --><div id="block_lifeline" class="block clearfix">';
+ replace:'<!--/block_lifeline-->' '<!-- /crosslanguage:delete --><!--/block_lifeline-->';
+ replace:'<select id="sidebar_cities_selector" class="sidebar_selector">' '<!-- crosslanguage:delete --><select id="sidebar_cities_selector" class="sidebar_selector">';
+ replace:'<!--/lefter-->' '<!-- /crosslanguage:delete --></div><!--/box--></div><!--/lefter-->';
+}
+
