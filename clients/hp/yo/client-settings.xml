@@ -38,6 +38,8 @@
       <param-name>resource.url.pattern</param-name>
       <param-value>http://web\.bosai\.pref\.hyogo\.lg\.jp/css/font-awesome\.css</param-value>
       <param-value>http://web\.bosai\.pref\.hyogo\.lg\.jp/js/.*</param-value>
+      <param-value>http://bosai\.dev02\.smartvalue\.ad\.jp/kisyou/css/font-awesome\.css</param-value>
+      <param-value>http://bosai\.dev02\.smartvalue\.ad\.jp/kisyou/js/.*</param-value>
       <param-value>http://wwww\.rkansai\.net/sys/bosai/css/font-awesome\.css</param-value>
       <param-value>http://www\.rkansai\.net/sys/bosai/js/.*</param-value>
     </param>

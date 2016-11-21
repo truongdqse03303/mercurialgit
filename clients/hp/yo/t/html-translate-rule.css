@@ -14,7 +14,7 @@
 // @RULESET
 // URL ^= http://www.rkansai.net/sys/bosai/kobe.html
 // URL ^= http://web.bosai.pref.hyogo.lg.jp/kobe.html
-// URL ^= http://bosai.dev02.smartvalue.ad.jp/kobe.html
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/kisyou/kobe.html
 @preprocess {
  replace: '"避難指示発令"' '"<!--cltx-->避難指示發布"';
  replace: '"避難勧告発令"' '"<!--cltx-->避難勸告發布"';
@@ -24,7 +24,7 @@
 // @RULESET
 // URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html(.*?)
 // URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html(.*?)
-// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html(.*?)
+// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/kisyou/(.*?)\.html(.*?)
 @preprocess {
  replace: '"避難指示発令"' '"<!--cltx-->避難指示發布"';
  replace: '"避難勧告発令"' '"<!--cltx-->避難勸告發布"';

@@ -1,7 +1,7 @@
 // @RULESET
 // URL = http://www.rkansai.net/sys/bosai/js/cities.js
 // URL = http://web.bosai.pref.hyogo.lg.jp/js/cities.js
-// URL = http://bosai.dev02.smartvalue.ad.jp/js/cities.js
+// URL = http://bosai.dev02.smartvalue.ad.jp/kisyou/js/cities.js
 @preprocess {
  replace: '神戸市', 'Kobe-shi';
  replace: '西宮市', 'Nishinomiya-shi';
