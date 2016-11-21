@@ -67,7 +67,8 @@ div#informations.section.four.clearfix > div.block.rightest > div.box > dl#exist
 
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
- replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<li id="englishurl"><a href="en/index.html">English</a></li>' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
+ replace:'<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
  replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
  replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
  replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
@@ -101,6 +102,7 @@ table#ResultList > tr > td {
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
  replace:'<li id="englishurl"><a href="en/index.html">English</a></li>' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
+ replace:'<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
  replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
  replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
  replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
@@ -145,6 +147,7 @@ table#ResultList > tr > td {
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
  replace:'<li id="englishurl"><a href="en/index.html">English</a></li>' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
+ replace:'<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
  replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
  replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
  replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
@@ -176,7 +179,8 @@ table[id^="ResultList"] {
 
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
- replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
+ replace:'<li id="englishurl"><a href="en/index.html">English</a></li>' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
+ replace:'<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
  replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
  replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
  replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
@@ -201,6 +205,7 @@ table[id^="ResultList"] {
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
  replace:'<li id="englishurl"><a href="en/index.html">English</a></li>' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
+ replace:'<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->' '<li id="englishurl"><a href="en/index.html">English</a></li><!-- /crosslanguage:delete -->';
  replace:'<p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p>' '<!-- crosslanguage:delete --><p id="pref"><a href="http://web.pref.hyogo.jp"><span class="fa fa-chevron-left"></span>兵庫県のサイトへ</a></p><!-- /crosslanguage:delete -->';
  replace:'<p class="banner_weather banner">' '<!-- crosslanguage:delete --><p class="banner_weather banner">';
  replace:'<img src="images/banner.png" alt="兵庫県防災気象情報" /></a>' '<img src="images/banner.png" alt="兵庫県防災気象情報" /></a><!-- /crosslanguage:delete -->';
