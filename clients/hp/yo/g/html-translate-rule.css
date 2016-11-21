@@ -16,6 +16,38 @@ li#selector_keihou > a,li#selector_kankoku > a {
 }
 
 // @RULESET
+// URL ^= http://www.rkansai.net/sys/bosai/kobe.html
+// URL ^= http://web.bosai.pref.hyogo.lg.jp/kobe.html
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/kobe.html
+@preprocess {
+ replace: '"避難指示発令"' '"<!--cltx-->Räumung befiehlt Ausgabe"';
+ replace: '"避難勧告発令"' '"<!--cltx-->Räumung beratende offizielle Ankündigung"';
+ replace: '"避難準備発令"' '"<!--cltx-->Das Entkommen von Gefahrenvorbereitungsausgabe"';
+}
+
+// @RULESET
+// URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html(.*?)
+// URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html(.*?)
+// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html(.*?)
+@preprocess {
+ replace: '"避難指示発令"' '"<!--cltx-->Räumung befiehlt Ausgabe"';
+ replace: '"避難勧告発令"' '"<!--cltx-->Räumung beratende offizielle Ankündigung"';
+ replace: '"避難準備発令"' '"<!--cltx-->Das Entkommen von Gefahrenvorbereitungsausgabe"';
+}
+
+@preprocess {
+ replace: "避難指示発令" "<br style='display:none;'>避難指示発令<br style='display:none;'>";
+ replace: "避難勧告発令" "<br style='display:none;'>避難勧告発令<br style='display:none;'>";
+ replace: "避難準備発令" "<br style='display:none;'>避難準備発令<br style='display:none;'>";
+}
+
+@postprocess {
+ replace: '<br style="display:none;"><!--cltx-->Räumung befiehlt Ausgabe<br style="display:none;">' '<!--cltx-->Räumung befiehlt Ausgabe';
+ replace: '<br style="display:none;"><!--cltx-->Räumung beratende offizielle Ankündigung<br style="display:none;">' '<!--cltx-->Räumung beratende offizielle Ankündigung';
+ replace: '<br style="display:none;"><!--cltx-->Das Entkommen von Gefahrenvorbereitungsausgabe<br style="display:none;">' '<!--cltx-->Das Entkommen von Gefahrenvorbereitungsausgabe';
+}
+
+// @RULESET
 // URL ^= http://bosai.net/community/index.do?id=52
 // URL ^= http://bosai.net/community/index.do?id=51
 // URL ^= http://bosai.net/community/index.do?id=50

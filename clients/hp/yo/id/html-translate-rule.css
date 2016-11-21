@@ -12,6 +12,38 @@
 }
 
 // @RULESET
+// URL ^= http://www.rkansai.net/sys/bosai/kobe.html
+// URL ^= http://web.bosai.pref.hyogo.lg.jp/kobe.html
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/kobe.html
+@preprocess {
+ replace: '"避難指示発令"' '"<!--cltx-->Instruksi evakuasi yang dikeluarkan"';
+ replace: '"避難勧告発令"' '"<!--cltx-->Ellsworth"';
+ replace: '"避難準備発令"' '"<!--cltx-->Evakuasi mempersiapkan idk"';
+}
+
+// @RULESET
+// URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html(.*?)
+// URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html(.*?)
+// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html(.*?)
+@preprocess {
+ replace: '"避難指示発令"' '"<!--cltx-->Instruksi evakuasi yang dikeluarkan"';
+ replace: '"避難勧告発令"' '"<!--cltx-->Ellsworth"';
+ replace: '"避難準備発令"' '"<!--cltx-->Evakuasi mempersiapkan idk"';
+}
+
+@preprocess {
+ replace: "避難指示発令" "<br style='display:none;'>避難指示発令<br style='display:none;'>";
+ replace: "避難勧告発令" "<br style='display:none;'>避難勧告発令<br style='display:none;'>";
+ replace: "避難準備発令" "<br style='display:none;'>避難準備発令<br style='display:none;'>";
+}
+
+@postprocess {
+ replace: '<br style="display:none;"><!--cltx-->Instruksi evakuasi yang dikeluarkan<br style="display:none;">' '<!--cltx-->Instruksi evakuasi yang dikeluarkan';
+ replace: '<br style="display:none;"><!--cltx-->Ellsworth<br style="display:none;">' '<!--cltx-->Ellsworth';
+ replace: '<br style="display:none;"><!--cltx-->Evakuasi mempersiapkan idk<br style="display:none;">' '<!--cltx-->Evakuasi mempersiapkan idk';
+}
+
+// @RULESET
 // URL ^= http://bosai.net/community/index.do?id=52
 // URL ^= http://bosai.net/community/index.do?id=51
 // URL ^= http://bosai.net/community/index.do?id=50

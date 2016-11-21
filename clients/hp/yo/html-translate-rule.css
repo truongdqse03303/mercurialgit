@@ -6,6 +6,14 @@ div#informations_cities_selector > ul > li {
  attribute: style add 'width:110px;';
 }
 
+div#box_weather_kankoku_cities.box_weather_tab_cities > dl > dt, div#box_weather_kankoku_cities.box_weather_tab_cities > dl > dd {
+ attribute: style add 'width:130px;';
+}
+
+div#box_weather_keihou_cities.box_weather_tab_cities > dl > dt, div#box_weather_keihou_cities.box_weather_tab_cities > dl > dd {
+ attribute: style add 'width:130px;';
+}
+
 @preprocess {
  replace: "brbr" "<br />";
  replace: "%FSP%" "<span style='padding-right:1em;'>";
@@ -22,6 +30,18 @@ div#informations_cities_selector > ul > li {
  replace: '・' '<br style="display:none;">・<br style="display:none;">';
 }
 
+@preprocess {
+ replace: 'html\.replace\\((.*?)\\)\.replace\\((.*?)\\)' '';
+}
+
+@preprocess {
+ replace: '\.replace\\((.*?)\\)' '';
+}
+
+@preprocess {
+ replace: 'html\.replace\\((.*?)\\)\.replace\\((.*?)\\)\.replace\\((.*?)\\)' '';
+}
+
 @postprocess {
  replace: '<div style="display:none;" id="kisho_info_onoff"><!--cltx-->' '<div style="display:none;" id="kisho_info_onoff">';
 }
@@ -29,6 +49,10 @@ div#informations_cities_selector > ul > li {
 // @RULESET
 // URL = http://web.bosai.pref.hyogo.lg.jp/
 // URL = http://web.bosai.pref.hyogo.lg.jp/index.html
+// URL = http://www.rkansai.net/sys/bosai/
+// URL = http://www.rkansai.net/sys/bosai/index.html
+// URL = http://bosai.dev02.smartvalue.ad.jp/
+// URL = http://bosai.dev02.smartvalue.ad.jp/index.html
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
  replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
@@ -44,6 +68,8 @@ div#informations_cities_selector > ul > li {
 
 // @RULESET
 // URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html
+// URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html
+// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html
 @preprocess {
  replace:'<ul id="menu" class="clearfix">' '<ul id="menu" class="clearfix"><!-- crosslanguage:delete -->';
  replace:'<!--<li id="englishurl"><a href="en/index.html">English</a></li>-->' '<!--<li id="englishurl"><a href="en/index.html">English</a></li>--><!-- /crosslanguage:delete -->';
@@ -54,4 +80,106 @@ div#informations_cities_selector > ul > li {
  replace:'<!--/block_lifeline-->' '<!-- /crosslanguage:delete --><!--/block_lifeline-->';
  replace:'<select id="sidebar_cities_selector" class="sidebar_selector">' '<!-- crosslanguage:delete --><select id="sidebar_cities_selector" class="sidebar_selector">';
  replace:'<!--/lefter-->' '<!-- /crosslanguage:delete --></div><!--/box--></div><!--/lefter-->';
+}
+
+// @RULESET
+// URL = http://www.rkansai.net/sys/bosai/taisei.html
+// URL = http://web.bosai.pref.hyogo.lg.jp/taisei.html
+// URL = http://bosai.dev02.smartvalue.ad.jp/taisei.html
+table#exist_data_taisei.chart {
+ attribute: style rewrite 'margin:0px;text-align:center;table-layout:fixed;';
+}
+
+table#exist_data_taisei > tr > td#ListCol1,table#exist_data_taisei > tr > td#ListCol2,table#exist_data_taisei > tr > td#ListCol3,table#exist_data_taisei > tr > td#ListCol4 {
+ attribute: style add 'width:250px;';
+}
+
+table#ResultList.chart {
+ attribute: style add 'table-layout:fixed;';
+}
+
+table#ResultList > tr > td {
+ attribute: style add 'width:250px;';
+}
+
+// @RULESET
+// URL = http://www.rkansai.net/sys/bosai/higai.html
+// URL = http://web.bosai.pref.hyogo.lg.jp/higai.html
+// URL = http://bosai.dev02.smartvalue.ad.jp/higai.html
+table#exist_data_higai.chart {
+ attribute: style rewrite 'margin:0px;text-align:center;height:1.3em;table-layout:fixed;';
+}
+
+table#exist_data_higai > tr {
+ attribute: style add 'font-size:13px;';
+}
+
+table#exist_data_higai > tr > td#ListCol1 {
+ attribute: style add 'width:144px;';
+}
+
+table#exist_data_higai > tr > td#ListCol2,table#exist_data_higai > tr > td#ListCol3,table#exist_data_higai > tr > td#ListCol4,table#exist_data_higai
+> tr > td#ListCol5,table#exist_data_higai > tr > td#ListCol6,table#exist_data_higai > tr > td#ListCol7,table#exist_data_higai > tr > td#ListCol8,tabl
+e#exist_data_higai > tr > td#ListCol9,table#exist_data_higai > tr > td#ListCol10 {
+ attribute: style add 'width:85px;';
+}
+
+table#ResultList.chart {
+ attribute: style add 'table-layout:fixed;';
+}
+
+table#ResultList > tr > td.hidecontrol {
+ attribute: style add 'width:144px;';
+}
+
+table#ResultList > tr > td {
+ attribute: style add 'width:85px;';
+}
+
+// @RULESET
+// URL = http://www.rkansai.net/sys/bosai/index.html
+// URL = http://web.bosai.pref.hyogo.lg.jp/index.html
+// URL = http://bosai.dev02.smartvalue.ad.jp/index.html
+div#informations.section.four.clearfix > div.block > div.box > dl > dd {
+ attribute: style add 'height:50px;font-size:12px;';
+}
+
+div#informations.section.four.clearfix > div.block > div.box > dl > dt {
+ attribute: style add 'font-size:12px;';
+}
+
+div#informations.section.four.clearfix > div.block.rightest > div.box > dl#exist_data_taisei_shicho.columns.clearfix > dd {
+ attribute: style add 'height:100px;font-size:12px;';
+}
+
+// @RULESET
+// URL ^= http://www.rkansai.net/sys/bosai/kobe.html
+// URL ^= http://web.bosai.pref.hyogo.lg.jp/kobe.html
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/kobe.html
+table[id^="tbl_title"] {
+ attribute: style rewrite 'margin:0px;text-align:center;table-layout:fixed;';
+}
+
+table[id^="GV"] {
+ attribute: style add 'table-layout:fixed;word-wrap:break-word;';
+}
+
+table[id^="exist_data"] {
+ attribute:style rewrite 'margin:0px;text-align:center;table-layout:fixed;font-size:13px;';
+}
+
+table[id^="ResultList"] {
+ attribute: style add 'table-layout:fixed;word-wrap:break-word;';
+}
+
+// @RULESET
+// URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html(.*?)
+// URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html(.*?)
+// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html(.*?)
+table[id^="exist_data"] {
+ attribute: style rewrite 'margin:0px;text-align:center;table-layout:fixed;font-size:13px;';
+}
+
+table[id^="ResultList"] {
+ attribute: style add 'table-layout:fixed;word-wrap:break-word;';
 }

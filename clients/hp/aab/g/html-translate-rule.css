@@ -12,61 +12,10 @@
 }
 
 // @RULESET
-// URL ^= http://bosai.net/community/index.do?areaCode=
+// URL ^= http://bosai.net/community/
 @postprocess {
  replace:'href="http://bosai.net/index.do' 'href="http://bosai.net/selectlang/de/area.do';
-}
-
-// @RULESET
-// URL ^= http://bosai.net/community/index.do?id=52
-// URL ^= http://bosai.net/community/index.do?id=51
-// URL ^= http://bosai.net/community/index.do?id=50
-// URL ^= http://bosai.net/community/index.do?id=49
-// URL ^= http://bosai.net/community/index.do?id=48
-// URL ^= http://bosai.net/community/index.do?id=47
-// URL ^= http://bosai.net/community/index.do?id=46
-// URL ^= http://bosai.net/community/index.do?id=45
-// URL ^= http://bosai.net/community/index.do?id=44
-// URL ^= http://bosai.net/community/index.do?id=43
-// URL ^= http://bosai.net/community/index.do?id=42
-// URL ^= http://bosai.net/community/index.do?id=41
-// URL ^= http://bosai.net/community/index.do?id=40
-// URL ^= http://bosai.net/community/index.do?id=39
-// URL ^= http://bosai.net/community/index.do?id=38
-// URL ^= http://bosai.net/community/index.do?id=37
-// URL ^= http://bosai.net/community/index.do?id=36
-// URL ^= http://bosai.net/community/index.do?id=35
-// URL ^= http://bosai.net/community/index.do?id=34
-// URL ^= http://bosai.net/community/index.do?id=33
-// URL ^= http://bosai.net/community/index.do?id=32
-// URL ^= http://bosai.net/community/index.do?id=31
-// URL ^= http://bosai.net/community/index.do?id=30
-// URL ^= http://bosai.net/community/index.do?id=29
-// URL ^= http://bosai.net/community/index.do?id=28
-// URL ^= http://bosai.net/community/index.do?id=27
-// URL ^= http://bosai.net/community/index.do?id=26
-// URL ^= http://bosai.net/community/index.do?id=25
-// URL ^= http://bosai.net/community/index.do?id=24
-// URL ^= http://bosai.net/community/index.do?id=23
-// URL ^= http://bosai.net/community/index.do?id=22
-// URL ^= http://bosai.net/community/index.do?id=21
-// URL ^= http://bosai.net/community/index.do?id=20
-// URL ^= http://bosai.net/community/index.do?id=19
-// URL ^= http://bosai.net/community/index.do?id=18
-// URL ^= http://bosai.net/community/index.do?id=17
-// URL ^= http://bosai.net/community/index.do?id=16
-// URL ^= http://bosai.net/community/index.do?id=15
-// URL ^= http://bosai.net/community/index.do?id=14
-// URL ^= http://bosai.net/community/index.do?id=13
-// URL ^= http://bosai.net/community/index.do?id=3
-@postprocess {
- replace:'href="http://bosai.net/index.do' 'href="http://bosai.net/selectlang/de/area.do';
-}
-
-// @RULESET
-// URL ^= http://bosai.net/community/index.do?id=
-@postprocess {
- replace:'href="http://bosai.net/index.do' 'href="http://bosai.net/selectlang/de/area2.do';
+ replace:'href="http://bosai.net/indexpref.do' 'href="http://bosai.net/selectlang/de/area2.do';
 }
 
 // @RULESET
