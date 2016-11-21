@@ -189,9 +189,9 @@ table[id^="ResultList"] {
 }
 
 // @RULESET
-// URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html
-// URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html
-// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html
+// URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html(.*?)
+// URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html(.*?)
+// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html(.*?)
 table[id^="exist_data"] {
  attribute: style rewrite 'margin:0px;text-align:center;table-layout:fixed;font-size:13px;';
 }
