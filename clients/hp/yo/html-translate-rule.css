@@ -51,8 +51,7 @@ div#box_weather_keihou_cities.box_weather_tab_cities > dl > dt, div#box_weather_
 // URL = http://web.bosai.pref.hyogo.lg.jp/index.html
 // URL = http://www.rkansai.net/sys/bosai/
 // URL = http://www.rkansai.net/sys/bosai/index.html
-// URL = http://bosai.dev02.smartvalue.ad.jp/
-// URL = http://bosai.dev02.smartvalue.ad.jp/index.html
+// URL = http://bosai.dev02.smartvalue.ad.jp/kisyou/index.html
 div#informations.section.four.clearfix > div.block > div.box > dl > dd {
  attribute: style add 'height:50px;font-size:12px;';
 }
@@ -82,7 +81,7 @@ div#informations.section.four.clearfix > div.block.rightest > div.box > dl#exist
 // @RULESET
 // URL = http://www.rkansai.net/sys/bosai/taisei.html
 // URL = http://web.bosai.pref.hyogo.lg.jp/taisei.html
-// URL = http://bosai.dev02.smartvalue.ad.jp/taisei.html
+// URL = http://bosai.dev02.smartvalue.ad.jp/kisyou/taisei.html
 table#exist_data_taisei.chart {
  attribute: style rewrite 'margin:0px;text-align:center;table-layout:fixed;';
 }
@@ -115,7 +114,7 @@ table#ResultList > tr > td {
 // @RULESET
 // URL = http://www.rkansai.net/sys/bosai/higai.html
 // URL = http://web.bosai.pref.hyogo.lg.jp/higai.html
-// URL = http://bosai.dev02.smartvalue.ad.jp/higai.html
+// URL = http://bosai.dev02.smartvalue.ad.jp/kisyou/higai.html
 table#exist_data_higai.chart {
  attribute: style rewrite 'margin:0px;text-align:center;height:1.3em;table-layout:fixed;';
 }
@@ -160,7 +159,7 @@ table#ResultList > tr > td {
 // @RULESET
 // URL ^= http://www.rkansai.net/sys/bosai/kobe.html
 // URL ^= http://web.bosai.pref.hyogo.lg.jp/kobe.html
-// URL ^= http://bosai.dev02.smartvalue.ad.jp/kobe.html
+// URL ^= http://bosai.dev02.smartvalue.ad.jp/kisyou/kobe.html
 table[id^="tbl_title"] {
  attribute: style rewrite 'margin:0px;text-align:center;table-layout:fixed;';
 }
@@ -193,7 +192,7 @@ table[id^="ResultList"] {
 // @RULESET
 // URL #= http://web\.bosai\.pref\.hyogo\.lg\.jp/(.*?)\.html(.*?)
 // URL #= http://www\.rkansai\.net/sys/bosai/(.*?)\.html(.*?)
-// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/(.*?)\.html(.*?)
+// URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/kisyou/(.*?)\.html(.*?)
 table[id^="exist_data"] {
  attribute: style rewrite 'margin:0px;text-align:center;table-layout:fixed;font-size:13px;';
 }
