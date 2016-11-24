@@ -1,8 +1,11 @@
 // @RULESET
 // URL = http://www.chuo-kanko.or.jp/js/mitte-app.js
+// URL = http://www.chuo-kanko.or.jp/js/mitte-app.min.js
+// URL = http://www.chuo-kanko.or.jp.k.nc.hp.transer.com/js/mitte-app.min.js
 @postprocess {
- replace: "attr\\(\'checked\'\, \'checked'\\)" "attr('null', 'null')";
+ replace: "attr\\(\"checked\"\,\"checked\"\\)" "attr('null','null')";
 }
+
 @postprocess {
  replace: "http://chuo-kanko.or.jp.k.nc.hp.transer.com/" "http://chuo-kanko.or.jp/";
 }
