@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>船清</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>funasei/service 2aaf171ef10d4e7c57a4786de29d62bfcf9ce812</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.funasei.com" />
+    <request hostname="yakatabune.tokyo" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
