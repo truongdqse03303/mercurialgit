@@ -6,6 +6,34 @@ header#site-area-header {
    attribute: style add 'margin-top: 40px;';
 }
 
+div.recommendBanner_staticPadder > ul > li {
+ attribute: cltx add 'exclude';
+}
+
+div.recommendBanner_carousel_holderPadder > ul > li {
+ attribute: cltx add 'exclude';
+}
+
+div.buttonBlock {
+ attribute: cltx add 'exclude';
+}
+
+div.formButton {
+ attribute: cltx add 'exclude';
+}
+
+div.buttonListPadder > ul > li {
+ attribute: cltx add 'exclude';
+}
+
+div.thickbox.pikPadder {
+ attribute: cltx add 'exclude';
+}
+
+td.img > ul > li {
+ attribute: cltx add 'exclude';
+}
+
 // @RULESET
 // URL = http://www.daiwaresort.jp/contents/hellokittyroom/contents/areamap/index.html
 // URL #= http://www.daiwaresort.jp/contents/hellokittyroom/contents/room/.*?
