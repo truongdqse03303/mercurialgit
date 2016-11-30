@@ -1,0 +1,27 @@
+header#header {
+ attribute: style add 'top:48px;';
+}
+
+div#container > div#mainvisual_pc {
+ attribute: style add 'margin-top:48px;';
+}
+
+div.bx-controls-direction {
+ attribute: cltx add 'exclude';
+}
+
+div.contentsInner > div.column02 > ul > li {
+ attribute: style add 'height:360px;';
+}
+
+div.contentsInner > div.column02 > ul > li > a > h2 {
+ attribute: style add 'line-height:15px;';
+}
+
+div.contentsInner > div.column02 > ul > li > a > p {
+ attribute: style add 'line-height:15px;';
+}
+
+div#worksSearch.contents > div.contentsInner > aside > nav#searchFromTerms.acdPanel > ul > li {
+ attribute: cltx add 'exclude';
+}
