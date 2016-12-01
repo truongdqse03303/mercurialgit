@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>イオンモール（北海道内店舗）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>aeon-hokkaido/service a5db97df6e02ce5489014256e3c43fb4adc9f015</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.aeon.jp" path="/sc/asahikawanishi/" />
+    <request hostname="www.aeon.jp" path="/sc/sapporohassamu/" />
+    <request hostname="www.aeon.jp" path="/sc/sapporonaebo/" />
+    <request hostname="www.aeon.jp" path="/sc/sapporosoen/" />
+    <request hostname="www.aeon.jp" path="/sc/sapporomotomachi/" />
+    <request hostname="www.aeon.jp" path="/sc/sapporonishioka/" />
+    <request hostname="www.aeon.jp" path="/sc/sapporohiraoka/" />
+    <request hostname="www.aeon.jp" path="/sc/tomakomai/" />
+    <request hostname="www.aeon.jp" path="/sc/nayoro/" />
+    <request hostname="www.aeon.jp" path="/sc/kushiroshowa/" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

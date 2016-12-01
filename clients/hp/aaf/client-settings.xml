@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>長電バス</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nagadenbus/service f696a6efc04a617895cdd95bb1f253829f42dd00</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.nagadenbus.co.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

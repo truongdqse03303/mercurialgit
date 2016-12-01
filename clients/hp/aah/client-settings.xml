@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ホテル金波（鷲羽ハイランドホテル）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hailand/service 9f97675a9c4f0552a81d2d3708cb697f9097db9e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="hailand.co.jp" />
+    <request hostname="www.hailand.co.jp" />
+  </request-list>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>v,id</param-value>
+  </extension-param>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
