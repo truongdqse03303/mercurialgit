@@ -8,18 +8,20 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.aeon.jp" path="/sc/asahikawanishi/" />
-    <request hostname="www.aeon.jp" path="/sc/sapporohassamu/" />
-    <request hostname="www.aeon.jp" path="/sc/sapporonaebo/" />
-    <request hostname="www.aeon.jp" path="/sc/sapporosoen/" />
-    <request hostname="www.aeon.jp" path="/sc/sapporomotomachi/" />
-    <request hostname="www.aeon.jp" path="/sc/sapporonishioka/" />
-    <request hostname="www.aeon.jp" path="/sc/sapporohiraoka/" />
-    <request hostname="www.aeon.jp" path="/sc/tomakomai/" />
-    <request hostname="www.aeon.jp" path="/sc/nayoro/" />
-    <request hostname="www.aeon.jp" path="/sc/kushiroshowa/" />
+    <request hostname="www.aeon.jp" />
+      <path-list>
+        <path value="/sc/asahikawanishi/" />
+        <path value="/sc/sapporohassamu/" />
+        <path value="/sc/sapporonaebo/" />
+        <path value="/sc/sapporosoen/" />
+        <path value="/sc/sapporomotomachi/" />
+        <path value="/sc/sapporonishioka/" />
+        <path value="/sc/sapporohiraoka/" />
+        <path value="/sc/tomakomai/" />
+        <path value="/sc/nayoro/" />
+        <path value="/sc/kushiroshowa/" />
+      </path-list>
   </request-list>
-
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
