@@ -1,0 +1,23 @@
+div#pagetop.clearfix {
+ attribute: cltx add 'exclude';
+}
+
+div#top-header > div.header-btn > p {
+ attribute: cltx add 'exclude';
+}
+
+div#lang_select > olang > div {
+ attribute: cltx add 'exclude';
+}
+
+div#lang_select > olang > select > option {
+ attribute: cltx add 'exclude';
+}
+
+div#sel_lang > div {
+ attribute: cltx add 'exclude';
+}
+
+div#sel_lang > select > option {
+ attribute: cltx add 'exclude';
+}
