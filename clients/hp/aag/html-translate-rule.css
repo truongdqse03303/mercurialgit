@@ -1,0 +1,37 @@
+body > header {
+ attribute: style add 'margin-top:44px;';
+}
+
+div#btn-menu > a.sidr-switch {
+ attribute: style add 'top:44px;';
+}
+
+div.cf > ul.function > li {
+ attribute: style add 'font-size:12px;letter-spacing:0.5px;';
+}
+
+div#mode > div#mode-change {
+ attribute: cltx add 'exclude';
+}
+
+ul#imgslider > p.next,ul#imgslider > p.prev {
+ attribute: cltx add 'exclude';
+}
+
+section.pickup > div > div.imgslider-player > p {
+ attribute: cltx add 'exclude';
+}
+
+@preprocess {
+ replace: '<em>色を変える</em>' '<em>色を変える</em><br>';
+ replace: 'class="c1">白</a>' 'class="c1">白</a><br style="display:none;">';
+ replace: 'class="c2">黒</a>' 'class="c2">黒</a><br style="display:none;">';
+ replace: 'class="c3">青</a>' 'class="c3">青</a><br style="display:none;">';
+ replace: '<em>文字サイズ</em>' '<em>文字サイズ</em><br>';
+}
+
+@preprocess {
+ replace: '<time datetime=(.*?)</time>' '<time datetime=$1</time><br style="display:none;">';
+ replace: '<a href=(.*?)>これまでの新着情報</a>' '<a href=$1>これまでの新着情報</a><br style="display:none;">';
+ replace: '<a href=(.*?)>新着をRSSで受け取る</a>' '<a href=$1>新着をRSSで受け取る</a><br style="display:none;">';
+}
