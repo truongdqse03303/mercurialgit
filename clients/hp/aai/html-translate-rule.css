@@ -1,0 +1,11 @@
+div#headContainer > div#header {
+ attribute: style add 'top:44px;';
+}
+
+div#contentsContainer > div#contents {
+ attribute: style add 'top:44px;';
+}
+
+div#footContainer {
+ attribute: style add 'margin-top:44px;';
+}
