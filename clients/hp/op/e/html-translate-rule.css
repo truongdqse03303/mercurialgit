@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET JICHITAI SYSDB";
 }
+
+@preprocess {
+  replace: 'lang=ja_jp' 'lang=en_us';
+}

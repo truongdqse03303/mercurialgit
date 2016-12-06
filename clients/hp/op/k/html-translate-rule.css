@@ -11,6 +11,10 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+@preprocess {
+  replace: 'lang=ja_jp' 'lang=ko_kr';
+}
+
 @postprocess {
 replace:'＜□□□(\(.+?\))＞' '＜한국어＞';
 replace:'□□□□□□' '생활 가이드북';
