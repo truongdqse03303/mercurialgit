@@ -6,6 +6,14 @@ header#site-area-header {
    attribute: style add 'margin-top: 40px;';
 }
 
+div.globalNaviPadder > ul > li {
+ attribute: cltx add 'exclude';
+}
+
+div.highlightBlockPadder > ul > li {
+ attribute: cltx add 'exclude';
+}
+
 div.recommendBanner_staticPadder > ul > li {
  attribute: cltx add 'exclude';
 }
