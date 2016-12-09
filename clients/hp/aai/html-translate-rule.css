@@ -1,11 +1,27 @@
-div#headContainer > div#header {
- attribute: style add 'top:44px;';
+div#headContainer {
+ attribute: style add 'margin-top:60px;';
 }
 
-div#contentsContainer > div#contents {
- attribute: style add 'top:44px;';
+div#information > ul,div#event > ul,div#campaign > ul {
+ attribute: cltx add 'exclude';
 }
 
-div#footContainer {
- attribute: style add 'margin-top:44px;';
+div#sideArea > ul > li {
+ attribute: cltx add 'exclude';
+}
+
+div#bnrArea > ul > li {
+ attribute: cltx add 'exclude';
+}
+
+p.pagetop {
+ attribute: cltx add 'exclude';
+}
+
+div#contentsArea > ul > li {
+ attribute: cltx add 'exclude';
+}
+
+div#contentsArea > p#printBtn {
+ attribute: cltx add 'exclude';
 }
