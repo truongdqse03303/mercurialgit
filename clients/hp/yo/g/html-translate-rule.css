@@ -21,7 +21,7 @@ li#selector_keihou > a,li#selector_kankoku > a {
 // URL ^= http://bosai.dev02.smartvalue.ad.jp/kisyou/kobe.html
 @preprocess {
  replace: '"避難指示発令"' '"<!--cltx-->Räumung befiehlt Ausgabe"';
- replace: '"避難勧告発令"' '"<!--cltx-->Räumung beratende offizielle Ankündigung"';
+ replace: '"避難勧告発令"' '"<!--cltx-->Räumungsinformationen"';
  replace: '"避難準備発令"' '"<!--cltx-->Das Entkommen von Gefahrenvorbereitungsausgabe"';
 }
 
@@ -31,7 +31,7 @@ li#selector_keihou > a,li#selector_kankoku > a {
 // URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/kisyou/(.*?)\.html(.*?)
 @preprocess {
  replace: '"避難指示発令"' '"<!--cltx-->Räumung befiehlt Ausgabe"';
- replace: '"避難勧告発令"' '"<!--cltx-->Räumung beratende offizielle Ankündigung"';
+ replace: '"避難勧告発令"' '"<!--cltx-->Räumungsinformationen"';
  replace: '"避難準備発令"' '"<!--cltx-->Das Entkommen von Gefahrenvorbereitungsausgabe"';
 }
 

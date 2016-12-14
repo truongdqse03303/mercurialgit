@@ -21,7 +21,7 @@ li#selector_keihou > a {
 // URL ^= http://bosai.dev02.smartvalue.ad.jp/kisyou/kobe.html
 @preprocess {
  replace: '"避難指示発令"' '"<!--cltx-->Emisión de Orden de evacuación"';
- replace: '"避難勧告発令"' '"<!--cltx-->Evacuación el anuncio oficial asesor"';
+ replace: '"避難勧告発令"' '"<!--cltx-->Información de la evacuación"';
  replace: '"避難準備発令"' '"<!--cltx-->Escapar de la emisión de preparación de peligro"';
 }
 
@@ -31,7 +31,7 @@ li#selector_keihou > a {
 // URL #= http://bosai\.dev02\.smartvalue\.ad\.jp/kisyou/(.*?)\.html(.*?)
 @preprocess {
  replace: '"避難指示発令"' '"<!--cltx-->Emisión de Orden de evacuación"';
- replace: '"避難勧告発令"' '"<!--cltx-->Evacuación el anuncio oficial asesor"';
+ replace: '"避難勧告発令"' '"<!--cltx-->Información de la evacuación"';
  replace: '"避難準備発令"' '"<!--cltx-->Escapar de la emisión de preparación de peligro"';
 }
 
