@@ -1,4 +1,4 @@
-body > header {
+body > header, span.honbun {
  attribute: style add 'margin-top:44px;';
 }
 
@@ -20,6 +20,12 @@ ul#imgslider > p.next,ul#imgslider > p.prev {
 
 section.pickup > div > div.imgslider-player > p {
  attribute: cltx add 'exclude';
+}
+
+@preprocess {
+ replace: '<mark class(.*?)>(.*?)</mark>' '<mark class$1>$2</mark><br style="display:none;">';
+ replace: '<a href="/cate_list/bosyulist.html">募集情報一覧</a>' '<a href="/cate_list/bosyulist.html">募集情報一覧</a><br style="display:none;">';
+ replace: '<a href="/cate_list/saiyoulist.html">採用情報一覧</a>' '<a href="/cate_list/saiyoulist.html">採用情報一覧</a><br style="display:none;">';
 }
 
 @preprocess {
