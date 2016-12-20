@@ -19,6 +19,10 @@ body {
  attribute: style add 'margin-top: 43px;';
 }
 
+@preprocess {
+  replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
+}
+
 @postprocess {
  replace:'<dd><!--cltx--><span class="price"><b>([0-9])([0-9])([0-9])日</b>元</span>' '<dd><!--cltx--><span class="price"><b>$1$2$3</b>日元</span>';
  replace:'<dd><!--cltx--><span class="price"><b>([0-9])([0-9])日</b>元</span>' '<dd><!--cltx--><span class="price"><b>$1$2</b>日元</span>';
