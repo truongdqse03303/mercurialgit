@@ -13,6 +13,30 @@ div#zoomImgItem {
 }
 
 @preprocess {
+  replace: '<a href="\\?kukakuId=(.*?)" class="mrf-registFavorite"(.*?)>' '<!-- crosslanguage:delete --><a href="\\?kukakuId=$1" class="mrf-registFavorite"$2>';
+  replace: '<img src="//www.rehouse.co.jp/dir_common/toshin/dir_img/btn/registration_06.gif" width="240" height="25" alt="お気に入り物件に登録" class="over"></a>' '<img src="//www.rehouse.co.jp/dir_common/toshin/dir_img/btn/registration_06.gif" width="240" height="25" alt="お気に入り物件に登録" class="over"></a><!-- /crosslanguage:delete -->';
+  replace: '<img src="/dir_common/toushi/dir_img/btn/registration_06.gif" width="240" height="32" alt="お気に入り物件に登録する" class="over"></a>' '<img src="/dir_common/toushi/dir_img/btn/registration_06.gif" width="240" height="32" alt="お気に入り物件に登録する" class="over"></a><!-- /crosslanguage:delete -->';
+  replace: '<img src="//www.rehouse.co.jp/dir_common/toushi/dir_img/btn/registration_06.gif" width="240" height="32" alt="お気に入り物件に登録する" class="over"></a>' '<img src="//www.rehouse.co.jp/dir_common/toushi/dir_img/btn/registration_06.gif" width="240" height="32" alt="お気に入り物件に登録する" class="over"></a><!-- /crosslanguage:delete -->';
+}
+
+@preprocess {
+  replace: '<div id="aside_storeData" class="contentSec">' '<!-- crosslanguage:delete --><div id="aside_storeData" class="contentSec">';
+  replace: '<div id="aside_stData" class="contentSec">' '<!-- /crosslanguage:delete --><div id="aside_stData" class="contentSec">';
+}
+
+@preprocess {
+  replace: '<div id="aside_mrf" class="myFileFrame contentSec">' '<!-- crosslanguage:delete --><div id="aside_mrf" class="myFileFrame contentSec">';
+  replace: '<!-- /.myFileFrame --></div>' '<!-- /.myFileFrame --></div><!-- /crosslanguage:delete -->';
+}
+
+@preprocess {
+  replace: '<li id="tabNum02"><img src="//www.rehouse.co.jp/dir_sys/toshin/bkdetail/dir_img/tab_btn_002.gif" width="128" height="30" alt="最近閲覧した物件"></li>' '<!-- crosslanguage:delete --><li id="tabNum02"><img src="//www.rehouse.co.jp/dir_sys/toshin/bkdetail/dir_img/tab_btn_002.gif" width="128" height="30" alt="最近閲覧した物件"></li>';
+  replace: '<li id="tabNum03"><img src="//www.rehouse.co.jp/dir_sys/toshin/bkdetail/dir_img/tab_btn_003.gif" width="128" height="30" alt="お気に入り物件"></li>' '<li id="tabNum03"><img src="//www.rehouse.co.jp/dir_sys/toshin/bkdetail/dir_img/tab_btn_003.gif" width="128" height="30" alt="お気に入り物件"></li><!-- /crosslanguage:delete -->';
+  replace: '<li id="tabNum02"><img src="//www.rehouse.co.jp/dir_sys/toushi/bkdetail/dir_img/tab_btn_002.gif" width="128" height="30" alt="最近閲覧した物件"></li>' '<!-- crosslanguage:delete --><li　id="tabNum02"><img src="//www.rehouse.co.jp/dir_sys/toushi/bkdetail/dir_img/tab_btn_002.gif" width="128" height="30" alt="最近閲覧した物件"></li>';
+  replace: '<li id="tabNum03"><img src="//www.rehouse.co.jp/dir_sys/toushi/bkdetail/dir_img/tab_btn_003.gif" width="128" height="30" alt="お気に入り物件"></li>' '<li id="tabNum03"><img src="//www.rehouse.co.jp/dir_sys/toushi/bkdetail/dir_img/tab_btn_003.gif" width="128" height="30" alt="お気に入り物件"></li><!-- /crosslanguage:delete -->';
+}
+
+@preprocess {
   replace: 'src="//www.rehouse.co.jp/dir_sys/javascript/keywordSave.js"' 'src="http://www.rehouse.co.jp/dir_sys/javascript/keywordSave.js"';
 }
 
