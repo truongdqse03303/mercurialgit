@@ -20,6 +20,14 @@ div#zoomImgItem {
 }
 
 @preprocess {
+  replace: '<td><img src="/dir_sys/bkdetail/dir_img/repair_service_info02_1.jpg" alt="三井のリハウス 360°サポート"></td>' '<!-- crosslanguage:delete --><td><img src="/dir_sys/bkdetail/dir_img/repair_service_info02_1.jpg" alt="三井のリハウス 360°サポート"></td><!-- /crosslanguage:delete -->';
+  replace: '<td>　<a href="/mansion/bkdetail/popup1.html" class="colorbox"><img src="/dir_sys/bkdetail/dir_img/repair_service_info02_2.jpg" alt="建物補修サービス 適用可能物件"></a></td>' '<!-- crosslanguage:delete --><td>　<a href="/mansion/bkdetail/popup1.html" class="colorbox"><img src="/dir_sys/bkdetail/dir_img/repair_service_info02_2.jpg" alt="建物補修サービス 適用可能物件"></a></td><!-- /crosslanguage:delete -->';
+  replace: '<td>　<a href="/mansion/bkdetail/popup2.html" class="colorbox"><img src="/dir_sys/bkdetail/dir_img/repair_service_info02_3.jpg" alt="設備修理サービス 適用可能物件"></a></td>' '<!-- crosslanguage:delete --><td>　<a href="/mansion/bkdetail/popup2.html" class="colorbox"><img src="/dir_sys/bkdetail/dir_img/repair_service_info02_3.jpg" alt="設備修理サービス 適用可能物件"></a></td><!-- /crosslanguage:delete -->';
+  replace: '<td>　<a href="/mansion/bkdetail/popup3.html" class="colorbox"><img src="/dir_sys/bkdetail/dir_img/repair_service_info02_4.jpg" alt="緊急駆け付けサービス 適用可能物件"></a></td>' '<!-- crosslanguage:delete --><td>　<a href="/mansion/bkdetail/popup3.html" class="colorbox"><img src="/dir_sys/bkdetail/dir_img/repair_service_info02_4.jpg" alt="緊急駆け付けサービス 適用可能物件"></a></td><!-- /crosslanguage:delete -->';
+  replace: '<td colspan="3"><p class="inLinkIco"><a href="http://www.rehouse.co.jp/special/ths/index.html">「360°サポート」詳しくはこちら</a></p></td>' '<!-- crosslanguage:delete --><td colspan="3"><p class="inLinkIco"><a href="http://www.rehouse.co.jp/special/ths/index.html">「360°サポート」詳しくはこちら</a></p></td><!-- /crosslanguage:delete -->';
+}
+
+@preprocess {
   replace: '<div id="aside_storeData" class="contentSec">' '<!-- crosslanguage:delete --><div id="aside_storeData" class="contentSec">';
   replace: '<div id="aside_stData" class="contentSec">' '<!-- /crosslanguage:delete --><div id="aside_stData" class="contentSec">';
 }
