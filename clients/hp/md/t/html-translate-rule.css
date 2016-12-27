@@ -31,6 +31,7 @@
   replace: '<script type="text/javascript" src="/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
   replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.t.md.hp.transer.com/flnews/t/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_t.jpg"></a></p>';
+  replace: '<p class="mt10"><a href="http://nijajani.com/" target="_blank"><img src="/common/images/store/com_nav_bn02.jpg" alt="" width="209" height="50" /></a></p>' '<p class="mt10"><a href="http://nijajani.com/" target="_blank"><img src="/common/images/store/com_nav_bn02.jpg" alt="" width="209" height="50" /></a></p><p class="mt10"><a href="http://www.daimaru.co.jp/umedamise/osaka_f/" target="_blank"><img src="/common/images/store/com_nav_bn06.jpg" alt="" width="209" height="50" /></a></p>';
 }
 
 // @RULESET
@@ -85,6 +86,7 @@
   replace: '<script type="text/javascript" src="/smp/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
   replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.t.md.hp.transer.com/flnews/t/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_t.jpg"></a></p>$1';
+  replace: '<div class="officialAccount"><ul><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" width="104" alt=""></a></li><li class="socialPlugin noBorder"><ul><li><a href="http://weibo.cn/qr/userinfo\\?uid=5200185773" target="_blank"><img src="/smp/common/images/com_ic23.png" width="31" alt="weibo" cltx></a></li><li><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/smp/common/images/com_ic24.png" width="31" alt="WeChat" cltx></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic25.png" width="31" alt="Facebook" cltx></a></li></ul></li></ul></div>' '<div class="officialAccount"><ul class="type02"><ul class="sosialBanner"><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" alt=""></a></li><li><a href="http://www.daimaru.co.jp/umedamise/osaka_f/" target="_blank"><img src="/smp/common/images/com_bn02.gif" alt=""></a></li></ul><ul class="socialPlugin noBorder"><li><a href="http://weibo.cn/qr/userinfo\\?uid=5200185773" target="_blank"><img src="/smp/common/images/com_ic23.png" alt="weibo" cltx></a></li><li><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/smp/common/images/com_ic24.png" alt="WeChat" cltx></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic25.png" alt="Facebook" cltx></a></li></ul></ul></div>';
 }
 
 // @RULESET
