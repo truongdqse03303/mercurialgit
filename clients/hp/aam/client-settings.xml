@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>WBFリゾート沖縄</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hotelwbf/service 08bbb4d31884a2b611e8cedcf2f3b59af17f9866</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.hotelwbf.com" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
