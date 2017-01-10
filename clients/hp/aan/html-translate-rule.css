@@ -1,0 +1,33 @@
+div#keyvisual_box > article#keyvisual > ul.main {
+ attribute: cltx add 'exclude';
+}
+
+main#MainContents > div.keyvisual > div.bx-wrapper > div.bx-viewport > ul {
+ attribute: cltx add 'exclude';
+}
+
+div.wrapper > div.social_box {
+ attribute: cltx add 'exclude';
+}
+
+nav#topicpath > div > div.social_box {
+ attribute: cltx add 'exclude';
+}
+
+div.wrapper > article.hfeed {
+ attribute: cltx add 'exclude';
+}
+
+div.wrapbox > ul#arealist > li {
+ attribute: cltx add 'exclude';
+}
+
+body > header > div > div > address {
+ attribute: style add 'width:400px;';
+}
+
+@preprocess {
+ replace: '<span title="1st">(.*?)</span>' '<span title="1st">$1</span><br style="display:none;">';
+ replace: '<span title="2nd">(.*?)</span>' '<span title="2nd">$1</span><br style="display:none;">';
+ replace: '<span title="3rd">(.*?)</span>' '<span title="3rd">$1</span><br style="display:none;">';
+}

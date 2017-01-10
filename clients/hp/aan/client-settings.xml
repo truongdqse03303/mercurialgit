@@ -11,6 +11,17 @@
     <request hostname="lacittadella.co.jp" />
   </request-list>
 
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://lacittadella\.co\.jp/recruit/*</url>
+    <url>http://lacittadella\.co\.jp/online/*</url>
+    <url>http://lacittadella\.co\.jp/rain/*</url>
+  </url-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
