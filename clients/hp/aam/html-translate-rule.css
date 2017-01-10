@@ -1,0 +1,56 @@
+div#mainImg > div.bx-wrapper > div.bx-controls > div.bx-controls-direction {
+ attribute: cltx add 'exclude';
+}
+
+div#hdMeta.contentC {
+ attribute: style add 'margin-top:48px;';
+}
+
+section#search.cf > div#reserve > form > ul.option {
+ attribute: cltx add 'exclude';
+}
+
+section#search.cf > div#reserve > form > ul.option > li {
+ attribute: style add 'width:120px;';
+}
+
+section#information > ul.info-tab > li {
+ attribute: style add 'width:130px;';
+}
+
+section#reserve > form#rsv_form > ul.option {
+ attribute: cltx add 'exclude';
+}
+
+section#reserve > form#rsv_form > ul.option > li {
+ attribute: style add 'width:120px;';
+}
+
+section#recommend.contentC > ul.list > li {
+ attribute: style add 'height:400px;';
+}
+
+section#recommend.contentC > ul.list > li > p.btn > a.opacity {
+ attribute: style add 'margin-left:-15px;';
+}
+
+footer#gFooter > div#page-top.pageTop {
+ attribute: cltx add 'exclude';
+}
+
+footer#hFooter > div#page-top.pageTop {
+ attribute: cltx add 'exclude';
+}
+
+div.fb {
+ attribute: cltx add 'exclude';
+}
+
+@preprocess {
+ replace: '<span class="cat">(.*?)</span>' '<span class="cat">$1</span><br style="display:none;">';
+ replace: '<span class="txt2">(.*?)</span>' '<span class="txt2">$1</span><br style="display:none;">';
+}
+
+@preprocess {
+ replace: '<span class="new">(.*?)</span>' '<span class="new">$1</span><br style="display:none;">';
+}
