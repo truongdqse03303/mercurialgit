@@ -8,6 +8,7 @@ div#header > div.inner {
 
 // @RULESET
 // URL #= http://www.tokyu-dept.co.jp/[^/]+/shop/[^/]+_list.html.+
+// URL #= https://www.tokyu-dept.co.jp/[^/]+/shop/[^/]+_list.html.+
 div.floor dl dd a span {
   text-flow: break;
 }
@@ -21,12 +22,14 @@ div.shopList div.text span, div.shopList div.title h2 span {
 
 // @RULESET
 // URL ^= http://www.tokyu-dept.co.jp/toyoko/shop/
+// URL ^= https://www.tokyu-dept.co.jp/toyoko/shop/
 div.floor dl dd a span {
   text-flow: break;
 }
 
 // @RULESET
 // URL #= http://www\.tokyu-dept\.co\.jp/.*
+// URL #= https://www\.tokyu-dept\.co\.jp/.*
 @preprocess {
 replace: '<div id="header">' '<div style="margin-top: 30px;" id="header">';
 }

@@ -17,7 +17,7 @@
   <!-- Microsoft Translatorロゴを表示する設定ID -->
   <extension-param>
    <param-name>mst.logo.show</param-name>
-   <param-value>th,v,id</param-value>
+   <param-value>v,id</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->
