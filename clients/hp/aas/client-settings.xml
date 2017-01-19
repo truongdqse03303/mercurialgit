@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ひょうごツーリズム協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hyogo-tourism/service edaf51b0c1fbb572fd7bfa8d59ce464094a9ee45</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="pub.nohin.hyogo-tourism-foreign.cms8341.jp" />
+  </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic aHlvZ28tdG91cmlzbTpxNyZDZjNIZQ==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://pub\.nohin\.hyogo-tourism-foreign\.cms8341\.jp/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

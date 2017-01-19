@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM IT TOURISM GOURMET INTERNET";
+}
+@engine hyogo-tourism/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER IT TOURISM GOURMET";
+}
+@engine hyogo-tourism/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT TOURISM GOURMET";
+}

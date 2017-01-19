@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>山梨県庁</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>pref-yamanashi/service 44a0d2b9be98ab95a71d724135f34f9c052273d7</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.pref.yamanashi.jp" />
+    <request hostname="www.yamanashi-kankou.jp" path="/zenryoku/" />
+    <request hostname="pub.nohin.pref-yamanashi2017.cms8341.com" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>id</param-value>
+  </extension-param>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
