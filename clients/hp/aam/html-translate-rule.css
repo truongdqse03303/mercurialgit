@@ -58,3 +58,19 @@ div.fb {
 @preprocess {
  replace: '<span class="new">(.*?)</span>' '<span class="new">$1</span><br style="display:none;">';
 }
+
+// @RULESET
+// URL #= http://www\.hotelwbf\.com/senaga/.*?
+html > body {
+ attribute: style add 'margin-top:48px;';
+}
+
+div#header > ul#header_bt > p {
+ attribute: style add 'width:250px;';
+}
+
+// @RULESET
+// URL #= http://www\.hotelwbf\.com/shell-nell/.*?
+html > body {
+ attribute: style add 'margin-top:44px;';
+}
