@@ -1,0 +1,11 @@
+header {
+ attribute:style add 'margin-top:44px;';
+}
+
+nav.owa-menu {
+ attribute:style add 'margin-top:44px;';
+}
+
+@preprocess {
+ replace: '<head class="cl-norewrite">' '<head>';
+}
