@@ -6,6 +6,10 @@ nav.owa-menu {
  attribute:style add 'margin-top:44px;';
 }
 
+div.whatIs-wrap {
+ attribute:cltx add 'exclude';
+}
+
 @preprocess {
  replace: '<head class="cl-norewrite">' '<head>';
 }
