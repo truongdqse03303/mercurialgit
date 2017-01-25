@@ -20,6 +20,20 @@
     <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;}</param-value>
   </extension-param>
 
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>https://www\.universalhome\.co\.jp/works/.*\.php</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>BINARY</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
