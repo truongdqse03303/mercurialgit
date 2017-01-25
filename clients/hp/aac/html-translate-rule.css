@@ -1,9 +1,13 @@
 header#header {
- attribute: style add 'top:48px;';
+ attribute: style add 'top:44px;';
 }
 
 div#container > div#mainvisual_pc {
  attribute: style add 'margin-top:48px;';
+}
+
+div#lnav {
+ attribute: style add 'margin-top:44px;';
 }
 
 div.bx-controls-direction {
@@ -24,4 +28,12 @@ div.contentsInner > div.column02 > ul > li > a > p {
 
 div#worksSearch.contents > div.contentsInner > aside > nav#searchFromTerms.acdPanel > ul > li {
  attribute: cltx add 'exclude';
+}
+
+div.works-search > div.checklist > div.checklist-category {
+ attribute: cltx add 'exclude';
+}
+
+div.pagenavi > div.pagenavi-container > div.pagenavi-mask {
+ attribute: style add 'font-size:13px;';
 }
