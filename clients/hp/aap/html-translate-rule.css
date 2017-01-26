@@ -2,6 +2,10 @@ body {
  attribute: style add 'margin-top:48px;';
 }
 
+header.page-header {
+ attribute: style add 'margin-top:48px;';
+}
+
 header.page-header > ul {
  attribute: cltx add 'exclude';
 }
