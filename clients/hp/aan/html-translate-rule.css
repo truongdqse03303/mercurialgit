@@ -31,3 +31,7 @@ body > header > div > div > address {
  replace: '<span title="2nd">(.*?)</span>' '<span title="2nd">$1</span><br style="display:none;">';
  replace: '<span title="3rd">(.*?)</span>' '<span title="3rd">$1</span><br style="display:none;">';
 }
+
+@postprocess {
+ replace: 'UA-36217897-1' 'UA-36217897-6';
+}
