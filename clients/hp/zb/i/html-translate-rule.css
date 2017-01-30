@@ -10,3 +10,37 @@
   eid: BR-JA.IT.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+.t365t_mster_box_r {
+	attribute: style add 'font-size: 85%;';
+}
+
+.t365t_mster_box_r p {
+	attribute: style add 'top: 0;right: 0;padding: 2px 8px;';
+}
+
+.t365t_table_ul li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%;font-size: 85%;'; /* update */
+}
+
+.t365t_table_ul01 li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%; font-size: 85%;'; /* update */
+}
+
+.premium_idx_btn > li {
+	attribute: style add 'width: 32%;margin: 0 0.5%;font-size: 82%;'; /* update */
+}
+
+.btn_link {
+	attribute: style add 'width: 60%;'; /* update */
+}
+
+@postprocess {
+	replace:'<span class="c_b_red">Rappresenta 1: la</span> Disponibilità di traduzione automatica della precisione-alta' '<span class="c_b_red">Rappresenta 1:</span>&nbsp;la Disponibilità di traduzione automatica della precisione-alta';
+	replace:'<span class="c_b_red">Rappresenta 2: Un</span>\'abbondanza di lingue di traduzione' '<span class="c_b_red">Rappresenta 2:</span>&nbsp;Un\'abbondanza di lingue di traduzione';
+	replace:'<span class="c_b_red">Rappresenta 3</span>: Compatibile con programmazione di API dello spettacolo-alto' '<span class="c_b_red">Rappresenta 3:</span>&nbsp;Compatibile con programmazione di API dello spettacolo-alto';
+	replace:'<span class="c_b_red">Rappresenta 4: l</span>a Semplice introduzione' '<span class="c_b_red">Rappresenta 4:</span>&nbsp;la Semplice introduzione';
+	replace:'<span class="c_b_red">Rappresenta 5: ris</span>ultati di Realizzazione' '<span class="c_b_red">Rappresenta 5:</span>&nbsp;risultati di Realizzazione';
+}
+
+

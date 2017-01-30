@@ -10,3 +10,33 @@
   eid: MS-JAID;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+div.gridContainer > div#div1 > section > div.idx_02 > ul.package_list_w > li {
+	attribute: style add 'float: none;display: inline-block; vertical-align: top;';
+}
+
+.t365t_mster_box_r {
+	attribute: style add 'font-size: 80%;';
+}
+
+.t365t_mster_box_r p {
+	attribute: style add 'width: auto; top: 0;right: 0;padding: 2px 8px;';
+}
+
+.t365t_table_ul li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%;font-size: 85%;'; /* update */
+}
+
+.t365t_table_ul01 li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%; font-size: 85%;'; /* update */
+}
+
+.premium_idx_btn > li {
+	attribute: style add 'width: 32%;margin: 0 0.5%;font-size: 82%;'; /* update */
+}
+
+
+
+
+
+

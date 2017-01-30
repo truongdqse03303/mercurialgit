@@ -10,3 +10,39 @@
   eid: BR-JA.FR.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+.t365t_mster_box_r > p {
+	attribute: style add 'bottom: 0; right: 0; top: inherit'; /* update */
+}
+
+.t365t_table_ul li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%;font-size: 80%;'; /* update */
+}
+
+.t365t_table_ul01 li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%; font-size: 80%;'; /* update */
+}
+
+.btn_link {
+	attribute: style add 'width: 60%;'; /* update */
+}
+
+@postprocess {
+	replace:'<span class="c_b_red">Caractérise-en 2: Un</span>e abondance de langues de la traduction' '<span class="c_b_red">Caractérise-en 2:</span>&nbsp;Une abondance de langues de la traduction';
+//	replace:'<span class="c_b_red">Caractérise-</span>en 3: Compatible avec programmation de l'API performante' '<span class="c_b_red">Caractérise-en 3:</span>&nbsp;Compatible avec programmation de l'API performante';
+	replace:'<span class="c_b_red">Caractérise-en </span>4: introduction Simple' '<span class="c_b_red">Caractérise-en 4:</span>&nbsp;introduction Simple';
+	replace:'<span class="c_b_red">Caractérise-en 5: rés</span>ultats de la Mise en oeuvre' '<span class="c_b_red">Caractérise-en 5:</span>&nbsp;résultats de la Mise en oeuvre';
+}
+
+@postprocess {
+	replace:'<p><!--cltx-->Le japonais <span class="c_b_red">anglais<i class="fa fa-arrows-h"></i></span></p>' '<p><!--cltx-->Le japonais <i class="fa fa-arrows-h"></i><span class="c_b_red"> anglais</span></p>';
+	replace:'<p><!--cltx-->Le japonais <span class="c_b_red">chinois<i class="fa fa-arrows-h"></i></span></p>' '<p><!--cltx-->Le japonais <i class="fa fa-arrows-h"></i><span class="c_b_red"> chinois</span></p>';
+	replace:'<p><!--cltx-->Le japonais<span class="c_b_red"> coréen<i class="fa fa-arrows-h"></i></span></p>' '<p><!--cltx-->Le japonais <i class="fa fa-arrows-h"></i><span class="c_b_red"> coréen</span></p>';
+	replace:'<p><!--cltx-->Le thaï ja<span class="c_b_red">ponais<i class="fa fa-arrows-h"></i></span></p>' '<p><!--cltx-->Le thaï <i class="fa fa-arrows-h"></i><span class="c_b_red"> japonais</span></p>';
+}
+
+/* News */
+@postprocess {
+	replace:'<font color="#F44336">"Honyaku Pikaichi V15 Médical" est un Anglais en japonais et</font>' '<font color="#F44336">"Honyaku Pikaichi V15 Médical"</font> est un Anglais en japonais et';
+	replace:'Pour les dét<a href="http://www.crosslanguage.co.jp.f.zb.hp.transer.com/" target="_blank" class="firstChild lastChild"><u><font color="blue">ails, veuillez consulter http://www.crosslan</font></u></a>guage.co.jp/' 'Pour les détails, veuillez consulter <a href="http://www.crosslanguage.co.jp.f.zb.hp.transer.com/" target="_blank" class="firstChild lastChild"><u><font color="blue">http://www.crosslanguage.co.jp/</font></u></a>';
+}

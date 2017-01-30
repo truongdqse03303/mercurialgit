@@ -10,3 +10,30 @@
   eid: BR-JA.DE.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+.t365t_mster_box_r {
+	attribute: style add 'font-size: 95%;';
+}
+
+.t365t_mster_box_r p {
+	attribute: style add 'top: inherit;bottom: 0;right: 0;padding: 2px 8px;';
+}
+
+div.gridContainer > div#div1 > section > div.idx_02 > ul.package_list_w > li > h4.package_tit_w {
+	attribute: style add 'min-height:85px !important;line-height: normal;';
+}
+
+.btn_link {
+	attribute: style add 'width: 60%;'; /* update */
+}
+
+div.service_box div.discription {
+	attribute: style add 'height: inherit;'; /* update */
+}
+
+@postprocess {
+	replace:'<span class="c_b_red">Präsentiere 1: E</span>rhältlichkeit von hoch-Präzisions-Maschinenübersetzung' '<span class="c_b_red">Präsentiere 1:</span>&nbsp;Erhältlichkeit von hoch-Präzisions-Maschinenübersetzung';
+	replace:'<span class="c_b_red">Präsentiere 2: ei</span>n Überfluß an Übersetzungssprachen' '<span class="c_b_red">Präsentiere 2:</span>&nbsp;ein Überfluß an Übersetzungssprachen';
+	replace:'<span class="c_b_red">Präsentiere</span> 3: Vereinbar mit HochleistungsaPI-Programmierung' '<span class="c_b_red">Präsentiere 3:</span>&nbsp;Vereinbar mit HochleistungsaPI-Programmierung';
+	replace:'<span class="c_b_red">Präsentiere 5: Imp</span>lementation resultiert' '<span class="c_b_red">Präsentiere 5:</span>&nbsp;Implementation resultiert';
+}

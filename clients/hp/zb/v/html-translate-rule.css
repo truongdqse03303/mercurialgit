@@ -10,3 +10,15 @@
   eid: MS-JAVI;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+div.gridContainer > div#div1 > section > div.idx_02 > ul.package_list_w > li {
+	attribute: style add 'float: none;display: inline-block; vertical-align: top;';
+}
+
+.t365t_table_ul li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%;font-size: 65%;'; /* update */
+}
+
+.t365t_table_ul01 li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%; font-size: 65%;'; /* update */
+}

@@ -14,3 +14,19 @@
 body {
   attribute: lang add 'zh';
 }
+
+div.gridContainer > div#div1 > section > div.idx_02 > ul.package_list_w > li > h4.package_tit_w {
+	attribute: style add 'min-height:0 !important;';
+}
+
+.professional_q_txt {
+	attribute: style add 'right: 0; font-size: 0.75em;'; /* update */
+}
+
+p#site-translate-icp {
+	attribute: style add 'width: auto !important;'; /* update */
+}
+
+@postprocess {
+	replace:'<span class="c_b_red">特征5导</span>入实际成果' '<span class="c_b_red">特征5</span>&nbsp;导入实际成果';
+}

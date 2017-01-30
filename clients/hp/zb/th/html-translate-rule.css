@@ -10,3 +10,22 @@
   eid: CR-JT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM";
 }
+
+.t365t_mster_box_r p {
+	attribute: style add 'width: auto; top: 0; padding: 2px 8px;';
+}
+
+.t365t_table_ul li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%;font-size: 80%;'; /* update */
+}
+
+.t365t_table_ul01 li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%; font-size: 80%;'; /* update */
+}
+
+@postprocess {
+	replace:'<span class="c_b_red">คุณสมบัติที</span>่ 2: รองรับหลากหลายภาษา' '<span class="c_b_red">คุณสมบัติที่ 2:</span> รองรับหลากหลายภาษา';
+	replace:'<span class="c_b_red">คุณสมบัติที</span>่ 3: รองรับโปรแกรม API ที่มีฟังก์ชั่นการทำงานสูง' '<span class="c_b_red">คุณสมบัติที่ 3:</span> รองรับโปรแกรม API ที่มีฟังก์ชั่นการทำงานสูง';
+	replace:'<span class="c_b_red">คุณสมบัติท</span>ี่ 4: ใช้งานง่าย' '<span class="c_b_red">คุณสมบัติที่ 4:</span> ใช้งานง่าย';
+	replace:'<span class="c_b_red">คุณสมบัติที่ </span>5: ตัวอย่างผลงาน' '<span class="c_b_red">คุณสมบัติที่ 5:</span> ตัวอย่างผลงาน';
+}

@@ -10,3 +10,36 @@
   eid: BR-JA.PT.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+.t365t_mster_box_r {
+	attribute: style add 'font-size: 80%;';
+}
+
+.t365t_mster_box_r p {
+	attribute: style add 'width: auto; top: 0;right: 0;padding: 2px 8px;';
+}
+
+.t365t_table_ul li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%;font-size: 72%;'; /* update */
+}
+
+.t365t_table_ul01 li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%; font-size: 72%;'; /* update */
+}
+
+.premium_idx_btn > li {
+	attribute: style add 'width: 32%;margin: 0 0.5%;font-size: 82%;'; /* update */
+}
+
+.btn_link {
+	attribute: style add 'width: 60%;'; /* update */
+}
+
+
+@postprocess {
+	replace:'<span class="c_b_red">Caracterize 1: Di</span>sponibilidade de tradução computadorizada de alto-precisão' '<span class="c_b_red">Caracterize 1:</span>&nbsp;Disponibilidade de tradução computadorizada de alto-precisão';
+	replace:'<span class="c_b_red">Caracterize 2: Um</span>a abundância de idiomas de tradução' '<span class="c_b_red">Caracterize 2:</span>&nbsp;Uma abundância de idiomas de tradução';
+	replace:'<span class="c_b_red">Caracterize </span>3: Compatível com alto-desempenho programação de API' '<span class="c_b_red">Caracterize 3:</span>&nbsp;Compatível com alto-desempenho programação de API';
+	replace:'<span class="c_b_red">Caracterize 4</span>: introdução Simples' '<span class="c_b_red">Caracterize 4:</span>&nbsp;introdução Simples';
+	replace:'<span class="c_b_red">Caracterize 5: resu</span>ltados de Implementação' '<span class="c_b_red">Caracterize 5:</span>&nbsp;resultados de Implementação';
+}

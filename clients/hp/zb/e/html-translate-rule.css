@@ -10,3 +10,36 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+@postprocess {
+	replace:'<span class="c_b_red">Feature 1: Ava</span>ilability of high-precision machine translation' '<span class="c_b_red">Feature 1:</span>&nbsp;Availability of high-precision machine translation';
+	replace:'<span class="c_b_red">Feature 2: An ab</span>undance of translation languages' '<span class="c_b_red">Feature 2:</span>&nbsp;An abundance of translation languages';
+	replace:'<span class="c_b_red">Feature 4: S</span>imple introduction' '<span class="c_b_red">Feature 4:</span>&nbsp;Simple introduction';
+	replace:'<span class="c_b_red">Feature 5: Impl</span>ementation results' '<span class="c_b_red">Feature 5:</span>&nbsp;Implementation results';
+}
+
+@postprocess {
+	replace:'<p><!--cltx-->Japanese E<span class="c_b_red">nglish<i class="fa fa-arrows-h"></i></span></p>' '<p><!--cltx-->Japanese <i class="fa fa-arrows-h"></i><span class="c_b_red"> English</span></p>';
+	replace:'<p><!--cltx-->Japanese C<span class="c_b_red">hinese<i class="fa fa-arrows-h"></i></span></p>' '<p><!--cltx-->Japanese <i class="fa fa-arrows-h"></i><span class="c_b_red"> Chinese</span></p>';
+	replace:'<p><!--cltx-->Japanese <span class="c_b_red">Korean<i class="fa fa-arrows-h"></i></span></p>' '<p><!--cltx-->Japanese <i class="fa fa-arrows-h"></i><span class="c_b_red"> Korean</span></p>';
+	replace:'<p><!--cltx-->Japanese<span class="c_b_red"> Thai<i class="fa fa-arrows-h"></i></span></p>' '<p><!--cltx-->Japanese <i class="fa fa-arrows-h"></i><span class="c_b_red"> Thai</span></p>';
+	replace:'<!--cltx-->Rate:<strong> 7,500 yen (t</strong>ax-excluded)<br>' '<!--cltx-->Rate:<strong> 7,500 yen</strong> (tax-excluded)<br>';
+	replace:'<!--cltx-->Rate:<span class="fs14 c_b_red"> 5,000 yen (t</span>ax-excluded)<br>' '<!--cltx-->Rate:<span class="fs14 c_b_red"> 5,000 yen</span> (tax-excluded)<br>';
+	replace:'<!--cltx-->Rate:<span class="fs14 c_b_red"> 10,000 yen (t</span>ax-excluded)<br>' '<!--cltx-->Rate:<span class="fs14 c_b_red"> 10,000 yen</span> (tax-excluded)<br>';
+}
+
+/* News */
+@postprocess {
+	replace:'<font color="#F44336">"Honyaku Pikaichi Medical V15" is an English to Japane</font>' '<font color="#F44336">"Honyaku Pikaichi Medical V15"</font> is an English to Japane';
+	replace:'For detai<a href="http://www.crosslanguage.co.jp.e.zb.hp.transer.com/" target="_blank" class="firstChild lastChild"><u><font color="blue">ls, please see http://www.crosslangua</font></u></a>ge.co.jp/' 'For details, please see <a href="http://www.crosslanguage.co.jp.e.zb.hp.transer.com/" target="_blank" class="firstChild lastChild"><u><font color="blue">http://www.crosslanguage.co.jp/</font></u></a>';
+}
+
+/* Top */
+@postprocess {
+	replace:'<!--cltx-->This is your chance to purchase the packaged version/download vers<font color="red">ion of any translati</font>on software at a 20% discount!' '<!--cltx-->This is your chance to purchase the packaged version/download version of any translation software at a <font color="red">20% discount!</font>';
+}
+
+@postprocess {
+	replace:'<!--cltx--><a href="../news/news20161118.html" target="_blank">New release on Friday, December 9, 2016 of "Honyaku Pika</a><a href="../products/pikamedv15_win/"><strong><u>ichi Medical V15", an English-to-Japanese and Japa</u></strong></a>nese-to-English translation software for use in the medical field.' '<!--cltx--><a href="../news/news20161118.html" target="_blank">New release on Friday, December 9, 2016, "<a href="../products/pikamedv15_win/"><strong><u>Honyaku Pikaichi Medical V15" of an English-to-Japanese and Japa</u></strong></a>nese-to-English translation software for use in the medical field.';
+}
+

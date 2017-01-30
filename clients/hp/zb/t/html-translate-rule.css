@@ -10,3 +10,15 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+div.gridContainer > div#div1 > section > div.idx_02 > ul.package_list_w > li > h4.package_tit_w {
+	attribute: style add 'min-height:0 !important;';
+}
+
+.professional_q_txt {
+	attribute: style add 'right: 0; font-size: 0.75em; /* update */ '; /* update */
+}
+
+@postprocess {
+	replace:'<span class="c_b_red">特徵5導</span>入實際成果' '<span class="c_b_red">特徵5</span>&nbsp;導入實際成果';
+}

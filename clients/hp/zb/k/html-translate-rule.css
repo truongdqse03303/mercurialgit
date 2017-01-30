@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+div.gridContainer > div#div1 > section > div.idx_02 > ul.package_list_w > li > h4.package_tit_w {
+	attribute: style add 'min-height:60px !important;';
+}

@@ -1,0 +1,162 @@
+div.flexslider {
+  attribute: cltx add 'exclude';
+}
+
+.idx_news_list li dl {
+	attribute: style add 'line-height: normal;';
+}
+
+div.idx_news_wrap > .idx_news_list > li {
+	attribute: style add 'border-bottom: 1px dashed #cccccc;';
+}
+
+div.idx_news_wrap > .idx_tit_txt01 {
+	attribute: style add 'width: auto;';
+}
+
+div.idx_news_wrap > .idx_tit_txt02 {
+	attribute: style add 'width: auto;padding: 2px 8px;margin: 0 0 15px;line-height:normal;';
+}
+
+div.gridContainer > div#div1 > section > div.idx_02 > ul.package_list_w > li > h4.package_tit_w {
+	attribute: style add 'min-height:70px;line-height:normal;';
+}
+
+ul.package_list_w > li {
+	attribute: style add 'float: none; display: inline-block; vertical-align: top;';
+}
+
+div.service_box > li {
+	attribute: style add 'width: 30%;';
+}
+
+ul.package_list_w > .add_discription {
+	attribute: style add 'min-height: 36px;';
+}
+
+ul.package_list_w > .add_package {
+	attribute: style add 'min-height: 262px;position: relative;';
+}
+
+ul.package_list_w > .add_discription02 {
+	attribute: style add 'position: absolute;width: 100%;bottom: 0;min-height: 36px;';
+}
+
+/* case */
+
+div.case_tab {
+	attribute: style add 'height: 62px;'; /* update */
+}
+
+ul.case_tab > li {
+	attribute: style add 'min-height: 52px;';
+}
+
+.flag > li {
+	attribute: style add 'width: auto;'; /* update */
+}
+
+/* Products & Services */
+
+h4.package_tit_w {
+	attribute: style add 'max-width: 280px;line-height: normal;min-height: 65px;';
+}
+
+/* Human Translating and Interpreting */
+
+.t365_circle_01 span {
+	attribute: style add 'font-size: 3em; /* update */ left: 0; /* update */ right: 0;';
+}
+
+.t365_circle_02 span {
+	attribute: style add 'font-size: 3em; /* update */ left: 0; /* update */ right: 0;';
+}
+
+.t365_circle_03 span {
+	attribute: style add 'font-size: 3em; /* update */ left: 0; /* update */ right: 0;';
+}
+
+.t365t_table_ul {
+	attribute: style add 'width: auto;'; /* update */
+}
+
+.t365t_table_ul li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%;'; /* update */
+}
+
+.t365t_table_ul01 {
+	attribute: style add 'width: auto;'; /* update */
+}
+
+.t365t_table_ul01 li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%;'; /* update */
+}
+
+.com_tit_txt02 {
+	attribute: style add 'text-align: left;'; /* update */
+}
+
+.btn_list01 {
+	attribute: style add 'width: 940px;'; /* update */
+}
+
+.btn_list01 li a {
+	attribute: style add 'width: 45%;'; /* update */
+}
+
+.btn_list03 a {
+	attribute: style add 'width: 75%;'; /* update */
+}
+
+/* Automatic translation */
+
+.sdk_service_txt03 {
+	attribute: style add 'right: 19px;'; /* update */
+}
+
+.sdk_service_txt04 {
+	attribute: style add 'top: 115px; /* update */right: 25px;'; /* update */
+}
+
+.sdk_service_txt05 {
+	attribute: style add 'top: 200px; /* update */ right: 25px;'; /* update */
+}
+
+.premium_idx_btn > li {
+	attribute: style add 'width: 32%;margin: 0 0.5%;font-size: 87%;'; /* update */
+}
+
+.btn_link {
+	attribute: style add 'width: 50%;'; /* update */
+}
+
+.homepage_idx_img_a,
+.homepage_idx_img_b {
+	attribute: style add 'width: auto; padding: 0 1%'; /* update */
+}
+
+div.auto-translation > .auto-translation_list > li {
+	attribute: style add 'float:none; display: inline-block; vertical-align:top;'; /* update */
+}
+
+/* Automatic translation > Enterprise Translation System */
+
+.com_contents .contents .com_subtit_txt {
+	attribute: style add 'margin: 60px 0 20px;'; /* update */
+}
+
+/* Recruitment of sales partners */
+
+.partner_img_box02 > p {
+	attribute: style add 'line-height: normal;';
+}
+
+.partner_list02 li {
+	attribute: style add 'float: none; /* update */ display: inline-block; vertical-align: top;';
+}
+
+/* Human Translating and Interpreting > Professional Translation Service > Quality control */
+
+.professional_q_txt {
+	attribute: style add 'width: 440px; /* update */ font-size: 0.75em; /* update */ left: 0;'; /* update */
+}

@@ -10,3 +10,27 @@
   eid: BR-JA.ES.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+.t365t_mster_box_r p {
+	attribute: style add 'width: auto; top: inherit; bottom: 0;right: 0;padding: 2px 8px;';
+}
+
+.t365t_table_ul li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%;font-size: 80%;'; /* update */
+}
+
+.t365t_table_ul01 li {
+	attribute: style add 'padding: 0; /* update */ width: 48%;margin: 0 1%; font-size: 80%;'; /* update */
+}
+
+.btn_link {
+	attribute: style add 'width: 70%;'; /* update */
+}
+
+@postprocess {
+	replace:'<span class="c_b_red">Ofrece 1: Dispon</span>ibilidad de traducción automática de la precisión-alta' '<span class="c_b_red">Ofrece 1:</span>&nbsp;Disponibilidad de traducción automática de la precisión-alta';
+	replace:'<span class="c_b_red">Ofrece 2: Una ab</span>undancia de idiomas de traducción' '<span class="c_b_red">Ofrece 2:</span>&nbsp;Una abundancia de idiomas de traducción';
+	replace:'<span class="c_b_red">Ofrece 3: C</span>ompatible con programación del API alto rendimiento' '<span class="c_b_red">Ofrece 3:</span>&nbsp;Compatible con programación del API alto rendimiento';
+	replace:'<span class="c_b_red">Ofrece 4: la </span>introducción Simple' '<span class="c_b_red">Ofrece 4:</span>&nbsp;la introducción Simple';
+	replace:'<span class="c_b_red">Ofrece 5: los res</span>ultados de Aplicación' '<span class="c_b_red">Ofrece 5:</span>&nbsp;los resultados de Aplicación';
+}
