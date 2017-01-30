@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社JTBパブリッシング</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tokyogrown/service b022d6bae28d3e3e46960a2bcb1eb16b1a6460fd</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="tokyogrown.jp" />
+    <request hostname="test.tokyogrown.jp" />
+  </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic dGd3ZWJ1c2VyOmszbk5CMSNuYjMxIWRu</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://test\.tokyogrown\.jp.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
