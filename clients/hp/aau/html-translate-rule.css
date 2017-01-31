@@ -10,7 +10,6 @@ body {
 	attribute: style add 'line-height: normal;';
 }
 
-/*
 #news .news_tab li .tx_spc {
 	attribute: style add 'letter-spacing: normal;padding-left: 0;';
 }
@@ -18,4 +17,3 @@ body {
 #news .news_tab li > span {
 	attribute: style add 'line-height: normal;padding: 5% 0;';
 }
-*/

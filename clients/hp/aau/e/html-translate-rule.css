@@ -10,3 +10,26 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT TOURISM GOURMET";
 }
+
+/* ヘッダーメニュー右 */
+#gnav > nav > .nav_right {
+	attribute: style add 'top: 22%;line-height: 1.6;';
+}
+
+#gnav > nav > .nav_right > li {
+	attribute: style add 'float:none;';
+}
+
+/* 右カラム */
+div#sidenav #area_search h2, div#sidenav #station_search h2 {
+	attribute: style add 'font-size: 110.6%;';
+}
+
+div#sidenav #area_search > p, div#sidenav #station_search > p {
+	attribute: style add 'font-size: 12px;';
+}
+
+/* スマートフォンメニュー */
+#gnav_sp li.nav01 a {
+	attribute: style add 'line-height: normal;';
+}
