@@ -33,3 +33,35 @@ div#sidenav #area_search > p, div#sidenav #station_search > p {
 #gnav_sp li.nav01 a {
 	attribute: style add 'line-height: normal;';
 }
+
+/* Station lunch, product topics */
+#topics_top .box .head h1 {
+	attribute: style add 'width: 70%;';
+}
+
+/* Information for station lunch, product */
+.contents_tab01 li a, .contents_tab01 li span {
+	attribute: style add 'padding: 17px 1px;';
+}
+
+/* Reservation of lunch, product */
+#main_contents > #reservation > div > div.telbox > ul > li {
+	attribute: style add 'position: relative;';
+}
+
+#reservation .telbox .name {
+	attribute: style add 'padding: 0;position: absolute;top:10%;';
+}
+
+#reservation .telbox .tel {
+	attribute: style add 'position: absolute;left:0; right: 0; bottom: 5%;';
+}
+
+/* Information for restaurant */
+#restaurants_area_nav a {
+	attribute: style add 'line-height: 1.6;padding: 5% 0 10%;';
+}
+
+@preprocess {
+	replace:'UA-55223534-1' 'UA-55223534-2';
+}
