@@ -17,3 +17,7 @@ body {
 #news .news_tab li > span {
 	attribute: style add 'line-height: normal;padding: 5% 0;';
 }
+
+#sp_menu {
+	attribute: style add 'margin: 48px 0 0;';
+}
