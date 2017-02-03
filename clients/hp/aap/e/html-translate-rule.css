@@ -10,3 +10,12 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT TOURISM GOURMET";
 }
+
+/* Œð’Ê‹@ŠÖ‚Ì‚²ˆÄ“à*/
+.access.contents-wrap .section1 dt {
+ attribute: style add 'height: auto; padding: 1% 2%;';
+}
+
+.access.contents-wrap .section1 dd.double {
+ attribute: style add 'padding-top: 0; height: auto;';
+}

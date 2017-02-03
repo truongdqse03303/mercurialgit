@@ -1,13 +1,11 @@
-body {
- attribute: style add 'margin-top:48px;';
-}
-
 header.page-header {
  attribute: style add 'margin-top:48px;';
+ attribute: cltx add 'exclude';
 }
 
-header.page-header > ul {
- attribute: cltx add 'exclude';
+@preprocess {
+  replace:'<span class="num">(.*?)</span>(.*?)<small>(.*?)</small>' '<span class="num">$1</span><br style="display:none;">$2<br style="display:none;"><small>$3</small>';
+  replace:'シーボン.' 'シーボン';
 }
 
 @preprocess {
