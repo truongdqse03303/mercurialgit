@@ -1,0 +1,6 @@
+// @RULESET
+// URL ^= http://www.akashi-lib.jp/style.css
+
+@preprocess {
+  replace: '@media \\(max-width:640px\\) \\{' '@media \\(max-width:640px\\)\\{ #wrapper #nav #nav-01 #use-us a img\\ {float: none !important;vertical-align: middle !important;\\} #wrapper #nav #nav-01 #b-search a img,#wrapper #nav #nav-02 #access a img \\{float: none !important;vertical-align: middle !important; \\} #wrapper #nav #nav-01 div,#wrapper #nav #nav-02 div,#wrapper #nav #nav-03 div \\{font-size: 100% !important;\\} #footer ul #address p\\{line-height: normal !important;\\} #wrapper #footer ul #shitei img \\{width: 35% !important;\\} #footer ul #copy p \\{padding: 0 2% 2%\\}';
+}

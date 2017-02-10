@@ -1,0 +1,44 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT HOBBY INTERNET";
+}
+@engine akashi-lib/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT HOBBY";
+}
+@engine akashi-lib/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT HOBBY";
+}
+
+#contents > #facebook {
+	attribute: cltx add 'exclude';
+}
+
+#site-translate-header-wrapper {
+	attribute: style add 'width: auto !important;';
+}
+
+#wrapper > #nav > #nav-01 > #b-search > a > img,
+#wrapper > #nav > #nav-02 > #access > a > img {
+	attribute: style add 'float: left; vertical-align: bottom;';
+}
+
+#wrapper > #nav > #nav-01 > #use-us > a > img {
+	attribute: style rewrite 'float: left; margin-left:0;';
+}
+
+#wrapper > #nav > #nav-01 > #b-search,
+#wrapper > #nav > #nav-01 > #use-us,
+#wrapper > #nav > #nav-02 > #access {
+	attribute: style add 'line-height: normal; padding: 10px 5px 10px 25px ; font-size: 18px; opacity: 1; min-height: 55px;';
+}
+
+/* Address */
+#footer > ul > #address > p {
+	attribute: style add 'font-size: 100%;';
+}
+
+#wrapper > #footer > ul > #shitei > a > img {
+	attribute: style add 'width: 50%;';
+}

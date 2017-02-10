@@ -1,0 +1,8 @@
+#contents > #facebook {
+	attribute: cltx add 'exclude';
+}
+
+/* Notice */
+#contents > #news > #ichiran {
+	attribute: style add 'width: auto; right: 0; left: inherit;padding-right: 10px;';
+}
