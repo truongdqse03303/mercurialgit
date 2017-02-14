@@ -1,0 +1,77 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM SPORTS HOBBY INTERNET";
+}
+@engine nagaipark/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER SPORTS HOBBY";
+}
+@engine nagaipark/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SPORTS HOBBY";
+}
+
+/* Tab */
+#top_info > ul > li#top_info_tab1 > span,
+#top_event > ul > li#top_event_tab1 > span{
+	attribute: style add 'line-height: inherit;padding: 25px 6px 0 12px;';
+}
+
+#top_info > ul > li#top_info_tab5 > span,
+#top_event > ul > li#top_event_tab5 > span{
+	attribute: style add 'line-height: inherit;padding: 12px 6px 12px 24px;';
+}
+
+#top_info > ul > li#top_info_tab2 > span,
+#top_info > ul > li#top_info_tab3 > span,
+#top_info > ul > li#top_info_tab4 > span,
+#top_info > ul > li#top_info_tab6 > span,
+#top_event > ul > li#top_event_tab2 > span,
+#top_event > ul > li#top_event_tab3 > span,
+#top_event > ul > li#top_event_tab4 > span,
+#top_event > ul > li#top_event_tab6 > span{
+	attribute: style add 'line-height: inherit;padding: 24px 6px 0 24px;';
+}
+
+#top_info > div > dl > dt {
+	attribute: style add 'min-width: 110px;';
+}
+
+/* 長居公園ナビ */
+#rightcol > .sparknav > dd {
+	attribute: style add 'line-height: 1.3;';
+}
+
+/* サイトマップ */
+#sitemap_cont > .box > .box_left {
+	attribute: style add 'width: 45%;';
+}
+
+#sitemap_cont > .box > .box_right {
+	attribute: style add 'width: 51%;';
+}
+
+/* 右カラムリンク */
+#rightcol > .banner_school_nagai {
+	attribute: style add 'line-height: 1.0;';
+}
+
+#rightcol > .banner_school_nagai > a {
+	attribute: style add 'width: 70%;';
+}
+
+#rightcol > .stomonokai > dd {
+	attribute: style add 'line-height: 1.3;background: url(http://www.nagaipark.com/wp/wp-content/themes/nagaib/common2/images/side_icon.png) no-repeat right center #fff;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;padding: 2px;';
+}
+
+#rightcol > .stomonokai > dd > a {
+	attribute: style add 'height: auto; line-height: normal; background:none; width: 85%;';
+}
+
+#rightcol > .banner_line {
+	attribute: style add 'border: 2px solid #379320;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;background: url(http://www.nagaipark.com/wp/wp-content/themes/nagaib/common2/images/side_icon.png) no-repeat right center #fff;padding: 2px;';
+}
+
+#rightcol > .banner_line > a {
+	attribute: style add 'height: auto; line-height: normal; border:0; background:none; width: 80%;';
+}

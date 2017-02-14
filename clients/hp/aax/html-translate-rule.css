@@ -1,0 +1,6 @@
+/* –|–óœŠO */
+#guide_cont > .guide_ac1 > dl > dt > span,
+#rightcol > .item-twitter,
+#rightcol > .item-facebook {
+	attribute: cltx add 'exclude';
+}

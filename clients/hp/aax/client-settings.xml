@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>一般社団法人 セレッソ大阪スポーツクラブ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nagaipark/service a7d57d38264eb383a08f51681d4c33a6ec8d9025</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.nagaipark.com" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
