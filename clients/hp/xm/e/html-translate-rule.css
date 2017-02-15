@@ -13,4 +13,5 @@
 
 @preprocess {
 replace: 'UA-50301300-1' 'UA-50301300-2';
+replace: '<p>(.*?)<a href="http://www.geidankyo.or.jp/12kaden/information/detail/6150" target="_blank">' '<p>$1<br style="display:none;"><a href="http://www.geidankyo.or.jp/12kaden/information/detail/6150" target="_blank">';
 }
