@@ -1,0 +1,6 @@
+// @RULESET
+// URL ^= http://ochahaku.kyoto/css/sp.css
+
+@postprocess {
+  replace: '.lower #eventNav li \\{(.*?)\\}' '.lower #eventNav li \\{width: 49%;\\}';
+}

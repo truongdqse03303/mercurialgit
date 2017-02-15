@@ -1,0 +1,51 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOURMET INTERNET";
+}
+@engine ochahaku/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOURMET";
+}
+@engine ochahaku/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
+}
+
+/*
+div.toggleMenu > div.leftNav > #eventNav > li {
+	attribute: style add 'width: 49%;';
+}
+*/
+
+div.leftNav > #eventNav > li.ic_area > a > span.ic_name{
+	attribute: style add 'font-size: 68%;';
+}
+
+.mb50 {
+	attribute: style add 'font-size: 90%;';
+}
+
+table.calendar {
+	attribute: style add 'font-size: 90% !important;';
+}
+
+#scene > .clm4 > .fll > .sceneS06 > a,
+#scene > .clm4 > .fll > .sceneS08 > a{
+	attribute: style add 'letter-spacing: normal;';
+}
+
+/* ÉJÉåÉìÉ_Å[ */
+@preprocess {
+	replace:'<th(.*?)><span class="fs13">(.*?)</span>(.*?)<span class="fs13">(.*?)</span>(.*?)</th>' '<th$1><span class="fs13">$2$3$4$5</span></th>';
+}
+
+@postprocess {
+	replace:'<th class="sun"><!--cltx-->Day</th>' '<th class="sun"><!--cltx-->Sun</th>';
+	replace:'<th><!--cltx-->Month</th>' '<th><!--cltx-->Mon</th>';
+	replace:'<th><!--cltx-->Fire</th>' '<th><!--cltx-->Tue</th>';
+	replace:'<th><!--cltx-->Water</th>' '<th><!--cltx-->Wed</th>';
+	replace:'<th><!--cltx-->Tree</th>' '<th><!--cltx-->Thu</th>';
+	replace:'<th><!--cltx-->Money</th>' '<th><!--cltx-->Fri</th>';
+	replace:'<th class="sat"><!--cltx-->Soil</th>' '<th class="sat"><!--cltx-->Sat</th>';
+	replace:'https://maps.googleapis.com/maps/api/js' 'https://maps.googleapis.com/maps/api/js?language=en&';
+}

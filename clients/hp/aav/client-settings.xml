@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社リクルートコミュニケーションズ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ochahaku/service 73e4103aaac465d78d8b3ce8fc9f1f835b34eb98</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="ochahaku.kyoto" />
+    <request hostname="www.ochahaku.kyoto" />
+  </request-list>
+
+<!-- 免責ヘッダー -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

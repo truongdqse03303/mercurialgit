@@ -1,0 +1,24 @@
+.mapBox #map {
+	attribute: cltx add 'exclude';
+}
+
+#site-translate-header-wrapper {
+	attribute: style add 'width: 90% !important;';
+}
+
+body {
+	attribute: style add 'letter-spacing: normal;';
+}
+
+article > section > .in > h1,
+article > section > .in > section > h1,
+article > section > .in > h1 > i,
+article > section > .in > section > h1 > i,
+article > section > .ttlDetail {
+	attribute: style add 'letter-spacing: normal !important;';
+}
+
+@preprocess {
+	replace:'<span class="holiName">(.*?)</span>' '<span class="holiName">$1</span><br style="display:none;">';
+	replace:'<span class="clRed">(.*?)</span>' '<br style="display:none;"><span class="clRed">$1</span><br style="display:none;">';
+}

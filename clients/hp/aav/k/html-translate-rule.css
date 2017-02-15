@@ -1,0 +1,17 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine ochahaku/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine ochahaku/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+/* ‘½Œ¾Œê‘Î‰ž */
+@postprocess {
+	replace:'https://maps.googleapis.com/maps/api/js' 'https://maps.googleapis.com/maps/api/js?language=ko&';
+}
