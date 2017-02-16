@@ -12,5 +12,5 @@
 }
 
 @preprocess {
-  replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-e:show -->' '$1';
+  replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
 }
