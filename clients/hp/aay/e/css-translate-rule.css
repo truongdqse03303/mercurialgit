@@ -1,0 +1,21 @@
+// @RULESET
+// URL ^= http://demo056.kohga.co.jp/top/css/index.css
+// URL ^= http://www.panjo.co.jp/top/css/index.css
+@postprocess {
+  replace: '#card .card_box01(.*?)width: 720px(.*?)' '#card .card_box01$1width: 770px$2';
+  replace: '#card .card_box01 dl(.*?)width: 420px;' '#card .card_box01 dl$1width: 470px;';
+}
+
+// @RULESET
+// URL ^= http://demo056.kohga.co.jp/common/css/common.css
+// URL ^= http://www.panjo.co.jp/common/css/common.css
+@preprocess {
+  replace: '#footer .inner .sitemap dl\\{(.*?)\\}' '#footer .inner .sitemap dl\\{$1\\} #footer .inner .sitemap div dl:first-child\\{width: 15%;padding-right: 2%;\\} #footer .inner .sitemap div dl:nth-child(2)\\{width: 22%;padding-right: 2%;\\}#footer .inner .sitemap div dl:nth-child(3)\\{width: 29.5%;padding-right: 2%;\\} #footer .inner .sitemap div dl:last-child\\{margin: 0;padding-right: 0;width: auto;\\}';
+}
+
+// @RULESET
+// URL ^= http://demo056.kohga.co.jp/info/css/hall.css
+// URL ^= http://www.panjo.co.jp/info/css/hall.css
+@preprocess {
+  replace: '.hall .about_box02 dl dt\\{(.*?)font-size: 20px;(.*?)\\}' '.hall .about_box02 dl dt\\{$1font-size: 100%;$2\\}';
+}

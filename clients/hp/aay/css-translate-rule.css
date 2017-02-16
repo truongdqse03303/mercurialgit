@@ -1,0 +1,6 @@
+// @RULESET
+// URL ^= http://demo056.kohga.co.jp/info/css/smoking.css
+// URL ^= http://www.panjo.co.jp/info/css/smoking.css
+@preprocess {
+  replace: '.smoking .box01 dl\\{(.*?)\\}' '.smoking .box01 dl\\{display: inline-block;margin-right: 2%;margin-bottom: 30px;width: 30%;\\}';
+}

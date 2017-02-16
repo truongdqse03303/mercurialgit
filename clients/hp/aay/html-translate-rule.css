@@ -1,0 +1,22 @@
+#site-translate-header-wrapper {
+	attribute: cltx add 'width: auto';
+}
+
+#pagetop,
+#topics_campaign > .inner {
+	attribute: cltx add 'exclude';
+}
+
+#contents > #card > h2 {
+	attribute:style add 'letter-spacing: normal';
+}
+
+#footer > .inner > .address {
+	attribute:style add 'width: 240px;';
+}
+
+/* フロアガイド */
+@preprocess {
+	replace:'<li(.*?)<strong>(.*?)</strong>(.*?)</a></li>' '<li$1<strong>$2</strong><br style="display:none;">$3</a></li>';
+	replace:'<li(.*?)<strong>(.*?)</strong>(.*?)</li>' '<li$1<strong>$2</strong><br style="display:none;">$3</li>';
+}

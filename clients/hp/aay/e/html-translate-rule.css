@@ -1,0 +1,46 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION GOURMET INTERNET";
+}
+@engine panjo/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION GOURMET";
+}
+@engine panjo/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
+}
+
+#g_nav > ul > li {
+	attribute:style add 'font-size: 88%; letter-spacing: normal;';
+}
+
+/* card */
+#contents > .info > p.tbox03 {
+	attribute:style add 'width: 82%;';
+}
+
+#contents > .info > .img02 {
+	attribute:style add 'top: 100px;';
+}
+
+#contents > .info > h4 {
+	attribute:style add 'text-align: left;';
+}
+
+/* フッター修正 */
+#footer > .inner > .sitemap {
+	attribute:style add 'width: 740px;';
+}
+
+#footer > .inner > .sitemap > ul {
+	attribute:style add 'font-size: 93%;';
+}
+
+@preprocess {
+	replace:'<span class="clRed">(.*?)</span>' '<br style="display:none;"><span class="clRed">$1</span><br style="display:none;">';
+}
+
+@postprocess {
+	replace:'http://maps.google(.*?)ja' 'http://maps.google$1en';
+}
