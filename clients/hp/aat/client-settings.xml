@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="tokyogrown.jp" />
     <request hostname="test.tokyogrown.jp" />
+    <request hostname="tokyoclip.jp" />
   </request-list>
 
   <!-- Basic認証 -->
