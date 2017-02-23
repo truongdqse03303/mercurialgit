@@ -11,6 +11,9 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
 
+@preprocess {
+  replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+}
 
 // @RULESET
 // URL #= http://tokoname-aeonmall\.com
