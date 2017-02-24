@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT TOURISM GOURMET";
 }
 
+@preprocess {
+  replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+}
+
 div.box-special-contnt > a > div > img {
  attribute:style add 'height:272px;';
 }
@@ -88,7 +92,6 @@ section.mod-e_mark-searchFilter > nav > ul > li > a > div.txt-category-sentence 
 }
 
 @preprocess {
- replace: '<i class="fa fa-chevron-right" aria-hidden="true"></i>東京の特産物<span>' '<i class="fa fa-chevron-right" aria-hidden="true"></i>東京の特>産物<br style="display:none;"><span>';
+ replace: '<i class="fa fa-chevron-right" aria-hidden="true"></i>東京の特産物<span>' '<i class="fa fa-chevron-right" aria-hidden="true"></i>東京の特産物<br style="display:none;"><span>';
  replace: '<h2>見る・食べる <span>SEE・EAT</span></h2>' '<h2>見る・食べる <br style="display:none;"><span>SEE・EAT</span></h2>';
 }
-
