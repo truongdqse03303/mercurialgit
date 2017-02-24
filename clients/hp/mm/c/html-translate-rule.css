@@ -16,5 +16,5 @@ body {
 }
 
 @preprocess {
-  replace: "(.+?)/shared/css/jp.css(.+?)" "$1/shared/css/cn.css$2";
+  replace: "/shared/css/jp.css" "/shared/css/cn.css";
 }

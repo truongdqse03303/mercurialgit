@@ -12,5 +12,5 @@
 }
 
 @preprocess {
-  replace: "(.+?)/shared/css/jp.css(.+?)" "$1/shared/css/ko.css$2";
+  replace: "/shared/css/jp.css" "/shared/css/ko.css";
 }
