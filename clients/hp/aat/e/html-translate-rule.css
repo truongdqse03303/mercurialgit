@@ -132,8 +132,8 @@ section#itemSearchResult > div.sec-result-ttl > p.txt-result-num {
  replace: '<h2>見る・食べる <span>SEE・EAT</span></h2>' '<h2>見る・食べる <br style="display:none;"><span>SEE・EAT</span></h2>';
 }
 
-@preprocess {
- replace: 'リンクを掲載した場合は、<a href="#">お問い合わせ</a>からご連絡ください。' 'リンクを掲載した場合は、<br style="display:none;"><a href="#">お問い合わせ</a><br style="display:none;">からご連絡ください。';
+@postprocess {
+ replace: 'but when you put a l<a href="#">ink, inform us</a> from the inquiry page.</li>' 'but when you put a link, inform us from <a href="#">the inquiry page</a>.</li>';
 }
 
 @postprocess {
