@@ -72,7 +72,7 @@ section.nav-product-menu > nav.grid-cmn-w1000 > ul > li > p.txt-product-category
 }
 
 section.nav-product-menu > nav.grid-cmn-w1000 > ul > li > a > p.txt-product-category {
- attribute:style add 'font-size:9px;width:72px;margin-left:-10px;';
+ attribute:style add 'font-size:9px;width:80px;margin-left:-10px;';
 }
 
 section.area-product > div.grid-cmn-w1200.sec-product > ul > li > p.btn-product-detail {
