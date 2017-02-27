@@ -91,7 +91,63 @@ section.mod-e_mark-searchFilter > nav > ul > li > a > div.txt-category-sentence 
  attribute:style add 'height:101px;';
 }
 
+section.area-product > div.grid-cmn-w1200.sec-product > ul > li.box-product > p.txt-product-detail {
+ attribute: style add 'font-size:12px;';
+}
+
+div.box-detail-watch > h4 > p.ttl-level-04 {
+ attribute: style add 'font-size:15px;';
+}
+
+div#pageThing > div.contents-bg-01 > div.h3.cmn-01 > section > h3 {
+ attribute: style add 'font-size:16px;';
+}
+
+div.grid-cmn-w1000 > div.area-checkbox-bg > ul > li > label {
+ attribute: style add 'font-size:10px;height:145px;line-height:14px;';
+}
+
+div.grid-cmn-w1000 > div.area-checkbox-bg > ul > li > label > span {
+ attribute: style add 'font-size:10px;height:58px;line-height:14px;';
+}
+
+section#itemSearchResult > div.sec-result-ttl > p.txt-result-num {
+ attribute: style add 'font-size:18px;';
+}
+
+.contents-bg-01 > section > div > .area-sitemap > ul > li > a {
+ attribute:style add 'font-size:82%;';
+}
+
+@preprocess {
+ replace: '</i>特集<span>SPECIAL&nbsp;REPORT</span></a>' '</i>特集<br style="display:none;"><span>SPECIAL&nbsp;REPORT</span></a>';
+}
+
+@preprocess {
+ replace: '</i>食材を選択してください<span>&nbsp;' '</i>食材を選択してください<br style="display:none;"><span>&nbsp;';
+}
+
 @preprocess {
  replace: '<i class="fa fa-chevron-right" aria-hidden="true"></i>東京の特産物<span>' '<i class="fa fa-chevron-right" aria-hidden="true"></i>東京の特産物<br style="display:none;"><span>';
  replace: '<h2>見る・食べる <span>SEE・EAT</span></h2>' '<h2>見る・食べる <br style="display:none;"><span>SEE・EAT</span></h2>';
+}
+
+@preprocess {
+ replace: 'リンクを掲載した場合は、<a href="#">お問い合わせ</a>からご連絡ください。' 'リンクを掲載した場合は、<br style="display:none;"><a href="#">お問い合わせ</a><br style="display:none;">からご連絡ください。';
+}
+
+@postprocess {
+ replace: '<li><!--cltx--><i class="fa fa-circle" aria-hidden="true">(.*?)<a href="#">Contact</a>(.*?)inform' '<li><!--cltx--><i class="fa fa-circle" aria-hidden="true">$1&nbsp;Contact&nbsp;$2<a href="#">inform</a>';
+}
+
+@postprocess {
+ replace: '<h3><!--cltx-->Gift<span>s fro</span>m fo<span>rest and </span>pure fresh waters</h3>' '<h3><!--cltx-->Gifts from <span>forest</span> and <span>pure fresh waters</span></h3>';
+}
+
+@postprocess {
+ replace: '<h3><!--cltx-->Gif<span>ts fro</span>m the Earth</h3>' '<h3><!--cltx-->Gifts from <span>the Earth</span></h3>';
+}
+
+@postprocess {
+ replace: '<h3><!--cltx-->Gift<span>s fr</span>om <span>the </span>sea and islands</h3>' '<h3><!--cltx-->Gifts from <span>the sea</span> and <span>islands</span></h3>';
 }
