@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社よしもとクリエイティブ・エージェンシー</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>oimf/service 87e80fd45b1143fd4f2f3d6380e70c33fb961e0a</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="oimf.jp" />
+    <request hostname="2017.oimf.jp" />
+    <request hostname="2016.oimf.jp" />
+  </request-list>
+
+ <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

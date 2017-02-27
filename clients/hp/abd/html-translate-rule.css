@@ -1,0 +1,9 @@
+#fb_box,
+#menu_btn,
+#visual {
+	attribute: cltx add 'exclude';
+}
+
+#page_head {
+	attribute: style add 'top: 44px;';
+}

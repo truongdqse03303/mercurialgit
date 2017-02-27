@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>福岡県宮若市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-miyawaka/service 5bc3aff4a3a025ffc67a32f3784875142ac5d11e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.miyawaka.lg.jp" />
+  </request-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

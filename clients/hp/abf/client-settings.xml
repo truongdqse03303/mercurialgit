@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>IN FOCUS株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ginza6/service 1089d5e228ce4ddb17ed8299540dd5bada484ca9</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="ginza6.tokyo" />
+    <request hostname="www.ginza6.tokyo" />
+    <request hostname="staging.ginza6.tokyo" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic ZzZzdGFnaW5nOjZjaG9tZTEw</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://staging\.ginza6\.tokyo.*</param-value>
+    </param>
+  </resource-handler>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;margin:0 auto 2%;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

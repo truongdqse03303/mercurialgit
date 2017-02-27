@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ペッパーフードサービス</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ikinaristeak/service 7b63d40077af792f9ca9c8249d918352b2645500</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="ikinaristeak.com" />
+  </request-list>
+
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

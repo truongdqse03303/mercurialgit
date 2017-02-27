@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine onna-okinawa/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine onna-okinawa/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
