@@ -111,12 +111,26 @@ div.grid-cmn-w1000 > div.area-checkbox-bg > ul > li > label > span {
  attribute: style add 'font-size:10px;height:58px;line-height:14px;';
 }
 
-section#itemSearchResult > div.sec-result-ttl > p.txt-result-num {
- attribute: style add 'font-size:18px;';
+#itemSearchResult > .grid-cmn-w1000  > p.txt-result-num {
+ attribute:style add 'width: 80% !important;';
 }
 
 .contents-bg-01 > section > div > .area-sitemap > ul > li > a {
  attribute:style add 'font-size:82%;';
+}
+
+#pageProfessionalArticle .pageProfessionalArticle-map-fukidasi,
+#pageSeasonArticle .pageSeasonArticle-map-fukidasi,
+#pageReportArticle .pageReportArticle-map-fukidasi {
+ attribute:style add 'line-height: 1.35;padding: 0;height: 58px;';
+}
+
+#pageThing > .contents-bg-01 > .h3-cmn-01 > .ttl-level3-left > h3.ttl-level3 {
+ attribute:style add 'font-size: 1.6rem !important;';
+}
+
+.h3-cmn-01 > .ttl-level3-right > p{
+ attribute:style add 'margin: 10px 30px;';
 }
 
 @preprocess {
@@ -128,8 +142,16 @@ section#itemSearchResult > div.sec-result-ttl > p.txt-result-num {
 }
 
 @preprocess {
+ replace: '</i>エリアを選択してください<span>&nbsp;' '</i>エリアを選択してください<br style="display:none;"><span>&nbsp;';
+}
+
+@preprocess {
  replace: '<i class="fa fa-chevron-right" aria-hidden="true"></i>東京の特産物<span>' '<i class="fa fa-chevron-right" aria-hidden="true"></i>東京の特産物<br style="display:none;"><span>';
  replace: '<h2>見る・食べる <span>SEE・EAT</span></h2>' '<h2>見る・食べる <br style="display:none;"><span>SEE・EAT</span></h2>';
+}
+
+@preprocess {
+ replace: '</span>JA東京中央会</p>' '</span><br style="display:none;">JA東京中央会</p>';
 }
 
 @postprocess {
@@ -150,4 +172,13 @@ section#itemSearchResult > div.sec-result-ttl > p.txt-result-num {
 
 @postprocess {
  replace: '<h3><!--cltx-->Gift<span>s fr</span>om <span>the </span>sea and islands</h3>' '<h3><!--cltx-->Gifts from <span>the sea</span> and <span>islands</span></h3>';
+}
+
+@postprocess {
+ replace: '<span class="txt-subtitle-style">Here you can find vegetables,</span> fruits and teas of Tokyo origin.</p>' 'Here you can find <span class="txt-subtitle-style">vegetables, fruits and teas</span> of Tokyo origin.</p>';
+}
+
+@postprocess {
+ replace: '<i class="fa fa-chevron-right" aria-hidden="true"></i>As for information such as registered lumber pro<a href="http://www.toshinren.org/certification.html" target="_blank">ducers Tokyo Federation of Forest Owners Cooperative Associa</a>tion official website is here.' 'As for information such as registered lumber producers <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="http://www.toshinren.org/certification.html" target="_blank">Tokyo Federation of Forest Owners Cooperative Association official website</a> is here.';
+ replace: '<i class="fa fa-chevron-right" aria-hidden="true"></i>For commercial <a href="http://www.tamamori.jp/tamasanzai-info/index.php" target="_blank">use, please check the official website of Tamasa</a>nzai Information Center.' 'For commercial use, please check <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="http://www.tamamori.jp/tamasanzai-info/index.php" target="_blank">the official website of Tamasanzai Information Center.</a>';
 }
