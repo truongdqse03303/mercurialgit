@@ -12,5 +12,9 @@
 }
 
 body {
-  attribute: lang add 'zh';
+	attribute: lang add 'zh';
+}
+
+div#contents > footer#footer {
+	attribute:style add 'padding: 1% 0 1.5%;';
 }

@@ -35,7 +35,7 @@
 
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;margin:0 auto 2%;}</param-value>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;margin:0 auto 2%;}#site-translate-icp {width: 100%;text-align: center;font-family: SimSun;clear: both;position: fixed;display: block;bottom: 0.1%;background: #FFFFFF;z-index: 999;padding: 0;margin: 0;}</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->
