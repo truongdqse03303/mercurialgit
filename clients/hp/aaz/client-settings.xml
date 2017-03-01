@@ -11,6 +11,22 @@
     <request hostname="www.kashiikaen.com" ssl="true" />
   </request-list>
 
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic a2FzaGlpa2FlbjprYXNoaWl0ZXN0</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http:|https:)//www\.kashiikaen\.com/.*</param-value>
+    </param>
+  </resource-handler>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
