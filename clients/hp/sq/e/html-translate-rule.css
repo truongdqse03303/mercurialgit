@@ -21,14 +21,14 @@
 }
 
 // @RULESET
-// URL ^= http://www.lumine.ne.jp/dutyfree/
+// URL ^= http://www.lumine.ne.jp/taxfree/
 @postprocess {
   replace:'For more <a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">information, visit the' 'For more information, visit the <a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">';
   replace:'Jap</a>an Tourism Agency web site.' 'Japan Tourism Agency web site.</a>';  
 }
 
 // @RULESET
-// URL #= http://www\.lumine\.ne\.jp/(shinjuku/|ikebukuro/|est/|yurakucho/|yokohama/)dutyfree/
+// URL #= http://www\.lumine\.ne\.jp/(shinjuku/|ikebukuro/|est/|yurakucho/|yokohama/)taxfree/
 @postprocess {
   replace:'For more <a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">information, visit the' 'For more information, visit the <a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">';
   replace:'Jap</a>an Tourism Agency web site.' 'Japan Tourism Agency web site.</a>'; 
