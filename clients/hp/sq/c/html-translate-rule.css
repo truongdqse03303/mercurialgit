@@ -20,7 +20,7 @@ body {
 }
 
 // @RULESET
-// URL #= http://www.lumine.ne.jp/(.*)/dutyfree/
+// URL #= http://www.lumine.ne.jp/(.*)/taxfree/
 @postprocess {
   replace:'※有关详<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">细信息，请访问观</a>光厅主页进行确认' '※有关详细信息，请访问<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">观光厅主页</a>进行确认';
   replace:'营业到<strong>晚上22点\\(商品销售店铺</strong>\\)' '营业到<strong>晚上22点(商品销售店铺)</strong>';
@@ -35,7 +35,7 @@ body {
 }
 
 // @RULESET
-// URL #= http://www\.lumine\.ne\.jp/dutyfree/
+// URL #= http://www\.lumine\.ne\.jp/taxfree/
 @postprocess {
   replace:'※有关详<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">细信息，请访问观</a>光厅主页进行确认' '※有关详细信息，请访问<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">观光厅主页</a>进行确认';
 }

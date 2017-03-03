@@ -16,7 +16,7 @@
 }
 
 // @RULESET
-// URL #= http://www.lumine.ne.jp/(.*)/dutyfree/
+// URL #= http://www.lumine.ne.jp/(.*)/taxfree/
 @postprocess {
   replace:'<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">내용은 관광청 홈페이지에</a>서 확인하시기 바랍니다.' '내용은<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine"> 관광청 홈페이지에</a>서 확인하시기 바랍니다.';
   replace:'<strong>서 바로!</strong>' '서 <strong>바로!</strong>';
@@ -30,7 +30,7 @@
 }
 
 // @RULESET
-// URL #= http://www.lumine.ne.jp/dutyfree/
+// URL #= http://www.lumine.ne.jp/taxfree/
 @postprocess {
   replace:'<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine">내용은 관광청 홈페이지에</a>서 확인하시기 바랍니다.' '내용은<a href="http://www.mlit.go.jp/kankocho/tax-free/about.html" target="_blank" class="dotLine"> 관광청 홈페이지에</a>서 확인하시기 바랍니다.';
 }
