@@ -133,6 +133,10 @@ div.grid-cmn-w1000 > div.area-checkbox-bg > ul > li > label > span {
  attribute:style add 'margin: 10px 30px;';
 }
 
+div#pageDetail > section.h2-cmn-bg4 > h2.grid-cmn-w1000.h2-cmn-02 > span {
+ attribute:style  add 'font-size:14px;';
+}
+
 @preprocess {
  replace: '</i>特集<span>SPECIAL&nbsp;REPORT</span></a>' '</i>特集<br style="display:none;"><span>SPECIAL&nbsp;REPORT</span></a>';
 }
