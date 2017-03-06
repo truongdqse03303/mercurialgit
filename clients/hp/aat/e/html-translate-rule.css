@@ -158,6 +158,10 @@ div#pageDetail > section.h2-cmn-bg4 > h2.grid-cmn-w1000.h2-cmn-02 > span {
  replace: '</span>JA東京中央会</p>' '</span><br style="display:none;">JA東京中央会</p>';
 }
 
+@preprocess {
+ replace: '<span class="txt-name-furigana">' '<br style="display:none;"><span class="txt-name-furigana">';
+}
+
 @postprocess {
  replace: 'but when you put a l<a href="#">ink, inform us</a> from the inquiry page.</li>' 'but when you put a link, inform us from <a href="#">the inquiry page</a>.</li>';
 }
