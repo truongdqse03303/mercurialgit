@@ -26,12 +26,50 @@ body > header > div > div > address {
  attribute: style add 'width:400px;';
 }
 
+/* concept */
+article > .icon > a > div > .title_jp {
+ attribute: style add 'font-size: 13px;';
+}
+
+/* group */
+article > .group_data > dl > dt {
+ attribute: style add 'width: 140px;';
+}
+
+article > .group_data > dl > dd {
+ attribute: style add 'margin-left: 140px;';
+}
+
 @preprocess {
  replace: '<span title="1st">(.*?)</span>' '<span title="1st">$1</span><br style="display:none;">';
  replace: '<span title="2nd">(.*?)</span>' '<span title="2nd">$1</span><br style="display:none;">';
  replace: '<span title="3rd">(.*?)</span>' '<span title="3rd">$1</span><br style="display:none;">';
+ replace: '<h2>Entertainment&amp;Culture<span>' '<h2>Entertainment&amp;Culture<br style="display:none;"><span>';
+ replace: '<h2>Romance<span>' '<h2>Romance<br style="display:none;"><span>';
+ replace: '<h2>Italy<span>' '<h2>Italy<br style="display:none;"><span>';
+ replace: '<a href="/group/cittagroup/">(.*?)<span class="title_jp">(.*?)</span>' '<a href="/group/cittagroup/">$1<br style="display:none;"><span class="title_jp">$2</span><br style="display:none;">';
 }
 
 @postprocess {
  replace: 'UA-36217897-1' 'UA-36217897-6';
+ replace: '<strong>TOKYO MIX STYLE Appar</strong>el<em> brand, goods and Accessories</em>' '<strong>TOKYO MIX STYLE</strong><em>Apparel brand, goods and Accessories</em>';
+}
+
+@postprocess {
+ replace: '<p><!--cltx-->LA CITTADELLA, this unique facility is realized(.*?)under the concept of entertainment &amp; cult</a>ure, Italy and romance.' '<p><!--cltx-->$1LA CITTADELLA</a>, this unique facility is realized under the concept of entertainment &amp; culture, Italy and romance.';
+}
+
+@postprocess {
+ replace: '<p><!--cltx-->reference for phone number and ad<a href="/enquiry/">dress, </a>please find here.</p>' '<p><!--cltx-->reference for phone number and address, please find <a href="/enquiry/">here</a>.</p>';}
+
+@postprocess {
+ replace: '<p><!--cltx-->Sacred place for \"lovers\" where lovers enjoy romantic dat(.*?)e like in a mov</a>ie</p>' '<p><!--cltx-->$1\"Sacred place for lovers\"</a> where lovers enjoy romantic date like in a movie</p>';
+}
+
+@postprocess {
+ replace: '<!--cltx-->Coverage for CITTA\' group and phot(.*?)ograp</a>hy is here.' '<!--cltx-->Coverage for CITTA\' group and photography is $1here</a>.';
+}
+
+@postprocess {
+ replace: 'A<a href="http://cinecitta.co.jp/" target="_blank"> variety </a>of tenants along wit<a href="http://clubcitta.co.jp/" target="_blank">h cinema c</a>omplex, live standing hall, wedding chapel and new concept of e<a href="http://cittawedding.jp/" target="_blank">ntertainme</a>nt' 'A variety of tenants along with <a href="http://cinecitta.co.jp/" target="_blank">cinema complex</a>, <a href="http://clubcitta.co.jp/" target="_blank">live standing hall</a>, <a href="http://cittawedding.jp/" target="_blank">wedding chapel</a> and new concept of entertainment';
 }
