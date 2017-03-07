@@ -142,6 +142,12 @@ div#pageDetail > section.h2-cmn-bg4 > h2.grid-cmn-w1000.h2-cmn-02 > span {
 }
 
 @preprocess {
+replace: '<span class="agriculture">農業編</span>' '<span class="agriculture">農業編</span><br style="display:none;">';
+replace: '<span class="forestry">林業編</span>' '<span class="forestry">林業編</span><br style="display:none;">';
+replace: '<span>水産業編</span>' '<span>水産業編</span><br style="display:none;">';
+}
+
+@preprocess {
  replace: '</i>食材を選択してください<span>&nbsp;' '</i>食材を選択してください<br style="display:none;"><span>&nbsp;';
 }
 
@@ -197,4 +203,8 @@ div#pageDetail > section.h2-cmn-bg4 > h2.grid-cmn-w1000.h2-cmn-02 > span {
 
 @postprocess {
  replace: '<p><!--cltx-->\\[Walk-in bathing\\] 750</p>' '<p><!--cltx-->\\[Walk-in bathing\\] &yen;750</p>';
+}
+
+@postprocess {
+ replace:'<!--cltx-->Wooden railings prevent soil and stone from falling from the upper part of the slope<br>(.*?)</li>' '<!--cltx-->Wooden railings prevent soil and stone from falling from the upper part of the slope$1</li>';
 }
