@@ -10,3 +10,11 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+.grandStartBox > .inner {
+	attribute: style add 'width: auto;letter-spacing: normal;padding: 1.5% 2% 0.5%;';
+}
+
+.grandStartBox > .inner > .date {
+	attribute: style add 'padding: 0;';
+}

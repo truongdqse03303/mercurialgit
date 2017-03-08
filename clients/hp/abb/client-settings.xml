@@ -14,9 +14,9 @@
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 
- <extension-param>
-    <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>style:#site-translate-icp {width: auto !important;} #site-translate-header-wrapper{width:auto !important;}</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->

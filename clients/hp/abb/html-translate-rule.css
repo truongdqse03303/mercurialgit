@@ -1,0 +1,8 @@
+#Side-area > .fb-page,
+#Side-area > .accessVerisignBox > .inner > .colBox02 {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<span class="data">(.*?)<span(.*?)</span>' '<br style="display:none;"><span class="data">$1<span$2</span><br style="display:none;">';
+}
