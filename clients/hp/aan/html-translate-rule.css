@@ -48,11 +48,12 @@ article > .group_data > dl > dd {
  replace: '<h2>Romance<span>' '<h2>Romance<br style="display:none;"><span>';
  replace: '<h2>Italy<span>' '<h2>Italy<br style="display:none;"><span>';
  replace: '<a href="/group/cittagroup/">(.*?)<span class="title_jp">(.*?)</span>' '<a href="/group/cittagroup/">$1<br style="display:none;"><span class="title_jp">$2</span><br style="display:none;">';
+ replace: '<div class="floatbox_b">(.*?)<strong>(.*?)</strong>(.*?)</div>' '<div class="floatbox_b">$1<strong>$2</strong><br style="display:none;">$3</div>';
+ replace: '<article(.*?)<h1>(.*?)<span>(.*?)</span></h1>' '<article$1<h1>$2<br style="display:none;"><span>$3</span><br style="display:none;"></h1>';
 }
 
 @postprocess {
  replace: 'UA-36217897-1' 'UA-36217897-6';
- replace: '<strong>TOKYO MIX STYLE Appar</strong>el<em> brand, goods and Accessories</em>' '<strong>TOKYO MIX STYLE</strong><em>Apparel brand, goods and Accessories</em>';
 }
 
 @postprocess {
