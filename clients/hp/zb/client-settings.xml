@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.crosslanguage.co.jp" />
+    <request hostname="www-test.crosslanguage.co.jp" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->

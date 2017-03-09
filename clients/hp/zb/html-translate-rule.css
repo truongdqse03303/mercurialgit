@@ -26,6 +26,18 @@ ul.package_list_w > li {
 	attribute: style add 'float: none; display: inline-block; vertical-align: top;';
 }
 
+ul.package_list_w > li > div.package_box {
+    attribute: style add 'min-height: 262px;position: relative;';
+}
+
+ul.package_list_w > li > div.package_box > div.product_name {
+    attribute: style add 'line-height: normal;';
+}
+
+ul.package_list_w > li > div.package_box > div.discription {
+    attribute: style add 'position: absolute;bottom: 0;width: 100%;min-height: 40px;';
+}
+
 div.service_box > li {
 	attribute: style add 'width: 30%;';
 }
@@ -42,6 +54,14 @@ ul.package_list_w > .add_discription02 {
 	attribute: style add 'position: absolute;width: 100%;bottom: 0;min-height: 36px;';
 }
 
+div#div1 > section > div.idx_01 > ul > li {
+ attribute: style add 'height:85px;';
+}
+
+div#div1 > section > div.idx_03 > ul > li {
+ attribute: style add 'height:84px;';
+}
+
 /* case */
 
 div.case_tab {
@@ -56,7 +76,19 @@ ul.case_tab > li {
 	attribute: style add 'width: auto;'; /* update */
 }
 
+div#div1 > section > div.com_contents > div.contents > div.hp1 > ul.case_list_btn > li {
+ attribute: style add 'height:84px;text-align:left;';
+}
+
+div#div1 > section > div.com_contents > div.contents > div.hp1 > ul.case_list_btn > li > p > a {
+ attribute: style add 'font-size:12px;line-height:0px;';
+}
+
 /* Products & Services */
+
+div#div1 > section > div.com_contents > div.contents > div.auto-translation > ul.auto-translation_list > li > div.service_box > div.product_name {
+ attribute: style add 'height:56px;';
+}
 
 h4.package_tit_w {
 	attribute: style add 'max-width: 280px;line-height: normal;min-height: 65px;';
