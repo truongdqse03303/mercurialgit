@@ -12,6 +12,16 @@
     <request hostname="www-test.crosslanguage.co.jp" />
   </request-list>
 
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://(www|www-test)\.crosslanguage\.co\.jp/company/recruit\.html</url>
+    <url>http://(www|www-test)\.crosslanguage\.co\.jp/company/sec_policy\.html</url>
+    <url>http://(www|www-test)\.crosslanguage\.co\.jp/company/pi_open\.html</url>
+    <url>http://(www|www-test)\.crosslanguage\.co\.jp/auto-translation/premium/*</url>
+    <url>http://(www|www-test)\.crosslanguage\.co\.jp/support/*</url>
+    <url>http://(www|www-test)\.crosslanguage\.co\.jp/products/announcement\.html</url>
+  </url-list>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 
