@@ -10,3 +10,24 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET ART";
 }
+
+/* 見出し(右カラム) */
+.about > #contents > #sub > .lnav > .ttl {
+	attribute: style add 'padding: 8px 5px 4px;';
+}
+
+/* 絞込み検索ボタンサイズ */
+section.sightseeing > .sightseeing_select > ul > li > .u-panel {
+	attribute: style add 'font-size: 12px;';
+}
+
+/* 絞込み検索チェックボックス(右カラム) */
+#contents > #Sub > .searchstatus > form > .status-theme > ul {
+	attribute: style rewrite 'float:none; width:auto;';
+}
+
+/* 絞込み検索チェックボックス(右カラム) */
+#contents > #Sub > .searchstatus > form > .status-area > p,
+#contents > #Sub > .searchstatus > form > .status-season > p {
+	attribute: style add 'float:none; width:auto;';
+}

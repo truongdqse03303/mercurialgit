@@ -1,0 +1,14 @@
+#contents > #main > .pageTop > .pageTop_tabs,
+#contents > #main > .pageBottom > .pageBottom_right > .pageBottom_tab,
+#TB_window > #TB_closeWindow {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	/* ranking */
+	replace:'<span>1位</span>' '<span>1位</span><br style="display:none;">';
+	replace:'<span>2位</span>' '<span>2位</span><br style="display:none;">';
+	replace:'<span>3位</span>' '<span>3位</span><br style="display:none;">';
+	replace:'<span>4位</span>' '<span>4位</span><br style="display:none;">';
+	replace:'<span>5位</span>' '<span>5位</span><br style="display:none;">';
+}
