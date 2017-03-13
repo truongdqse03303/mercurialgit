@@ -49,7 +49,7 @@ article > .group_data > dl > dd {
  replace: '<h2>Italy<span>' '<h2>Italy<br style="display:none;"><span>';
  replace: '<a href="/group/cittagroup/">(.*?)<span class="title_jp">(.*?)</span>' '<a href="/group/cittagroup/">$1<br style="display:none;"><span class="title_jp">$2</span><br style="display:none;">';
  replace: '<div class="floatbox_b">(.*?)<strong>(.*?)</strong>(.*?)</div>' '<div class="floatbox_b">$1<strong>$2</strong><br style="display:none;">$3</div>';
- replace: '<article(.*?)<h1>(.*?)<span>(.*?)</span></h1>' '<article$1<h1>$2<br style="display:none;"><span>$3</span><br style="display:none;"></h1>';
+ replace: '<h1>(.*?)<span>(.*?)</span></h1>' '<h1>$1<br style="display:none;"><span>$2</span><br style="display:none;"></h1>';
 }
 
 @postprocess {
@@ -73,4 +73,14 @@ article > .group_data > dl > dd {
 
 @postprocess {
  replace: 'A<a href="http://cinecitta.co.jp/" target="_blank"> variety </a>of tenants along wit<a href="http://clubcitta.co.jp/" target="_blank">h cinema c</a>omplex, live standing hall, wedding chapel and new concept of e<a href="http://cittawedding.jp/" target="_blank">ntertainme</a>nt' 'A variety of tenants along with <a href="http://cinecitta.co.jp/" target="_blank">cinema complex</a>, <a href="http://clubcitta.co.jp/" target="_blank">live standing hall</a>, <a href="http://cittawedding.jp/" target="_blank">wedding chapel</a> and new concept of entertainment';
+}
+
+@postprocess {
+ replace: '<h1><!--cltx-->SER<span>VICE</span><br style="display:none;"></h1>' '<h1><!--cltx-->Service<br style="display:none;"><!--cltx--><span>SERVICE</span><br style="display:none;"></h1>';
+}
+
+@postprocess {
+ replace: '<li><!--cltx--><span>\\(Hamakawasaki\\) gate, not abl</span>(.*?)</li>' '<li><!--cltx--><span>\\(Hamakawasaki\\) gate</span>, not abl$1</li>';
+ replace: '<li><!--cltx--><span>\\(Asada\\) gate, not abl</span>(.*?)</li>' '<li><!--cltx--><span>\\(Asada\\) gate</span>, not abl$1</li>';
+ replace: '<li><!--cltx--><span>\\(Daishi\\) gate, not abl</span>(.*?)</li>' '<li><!--cltx--><span>\\(Daishi\\) gate</span>, not abl$1</li>';
 }
