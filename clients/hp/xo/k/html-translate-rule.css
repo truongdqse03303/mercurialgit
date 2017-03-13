@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER BUSINESS";
 }
+
+@preprocess {
+	replace: 'UA-1514395-4' 'UA-1514395-28';
+}
