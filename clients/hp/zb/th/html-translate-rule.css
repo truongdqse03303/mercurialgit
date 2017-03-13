@@ -29,3 +29,12 @@
 	replace:'<span class="c_b_red">คุณสมบัติท</span>ี่ 4: ใช้งานง่าย' '<span class="c_b_red">คุณสมบัติที่ 4:</span> ใช้งานง่าย';
 	replace:'<span class="c_b_red">คุณสมบัติที่ </span>5: ตัวอย่างผลงาน' '<span class="c_b_red">คุณสมบัติที่ 5:</span> ตัวอย่างผลงาน';
 }
+
+@postprocess {
+ replace: 'href="http://www.crosslanguage.co.jp./"' 'href="http://www.crosslanguage.co.jp/"';
+ replace: 'href="http://www.crosslanguage.co.jp..e.zb.hp.transer.com/"' 'href="http://www.crosslanguage.co.jp.e.zb.hp.transer.com/"';
+ replace: 'href="http://www.crosslanguage.co.jp..c.zb.hpcn.transer-cn.com/"' 'href="http://www.crosslanguage.co.jp.c.zb.hpcn.transer-cn.com/"';
+ replace: 'href="http://www.crosslanguage.co.jp..t.zb.hp.transer.com/"' 'href="http://www.crosslanguage.co.jp.t.zb.hp.transer.com/"';
+ replace: 'href="http://www.crosslanguage.co.jp..k.zb.hp.transer.com/"' 'href="http://www.crosslanguage.co.jp.k.zb.hp.transer.com/"';
+ replace: 'href="http://www.crosslanguage.co.jp..th.zb.hp.transer.com/"' 'href="http://www.crosslanguage.co.jp.th.zb.hp.transer.com/"';
+}
