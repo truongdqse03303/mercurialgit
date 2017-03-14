@@ -1,0 +1,3 @@
+.container > .container-inner > .container-inner-inner > #slideshow {
+ attribute: cltx add 'exclude';
+}

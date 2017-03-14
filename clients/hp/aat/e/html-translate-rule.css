@@ -138,6 +138,10 @@ div#pageDetail > section.h2-cmn-bg4 > h2.grid-cmn-w1000.h2-cmn-02 > span {
 }
 
 @preprocess {
+	replace: 'UA-90547497-1' 'UA-90547497-3';
+}
+
+@preprocess {
  replace: '</i>特集<span>SPECIAL&nbsp;REPORT</span></a>' '</i>特集<br style="display:none;"><span>SPECIAL&nbsp;REPORT</span></a>';
 }
 
