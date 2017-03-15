@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社フリーライフボックス（DMOやつしろ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>dmo8246/service 11e7dc73af8a00931084f14b179f21f84d90f1f5</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.dmo8246.jp" />
+  </request-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;} @media (max-width: 640px) {#site-translate-message {text-align: left;padding: 1%; line-height: normal;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

@@ -1,0 +1,4 @@
+/* 翻訳解除 */
+#contents > #main_col > #right_col > .widget_text {
+	attribute:cltx add 'exclude';
+}
