@@ -10,6 +10,8 @@
   <request-list>
     <request hostname="ochahaku.kyoto" />
     <request hostname="www.ochahaku.kyoto" />
+    <request hostname="ochanokyoto.jp" />
+    <request hostname="www.ochanokyoto.jp" />
   </request-list>
 
 <!-- 免責ヘッダー -->
