@@ -11,12 +11,12 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER HOBBY ENTER";
 }
 
-/* �����e�i���X��� */
+/* メンテナンス情報 */
 #faqContainer > ul.smpList02 > li.mainCategory > a.icon_arrow_a {
 	attribute: style add 'padding: 0 2%; margin: 0 1% 0 0;';
 }
 
-/* �}�b�v */
+/* マップ */
 #selectBox > .selectCopyBox > .selectStage {
 	attribute: style add 'height: auto;';
 }
@@ -27,6 +27,13 @@
 
 @preprocess {
  	replace:'J:COM' 'J@COM';	/* J:COM */
+	replace:'J：COM' 'J@COM';
+	replace:'Ｊ:ＣＯＭ' 'J@COM';
+	replace:'Ｊ：ＣＯＭ' 'J@COM';
+	replace:'J：ＣＯＭ' 'J@COM';
+	replace:'J:ＣＯＭ' 'J@COM';
+	replace:'Ｊ：COM' 'J@COM';
+	replace:'Ｊ:COM' 'J@COM';
 	replace:'<span(.*?)</span>' '<br style="display:none;"><span$1</span><br style="display:none;">';	/* pankuzu, footer */
 	replace:'<li class="mainCategory">(.*?)<a href="/sp/maintenance/index.html" class="icon_arrow_a">(.*?)</a></li>' '<li class="mainCategory">$1<br style="display:none;"><a href="/sp/maintenance/index.html" class="icon_arrow_a">$2</a><br style="display:none;"></li>';
 }
