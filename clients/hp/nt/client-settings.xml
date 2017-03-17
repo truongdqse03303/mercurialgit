@@ -11,8 +11,6 @@
     <request hostname="www.roppongihills.com" />
     <request hostname="54.248.87.26" />
     <request hostname="ec2-52-68-0-141.ap-northeast-1.compute.amazonaws.com" />
-    <request hostname="ec2-52-196-151-154.ap-northeast-1.compute.amazonaws.com" />
-
   </request-list>
   
   <!-- 免責事項をフッターに表示 -->
@@ -34,7 +32,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://ec2-52-196-151-154\.ap-northeast-1\.compute\.amazonaws\.com/.*</param-value>
+      <param-value>http://ec2-52-68-0-141\.ap-northeast-1\.compute\.amazonaws\.com/.*</param-value>
     </param>
   </resource-handler>
   
