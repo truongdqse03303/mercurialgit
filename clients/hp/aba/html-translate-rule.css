@@ -1,0 +1,9 @@
+/* 翻訳解除 */
+#struct > #containerT > #mainBlock > #SlideArea > #Slide > .flash {
+	attribute:cltx add 'exclude';
+}
+
+#mainHeaderTop,
+#headerMenu02 {
+	attribute: style add 'width: auto;';
+}

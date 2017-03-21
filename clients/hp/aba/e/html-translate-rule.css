@@ -10,3 +10,147 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+/* ヘッダーリンク*/
+#headerMenu > #changeHaikei > span {
+	attribute: style add 'padding: 0;';
+}
+
+#headerMenu > #changeHaikei {
+	attribute: style add 'margin: 7px 0;font-size: 14px;padding: 5px 5px 5px;';
+}
+
+#headerMenu02 {
+	attribute: style add 'width: auto;';
+}
+
+#mainHeader > #headerImg > #headerMenu02 > #headerBtn {
+	attribute: style add 'font-size: 74%;';
+}
+
+#header > #mainHeaderTop > #headerBtn {
+	attribute: style add 'font-size: 84%;';
+}
+
+#headerBtn > ul > li {
+	attribute: style add 'margin: 0 5px;padding: 3px 5px;font-size: 0.9em;';
+}
+
+#mainHeaderTop > #mainSearch {
+	attribute: style add 'margin: 0px 5px 0px 10px;';
+}
+
+/* フッター */
+#siteinfo > #toiawase > span {
+	attribute: style add 'display: block;';
+}
+
+#siteinfo > #toiawase > p {
+	attribute: style add 'margin: 0 auto;';
+}
+
+#siteinfo > #footerBtnAndLogo > ul#footertextlink > li {
+	attribute: style add 'padding: 4px 3px 0 14px;';
+}
+
+#siteinfo > #footerBtnAndLogo > ul#footerBtn > li {
+	attribute: style add 'padding: 3px 5px;';
+}
+
+/* メニュー高さ解除 */
+div#naviArea > ul#navi_list > li > div > a > p {
+	attribute: style add 'line-height: normal;';
+}
+
+/* トップ 更新情報タブ */
+#struct > #containerT > #mainBlock > #izaArea > #newRight > .info > #newTtlNavi > #newTtlTab > h3 {
+	attribute: style add 'background-position: 10%;padding: 11px 30px 9px;font-size: 0.95em;';
+}
+
+/* トップ アクティブなタブ */
+#struct > #containerT > #mainBlock > #izaArea > #newRight > .info > #newTtlNavi > #newTtlTab .selected {
+	attribute: style add 'background-position: 10%;padding: 11px 30px 9px;font-size: 0.95em;';
+}
+
+/* トップ 更新情報 */
+#struct > #containerT > #mainBlock > #izaArea > #newRight > .info > #infoMain1 > .listInfo > ul > li > article > p.koushinDay,
+#struct > #containerT > #mainBlock > #izaArea > #newRight > .info > #infoMain3 > .listInfo > ul > li > article > p.koushinDay {
+	attribute: style add 'width: auto;min-width: 23%;';
+}
+
+#struct > #containerT > #mainBlock > #izaArea > #newRight > .info > #infoMain1 > .listInfo > ul > li > article > .newTtl,
+#struct > #containerT > #mainBlock > #izaArea > #newRight > .info > #infoMain3 > .listInfo > ul > li > article > .newTtl {
+	attribute: style add 'width: auto;max-width: 74.5%;';
+}
+
+/* トップ かんたん検索&くらしのガイド */
+#struct > #containerT > #mainBlock > #izaArea > #kantankensakuWaku > #serchkantan > ul > li.bunruiBtn,
+#struct > #containerT > #mainBlock > #izaArea > #kantankensakuWaku > #serchkurashi > ul > li.boxLink {
+	attribute: style add 'min-height: 150px;';
+}
+
+/* バナーリンク */
+#struct > #containerT > #mainBlock > #izaArea > #gyouseiCenter > #map > a {
+	attribute: style add 'font-size: 0.87em;';
+}
+
+/* スマートフォン スライドバナー　翻訳解除 */
+#containerSP > .flash {
+	attribute:cltx add 'exclude';
+}
+
+/* スマートフォン トップ おすすめキーワード */
+#containerSP > .beigeArea > #sagasuBunrui > #keyword {
+	attribute: style add 'padding: 2% 0;';
+}
+
+#containerSP > .beigeArea > #sagasuBunrui > #keyword > a{
+	attribute: style add 'padding: 0;';
+}
+
+/* スマートフォン トップ おすすめキーワード下 */
+#containerSP > .beigeArea > #sagasu01,
+#containerSP > .beigeArea > #sagasu02,
+#containerSP > .beigeArea > #sagasu03,
+#containerSP > .beigeArea > #sagasu04 {
+	attribute: style add 'float: none; width: auto; padding: 2% 0;';
+}
+
+/* スマートフォン トップタブ フォントサイズ */
+#containerSP > .beigeArea > .info > #newTtlNavi {
+	attribute: style add 'font-size: 0.6em;';
+}
+
+#containerSP > .beigeArea > #koho > a {
+	attribute: style add 'padding: 10px 50px;height: 36px;font-size: 85%;';
+}
+
+/* スマートフォン トップ かんたん検索 */
+#containerSP > .greenArea > #dspMenu3 > .bunrui,
+#containerSP > .greenArea > #dspMenu4 > .bunrui,
+#containerSP > .greenArea > #dspMenu4 > .bunruiB,
+#containerSP > .greenArea > #dspMenu4 > .open {
+	attribute: style add 'float: none; width: auto;';
+}
+
+#containerSP > .greenArea > #dspMenu3 > .bunrui > a,
+#containerSP > .greenArea > #dspMenu4 > .bunrui > a {
+	attribute: style add 'height: auto;';
+}
+
+#containerSP > .greenArea > #dspMenu4 > .bunruiB > a {
+	attribute: style add 'padding: 14px 0 14px 48px; height: auto;';
+}
+
+#containerSP > .greenArea > #dspMenu5 > .open > a {
+	attribute: style add 'background-position:4% 50%; height: auto;';
+}
+
+/* スマートフォン フッターフォントサイズ */
+#cpSP {
+	attribute: style add 'font-size: 0.65em;';
+}
+
+#siteinfoSP > dl > dd {
+	attribute: style add 'text-align: left;';
+}
