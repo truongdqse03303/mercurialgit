@@ -1,4 +1,4 @@
-/* �|�󏜊O */
+/* 翻訳除外 */
 .video_wrap > .video_thumb_wrap,
 .form_wrap{
   attribute:cltx add 'exclude';
@@ -12,4 +12,5 @@
 	replace:'<h1 class="h1_style">(.*?)<span>(.*?)</span></h1>' '<h1 class="h1_style">$1<br style="display:none;"><span>$2</span></h1>';
 	replace:'<h1 class="sp_hide">(.*?)<span>(.*?)</span></h1>' '<h1 class="sp_hide">$1<br style="display:none;"><span>$2</span></h1>';
 	replace:'<section class="heading-section">(.*?)<span>(.*?)</span></h1>' '<section class="heading-section">$1<br style="display:none;"><span>$2</span></h1>';
+	replace:'<h1>(.*?)<span>(.*?)</span></h1>' '<h1>$1<br style="display:none;"><span>$2</span><br style="display:none;"></h1>';
 }
