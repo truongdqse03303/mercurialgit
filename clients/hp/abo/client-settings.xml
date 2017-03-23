@@ -25,7 +25,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>sta\.towers\.hosting\.jtis\.co\.jp\.*</param-value>
+      <param-value>http://sta\.towers\.hosting\.jtis\.co\.jp.*</param-value>
     </param>
   </resource-handler>
 

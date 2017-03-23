@@ -27,7 +27,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://153\.122\.109\.55\.*</param-value>
+      <param-value>http://153\.122\.109\.55.*</param-value>
     </param>
   </resource-handler>
 
