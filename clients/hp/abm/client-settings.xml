@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>公益財団法人　大津市公園緑地協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>otsukoen/service 5f7b878b67e70969893c1aa611a249a77e469bbc</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="otsukoen.org" />
+    <request hostname="shigakoen.com" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

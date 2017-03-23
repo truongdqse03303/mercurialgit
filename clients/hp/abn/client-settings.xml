@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>公益財団法人　神戸市公園緑化協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kobe-park/service f38534682137881e0c474fb68a4255d9a51ede81</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kobe-park.or.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

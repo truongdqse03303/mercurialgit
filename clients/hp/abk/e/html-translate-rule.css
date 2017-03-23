@@ -1,0 +1,94 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT TOURISM INTERNET";
+}
+@engine city-minamishimabara/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT TOURISM";
+}
+@engine city-minamishimabara/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
+}
+
+/* ヘッダートップ */
+#headerArea > #header > #headerMenu {
+	attribute: style add 'width: 31%; margin: 0 0 1%;';
+}
+
+/* ヘッダートップ以外 */
+#header > #headerImg > #headerMenu {
+	attribute: style add 'width: 46%; margin: 0 0 1%;';
+}
+
+/* メニュー */
+#container > #mainmenu > ul > li {
+	attribute: style add 'width: 19.5%;';
+}
+
+#container > #mainmenu > ul > li > a {
+	attribute: style add 'padding: 1% 10%;';
+}
+
+/* ヘッダーリンク */
+#mainTop {
+	attribute: style add 'font-size: 0.8em;';
+}
+
+/* PC版 ヘッダー検索ボックス */
+#header > #headerImg > #headerMenu > #search > .searchBox {
+	attribute: style add 'width: 125px;';
+}
+
+#mainSiteColor {
+	attribute: style add 'padding: 0;';
+}
+
+#container > #mainBlock > #mainLeft > #searchMenu > #searchNaiyo > .naiyo > .bunrui {
+	attribute: style add 'font-size: 85%;';
+}
+
+#container > #mainBlock > #mainLeft > #searchMenu > #searchNaiyo > .naiyo > .life {
+	attribute: style add 'width: 24.5%;';
+}
+
+#container > #mainBlock > #mainLeft > #searchMenu > #searchNaiyo > .naiyo > .grayBtn > a,
+#container > #mainBlock > #mainLeft > #searchMenu > #searchNaiyo > .naiyo > .grayBtn02 > a {
+	attribute: style add 'min-height: 58px;';
+}
+
+#container > #mainBlock > #mainRight >.rightBox > #ugoki > #ugkTxt > .setai {
+	attribute: style add 'width: auto;font-size: 70%;';
+}
+
+#mainRight > .rightBox > #ugoki > #ugkTxt > dl > .setai {
+	attribute: style add 'width:70%;';
+}
+
+#gaiyouArea > #gaiyoutextArea > #moushikomiArea > #moushikomiimg {
+	attribute: style add 'margin: 10px 0px 0px 20px;';
+}
+
+#gaiyouArea > #gaiyoutextArea > #moushikomiArea > #moushikomitext {
+	attribute: style add 'font-size: 95%;';
+}
+
+@preprocess {
+	replace:'<td><span class="year">(.*?)</span>(.*?)</td>' '<td><span class="year">$1</span><br style="display:none;">$2</td>';
+}
+
+@postprocess {
+	replace:'<th class="week colorR2"><!--cltx-->Day</th>' '<th class="week colorR2"><!--cltx-->Sun</th>';
+	replace:'<th(.*?)><!--cltx-->Month</th>' '<th$1><!--cltx-->Mon</th>';
+	replace:'<th(.*?)><!--cltx-->Fire</th>' '<th$1><!--cltx-->Tue</th>';
+	replace:'<th(.*?)><!--cltx-->Water</th>' '<th$1><!--cltx-->Wed</th>';
+	replace:'<th(.*?)><!--cltx-->Tree</th>' '<th$1><!--cltx-->Thu</th>';
+	replace:'<th(.*?)><!--cltx-->Money</th>' '<th$1><!--cltx-->Fri</th>';
+	replace:'<th(.*?)><!--cltx-->Soil</th>' '<th$1><!--cltx-->Sat</th>';
+}
+
+@postprocess {
+	replace:'<li style="border-left:2px dotted #cccccc;">(.*?)</li>' '<li style="border-left:2px dotted #cccccc;width: 19.5%;">$1</li>';
+	replace:'<li style="border-right:1px solid #cccccc;">(.*?)</li>' '<li style="border-right:1px solid #cccccc;width: 19.5%;">$1</li>';
+	replace:'<span class="month">(.*?)</span><span class="month_tuki">(.*?)</span>' '<span class="month" style="letter-spacing: normal">$1$2</span>';
+}

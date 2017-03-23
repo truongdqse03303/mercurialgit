@@ -1,0 +1,23 @@
+/* 翻訳解除 */
+#container > #mainBg > #mainFlashArea,
+#fbArea,
+.flash,
+.newArea > #newAreaWaku > #nextload2,
+.kijiArea > #nextload1,
+#container > #mainBlock > #mainleft > .info > #newTtlTab {
+	attribute:cltx add 'exclude';
+}
+
+#struct > #container > #mainBlock > #mainleft > .info > div > #listLinkArea > a {
+	attribute: style add 'padding: 3px 15px 3px 25px;';
+}
+
+/* 検索結果ページング */
+@preprocess {
+	replace:'<span class="linkPage"><a(.*?)</a></span>' '<br style="display:none;"><span class="linkPage"><a$1</a></span><br style="display:none;">';
+}
+
+@postprocess {
+	replace:'%E2%8A%82_id=' '\&amp\;sub_id=';
+	replace:'⊂_id=' '\&amp\;sub_id=';
+}
