@@ -9,7 +9,27 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.hikarie.jp" />
+    <request hostname="shibuyacast-apt.jp" />
+    <request hostname="shibuyacast.jp" />
+    <request hostname="153.122.109.55" />
   </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic YmFzaWN1c2VyOmRxajdvdWR3eHkya1VpdV9sSg==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://153\.122\.109\.55\.*</param-value>
+    </param>
+  </resource-handler>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

@@ -18,3 +18,8 @@ body {
 div#contents > footer#footer {
 	attribute:style add 'padding: 1% 0 1.5%;';
 }
+
+/* Googleアナリティクス */
+@preprocess {
+	replace: 'UA-54523459-1' 'UA-54523459-6';
+}
