@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>大阪府立成人病センター</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>mc-pref-osaka/service 5d10f08edd9df07af58b11e7dde6599a43bf4ebd</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.mc.pref.osaka.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT BEAUTY MEDICAL";
+}
+@engine mc-pref-osaka/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT BEAUTY MEDICAL";
+}
+@engine mc-pref-osaka/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT BEAUTY MEDICAL";
+}
