@@ -8,8 +8,27 @@
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
+    <request hostname="www.keionet.com" />
+    <request hostname="203.133.234.194" />
     <request hostname="info.keionet.com" path="/$|/index.html|/shinjuku/" />
   </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic YWRnajptcHR3</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://203\.133\.234\.194.*</param-value>
+    </param>
+  </resource-handler>
   
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
