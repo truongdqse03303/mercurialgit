@@ -87,5 +87,5 @@ article > .group_data > dl > dd {
 }
 
 @postprocess {
- replace: '<li class="nav(.*?)<span>(.*?)</span></a></li>' '<li class="nav$1<br style="display:none;">$2</a></li>';
+ replace: '<li class="nav(.*?)<span>(.*?)</span></a></li>' '<li class="nav$1$2</a></li>';
 }
