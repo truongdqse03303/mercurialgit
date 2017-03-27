@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER BUSINESS";
 }
+
+@preprocess {
+ replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
+}

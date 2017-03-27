@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@preprocess {
+ replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
+}
