@@ -51,6 +51,8 @@ article > .group_data > dl > dd {
  replace: '<div class="floatbox_b">(.*?)<strong>(.*?)</strong>(.*?)</div>' '<div class="floatbox_b">$1<strong>$2</strong><br style="display:none;">$3</div>';
  replace: '<h1>(.*?)<span>(.*?)</span></h1>' '<h1>$1<br style="display:none;"><span>$2</span><br style="display:none;"></h1>';
  replace: '<li><span class="dot">(.*?)</span>(.*?)<a href=(.*?)</a></li>' '<li><span class="dot">$1</span>$2<br style="display:none;"><a href=$3</a><br style="display:none;"></li>';
+ replace: '<div class="box_twothird"(.*?)>(.*?)<a href="/shop/detail/yamanomusic/">(.*?)</a>' '<div class="box_twothird"$1>$2<br style="display:none;"><a href="/shop/detail/yamanomusic/">$3</a>';
+ replace: '<div class="box_full"(.*?)>(.*?)<a href="/areaguide/cinepit1/">(.*?)</a>' '<div class="box_full"$1>$2<br style="display:none;"><a href="/areaguide/cinepit1/">$3</a>';
 }
 
 @postprocess {
@@ -58,7 +60,7 @@ article > .group_data > dl > dd {
 }
 
 @postprocess {
- replace: '<p><!--cltx-->LA CITTADELLA, this unique facility is realized(.*?)under the concept of entertainment &amp; cult</a>ure, Italy and romance.' '<p><!--cltx-->$1LA CITTADELLA</a>, this unique facility is realized under the concept of entertainment &amp; culture, Italy and romance.';
+ replace: '<p><!--cltx-->LA CITTADELLA, this unique facility is realized(.*?)under the concept of entertainment &amp; cultu</a>re, Italy and romance.' '<p><!--cltx-->$1LA CITTADELLA</a>, this unique facility is realized under the concept of entertainment &amp; culture, Italy and romance.';
 }
 
 @postprocess {
@@ -73,7 +75,7 @@ article > .group_data > dl > dd {
 }
 
 @postprocess {
- replace: 'A<a href="http://cinecitta.co.jp/" target="_blank"> variety </a>of tenants along wit<a href="http://clubcitta.co.jp/" target="_blank">h cinema c</a>omplex, live standing hall, wedding chapel and new concept of e<a href="http://cittawedding.jp/" target="_blank">ntertainme</a>nt' 'A variety of tenants along with <a href="http://cinecitta.co.jp/" target="_blank">cinema complex</a>, <a href="http://clubcitta.co.jp/" target="_blank">live standing hall</a>, <a href="http://cittawedding.jp/" target="_blank">wedding chapel</a> and new concept of entertainment';
+ replace: 'A <a href="http://cinecitta.co.jp/" target="_blank">variety o</a>f tenants along with<a href="http://clubcitta.co.jp/" target="_blank"> cinema co</a>mplex, live standing hall, wedding chapel and new concept of en<a href="http://cittawedding.jp/" target="_blank">tertainment</a>' 'A variety of tenants along with <a href="http://cinecitta.co.jp/" target="_blank">cinema complex</a>, <a href="http://clubcitta.co.jp/" target="_blank">live standing hall</a>, <a href="http://cittawedding.jp/" target="_blank">wedding chapel</a> and new concept of entertainment';
 }
 
 @postprocess {
