@@ -11,6 +11,10 @@
     <request hostname="www.granship.or.jp" />
   </request-list>
 
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>https://www\.granship\.or\.jp/manager/*</url>
+  </url-list>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
