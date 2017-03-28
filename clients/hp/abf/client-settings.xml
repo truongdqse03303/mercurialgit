@@ -33,9 +33,15 @@
     </param>
   </resource-handler>
 
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>footer</param-value>
+  </extension-param>
+
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;margin:0 auto 2%;}#site-translate-icp {width: 100%;text-align: center;font-family: SimSun;clear: both;position: fixed;display: block;bottom: 0.1%;background: #FFFFFF;z-index: 999;padding: 0;margin: 0;}</param-value>
+    <param-value>style:#site-translate-message{border: dotted 1px red;box-sizing: border-box;margin-top: 0;background: #FFF; margin: 0; padding: 0;} footer#footer2 {height: 60px;} ul.footer2 {top: 70%;} .copyright2 {top: 30px;} @media screen and (max-width: 768px) { #site-translate-message { position: absolute;bottom: 0;line-height: normal;text-align: left;padding: 1%;} ul.footer2 li {width: 150%} footer#footer2 {height: 220px;} ul.footer2 {top: 10px;} .copyright2 {top: initial; bottom: 60px;}}</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->
