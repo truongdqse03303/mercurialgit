@@ -212,3 +212,7 @@ replace: '<span>水産業編</span>' '<span>水産業編</span><br style="displa
 @postprocess {
  replace:'<!--cltx-->Wooden railings prevent soil and stone from falling from the upper part of the slope<br>(.*?)</li>' '<!--cltx-->Wooden railings prevent soil and stone from falling from the upper part of the slope$1</li>';
 }
+
+@postprocess {
+ replace: '<h3><!--cltx-->Gif<span>ts fro</span>m the earth</h3>' '<h3><!--cltx-->Gifts from <span>the earth</span></h3>';
+}
