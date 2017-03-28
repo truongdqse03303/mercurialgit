@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>神戸ハーバーランド株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>harborland/service 10d084e3298dbdc4529b3daf005f74377c85cb79</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.harborland.co.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

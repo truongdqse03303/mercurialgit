@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>大阪府立大型児童館ビッグバン</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>bigbang-osaka/service 96b0d498cc4614ee11ee6998a95da84b1348ff32</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.bigbang-osaka.or.jp" />
+    <request hostname="bigbang-osaka.or.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

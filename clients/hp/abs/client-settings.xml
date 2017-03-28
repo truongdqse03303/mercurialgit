@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>四万十市観光協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shimanto-kankou/service 7f091f9ad15bd0b3867e77099ac38b9961d4e53b</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.shimanto-kankou.com" />
+    <request hostname="shimanto-kankou.com" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
