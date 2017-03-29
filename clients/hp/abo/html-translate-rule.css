@@ -1,0 +1,6 @@
+.cmn-gl_nav_bar--in,
+.cmn-gl_sub_nav,
+.cmn-gl_nav--in,
+#footer {
+	attribute: cltx add 'exclude';
+}

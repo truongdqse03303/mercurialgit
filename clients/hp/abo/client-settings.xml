@@ -29,6 +29,11 @@
     </param>
   </resource-handler>
 
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;} .cmn-gl_nav_bar--links {width: 320px;}.cmn-gl_nav_bar--btn:nth-child(1) { margin-right: 148px; }</param-value>
+  </extension-param>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
