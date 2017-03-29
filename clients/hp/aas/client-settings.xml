@@ -8,6 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
+    <request hostname="www.travelhyogo.org" />
     <request hostname="pub.nohin.hyogo-tourism-foreign.cms8341.jp" />
   </request-list>
 
