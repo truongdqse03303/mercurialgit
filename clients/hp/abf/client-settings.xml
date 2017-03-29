@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="ginza6.tokyo" />
+    <request hostname="ginza6.tokyo" ssl="true" />
     <request hostname="www.ginza6.tokyo" />
     <request hostname="staging.ginza6.tokyo" />
   </request-list>

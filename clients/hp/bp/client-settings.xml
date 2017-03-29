@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="www.keionet.com" />
+    <request hostname="www.keionet.com" ssl="true" />
     <request hostname="203.133.234.194" />
     <request hostname="info.keionet.com" path="/$|/index.html|/shinjuku/" />
   </request-list>
