@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>サカイ総業株式会社（元祖寿司）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>gansozushi/service 630172f66149933e32376dd7717fa468f28f3aa1</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.gansozushi.com" />
+  </request-list>
+
+ <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

@@ -1,0 +1,4 @@
+/* 翻訳除外 */
+.pageTop {
+	attribute: cltx add 'exclude';
+}
