@@ -14,31 +14,10 @@
 /* Googleアナリティクス */
 @preprocess {
 	replace: 'UA-54523459-1' 'UA-54523459-4';
+	replace: '<span class="price">(.*?)</span>(.*?)<span class="price">(.*?)</span>' '<span class="price">$1</span>-<span class="price">$3</span>';
+	replace: '<span class="price">(.*?)</span>' '<br style="display:none;"><span class="price">$1</span><br style="display:none;">';
 }
 
 @postprocess {
-	replace:'<!--cltx-->1(.*?)- yen (.*?) yen' '<!--cltx-->&yen;1$1- &yen;$2';
-	replace:'<!--cltx-->2(.*?)- yen (.*?) yen' '<!--cltx-->&yen;2$1- &yen;$2';
-	replace:'<!--cltx-->3(.*?)- yen (.*?) yen' '<!--cltx-->&yen;3$1- &yen;$2';
-	replace:'<!--cltx-->4(.*?)- yen (.*?) yen' '<!--cltx-->&yen;4$1- &yen;$2';
-	replace:'<!--cltx-->5(.*?)- yen (.*?) yen' '<!--cltx-->&yen;5$1- &yen;$2';
-	replace:'<!--cltx-->6(.*?)- yen (.*?) yen' '<!--cltx-->&yen;6$1- &yen;$2';
-	replace:'<!--cltx-->7(.*?)- yen (.*?) yen' '<!--cltx-->&yen;7$1- &yen;$2';
-	replace:'<!--cltx-->8(.*?)- yen (.*?) yen' '<!--cltx-->&yen;8$1- &yen;$2';
-	replace:'<!--cltx-->9(.*?)- yen (.*?) yen' '<!--cltx-->&yen;9$1- &yen;$2';
-	replace:'<!--cltx-->1(.*?)- yen' '<!--cltx-->&yen;1$1-';
-	replace:'<!--cltx-->2(.*?)- yen' '<!--cltx-->&yen;2$1-';
-	replace:'<!--cltx-->3(.*?)- yen' '<!--cltx-->&yen;3$1-';
-	replace:'<!--cltx-->4(.*?)- yen' '<!--cltx-->&yen;4$1-';
-	replace:'<!--cltx-->5(.*?)- yen' '<!--cltx-->&yen;5$1-';
-	replace:'<!--cltx-->6(.*?)- yen' '<!--cltx-->&yen;6$1-';
-	replace:'<!--cltx-->7(.*?)- yen' '<!--cltx-->&yen;7$1-';
-	replace:'<!--cltx-->8(.*?)- yen' '<!--cltx-->&yen;8$1-';
-	replace:'<!--cltx-->9(.*?)- yen' '<!--cltx-->&yen;9$1-';
-	replace:'cafe (.*?) yen ...' 'cafe &yen;$1-';
-	replace:'cafe (.*?) yen' 'cafe &yen;$1-';
-	replace:'<!--cltx-->Lunch (.*?)- yen (.*?) yen' '<!--cltx-->Lunch &yen;$1- &yen;$2';
-	replace:'dinner (.*?)- yen (.*?) yen' 'dinner &yen;$1- &yen;$2';
-	replace:'<!--cltx-->Lunch (.*?)- yen' '<!--cltx-->Lunch &yen;$1-';
-	replace:'dinner (.*?)- yen' 'dinner &yen;$1-';
+	replace: '<span class="price">(.*?)yen</span>' '<span class="price">&yen;$1</span>';
 }
