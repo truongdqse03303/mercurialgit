@@ -12,6 +12,9 @@
     <request hostname="pub.nohin.hyogo-tourism-foreign.cms8341.jp" />
   </request-list>
 
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
   <!-- Basic認証 -->
   <resource-handler>
     <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
