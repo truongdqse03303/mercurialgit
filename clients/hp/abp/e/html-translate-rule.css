@@ -10,3 +10,38 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT HOBBY";
 }
+
+/* お知らせ */
+#infobox > .infoentry > table {
+	attribute: style add 'width: 100%;';
+}
+
+#infobox > .infoentry > table > tbody > tr > th {
+	attribute: style add 'width: 30%;';
+}
+
+/* スタッフブログ */
+#blogInner > .blogentry > table > tr,
+#blogInner > .blogentry > table > tr > td {
+	attribute: style add 'display: block;';
+}
+
+@postprocess {
+	replace: '<th class="Sunday" abbr=(.*?)><!--cltx-->Day</th>' '<th class="Sunday" abbr=$1><!--cltx-->Sun</th>';
+	replace: '<th abbr=(.*?)><!--cltx-->Month</th>' '<th abbr=$1><!--cltx-->Mon</th>';
+	replace: '<th abbr=(.*?)><!--cltx-->Fire</th>' '<th abbr=$1><!--cltx-->Tue</th>';
+	replace: '<th abbr=(.*?)><!--cltx-->Water</th>' '<th abbr=$1><!--cltx-->Wed</th>';
+	replace: '<th abbr=(.*?)><!--cltx-->Tree</th>' '<th abbr=$1><!--cltx-->Thu</th>';
+	replace: '<th abbr=(.*?)><!--cltx-->Money</th>' '<th abbr=$1><!--cltx-->Fri</th>';
+	replace: '<th class="Saturday" abbr=(.*?)><!--cltx-->Soil</th>' '<th class="Saturday" abbr=$1><!--cltx-->Sat</th>';
+}
+
+@postprocess {
+	replace: '<td class="listWeek"><!--cltx-->Month</td>' '<td class="listWeek"><!--cltx-->Monday</td>';
+	replace: '<td class="listWeek"><!--cltx-->Fire</td>' '<td class="listWeek"><!--cltx-->Tuesday</td>';
+	replace: '<td class="listWeek"><!--cltx-->Water</td>' '<td class="listWeek"><!--cltx-->Wednesday</td>';
+	replace: '<td class="listWeek"><!--cltx-->Tree</td>' '<td class="listWeek"><!--cltx-->Thursday</td>';
+	replace: '<td class="listWeek"><!--cltx-->Money</td>' '<td class="listWeek"><!--cltx-->Friday</td>';
+	replace: '<td class="listWeek"><!--cltx-->Soil</td>' '<td class="listWeek"><!--cltx-->Saturday</td>';
+	replace: '<td class="listWeek"><!--cltx-->Day</td>' '<td class="listWeek"><!--cltx-->Sunday</td>';
+}
