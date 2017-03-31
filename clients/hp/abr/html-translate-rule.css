@@ -1,0 +1,4 @@
+/* 翻訳除外 */
+#event_calendar_header > .tbbst-contents > .lo_2col > .locol-item_02 {
+  attribute:cltx add 'exclude';
+}

@@ -16,6 +16,12 @@
     <url>https://www\.granship\.or\.jp/manager/*</url>
   </url-list>
 
+<extension-param>
+<param-name>site.translate.header.style</param-name>
+<param-value>style: *{letter-spacing: normal !important;}#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;z-index: 9999;} #site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;}.search_box_t1 input[type='submit'] {padding: 0;} @media print, screen and (min-width: 768px) { #header { margin: 44px 0 0;} .tabboxset_t1 > .tbbst-nav > .tbbst-n-item, .calendar_tabboxset_t1 > .tbbst-nav > .tbbst-n-item, .info_shien_tabboxset > .tbbst-nav > .tbbst-n-item { min-width: 250px;font-size: 135%; padding: 1% 5.5% 1% 1%;} #wrapper { padding: 213px 0 70px;}.btn_t3:lang(en), .event_btn-web_reserve:lang(en), .event_btn-request:lang(en), .event_btn-discount:lang(en), .event_btn-granship:lang(en), a.btn_t3:lang(en), a.event_btn-web_reserve:lang(en), a.event_btn-request:lang(en), a.event_btn-discount:lang(en), a.event_btn-granship:lang(en) {font-size:1.5rem; padding-left: 60px;}} @media screen and (max-width: 767px) { #header{ margin: 44px 0 0;} #site-translate-header-wrapper p {text-align: left; padding: 1%;} #header #hd-logo_sub_nav{margin: 44px 0 0;}.tabboxset_t1:lang(en) > .tbbst-nav:lang(en) > .tbbst-n-item:lang(en), .calendar_tabboxset_t1:lang(en) > .tbbst-nav:lang(en) > .tbbst-n-item:lang(en), .info_shien_tabboxset:lang(en) > .tbbst-nav:lang(en) > .tbbst-n-item:lang(en) {font-size: 90%;}}
+</param-value>
+</extension-param>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>

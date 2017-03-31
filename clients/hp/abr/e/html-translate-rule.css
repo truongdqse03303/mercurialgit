@@ -10,3 +10,24 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT HOBBY";
 }
+
+@preprocess {
+	replace: '<th class="mon">月</th>' '<th class="mon">月曜日</th>';
+	replace: '<th class="tue">火</th>' '<th class="tue">火曜日</th>';
+	replace: '<th class="wed">水</th>' '<th class="wed">水曜日</th>';
+	replace: '<th class="thu">木</th>' '<th class="thu">木曜日</th>';
+	replace: '<th class="fri">金</th>' '<th class="fri">金曜日</th>';
+	replace: '<th class="sat">土</th>' '<th class="sat">土曜日</th>';
+	replace: '<th class="sun">日</th>' '<th class="sun">日曜日</th>';
+	replace: '<a (.*?)class="btn_t1"(.*?)>※ご利用の手順(.*?)</a>' '<a $1class="btn_t1"$2>※ご利用の手順<br style="display:none;">$3</a>';
+}
+
+@postprocess {
+	replace: '<th class="mon">(.*?)Monday(.*?)</th>' '<th class="mon">Mon</th>';
+	replace: '<th class="tue">(.*?)Tuesday(.*?)</th>' '<th class="tue">Tue</th>';
+	replace: '<th class="wed">(.*?)Wednesday(.*?)</th>' '<th class="wed">Wed</th>';
+	replace: '<th class="thu">(.*?)Thursday(.*?)</th>' '<th class="thu">Thu</th>';
+	replace: '<th class="fri">(.*?)Friday(.*?)</th>' '<th class="fri">Fri</th>';
+	replace: '<th class="sat">(.*?)Saturday(.*?)</th>' '<th class="sat">Sat</th>';
+	replace: '<th class="sun">(.*?)Sunday(.*?)</th>' '<th class="sun">Sun</th>';
+}
