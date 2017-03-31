@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
   <name>公益財団法人　神戸市公園緑化協会</name>
@@ -11,6 +11,10 @@
     <request hostname="www.kobe-park.or.jp" />
   </request-list>
 
+  <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>style: #site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

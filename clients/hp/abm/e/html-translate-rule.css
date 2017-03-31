@@ -10,3 +10,49 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
 }
+
+/* メニュー */
+#nav_menu-2 > .menu-sidenavi-container > #menu-sidenavi > #menu-item-8714 > a {
+	attribute: style add 'font-size: 90%;';
+}
+
+#nav_menu-2 > .menu-sidenavi-container > #menu-sidenavi > #menu-item-8716 {
+	attribute: style add 'line-height: 0.8;';
+}
+
+/* 花と緑の取組みとは */
+#content > div > div > .tagbutton_a,
+#content > div > div > div > .tagbutton_a {
+	attribute: style add 'font-size: 95%;';
+}
+
+/* 空き状況 */
+#main_contents > div > .text > .goto_next_month {
+	attribute: style add 'top: 30px;';
+}
+
+/* スマートフォン ヘッダー */
+.ui-mobile-viewport > #mob_infopage > .ui-header > .ui-title {
+	attribute: style add 'margin: .6em 90px .8em 130px;';
+}
+
+/* 滋賀公園 フッター */
+#footer-widget-area {
+	attribute: style add 'width: 690px; background: none;';
+}
+
+#footer > #colophon > #footer-widget-area > #first {
+	attribute: style add 'width: 250px; padding-left: 10px; background: url(http://shigakoen.com/wp-content/themes/parkguide/images/bg_footer_widget_are.png)  repeat-y 100px top;';
+}
+
+#footer > #colophon > #footer-widget-area > #second {
+	attribute: style add 'width: 230px; padding-left: 10px; background: url(http://shigakoen.com/wp-content/themes/parkguide/images/bg_footer_widget_are.png) repeat-y 85px top;';
+}
+
+#footer > #colophon > #footer-widget-area > #third {
+	attribute: style add 'width: 160px; background: url(http://shigakoen.com/wp-content/themes/parkguide/images/bg_footer_widget_are.png) repeat-y 25px top;';
+}
+
+#footer > #colophon > #footerSiteInfo {
+	attribute: style add 'width: 250px;';
+}

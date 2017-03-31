@@ -12,6 +12,10 @@
     <request hostname="shigakoen.com" />
   </request-list>
 
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;} #sagasu .adress-block dt:lang(en) {width: 100px;} .ui-mobile > body { margin: 0; } .ui-header{margin: 60px 0 0;} .ui-title{margin: .6em 90px .8em 130px !important;}</param-value>
+  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
