@@ -1,0 +1,34 @@
+/* 翻訳解除 */
+#sns,
+#ca-container,
+#twitter-widget-0,
+.fb_iframe_widget {
+	attribute:cltx add 'exclude';
+}
+
+/* 写真キャプション */
+#mainblk > .photo > ul > li > a > p {
+	attribute: style add 'top: 90px; line-height: 1.2; text-align: left; height: 60px;';
+}
+
+@preprocess {
+	replace:'<dt>Q10(.*?)</dt>' '<dt>Q10<br style="display:none;">$1</dt>';
+	replace:'<dt>Q11(.*?)</dt>' '<dt>Q11<br style="display:none;">$1</dt>';
+	replace:'<dt>Q12(.*?)</dt>' '<dt>Q12<br style="display:none;">$1</dt>';
+	replace:'<dt>Q13(.*?)</dt>' '<dt>Q13<br style="display:none;">$1</dt>';
+	replace:'<dt>Q14(.*?)</dt>' '<dt>Q14<br style="display:none;">$1</dt>';
+	replace:'<dt>Q15(.*?)</dt>' '<dt>Q15<br style="display:none;">$1</dt>';
+	replace:'<dt>Q16(.*?)</dt>' '<dt>Q16<br style="display:none;">$1</dt>';
+	replace:'<dt>Q17(.*?)</dt>' '<dt>Q17<br style="display:none;">$1</dt>';
+	replace:'<dt>Q18(.*?)</dt>' '<dt>Q18<br style="display:none;">$1</dt>';
+	replace:'<dt>Q19(.*?)</dt>' '<dt>Q19<br style="display:none;">$1</dt>';
+	replace:'<dt>Q1(.*?)</dt>' '<dt>Q1<br style="display:none;">$1</dt>';
+	replace:'<dt>Q2(.*?)</dt>' '<dt>Q2<br style="display:none;">$1</dt>';
+	replace:'<dt>Q3(.*?)</dt>' '<dt>Q3<br style="display:none;">$1</dt>';
+	replace:'<dt>Q4(.*?)</dt>' '<dt>Q4<br style="display:none;">$1</dt>';
+	replace:'<dt>Q5(.*?)</dt>' '<dt>Q5<br style="display:none;">$1</dt>';
+	replace:'<dt>Q6(.*?)</dt>' '<dt>Q6<br style="display:none;">$1</dt>';
+	replace:'<dt>Q7(.*?)</dt>' '<dt>Q7<br style="display:none;">$1</dt>';
+	replace:'<dt>Q8(.*?)</dt>' '<dt>Q8<br style="display:none;">$1</dt>';
+	replace:'<dt>Q9(.*?)</dt>' '<dt>Q9<br style="display:none;">$1</dt>';
+}

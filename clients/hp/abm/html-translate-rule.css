@@ -1,0 +1,20 @@
+/* 翻訳解除 */
+#langTxtChanger > .langMenu > ul > li,
+#globalNavigation,
+#wp_skitter_over,
+#container > #topContent > div > #twitter-widget-0,
+#fancybox-wrap,
+#aec-container > #aec-calendar > table > tbody > tr > .fc-header-left,
+#aec-container > #aec-calendar > table > tbody > tr > .fc-header-right,
+#container > #content > #post-1349 > div > #aec-container > #aec-header > #aec-filter,
+#container > #content > #post-1349 > div > #aec-container > #aec-calendar > .fc-content{
+	attribute:cltx add 'exclude';
+}
+
+.ui-mobile-viewport > #home > .ui-header {
+	attribute: style add 'margin: 54px 0 0;';
+}
+
+@preprocess {
+	replace:'<span class="image_number"(.*?)</span>' '<br style="display:none;"><span class="image_number"$1</span><br style="display:none;">';
+}
