@@ -20,4 +20,5 @@
 
 @postprocess {
 	replace: '<span class="price">(.*?)yen</span>' '<span class="price">&yen;$1</span>';
+	replace:'<h1><!--cltx--><span>(.*?)</span> SHOP SEARCH(.*?)</h1>' '<h1><!--cltx-->SHOP SEARCH<br style="display:none;"><span>$1 $2</span></h1>';
 }
