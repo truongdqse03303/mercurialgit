@@ -8,6 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
+    <request hostname="ims-tenjin.jp" />
     <request hostname="www.ims.co.jp" />
   </request-list>
 
