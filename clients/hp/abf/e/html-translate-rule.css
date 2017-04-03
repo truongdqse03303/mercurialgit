@@ -14,11 +14,12 @@
 /* Googleアナリティクス */
 @preprocess {
 	replace: 'UA-54523459-1' 'UA-54523459-4';
-	replace: '<span class="price">(.*?)</span>(.*?)<span class="price">(.*?)</span>' '<span class="price">$1</span>-<span class="price">$3</span>';
+	replace: '<span class="price">(.*?)</span>～' '<span class="price">$1</span>-&nbsp;';
 	replace: '<span class="price">(.*?)</span>' '<br style="display:none;"><span class="price">$1</span><br style="display:none;">';
 }
 
 @postprocess {
+	replace: '<span class="price">(.*?)</span>-&nbsp;' '<span class="price">$1</span>-&nbsp;';
 	replace: '<span class="price">(.*?)yen</span>' '<span class="price">&yen;$1</span>';
 	replace:'<h1><!--cltx--><span>(.*?)</span> SHOP SEARCH(.*?)</h1>' '<h1><!--cltx-->SHOP SEARCH<br style="display:none;"><span>$1 $2</span></h1>';
 }
