@@ -20,11 +20,6 @@
 }
 
 @postprocess {
- replace:'前' 'previous';
- replace:'次' 'next';
-}
-
-@postprocess {
  replace:'Ten cases' '10 cases';
  replace:'cas</em>es\.</span>' '</em>cases.</span>';
  replace:'ca</em>ses\.</span>' '</em>cases.</span>';
