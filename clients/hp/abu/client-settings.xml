@@ -12,8 +12,8 @@
     <request hostname="sodai.tokyokankyo.or.jp" />
     <request hostname="www2.wagamachi-guide.com" path="/chofu" />
     <request hostname="johokokai.city.chofu.tokyo.jp" path="/search" />
+    <request hostname="www.shizennoie.jp" />
   </request-list>
-
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

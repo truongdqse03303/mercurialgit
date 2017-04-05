@@ -14,13 +14,12 @@
     <request hostname="www.kosodate-kwgc-saitama-ksp.jp" />
     <request hostname="www.water-kawaguchi.jp" />
     <request hostname="www.konamisportsandlife.co.jp" path="/trust/tozuka/" />
-    <request hostname="www.sch.kawaguchi.saitama.jp" />
     <request hostname="kawaguchi-mmc.org" />
     <request hostname="www.kawaguchiauto.jp" />
     <request hostname="kawaspo.jp" />
     <request hostname="www.atlia.jp" />
     <request hostname="www.kawaguchi-kango.jp" />
-    <request hostname="www.micosfit.jp" path="/kawaguchi/" />
+    <request hostname="kawaguchicity.bosai.info" />
     <request hostname="www15.ocn.ne.jp" path="/~shibazi/" />
     <request hostname="faqnavi12a.csview.jp" path="/faq2/usernavi.do\?user=kawaguchi&amp;faq=top" />
     <request hostname="www.machi-info.jp" path="/machikado/kawaguchi_city/emap_address_matching_search_cellanchor\.html\?operator=2&amp;mode="/>
