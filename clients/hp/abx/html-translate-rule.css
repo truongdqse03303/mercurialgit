@@ -1,0 +1,6 @@
+#header_global,
+#Twitter,
+#Twitter_lily
+#SocialButton {
+	attribute: cltx add 'exclude';
+}

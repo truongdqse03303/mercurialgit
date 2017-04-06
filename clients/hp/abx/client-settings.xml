@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>大阪舞洲ゆり園</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>yurien/service 900ae1cf36da9511d29b49da2361840e78f744c8</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="yurien.com" />
+  </request-list>
+
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://yurien\.com/senryu_contest/*</url>
+  </url-list>
+
+<extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} #gHeader { margin: 0;top: 48px;} nav {top: 390px;} body#default { background: url(http://yurien.com/common/images/visual_default_img_bg.jpg) no-repeat center 30px,url(http://yurien.com/common/images/bg.png) repeat-x #FFF;} div#footer div#footer_header {width: 980px;} div#footer div#footer_header div#footer_header_etc {width: 810px;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
