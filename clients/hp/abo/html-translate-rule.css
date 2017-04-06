@@ -4,3 +4,8 @@
 #footer {
 	attribute: cltx add 'exclude';
 }
+
+/* ƒŒƒXƒgƒ‰ƒ“ŠX@“X–¼ */
+@preprocess {
+	replace:'<h2><span class="jan">(.*?)</span>(.*?)</h2>' '<h2><span class="jan">$1</span><br style="display:none;">$2</h2>';
+}
