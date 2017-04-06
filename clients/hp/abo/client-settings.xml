@@ -31,8 +31,9 @@
 
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;} .cmn-gl_nav_bar--links {width: 320px;}.cmn-gl_nav_bar--btn:nth-child(1) { margin-right: 148px; }</param-value>
-  </extension-param>
+    <param-value>style:#site-translate-header-wrapper{width:auto!important}.cmn-gl_nav_bar--links{width:320px}.cmn-gl_nav_bar--btn:nth-child(1){margin-right:148px}.cmn-gl_access_box{padding:0 15px}.cmn-gl_access_box--item-sub{margin-left:10px}.cmn-gl_access_box--item-parking{margin-right:10px;padding-right:10px} /* 詳細リンク */ .shop_box--detail {width: auto;} /* お店一覧を表示 */ .search_result--link {width: auto !important;padding: 0 1%;} /* プライバシーポリシー */ .cmn-shop_tab { top: 40px; } .cmn-shop_tab-privacy .cmn-shop_tab--item-long { width: 290px; } /* 戻るリンク  */ #single #container .b .button-diagonal_type_left { width: 180px; } #blog #container #c02 .topi .cat-topi {padding-right: 180px;} .search_result--bar {font-size: 11.5px !important; letter-spacing: normal; } footer section .btn { height: auto; padding: 1% 0; line-height: normal;} #local>ul {width: 1280px;padding: 0 1.5% 0 0;} #local>ul>li:nth-of-type(1)>a {width: auto;} #local>ul>li:nth-of-type(2)>a {width: auto} #local>ul>li>a {font-size: 12.5px; padding: 17px 15px; line-height: normal;} @media screen and (max-width: 1023px) {#global ul { margin: 60px 0;}} @media (max-width: 600px) { #site-translate-header-wrapper p {text-align: left;padding: 1%;} .top_floor--tab {font-size: 63% !important;line-height: 1.3 !important;} #blog #container #c02 .topi .cat-topi {padding-right: 160px;font-size: 70%;}}
+</param-value>
+</extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
