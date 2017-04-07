@@ -38,6 +38,11 @@
     <param-name>show.translate.header</param-name>
     <param-value>footer</param-value>
   </extension-param>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style: @media only screen and (min-width: 770px) { #header #lang { width: auto; }}</param-value>
+  </extension-param>
   
  <!-- HTML断片翻訳の無効 -->
   <url-list type="ignore-fragment">
