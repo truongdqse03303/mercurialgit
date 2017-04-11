@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ロマンライフ（マールブランシュ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>malebranche/service 5dea0099ca62d477374fb4ce79addbe26cd98018</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.malebranche.co.jp" />
+  </request-list>
+
+<extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} #head_top .frame { padding: 60px 0 14px; } #top_news article ul li .info .date_cat .cat span, #news_detail header .photo_info .info .cat span { padding: 4px 8px; width: auto; } #gnav .main ul li a:lang(fr) { font-size: 1.2rem; } .tk-6-g > * > span {width: auto !important; vertical-align:top !important;} .tk-6-g > :nth-child(2) strong { white-space: normal !important; } #store_list .supplement li { margin-left: 0; margin-right: 10px;} #store_list .supplement li:last-child { margin-left: 0;margin-right: 0; } @media screen and (max-width: 640px) { #site-translate-header-wrapper p{ text-align: left; padding: 1%; font-size:10px;line-height: 12px;} #head_top .frame {padding: 60px 4% 14px;} #news_detail .content table.table-saiji th {white-space: normal;}}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

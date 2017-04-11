@@ -1,0 +1,9 @@
+#pagetop,
+.frame > .wrap > .info > .sp,
+#top_main > .thumb {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<span>チームの力<span>(.*?)</span></span>' '<span>チームの力<br style="display:none;"><span>$1</span></span><br style="display:none;">';
+}
