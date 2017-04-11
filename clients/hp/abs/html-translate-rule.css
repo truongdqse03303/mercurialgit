@@ -1,0 +1,10 @@
+.slicknav_menu,
+#top_m_left,
+.fb_iframe_widget_fluid,
+.fbx-modal > .fbx-inner {
+	attribute: cltx add 'exclude';
+}
+
+@postprocess {
+ replace:'<td nowrap(.*?)>' '<td $1>';
+}
