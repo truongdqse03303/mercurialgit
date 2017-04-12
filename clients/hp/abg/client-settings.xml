@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="oimf.jp" />
+    <request hostname="oimf.jp" ssl="true" />
     <request hostname="2017.oimf.jp" />
     <request hostname="2016.oimf.jp" />
   </request-list>

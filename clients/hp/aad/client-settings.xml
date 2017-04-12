@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.funasei.com" />
+    <request hostname="www.funasei.com" ssl="true" />
     <request hostname="yakatabune.tokyo" />
   </request-list>
 
