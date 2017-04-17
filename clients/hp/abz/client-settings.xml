@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ホスピタリティ ツーリズム専門学校</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>trajal-tokyo/service 97c30dcd1cf17a20ed7e0153272e4b60f1c97d78</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.trajal.jp" />
+    <request hostname="trajal.jp" />
+  </request-list>
+
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.trajal\.jp/column/*</url>
+  </url-list>
+
+<extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;} * { letter-spacing: normal !important; word-break: break-word; } #gnav li:lang(en) { margin-right: 10.5px; font-size: 85%; } .head_btn_inq, .head_btn_book, .head_btn_access { width: auto; } .nav_header_utility:lang(en) { left: 46%;top: -128px; } .question_list dt:lang(en) { width: 43%; margin: 0; } .question_list dd:lang(en) { width: 55%; } .main_container:lang(en) { padding: 40px 0; } .oc_wrapper dd p:lang(en) { text-align: left; } @media screen and (max-width: 600px) { #site-translate-header-wrapper p { text-align: left; padding: 1%; } .question_list dt:lang(en) { width: auto;} .question_list dd:lang(en) { width: auto; } footer p {padding: 4px 0;}}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
