@@ -1,0 +1,12 @@
+#footer {
+	attribute: style add 'background-position: inherit;';
+}
+
+@preprocess {
+	replace:'<a href="site/ad.html" onclick=(.*?)</a>' '<br style="display:none;"><a href="site/ad.html" onclick=$1</a><br style="display:none;">';
+	replace:'<a href="business/index.html">事業概要</a>' '<br style="display:none;"><a href="business/index.html">事業概要</a><br style="display:none;">';
+	replace:'<span><a href="building/index.html">建物概要</a></span>' '<br style="display:none;"><a href="building/index.html">建物概要</a><br style="display:none;">';
+	replace:'<a href=(.*?)>お問い合わせ、ご意見</a>' '<br style="display:none;"><a href=$1>お問い合わせ、ご意見</a><br style="display:none;">';
+	replace:'<a href=(.*?)>広告掲載について</a>' '<br style="display:none;"><a href=$1>広告掲載について</a><br style="display:none;">';
+	replace:'<a href=(.*?)>プライバシーポリシー</a>' '<br style="display:none;"><a href=$1>プライバシーポリシー</a><br style="display:none;">';
+}

@@ -10,3 +10,11 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+#footer > div#subnav {
+	attribute: style add 'padding: 10px 30px 10px 30px;';
+}
+
+@preprocess {
+	replace: '<p id="adress">大阪府立大型児童館ビッグバン' '<p id="adress">大阪府立大型児童館ビッグバン<br>';
+}

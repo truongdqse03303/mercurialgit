@@ -11,7 +11,7 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT HOBBY";
 }
 
-/* ���m�点 */
+/* お知らせ */
 #infobox > .infoentry > table {
 	attribute: style add 'width: 100%;';
 }
@@ -20,10 +20,19 @@
 	attribute: style add 'width: 30%;';
 }
 
-/* �X�^�b�t�u���O */
+/* スタッフブログ */
 #blogInner > .blogentry > table > tr,
 #blogInner > .blogentry > table > tr > td {
 	attribute: style add 'display: block;';
+}
+
+#footer > div#subnav {
+	attribute: style add 'padding: 10px 30px 10px 30px;';
+}
+
+
+@preprocess {
+	replace: '<p id="adress">大阪府立大型児童館ビッグバン' '<p id="adress">大阪府立大型児童館ビッグバン<br>';
 }
 
 @postprocess {
