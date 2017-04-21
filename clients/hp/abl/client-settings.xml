@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="kitapo.jp" ssl="true" />
-    <request hostname="kitapo.sakura.ne.jp" />
+    <request hostname="test.kitapo.jp" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
