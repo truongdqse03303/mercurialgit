@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>井手電気株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>fujisan/service 3fd6b12aa7db85294d0d0dc528f35a7458d9d38a</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.fujisan.ne.jp" />
+  </request-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{ width:auto !important; } .nav-tabs > li:lang(en) { font-size: 83%; } .btn { white-space: normal; } .article_area { font-size: 90%; } @media (min-width: 768px) { .article_area .col-sm-6 { float: none; display: inline-block; width: 48.5%; vertical-align: top; } } @media (max-width: 767px) { .index_news_area { height: auto !important; } .slick-slider { width: 96%; margin: 0 auto 10px;} }</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

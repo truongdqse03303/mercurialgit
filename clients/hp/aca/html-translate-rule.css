@@ -1,0 +1,12 @@
+.col-sm-9,
+.col-sm-12,
+.pp_pic_holder,
+.pp_default,
+.pp_content_container {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<p class="h2_lead">(.*?)<br class="visible-xs">(.*?)</p>' '<p class="h2_lead">$1$2</p>';
+	replace:'<span class="category_name">(.*?)</span><span class="category_memo">(.*?)</span>' '<br style="display:none;"><span class="category_name">$1</span><br style="display:none;"><span class="category_memo">$2</span><br style="display:none;">';
+}
