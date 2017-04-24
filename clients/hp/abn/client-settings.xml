@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.kobe-park.or.jp" />
+    <request hostname="www.kobe-park.or.jp" ssl="true" />
   </request-list>
 
   <extension-param>
