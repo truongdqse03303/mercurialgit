@@ -34,7 +34,13 @@
       <param-value>http://kir112712\.kir\.jp/.*</param-value>
     </param>
   </resource-handler>
-   
+
+  <!-- 免責ヘッダー -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; border: none;} @media screen and (max-width: 640px) { #site-translate-header-wrapper p { text-align: left; padding-left: 5.8em; }}</param-value>
+  </extension-param>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>

@@ -10,3 +10,8 @@
   eid: BR-JA.FR.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+/* Googleアナリティクス */
+@preprocess {
+	replace: 'UA-61254919-1' 'UA-61254919-7';
+}

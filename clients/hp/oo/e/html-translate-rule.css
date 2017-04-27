@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM ART GOURMET";
 }
+
+/* Googleアナリティクス */
+@preprocess {
+	replace: 'UA-61254919-1' 'UA-61254919-5';
+}
