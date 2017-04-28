@@ -11,7 +11,11 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION TOURISM";
 }
 
-/* Google�A�i���e�B�N�X */
+/* Googleアナリティクス */
 @preprocess {
 	replace: 'UA-54523459-1' 'UA-54523459-5';
+}
+
+@postprocess {
+	replace: '<p class="prof_jp">(.*?)中村紫藤𠮷總店嘗(.*?)</p>' '<p class="prof_jp">$1中村藤𠮷總店嘗$2</p>';
 }

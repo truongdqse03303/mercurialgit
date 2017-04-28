@@ -19,7 +19,11 @@ div#contents > footer#footer {
 	attribute:style add 'padding: 1% 0 1.5%;';
 }
 
-/* Google�A�i���e�B�N�X */
+/* Googleアナリティクス */
 @preprocess {
 	replace: 'UA-54523459-1' 'UA-54523459-6';
+}
+
+@postprocess {
+	replace: '<p class="prof_jp">(.*?)中村紫藤𠮷总店尝(.*?)</p>' '<p class="prof_jp">$1中村藤𠮷总店尝$2</p>';
 }
