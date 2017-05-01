@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.inuyama.gr.jp" />
-    <request hostname="inuyama.gr.jp" />
+    <request hostname="inuyama.gr.jp" ssl="true" />
   </request-list>
   
     <!-- 免責ヘッダーを絶対座標で指定 -->
