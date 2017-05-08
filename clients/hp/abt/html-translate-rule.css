@@ -1,0 +1,5 @@
+#foot-sns,
+#page-top,
+#translation > li {
+	attribute: cltx add 'exclude';
+}

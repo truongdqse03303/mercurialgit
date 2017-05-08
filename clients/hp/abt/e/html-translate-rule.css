@@ -10,3 +10,13 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
 }
+
+@postprocess {
+	replace: '<th class="saturday"><!--cltx-->Soil</th>' '<th class="saturday"><!--cltx-->Sat</th>';
+	replace: '<th class="sunday"><!--cltx-->Day</th>' '<th class="sunday"><!--cltx-->Sun</th>';
+	replace: '<th><!--cltx-->Month</th>' '<th><!--cltx-->Mon</th>';
+	replace: '<th><!--cltx-->Fire</th>' '<th><!--cltx-->Tue</th>';
+	replace: '<th><!--cltx-->Water</th>' '<th><!--cltx-->Wed</th>';
+	replace: '<th><!--cltx-->Tree</th>' '<th><!--cltx-->Thu</th>';
+	replace: '<th><!--cltx-->Money</th>' '<th><!--cltx-->Fri</th>';
+}

@@ -11,6 +11,11 @@
     <request hostname="www.harborland.co.jp" />
   </request-list>
 
+  <!-- 免責ヘッダー -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;} body:lang(en) { letter-spacing: normal } #love_catch:lang(en) { top: 200px; } #love_description:lang(en) {top: 258px;} #fr_catch:lang(en) { top: 200px;} #fr_description:lang(en) { top: 255px; width: 350px; } .fa { line-height: inherit; } @media screen and (min-width: 1000px) { #ft-nav:lang(en) { width: 620px;} #ft-nav ul li a:lang(en) { width: 200px; } .header-utility h1 { padding: 0.5%;} } @media screen and (max-width: 1024px) { #site-translate-message { text-align: left; padding: 0.5% 1%;} #ft-nav li a:lang(en) { font-size: 82% }}</param-value>
+  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
