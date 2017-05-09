@@ -1,13 +1,7 @@
-/* スマートフォン ヘッダーメニュー */
 #spHeader,
-.pbHeaderArea {
-	attribute:cltx add 'exclude';
-}
-
-div.selectCopyBox.areaListCopy {
-	attribute:cltx add 'exclude';
-}
-
-div.selectCopyBox.cityListcopy {
+.pbHeaderArea,
+div.selectCopyBox.areaListCopy,
+div.selectCopyBox.cityListcopy,
+div.selectCopyBox.prefListcopy {
 	attribute:cltx add 'exclude';
 }
