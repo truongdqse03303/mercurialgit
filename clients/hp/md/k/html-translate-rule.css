@@ -57,7 +57,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><img width="730" height="349" border="0" usemap="#mainImageLink" alt="" src="/tokyo/images/storemain_tokyo_pc02_k.jpg"><map id="mainImageLink" name="mainImageLink"><area href="/tokyo/fl/k/best/" coords="0,0,341,348" shape="rect"><area href="http://dmdepart.jp.k.md.hp.transer.com/flnews/k/" target="_blank" coords="341,-3,732,175" shape="rect"><area href="http://www.daimaru.co.jp.k.md.hp.transer.com/tokyo/ds/160129_index_ds.html" coords="340,174,731,352" shape="rect"></map></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.k.md.hp.transer.com/flnews/k/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_k.jpg"></a></p>';
 }
 
 // @RULESET
@@ -111,7 +111,7 @@
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><img src="/smp/tokyo/images/storemain_tokyo_smp02_k.jpg" alt="" width="300" usemap="#Map"><map name="Map"><area shape="rect" coords="0,-1,141,113" href="/tokyo/fl/s/k/"><area shape="rect" coords="140,1,299,57" href="http://dmdepart.jp.k.md.hp.transer.com/flnews/k/" target="_blank"><area shape="rect" coords="140,56,299,112" href="http://www.daimaru.co.jp.k.md.hp.transer.com/tokyo/ds/160129_index_ds.html"></map></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.k.md.hp.transer.com/flnews/k/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_k.jpg"></a></p>$1';
 }
 
 // @RULESET
