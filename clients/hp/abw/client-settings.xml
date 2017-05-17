@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>公益社団法人　京都府観光連盟</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kyoto-kankou/service d1bc664ba29e52026fb21ea3c73837ac1720953c</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kyoto-kankou.or.jp" path="/kyotosports" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
