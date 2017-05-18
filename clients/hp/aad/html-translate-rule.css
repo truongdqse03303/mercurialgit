@@ -1,0 +1,22 @@
+section  > .inner > .common_bxslider_wrap > .bx-wrapper,
+.common_bxslider_wrap > .bx-pager > a,
+#float_gotop,
+.contents > .plan_lead > .inner > .common_bxslider_wrap,
+.inner > .sp_slider_wrap,
+.inner > .common_bxslider_wrap {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<p class="txt mincho">(.*?)<span class="time">(.*?)</span></p>' '<p class="txt mincho">$1<br style="display:none;"><span class="time">$2</span></p>';
+	replace:'<th class="bg_rd mincho">(.*?)<span class="fs_48">(.*?)</span>(.*?)</th>' '<th class="bg_rd mincho">$1<br style="display:none;"><span class="fs_48">$2</span><br style="display:none;">$3</th>';
+	replace:'<th class="mincho bg_rd">(.*?)<span class="fs_48">(.*?)</span>(.*?)</th>' '<th class="bg_rd mincho">$1<br style="display:none;"><span class="fs_48">$2</span><br style="display:none;">$3</th>';
+	replace:'<dt class="data_num"><em class="num">(.*?)</em>(.*?)<br class="pc_only">(.*?)</dt>' '<dt class="data_num"><em class="num">$1</em><br style="display:none;">$2<br class="pc_only">$3</dt>';
+	replace:'<p>(.*?)<strong class="fs_60 mincho">(.*?)</strong>(.*?)<br class="sp_only">(.*?)</p>' '<p><br style="display:none;">$1<br style="display:none;"><strong class="fs_60 mincho"><br style="display:none;">$2</strong>$3<br class="sp_only">$4</p>';
+	replace:'<strong class="fs_38 mincho">(.*?)<span class="fs_24">(.*?)</span></strong>' '<strong class="fs_38 mincho">$1<br style="display:none;"><span class="fs_24">$2</span></strong>';
+	replace:'<span class="fs_34">(.*?)</span><span class="fs_24">(.*?)</span>' '<span class="fs_34">$1</span><br style="display:none;"><span class="fs_24">$2</span><br style="display:none;">';
+	replace:'<h4 class="ttl">(.*?)<span class="sub">(.*?)</h4>' '<h4 class="ttl">$1<br style="display:none;"><span class="sub">$2</h4>';
+	replace:'<div class="txtarea"><p class="txt">(.*?)<br>(.*?)</p></div>' '<div class="txtarea"><p class="txt">$1$2</p></div>';
+	replace:'おしながきはこちら' '<br style="display:none;">おしながきはこちら<br style="display:none;">';
+	replace:'飲み放題メニューはこちら' '<br style="display:none;">飲み放題メニューはこちら<br style="display:none;">';
+}
