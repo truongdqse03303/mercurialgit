@@ -46,7 +46,7 @@
    <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto; height:44px;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} #nav .title { top: 49px;} .local_header .information .toggle_other { width: 130px; }</param-value>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important; height:44px;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} #nav .title { top: 49px;} .local_header .information .toggle_other { width: 128px; }</param-value>
   </extension-param>
   
   <!-- コンテンツキャッシュ使用有無の設定-->
