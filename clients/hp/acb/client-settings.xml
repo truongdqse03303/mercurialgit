@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>マザー牧場</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>motherfarm/service 0b2c10468e38df1ea1c0aebd922976633243e01f</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.motherfarm.co.jp" />
+    <request hostname="motherfarm.co.jp" />
+    <request hostname="silver.pro22.net" path="/mother_farm" />
+  </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic cHJvOnBybw==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://silver\.pro22\.net/mother_farm/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+	<!-- 免責ヘッダーを絶対座標で指定 -->
+	<extension-param>
+	<param-name>site.translate.header.style</param-name>
+	<param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} #wrapper { margin: 49px 0 0; } @media print, screen and (min-width: 769px) { #header-area { top: 49px; } .snsArea > div > div > section:nth-child(1) h3:lang(en) { font-size: 1.4em; } .weatherBtn a:lang(en) { font-size: 1.4em; } table.ticketText01 th:lang(en) { width: 30%; } #header-area header div:lang(en) { width: auto; } #header-area header div ul:lang(en), .footerLink02 ul:lang(en) { padding: 5px 15px 5px 0; width: auto; } .indexArea p a:lang(en) { width: auto; padding: 20px 15px 15px;}}</param-value>
+	</extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
