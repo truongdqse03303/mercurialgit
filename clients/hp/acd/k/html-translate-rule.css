@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER MEDICAL";
 }
+
+#LeftArea > .SideMenuBlock > .Menu {
+	attribute: cltx add 'exclude';
+}
