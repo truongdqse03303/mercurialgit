@@ -1,0 +1,10 @@
+.flexslider,
+.fb-page,
+#gnav_sp_btn {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<div class="contentContactBox">(.*?)<span class="tel-link telno">(.*?)</span></div>' '<div class="contentContactBox">$1<br style="display:none;"><span class="tel-link telno">$2</span></div>';
+	replace:'<span class="kakaku">(.*?)</span>' '<br style="display:none;"><span class="kakaku">$1</span><br style="display:none;">';
+}
