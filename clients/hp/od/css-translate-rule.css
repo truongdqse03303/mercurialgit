@@ -1,5 +1,0 @@
-@preprocess {
-  replace: '(#supersized \\{.*?)top:0;' '$1';
-  replace: '(#progress-back\\{.*?)top:271px;' '$1top:298px;';
-  replace: '(#controls-wrapper \\{.*?)top:198px;' '$1top:225px;';
-}
