@@ -38,6 +38,7 @@
     <request hostname="chikushino-aeonmall.com" />
     <request hostname="kochi-aeonmall.com" />
 	<request hostname="shinkomatsu-aeonmall.com" />
+	<request hostname="takaoka-aeonmall.com" />
   </request-list>
   
       <!-- URLとリソース種類のマッピングの設定 -->
@@ -46,7 +47,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://(asahikawaekimae-aeonmall|natori-aeonmall|laketownkaze-aeonmall|laketown-outlet|narita-aeonmall|kisarazu-aeonmall|odaka-aeonmall|kyoto-aeonmall|kyotokatsuragawa-aeonmall|yamatokoriyama-aeonmall|rinkusennan-aeonmall|umie|aeonmall-okayama|fukuoka-aeonmall|miyazaki-aeonmall|tendo-aeonmall|makuharishintoshin-aeonmall|kofushowa-aeonmall|higashiura-aeonmall|tokoname-aeonmall|suzuka-aeonmall|kashihara-aeonmall|tsurumiryokuchi-aeonmall|osakadomecity-aeonmall|kobekita-aeonmall|wakayama-aeonmall|hiroshimafuchu-aeonmall|chikushino-aeonmall|kochi-aeonmall|shinkomatsu-aeonmall).(com|jp)/(json_api/.*|theme/RenewalPage/templates.html)</param-value>
+      <param-value>http://(asahikawaekimae-aeonmall|natori-aeonmall|laketownkaze-aeonmall|laketown-outlet|narita-aeonmall|kisarazu-aeonmall|odaka-aeonmall|kyoto-aeonmall|kyotokatsuragawa-aeonmall|yamatokoriyama-aeonmall|rinkusennan-aeonmall|umie|aeonmall-okayama|fukuoka-aeonmall|miyazaki-aeonmall|tendo-aeonmall|makuharishintoshin-aeonmall|kofushowa-aeonmall|higashiura-aeonmall|tokoname-aeonmall|suzuka-aeonmall|kashihara-aeonmall|tsurumiryokuchi-aeonmall|osakadomecity-aeonmall|kobekita-aeonmall|wakayama-aeonmall|hiroshimafuchu-aeonmall|chikushino-aeonmall|kochi-aeonmall|shinkomatsu-aeonmall|takaoka-aeonmall).(com|jp)/(json_api/.*|theme/RenewalPage/templates.html)</param-value>
      </param>
     <param>
       <param-name>resource.type.name</param-name>

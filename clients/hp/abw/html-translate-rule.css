@@ -1,0 +1,3 @@
+@preprocess {
+	replace:'<p class="slideTtl">(.*?)<span>(.*?)</span></p>' '<p class="slideTtl">$1<br style="display:none;"><span>$2</span></p>';
+}
