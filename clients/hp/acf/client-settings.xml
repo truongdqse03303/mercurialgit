@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社アザナ（マリンサポートタイド・残波）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>mstide/service 43e6d75cba20435e6cebb4f04198e74831341f42</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.mstide.com" />
+  </request-list>
+
+	<!-- 免責ヘッダーを絶対座標で指定 -->
+	<extension-param>
+	<param-name>site.translate.header.style</param-name>
+	<param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} .container { margin: 44px 0 0; } .gNav.fixed { top: 44px; } @media screen and (max-width: 768px) { .header__logoAreaWrapper { top: 44px; } .spMenuArea { top: 112px; } }</param-value>
+	</extension-param>
+
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>http://www\.mstide\.com/about/.*</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

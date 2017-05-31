@@ -10,3 +10,14 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM MEDICAL";
 }
+
+@postprocess {
+	replace:'<td class="time_cell1">(.*?)<!--cltx-->Month(.*?)</td>' '<td class="time_cell1">$1<!--cltx-->Mon$2</td>';
+	replace:'<td class="time_cell1">(.*?)<!--cltx-->Fire(.*?)</td>' '<td class="time_cell1">$1<!--cltx-->Tue$2</td>';
+	replace:'<td class="time_cell1">(.*?)<!--cltx-->Water(.*?)</td>' '<td class="time_cell1">$1<!--cltx-->Wed$2</td>';
+	replace:'<td class="time_cell1">(.*?)<!--cltx-->Tree(.*?)</td>' '<td class="time_cell1">$1<!--cltx-->Thu$2</td>';
+	replace:'<td class="time_cell1">(.*?)<!--cltx-->Money(.*?)</td>' '<td class="time_cell1">$1<!--cltx-->Fri$2</td>';
+	replace:'<td class="time_cell1">(.*?)<!--cltx-->Soil(.*?)</td>' '<td class="time_cell1">$1<!--cltx-->Sat$2</td>';
+	replace:'<td class="time_cell1">(.*?)<!--cltx-->Day(.*?)</td>' '<td class="time_cell1">$1<!--cltx-->Sun$2</td>';
+}
+

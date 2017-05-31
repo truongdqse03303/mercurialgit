@@ -13,7 +13,7 @@
 
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;} body { background-position: center 27px } #caria_change_bar { margin: 10% auto 0; } .menu_title span { font-size: 100%; } .MenuBlock .menu_box .menu_box_right { width: 25px; }</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->
