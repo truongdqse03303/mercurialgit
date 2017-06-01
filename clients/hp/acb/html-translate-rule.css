@@ -1,6 +1,8 @@
 .contentsArea,
 .facebookArea,
-.TwitterArea {
+.TwitterArea,
+.seasonColor,
+header > div {
 	attribute: cltx add 'exclude';
 }
 
@@ -8,5 +10,22 @@
 	replace:'<h3 class="clearfix">(.*?)<span>(.*?)</span></h3>' '<h3 class="clearfix">$1<br style="display:none;"><span>$2</span><br style="display:none;"></h3>';
 	replace:'<a href=(.*?) class="mapPop orangeBtn">(.*?)</a>' '<br style="display:none;"><a href=$1 class="mapPop orangeBtn">$2</a><br style="display:none;">';
 	replace:'<a href=(.*?) class="orangeBtn">(.*?)</a>' '<br style="display:none;"><a href=$1 class="orangeBtn">$2</a><br style="display:none;">';
-	replace:'<section class="titleIcon spanBr clearfix">(.*?)<h3>(.*?)<span>(.*?)</span></h3>(.*?)</section>' '<section class="titleIcon spanBr clearfix">$1<h3>$2<br style="display:none;"><span>$3</span></h3>$4</section>';
+	replace:'<h4>(.*?)<span>(.*?)</span></h4>' '<h4>$1<br style="display:none;"><span>$2</span></h4>';
+	replace:'<ul class="placeList">(.*?)<li><span>(.*?)</span><a class=(.*?)>MAP</a></li>(.*?)</ul>' '<ul class="placeList">$1<li><span>$2</span><br style="display:none;"><a class=$3>MAP</a></li>$4</ul>';
+	replace:'<td(.*?)><a href=(.*?)><span class="date">(.*?)</span><span class="time">(.*?)</span></a></td>' '<td$1><a href=$2><span class="date">$3</span><br style="display:none;"><span class="time">$4</span></a></td>';
+	replace:'<div class="todayArea whiteBg">(.*?)<p><strong>(.*?)</strong>月<strong>(.*?)</strong>(.*?)<br class="tt"><strong>(.*?)</strong></p>(.*?)</div>' '<div class="todayArea whiteBg">$1<p>$2月$3$4<br class="tt"><strong>$5</strong></p>$6</div>';
+	replace:'<h4><strong>(.*?)</strong>月<strong>(.*?)</strong>(.*?)<br class="tt">(.*?)</h4>' '<h4>$1月$2$3<br class="tt">$4</h4>';
+	replace:'<h4><a href=(.*?)><strong>(.*?)</strong>月へ戻る</a></h4>' '<h4><a href=$1>$2月へ戻る</a></h4>';
+	replace:'<h4><strong>(.*?)</strong>年<strong>(.*?)</strong>月</h4>' '<h4>$1年$2月</h4>';
+	replace:'<h3>(.*?)<span>(.*?)</span></h3>' '<h3>$1<br style="display:none;"><span>$2</span></h3>';
+	replace:'<h3>(.*?)よくあるご質問<span>(.*?)</span></h3>' '<h3>$1よくあるご質問<br style="display:none;"><span>$2</span></h3>';
+	replace:'<h3>ご利用可能なカード・電子マネー<span>(.*?)</span></h3>' '<h3>ご利用可能なカード・電子マネー<br style="display:none;"><span>$1</span></h3>';
+	replace:'<a href="(.*?)animal/">(.*?)</a>' '<br style="display:none;"><a href="$1animal/">$2</a><br style="display:none;">';
+	replace:'<a href="(.*?)location/flower/">(.*?)</a>' '<br style="display:none;"><a href="$1location/flower/">$2</a><br style="display:none;">';
+	replace:'<a href="(.*?)harvest/">(.*?)</a>' '<br style="display:none;"><a href="$1harvest/">$2</a><br style="display:none;">';
+	replace:'<a href="(.*?)amusement/">(.*?)</a>' '<br style="display:none;"><a href="$1amusement/">$2</a><br style="display:none;">';
+	replace:'<a href="(.*?)adventure/">(.*?)</a>' '<br style="display:none;"><a href="$1adventure/">$2</a><br style="display:none;">';
+	replace:'<a href="(.*?)handmade/">(.*?)</a>' '<br style="display:none;"><a href="$1handmade/">$2</a><br style="display:none;">';
+	replace:'<a href="(.*?)gourmet/">(.*?)</a>' '<br style="display:none;"><a href="$1gourmet/">$2</a><br style="display:none;">';
+	replace:'<a href="(.*?)shopping/">(.*?)</a>' '<br style="display:none;"><a href="$1shopping/">$2</a><br style="display:none;">';
 }
