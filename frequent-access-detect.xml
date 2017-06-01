@@ -12,5 +12,7 @@
     <address>210\.162\.156\.100</address>
     <address>163\.44\.63\.91</address>
     <address>122\.1\.124\.193</address>
+    <address>210\.232\.61\.65</address>
+    <address>172\.31\.188\.\d{3}</address>
   </address-list>
 </frequent-access>

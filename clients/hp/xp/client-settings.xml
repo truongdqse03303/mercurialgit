@@ -41,6 +41,19 @@
     </param>
     <priority>4</priority>
   </resource-handler>
+
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://(sake|www)\.(stage|stage2)\.biccamera\.com/(bs|bc)/(c_bl|api)/.*</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>BINARY</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
   <!-- URLとリソース種類のマッピングの設定 ここまで -->
 
   <!-- サイトで使用される文字セット -->
