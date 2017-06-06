@@ -14,3 +14,7 @@
 #LeftArea > .SideMenuBlock > .Menu {
 	attribute: cltx add 'exclude';
 }
+
+.normal-menu {
+	attribute: cltx add 'exclude';
+}
