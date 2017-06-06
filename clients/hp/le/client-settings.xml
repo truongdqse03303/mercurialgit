@@ -14,6 +14,17 @@
     <request hostname="arkhills11.loftwork.info" />
   </request-list>
 
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>footer</param-value>
+  </extension-param>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:footer#l-footer {color: red;font-weight: bold;} #site-translate-message{width:auto !important;}</param-value>
+  </extension-param>
+
   <!-- Basic認証 -->
   <resource-handler>
     <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
