@@ -11,7 +11,13 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
-/* ������Ή� */
+/* 多言語対応 */
 @postprocess {
 	replace:'https://maps.googleapis.com/maps/api/js' 'https://maps.googleapis.com/maps/api/js?language=ko&';
+}
+
+@postprocess {
+	replace:'<div class="searchInput">(.*?)<input type="search" name="keyword" placeholder=(.*?)>(.*?)</div>' '<div class="searchInput">$1<input type="search" name="keyword" placeholder="키워드">$3</div>';
+	replace:'<div class="searchInput selectDeco">(.*?)<input name="kw" placeholder=(.*?) value="">(.*?)</div>' '<div class="searchInput selectDeco">$1<input name="kw" placeholder="키워드" value="">$3</div>';
+	replace:'<input type="search" name="keyword" placeholder=(.*?) class="wd60">' '<input type="search" name="keyword" placeholder="이벤트 검색" class="wd60">';
 }
