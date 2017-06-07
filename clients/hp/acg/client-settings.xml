@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>名古屋三越　ラシック</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>lachic/service 9e444d00f9a16ecbffe12386e1c7ef9eaefb38b5</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.lachic.jp" />
+    <request hostname="elb-dev-vx-web-397754073.ap-northeast-1.elb.amazonaws.com" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
