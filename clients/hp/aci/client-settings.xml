@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>東京国際クリニック</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tic/service d6966967161c2b0213706b3f389668b0adc81e78</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.tic.or.jp" />
+  </request-list>
+
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width: 5000px} body { margin: 52px auto 0; } #contents06 h3 { letter-spacing: normal; } @media only screen and (max-width: 768px) { #contents06 .right a { font-size: 85%; }}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
