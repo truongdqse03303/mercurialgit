@@ -17,7 +17,7 @@
 
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important; } #site-translate-icp { width: auto; } header .bcs_bottom .bcs_categoryBox .bcs_categoryBtn .bcs_floorMap .bcs_inner:lang(en) {height: auto !important;} header .bcs_bottom .bcs_inner .bcs_searchBtn button { font-size: 80% !important; } header .bcs_bottom .bcs_categoryBox .bcs_categoryBtn .bcs_floorMap .bcs_inner ul.bcs_cat > li .bcs_subCatWrap:lang(en) { left: 270px;} section.bcs_list .bcs_mainColumn .bcs_itemBox .bcs_sortBar .bcs_innerRight { margin: 0; } section.bcs_list .bcs_itemBox .bcs_sortBar .bcs_innerLeft select { width: calc(80% - 30px); } section.bcs_list .bcs_itemBox .bcs_sortBar { height: auto; } section.bcs_list .bcs_itemBox .bcs_sortBar .bcs_innerRight span:lang(en) { float: none; }</param-value>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important; } #site-translate-icp { width: auto; } header .bcs_bottom .bcs_categoryBox .bcs_categoryBtn .bcs_floorMap .bcs_inner:lang(en) {height: auto !important;} header .bcs_bottom .bcs_inner .bcs_searchBtn button { font-size: 80% !important; } header .bcs_bottom .bcs_categoryBox .bcs_categoryBtn .bcs_floorMap .bcs_inner ul.bcs_cat > li .bcs_subCatWrap:lang(en) { left: 270px;} section.bcs_list .bcs_mainColumn .bcs_itemBox .bcs_sortBar .bcs_innerRight { margin: 0; } section.bcs_list .bcs_itemBox .bcs_sortBar .bcs_innerLeft select { width: calc(80% - 30px); } section.bcs_list .bcs_itemBox .bcs_sortBar { height: auto; }</param-value>
   </extension-param>
 
   <!-- 使用する設定IDの一覧 -->
