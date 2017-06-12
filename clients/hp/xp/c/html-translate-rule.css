@@ -18,3 +18,12 @@ body {
 @preprocess {
  replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
 }
+
+@preprocess {
+ replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
+ replace:'<li>店頭販売価格と取置き申込み時のビックカメラ.comの販売価格のうち(.*?)</li>' '<li>店頭販売価格と取置き申込み時の\\"ビックカメラ\\.com\\"の販売価格のうち$1</li>';
+}
+
+@postprocess {
+ replace:'<li><!--cltx--><a href="(.*?)">\\((.*?)\\)另外有关通信机器</a></li>' '<li><!--cltx--><a href="$1">另外有关通信机器\\($2\\)</a></li>';
+}

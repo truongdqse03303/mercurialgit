@@ -15,6 +15,11 @@
     <request hostname="sake.stage2.biccamera.com" />
   </request-list>
 
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important; } #site-translate-icp { width: auto; } header .bcs_bottom .bcs_categoryBox .bcs_categoryBtn .bcs_floorMap .bcs_inner:lang(en) {height: auto !important;} header .bcs_bottom .bcs_inner .bcs_searchBtn button { font-size: 80% !important; } header .bcs_bottom .bcs_categoryBox .bcs_categoryBtn .bcs_floorMap .bcs_inner ul.bcs_cat > li .bcs_subCatWrap:lang(en) { left: 270px;} section.bcs_list .bcs_mainColumn .bcs_itemBox .bcs_sortBar .bcs_innerRight { margin: 0; } section.bcs_list .bcs_itemBox .bcs_sortBar .bcs_innerLeft select { width: calc(80% - 30px); } section.bcs_list .bcs_itemBox .bcs_sortBar { height: auto; } section.bcs_list .bcs_itemBox .bcs_sortBar .bcs_innerRight span:lang(en) { float: none; }</param-value>
+  </extension-param>
+
   <!-- 使用する設定IDの一覧 -->
   <setting-id>mb-*</setting-id>
 
@@ -38,19 +43,6 @@
     <param>
       <param-name>resource.type.name</param-name>
       <param-value>JAVASCRIPT</param-value>
-    </param>
-    <priority>4</priority>
-  </resource-handler>
-
-  <resource-handler>
-    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
-    <param>
-      <param-name>resource.url.pattern</param-name>
-      <param-value>http://(sake|www)\.(stage|stage2)\.biccamera\.com/(bs|bc)/(c_bl|api)/.*</param-value>
-    </param>
-    <param>
-      <param-name>resource.type.name</param-name>
-      <param-value>BINARY</param-value>
     </param>
     <priority>4</priority>
   </resource-handler>
