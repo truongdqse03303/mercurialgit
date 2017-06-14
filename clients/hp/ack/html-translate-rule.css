@@ -1,0 +1,3 @@
+@preprocess {
+	replace:'<a class="btnNews btnMore forPC" href=(.*?)>(.*?)</a>' '<a class="btnNews btnMore forPC" href=$1>$2</a><br style="display:none;">';
+}

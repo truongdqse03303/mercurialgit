@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社毎日コムネット</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hitorigurashi/service d0d296052a09a3a13f767f893932c79c5a7ae5d5</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.hitorigurashi.com" />
+  </request-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;} #site-translate-icp { width: auto; } #header ul#headInquary {background: url(/img/common/bg_sub.gif) no-repeat 120% 50%;width: 230px;} #container {margin: 0.5% auto 0;}</param-value>
+  </extension-param>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
