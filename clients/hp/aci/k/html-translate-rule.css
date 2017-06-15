@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER MEDICAL";
 }
+
+@preprocess {
+	replace: 'UA-67771308-1' 'UA-67771308-5';
+}

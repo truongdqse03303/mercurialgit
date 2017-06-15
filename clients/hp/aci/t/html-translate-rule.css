@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER MEDICAL BEAUTY";
 }
+
+@preprocess {
+	replace: 'UA-67771308-1' 'UA-67771308-4';
+}

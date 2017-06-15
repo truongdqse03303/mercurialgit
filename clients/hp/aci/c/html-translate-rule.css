@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@preprocess {
+	replace: 'UA-67771308-1' 'UA-67771308-3';
+}
