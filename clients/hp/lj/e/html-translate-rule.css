@@ -24,6 +24,22 @@ span.price {
  replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
 }
 
+.sp_padding > .pc_w800 > div > .sp_w11per {
+ attribute: style add 'width:auto !important;';
+}
+
+.bcs_openContent > .bcs_checkList > form > p.bcs_btn > input{
+ attribute: style add 'width:240px; font-size:90%;';
+}
+
+.bcs_itemOrderBox_parent > .bcs_detail > dt {
+ attribute: style add 'width: auto;';
+}
+
+.bcs_red {
+ attribute: style add 'clear: both;display: block;';
+}
+
 // @RULESET
 // URL = http://www.biccamera.co.jp/service/store/photo/index.html
 p.link {
