@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>一般社団法人 セレッソ大阪スポーツクラブ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>cerezo-sportsclub/service 7176a519e4c78c330f83718b07b93b763dc83ae3</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.cerezo-sportsclub.or.jp" ssl="true" />
+  </request-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;} #site-translate-header-wrapper p { font-size: 70%; } @media print, screen and (min-width: 479px) { .staff_box { float: none;display: inline-block;width: 150px;vertical-align: top; }} @media screen and (max-width: 478px) { .sp_logo { top: 49px; }}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+
+</client-settings>

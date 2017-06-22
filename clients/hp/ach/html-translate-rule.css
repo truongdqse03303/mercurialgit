@@ -1,0 +1,5 @@
+@postprocess {
+	replace: '<script type="text/javascript" src=(.*?)/footer.js" charset="UTF-8"></script>' '<script type="text/javascript" src="$1/footer.js" charset="Shift_JIS"></script>';
+	replace: '<script type="text/javascript" src="(.*?)/global_mn.js"(.*?)></script>' '<script type="text/javascript" src="$1/global_mn.js" charset="Shift_JIS"></script>';
+	replace: '<script type="text/javascript" src="(.*?)/top_right_mn.js" charset="UTF-8"></script>' '<script type="text/javascript" src="$1/top_right_mn.js" charset="Shift_JIS"></script>';
+}
