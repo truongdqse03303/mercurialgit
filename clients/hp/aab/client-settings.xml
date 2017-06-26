@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="bosai.net" />
     <request hostname="bosai.dev02.smartvalue.ad.jp" />
+    <request hostname="demo.bosai.net" />
   </request-list>
 
   <!-- Microsoft Translatorロゴを表示する設定ID -->
