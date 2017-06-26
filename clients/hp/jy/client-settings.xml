@@ -11,6 +11,11 @@
     <request hostname="www.jf-group.co.jp" />
   </request-list>
 
+  <!-- 免責ヘッダーを絶対座標で指定 -->
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0; z-index: 9999; } #site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} * { letter-spacing: normal !important; } .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {margin: 44px auto 0;} .navbar-default .nav>li>a:lang(en), .navbar-default .nav>li>a:focus:lang(en) {font-size: 11.5px;}@media (min-width: 768px) { .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {margin: 44px auto 0;}}</param-value></extension-param>
+
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>
 </client-settings>
