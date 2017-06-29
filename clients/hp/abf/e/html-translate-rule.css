@@ -23,3 +23,15 @@
 	replace: '<span class="price">(.*?)yen</span>' '<span class="price">&yen;$1</span>';
 	replace:'<h1><!--cltx--><span>(.*?)</span> SHOP SEARCH(.*?)</h1>' '<h1><!--cltx-->SHOP SEARCH<br style="display:none;"><span>$1 $2</span></h1>';
 }
+
+@preprocess {
+	replace:'『住箱 – JYUBAKO –』' '『住箱 JYUBAKO』';
+	replace:'<p class="addres">〒(.*?)</p>' '<p class="addres">$1</p>';
+}
+
+@postprocess {
+	replace:'The nomadic style of living, where you live here today and over there tomorrow……' 'The nomadic style of living, where you live here today and over there tomorrow, ';
+	replace:'It so happens that the Chinese phoenix is the brand character adopted by Okano……' 'It so happens that the Chinese phoenix is the brand character adopted by Okano. ';
+	replace:'Okano and I say we(.*?)…… \\" \\(laugh\\)' 'Okano and I say we$1\\"';
+	replace:'and Hamamatsu in Shizuoka Prefecture and Nishiwaki in Hyogo Prefecture for shirts……' 'and Hamamatsu in Shizuoka Prefecture and Nishiwaki in Hyogo Prefecture for shirts. ';
+}
