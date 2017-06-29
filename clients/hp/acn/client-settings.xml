@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ユニゾホテル株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>unizo-hotel/service c8de59bf03d2d1801681a89e10b724f00a76597e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.unizo-hotel.co.jp" />
+  </request-list>
+
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+	<url>http://www\.unizo-hotel\.co\.jp/dynamic/j/.*</url>
+	<url>http://www\.unizo-hotel\.co\.jp/dynamic/a/.*</url>
+	<url>http://www\.unizo-hotel\.co\.jp/recruit/.*</url>
+	<url>http://www\.unizo-hotel\.co\.jp/terms/.*</url>
+	<url>http://www\.unizo-hotel\.co\.jp/policy/.*</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
