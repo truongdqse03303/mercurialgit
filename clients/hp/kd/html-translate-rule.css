@@ -1,5 +1,0 @@
-// @RULESET
-// URL = http://www.karuizawa-psp.jp/page/
-div.imgSlide01, div.eventSlide01 {
-  attribute: cltx add 'exclude';
-}
