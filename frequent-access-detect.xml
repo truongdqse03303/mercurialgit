@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <frequent-access>
-  <threashold>15</threashold>
+  <threashold>20</threashold>
   <table-size>250</table-size>
   <mode>2</mode>
   <address-list type="allow">
