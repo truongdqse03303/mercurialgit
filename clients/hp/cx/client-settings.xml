@@ -8,6 +8,6 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.sapporo-dome.co.jp" />
+    <request hostname="www.sapporo-dome.co.jp" ssl="true" />
   </request-list>
 </client-settings>
