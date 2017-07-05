@@ -5,3 +5,8 @@ header.mod-hd {
 div.mod-slider02 { 
  attribute: cltx add 'exclude';
  }
+
+.heading__link__language,
+.heading { 
+ attribute: cltx add 'exclude';
+ }
