@@ -16,6 +16,23 @@
     <param-value>style:#site-translate-header-wrapper{width:auto !important;} #site-translate-icp { width: auto; } #header ul#headInquary {background: url(/img/common/bg_sub.gif) no-repeat 120% 50%;width: 230px;} #container {margin: 0.5% auto 0;}</param-value>
   </extension-param>
 
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic Z2FrdXNlaToxOTYzMDMxOHlhbWFzaGl0YQ==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://www\.hitorigurashi\.com.*</param-value>
+    </param>
+  </resource-handler>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 
