@@ -20,5 +20,6 @@ replace:'<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/flyer/150925
 }
 
 @preprocess {
-replace:'<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/">한국어</a>' '<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/" class="cl-notranslate">한국어</a>';
-} 
+	replace:'<option value="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/sp/">한국어</option>' '<option value="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/sp/" class="cl-notranslate">한국어</option>';
+	replace:'<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/">한국어</a>' '<a href="http://www.ima-hikarigaoka.jp.k.wg.hp.transer.com/" class="cl-notranslate">한국어</a>';
+}
