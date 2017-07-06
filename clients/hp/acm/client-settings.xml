@@ -11,6 +11,10 @@
     <request hostname="www.dotonplaza.com" />
   </request-list>
 
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{ width:100% !important; height:44px; position: fixed; top:0; }#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} #headerWrap {margin: 44px 0 0;} .address address { width: 70%; } dl.addr01 dd { margin: 0 0 0 150px; } #contents .addr01 dt { width: 160px; } #footerWrap #footer .footer-info .address { width: 30%; } #footerWrap #footer .footer-info .hours { margin-left: 270px; font-size: 100%;} #footerWrap #footer .footer-info .hours .hour { width: 80%; } @media only screen and (max-width: 767px) { .sp-slides-container { margin: 44px 0 0; } #contents .addr01 dt { width: 25%; } dl.addr01 dd { margin: 0 0 0 30%;} #footerWrap #footer .footer-info .hours { font-size: 12px;width: auto; margin-left: 0; } #footerWrap #footer .footer-info .hours .hour { margin: 2% 0 0;text-align: left;width: 84%; } #footerWrap #footer .footer-info .address { width: 100%; } .address address { width: 100%; } }</param-value>
+  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

@@ -1,0 +1,7 @@
+.spMenuBox p {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<span class="hidden-xs">(.*?)</span>' '<br style="display:none;"><span class="hidden-xs">$1</span><br style="display:none;">';
+}
