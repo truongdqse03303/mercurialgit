@@ -12,7 +12,8 @@ header > div {
 	replace:'<a href=(.*?) class="orangeBtn">(.*?)</a>' '<br style="display:none;"><a href=$1 class="orangeBtn">$2</a><br style="display:none;">';
 	replace:'<h4>(.*?)<span>(.*?)</span></h4>' '<h4>$1<br style="display:none;"><span>$2</span></h4>';
 	replace:'<ul class="placeList">(.*?)<li><span>(.*?)</span><a class=(.*?)>MAP</a></li>(.*?)</ul>' '<ul class="placeList">$1<li><span>$2</span><br style="display:none;"><a class=$3>MAP</a></li>$4</ul>';
-	replace:'<td(.*?)><a href=(.*?)><span class="date">(.*?)</span><span class="time">(.*?)</span></a></td>' '<td$1><a href=$2><span class="date">$3</span><br style="display:none;"><span class="time">$4</span></a></td>';
+	replace:'<td class="bgH(.*?)"><a href=(.*?)><span class="date">(.*?)</span><span class="time">(.*?)</span></a></td>' '<td class="bgH$1"><a href=$2><span class="date">$3</span><br style="display:none;"><span class="time">$4</span></a></td>';
+	replace:'<span class="date">(.*?)</span><span class="time">(.*?)</span>' '<span class="date">$1</span><br style="display:none;"><span class="time">$2</span>';
 	replace:'<div class="todayArea whiteBg">(.*?)<p><strong>(.*?)</strong>月<strong>(.*?)</strong>(.*?)<br class="tt"><strong>(.*?)</strong></p>(.*?)</div>' '<div class="todayArea whiteBg">$1<p>$2月$3$4<br class="tt"><strong>$5</strong></p>$6</div>';
 	replace:'<h4><strong>(.*?)</strong>月<strong>(.*?)</strong>(.*?)<br class="tt">(.*?)</h4>' '<h4>$1月$2$3<br class="tt">$4</h4>';
 	replace:'<h4><a href=(.*?)><strong>(.*?)</strong>月へ戻る</a></h4>' '<h4><a href=$1>$2月へ戻る</a></h4>';
