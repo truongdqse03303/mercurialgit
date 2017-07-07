@@ -4,4 +4,13 @@
 
 @preprocess {
 	replace:'<span class="hidden-xs">(.*?)</span>' '<br style="display:none;"><span class="hidden-xs">$1</span><br style="display:none;">';
+	replace:'<dd class="col-sm-6 col-xs-12">(.*?)<small>\\(代表\\)</small></dd>' '<dd class="col-sm-6 col-xs-12">$1<small><br style="display:none;">\\(代表\\)<br style="display:none;"></small></dd>';
+	replace:'<h4 class="card-title">1F(.*?)</h4>' '<h4 class="card-title">1F<br style="display:none;">$1</h4>';
+	replace:'<h4 class="card-title">2F(.*?)</h4>' '<h4 class="card-title">2F<br style="display:none;">$1</h4>';
+	replace:'<h4 class="card-title">3F(.*?)</h4>' '<h4 class="card-title">3F<br style="display:none;">$1</h4>';
+}
+
+@postprocess {
+	replace:'<div class="hour">(.*?)时间(.*?)</div>' '<div class="hour">$1时间&nbsp;$2</div>';
+	replace:'<div class="hour">(.*?)時間(.*?)</div>' '<div class="hour">$1時間&nbsp;$2</div>';
 }
