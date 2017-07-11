@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ジェイアール東海バス株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>jrtbinm/service 7288f6f15eb9564d26fb3a700c47d0d16dd43fc0</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www01.jrtbinm.co.jp" path="/en" />
+  </request-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

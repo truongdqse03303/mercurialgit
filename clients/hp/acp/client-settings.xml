@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社大王製作所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>daiomfg/service 2b177e52d1a77562ef08a52f3bd0a43438ded1d0</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.daiomfg.co.jp" />
+  </request-list>
+
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>https://www\.daiomfg\.co\.jp/contact/contact/.*</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

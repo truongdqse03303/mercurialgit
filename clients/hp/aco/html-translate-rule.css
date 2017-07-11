@@ -1,0 +1,5 @@
+@preprocess {
+	replace:'<span class="_f_area">(.*?)</span>' '<span class="_f_area">$1</span><br style="display:none;">';
+	replace:'<span class="_r_area">(.*?)</span>' '<br style="display:none;"><span class="_f_area">$1</span>';
+	replace:'<p class="_route">(.*?)<img(.*?)>(.*?)</p>' '<p class="_route">$1<br style="display:none;"><img$2>$3</p>';
+}
