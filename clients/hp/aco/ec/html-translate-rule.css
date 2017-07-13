@@ -10,3 +10,7 @@
   eid: BR-EN.ZH-HANS.JA;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM";
 }
+
+@preprocess {
+	replace: 'UA-1796804-8' 'UA-1796804-9';
+}
