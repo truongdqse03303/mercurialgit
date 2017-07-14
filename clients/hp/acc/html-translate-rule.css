@@ -7,4 +7,13 @@
 @preprocess {
 	replace:'<div class="contentContactBox">(.*?)<span class="tel-link telno">(.*?)</span></div>' '<div class="contentContactBox">$1<br style="display:none;"><span class="tel-link telno">$2</span></div>';
 	replace:'<span class="kakaku">(.*?)</span>' '<br style="display:none;"><span class="kakaku">$1</span><br style="display:none;">';
+	replace:'<li>野生味(.*?)<strong>(.*?)</strong></li>' '<li>野生味$1$2</li>';
+	replace:'<li>悠々ゆったり(.*?)<strong>(.*?)</strong></li>' '<li>悠々ゆったり$1$2</li>';
+	replace:'<li>木の香りも(.*?)<strong>(.*?)</strong></li>' '<li>木の香りも$1$2</li>';
+	replace:'<li>マッサージ効果で(.*?)<strong>(.*?)</strong></li>' '<li>マッサージ効果で$1$2</li>';
+	replace:'<li>ぬるいお湯で(.*?)<strong>(.*?)</strong></li>' '<li>ぬるいお湯で$1$2</li>';
+}
+
+@postprocess {
+	replace:'Please enjoy and relax in private bath…' 'Please enjoy and relax in private bath.';
 }
