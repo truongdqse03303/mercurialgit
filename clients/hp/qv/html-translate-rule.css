@@ -1,4 +1,9 @@
 @preprocess {
   replace: '(<a href="/(index|cat-life|cat-sightseeing|cat-culture|cat-event|cat-disaster)\.html">.*?</a>)' '<p style="display: inline;">$1</p>';
-  replace: '(<span style="display:none;">\Åb</span>)' '<p style="display: inline;">$1</p>';
+  replace: '(<span style="display:none;">\ÔΩú</span>)' '<p style="display: inline;">$1</p>';
+}
+
+@postprocess {
+  replace: '\\(uchidaryusuke\\)' '';
+  replace: 'Takanori Uchida' 'Ryusuke Uchida';
 }
