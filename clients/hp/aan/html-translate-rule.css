@@ -52,7 +52,8 @@ article > .group_data > dl > dd {
  replace: '<h1>(.*?)<span>(.*?)</span></h1>' '<h1>$1<br style="display:none;"><span>$2</span><br style="display:none;"></h1>';
  replace: '<li><span class="dot">(.*?)</span>(.*?)<a href=(.*?)</a></li>' '<li><span class="dot">$1</span>$2<br style="display:none;"><a href=$3</a><br style="display:none;"></li>';
  replace: '<div class="box_twothird"(.*?)>(.*?)<a href="/shop/detail/yamanomusic/">(.*?)</a>' '<div class="box_twothird"$1>$2<br style="display:none;"><a href="/shop/detail/yamanomusic/">$3</a>';
- replace: '<div class="box_full"(.*?)>(.*?)<a href="/areaguide/cinepit1/">(.*?)</a>' '<div class="box_full"$1>$2<br style="display:none;"><a href="/areaguide/cinepit1/">$3</a>';
+ replace: '<div class="box_full"(.*?)>喫煙スペースは、<a href="/areaguide/cinepit1/">チネピット1F</a>、<a href="/areaguide/maggiore_1/">マッジョーレ1F</a>にございます。</div>' '<div class="box_full"$1>喫煙スペースは、<br style="display:none;"><a href="/areaguide/cinepit1/">チネピット1F</a>、<br style="display:none;"><a href="/areaguide/maggiore_1/">マッジョーレ1F</a>にございます。</div>';
+
 }
 
 @postprocess {
