@@ -1,4 +1,5 @@
 @preprocess {
+	replace:'<h4><strong>(.*?)</strong>(.*?)</h4>' '<h4><strong>$1</strong><br style="display:none;">$2</h4><br style="display:none;">';
 	replace:'<div class="btn">(.*?)<a href=(.*?)>アクセス</a>(.*?)<a href=(.*?)>(.*?)</a>(.*?)</div>' '<div class="btn">$1<a href=$2>アクセス</a>$3<br style="display:none;"><a href=$4>$5</a>$6</div>';
 	replace:'<div id="maintitle_sub">(.*?)<h2>(.*?)<span>(.*?)</span></h2>(.*?)</div>' '<div id="maintitle_sub">$1<h2>$2<br style="display:none;"><span>$3</span></h2>$4</div>';
 	replace:'<div id="maintitle"(.*?)>(.*?)<h2>(.*?)<span>(.*?)</span></h2>(.*?)</div>' '<div id="maintitle"$1>$2<h2>$3<br style="display:none;"><span>$4</span></h2>$5</div>';
@@ -14,3 +15,4 @@
 	replace:'<th><!--cltx-->Soil</th>' '<th><!--cltx-->Sat</th>';
 	replace:'<th><!--cltx-->Day</th>' '<th><!--cltx-->Sun</th>';
 }
+ 
