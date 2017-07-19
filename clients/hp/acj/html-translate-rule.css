@@ -1,0 +1,16 @@
+@preprocess {
+	replace:'\\(<span class="js-gNav_cart_count">(.*?)</span>\\)' '<br style="display:none;">\\(<span class="js-gNav_cart_count">$1</span><br style="display:none;">\\)';	/* グローバルメニュー「お気に入りリスト」 */
+	replace:'<h2 class="section_title">(.*?)<br class="pcNone">(.*?)</h2>' '<h2 class="section_title">$1$2</h2>';	/* トップページタイトル */
+	replace:'<p class="copy">(.*?)<br class="pcNone">(.*?)</p>' '<p class="copy">$1$2</p>';	/* 各ページタイトル */
+	replace:'<h2 class="section_title">STEP1(.*?)</h2>' '<h2 class="section_title">STEP1 <br style="display:none;">$1</h2>';	/* 契約の流れ */
+	replace:'<h2 class="section_title">STEP2(.*?)</h2>' '<h2 class="section_title">STEP2 <br style="display:none;">$1</h2>';	/* 契約の流れ */
+	replace:'<h2 class="section_title">STEP3(.*?)</h2>' '<h2 class="section_title">STEP3 <br style="display:none;">$1</h2>';	/* 契約の流れ */
+	replace:'<h2 class="section_title">STEP4(.*?)</h2>' '<h2 class="section_title">STEP4 <br style="display:none;">$1</h2>';	/* 契約の流れ */
+	replace:'<h2 class="section_title">STEP5(.*?)</h2>' '<h2 class="section_title">STEP5 <br style="display:none;">$1</h2>';	/* 契約の流れ */
+	replace:'<span(.*?)>仲介手数料不要</span>' '<span$1>仲介手数料不要</span><br style="display:none;">';		/* 絞込み検索 */
+}
+
+@postprocess {
+	replace:'<p class="route"(.*?)>' '<p class="route">';	/* 検索結果 */
+	replace:'<div class="info"(.*?)>' '<div class="info">';	/* 検索結果 */
+}

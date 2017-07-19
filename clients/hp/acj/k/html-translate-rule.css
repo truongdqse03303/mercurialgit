@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER BUSINESS";
 }
+
+@preprocess {
+	replace:'<dd><a (.*?) class="crosslanguage-translate-jako">한국어</a></dd>' '<dd><a $1 class="crosslanguage-translate-jako cl-notranslate">한국어</a></dd>';
+}
