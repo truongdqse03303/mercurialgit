@@ -14,3 +14,7 @@
 @preprocess {
 	replace: 'UA-67771308-1' 'UA-67771308-2';
 }
+
+@postprocess {
+	replace:'<h4><!--cltx--><strong>(.*?)</strong>(.*?)</h4>' '<h4><!--cltx--><strong>$1$2</strong></h4>';
+}
