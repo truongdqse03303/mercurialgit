@@ -20,7 +20,7 @@
     <request hostname="www.atlia.jp" />
     <request hostname="www.kawaguchi-kango.jp" />
     <request hostname="kawaguchicity.bosai.info" />
-    <request hostname="www15.ocn.ne.jp" path="/~shibazi/" />
+    <request hostname="www.comaam.jp" path="/shiba" />
     <request hostname="faqnavi12a.csview.jp" path="/faq2/usernavi.do\?user=kawaguchi&amp;faq=top" />
     <request hostname="www.machi-info.jp" path="/machikado/kawaguchi_city/emap_address_matching_search_cellanchor\.html\?operator=2&amp;mode="/>
   </request-list>
