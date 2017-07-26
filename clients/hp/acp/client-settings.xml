@@ -8,8 +8,13 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.daiomfg.co.jp" />
+    <request hostname="www.daiomfg.co.jp" ssl="true" />
   </request-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto!important} #top #mainbody .feature ul li p {margin: 37px 17px 10px 10px;text-align: left;font-size: 80%;} #top #mainbody #topsidearea ul.bnr li p {line-height: 1.0;} #mainbody #main #sidearea #sidemenu h4 {font-size: 130%;} #characteristics #mainbody #main #sidearea #sidemenu h4 {font-size: 110%;} #products #mainbody #sidearea #sidemenu .search input, #products #mainbody #sidearea #sidemenu .search select {width:100%;} #footer ul li{float: none;width: auto;}</param-value>
+  </extension-param>
 
   <!-- 翻訳対象外URLの一覧 -->
   <url-list type="ignore">
