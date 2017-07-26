@@ -1,0 +1,7 @@
+#headerbox > .inner > .googlesearch > #cse-search-form {
+	attribute: cltx add 'exclude';
+}
+
+@postprocess {
+	replace:'<div class="googlesearch">' '<div class="googlesearch" cltx="exclude">';
+}
