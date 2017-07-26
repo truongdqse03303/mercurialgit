@@ -12,6 +12,7 @@
     <request hostname="www.kawaguchi.science.museum" />
     <request hostname="www.friendia.jp" />
     <request hostname="www.kosodate-kwgc-saitama-ksp.jp" />
+    <request hostname="kosodate-kwgc-saitama-ksp.jp" />
     <request hostname="www.water-kawaguchi.jp" />
     <request hostname="www.konamisportsandlife.co.jp" path="/trust/tozuka/" />
     <request hostname="kawaguchi-mmc.org" />
