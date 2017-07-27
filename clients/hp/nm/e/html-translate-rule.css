@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+@postprocess {
+  replace: '<th><!--cltx-->Member Organization</th>(.*?)<td><!--cltx-->(.*?)Association of Real Estate Agents of Japan \\(FRK\\)' '<th><!--cltx-->Member Organization</th><td><!--cltx-->Association of Real Estate Agents of Japan \\(FRK\\)';
+  replace: 'National Association of Home Builders<br><!--cltx-->(.*?)Real Estate Fair Trade Council' 'National Association of Home Builders<br><!--cltx-->Real Estate Fair Trade Council';
+}
