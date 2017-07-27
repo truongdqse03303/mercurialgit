@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>HRTニューオータニ株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>naspa/service e98b33d52e2ce1e4346b0d7895138ed994b0588b</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.naspa.co.jp" />
+  </request-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto!important} #site-translate-icp { width: auto; } .reserv_ul:lang(en) { margin-left: 0; } .inpage_bottom li:lang(en) { font-size: 11.3px; } .search-form:lang(en) { padding-left: 0; } .recommend:lang(en) { margin: 2.3% auto 0; } footer { margin: 44px auto 0; }</param-value>
+  </extension-param>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

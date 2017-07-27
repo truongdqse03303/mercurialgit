@@ -1,0 +1,10 @@
+.header-main,
+.fb-page,
+#news > .inner > .coltable,
+.bx-controls-direction {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'css\\((.*?)-132px(.*?)\\)' 'css\\($1-179px$2\\)';
+}
