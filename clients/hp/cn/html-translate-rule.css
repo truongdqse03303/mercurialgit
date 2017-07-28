@@ -4,10 +4,15 @@ div#headerInner {
 
 @preprocess {
  replace: '<h1(.*?)<sup>&reg;</sup>(.*?)</h1>' '<h1$1<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$2</h1>';
- replace: '<h2(.*?)<sup>&reg;</sup>(.*?)</h2>' '<h2$1<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$2</h2>';
+ replace: '<h2><a(.*?)\\.html">全機能デジタルコントロールディスペンサー(.*?)<sup>&reg;</sup>(.*?)</a></h2>' '<h2><a$1\\.html">全機能デジタルコントロールディスペンサー$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$3</a></h2>';
+ replace: '<h2><a(.*?)\\.html">補正機能付 高精度ディスペンサー(.*?)<sup>&reg;</sup>(.*?)</a></h2>' '<h2><a$1\\.html">補正機能付 高精度ディスペンサー$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$3</a></h2>';
+ replace: '<h2><a(.*?)\\.html">超高速・非接触ジェットディスペンサー(.*?)<sup>&reg;</sup>(.*?)</a></h2>' '<h2><a$1\\.html">超高速・非接触ジェットディスペンサー$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$3</a></h2>';
+ replace: '<h2><a(.*?)\\.html">非接触ジェットディスペンサー(.*?)<sup>&reg;</sup>(.*?)</a></h2>' '<h2><a$1\\.html">非接触ジェットディスペンサー$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$3</a></h2>';
+ replace: '<h2><a(.*?)\\.html">高精度微量定量充填ポンプ(.*?)<sup>&reg;</sup>(.*?)</a></h2>' '<h2><a$1\\.html">高精度微量定量充填ポンプ$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$3</a></h2>';
  replace: '<h3(.*?)<sup>&reg;</sup>(.*?)</h3>' '<h3$1<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$2</h3>';
  replace: '<li><a (.*?)>(.*?)<sup>&reg;</sup>(.*?)</li>' '<li><a $1>$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$3</li>';
  replace: '<li><a (.*?)>(.*?)<sup>&reg;</sup>(.*?)</li>' '<li><a $1>$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$3</li>';
  replace: '<div id="yrHere">(.*?)<!-- InstanceBeginEditable(.*?)<sup>&reg;</sup>(.*?)<!-- InstanceEndEditable --></p>(.*?)</div>' '<div id="yrHere">$1<!-- InstanceBeginEditable$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$3<!-- InstanceEndEditable --></p>$4</div>';
-replace: '<p>(.*?)<em class="hit0">(.*?)</em>(.*?)<sup>&reg;</sup>(.*?)</p>' '<p>$1<em class="hit0">$2</em>$3<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$4</p>';
+ replace: '<p>(.*?)<em class="hit0">(.*?)</em>(.*?)<sup>&reg;</sup>(.*?)</p>' '<p>$1<em class="hit0">$2</em>$3<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$4</p>';
+ replace: '<h2 class="level1"><span><a(.*?)>(.*?)<em class="hit0">(.*?)</em>(.*?)<sup>&reg;</sup>(.*?)</a></span></h2>' '<h2 class="level1"><span><a$1>$2<em class="hit0">$3</em>$4<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$5</a></span></h2>';
 }
