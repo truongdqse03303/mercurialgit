@@ -1,8 +1,11 @@
 #header,
-.close,
+#spMenuOverlay,
+#spMenu,
 .als-container,
 .bx-prev,
-.bx-next {
+.bx-next,
+#block-choice-best5 > .wrap,
+.header {
 	attribute: cltx add 'exclude';
 }
 
@@ -16,13 +19,14 @@
 	replace:'<li class="btn(.*?)">(.*?)<span>(.*?)</span>(.*?)</a></li>' '<li class="btn$1">$2<span>$3</span><br style="display:none;">$4</a></li>';
 	replace:'<li class="category-list-subatz"(.*?)>(.*?)<span class="count">(.*?)</span>(.*?)</li>' '<li class="category-list-subatz"$1>$2<br style="display:none;"><span class="count">$3</span>$4</li>';
 	replace:'<span class="new">NEW</span>' '<span class="new">NEW</span><br style="display:none;">';
+	replace:'<p class="hd"><img(.*?)><b>沖縄本島</b>のホテルから選ぶ<a(.*?)>(.*?)</a></p>' '<p class="hd"><img$1><b>沖縄本島</b>のホテルから選ぶ<br style="display:none;"><a$2>$3</a></p>';
+	replace:'<p class="hd"><img(.*?)><b>沖縄離島</b>のホテルから選ぶ<a(.*?)>(.*?)</a></p>' '<p class="hd"><img$1><b>沖縄離島</b>のホテルから選ぶ<br style="display:none;"><a$2>$3</a></p>';
+	replace:'<p class="melmaga"><a(.*?)>(.*?)</a>(.*?)<a(.*?)>(.*?)</a></p>' '<p class="melmaga"><a$1>$2</a>$3<br style="display:none;"><a$4>$5</a></p>';
 }
 
 @postprocess {
-	replace:'<div class="bx-viewport" style="(.*?)height(.*?);">' '<div class="bx-viewport">';
+	replace:'<div class="bx-viewport" style="(.*?)height(.*?);">' '<div class="bx-viewport" style="$1height: auto;">';
 	replace:'<div class="cassette"(.*?)>' '<div class="cassette">';
-	replace:'<div class="float_l"(.*?)>' '<div class="float_l">';
-	replace:'<div class="float_r"(.*?)>' '<div class="float_r">';
 	replace:'<td><!--cltx-->January</td>' '<td><!--cltx-->Jan</td>';
 	replace:'<td><!--cltx-->February</td>' '<td><!--cltx-->Feb</td>';
 	replace:'<td><!--cltx-->March</td>' '<td><!--cltx-->Mar</td>';
@@ -40,10 +44,4 @@
 // URL #= http://www\.jdive\.jp/.*
 body{
  attribute: style add 'background-position:0 25px;';
-}
-
-// @RULESET
-// URL #= http://www\.jtrip\.co\.jp/.*
-#footer{
- attribute: style add 'background-position: 4px 462px;height: 527px;';
 }
