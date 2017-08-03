@@ -8,7 +8,9 @@
 	replace:'<h2 class="section_title">STEP4(.*?)</h2>' '<h2 class="section_title">STEP4 <br style="display:none;">$1</h2>';	/* 契約の流れ */
 	replace:'<h2 class="section_title">STEP5(.*?)</h2>' '<h2 class="section_title">STEP5 <br style="display:none;">$1</h2>';	/* 契約の流れ */
 	replace:'<span(.*?)>仲介手数料不要</span>' '<span$1>仲介手数料不要</span><br style="display:none;">';		/* 絞込み検索 */
-}
+	replace:'<span><span class="spNone">いますぐ</span>問い合わせる</span>' '<span><span class="spNone">いますぐ</span><br style="display:none;">問い合わせる</span>';	/* スマホ版 物件詳細 */
+	replace:'<td>家具<span>(.*?)</span></td>' '<td>家具<br style="display:none;"><span>$1</span></td>';	/* 充実した設備とサービス */
+	replace:'<td>家電<span>(.*?)</span></td>' '<td>家電<br style="display:none;"><span>$1</span></td>';}	/* 充実した設備とサービス */
 
 @postprocess {
 	replace:'<p class="route"(.*?)>' '<p class="route">';	/* 検索結果 */
