@@ -1,0 +1,12 @@
+// @RULESET
+// URL = https://www.daiomfg.co.jp/material/css/base.css
+@postprocess {
+ replace: 'gnavi_01_on.gif' 'zhs/gnavi_01_on.gif';
+ replace: 'gnavi_02_on.gif' 'zhs/gnavi_02_on.gif';
+ replace: 'gnavi_03_on.gif' 'zhs/gnavi_03_on.gif';
+ replace: 'gnavi_04_on.gif' 'zhs/gnavi_04_on.gif';
+ replace: 'gnavi_05_on.gif' 'zhs/gnavi_05_on.gif';
+ replace: 'gnavi_06_on.gif' 'zhs/gnavi_06_on.gif';
+ replace: 'gnavi_07_on.gif' 'zhs/gnavi_07_on.gif';
+ replace: 'header_bg.gif' 'zhs/header_bg.gif';
+}
