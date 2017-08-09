@@ -41,7 +41,7 @@
 
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-message{border: dotted 1px red;box-sizing: border-box;margin-top: 0;background: #FFF; margin: 0; padding: 0;} footer#footer2 {height: 60px;} ul.footer2 {top: 70%;} .copyright2 {top: 30px;} @media screen and (max-width: 768px) { #site-translate-message { position: absolute;bottom: 0;line-height: normal;text-align: left;padding: 1%;} ul.footer2 li {width: 150%} footer#footer2 {height: 220px;} ul.footer2 {top: 10px;} .copyright2 {top: initial; bottom: 60px;}}</param-value>
+    <param-value>style:#site-translate-message{border: dotted 1px red;box-sizing: border-box;margin-top: 0;background: #FFF; margin: 0; padding: 0;} .train_access dd {width: auto;} footer#footer2 {height: 60px;} ul.footer2 {top: 70%;} .copyright2 {top: 30px;} @media screen and (max-width: 768px) { #site-translate-message { position: absolute;bottom: 0;line-height: normal;text-align: left;padding: 1%;} ul.footer2 li {width: 150%} footer#footer2 {height: 220px;} ul.footer2 {top: 10px;} .copyright2 {top: initial; bottom: 60px;}}</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->

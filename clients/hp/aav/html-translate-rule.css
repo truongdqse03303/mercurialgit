@@ -21,4 +21,5 @@ article > section > .ttlDetail {
 @preprocess {
 	replace:'<span class="holiName">(.*?)</span>' '<span class="holiName">$1</span><br style="display:none;">';
 	replace:'<span class="clRed">(.*?)</span>' '<br style="display:none;"><span class="clRed">$1</span><br style="display:none;">';
+	replace:'<div class="youtubeBox">(.*?)src="https://www.youtube.com/embed/UJ3Pf2X5hUc(.*?)</div>' '<div class="youtubeBox">$1src="https://www.youtube.com/embed/FNmnYZXbO3k$2</div>';
 }
