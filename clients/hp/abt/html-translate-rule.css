@@ -1,5 +1,8 @@
 #foot-sns,
 #page-top,
-#translation > li {
+#translation > li,
+.inner-container,
+#accordion_slider_0,
+.grid-sort-container {
 	attribute: cltx add 'exclude';
 }

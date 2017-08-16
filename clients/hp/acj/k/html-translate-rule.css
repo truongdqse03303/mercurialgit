@@ -14,3 +14,7 @@
 @preprocess {
 	replace:'<dd><a (.*?) class="crosslanguage-translate-jako">한국어</a></dd>' '<dd><a $1 class="crosslanguage-translate-jako cl-notranslate">한국어</a></dd>';
 }
+
+@postprocess {
+	replace:'<input type="text" name="ess_string" placeholder=(.*?)>' '<input type="text" name="ess_string" placeholder="학교명또는학교명의일부를입력">';
+}

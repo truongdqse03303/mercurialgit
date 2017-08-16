@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+	replace:'<input type="text" name="ess_string" placeholder=(.*?)>' '<input type="text" name="ess_string" placeholder="请输入学校全称或部分学校名">';
+}
