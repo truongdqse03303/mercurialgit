@@ -53,6 +53,13 @@ a[href] {
   replace: 'Includes a 3D display confirmation function for visually confirming <b><span style="color:#FF0000">the completed</span></b> dispensing program.' 'Includes a <b><span style="color:#FF0000">3D display</span></b> confirmation function for visually confirming the completed dispensing program.';
   replace: '<span style="color:#FF0000"><b>Can load and edit DFX and Gerber dat</b></span>a.' '<span style="color:#FF0000"><b>Can load and edit DFX and Gerber data.</b></span>';
   replace: '<span style="color:#FF0000"><b>Includes a wafer mapping fun</span></b>ction.' 'Includes a <span style="color:#FF0000"><b>wafer mapping function</span></b>.';
+// ↓ 2017.08.14 add ↓
+ replace: 'Prevention of liqui<b><span style="color:#FF0000">d climbing to needle t</span></b>ip assures a stable dispensing.' '<b><span style="color:#FF0000">Prevention of liquid climbing</span></b> to needle tip assures a stable dispensing.';
+ replace: 'controls spot coating freely <b><span style="color:#FF0000">from wide area</span></b>' 'controls <b><span style="color:#FF0000">spot coating freely from wide area</span></b>';
+ replace: 'Economic<b><span style="color:#FF0000">al and dis</span></b>posable needles.' 'Economical and <b><span style="color:#FF0000">disposable</span></b> needles.';
+ replace: 'We cancel jerky plunger movements and intermittent dispensing by Straight shap<b><span style="color:#FF0000">e of the wall inside syringe</span></b>' 'We cancel jerky plunger movements and intermittent dispensing by <b><span style="color:#FF0000">Straight shape of the wall inside syringe</span></b>';
+ replace: '<b><span style="color:#FF0000">high precision filling speedil</span></b>y' '<b><span style="color:#FF0000">high precision filling speedily</span></b>';
+// ↑ 2017.08.14 add ↑
 }
 
 // @RULESET

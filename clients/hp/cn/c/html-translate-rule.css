@@ -28,3 +28,13 @@ body {
 a[href] {
   attribute: href rewrite @RewriteInquiry;
 }
+
+@postprocess {
+// ↓ 2017.08.14 add ↓
+ replace: '防止液剂往<b><span style="color:#FF0000">针尖回吸，实</span></b>现涂布量的稳定性。' '<b><span style="color:#FF0000">防止液剂往针尖回吸</span></b>，实现涂布量的稳定性。';
+ replace: '<b><span style="color:#FF0000">状，实现微量</span></b>点胶。' '状，实现<b><span style="color:#FF0000">微量点胶</span></b>。';
+ replace: '低价并<b><span style="color:#FF0000">且一次性</span></b>的塑料针头。' '低价并且<b><span style="color:#FF0000">一次性的</span></b>塑料针头。';
+ replace: '完全遮<span style="color:#FF0000"><b>蔽紫外线</b></span>' '完全<span style="color:#FF0000"><b>遮蔽</b></span>紫外线';
+ replace: '<b><span style="color:#FF0000">覆面，从打点涂布到大</span></b>范围涂布自由控制' '覆面，<b><span style="color:#FF0000">从打点涂布到大范围</span></b>涂布自由控制';
+// ↑ 2017.08.14 add ↑
+}

@@ -3,6 +3,27 @@ div#headerInner {
 }
 
 @preprocess {
+// ↓ 2017.08.14 add ↓
+ replace: '<strong><a href="../products/115_3-4-1-15.html">卓上型塗布ロボット(.*?)<sup>&reg;</sup>(.*?)<sup>&reg;</sup>(.*?)</a></strong>' '<strong><a href="../products/115_3-4-1-15.html">卓上型塗布ロボット$1<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$3</a></strong>';
+ replace: '<p class="moreLink"><a href=(.*?)>高精度汎用卓上門型ロボット(.*?)<sup>&reg;</sup>(.*?)<sup>&reg;</sup>(.*?)</a></p>' '<p class="moreLink"><a href=$1>高精度汎用卓上門型ロボット$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$3<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$4</a></p>';
+ replace: '<h1 class="level1"><span>(.*?)<sup>&reg;</sup>(.*?)<sup>&reg;</sup>(.*?)</span></h1>' '<h1 class="level1"><span>$1<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$3</span></h1>';
+ replace: '<p>(.*?)≦(.*?)≦(.*?)</p>' '<p>$1<span class="cl-notranslate">≦</span><br style="display:none;">$2<br style="display:none;"><span class="cl-notranslate">≦</span>$3</p>';
+ replace: '【<span style="color:#FF0000"><b>目盛付きシリンジ</b></span>】' '<span style="color:#FF0000"><b>目盛付きシリンジ</b></span>';
+ replace: '注(.*?)※1' '注$1※1<br style="display:none;">';
+ replace: '注(.*?)※2' '注$1※2<br style="display:none;">';
+ replace: '注(.*?)※3' '注$1※3<br style="display:none;">';
+ replace: '注(.*?)※4' '注$1※4<br style="display:none;">';
+ replace: '注(.*?)※5' '注$1※5<br style="display:none;">';
+ replace: '注1' '注1<br style="display:none;">';
+ replace: '注2' '注2<br style="display:none;">';
+ replace: '<h2><a(.*?)\\.html">高精度汎用卓上門型ロボット(.*?)<sup>&reg;</sup>(.*?)<sup>&reg;</sup>(.*?)</a></h2>' '<h2><a$1\\.html">高精度汎用卓上門型ロボット$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$3<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$4</a></h2>';
+ replace: '<h2><a(.*?)\\.html">卓上型塗布ロボット(.*?)<sup>&reg;</sup>(.*?)<sup>&reg;</sup>(.*?)</a></h2>' '<h2><a$1\\.html">卓上型塗布ロボット$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$3<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$4</a></h2>';
+ replace: '<h2><a(.*?)\\.html">PC制御画像認識塗布システム(.*?)<sup>&reg;</sup>(.*?)</a></h2>' '<h2><a$1\\.html">PC制御画像認識塗布システム$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$3</a></h2>';
+ replace: '<div id="yrHere">(.*?)<p>(.*?)<!-- InstanceBeginEditable name="yrHere" -->(.*?)<sup>&reg;</sup>(.*?)<sup>&reg;</sup>(.*?)<!-- InstanceEndEditable --></p>(.*?)</div>' '<div id="yrHere">$1<p>$2<!-- InstanceBeginEditable name="yrHere" -->$3<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$4<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$5<!-- InstanceEndEditable --></p>$6</div>';
+ replace: '<li class="listEnd">(.*?)PC制御画像認識塗布システム(.*?)<sup>&reg;</sup>(.*?)</li>' '<li class="listEnd">$1PC制御画像認識塗布システム$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$3</li>';
+ replace: '卓上型塗布ロボット SHOTMASTER<sup>&reg;</sup>/SHOTmini<sup>&reg;</sup>(.*?)</div>' '卓上型塗布ロボット SHOTMASTER<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>/SHOTmini<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$1</div>';
+// ↑ 2017.08.14 add ↑
+
  replace: '<h1(.*?)<sup>&reg;</sup>(.*?)</h1>' '<h1$1<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$2</h1>';
  replace: '<h2><a(.*?)\\.html">全機能デジタルコントロールディスペンサー(.*?)<sup>&reg;</sup>(.*?)</a></h2>' '<h2><a$1\\.html">全機能デジタルコントロールディスペンサー$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$3</a></h2>';
  replace: '<h2><a(.*?)\\.html">補正機能付 高精度ディスペンサー(.*?)<sup>&reg;</sup>(.*?)</a></h2>' '<h2><a$1\\.html">補正機能付 高精度ディスペンサー$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$3</a></h2>';

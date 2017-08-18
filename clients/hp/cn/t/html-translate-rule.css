@@ -24,3 +24,11 @@
 a[href] {
   attribute: href rewrite @RewriteInquiry;
 }
+
+@postprocess {
+// ↓ 2017.08.14 add ↓
+ replace: '<b><span style="color:#FF0000">針筒內徑垂直設計</span></b>' '針筒<b><span style="color:#FF0000">內徑垂直設計</span></b>';
+ replace: '完全阻<span style="color:#FF0000"><b>絕UV光</b></span>' '完全<span style="color:#FF0000"><b>阻絕</b></span>UV光';
+ replace: '從大範圍自在地控制<b><span style="color:#FF0000">點表面塗層</span></b>' '<b><span style="color:#FF0000">從大範圍自在地控制點表面塗層</span></b>';
+// ↑ 2017.08.14 add ↑
+}

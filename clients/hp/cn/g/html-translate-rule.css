@@ -24,3 +24,15 @@
 a[href] {
   attribute: href rewrite @RewriteInquiry;
 }
+
+@postprocess {
+// ↓ 2017.08.14 add ↓
+ replace: 'Verhütung der Flüssig<b><span style="color:#FF0000">keit, die klettert, um Sp</span></b>itze zu ärgern,' '<b><span style="color:#FF0000">Verhütung der Flüssigkeit, die klettert, um Spitze zu ärgern</span></b>,';
+ replace: '<b><span style="color:#FF0000">che und weg</span></b>werfbare' 'che und <b><span style="color:#FF0000">wegwerfbare</span></b>';
+ replace: 'Gerade Form der Maue<b><span style="color:#FF0000">r in Spritze</span></b>' '<b><span style="color:#FF0000">Gerade Form der Mauer in Spritze</span></b>';
+ replace: '<b><span style="color:#FF0000">hohe Präzisionsfüllung schnel</span></b>l' '<b><span style="color:#FF0000">hohe Präzisionsfüllung schnell</span></b>';
+ replace: 'frei <b><span style="color:#FF0000">vom breiten Gebiet</span></b> Überzug' '<b><span style="color:#FF0000">frei vom breiten Gebiet Überzug</span></b>';
+ replace: '<b><span style="color:#FF0000">Max .250</span></b> zurechtkommen \\* 330mm' '<b><span style="color:#FF0000">Max .250 \\* 330mm</span></b> zurechtkommen';
+ replace: 'Ich erkenne Verkleinerung von<b><span style="color:#FF0000"></span></b>' 'Ich erkenne <b><span style="color:#FF0000">Verkleinerung</span></b> von';
+// ↑ 2017.08.14 add ↑
+}
