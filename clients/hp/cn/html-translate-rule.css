@@ -5,6 +5,8 @@ div#headerInner {
 @preprocess {
 // ↓ 2017.08.14 add ↓
  replace: '<strong><a href="../products/115_3-4-1-15.html">卓上型塗布ロボット(.*?)<sup>&reg;</sup>(.*?)<sup>&reg;</sup>(.*?)</a></strong>' '<strong><a href="../products/115_3-4-1-15.html">卓上型塗布ロボット$1<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$3</a></strong>';
+ replace: '<strong><a href="../products/115_3-4-1-16.html">インライン用直交型汎用ロボット(.*?)<sup>&reg;</sup></a></strong>' '<strong><a href="../products/115_3-4-1-16.html">インライン用直交型汎用ロボット$1<br style="display:none;"><sup class="cl-notranslate">&reg;</sup></a></strong>';
+ replace: '<p class="moreLink"><a href=(.*?)>超高速・非接触ジェットディスペンサー(.*?)<sup>&reg;</sup></a></p>' '<p class="moreLink"><a href=$1>超高速・非接触ジェットディスペンサー$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup></a></p>';
  replace: '<p class="moreLink"><a href=(.*?)>高精度汎用卓上門型ロボット(.*?)<sup>&reg;</sup>(.*?)<sup>&reg;</sup>(.*?)</a></p>' '<p class="moreLink"><a href=$1>高精度汎用卓上門型ロボット$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$3<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$4</a></p>';
  replace: '<h1 class="level1"><span>(.*?)<sup>&reg;</sup>(.*?)<sup>&reg;</sup>(.*?)</span></h1>' '<h1 class="level1"><span>$1<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$2<br style="display:none;"><sup class="cl-notranslate">&reg;</sup>$3</span></h1>';
  replace: '<p>(.*?)≦(.*?)≦(.*?)</p>' '<p>$1<span class="cl-notranslate">≦</span><br style="display:none;">$2<br style="display:none;"><span class="cl-notranslate">≦</span>$3</p>';
