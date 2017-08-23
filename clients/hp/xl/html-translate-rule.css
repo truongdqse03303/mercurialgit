@@ -18,3 +18,7 @@ div.bx-controls-direction {
 div.bx-pager {
    attribute: cltx add 'exclude';
 }
+
+@preprocess {
+	replace:'href=\"//www.city.yatsushiro.lg.jp/(.*?)\"' 'href=\"http://www.city.yatsushiro.lg.jp/$1\"';
+}
