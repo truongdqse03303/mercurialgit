@@ -17,3 +17,7 @@ input.days_box {
 div.jcalendar-selects {
   attribute: style add 'font-size:10px;';
   }
+
+@preprocess {
+	replace:'<div class="add">(.*?)<p>(.*?)<span class="map_btn"><a href="#access">(.*?)</a></span>(.*?)</p>(.*?)</div>' '<div class="add">$1<p>$2<br style="display:none;"><span class="map_btn"><a href="#access">$3</a></span>$4</p>$5</div>';
+}
