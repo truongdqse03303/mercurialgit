@@ -1,5 +1,0 @@
-// @RULESET
-// URL = http://hibiya-chanter.sc-concierge.jp/
-@preprocess{
-replace: '<ul class="page-hd-language">' '<ul class="page-hd-language cl-notranslate">';
-}
