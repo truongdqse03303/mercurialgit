@@ -10,6 +10,9 @@
 }
 
 @preprocess {
+	replace:'href=\"//www.jtrip.co.jp(.*?)\"' 'href=\"http://www.jtrip.co.jp$1\"';
+	replace:'href=\"//www.jdive.jp(.*?)\"' 'href=\"http://www.jdive.jp$1\"';
+	replace:'href=\"//support.jtrip.co.jp(.*?)\"' 'href=\"http://support.jtrip.co.jp$1\"';
 	replace:'<div id="depa" class="clfix">' '<div id="depa" class="clfix depabox">';
 	replace:'<p class="h3p">(.*?)<span>(.*?)</span>(.*?)</p>' '<p class="h3p">$1<br style="display:none;"><span>$2</span><br style="display:none;">$3</p>';
 	replace:'<p class="lowest">(.*?)<strong>(.*?)</strong>(.*?)</p>' '<p class="lowest">$1<br style="display:none;"><strong>$2</strong>$3</p>';
