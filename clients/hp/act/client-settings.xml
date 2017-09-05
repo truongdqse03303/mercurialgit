@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>三井不動産商業マネジメント株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>mitsui-shopping-park/service a50d477ca52b2f0ba292b1a0b4bfb5c9ccd13a04</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="31urban.jp" />
+    <request hostname="mitsui-shopping-park.com" path="/urban" ssl="true" />
+  </request-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style: #site-translate-header-wrapper{width:auto!important;} body:lang(en) {word-break: normal;} .storeList ul li p {padding:0 5%;} .shopInfo .clm dl dt {width: auto; margin: 0 2% 0 0;} @media screen and (max-width: 767px) { .headerLogo h1 {font-size: 9px !important;} .drawerNav { top: 124px !important; } .footerNav .footerClm { max-width: 95% !important; } .footerLink ul li:lang(en){ font-size: 95%; }}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
