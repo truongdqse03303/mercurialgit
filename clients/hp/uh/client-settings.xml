@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.kusatsu-onsen.ne.jp" />
+    <request hostname="www.kusatsu-onsen.ne.jp" ssl="true" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
