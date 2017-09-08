@@ -1,5 +1,6 @@
 #headerbox > .inner > .googlesearch > #cse-search-form,
-.columnRight > .bnr {
+.columnRight > .bnr,
+#header > p {
 	attribute: cltx add 'exclude';
 }
 
