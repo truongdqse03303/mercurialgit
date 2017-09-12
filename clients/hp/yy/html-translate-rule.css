@@ -18,6 +18,7 @@ div#box_map.box-map {
  attribute: cltx add 'exclude';
 }
 
-.recommendSec > .main__tab {
+.recommendSec > .main__tab,
+.mkn-ui-hdr-wrap {
  attribute: cltx add 'exclude';
 }
