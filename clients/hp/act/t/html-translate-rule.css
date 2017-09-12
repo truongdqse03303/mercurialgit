@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION";
 }
+
+@preprocess {
+	replace: 'UA-20131188-3' 'UA-20131188-8';
+}

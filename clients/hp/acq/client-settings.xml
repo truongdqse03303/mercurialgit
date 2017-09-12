@@ -8,9 +8,9 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.jtrip.co.jp" />
+    <request hostname="www.jtrip.co.jp" ssl="true" />
     <request hostname="support.jtrip.co.jp" />
-    <request hostname="www.jdive.jp" />
+    <request hostname="www.jdive.jp" ssl="true" />
   </request-list>
 
   <extension-param>
