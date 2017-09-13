@@ -19,6 +19,7 @@ div#box_map.box-map {
 }
 
 .recommendSec > .main__tab,
-.mkn-ui-hdr-wrap {
+.mkn-ui-hdr-wrap,
+.main > .main__slider {
  attribute: cltx add 'exclude';
 }
