@@ -1,0 +1,12 @@
+header,
+.video_cover {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<div class="story_link_wrapper"><a class="story_link"(.*?)>(.*?)</a><a class="story_link"(.*?)><span class="story_link_ico">(.*?)</span></a></div>' '<div class="story_link_wrapper"><a class="story_link"$1>$2</a><br style="display:none;"><a class="story_link"$3><span class="story_link_ico">$4</span></a></div>';	/* Story */
+	replace:'<p class="steak_anchor_price"><span class="steak_anchor_gram">(.*?)</span><span class="steak_anchor_num">(.*?)</span><span>(.*?)</span></p>' '<p class="steak_anchor_price"><span class="steak_anchor_gram">$1</span><br style="display:none;"><span class="steak_anchor_num">$2</span><br style="display:none;"><span>$3</span></p>';	/* Menu */
+	replace:'<p class="topping_price"><span class="topping_price_num">(.*?)</span><span class="topping_price_text">(.*?)</span></p>' '<p class="topping_price"><span class="topping_price_num">$1</span><br style="display:none;"><span class="topping_price_text">$2</span></p>';	/* Menu */
+	replace:'<span class="price_list_item_detail"><span class="price_list_item_num">(.*?)</span><span class="price_list_item_bold">(.*?)</span><span>(.*?)</span></span>' '<span class="price_list_item_detail"><span class="price_list_item_num">$1</span><br style="display:none;"><span class="price_list_item_bold">$2</span><br style="display:none;"><span>$3</span></span>';	/* 価格 */
+	replace:'<p class="privilege_list_text">(.*?)<span class="privilege_list_text_big">(.*?)</span></p>' '<p class="privilege_list_text">$1<br style="display:none;"><span class="privilege_list_text_big">$2</span></p>';	/* kids */
+}
