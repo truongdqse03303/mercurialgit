@@ -10,9 +10,12 @@
   <request-list>
     <request hostname="www.stage.biccamera.com" />
     <request hostname="www.stage2.biccamera.com" />
+    <request hostname="www.stage3.biccamera.com" ssl="true" />
     <request hostname="54.64.208.42" />
     <request hostname="sake.stage.biccamera.com" />
     <request hostname="sake.stage2.biccamera.com" />
+    <request hostname="sake.stage3.biccamera.com" ssl="true" />
+
   </request-list>
 
   <extension-param>
@@ -38,7 +41,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://(sake|www)\.(stage|stage2)\.biccamera\.com/(bs|bc)/js/.*</param-value>
+      <param-value>http://(sake|www)\.(stage|stage2|stage3)\.biccamera\.com/(bs|bc)/js/.*</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
