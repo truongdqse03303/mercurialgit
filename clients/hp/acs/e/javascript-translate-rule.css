@@ -1,10 +1,7 @@
-@preprocess {
-	replace: 'UA-23728733-1' 'UA-23728733-4';
-}
-
 // @RULESET
 // URL = https://www.vissel-kobe.co.jp/js/rwd/commonjs.js
 // URL = https://www.vissel-kobe.co.jp.e.acs.hp.transer.com/js/rwd/commonjs.js
 @postprocess {
+	replace: 'UA-23728733-1' 'UA-23728733-4';
 	replace: 'メニュー' 'Menu';
 }
