@@ -24,30 +24,3 @@
 .btn_area3 > .more_box > li > a {
 	attribute: style add 'font-size: 12px;';
 }
-
-@preprocess {
- 	replace:'J:COM' 'J@COM';	/* J:COM */
-	replace:'J：COM' 'J@COM';
-	replace:'Ｊ:ＣＯＭ' 'J@COM';
-	replace:'Ｊ：ＣＯＭ' 'J@COM';
-	replace:'J：ＣＯＭ' 'J@COM';
-	replace:'J:ＣＯＭ' 'J@COM';
-	replace:'Ｊ：COM' 'J@COM';
-	replace:'Ｊ:COM' 'J@COM';
- 	replace:'J:PLUS' 'J@PLUS';	/* J:PLUS */
-	replace:'J：PLUS' 'J@PLUS';
-	replace:'Ｊ:ＰＬＵＳ' 'J@PLUS';
-	replace:'Ｊ：ＰＬＵＳ' 'J@PLUS';
-	replace:'J：ＰＬＵＳ' 'J@PLUS';
-	replace:'J:ＰＬＵＳ' 'J@PLUS';
-	replace:'Ｊ：PLUS' 'J@PLUS';
-	replace:'Ｊ:PLUS' 'J@PLUS';
-	replace:'<span(.*?)</span>' '<br style="display:none;"><span$1</span><br style="display:none;">';	/* pankuzu, footer */
-	replace:'<li class="mainCategory">(.*?)<a href="/sp/maintenance/index.html" class="icon_arrow_a">(.*?)</a></li>' '<li class="mainCategory">$1<br style="display:none;"><a href="/sp/maintenance/index.html" class="icon_arrow_a">$2</a><br style="display:none;"></li>';
-}
-
-@postprocess {
-	replace:'J: What is COM ID' 'What is J:COM ID';
- 	replace:'J@COM' 'J:COM';	/* J:COM */
- 	replace:'J@PLUS' 'J:PLUS';	/* J:PLUS */
-}
