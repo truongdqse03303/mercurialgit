@@ -8,6 +8,7 @@ div.selectCopyBox.prefListcopy,
 }
 
 @preprocess {
+	replace:'href=\"//notices.jcom.co.jp(.*?)\"' 'href=\"http://notices.jcom.co.jp$1\"';
  	replace:'J:COM' 'J@COM';	/* J:COM */
 	replace:'J：COM' 'J@COM';
 	replace:'Ｊ:ＣＯＭ' 'J@COM';

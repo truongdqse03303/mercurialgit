@@ -1,3 +1,13 @@
-#spBtnMenu.active {
+#spBtnMenu.active,
+.wp-pagenavi > .previouspostslink,
+.wp-pagenavi > .nextpostslink {
 	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace: '<a href="https://advance\.reservation\.jp/unizo/stay_pc/rsv/(.*?)" target="_blank">' '<a href="https://advance\.reservation\.jp/unizo/stay_pc/rsv/$1" target="_blank" class="cl-norewrite">';
+}
+
+@postprocess {
+	replace: '%E2%9F%A8' '&amp;lang';
 }
