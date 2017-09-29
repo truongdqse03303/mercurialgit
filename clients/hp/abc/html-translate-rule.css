@@ -10,7 +10,6 @@ div.selectCopyBox.prefListcopy,
 @preprocess {
 	replace:'href=\"//cs.myjcom.jp(.*?)\"' 'href=\"http://cs.myjcom.jp$1\"';
 	replace:'href=\"//notices.jcom.co.jp(.*?)\"' 'href=\"http://notices.jcom.co.jp$1\"';
-	replace:'http://transer.com/atasp/pagetrans2/crosslanguage-translate.php?clientid=abc' 'https://transer.com/atasp/pagetrans2/crosslanguage-translate.php?clientid=abc';
  	replace:'J:COM' 'J@COM';	/* J:COM */
 	replace:'J：COM' 'J@COM';
 	replace:'Ｊ:ＣＯＭ' 'J@COM';
