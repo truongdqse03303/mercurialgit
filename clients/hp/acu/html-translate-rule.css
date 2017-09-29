@@ -16,4 +16,5 @@ header,
 
 @postprocess {
 	    replace:'<span class="transition_button_text">(.*?)<span class="landing_button_right">(.*?)</span>' '<span class="landing_button_right">$1<span class="transition_button_text">$2</span>';
+	    replace:'<span class="landing_button_right">(.*?)<span class="landing_button_right">(.*?)</span>' '<span class="landing_button_right">$1<span class="transition_button_text">$2</span>';
 }
