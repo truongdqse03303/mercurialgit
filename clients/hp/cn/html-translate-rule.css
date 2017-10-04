@@ -39,3 +39,8 @@ div#headerInner {
  replace: '<p>(.*?)<em class="hit0">(.*?)</em>(.*?)<sup>&reg;</sup>(.*?)</p>' '<p>$1<em class="hit0">$2</em>$3<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$4</p>';
  replace: '<h2 class="level1"><span><a(.*?)>(.*?)<em class="hit0">(.*?)</em>(.*?)<sup>&reg;</sup>(.*?)</a></span></h2>' '<h2 class="level1"><span><a$1>$2<em class="hit0">$3</em>$4<br style="display:none;"><sup class="cl-notranslate">&reg;</sup><br style="display:none;">$5</a></span></h2>';
 }
+
+@postprocess {
+ replace: '<td(.*?)TN-(.*?)G -(.*?)L-(.*?)G(.*?)L(.*?)</td>' '<td$1TN-$2G-&#9633;&#9633;L-$4G-&#916;&#916;L$6</td>';
+ replace: '<td(.*?)TN-(.*?)G-(.*?)L-(.*?)G(.*?)L(.*?)</td>' '<td$1TN-$2G-&#9633;&#9633;L-$4G-&#916;&#916;L$6</td>';
+}
