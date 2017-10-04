@@ -8,6 +8,10 @@ div.selectCopyBox.prefListcopy,
 }
 
 @preprocess {
+	replace:'href=\"//c.myjcom.jp(.*?)\"' 'href=\"https://c.myjcom.jp$1\"';
+	replace:'href=\"//cs.myjcom.jp(.*?)\"' 'href=\"https://cs.myjcom.jp$1\"';
+	replace:'href=\"//notices.jcom.co.jp(.*?)\"' 'href=\"https://notices.jcom.co.jp$1\"';
+	replace:'href=\"//information.myjcom.jp(.*?)\"' 'href=\"https://information.myjcom.jp$1\"';
  	replace:'J:COM' 'J@COM';	/* J:COM */
 	replace:'J：COM' 'J@COM';
 	replace:'Ｊ:ＣＯＭ' 'J@COM';
