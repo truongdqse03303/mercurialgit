@@ -10,3 +10,10 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess {
+	replace:'href=\"//c.myjcom.jp(.*?)\"' 'href=\"http://c.myjcom.jp$1\"';
+	replace:'href=\"//cs.myjcom.jp(.*?)\"' 'href=\"http://cs.myjcom.jp$1\"';
+	replace:'href=\"//notices.jcom.co.jp(.*?)\"' 'href=\"http://notices.jcom.co.jp$1\"';
+	replace:'href=\"//information.myjcom.jp(.*?)\"' 'href=\"http://information.myjcom.jp$1\"';
+}
