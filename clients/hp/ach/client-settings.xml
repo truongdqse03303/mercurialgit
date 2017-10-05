@@ -13,7 +13,7 @@
 
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;} #site-translate-header-wrapper p { font-size: 70%; } @media print, screen and (min-width: 479px) { .staff_box { float: none;display: inline-block;width: 150px;vertical-align: top; }} @media screen and (max-width: 478px) { .sp_logo { top: 49px; }}</param-value>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} #wrapper { margin: 44px auto 0; } #officialHeader { top: 44px; } #priceBox.twoBlocs table th { white-space: normal; } /* .running, #hana_header */ body { margin: 44px auto 0; } @media print, screen and (min-width: 479px) { .staff_box { float: none;display: inline-block;width: 150px;vertical-align: top; } #mn li a { float: left; font-size: 80%; }} @media screen and (max-width: 478px) { .sp_logo { top: 44px; } /* #hana_header { margin: 100px auto 0; } */ }</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->

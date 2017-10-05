@@ -1,5 +1,19 @@
+.slides,
+#main_contents,
+#page-top,
+#acacdemy_wrapper {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace: '<div class="price_t" style="height:205px;">' '<div class="price_t">';	/* セレッソと桜を咲かせよう cp/cerezonomori */
+}
+
 @postprocess {
-	replace: '<script type="text/javascript" src=(.*?)/footer.js" charset="UTF-8"></script>' '<script type="text/javascript" src="$1/footer.js" charset="Shift_JIS"></script>';
-	replace: '<script type="text/javascript" src="(.*?)/global_mn.js"(.*?)></script>' '<script type="text/javascript" src="$1/global_mn.js" charset="Shift_JIS"></script>';
-	replace: '<script type="text/javascript" src="(.*?)/top_right_mn.js" charset="UTF-8"></script>' '<script type="text/javascript" src="$1/top_right_mn.js" charset="Shift_JIS"></script>';
+	replace: '<script type="text/javascript" charset="UTF-8" src="(.*?).js">' '<script type="text/javascript" charset="Shift_JIS" src="$1.js">';
+	replace: '<script type="text/javascript" src="(.*?)footer.js" charset="UTF-8"></script>' '<script type="text/javascript" src="$1footer.js" charset="Shift_JIS"></script>';
+	replace: '<script type="text/javascript" src="(.*?)global_mn.js"(.*?)></script>' '<script type="text/javascript" src="$1global_mn.js" charset="Shift_JIS"></script>';
+	replace: '<script type="text/javascript" src="(.*?)top_right_mn.js" charset="UTF-8"></script>' '<script type="text/javascript" src="$1top_right_mn.js" charset="Shift_JIS"></script>';
+	replace: '<script type="text/javascript" src="(.*?)right_mn.js" charset="UTF-8"></script>' '<script type="text/javascript" src="$1right_mn.js" charset="Shift_JIS"></script>';
+	replace: '<script type="text/javascript" src="right_mn.js" charset="UTF-8"></script>' '<script type="text/javascript" src="right_mn.js" charset="Shift_JIS"></script>';
 }
