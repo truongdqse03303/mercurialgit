@@ -150,3 +150,7 @@ h1.logo, .logo_g, #left {
 div#header > div.headerPadder > div.headerPadder {
  attribute: style add 'margin-top:34px;';
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+}
