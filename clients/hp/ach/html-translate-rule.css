@@ -1,7 +1,8 @@
 .slides,
 #main_contents,
 #page-top,
-#acacdemy_wrapper {
+#acacdemy_wrapper,
+#right_contents {
 	attribute: cltx add 'exclude';
 }
 
