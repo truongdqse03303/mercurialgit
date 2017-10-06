@@ -8,12 +8,12 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.stage.biccamera.com" />
-    <request hostname="www.stage2.biccamera.com" />
+    <request hostname="www.stage.biccamera.com" ssl="true" />
+    <request hostname="www.stage2.biccamera.com" ssl="true" />
     <request hostname="www.stage3.biccamera.com" ssl="true" />
     <request hostname="54.64.208.42" />
-    <request hostname="sake.stage.biccamera.com" />
-    <request hostname="sake.stage2.biccamera.com" />
+    <request hostname="sake.stage.biccamera.com" ssl="true" />
+    <request hostname="sake.stage2.biccamera.com" ssl="true" />
     <request hostname="sake.stage3.biccamera.com" ssl="true" />
 
   </request-list>
