@@ -15,4 +15,7 @@
     <address>210\.232\.61\.65</address>
     <address>172\.31\.188\.\d{3}</address>
   </address-list>
+  <ignore-pattern>
+    .*/crosslanguage\\..+?\\.translate/.*|.+\\.(?:css|js|jsp|jpe?g|gif|png|ico)$
+  </ignore-pattern>
 </frequent-access>
