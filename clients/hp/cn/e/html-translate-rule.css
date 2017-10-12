@@ -60,7 +60,7 @@ a[href] {
  replace: 'We cancel jerky plunger movements and intermittent dispensing by Straight shap<b><span style="color:#FF0000">e of the wall inside syringe</span></b>' 'We cancel jerky plunger movements and intermittent dispensing by <b><span style="color:#FF0000">Straight shape of the wall inside syringe</span></b>';
  replace: '<b><span style="color:#FF0000">high precision filling speedil</span></b>y' '<b><span style="color:#FF0000">high precision filling speedily</span></b>';
 // ↑ 2017.08.14 add ↑
- replace: '<b><span style="color:#FF0000">World Fastest D</span></b>ispensing Cut-Off System' '<b><span style="color:#FF0000">World Fastest</span></b> Dispensing Cut-Off System.';
+ replace: '<b><span style="color:#FF0000">World Fastest D</span></b>ispensing Cut-Off System' '<b><span style="color:#FF0000">World Fastest</span></b> Dispensing Cut-Off System\.';
 }
 
 // @RULESET
