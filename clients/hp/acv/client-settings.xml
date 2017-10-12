@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>釧路空港ビル株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kushiro-airport/service c7a970a674dccb7865af2cf4bf4202c8f3b81386</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kushiro-airport.co.jp" />
+    <request hostname="kushiro-airport.co.jp" />
+  </request-list>
+
+<extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:auto!important}</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

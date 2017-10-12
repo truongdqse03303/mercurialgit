@@ -1,0 +1,11 @@
+.moreevent > a > #itemcount {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<span class="ecate(.*?)">' '<br style="display:none;"><span class="ecate$1"><br style="display:none;">';
+}
+
+@postprocess {
+	replace:'<span id="itemcount"(.*?)>(.*?)</span>' '<span id="itemcount"$1>$2</span>&nbsp;';
+}
