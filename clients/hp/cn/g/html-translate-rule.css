@@ -35,5 +35,5 @@ a[href] {
  replace: '<b><span style="color:#FF0000">Max .250</span></b> zurechtkommen \\* 330mm' '<b><span style="color:#FF0000">Max .250 \\* 330mm</span></b> zurechtkommen';
  replace: 'Ich erkenne Verkleinerung von<b><span style="color:#FF0000"></span></b>' 'Ich erkenne <b><span style="color:#FF0000">Verkleinerung</span></b> von';
 // ↑ 2017.08.14 add ↑
- replace: '<b><span style="color:#FF0000">Weltweit schn</span></b>ellste Dosierfunktion' '<b><span style="color:#FF0000">Weltweit schnellste</span></b> Dosierfunktion';
+ replace: '<b><span style="color:#FF0000">Weltweit schn</span></b>ellste Dosierfunktion' '<b><span style="color:#FF0000">Weltweit schnellste</span></b> Dosierfunktion.';
 }
