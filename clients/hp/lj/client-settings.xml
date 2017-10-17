@@ -9,10 +9,10 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.biccamera.co.jp" />
-    <request hostname="www.biccamera.com" />
+    <request hostname="www.biccamera.com" ssl="true" />
     <request hostname="search.biccamera.com" />
     <request hostname="sp.biccamera.com" />
-    <request hostname="sake.biccamera.com" />    
+    <request hostname="sake.biccamera.com" ssl="true" />    
   </request-list>
   
   <!-- HTML断片翻訳を行わないURLの一覧 -->
@@ -54,7 +54,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://(www\.biccamera\.com|sake\.biccamera\.com)/(bc|bs)/(js/.*|js_sp/.*)</param-value>
+      <param-value>(http:|https:)//(www\.biccamera\.com|sake\.biccamera\.com)/(bc|bs)/(js/.*|js_sp/.*)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
