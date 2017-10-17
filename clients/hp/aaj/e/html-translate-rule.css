@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT TOURISM SYSTEM CAR";
 }
+
+@preprocess {
+  replace:"hdtxarsgkla" "wpridjmhrmk";
+}

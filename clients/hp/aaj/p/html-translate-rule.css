@@ -10,3 +10,7 @@
   eid: BR-JA.PT.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT TOURISM CAR";
 }
+
+@preprocess {
+  replace:"hdtxarsgkla" "ujbzqcyprw0";
+}
