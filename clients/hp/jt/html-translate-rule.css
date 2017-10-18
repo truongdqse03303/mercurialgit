@@ -1,0 +1,16 @@
+.h-nav,
+.menubar_wrapper,
+.heading,
+.sns_section {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<a(.*?)class="band__link">(.*?)</a>' '<a$1class="band__link">$2<br style="display:none;"></a>';	/* 営業時間の詳細 */
+}
+
+// @RULESET
+// URL #= //www.asunal.jp/sp/.*?
+.band {
+ attribute: style add 'margin-top: 121px;';
+}

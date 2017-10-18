@@ -11,6 +11,11 @@
     <request hostname="www.asunal.jp" />
   </request-list>
 
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} header {margin: 48px auto 0;} .band__link:after {left: unset;} .band {margin-top: 44px;} .menubar_wrapper {z-index: 999;} .menubar_wrapper.open {padding-top: 0;}</param-value>
+  </extension-param>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
