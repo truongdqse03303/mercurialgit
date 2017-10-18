@@ -35,3 +35,9 @@
 	replace:'Okano and I say we(.*?)…… \\" \\(laugh\\)' 'Okano and I say we$1\\"';
 	replace:'and Hamamatsu in Shizuoka Prefecture and Nishiwaki in Hyogo Prefecture for shirts……' 'and Hamamatsu in Shizuoka Prefecture and Nishiwaki in Hyogo Prefecture for shirts. ';
 }
+
+// @RULESET
+// URL #=//ginza6\.tokyo/news/12804
+@postprocess {
+	replace:'Fashion, jewelry(.*?)We spell way of enjoying that we found on foot.' 'Here, we bring you some of the fun and interesting things found by our editors, each of whom bring a fascinating perspective and expertise to fields ranging from fashion to jewelry and watch, lifestyle, beauty, food and more, as they wander through GINZA SIX and make new discoveries.';
+}
