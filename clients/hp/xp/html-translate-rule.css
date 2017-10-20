@@ -7,6 +7,7 @@
 }
 
 @preprocess {
+ replace:'<span id="nc2_condCount">(.*)<span>(.*)</span>(.*)</span>' '<span id="nc2_condCount">$1<br style="display:none;"><span>$2</span><br style="display:none;">$3</span>';
  replace:'<span class="bcs_orange">(.*)ポイント</span>' '<span class="bcs_orange">$1ポイント</span><br style="display:none;">';
  replace:'<li><a href=(.*) onclick=(.*)>在庫がある商品<span>（(.*)）</span></a></li>' '<li><a href=$1 onclick=$2>在庫がある商品<br style="display:none;">&nbsp;<span>（$3）</span></a></li>';
  replace:'<p class="bcs_point">(.*)<span>(.*)</span>(.*)</p>' '<p class="bcs_point">$1<span>$2</span><br style="display:none;">$3</p>';
