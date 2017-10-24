@@ -14,7 +14,7 @@
 
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;z-index: 999;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} .cmn-header-wrapper {z-index: 99;margin: 44px auto 0;} .wrapper {margin: 44px auto 0;} .gnav-fixed{top: 48px !important;} .cmn-header .hd-guide .lang-select {z-index: 50;} .sidr {top: 44px;} .side-menu-right .side-footer {margin: 0 auto 10%;}</param-value>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;z-index: 999;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} .cmn-header-wrapper {z-index: 99;margin: 44px auto 0;} .wrapper {margin: 44px auto 0;} .gnav-fixed{top: 48px !important;} .cmn-header .hd-guide .lang-select {z-index: 50;} .sidr {top: 44px;} .side-menu-right .side-footer {margin: 0 auto 10%;} .googlemap-block .gmap-side .inner .address, .googlemap-block .gmap-side .inner .open-hour .shopping .hour, .btn-type01 a, .googlemap-block .gmap-side .inner .open-hour .restaurant .hour, .search .search-list li a, .search-block .search .ttl{letter-spacing: normal;}</param-value>
   </extension-param>
 
  <!-- Basic認証 -->
