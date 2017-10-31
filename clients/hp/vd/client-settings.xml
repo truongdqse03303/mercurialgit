@@ -23,19 +23,12 @@
     <request hostname="aeonmall-okayama.com" />
     <request hostname="fukuoka-aeonmall.com" />
     <request hostname="miyazaki-aeonmall.com" />
-    <request hostname="tendo-aeonmall.com" />
-    <request hostname="makuharishintoshin-aeonmall.com" />
     <request hostname="kofushowa-aeonmall.com" />
     <request hostname="higashiura-aeonmall.com" />
-    <request hostname="tokoname-aeonmall.com" />
     <request hostname="suzuka-aeonmall.com" />
-    <request hostname="kashihara-aeonmall.com" />
     <request hostname="tsurumiryokuchi-aeonmall.com" />
     <request hostname="osakadomecity-aeonmall.com" />
-    <request hostname="kobekita-aeonmall.com" />
     <request hostname="wakayama-aeonmall.com" />
-    <request hostname="hiroshimafuchu-aeonmall.com" />
-    <request hostname="chikushino-aeonmall.com" />
     <request hostname="kochi-aeonmall.com" />
 	<request hostname="shinkomatsu-aeonmall.com" />
 	<request hostname="takaoka-aeonmall.com" />
@@ -47,7 +40,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://(asahikawaekimae-aeonmall|natori-aeonmall|laketownkaze-aeonmall|laketown-outlet|narita-aeonmall|kisarazu-aeonmall|odaka-aeonmall|kyoto-aeonmall|kyotokatsuragawa-aeonmall|yamatokoriyama-aeonmall|rinkusennan-aeonmall|umie|aeonmall-okayama|fukuoka-aeonmall|miyazaki-aeonmall|tendo-aeonmall|makuharishintoshin-aeonmall|kofushowa-aeonmall|higashiura-aeonmall|tokoname-aeonmall|suzuka-aeonmall|kashihara-aeonmall|tsurumiryokuchi-aeonmall|osakadomecity-aeonmall|kobekita-aeonmall|wakayama-aeonmall|hiroshimafuchu-aeonmall|chikushino-aeonmall|kochi-aeonmall|shinkomatsu-aeonmall|takaoka-aeonmall).(com|jp)/(json_api/.*|theme/RenewalPage/templates.html)</param-value>
+      <param-value>http://(asahikawaekimae-aeonmall|natori-aeonmall|laketownkaze-aeonmall|laketown-outlet|narita-aeonmall|kisarazu-aeonmall|odaka-aeonmall|kyoto-aeonmall|kyotokatsuragawa-aeonmall|yamatokoriyama-aeonmall|rinkusennan-aeonmall|umie|aeonmall-okayama|fukuoka-aeonmall|miyazaki-aeonmall|kofushowa-aeonmall|higashiura-aeonmall|suzuka-aeonmall|tsurumiryokuchi-aeonmall|osakadomecity-aeonmall|wakayama-aeonmall|kochi-aeonmall|shinkomatsu-aeonmall|takaoka-aeonmall).(com|jp)/(json_api/.*|theme/RenewalPage/templates.html)</param-value>
      </param>
     <param>
       <param-name>resource.type.name</param-name>
