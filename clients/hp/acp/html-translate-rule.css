@@ -4,6 +4,19 @@
 	attribute: cltx add 'exclude';
 }
 
+@preprocess {
+        replace:'<link href="/material/css/base.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/base.css" rel="stylesheet" type="text/css">';
+        replace:'<link href="/material/css/top.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/top.css" rel="stylesheet" type="text/css">';
+        replace:'<link href="/material/css/bgstretcher.css" rel="stylesheet" type="text/css" />' '<link href="//www.daiomfg.co.jp/material/css/bgstretcher.css" rel="stylesheet" type="text/css" />';
+        replace:'<script type="text/javascript" src="/material/js/jquery-1.7.2.min.js">' '<script type="text/javascript" src="//www.daiomfg.co.jp/material/js/jquery-1.7.2.min.js">';
+        replace:'<script type="text/javascript" src="/material/js/default.js">' '<script type="text/javascript" src="//www.daiomfg.co.jp/material/js/default.js">';
+        replace:'<script type="text/javascript" src="material/js/bgstretcher.js">' '<script type="text/javascript" src="//www.daiomfg.co.jp/material/js/bgstretcher.js">';
+        replace:'<script type="text/javascript" src="/material/js/search.js">' '<script type="text/javascript" src="//www.daiomfg.co.jp/material/js/search.js">';
+        replace:'<script src="/material/include/header.js" type="text/javascript">' '<script src="//www.daiomfg.co.jp/material/include/header.js" type="text/javascript">';
+        replace:'<script src="/material/include/footer.js" type="text/javascript">' '<script src="//www.daiomfg.co.jp/material/include/footer.js" type="text/javascript">';
+        replace:'material/images/top/topimg/(.*?).jpg' '//www.daiomfg.co.jp/material/images/top/topimg/$1.jpg';
+}
+
 @postprocess {
 	replace:'<div class="googlesearch">' '<div class="googlesearch" cltx="exclude">';
 }
