@@ -4,6 +4,7 @@ header,
 }
 
 @preprocess {
+	replace:'<div class="set_list_name">(.*?)<span class="set_list_name_note">(.*?)</span></div>' '<div class="set_list_name">$1<br style="display:none;"><span class="set_list_name_note">$2</span></div>';	/* セット内容 */
 	replace:'<span class="landing_button_right">(.*?)<span class="transition_button_text">(.*?)</span>' '<span class="landing_button_right">$1<br style="display:none;"><span class="transition_button_text">$2</span>';	/* スタンプ */
 	replace:'<h3 class="step_title"><span class="step_title_num">(.*?)<span class="big">(.*?)</span></span><span class="step_title_main">(.*?)</span></h3>' '<h3 class="step_title"><span class="step_title_num">$1<span class="big">$2</span></span><br style="display:none;"><span class="step_title_main">$3</span></h3>';
 	replace:'<div class="story_link_wrapper"><a class="story_link"(.*?)>(.*?)</a><a class="story_link"(.*?)><span class="story_link_ico">(.*?)</span></a></div>' '<div class="story_link_wrapper"><a class="story_link"$1>$2</a><br style="display:none;"><a class="story_link"$3><span class="story_link_ico">$4</span></a></div>';	/* Story */
