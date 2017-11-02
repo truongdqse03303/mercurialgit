@@ -10,3 +10,11 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER COMPUTER";
 }
+
+.owa-around-list__map-iw-location > a > span {
+ attribute:cltx add 'exclude';
+}
+
+@postprocess {
+ replace: '<!--cltx--><i aria-hidden="true"(.*?)>' '<i aria-hidden="true"$1>';
+}

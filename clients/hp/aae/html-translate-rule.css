@@ -6,8 +6,7 @@ nav.owa-menu {
  attribute:style add 'margin-top:44px;';
 }
 
-div.whatIs-wrap,
-.owa-around-list__map-iw-location > a > span {
+div.whatIs-wrap {
  attribute:cltx add 'exclude';
 }
 
