@@ -15,5 +15,4 @@ div.whatIs-wrap {
  replace: '<!--cltx--><a href="/omachi-navi/location' '<a href="/omachi-navi/location';
  replace: '<!--cltx--><span v-if="timeline.live"' '<span v-if="timeline.live"';
  replace: '<!--cltx--><span class="el-title"' '<span class="el-title"';
- replace: '<!--cltx--><i class="fa(.*?)">' '<i class="fa$1">';
 }

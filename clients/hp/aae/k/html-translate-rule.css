@@ -11,7 +11,13 @@
   dictionaries: "CROSS_TM_MASTER COMPUTER";
 }
 
+header,
 .owa-around-list__map-iw-location > a > span,
+.owa-spot-genre-toggles > .el-inner > button > i,
 .container > p {
  attribute:cltx add 'exclude';
+}
+
+@postprocess {
+ replace: '<!--cltx--><i class="fa(.*?)">' '<i class="fa$1">';
 }
