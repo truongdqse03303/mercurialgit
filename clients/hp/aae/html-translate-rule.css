@@ -6,10 +6,15 @@ nav.owa-menu {
  attribute:style add 'margin-top:44px;';
 }
 
-div.whatIs-wrap {
+div.whatIs-wrap,
+.owa-around-list__map-iw-location > a > span {
  attribute:cltx add 'exclude';
 }
 
-@preprocess {
- replace: '<head class="cl-norewrite">' '<head>';
+@postprocess {
+ replace: '<!--cltx--><a href="/shizuoka/location' '<a href="/shizuoka/location';
+ replace: '<!--cltx--><a href="/omachi-navi/location' '<a href="/omachi-navi/location';
+ replace: '<!--cltx--><span v-if="timeline.live"' '<span v-if="timeline.live"';
+ replace: '<!--cltx--><span class="el-title"' '<span class="el-title"';
+ replace: '<!--cltx--><i class="fa(.*?)">' '<i class="fa$1">';
 }

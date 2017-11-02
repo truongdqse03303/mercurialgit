@@ -31,7 +31,7 @@
   <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0; left: 0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} .owa-main {margin-top: 44px !important;}</param-value>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0; left: 0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} .owa-main {margin-top: 44px !important;} @media screen and (min-width: 768px) { .body-shizupass .owa-header__menuList:lang(en){font-size: 0.9rem;}}</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->
