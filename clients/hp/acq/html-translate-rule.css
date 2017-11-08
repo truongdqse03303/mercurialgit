@@ -45,7 +45,7 @@
 }
 
 // @RULESET
-// URL #= http://www\.jdive\.jp/.*
+// URL #= //www\.jdive\.jp/.*
 body{
  attribute: style add 'background-position:0 25px;';
 }
