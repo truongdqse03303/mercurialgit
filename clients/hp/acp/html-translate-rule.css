@@ -5,6 +5,7 @@
 }
 
 @preprocess {
+        replace:'<link href="/material/css/netshop.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/netshop.css" rel="stylesheet" type="text/css">';
         replace:'<link href="/material/css/characteristics.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/characteristics.css" rel="stylesheet" type="text/css">';
         replace:'<link href="/material/css/company.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/company.css" rel="stylesheet" type="text/css">';
         replace:'<link href="/material/css/base.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/base.css" rel="stylesheet" type="text/css">';
