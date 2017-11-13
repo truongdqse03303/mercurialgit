@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>府中観光協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kankou-fuchu/service 6835a01cfba948e5f278c41214b9ca8d84f58dbe</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kankou-fuchu.com" />
+    <request hostname="mitte-x-pre.phj.jp" path="/fuchu-kankou/preview/new-mitte" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
