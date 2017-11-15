@@ -8,8 +8,8 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.daimaru.co.jp" />
-    <request hostname="dmdepart.jp" />
+    <request hostname="www.daimaru.co.jp" ssl="true" />
+    <request hostname="dmdepart.jp" ssl="true" />
     <request hostname="wakaba.coara.or.jp" />
   </request-list>
   

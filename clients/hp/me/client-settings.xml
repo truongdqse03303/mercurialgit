@@ -8,8 +8,8 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.matsuzakaya.co.jp" />
-    <request hostname="dmdepart.jp" />
+    <request hostname="www.matsuzakaya.co.jp" ssl="true" />
+    <request hostname="dmdepart.jp" ssl="true" />
   </request-list>
   
   <!-- 免責ヘッダーを絶対座標で指定 -->
