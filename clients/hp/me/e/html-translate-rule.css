@@ -16,68 +16,68 @@
 }
 
 // @RULESET
-// URL =http://www.matsuzakaya.co.jp/nagoya/
-// URL =http://www.matsuzakaya.co.jp/nagoya/index.html
+// URL #=//www.matsuzakaya.co.jp/nagoya/
+// URL #=//www.matsuzakaya.co.jp/nagoya/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/nagoya/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
 }
 
 // @RULESET
-// URL =http://www.matsuzakaya.co.jp/ueno/
-// URL =http://www.matsuzakaya.co.jp/ueno/index.html
+// URL #=//www.matsuzakaya.co.jp/ueno/
+// URL #=//www.matsuzakaya.co.jp/ueno/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/ueno/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
 }
 
 // @RULESET
-// URL =http://www.matsuzakaya.co.jp/shizuoka/
-// URL =http://www.matsuzakaya.co.jp/shizuoka/index.html
+// URL #=//www.matsuzakaya.co.jp/shizuoka/
+// URL #=//www.matsuzakaya.co.jp/shizuoka/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/shizuoka/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
 }
 
 // @RULESET
-// URL =http://www.matsuzakaya.co.jp/smp/nagoya/
-// URL =http://www.matsuzakaya.co.jp/smp/nagoya/index.html
+// URL #=//www.matsuzakaya.co.jp/smp/nagoya/
+// URL #=//www.matsuzakaya.co.jp/smp/nagoya/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/nagoya/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
 }
 
 // @RULESET
-// URL =http://www.matsuzakaya.co.jp/smp/ueno/
-// URL =http://www.matsuzakaya.co.jp/smp/ueno/index.html
+// URL #=//www.matsuzakaya.co.jp/smp/ueno/
+// URL #=//www.matsuzakaya.co.jp/smp/ueno/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/ueno/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
 }
 
 // @RULESET
-// URL =http://www.matsuzakaya.co.jp/smp/shizuoka/
-// URL =http://www.matsuzakaya.co.jp/smp/shizuoka/index.html
+// URL #=//www.matsuzakaya.co.jp/smp/shizuoka/
+// URL #=//www.matsuzakaya.co.jp/smp/shizuoka/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/shizuoka/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.e.me.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
 }
 
 // @RULESET
-// URL =http://dmdepart.jp/fl/
-// URL =http://dmdepart.jp/fl/smp/
+// URL #=//dmdepart.jp/fl/
+// URL #=//dmdepart.jp/fl/smp/
 @preprocess {
   replace: "www\.daimaru\.co\.jp/" "www.daimaru.co.jp.e.md.hp.transer.com/";
 }
 
 // @RULESET
-// URL =http://dmdepart.jp/flnews/
+// URL #=//dmdepart.jp/flnews/
 @preprocess {
   replace: '(<meta http-equiv="refresh" content="3 ; URL=)s(/index.html">)' '$1e$2';
 }

@@ -16,138 +16,138 @@
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/shinsaibashi/
-// URL =http://www.daimaru.co.jp/shinsaibashi/index.html
+// URL #=//www.daimaru.co.jp/shinsaibashi/
+// URL #=//www.daimaru.co.jp/shinsaibashi/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/umedamise/
-// URL =http://www.daimaru.co.jp/umedamise/index.html
+// URL #=//www.daimaru.co.jp/umedamise/
+// URL #=//www.daimaru.co.jp/umedamise/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
-  replace: '<p class="mt10"><a href="http://nijajani.com/" target="_blank"><img src="/common/images/store/com_nav_bn02.jpg" alt="" width="209" height="50" /></a></p>' '<p class="mt10"><a href="http://nijajani.com/" target="_blank"><img src="/common/images/store/com_nav_bn02.jpg" alt="" width="209" height="50" /></a></p><p class="mt10"><a href="http://www.daimaru.co.jp/umedamise/osaka_f/" target="_blank"><img src="/common/images/store/com_nav_bn06.jpg" alt="" width="209" height="50" /></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
+  replace: '<p class="mt10"><a href="http://nijajani.com/" target="_blank"><img src="/common/images/store/com_nav_bn02.jpg" alt="" width="209" height="50" /></a></p>' '<p class="mt10"><a href="http://nijajani.com/" target="_blank"><img src="/common/images/store/com_nav_bn02.jpg" alt="" width="209" height="50" /></a></p><p class="mt10"><a href="https://www.daimaru.co.jp/umedamise/osaka_f/" target="_blank"><img src="/common/images/store/com_nav_bn06.jpg" alt="" width="209" height="50" /></a></p>';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/kyoto/
-// URL =http://www.daimaru.co.jp/kyoto/index.html
+// URL #=//www.daimaru.co.jp/kyoto/
+// URL #=//www.daimaru.co.jp/kyoto/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/kobe/
-// URL =http://www.daimaru.co.jp/kobe/index.html
+// URL #=//www.daimaru.co.jp/kobe/
+// URL #=//www.daimaru.co.jp/kobe/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/tokyo/
-// URL =http://www.daimaru.co.jp/tokyo/index.html
+// URL #=//www.daimaru.co.jp/tokyo/
+// URL #=//www.daimaru.co.jp/tokyo/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/sapporo/
-// URL =http://www.daimaru.co.jp/sapporo/index.html
+// URL #=//www.daimaru.co.jp/sapporo/
+// URL #=//www.daimaru.co.jp/sapporo/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="http://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_e.jpg"></a></p>';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/smp/shinsaibashi/
-// URL =http://www.daimaru.co.jp/smp/shinsaibashi/index.html
+// URL #=//www.daimaru.co.jp/smp/shinsaibashi/
+// URL #=//www.daimaru.co.jp/smp/shinsaibashi/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/smp/umedamise/
-// URL =http://www.daimaru.co.jp/smp/umedamise/index.html
+// URL #=//www.daimaru.co.jp/smp/umedamise/
+// URL #=//www.daimaru.co.jp/smp/umedamise/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
-  replace: '<div class="officialAccount"><ul><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" width="104" alt=""></a></li><li class="socialPlugin noBorder"><ul><li><a href="http://weibo.cn/qr/userinfo\\?uid=5200185773" target="_blank"><img src="/smp/common/images/com_ic23.png" width="31" alt="weibo" cltx></a></li><li><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/smp/common/images/com_ic24.png" width="31" alt="WeChat" cltx></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic25.png" width="31" alt="Facebook" cltx></a></li></ul></li></ul></div>' '<div class="officialAccount"><ul class="type02"><ul class="sosialBanner"><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" alt=""></a></li><li><a href="http://www.daimaru.co.jp/umedamise/osaka_f/" target="_blank"><img src="/smp/common/images/com_bn02.gif" alt=""></a></li></ul><ul class="socialPlugin noBorder"><li><a href="http://weibo.cn/qr/userinfo\\?uid=5200185773" target="_blank"><img src="/smp/common/images/com_ic23.png" alt="weibo" cltx></a></li><li><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/smp/common/images/com_ic24.png" alt="WeChat" cltx></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic25.png" alt="Facebook" cltx></a></li></ul></ul></div>';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
+  replace: '<div class="officialAccount"><ul><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" width="104" alt=""></a></li><li class="socialPlugin noBorder"><ul><li><a href="http://weibo.cn/qr/userinfo\\?uid=5200185773" target="_blank"><img src="/smp/common/images/com_ic23.png" width="31" alt="weibo" cltx></a></li><li><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/smp/common/images/com_ic24.png" width="31" alt="WeChat" cltx></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic25.png" width="31" alt="Facebook" cltx></a></li></ul></li></ul></div>' '<div class="officialAccount"><ul class="type02"><ul class="sosialBanner"><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" alt=""></a></li><li><a href="https://www.daimaru.co.jp/umedamise/osaka_f/" target="_blank"><img src="/smp/common/images/com_bn02.gif" alt=""></a></li></ul><ul class="socialPlugin noBorder"><li><a href="http://weibo.cn/qr/userinfo\\?uid=5200185773" target="_blank"><img src="/smp/common/images/com_ic23.png" alt="weibo" cltx></a></li><li><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/smp/common/images/com_ic24.png" alt="WeChat" cltx></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic25.png" alt="Facebook" cltx></a></li></ul></ul></div>';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/smp/kyoto/
-// URL =http://www.daimaru.co.jp/smp/kyoto/index.html
+// URL #=//www.daimaru.co.jp/smp/kyoto/
+// URL #=//www.daimaru.co.jp/smp/kyoto/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/smp/kobe/
-// URL =http://www.daimaru.co.jp/smp/kobe/index.html
+// URL #=//www.daimaru.co.jp/smp/kobe/
+// URL #=//www.daimaru.co.jp/smp/kobe/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/smp/tokyo/
-// URL =http://www.daimaru.co.jp/smp/tokyo/index.html
+// URL #=//www.daimaru.co.jp/smp/tokyo/
+// URL #=//www.daimaru.co.jp/smp/tokyo/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/tokyo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
 }
 
 // @RULESET
-// URL =http://www.daimaru.co.jp/smp/sapporo/
-// URL =http://www.daimaru.co.jp/smp/sapporo/index.html
+// URL #=//www.daimaru.co.jp/smp/sapporo/
+// URL #=//www.daimaru.co.jp/smp/sapporo/index.html
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="http://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="http://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.e.md.hp.transer.com/flnews/e/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_e.jpg"></a></p>$1';
 }
 
 // @RULESET
-// URL =http://dmdepart.jp/fl/
-// URL =http://dmdepart.jp/fl/smp/
+// URL #=//dmdepart.jp/fl/
+// URL #=//dmdepart.jp/fl/smp/
 @preprocess {
   replace: "www\.matsuzakaya\.co\.jp/" "www.matsuzakaya.co.jp.e.me.hp.transer.com/";
 }
 
 // @RULESET
-// URL =http://dmdepart.jp/flnews/
-a[href="http://www.matsuzakaya.co.jp/ueno/"] {
-  attribute: href rewrite "http://www.matsuzakaya.co.jp.e.me.hp.transer.com/ueno/";
+// URL #=//dmdepart.jp/flnews/
+a[href="https://www.matsuzakaya.co.jp/ueno/"] {
+  attribute: href rewrite "https://www.matsuzakaya.co.jp.e.me.hp.transer.com/ueno/";
 }
 
 // @RULESET
-// URL #=http://www.daimaru.co.jp/fukuoka/.*
-a[href^="http://www.daimaru.co.jp/fukuoka/company/hakata.html"] {
-  attribute: href rewrite "http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/english/index.html";
+// URL #=//www.daimaru.co.jp/fukuoka/.*
+a[href^="https://www.daimaru.co.jp/fukuoka/company/hakata.html"] {
+  attribute: href rewrite "https://www.daimaru.co.jp/fukuoka/hdm/newtop/service/english/index.html";
 }
 @preprocess {
-  replace: 'a href="http://www\.daimaru\.co\.jp/fukuoka/hdm/store_info/"' 'a href="http://www.daimaru.co.jp/fukuoka/hdm/newtop/service/english/entertainment/index.html"';
+  replace: 'a href="https://www\.daimaru\.co\.jp/fukuoka/hdm/store_info/"' 'a href="https://www.daimaru.co.jp/fukuoka/hdm/newtop/service/english/entertainment/index.html"';
 }
 // @RULESET
-// URL =http://dmdepart.jp/flnews/
+// URL #=//dmdepart.jp/flnews/
 @preprocess {
   replace: '(<meta http-equiv="refresh" content="3 ; URL=)s(/index.html">)' '$1e$2';
 }

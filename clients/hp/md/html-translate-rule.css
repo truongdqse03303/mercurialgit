@@ -17,31 +17,31 @@ div.slide_container {
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/(|smp/)shinsaibashi/(|index\.html)
+// URL #=//www\.daimaru\.co\.jp/(|smp/)shinsaibashi/(|index\.html)
 @preprocess {
   replace: 'ブランド・ショップ検索' 'ブランド情報';
   replace: 'ブランド検索' 'ブランド情報';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=1"' '"http://www.daimaru.co.jp/foreign/shinsaibashi/brand.html"';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=6"' '"http://www.daimaru.co.jp/foreign/umeda/brand.html"';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=3"' '"http://www.daimaru.co.jp/foreign/kyoto/brand.html"';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=4"' '"http://www.daimaru.co.jp/foreign/kobe/brand.html"';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=2"' '"http://www.daimaru.co.jp/foreign/tokyo/brand.html"';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=7"' '"http://www.daimaru.co.jp/foreign/sapporo/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=1"' '"https://www.daimaru.co.jp/foreign/shinsaibashi/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=6"' '"https://www.daimaru.co.jp/foreign/umeda/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=3"' '"https://www.daimaru.co.jp/foreign/kyoto/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=4"' '"https://www.daimaru.co.jp/foreign/kobe/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=2"' '"https://www.daimaru.co.jp/foreign/tokyo/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=7"' '"https://www.daimaru.co.jp/foreign/sapporo/brand.html"';
   replace: '"(/(|smp/)shinsaibashi/service/)index\(.html)"' '"$1gaikoku$3"';
   replace: '(<ul class="btnLink01">.*?</ul>)' '$1<div class="officialAccount"><ul><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" width="104" alt=""></a></li><li class="socialPlugin noBorder"><ul><li><a href="http://weibo.cn/qr/userinfo?uid=5200185773" target="_blank"><img src="/smp/common/images/com_ic23.png" width="31" alt="weibo"></a></li><li><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/smp/common/images/com_ic24.png" width="31" alt="WeChat"></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic25.png" width="31" alt="Facebook"></a></li></ul></li></ul></div>';
 }
 
 // @RULESET
-// URL #=http://www\.daimaru\.co\.jp/(|smp/)(umedamise|kyoto|kobe|tokyo|sapporo)/(|index\.html)
+// URL #=//www\.daimaru\.co\.jp/(|smp/)(umedamise|kyoto|kobe|tokyo|sapporo)/(|index\.html)
 @preprocess {
   replace: 'ブランド・ショップ検索' 'ブランド情報';
   replace: 'ブランド検索' 'ブランド情報';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=1"' '"http://www.daimaru.co.jp/foreign/shinsaibashi/brand.html"';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=6"' '"http://www.daimaru.co.jp/foreign/umeda/brand.html"';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=3"' '"http://www.daimaru.co.jp/foreign/kyoto/brand.html"';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=4"' '"http://www.daimaru.co.jp/foreign/kobe/brand.html"';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=2"' '"http://www.daimaru.co.jp/foreign/tokyo/brand.html"';
-  replace: '"http://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=7"' '"http://www.daimaru.co.jp/foreign/sapporo/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=1"' '"https://www.daimaru.co.jp/foreign/shinsaibashi/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=6"' '"https://www.daimaru.co.jp/foreign/umeda/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=3"' '"https://www.daimaru.co.jp/foreign/kyoto/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=4"' '"https://www.daimaru.co.jp/foreign/kobe/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=2"' '"https://www.daimaru.co.jp/foreign/tokyo/brand.html"';
+  replace: '"https://dm\.daimaru\.co\.jp/webapp/BIsearch\.jsp\\?shop_nm=7"' '"https://www.daimaru.co.jp/foreign/sapporo/brand.html"';
   replace: '"(/(|smp/)(umedamise|kyoto|kobe|tokyo|sapporo)/service/)index\(.html)"' '"$1gaikoku$4"';
   replace: '<div class="officialAccount">.*?</div>' '<div class="officialAccount"><ul><li><a href="http://nijajani.com/" target="_blank"><img src="/smp/common/images/com_bn01.gif" width="104" alt=""></a></li><li class="socialPlugin noBorder"><ul><li><a href="http://weibo.cn/qr/userinfo?uid=5200185773" target="_blank"><img src="/smp/common/images/com_ic23.png" width="31" alt="weibo"></a></li><li><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/smp/common/images/com_ic24.png" width="31" alt="WeChat"></a></li><li><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/smp/common/images/com_ic25.png" width="31" alt="Facebook"></a></li></ul></li></ul></div>';
 }
