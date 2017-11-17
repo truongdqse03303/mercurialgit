@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER BUSINESS";
 }
+
+@postprocess {
+	replace:'<!--cltx-->□<ul class="bnr box">' '<!--cltx--><ul class="bnr box">';
+}

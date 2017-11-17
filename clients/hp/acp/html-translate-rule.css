@@ -1,10 +1,26 @@
 #headerbox > .inner > .googlesearch > #cse-search-form,
 .columnRight > .bnr,
-#header > p {
+#header > p,
+#detail > .photo {
 	attribute: cltx add 'exclude';
 }
 
 @preprocess {
+        replace:'<link href="/material/css/products.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/products.css" rel="stylesheet" type="text/css">';
+        replace:'<script type="text/javascript" src="/material/lightbox/js/prototype.js">' '<script type="text/javascript" src="//www.daiomfg.co.jp/material/lightbox/js/prototype.js">';
+        replace:'<script type="text/javascript" src="/material/lightbox/js/scriptaculous.js?load=effects,builder">' '<script type="text/javascript" src="//www.daiomfg.co.jp/material/lightbox/js/scriptaculous.js?load=effects,builder">';
+        replace:'<script type="text/javascript" src="/material/lightbox/js/lightbox.js">' '<script type="text/javascript" src="//www.daiomfg.co.jp/material/lightbox/js/lightbox.js">';
+        replace:'<link rel="stylesheet" href="/material/lightbox/css/lightbox.css" type="text/css" media="screen" />' '<link rel="stylesheet" href="//www.daiomfg.co.jp/material/lightbox/css/lightbox.css" type="text/css" media="screen" />';
+        replace:'<script type="text/javascript" src="/material/js/jquery.lightbox.js">' '<script type="text/javascript" src="//www.daiomfg.co.jp/material/js/jquery.lightbox.js">';
+        replace:'<link href="/material/css/lightbox.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/lightbox.css" rel="stylesheet" type="text/css">';
+        replace:'<script type="text/javascript" src="/material/js/jquery.flatheights.js">' '<script type="text/javascript" src="//www.daiomfg.co.jp/material/js/jquery.flatheights.js">';
+        replace:'<link href="/material/css/customer.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/customer.css" rel="stylesheet" type="text/css">';
+        replace:'<script src="/material/include/header.js" type="text/javascript" charset="UTF-8">' '<script src="//www.daiomfg.co.jp/material/include/header.js" type="text/javascript" charset="UTF-8">';
+        replace:'<script src="/material/include/footer.js" type="text/javascript" charset="UTF-8">' '<script src="//www.daiomfg.co.jp/material/include/footer.js" type="text/javascript" charset="UTF-8">';
+        replace:'<link href="/material/css/works.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/works.css" rel="stylesheet" type="text/css">';
+        replace:'<link href="/material/css/quality.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/quality.css" rel="stylesheet" type="text/css">';
+        replace:'<link href="/material/css/catalog.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/catalog.css" rel="stylesheet" type="text/css">';
+        replace:'<link href="/material/css/environment.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/environment.css" rel="stylesheet" type="text/css">';
         replace:'<link href="/material/css/netshop.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/netshop.css" rel="stylesheet" type="text/css">';
         replace:'<link href="/material/css/characteristics.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/characteristics.css" rel="stylesheet" type="text/css">';
         replace:'<link href="/material/css/company.css" rel="stylesheet" type="text/css">' '<link href="//www.daiomfg.co.jp/material/css/company.css" rel="stylesheet" type="text/css">';
