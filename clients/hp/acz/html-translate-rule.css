@@ -1,0 +1,9 @@
+#visual,
+#Facebook,
+#Twitter {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<span style="color:(.*?)">(.*?)（<span style="color:(.*?)">(.*?)</span>）(.*?)</span>' '<span style="color:$1">$2<br style="display:none;">（<br style="display:none;"><span style="color:$3">$4</span><br style="display:none;">）$5</span>';
+}
