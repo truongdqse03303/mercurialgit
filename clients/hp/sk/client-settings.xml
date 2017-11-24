@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.takayama-gh.com" />
+    <request hostname="www.takayama-gh.com" ssl="true" />
     <request hostname="takayama-gh.com" />
   </request-list>
 
