@@ -1,5 +1,6 @@
 @preprocess {
 	replace:'<span class="showcase-expand"(.*?)><i class="fa fa-angle-double-down"></i>(.*?)</span>' '<span class="showcase-expand"$1><i class="fa fa-angle-double-down"></i>$2</span><br style="display:none;">';
+	replace:'<span class="category-expand"(.*?)>(.*?)</span>' '<span class="category-expand"$1>$2</span><br style="display:none;">';
 }
 
 @postprocess {
