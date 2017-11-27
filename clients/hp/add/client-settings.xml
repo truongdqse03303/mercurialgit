@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>おおさか防災ネット</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>osaka-bousai/service 8618edcc07ee2c4d07bb309c526ff42f4ae35f7e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.osaka-bousai.net.edgesuite-staging.net" />
+  </request-list>
+
+  <extension-param>
+    <param-name>site.translate.header.style</param-name>
+    <param-value>style: #site-translate-header-wrapper, #site-translate-icp{width:auto !important;}</param-value>
+  </extension-param>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
