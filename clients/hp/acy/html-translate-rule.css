@@ -38,5 +38,5 @@
 
 @preprocess {
 // replace:'http://www.orange-book.com/obwck50140/' 'http://www.orange-book.com.e.acy.hp.transer.com/obwck50140/';
- replace:'//image.orange-book.com/' '//image.orange-book.com.e.acy.hp.transer.com/';
+// replace:'//image.orange-book.com/' '//image.orange-book.com.e.acy.hp.transer.com/';
 }
