@@ -18,9 +18,9 @@
     <!-- 免責ヘッダーを絶対座標で指定 -->
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;}</param-value>
+    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} /* /cotoniorgarden/shinkawasaki/ */ #site-translate-icp {width: auto;} #linkNav a {padding-right: 0;font-size: 1.5rem;}#access li {margin: 0 0 3%;} @media screen and (max-width: 640px) {header .menu_btn {top: 54px;} header .sp_menu {top: 114px;} #linkNav a {font-size: 1.1rem;} #concept p{font-size: 90%;}}</param-value>
   </extension-param>
-  
+
     <!-- デフォルトでHTML断片翻訳を行うかどうか -->
   <extension-param>
    <param-name>default.fragment.translate</param-name>
@@ -33,6 +33,23 @@
     <url>http://www\.jrtk\.jp/search/search\.shtml</url>
     <url>http://www\.jrtk\.jp/r-lieto/urawatokiwa/</url>
   </url-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic ZGVtbzpkZW1v</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://www\.jrtk\.jp/cotoniorgarden/shinkawasaki.*</param-value>
+    </param>
+  </resource-handler>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>

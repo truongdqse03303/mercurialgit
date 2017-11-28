@@ -3,6 +3,15 @@ attribute:style add 'margin-top:44px;';
 }
 
 // @RULESET
+// URL #= //www.jrtk.jp/cotoniorgarden/shinkawasaki/.*
+@preprocess {
+replace:'<span class="font-s">(.*?)</span>' '<br style="display:none;"><span class="font-s">$1</span><br style="display:none;">';
+replace:'<p><span>(.*?)</span>(.*?)</p>' '<p><span>$1</span><br style="display:none;">$2</p>';
+replace:'<h3 class="shop">(.*?)<span>(.*?)</span></h3>' '<h3 class="shop">$1<br style="display:none;"><span>$2</span></h3>';
+replace:'<p>(.*?)<a (.*?)class="blank">(.*?)</a></p>' '<p>$1<br style="display:none;"><a $2class="blank">$3</a><br style="display:none;"></p>';
+}
+
+// @RULESET
 // URL = http://www.jrtk.jp/company/jigyou.html
 div#jigyou-left-box > ol > li > a {
 text-flow: break;
