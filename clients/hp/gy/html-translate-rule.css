@@ -1,0 +1,5 @@
+@preprocess {
+	replace:'<dd><a(.*?)><span class=(.*?)>(.*?)</span>(.*?)</a></dd>' '<dd><a$1><br style="display:none;"><span class=$2>$3</span><br style="display:none;">$4</a></dd>';
+	replace:'<dd class="tel">(.*?)<span>(.*?)</span>(.*?)</dd>' '<dd class="tel">$1<br style="display:none;"><span>$2</span><br style="display:none;">$3</dd>';
+	replace:'<dt>(.*?)<span class="infoic(.*?)">(.*?)</span>(.*?)</dt>' '<dt>$1<br style="display:none;"><span class="infoic$2">$3</span><br style="display:none;">$4</dt>';
+}
