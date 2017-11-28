@@ -1,0 +1,34 @@
+#site-translate-header-wrapper {
+  width: auto!important;
+}
+
+#content .pagenation .paging li span, #result-single-item .single .single-info {
+  width: auto!important;
+}
+
+#itemdetail-scroll .slider {
+  min-height: 220px!important;
+}
+
+/* 次へボタン */
+#content .pagenation .paging li a.next span {
+  padding: 0!important;
+}
+
+.navi-list-tab div.switch-tab ul li a span {
+  font-size: 88%;
+}
+
+.navi-list-tab div.switch-tab ul li:last-child {
+  width: 227px
+}
+
+/* 在庫数表示 */
+#cont-form-detail .zaikosu, .cont-form-single .zaikosu {
+  width: 600px !important;
+}
+
+/* アイテム説明 */
+.grouping .item-detail dl dd {
+	margin: 0 10px 0 8em !important;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>トラスコ中山株式会社</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>orange-book/service 616fea2b3493a9a5d55ab3e02ef4215f9b24067f</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.orange-book.com" />
+    <request hostname="image.orange-book.com" />
+  </request-list>
+
+  <extension-param>
+	<param-name>site.translate.header.style</param-name>
+	<param-value>client-settings.css</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
