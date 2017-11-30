@@ -14,3 +14,7 @@
 	replace:'<span>相談室・相談コーナー</span>' '<br style="display:none;"><span>相談室・相談コーナー</span><br style="display:none;">';
 	replace:'<span>医療関係者の方</span>' '<br style="display:none;"><span>医療関係者の方</span><br style="display:none;">';
 }
+
+div#pb.header_wrapper > .header_navigation > nav.global > ul > li > a {
+	attribute: style add 'line-height: normal !important;padding-top: 10%;';
+}
