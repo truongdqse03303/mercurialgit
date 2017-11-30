@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM MECHA";
 }
+
+@preprocess {
+  replace:'//image.orange-book.com/web/css/base.css' '//image.orange-book.com.e.acy.hp.transer.com/web/css/base.css';
+  replace:'//image.orange-book.com/web/css/layout.20150313.css' '//image.orange-book.com.e.acy.hp.transer.com/web/css/layout.20150313.css';
+}
