@@ -2,4 +2,15 @@
 	replace:'<dd><a(.*?)><span class=(.*?)>(.*?)</span>(.*?)</a></dd>' '<dd><a$1><br style="display:none;"><span class=$2>$3</span><br style="display:none;">$4</a></dd>';
 	replace:'<dd class="tel">(.*?)<span>(.*?)</span>(.*?)</dd>' '<dd class="tel">$1<br style="display:none;"><span>$2</span><br style="display:none;">$3</dd>';
 	replace:'<dt>(.*?)<span class="infoic(.*?)">(.*?)</span>(.*?)</dt>' '<dt>$1<br style="display:none;"><span class="infoic$2">$3</span><br style="display:none;">$4</dt>';
+	replace:'<div class="open1_title"><img(.*?)<small>(.*?)</small></div>' '<div class="open1_title"><img$1<br style="display:none;"><small>$2</small><br style="display:none;"></div>';
+}
+
+// @RULESET
+// URL #= //www.aichi-med-u.ac.jp/hospital/
+@preprocess {
+	replace:'<span>再診の方</span>' '<br style="display:none;"><span>再診の方</span><br style="display:none;">';
+	replace:'<span>外来担当医表</span>' '<br style="display:none;"><span>外来担当医表</span><br style="display:none;">';
+	replace:'<span>スタッフ一覧</span>' '<br style="display:none;"><span>スタッフ一覧</span><br style="display:none;">';
+	replace:'<span>相談室・相談コーナー</span>' '<br style="display:none;"><span>相談室・相談コーナー</span><br style="display:none;">';
+	replace:'<span>医療関係者の方</span>' '<br style="display:none;"><span>医療関係者の方</span><br style="display:none;">';
 }

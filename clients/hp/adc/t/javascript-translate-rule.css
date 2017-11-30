@@ -1,0 +1,9 @@
+// @RULESET
+// URL #= (http|https)://mitte-x-pre.phj.jp/fuchu-kankou/preview/new-mitte/js/mitte-app3.js
+// URL #= (http|https)://mitte-x-pre.phj.jp.t.adc.hp.transer.com/fuchu-kankou/preview/new-mitte/js/mitte-app3.js
+// URL #= (http|https)://www.kankou-fuchu.com/js/mitte-app3.js
+// URL #= (http|https)://www.kankou-fuchu.com.t.adc.hp.transer.com/js/mitte-app3.js
+@postprocess {
+ replace: '\'日本語\'\, link: \'http://mitte-x-pre.phj.jp.t.adc.hp.transer.com/fuchu-kankou/preview/new-mitte/\'', '\'日本語\'\, link: \'http://mitte-x-pre.phj.jp/fuchu-kankou/preview/new-mitte/\'';
+ replace: '\'日本語\'\, link: \'http://www.kankou-fuchu.com.t.adc.hp.transer.com/\'', '\'日本語\'\, link: \'http://www.kankou-fuchu.com/\'';
+}
