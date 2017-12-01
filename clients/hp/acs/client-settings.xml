@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.vissel-kobe.co.jp" ssl="true" />
+    <request hostname="www-tst.vissel-kobe.co.jp" />
   </request-list>
 
   <extension-param>
@@ -28,6 +29,23 @@
       <param-value>JAVASCRIPT</param-value>
     </param>
     <priority>4</priority>
+  </resource-handler>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic dXNlci10c3Q6djNlUGRzMkE=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://www-tst\.vissel-kobe\.co\.jp.*</param-value>
+    </param>
   </resource-handler>
 
   <!-- サイトで使用される文字セット -->
