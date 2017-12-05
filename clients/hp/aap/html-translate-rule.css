@@ -10,5 +10,5 @@ header.page-header {
 
 @preprocess {
   replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
-  replace:'<li class="clearfix"><span class="date">(.*?)</span><span class="text pc">(.*?)</span><span class="text sp">(.*?)</span>' '<li class="clearfix"><span class="date">$1</span><br style="display:none;"><span class="text pc">$2</span><br style="display:none;"><span class="text sp">$3</span>';
+  replace:'<li class="clearfix"><span class="date">(.*?)</span><span class="text pc">(.*?)</span><span class="text sp">(.*?)</span>' '<li class="clearfix"><br style="display:none;"><span class="date">$1</span><br style="display:none;"><span class="text pc">$2</span><br style="display:none;"><span class="text sp">$3</span><br style="display:none;">';
 }
