@@ -1,3 +1,7 @@
 div.bx-controls-direction {
  attribute: cltx add 'exclude';
 }
+
+@preprocess {
+	replace:'<a href=\'(.*?)\' class=\'result_list_anc\'>(.*?)</a>' '<a href=\'$1\' class=\'result_list_anc\'>$2</a><br style="display:none;">';
+}
