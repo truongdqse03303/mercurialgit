@@ -15,3 +15,7 @@
   replace:'//image.orange-book.com/web/css/base.css' '//image.orange-book.com.e.acy.hp.transer.com/web/css/base.css';
   replace:'//image.orange-book.com/web/css/layout.20150313.css' '//image.orange-book.com.e.acy.hp.transer.com/web/css/layout.20150313.css';
 }
+
+@postprocess {
+	replace:'<input name="freeword"(.*?)>' '<input name="freeword"$1 placeholder="Search keyword,item No,etc">';
+}

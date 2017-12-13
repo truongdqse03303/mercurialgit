@@ -1,4 +1,4 @@
-#site-translate-header-wrapper {
+﻿#site-translate-header-wrapper {
   width: auto!important;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .navi-list-tab div.switch-tab ul li:last-child {
-  width: 227px
+  width: 227px;
 }
 
 /* 在庫数表示 */
@@ -31,4 +31,9 @@
 /* アイテム説明 */
 .grouping .item-detail dl dd {
 	margin: 0 10px 0 8em !important;
+}
+
+/* placeholder */
+#search input.txt-search-word {
+    background-image: none !important;
 }
