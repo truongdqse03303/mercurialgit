@@ -1,4 +1,7 @@
-#site-translate-header-wrapper{width:100% !important}
+#site-translate-header-wrapper{
+	width:100% !important;
+	margin: 0 auto 2px;
+}
 
 *{letter-spacing: normal !important;}
 
