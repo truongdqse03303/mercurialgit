@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>株式会社ながのアド・ビューロ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nagano-cvb/service a347b7deb3b1d260a688c683a120ea8d823efecb</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="convention.nagano-cvb.or.jp" />
+  </request-list>
+
+  <extension-param>
+	<param-name>site.translate.header.style</param-name>
+	<param-value>client-settings.css</param-value>
+  </extension-param>
+
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+	<url>(http|https)://convention\.nagano-cvb\.or\.jp/member</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

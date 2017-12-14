@@ -1,0 +1,11 @@
+// @RULESET
+// URL #= //convention.nagano-cvb.or.jp/subsidy/bus/
+@preprocess {
+	replace:'1回当たりの使用時問' '<br style="display:none;">1回当たりの使用時問';
+}
+
+// @RULESET
+// URL #= //convention.nagano-cvb.or.jp/tourism/golf/
+@preprocess {
+	replace:'<p>【住所】(.*?)【TEL】(.*?)\〈予約専用\〉(.*?)</p>' '<p>【住所】$1<br style="display:none;">【TEL】$2<br style="display:none;">\〈<br style="display:none;">予約専用<br style="display:none;">\〉$3</p>';
+}

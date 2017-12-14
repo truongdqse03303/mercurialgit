@@ -1,0 +1,13 @@
+#site-translate-header-wrapper{width:100% !important}
+
+*{letter-spacing: normal !important;}
+
+header .header-pc .tel a{
+	letter-spacing: normal;
+}
+
+.facility th, .facility td {
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
