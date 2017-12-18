@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>京都・時代祭館 十二十二</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>1022-kyoto/service 4997cfdd0425d1f11ac6d90cdcb92e5a95c84ea4</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="1022.kyoto" />
+  </request-list>
+
+  <extension-param>
+	<param-name>site.translate.header.style</param-name>
+	<param-value>client-settings.css</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
