@@ -48,3 +48,16 @@
     line-height: normal;
 	font-size: 0.5em;
 }
+
+@media screen and (max-width:767px) {
+	#top_header_container #header_nav {
+		font-size: 70%;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1079px) {
+
+	#header_nav ul li a {
+	    font-size: 80%;
+	}
+}
