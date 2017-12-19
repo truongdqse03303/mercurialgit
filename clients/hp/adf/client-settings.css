@@ -1,0 +1,50 @@
+#site-translate-header-wrapper{
+	width:auto !important;
+} 
+
+/* menu */
+#menu-pc_search {
+	min-width: 225px;
+}
+
+#c_header_container > #grobal_header ul li {
+	font-size: 90%;
+	width: auto;
+}
+
+#header_nav ul.sub-menu li {
+    height: 35px;
+    line-height: normal;
+    padding: 6% 0 0;
+}
+
+/* top right column time */
+#nav_container dl {
+	font-size: 73%;
+}
+
+#nav_container dl dd span{
+	width :auto;
+}
+
+#c_header_container > #grobal_header #header_nav {
+	margin-left: 0;
+}
+
+.child_content dt {
+    width: 10em;
+}
+
+.child_content dd {
+    margin-left: 12em;
+}
+
+.lib_type {
+    font-size: 0.5em;
+}
+
+.info-event-table .lib_type,
+.content-event .lib_type {
+    line-height: normal;
+	font-size: 0.5em;
+}
