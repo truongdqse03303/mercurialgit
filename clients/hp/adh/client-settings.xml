@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>mozoワンダーシティ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>mozo-wondercity/service 1a921679148993de5632099f3852b6869ee6594e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.mozo-wondercity.com" />
+  </request-list>
+
+  <extension-param>
+	<param-name>site.translate.header.style</param-name>
+	<param-value>client-settings.css</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
