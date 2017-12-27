@@ -6,7 +6,9 @@ nav.owa-menu {
  attribute:style add 'margin-top:44px;';
 }
 
-div.whatIs-wrap {
+div.whatIs-wrap,
+.cl-notranslate,
+.owa-menu__lang-list {
  attribute:cltx add 'exclude';
 }
 
