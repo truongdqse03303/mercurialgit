@@ -1,4 +1,85 @@
-#site-translate-header-wrapper{
+#site-translate-header-wrapper {
 	width:auto !important;
 	margin: 0 auto 2px;
-} 
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+#shop .lineup .box:lang(en) {
+    min-height: 450px;
+    position: relative;
+}
+
+#shop .lineup .box_in:lang(en) {
+	border-bottom: none;
+}
+
+#shop .lineup .box_in2:lang(en) {
+    height: 155px;
+}
+
+#shop .lineup .box_in2:lang(ko) {
+    height: 95px;
+}
+
+#shop .lineup .bt_more:lang(en) {
+    position: absolute;
+    bottom: 10px;
+    border-top: 1px #333 dotted;
+    padding-top: 10px;
+}
+
+#heian_shrine .bt_box,
+#jidai_matsuri .bt_box {
+    width: 500px;
+}
+
+#heian_shrine .bt_box .li1 a,
+#jidai_matsuri .bt_box .li1 a {
+    width: auto;
+}
+
+#footer_m .f_bt a:lang(en) {
+	width: 100%;
+    padding: 0 5%;
+	height: 40px;
+	line-height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+	.btn {
+		top: 75px;
+	}
+
+	#heian_shrine .bt_box .li1 a:lang(en) {
+		font-size: unset;
+	}
+
+	#shop .lineup .box_in:lang(en) {
+		border-bottom: none;
+	}
+
+	#shop .lineup .box_in2:lang(en) {
+	    height: 155px;
+	}
+
+	#shop .lineup .bt_more:lang(en) {
+	    position: absolute;
+	    bottom: 10px;
+	    border-top: 1px #333 dotted;
+	    padding-top: 10px;
+	}
+
+	#heian_shrine .bt_box,
+	#jidai_matsuri .bt_box {
+	    width: auto;
+	}
+
+	#footer_m .f_bt a:lang(en) {
+	    padding: 0;
+		font-size: 65%;
+	}
+}
