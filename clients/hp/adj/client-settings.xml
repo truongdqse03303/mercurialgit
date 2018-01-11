@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>東京ミッドタウン日比谷</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hibiya-midtown/service d1af45f46e0c25d82f6f0de46cea1dccff5591bd</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="hibiya.tokyo-midtown.com" ssl="true" />
+    <request hostname="www.hibiya.tokyo-midtown.com" ssl="true" />
+    <request hostname="dev-www-hibiya.tokyo-midtown.com" path="/en" />
+  </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic dG1oLWRldjoybko4bXNocQ==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://dev-www-hibiya\.tokyo-midtown\.com/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+	<url>https://www\.hibiya\.tokyo-midtown\.com/en/hall-conference/.*</url>
+	<url>https://www\.hibiya\.tokyo-midtown\.com/en/conference/.*</url>
+	<url>https://www\.hibiya\.tokyo-midtown\.com/en/hall-conference/sp/.*</url>
+	<url>https://www\.hibiya\.tokyo-midtown\.com/en/conference/sp/.*</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
