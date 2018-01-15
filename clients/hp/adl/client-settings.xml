@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>姫路観光コンベンションビューロー</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>himeji-kanko/service 0c8eda68ff9c08731cf80114367609f05728493d</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.himeji-kanko.jp" ssl="true" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

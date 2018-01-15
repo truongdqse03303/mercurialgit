@@ -1,0 +1,29 @@
+.stop_btn,
+.play_btn,
+.prev,
+.next {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<li id="tmp_hlist(.*?)">(.*?)<span>(.*?)</span><span>(.*?)</span></a></li>' '<li id="tmp_hlist$1">$2<span>$3</span><br style="display:none;"><span>$4</span></a></li>';
+	replace:'<li class="bnavi(.*?)">(.*?)<span>(.*?)</span><span>(.*?)</span></a>(.*?)</li>' '<li class="bnavi$1">$2<span>$3</span><br style="display:none;"><span>$4</span></a>$5</li>';
+	replace:'<div class="col2L">(.*?)<p><strong>(.*?)</strong>(.*?)</p>(.*?)</div>' '<div class="col2L">$1<p><strong>$2</strong><br style="display:none;">$3</p>$4</div>';
+	replace:'<div class="col2R">(.*?)<p><strong>(.*?)</strong>(.*?)</p>(.*?)</div>' '<div class="col2R">$1<p><strong>$2</strong><br style="display:none;">$3</p>$4</div>';
+}
+
+// @RULESET
+// URL #= //pub.iko.city-oita.cms8341.jp/shisejoho/kohokocho/koho/dogachannel.*
+// URL #= //pub.iko.city-oita.cms8341.jp.e.adk.hp.transer.com/shisejoho/kohokocho/koho/dogachannel.*
+// URL #= //pub.iko.city-oita.cms8341.jp/shigikai.*
+// URL #= //pub.iko.city-oita.cms8341.jp.e.adk.hp.transer.com/shigikai.*
+// URL #= //pub.iko.city-oita.cms8341.jp/oitapride.*
+// URL #= //pub.iko.city-oita.cms8341.jp.e.adk.hp.transer.com/oitapride.*
+// URL #= //pub.iko.city-oita.cms8341.jp/o029/shisejoho/kohokocho.*
+// URL #= //pub.iko.city-oita.cms8341.jp.e.adk.hp.transer.com/o029/shisejoho/kohokocho.*
+// URL #= //pub.iko.city-oita.cms8341.jp/bunkasports/bunka/bijutsukan.*
+// URL #= //pub.iko.city-oita.cms8341.jp.e.adk.hp.transer.com/bunkasports/bunka/bijutsukan.*
+
+@postprocess {
+	replace: '<body class="(.*?)">' '<body class="$1 header_re">';
+}
