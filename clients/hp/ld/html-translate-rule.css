@@ -1,3 +1,7 @@
+@preprocess {
+ replace: '<span class="arrow">(.*?)</span>' '<br style="display:none;"><span class="arrow">$1</span><br style="display:none;">';
+}
+
 // @RULESET
 // URL #= http://www.sogo-seibu.jp/foreign/(en|ch|ty|ko)/(ikebukuro|shibuya)/sale.html
 span {
