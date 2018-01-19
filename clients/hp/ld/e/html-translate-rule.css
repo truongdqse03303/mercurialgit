@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT";
 }
+
+@postprocess {
+ replace: 'Furukawa headspring' 'Izumi Kogahara';
+}
