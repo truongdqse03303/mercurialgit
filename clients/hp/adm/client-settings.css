@@ -1,0 +1,20 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+* {
+    letter-spacing: normal !important;
+}
+
+
+@media print, screen and (min-width: 768px) {
+
+	.wd20 {
+	    width: auto !important;
+	}
+
+}

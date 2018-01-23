@@ -1,0 +1,52 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+* {
+    letter-spacing: normal !important;
+}
+
+.searchList .inner .searchListTxt dt {
+	width: auto;
+}
+
+.searchList .inner .searchListTxt dd {
+    width: unset;
+}
+
+#footNav a {
+    margin: .5em .2em;
+}
+
+@media print, screen and (min-width: 768px) {
+
+	#globalNav:lang(en) {
+	    width: 90%;
+	}
+
+	#mainNav li:lang(en) {
+	    width: auto;
+		padding: 1% 1.6%;
+	}
+
+	.wd60:lang(en) {
+    	width: 75% !important;
+	}
+
+	.pamphlet .clm3 > li.fll:lang(en) {
+    	width: 47% ;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	#globalNav h2 {
+	    top: 105px;
+	}
+
+}
