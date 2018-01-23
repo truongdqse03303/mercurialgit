@@ -1,0 +1,28 @@
+#footer-fb {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<p>(.*?)歴史を旅する姫路探索(.*?)</p>' '<p>$1<br style="display:none;">歴史を旅する姫路探索<br style="display:none;">$2</p>';
+	replace:'<h3><span>(.*?)</span>(.*?)</h3>' '<h3><span>$1</span><br style="display:none;">$2</h3>';
+	replace:'<div class="search-box-inner">(.*?)<h2>(.*?)<span>(.*?)</span></h2>' '<div class="search-box-inner">$1<h2>$2<br style="display:none;"><span>$3</span></h2>';
+	replace:'<h3 class="area">(.*?)<span>(.*?)</span></h3>' '<h3 class="area">$1<br style="display:none;"><span>$2</span></h3>';
+	replace:'<h3 class="category">(.*?)<span>(.*?)</span></h3>' '<h3 class="category">$1<br style="display:none;"><span>$2</span></h3>';
+	replace:'<h3 class="ttl">(.*?)<span>(.*?)</span>(.*?)</h3>' '<h3 class="ttl">$1<br style="display:none;"><span>$2</span>$3</h3>';
+}
+
+@postprocess {
+	replace:'<div class="search-number"><p><!--cltx-->Search results:<span>(.*?)</span>(.*?) of (.*?) eyes</p></div>' '<div class="search-number"><p><!--cltx-->Search results:$1$2 of <span>$3</span> eyes</p></div>';
+}
+
+// @RULESET
+// URL #= //www\.himeji-kanko\.jp/pamphlet/.*
+@preprocess {
+	replace:'<a href="/content/(.*?)" target="_blank">(.*?)</a>' '<br style="display:none;"><a href="/content/$1" target="_blank">$2</a><br style="display:none;">';
+}
+
+// @RULESET
+// URL #= //www\.himeji-kanko\.jp/bureau/.*
+@preprocess {
+	replace:'<a href="/pdf/(.*?)" target="_blank">(.*?)</a>' '<br style="display:none;"><a href="/pdf/$1" target="_blank">$2</a><br style="display:none;">';
+}
