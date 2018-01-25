@@ -1,3 +1,7 @@
+@preprocess {
+	replace:'<!-- /crosslanguage:delete -->(.*?)<!-- /crosslanguage:delete-->' '';
+}
+
 // @RULESET
 // URL #= //convention.nagano-cvb.or.jp/subsidy/bus/
 @preprocess {
