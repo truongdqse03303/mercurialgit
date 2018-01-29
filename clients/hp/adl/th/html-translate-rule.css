@@ -10,3 +10,12 @@
   eid: CR-JT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM";
 }
+
+@preprocess {
+	replace:'<!-- crosslanguage-th:show(.*?)/crosslanguage-th:show -->' '$1';
+}
+
+#top-event-box,
+#tourism-box {
+	attribute: cltx add 'exclude';
+}

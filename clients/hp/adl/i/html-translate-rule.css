@@ -10,3 +10,7 @@
   eid: BR-JA.IT.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
 }
+
+@preprocess {
+	replace:'<!-- crosslanguage-i:show(.*?)/crosslanguage-i:show -->' '$1';
+}
