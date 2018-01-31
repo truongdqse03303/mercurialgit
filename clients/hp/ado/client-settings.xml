@@ -17,6 +17,11 @@
 	<param-value>client-settings.css</param-value>
   </extension-param>
 
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+	<url>(http|https)://www\.expo2025-osaka-japan\.jp/wp/wp-admin</url>
+  </url-list>
+
   <!-- Basic認証 -->
   <resource-handler>
     <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
