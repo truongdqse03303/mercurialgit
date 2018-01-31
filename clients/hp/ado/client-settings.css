@@ -1,0 +1,43 @@
+
+
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+* {
+    letter-spacing: normal !important;
+}
+
+#header {
+    height: auto;
+}
+
+.txtIntroHdr {
+    font-size: 96%;
+}
+
+.gloval_language {
+    margin-right: 15px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+	#site-translate-header-wrapper {
+	    position: fixed;
+	}
+
+	#header {
+	    top: 44px;
+		padding: 0;
+	}
+
+	.toprightbn {
+	    top: 84px;
+	}
+
+}

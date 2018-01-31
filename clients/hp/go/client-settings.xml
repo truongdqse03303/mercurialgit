@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.otaru.lg.jp" />
+    <request hostname="www.city.otaru.lg.jp" ssl="true" />
     <request hostname="otaru.gr.jp" />
   </request-list>
 
