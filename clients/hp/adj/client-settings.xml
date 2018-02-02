@@ -11,6 +11,8 @@
     <request hostname="hibiya.tokyo-midtown.com" ssl="true" />
     <request hostname="www.hibiya.tokyo-midtown.com" ssl="true" />
     <request hostname="dev-www-hibiya.tokyo-midtown.com" path="/en" />
+    <request hostname="cms-hibiya.tokyo-midtown.com" path="/en" />
+
   </request-list>
 
   <!-- Basic認証 -->
