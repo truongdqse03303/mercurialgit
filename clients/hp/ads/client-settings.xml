@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>grooo</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>grooo/service 5fdfa9ef62c411b3277d643b9144f0f01c76498a</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.grooo.co.jp" ssl="true" ssl_verifypeer="false" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
