@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
 
+@preprocess {
+	replace:'UA-6770989-14' 'UA-6770989-16';
+}
+
 @postprocess {
 	replace:'<input type="text" name="ess_string" placeholder=(.*?)>' '<input type="text" name="ess_string" placeholder="請輸入學校全稱或部分學校名">';
 }

@@ -15,6 +15,10 @@ body {
   attribute: lang add 'zh';
 }
 
+@preprocess {
+	replace:'UA-6770989-14' 'UA-6770989-17';
+}
+
 @postprocess {
 	replace:'<input type="text" name="ess_string" placeholder=(.*?)>' '<input type="text" name="ess_string" placeholder="请输入学校全称或部分学校名">';
 }

@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM BUSINESS";
 }
 
+@preprocess {
+	replace:'UA-6770989-14' 'UA-6770989-15';
+}
+
 @postprocess {
 	replace:'<input type="text" name="ess_string" placeholder=(.*?)>' '<input type="text" name="ess_string" placeholder="Please enter University/College name">';
 }
