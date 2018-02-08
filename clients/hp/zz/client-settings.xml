@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.rehouse.co.jp" path="(/cityBukkenList/.*|/toshin/search/.*|/toshin/bkdetail/.*|/toushi/search/.*|/toushi/bkdetail/.*|/investBukkenList/.*)" />
+    <request hostname="spot.rehouse.co.jp" path="(/cityBukkenList/.*|/toshin/search/.*|/toshin/bkdetail/.*|/toushi/search/.*|/toushi/bkdetail/.*|/investBukkenList/.*)" />
   </request-list>
 
   <!-- サイトで使用される文字セット -->
