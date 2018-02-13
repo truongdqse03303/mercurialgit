@@ -1,0 +1,23 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+* {
+    letter-spacing: normal !important;
+}
+
+@media (max-width: 768px) {
+
+	#site-translate-header-wrapper p {
+	    font-size: 11px;
+	}
+
+	.top_mainVisual_text {
+	    font-size: 24px;
+	}
+
+}

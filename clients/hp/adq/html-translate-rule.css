@@ -1,0 +1,3 @@
+@preprocess {
+	replace:'<p id="js_countdown"(.*?)>(.*?)<br class="u_pcHide">(.*?)<br>(.*?)<br>あと<span>(.*?)</span>日</p>' '<p id="js_countdown"$1>$2<br class="u_pcHide">$3<br>$4<br>あと<br style="display:none;"><span>$5</span><br style="display:none;">日</p>';
+}

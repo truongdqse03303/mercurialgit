@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine rokko-island/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine rokko-island/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+@postprocess {
+	replace:'<option value=(.*?)//www.rokko-island.com' '<option value=$1//www.rokko-island.com.k.adp.hp.transer.com';
+}

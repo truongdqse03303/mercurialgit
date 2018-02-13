@@ -1,0 +1,20 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM";
+}
+@engine rokko-island/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM";
+}
+@engine rokko-island/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM";
+}
+
+body {
+  attribute: lang add 'zh';
+}
+
+@postprocess {
+	replace:'<option value=(.*?)//www.rokko-island.com' '<option value=$1//www.rokko-island.com.c.adp.hp.transer.com';
+}

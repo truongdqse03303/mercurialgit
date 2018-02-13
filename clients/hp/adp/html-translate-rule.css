@@ -1,0 +1,6 @@
+@preprocess {
+	replace:'<p class="price"><span>(.*?)</span>(.*?)</p>' '<p class="price"><span>$1</span><br style="display:none;">$2</p>';
+	replace:'<div class="search-number">(.*?)<em>(.*?)</em>(.*?)</div>' '<div class="search-number">$1<br style="display:none;"><em>$2</em><br style="display:none;">$3</div>';
+	replace:'<span class="previous"><a(.*?)>(.*?)</a></span>' '<span class="previous"><a$1>$2</a></span><br style="display:none;">';
+	replace:'<span class="next"><a(.*?)>(.*?)</a></span>' '<br style="display:none;"><span class="next"><a$1>$2</a></span>';
+}

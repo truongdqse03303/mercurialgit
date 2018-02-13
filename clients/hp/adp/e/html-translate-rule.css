@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOURMET INTERNET";
+}
+@engine rokko-island/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOURMET";
+}
+@engine rokko-island/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
+}
+
+@postprocess {
+	replace:'<option value=(.*?)//www.rokko-island.com' '<option value=$1//www.rokko-island.com.e.adp.hp.transer.com';
+}
