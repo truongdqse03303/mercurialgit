@@ -1,3 +1,7 @@
 #social {
 	attribute: cltx add 'exclude';
 }
+
+.topsponsor{
+	attribute: cltx add 'exclude';
+}
