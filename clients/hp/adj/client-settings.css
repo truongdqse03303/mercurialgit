@@ -1,0 +1,40 @@
+#site-translate-header-wrapper {
+	width:100% !important;
+	z-index: 10000;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+.header{
+	top: 27px;
+}
+
+.content{
+	padding-top: 177px;
+}
+
+
+@media only screen and (max-width: 640px){
+	.header{
+		top: 45px;
+	}
+
+	.content{
+		padding-top: 101px;
+	}
+}
+
+@media only screen and (max-width: 355px){
+	.header{
+		top: 63px;
+	}
+
+	.content{
+		padding-top: 119px;
+	}
+}

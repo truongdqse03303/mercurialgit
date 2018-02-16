@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
 }
+
+@preprocess{
+              replace:'<a href="(.*?)/jp/(.*?)"(.*?)>' '<a href="$1/en/$2"$3>';
+              replace:'<form action="(.*?)/jp/(.*?)"(.*?)>' '<form action="$1/en/$2"$3>';
+}
