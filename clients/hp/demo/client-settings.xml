@@ -8,7 +8,7 @@
 
   <!-- クライアントが使用できるドメインの一覧 -->
   <request-list>
-    <request hostname="[^/]+" />
+    <request hostname="[^/]+" ssl="true" />
   </request-list>
   
   <!-- Microsoft Translatorロゴを表示する設定ID -->
