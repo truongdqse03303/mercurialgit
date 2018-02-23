@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>世田谷区観光協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kanko-setagaya/service 38bed985a60e9f0f13c495443518eb81a97a7397</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kanko-setagaya.jp" />
+    <request hostname="mitte-x-pre.phj.jp" path="/kanko-setagaya/preview/" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
