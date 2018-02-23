@@ -12,6 +12,11 @@
 }
 
 @preprocess{
-              replace:'<a href="(.*?)/jp/(.*?)"(.*?)>' '<a href="$1/en/$2"$3>';
-              replace:'<form action="(.*?)/jp/(.*?)"(.*?)>' '<form action="$1/en/$2"$3>';
+	replace:'<a href="(.*?)/jp/(.*?)"(.*?)>' '<a href="$1/en/$2"$3>';
+	replace:'<form action="(.*?)/jp/(.*?)"(.*?)>' '<form action="$1/en/$2"$3>';
+}
+
+@postprocess{
+	replace:'<a href="(.*?)/en/" class="cl-norewrite">' '<a href="$1/jp/" class="cl-norewrite">';
+	replace:'<a href="(.*?)/en/(.*?)" class="cl-norewrite">' '<a href="$1/jp/$2" class="cl-norewrite">';
 }
