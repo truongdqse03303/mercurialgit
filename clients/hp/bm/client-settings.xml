@@ -16,10 +16,10 @@
         <path value="/store/1210/" />
       </path-list>
     </request>
-    <request hostname="mitsukoshi.mistore.jp">
+    <request hostname="mitsukoshi.mistore.jp" ssl="true">
       <path-list>
         <path value="/store.*" />
-        <path value="/sp/store.*" />        
+        <path value="/sp/store.*" />
       </path-list>
     </request>
   </request-list>
