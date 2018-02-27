@@ -1,0 +1,5 @@
+/* 翻訳除外 */
+.T4 .home-content .style-special .pager .slide-next,
+.T4 .home-content .style-special .pager .slide-prev{
+	attribute:cltx add 'exclude';
+}
