@@ -1,0 +1,10 @@
+@preprocess {
+	replace:'<h3>(.*?)<span>(.*?)</span></h3>' '<h3>$1<br style="display:none;"><span>$2</span></h3>';
+
+}
+
+@preprocess {
+		replace:'<a class="plink"(.*?)>(.*?)</a>' '<br style="display:none;"><a class="plink"$1>$2</a><br style="display:none;">';
+		replace:'<span class="blank">(.*?)<i class="fa fa-chevron-right" aria-hidden="true"></i></span>' '<br style="display:none;"><span class="blank">$1<i class="fa fa-chevron-right" aria-hidden="true"></i></span>';
+		replace:'<span class="blank"><i class="fa fa-chevron-left" aria-hidden="true"></i>(.*?)</span>' '<span class="blank"><i class="fa fa-chevron-left" aria-hidden="true"></i>$1</span><br style="display:none;">';
+}
