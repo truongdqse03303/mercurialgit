@@ -1,5 +1,11 @@
 /* 翻訳除外 */
-.T4 .home-content .style-special .pager .slide-next,
-.T4 .home-content .style-special .pager .slide-prev{
+.pager,
+.pager li,
+.section-items,
+.style-special{
 	attribute:cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<span class="calendar-year">(.*?)</span><span class="calendar-month">(.*?)</span>' '<span class="calendar-year">$1</span><br style="display:none;"><span class="calendar-month">$2</span>';
 }
