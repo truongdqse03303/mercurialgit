@@ -1,0 +1,4 @@
+.cmn-header > .hd-btn,
+.side-head > .close-btn{
+	attribute: cltx add 'exclude';
+}

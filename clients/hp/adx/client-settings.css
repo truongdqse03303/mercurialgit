@@ -1,0 +1,84 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+.wrapper{
+	margin: 44px auto 0;
+}
+
+.gnav-fixed{
+	top: 44px !important;
+}
+
+.cmn-header-wrapper{
+	z-index: 101;
+	margin: 44px auto 0;
+}
+
+.side-menu-in{
+	padding-top: 44px;
+}
+
+#gDef,
+#page{
+	margin: 44px auto 0;
+}
+
+.event-block .item-list-type01 li .item-text .date,
+.shopnews-block .block-contents .title,
+.information-block .block-contents ul .text,
+.detail-entry .entry-cont,
+.page-event-detail .detail .detail-entry,
+.page-shop-detail .entry-body .detail-text-block,
+.culture-list li,
+.cmn-intro .text-wrap,
+.item-list-type02 li .text,
+.item-list-type01 li .item-text .date,
+.cmn-contents.service table th,
+.cmn-contents.service table td,
+.cmn-contents .text,
+.cmn-page-wrapper .cmn-contents,
+table td,
+.faq-box dd{
+	letter-spacing: normal;
+}
+
+.page-shop-detail .entry-body .detail-text-block .detail-info th{
+	width: 125px;
+}
+
+.cmn-details .detail-info th{
+	width: 120px;
+}
+
+@media screen and (max-width: 412px){
+	.gmap-contents .btn-type01:lang(en){
+		font-size: 3.0625vw;
+	}
+
+	.gmap-contents .btn-type01 a:lang(en){
+		text-align: left;
+		padding-left: 30px;
+	}
+
+	.gmap-contents .btn-type01:lang(en) a:after{
+		right: 30px;
+	}
+}
