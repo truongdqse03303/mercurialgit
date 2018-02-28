@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>プレイアトレ土浦</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>playatre/service ae80bcf4f7bbd0baae05d6fb9b3b8704ece07e6b</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="playatre.com" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
