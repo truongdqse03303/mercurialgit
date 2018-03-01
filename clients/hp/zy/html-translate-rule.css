@@ -1,3 +1,7 @@
+@preprocess {
+	replace:'<li class="crnt cl-norewrite"><a href="http://(.*?)">日本語</a></li>' '<li class="crnt cl-norewrite"><a href="https://$1">日本語</a></li>';
+}
+
 // @RULESET
 // URL #= http://www\.trans-action\.co\.jp.*?
 header#top-head {
