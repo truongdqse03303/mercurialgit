@@ -1,0 +1,29 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:30px;
+	position:fixed;
+	top:0;
+	z-index:10000;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+}
+
+#topicsWrap ul li,
+#company_infoWrap ul li {
+    float: none;
+    display: inline-block;
+    margin-right: 35px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 667px) {
+
+	#topicsWrap ul li,
+	#company_infoWrap ul li {
+	    width: 45%;
+		margin-right: 0;
+	}
+
+}
