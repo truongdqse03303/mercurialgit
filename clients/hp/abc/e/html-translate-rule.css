@@ -10,28 +10,3 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER HOBBY ENTER";
 }
-
-/* メンテナンス情報 */
-#faqContainer > ul.smpList02 > li.mainCategory > a.icon_arrow_a {
-	attribute: style add 'padding: 0 2%; margin: 0 1% 0 0;';
-}
-
-/* マップ */
-#selectBox > .selectCopyBox > .selectStage {
-	attribute: style add 'height: auto;';
-}
-
-.btn_area3 > .more_box > li > a {
-	attribute: style add 'font-size: 12px;';
-}
-
-@preprocess {
-	replace:'href=\"//c.myjcom.jp(.*?)\"' 'href=\"https://c.myjcom.jp$1\"';
-	replace:'href=\"//cs.myjcom.jp(.*?)\"' 'href=\"https://cs.myjcom.jp$1\"';
-	replace:'href=\"//notices.jcom.co.jp(.*?)\"' 'href=\"https://notices.jcom.co.jp$1\"';
-	replace:'href=\"//information.myjcom.jp(.*?)\"' 'href=\"https://information.myjcom.jp$1\"';
-	replace:'href=\"http://c.myjcom.jp(.*?)\"' 'href=\"https://c.myjcom.jp$1\"';
-	replace:'href=\"http://cs.myjcom.jp(.*?)\"' 'href=\"https://cs.myjcom.jp$1\"';
-	replace:'href=\"http://notices.jcom.co.jp(.*?)\"' 'href=\"https://notices.jcom.co.jp$1\"';
-	replace:'href=\"http://information.myjcom.jp(.*?)\"' 'href=\"https://information.myjcom.jp$1\"';
-}
