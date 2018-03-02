@@ -44,3 +44,11 @@ div#headerInner {
  replace: '<td(.*?)TN-(.*?)G -(.*?)L-(.*?)G(.*?)L(.*?)</td>' '<td$1TN-$2G-&#9633;&#9633;L-$4G-&#916;&#916;L$6</td>';
  replace: '<td(.*?)TN-(.*?)G-(.*?)L-(.*?)G(.*?)L(.*?)</td>' '<td$1TN-$2G-&#9633;&#9633;L-$4G-&#916;&#916;L$6</td>';
 }
+
+// ↓2018.03.02 add↓
+// @RULESET
+// URL #= (http|https)://www\.musashi-engineering\.co\.jp/products/194_3-6-5-1\.html.*?
+@preprocess {
+	replace:'<span(.*?)><b>(.*?)</b></span>' '<br style="display:none;"><span$1><b>$2</b></span><br style="display:none;">';
+}
+// ↑2018.03.02 add↑
