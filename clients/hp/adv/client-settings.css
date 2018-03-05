@@ -1,0 +1,41 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+	position: fixed;
+	top: 0;
+	box-sizing: border-box;
+	z-index: 501;
+}
+
+.l_wrapper{
+	padding-top: 27px;
+}
+
+.l_gnavFixedWrapper{
+	top: 27px;
+}
+
+@media (max-width: 768px){
+	#site-translate-header-wrapper{
+	    height: 44px;
+	}
+
+	#site-translate-message{
+		display: table-cell;
+	    height: 38px;
+	    vertical-align: middle;
+	    width: 5000px;
+	}
+
+	#site-translate-header-wrapper p{
+		font-size: 10px;
+	    line-height: 12px;
+	}
+
+	.l_wrapper{
+		top: 44px;
+	}
+
+	.l_header_inner.is_active{
+		top: 44px;
+	}
+}
