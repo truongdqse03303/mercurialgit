@@ -27,7 +27,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https):(//www\.hotel\.kyoto.*|kyotohotel\.media-tec\.jp.*|kyotohotel-gp\.media-tec\.jp.*)</param-value>
+      <param-value>(http|https)://(www\.hotel\.kyoto.*|kyotohotel\.media-tec\.jp.*|kyotohotel-gp\.media-tec\.jp.*)</param-value>
     </param>
   </resource-handler>
 
