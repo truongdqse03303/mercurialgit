@@ -1,0 +1,66 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+#tmp_search dt{
+    padding-right: 7px;
+}
+
+#tmp_top_life td a{
+    padding-right: 12px;
+}
+
+#tmp_info .tab_ttl a{
+    font-size: 1.1rem;
+}
+
+#tmp_info{
+    padding-top: 3.28rem;
+}
+
+#tmp_contents .area_idx li{
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tmp_feedback_ttl{
+    padding-right: 5px;
+}
+
+#tmp_contents table tr td p a img{
+    display: block;
+}
+
+#tmp_contents table{
+    width: 100%;
+}
+
+#tmp_contents table tr td{
+    width: 16.666%;
+}
+
+@media screen and (max-width: 480px){
+    #tmp_fnavi li{
+        white-space: normal;
+    }
+
+    #tmp_contents .area_idx li{
+        display: list-item;
+    }
+}

@@ -1,0 +1,16 @@
+/* 翻訳除外 */
+#tmp_top_banner_cnt .prev_btn,
+#tmp_top_banner_cnt .next_btn,
+#tmp_top_banner .slide_button_stop,
+#tmp_top_location .slide_button_left,
+#tmp_top_location .slide_button_right,
+#tmp_top_location_cnt .slide_button_stop,
+.kanko #kanko_gallery .list_order li,
+.kanko #kanko_gallery .gallery_cntrol .stop_btn{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<label for="que(.*?)">([123])：(.*?)</label>' '<label for="que$1">$2：<br style="display:none;">$3</label>';
+	replace:'<p class="cal_date"><span class="year">(.*?)</span>(.*?)<span class="month">(.*?)</span>(.*?)</p>' '<p class="cal_date"><span class="year">$1</span><br style="display:none;"><span class="month">$3</span></p>';
+}
