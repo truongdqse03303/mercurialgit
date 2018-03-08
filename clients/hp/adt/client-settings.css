@@ -1,0 +1,175 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+	position: fixed;
+	top: 0;
+	box-sizing: border-box;
+}
+
+body{
+	padding-top: 102px;
+}
+
+body:lang(en),
+body:lang(es){
+	padding-top: 122px;
+}
+
+#header{
+	top: 48px;
+}
+
+#header:lang(en),
+#header:lang(es){
+	top: 68px;
+}
+
+#header .nav-pc .nav-pc-movie{
+	width: 22%;
+}
+
+.top--newslist > .row > .col-xs-25{
+	float: none;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.cross-btn{
+	white-space: normal;
+}
+
+@media (min-width: 351px){
+	body:lang(es){
+		padding-top: 102px;
+	}
+
+	#header:lang(es){
+		top: 48px;
+	}
+}
+
+@media (min-width: 356px){
+	body:lang(en){
+		padding-top: 102px;
+	}
+
+	#header:lang(en){
+		top: 48px;
+	}
+}
+
+@media (min-width: 455px){
+	body:lang(zh){
+		padding-top: 82px;
+	}
+
+	#header:lang(zh){
+		top: 28px;
+	}
+}
+
+@media (min-width: 561px){
+	body:lang(th){
+		padding-top: 82px;
+	}
+
+	#header:lang(th){
+		top: 28px;
+	}
+}
+
+@media (min-width: 592px){
+	body:lang(ko){
+		padding-top: 82px;
+	}
+
+	#header:lang(ko){
+		top: 28px;
+	}
+}
+
+@media (min-width: 620px){
+	body:lang(es){
+		padding-top: 82px;
+	}
+
+	#header:lang(es){
+		top: 28px;
+	}
+}
+
+@media (min-width: 630px){
+	body:lang(fr){
+		padding-top: 82px;
+	}
+
+	#header:lang(fr){
+		top: 28px;
+	}
+}
+
+@media (min-width: 652px){
+	body:lang(en){
+		padding-top: 82px;
+	}
+
+	#header:lang(en){
+		top: 28px;
+	}
+}
+
+@media (max-width: 767px){
+	.archive--archive-heading .heading .over-text .ttl{
+		font-size: 22px;
+	}
+
+	.archive--archive-heading .heading .over-text .ttl:lang(fr),
+	.archive--archive-heading .heading .over-text .ttl:lang(es){
+		font-size: 18px;
+	}
+
+	.archive--archive-heading .heading .over-text .sub:lang(fr){
+		font-size: 10px;
+		font-weight: normal;
+	}
+
+	.archive--archive-heading .heading .over-text .sub:lang(es){
+		line-height: 1.4;
+	}
+}
+
+@media (max-width: 951px) and (min-width: 768px){
+	.archive--archive-heading .heading .over-text .sub{
+		font-size: 10px;
+		line-height: 1.5;
+		font-weight: normal;
+	}
+}
+
+@media (max-width: 1079px) and (min-width: 952px){
+	body{
+		padding-top: 222px  !important;
+	}
+}
+
+/*1080px以上の時*/
+@media (min-width: 1080px){
+	body{
+		padding-top: 209px !important;
+	}
+
+	body:lang(en),
+	body:lang(es),
+	body:lang(fr){
+		padding-top: 222px !important;
+	}
+
+	#header{
+		top: 28px;
+	}
+
+	.btn-primary:lang(th),
+	.btn-primary:lang(es),
+	.btn-primary:lang(fr){
+		font-size: 11px;
+	}
+}
