@@ -9,7 +9,6 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.pref.yamanashi.jp" />
-    <request hostname="www.yamanashi-kankou.jp" path="/zenryoku/" />
     <request hostname="pub.nohin.pref-yamanashi2017.cms8341.com" />
   </request-list>
 
@@ -19,7 +18,7 @@
   <!-- Microsoft Translatorロゴを表示する設定ID -->
   <extension-param>
    <param-name>mst.logo.show</param-name>
-   <param-value>id</param-value>
+   <param-value>id,v</param-value>
   </extension-param>
 
   <!-- Basic認証 -->
