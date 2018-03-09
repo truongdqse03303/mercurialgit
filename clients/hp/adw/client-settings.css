@@ -1,0 +1,211 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 101;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+body{
+    margin-top: 44px;
+}
+
+/*kyoto-hotel-group only*/
+.nav-global a:lang(en){
+    white-space: normal;
+    line-height: 1.4;
+}
+
+main .contents{
+    padding-top: 148px;
+}
+
+.input-radio .horizontal-item:lang(en){
+    vertical-align: top;
+}
+
+/*okura/karasuma header nav*/
+.header{
+    top: 44px;
+}
+
+/*okura/karasuma main visual*/
+.main_stay,
+.main_restaurant,
+.main_banquet,
+.main_facility,
+.main_sightseeing{
+    margin-top: 140px;
+}
+
+
+/*okura/karasuma contents under button*/
+.mod_list_sub .mod_list_sub_inner ul li a:lang(en){
+    padding-left: 45px;
+    font-weight: normal;
+}
+
+.mod_list_sub .mod_list_sub_inner ul .btn_type_banquet:lang(en){
+    width: 100%;
+    margin-top: 15px;
+}
+
+.mod_list_sub .mod_list_sub_inner ul li.mod_list_sub_textLink a:lang(en){
+    display: inline-block;
+    text-align: left;
+}
+
+/*okura/karasuma Reservation*/
+.mv_form_box_content:lang(en){
+    width: 100%;
+}
+
+.mv_form_box_tabbox:lang(en){
+    float: none;
+}
+
+.mv_form_box .mv_form_box_ttl_pc:lang(en){
+    padding-top: 0px;
+    float: none;
+}
+
+.mv_form_box .mv_form_box_ttl_pc span:lang(en){
+  display: inline-block;  
+}
+
+.mv_form_box_tabbox .tab_menu:lang(en){
+    width: 300px;
+}
+
+.mv_form_box_tabbox .tab_menu #tab_list li:lang(en){
+    width: 150px;
+    display: inline-block;
+}
+
+.mv_form_box_content:lang(en){
+    height: auto;
+}
+
+.mv_form_box_content .restaurant_list li a:lang(en){
+    height: 100%;
+}
+
+#tab_restaurant .submit_btn .cancel_btn:lang(en){
+    font-size: 80%;
+}
+
+/*okura/karasuma header Reservation*/
+.header_form_box_tabbox:lang(en){
+    float: left;
+    width: 1200px;
+}
+
+.header_form_box .header_form_box_ttl_pc span:lang(en){
+    display: inline-block;
+}
+
+.header_form_box_content:lang(en){
+    width: 100%;
+}
+
+.header_form_box_tabbox .header_tab_menu:lang(en){
+    width: 300px;
+}
+
+.header_form_box_tabbox .header_tab_menu #header_tab_list li:lang(en){
+    width: 150px;
+    display: inline-block;
+}
+
+.header_form_box_content .restaurant_list li a:lang(en){
+    height: 100%;
+}
+
+.header_form_box_content{
+    height: auto;
+}
+
+@media (max-width: 1200px){
+   .mv_form_box_tabbox .tab_menu:lang(en){
+    width: 150px;
+   }
+
+   .header_form_box_tabbox .header_tab_menu:lang(en){
+    width: 150px;
+   }
+
+   .header_form_box_tabbox:lang(en){
+    width: 100%;
+   } 
+}
+
+@media screen and (max-width: 980px){
+    main .contents{
+        padding-top: 97px;
+    }
+}
+
+@media screen and (max-width: 768px){
+  .drawer-hamburger{
+    padding-top: 7rem;
+    padding-right: 1.5rem;
+  } 
+
+  .footer-banner li:nth-child(1) span{
+    margin: 0 5px 0 5px;
+  }
+
+  main .contents{
+    padding-top: 82px;
+  }
+
+  .main_stay,
+  .main_restaurant,
+  .main_banquet,
+  .main_facility,
+  .main_sightseeing{
+    margin-top: 94px;
+  }
+
+  .mod_list_sub .mod_list_sub_inner ul li a:lang(en){
+    padding-left: 70px;
+  }
+
+  .mv_form_box_tabbox .tab_menu:lang(en){
+    width: 100%;
+  }
+
+  .header_form_box_tabbox .header_tab_menu:lang(en){
+    width: 100%;
+  }
+
+  .table_type_banquet .cover_table:lang(en){
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .header_gNav_sp ul li.tel:lang(en){
+    width: 75px;
+  }
+
+  .mv_form_box_content .restaurant_list li a:lang(en){
+    height: 57px;
+  }
+
+  .header_form_box_content .restaurant_list li a:lang(en){
+    height: 57px;
+  }
+}
