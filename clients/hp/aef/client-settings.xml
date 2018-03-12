@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.japanhouse.com" />
+    <request hostname="m.japanhouse.com" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
