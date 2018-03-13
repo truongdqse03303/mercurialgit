@@ -1,0 +1,51 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 10000;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+    letter-spacing: normal;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+#top{
+    margin-top: 44px;
+}
+
+.fixed #header{
+    top: 44px;
+}
+
+#globalNav h2{
+    top: 84px;
+}
+
+.dlPrice dt{
+    width: 100%;
+}
+
+@media screen and (max-width: 767px){
+    #site-translate-header-wrapper{
+        padding-right: 1px !important;
+    }
+
+    #slideMenu{
+        top: 44px;
+    }
+
+    body.fixed #globalNav h2{
+        top: 54px;
+    }
+}

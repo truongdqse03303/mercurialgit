@@ -1,0 +1,3 @@
+@preprocess {
+	replace:'<h2 class=""><span class="black">(.*?)</span><span class="fs15 yeseva">(.*?)</span>''<h2 class=""><span class="black">$1</span><br style="display:none;"><span class="fs15 yeseva">$2</span>';
+}
