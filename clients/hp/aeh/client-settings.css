@@ -1,0 +1,82 @@
+#site-translate-header-wrapper{
+	width: calc(100% - 120px) !important;
+    height: 44px;
+    z-index: 99;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+#firstView{
+    top: 44px;
+}
+
+#infoSaito .titInfo,
+#infoSaito .txtInfo,
+#aboutSaito .titAbout,
+#etcSaito .etcNav .etcNavList li a,
+#header #menu .navList li a,
+body.news-detail #content #newsList .newsContent .postTit,
+body.news #content #newsList .newsContent .newsInfo .postTit,
+#useFacility .useFacilityBox.box02 .rentBox .rentDetail .rentTit,
+#content #newsList .newsCategory li a,
+.guideCategory li a,
+#floorMap .floorMapBlock.block01 .linkBtn a,
+#infoFacility .infoBox .infoDetail .infoTit,
+#seeSights .linkBtn a,
+#content .blockTit,
+#content .aboutCategory li a,
+#content .boxTit,
+#content .block .accessTit,
+#content .block .root dt,
+#content .block .root dd{
+    letter-spacing: normal;
+}
+
+#aboutSaito .linkBtn{
+    max-width: 900px;
+}
+
+.linkBtn a:before,
+.linkBtn a:after{
+    left: 84%;
+}
+
+@media screen and (max-width: 767px){
+    #site-translate-header-wrapper{
+        width: 100% !important;
+    }
+
+    .wrap{
+        margin-top: 104px;
+    }
+
+    .home .wrap{
+        margin-top: 0px;
+    }
+
+    #firstView{
+        top: 0px;
+    }
+
+    #header{
+        top: 44px;
+    }
+
+    #seeSights .linkBtn a{
+        letter-spacing: 2px;
+    }
+}

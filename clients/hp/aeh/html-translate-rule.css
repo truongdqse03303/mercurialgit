@@ -1,0 +1,9 @@
+/* 翻訳除外 */
+.popBox,
+#galleryPopup{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<h4 class="floorMapTit"><span class="serif alphabet"><span>([A-N])</span></span>(.*?)</h4>' '<h4 class="floorMapTit"><span class="serif alphabet"><span>$1</span></span><br style="display:none;">$2</h4>';
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>蟹江町ミュージアム</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>saito-kanie/service 198c8d72ff35d340572deaff5eebaa6ca5100bba</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="saito-kanie.jp" />
+  </request-list>
+
+  <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
+  </extension-param>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic c2FpdG86WDZxeG1WOUs=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>http://saito-kanie\.jp.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
