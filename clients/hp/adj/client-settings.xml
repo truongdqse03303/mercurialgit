@@ -36,14 +36,6 @@
     </param>
   </resource-handler>
 
-  <!-- 翻訳対象外URLの一覧 -->
-  <url-list type="ignore">
-	<url>https://www\.hibiya\.tokyo-midtown\.com/en/hall-conference/.*</url>
-	<url>https://www\.hibiya\.tokyo-midtown\.com/en/conference/.*</url>
-	<url>https://www\.hibiya\.tokyo-midtown\.com/en/hall-conference/sp/.*</url>
-	<url>https://www\.hibiya\.tokyo-midtown\.com/en/conference/sp/.*</url>
-  </url-list>
-
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
