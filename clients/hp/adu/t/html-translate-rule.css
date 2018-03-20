@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM";
 }
+
+@preprocess {
+  replace: 'UA-111476384-1' 'UA-111476384-3';
+}
