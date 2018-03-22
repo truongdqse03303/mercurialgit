@@ -1,0 +1,6 @@
+@preprocess {
+	replace:'url: "/html/wp-content/themes/hotel_okura_2018_template/img/common/ico_googlemap_01.svg"' 'url: "https://www.hotel.kyoto/html/wp-content/themes/hotel_okura_2018_template/img/common/ico_googlemap_01.svg"';
+
+	replace:'url: "/wp-content/themes/hotel_karasuma_2018_template/img/common/ico_googlemap_01.svg"' 'url: "https://www.hotel.kyoto/wp-content/themes/hotel_karasuma_2018_template/img/common/ico_googlemap_01.svg"';
+}
+

@@ -19,14 +19,15 @@
     line-height: 12px;
 }
 
-body{
-    margin-top: 44px;
+*:lang(en){
+  word-break: normal;
 }
 
 /*kyoto-hotel-group only*/
 .nav-global a:lang(en){
     white-space: normal;
     line-height: 1.4;
+    letter-spacing: 1.2px;
 }
 
 main .contents{
@@ -49,6 +50,10 @@ main .contents{
 .main_facility,
 .main_sightseeing{
     margin-top: 140px;
+}
+
+.contents_noMv{
+  margin-top: 150px;
 }
 
 
@@ -138,6 +143,27 @@ main .contents{
     height: auto;
 }
 
+/*other*/
+.table_scroll{
+  white-space: normal;
+}
+
+.area_banquet_data div table th{
+  vertical-align: middle;
+}
+
+.area_top_access .area_top_access_detail .detail p:lang(zh){
+  line-height: 2.5;
+}
+
+
+.mod_single_info_list{
+  margin-left: 10px;
+}
+.mod_single_info_list table th{
+  white-space: normal;
+}
+
 @media (max-width: 1200px){
    .mv_form_box_tabbox .tab_menu:lang(en){
     width: 150px;
@@ -177,7 +203,11 @@ main .contents{
   .main_banquet,
   .main_facility,
   .main_sightseeing{
-    margin-top: 94px;
+    margin-top: 0px;
+  }
+
+  .contents_noMv{
+    margin-top: 0px;
   }
 
   .mod_list_sub .mod_list_sub_inner ul li a:lang(en){
@@ -207,5 +237,41 @@ main .contents{
 
   .header_form_box_content .restaurant_list li a:lang(en){
     height: 57px;
+  }
+
+  .reservation_on_sp .reservation_btn{
+    overflow: hidden;
+  }
+
+  .ihonex .reservation_btn:lang(en){
+    white-space: normal;
+  }
+
+  .reservation_on_sp .reservation_btn a:lang(en){
+    vertical-align: top;
+    padding: 10px 5px;
+  }
+
+  .reservation_on_sp .form_detail.select_type01 select{
+    font-size: 110%;
+    white-space: normal;
+  }
+
+  .area_tel .area_tel_num,
+  .mod_single_info .mod_single_info_tel p:nth-of-type(1){
+    font-size: 8vw;
+  }
+
+  /*resutaurant detail table*/
+  .mod_single_info_list{
+    padding: 10px 5px 10px;
+  }
+
+  .mod_single_info_list table th{
+    white-space: normal;
+  }
+
+  .btn_type03 a{
+    margin: 10px 15px 0px 0px;
   }
 }

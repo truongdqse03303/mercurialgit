@@ -4,6 +4,8 @@
 	replace:'<span class="ttl_room_sub">(.*?)</span>' '<span class="ttl_room_sub">$1</span><br style="display:none;">';
 	replace:'<strong>「([白墨艶])(.*?)」(.*?)</strong>' '<strong>"$1$2"$3</strong><br style="display:none;">';
 	replace:'〒''';
+	replace:'<sub>（代表）</sub>' '<sub>（代表）<br style="display:none;"></sub>';
+	replace:'<li><span>(.*?)</span><span class="noLink">(.*?)</span></li>' '<li><span>$1</span><span class="noLink"><br style="display:none;">$2<br style="display:none;"></span></li>';
 }
 
 
