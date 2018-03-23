@@ -1,0 +1,3 @@
+@postprocess {
+	replace:'/search/ajax/bkncnt/' 'http://www.japanhouse.com/search/ajax/bkncnt/';
+}
