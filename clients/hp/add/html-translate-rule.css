@@ -1,9 +1,4 @@
 @preprocess {
  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
-}
-
-// @RULESET
-// URL #= (http|https)://www.osaka-bousai.net/mobile/pref/MobilePreventInfoMail.html
-@preprocess {
  replace:'<a href="mailto:touroku@osaka-bousai.net">touroku@osaka-bousai.net</a>' '<a href="mailto:regist-eng@osaka-bousai.net">regist-eng@osaka-bousai.net</a>';
 }
