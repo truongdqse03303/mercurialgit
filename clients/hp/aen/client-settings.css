@@ -1,0 +1,50 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 101;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+body{
+    background-position: 0 136px;
+}
+
+.intro_m h2 {
+    font-size: 172%;
+}
+
+#main_cap p{
+    font-size: 95%;
+}
+
+.sevent_name{
+    width: 320px;
+}
+
+p.sevent_cap{
+    line-height: 20px;
+}
+
+#main_cap h2 {
+	font-size: 100%;
+}
+
+p.r_kashi {
+    font-size: 125%;
+}
+
+.mt10 {
+    max-width: 440px;
+}

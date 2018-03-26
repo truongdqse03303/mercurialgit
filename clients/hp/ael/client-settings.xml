@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>小平市役所</name>
+  <name>安曇野市海外プロモーション協議会</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>kodaira/service 1b0ec787024b6c767436fafdfc042a14002da268</licence>
+  <licence>grace-azumino/service bf3fd9e53c4fb06540818a2ebc0fe59ed676d0dc</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.kodaira.tokyo.jp" />
-    <request hostname="kodaira2018.sd.serco.co.jp" path="/test_page/(detail_iframe.html|detail_json.html)" />
+    <request hostname="grace-azumino.jp" />
   </request-list>
+
+  <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
+  </extension-param>
 
   <!-- Basic認証 -->
   <resource-handler>
@@ -21,11 +25,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic c2VyY286c2VyY28=</param-value>
+      <param-value>Basic Z3JhY2U6YXp1bWlubw==</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https)://kodaira2018\.sd\.serco\.co\.jp/.*</param-value>
+      <param-value>(http|https)://grace-azumino\.jp.*</param-value>
     </param>
   </resource-handler>
 

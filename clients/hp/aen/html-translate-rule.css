@@ -1,0 +1,5 @@
+/* 翻訳除外 */
+#slideimage,
+#nav1 li{
+	attribute:cltx add 'exclude';
+}
