@@ -56,23 +56,6 @@ main .contents{
   margin-top: 150px;
 }
 
-
-/*okura/karasuma contents under button*/
-.mod_list_sub .mod_list_sub_inner ul li a:lang(en){
-    padding-left: 45px;
-    font-weight: normal;
-}
-
-.mod_list_sub .mod_list_sub_inner ul .btn_type_banquet:lang(en){
-    width: 100%;
-    margin-top: 15px;
-}
-
-.mod_list_sub .mod_list_sub_inner ul li.mod_list_sub_textLink a:lang(en){
-    display: inline-block;
-    text-align: left;
-}
-
 /*okura/karasuma Reservation*/
 .mv_form_box_content:lang(en){
     width: 100%;
@@ -156,12 +139,21 @@ main .contents{
   line-height: 2.5;
 }
 
-
-.mod_single_info_list{
-  margin-left: 10px;
+.area_tel_sub p br:lang(en){
+  display: block;
 }
-.mod_single_info_list table th{
-  white-space: normal;
+
+.mod_single_info .mod_single_info_tel p{
+  width: auto;
+}
+
+/*rule-o only*/
+.rule-o .main_visual .main_visual_ttl{
+  width: 803px;
+}
+
+.rule-o .wrapper .contents .contents_inner .btn_sub{
+  justify-content: center;
 }
 
 @media (max-width: 1200px){
@@ -185,6 +177,10 @@ main .contents{
 }
 
 @media screen and (max-width: 768px){
+  #site-translate-header-wrapper{
+    position: static;
+  }
+
   .drawer-hamburger{
     padding-top: 7rem;
     padding-right: 1.5rem;
@@ -209,11 +205,7 @@ main .contents{
   .contents_noMv{
     margin-top: 0px;
   }
-
-  .mod_list_sub .mod_list_sub_inner ul li a:lang(en){
-    padding-left: 70px;
-  }
-
+  
   .mv_form_box_tabbox .tab_menu:lang(en){
     width: 100%;
   }
@@ -262,6 +254,11 @@ main .contents{
     font-size: 8vw;
   }
 
+  .mod_list_content .grid_common.grid_3col li .ico_shop_type:lang(en){
+    font-size: 10px;
+    margin-left: 0px;
+  }
+
   /*resutaurant detail table*/
   .mod_single_info_list{
     padding: 10px 5px 10px;
@@ -273,5 +270,10 @@ main .contents{
 
   .btn_type03 a{
     margin: 10px 15px 0px 0px;
+  }
+
+  /*rule-o only*/
+  .rule-o .main_visual .main_visual_ttl{
+    width: 290px;
   }
 }
