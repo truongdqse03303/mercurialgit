@@ -1,0 +1,54 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 101;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+#container {
+    margin: 44px auto 0;
+}
+
+#service {
+    top: 44px !important;
+}
+
+.header_upper {
+    top: 44px;
+}
+
+.zasa_hd {
+    padding-top: 96px;
+}
+
+.header_upper ul li:lang(en) {
+    display: block;
+}
+
+.header_upper:lang(en) ul li.history a, .header_upper ul li.favorite a {
+    line-height: 13px;
+}
+
+.fv_count:lang(en),
+.his_count:lang(en) {
+    top: unset;
+    left: unset;
+}
+
+.header_upper:lang(en) ul.left {
+    padding: 0;
+}

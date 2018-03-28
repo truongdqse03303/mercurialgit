@@ -1,3 +1,4 @@
 @postprocess {
 	replace:'/search/ajax/bkncnt/' 'http://www.japanhouse.com/search/ajax/bkncnt/';
+	replace:'<a class="namelink(.*?)" href="/blog/(.*?)">' '<a class="namelink$1" href="/blog/$2/">';
 }
