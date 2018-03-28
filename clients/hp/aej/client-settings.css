@@ -1,0 +1,66 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 99;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+@media screen and (min-width: 951px){
+    #header #nav ul .faq{
+        font-size: 0.74em;
+        line-height: 1.8;
+    }
+
+    #touring_menu ul li a{
+        min-height: 72px;
+    }
+
+    .blk_news .n_tab li{
+        font-size: 0.75rem;
+    }
+
+    #footer ul.contents_menu li a{
+        min-height: 92px;
+    }
+
+}
+
+@media screen and (max-width: 950px) and (min-width: 481px){
+    #touring_menu ul li{
+        vertical-align: middle;
+    }
+
+    #touring_menu ul li a{
+        min-height: 69px;
+    }
+
+    #footer ul.contents_menu li{
+        vertical-align: middle;
+    }
+
+    #footer ul.contents_menu li a{
+        min-height: 72px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #touring_menu ul li{
+        width: 100%;
+    }
+
+    #touring_menu ul li a{
+        padding: 8px 10px 8px 10px;
+    }
+}

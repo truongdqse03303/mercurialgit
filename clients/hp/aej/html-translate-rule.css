@@ -1,0 +1,22 @@
+/*翻訳除外*/
+.bx-wrapper .bx-controls-direction a,
+.bx-controls-direction,
+.bx-wrapper,
+.bx-viewport,
+.bx-controls,
+.fb-page,
+.photogallery a,
+#search_condition,
+#search_condition form ul li label input,
+.item{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<li><a href="(.*?)" (.*?)><span>(.*?)</span>' '<li><a href="$1" $2><span>$3</span><br style="display:none;">';
+}
+
+
+
+
+
