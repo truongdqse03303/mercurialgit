@@ -44,7 +44,9 @@
 }
 
 .fv_count:lang(en),
-.his_count:lang(en) {
+.his_count:lang(en),
+.fv_count:lang(vi),
+.his_count:lang(vi) {
     top: unset;
     left: unset;
 }
