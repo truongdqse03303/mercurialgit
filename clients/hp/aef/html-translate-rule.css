@@ -1,4 +1,6 @@
 @postprocess {
 	replace:'/search/ajax/bkncnt/' 'http://www.japanhouse.com/search/ajax/bkncnt/';
-	replace:'<a(.*?)href="/blog/(.*?)">' '<a$1 href="/blog/$2/">';
+	replace:'<a(.*?)href="/blog/entry(.*?)">' '<a$1 href="/blog/entry$2/">';
+	replace:'<a(.*?)href="/blog/entry(.*?)//">' '<a$1 href="/blog/entry$2/">';
+	replace:'<a(.*?)href="/blog/entry(.*?)///">' '<a$1 href="/blog/entry$2/">';
 }
