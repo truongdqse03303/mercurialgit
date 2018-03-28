@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT SYSTEM MARKET LAW";
 }
+
+@preprocess {
+	replace: 'UA-32172910-1' 'UA-32172910-3';
+}
