@@ -1,3 +1,15 @@
+div.top-section > div > div > p {
+	attribute:clftx add 'exclude';
+}
+
+p.bukken.osusume {
+        attribute:clftx add 'exclude';
+}
+
+div.section.act6 > ul > li > p.bukken {
+        attribute:clftx add 'exclude';
+}
+
 @postprocess {
 	replace:'/search/ajax/bkncnt/' 'http://www.japanhouse.com/search/ajax/bkncnt/';
 	replace:'<a(.*?)href="/blog/entry(.*?)">' '<a$1 href="/blog/entry$2/">';
