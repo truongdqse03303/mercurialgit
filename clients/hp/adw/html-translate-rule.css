@@ -7,8 +7,9 @@
 	replace:'<sub>（代表）</sub>' '<sub>（代表）<br style="display:none;"></sub>';
 	replace:'<li><span>(.*?)</span><span class="noLink">(.*?)</span></li>' '<li><span>$1</span><span class="noLink"><br style="display:none;">$2<br style="display:none;"></span></li>';
 	replace:'<p>空間の中に和（京都）と洋の要素を融合させた「ファミリールーム」。' '<p>空間の中に和（京都）と洋の要素を融合させた「ファミリールーム」<br style="display:none;">。';
+	replace:'<li class="type_restaurant_office"><a tel="0752542526">(.*?)<br><span>(.*?)</span>（9:00～19:00）</a></li>' '<li class="type_restaurant_office"><a tel="0752542526">$1<br><span>$2</span><br style="display:none;"> （9:00～19:00）</a></li>';
+	replace:'<tr><th>天井高</th><td>(.*?)<span class="f11">(.*?)</span></td></tr>' '<tr><th>天井高</th><td>$1<br style="display:none;"><span class="f11">$2</span></td></tr>';
 }
-
 
 /* 翻訳除外 */
 .instagram_feed,
