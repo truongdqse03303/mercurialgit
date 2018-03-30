@@ -28,3 +28,13 @@
 @preprocess{
 	replace:'<body>' '<body class="rule-o">';
 }
+
+// @RULESET
+// URL #= //www\.kyotohotel\.co\.jp/.*
+// URL #= //kyotohotel-gp\.media-tec\.jp/.*
+
+@preprocess{
+	replace:'<body id="(.*?)" class="(.*?)">' '<body id="$1" class="$2 rule-g">';
+}
+
+

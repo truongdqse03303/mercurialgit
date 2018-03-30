@@ -181,6 +181,17 @@ main .contents{
     position: static;
   }
 
+  /*kyoto-hotel-group only*/
+  .rule-g #site-translate-header-wrapper{
+    position: fixed;
+  }
+
+  main .contents{
+    padding-top: 125px;
+  }
+
+  /*/kyoto-hotel-group only*/
+
   .drawer-hamburger{
     padding-top: 7rem;
     padding-right: 1.5rem;
@@ -188,10 +199,6 @@ main .contents{
 
   .footer-banner li:nth-child(1) span{
     margin: 0 5px 0 5px;
-  }
-
-  main .contents{
-    padding-top: 82px;
   }
 
   .main_stay,
