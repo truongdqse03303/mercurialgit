@@ -62,8 +62,8 @@
 // @RULESET
 // URL #= http://odaka-aeonmall\.com
 @preprocess {
-  replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-kr" target="blank" class="fade cl-norewrite">';
-  replace:'<a href="http://odaka-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://odaka-aeonmall.com/floorguide-kr/" class="fade cl-norewrite" target="_blank">';
+  replace:'<a href="/floorguide/" target="blank" class="fade">' '<a href="/floorguide-tr" target="blank" class="fade cl-norewrite">';
+  replace:'<a href="http://odaka-aeonmall.com/floorguide/" class="fade" target="_blank">' '<a href="http://odaka-aeonmall.com/floorguide-tr/" class="fade cl-norewrite" target="_blank">';
 }
 
 // @RULESET
