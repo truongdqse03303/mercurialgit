@@ -55,3 +55,9 @@ div#zoomImgItem {
 @postprocess {
   replace: 'cltx>&lt;/&gt;' 'cltx>';
 }
+
+
+@preprocess {
+  replace: '<span class="mrh-txt--lg mrh-txt--bold">(.*?)</span>(.*?)｜' '<span class="mrh-txt--lg mrh-txt--bold">$1</span><br style="display:none;">$2<br style="display:none;">｜';
+  replace: '<aside class="mrh-box--inspect mrh-search-access-ranking">' '<aside class="mrh-box--inspect mrh-search-access-ranking" style="display: none;">';
+}
