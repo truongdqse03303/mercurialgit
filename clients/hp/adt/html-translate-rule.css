@@ -1,4 +1,5 @@
-.select-col{
+.select-col,
+.header-sp-langcol {
 	attribute:cltx add 'exclude';
 }
 
