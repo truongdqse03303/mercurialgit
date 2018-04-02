@@ -8,4 +8,5 @@
 @postprocess{
 	replace:'<a href="#" class="foodTab_content_inner_select foodTab_content_inner_category" @ click.prevent="changeCategory(.*?)"' '<a href="#" class="foodTab_content_inner_select foodTab_content_inner_category" @click.prevent="changeCategory$1"';
 	replace:'<a href="#" class="foodTab_content_inner_select foodTab_content_inner_floor" @ click.prevent="changeFloor(.*?)"' '<a href="#" class="foodTab_content_inner_select foodTab_content_inner_floor" @click.prevent="changeFloor$1"';
+	replace:'<a class="shopTab_content_inner_select shopTab_content_inner_floor(.*?)" @ click.prevent' '<a class="shopTab_content_inner_select shopTab_content_inner_floor$1" @click.prevent';
 }
