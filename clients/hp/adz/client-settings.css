@@ -23,8 +23,8 @@
     top: 43px;
 }
 
-.T4 .height-header{
-    padding-top: 263px;
+.T4 .height-header.h_height{
+    padding-top: 199px;
 }
 
 .T4 .mobile-navbar.slim ul.top-menu>li{
@@ -71,7 +71,7 @@
 }
 
 @media screen and (max-width: 767px){
-  .T4 .height-header{
+  .T4 .height-header.h_height{
     padding-top: 108px;
   } 
 
