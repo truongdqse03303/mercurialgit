@@ -6,8 +6,7 @@
 .bx-controls,
 .fb-page,
 .photogallery a,
-#search_condition,
-#search_condition form ul li label input,
+#search_condition > form,
 .item{
 	attribute:cltx add 'exclude';
 }
@@ -15,8 +14,3 @@
 @preprocess{
 	replace:'<li><a href="(.*?)" (.*?)><span>(.*?)</span>' '<li><a href="$1" $2><span>$3</span><br style="display:none;">';
 }
-
-
-
-
-
