@@ -10,6 +10,22 @@ div.section.act6 > ul > li > p.bukken {
         attribute:clftx add 'exclude';
 }
 
+.costomer-pht {
+        attribute:clftx add 'exclude';
+}
+
+div.check_section > div > ul > li {
+        attribute:clftx add 'exclude';
+}
+
+div#contents > form#searchForm > p.center {
+        attribute:clftx add 'exclude';
+}
+
+form#spotForm > div#spot-display > div.display-check {
+        attribute:clftx add 'exclude';
+}
+
 @postprocess {
 	replace:'/search/ajax/bkncnt/' 'http://www.japanhouse.com/search/ajax/bkncnt/';
 	replace:'<a(.*?)href="/blog/entry(.*?)">' '<a$1 href="/blog/entry$2/">';
