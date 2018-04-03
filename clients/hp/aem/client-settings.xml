@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>日本電子専門学校</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>jec/service 7e0df3a9abe7927e5e2e1ddc6f95e6d6d2da0b57</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.jec.ac.jp" />
+  </request-list>
+
+  <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
+  </extension-param>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>v,id</param-value>
+  </extension-param>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

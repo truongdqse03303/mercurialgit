@@ -1,0 +1,11 @@
+/* 翻訳除外 */
+.headslider,
+.headslider li.slide{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<li id="step-anc0([1-4])"><a href="#step([1-4])">Step(&#9312;|&#9313;|&#9314;|&#9315;) (.*?)' '<li id="step-anc0$1"><a href="#step$2">Step$3<br style="display:none;"> $4';
+}
+
+
