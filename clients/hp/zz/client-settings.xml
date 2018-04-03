@@ -8,8 +8,29 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.rehouse.co.jp" path="(/bukkenList/.*|/cityBukkenList/.*|/toshin/search/.*|/toshin/bkdetail/.*|/toushi/search/.*|/toushi/bkdetail/.*|/investBukkenList/.*)" ssl="true" />
-    <request hostname="spot.rehouse.co.jp" path="(/cityBukkenList/.*|/toshin/search/.*|/toshin/bkdetail/.*|/toushi/search/.*|/toushi/bkdetail/.*|/investBukkenList/.*)" />
+  <request hostname="www.rehouse.co.jp" ssl="true">
+    <path-list>
+        <path value="/bukkenList/.*" />
+        <path value="/cityBukkenList/.*" />
+        <path value="/toshin/search/.*" />
+        <path value="/toshin/bkdetail/.*" />
+        <path value="/toushi/bkdetail/.*" />
+        <path value="/investBukkenList/.*" />
+    </path-list>
+    <path-list resource="true">
+        <path value="/dir_common/.*" />
+        <path value="/dir_common/dir_js/.*" />
+        <path value="/dir_common/dir_js/libs/.*" />
+        <path value="/dir_common_rn/.*" />
+        <path value="/dir_common_rn/dir_img/.*" />
+        <path value="/messengerApi/.*" />
+        <path value="/myRehouseFileApi/.*" />
+        <path value="/rhBukkenListApi/.*" />
+        <path value="/bukkenIconApi/.*" />
+        <path value="/rhBukkenSearchApi/.*" />
+        <path value="/rhBukkenSearchPanelInfoApi/.*" />
+    </path-list>
+  </request>
   </request-list>
 
   <extension-param>
