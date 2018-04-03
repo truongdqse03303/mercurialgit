@@ -1,0 +1,3 @@
+@preprocess {
+ replace: 'マイページログイン' '我的頁登入';
+}
