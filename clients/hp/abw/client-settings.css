@@ -9,7 +9,7 @@
 
 .ctgSeichi .btnList a:lang(en){
 	font-size: 80%;
-	bottom: 10%;
+/*	bottom: 10%; */
 }
 
 .linkContOne .linkTxt h4:lang(en){
@@ -177,6 +177,18 @@
 
 	.ctgTtl h4 span{
 		font-size: 18px;
+	}
+
+	.ctgCal .ctgTtl, .ctgFct .ctgTtl, .ctgSeichi .ctgTtl, .ctgVlt .ctgTtl {
+		width: 90%;
+	}
+
+	.ctgCal .btnList a, .ctgFct .btnList a, .ctgSeichi .btnList a, .ctgVlt .btnList a {
+		bottom: 23%;
+	}
+
+	.ctgSeichi:lang(ko) .ctgTtl h4 {
+	    font-size: 130%;
 	}
 }
 
