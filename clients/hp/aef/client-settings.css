@@ -1,38 +1,5 @@
-#site-translate-header-wrapper{
-	width: 100% !important;
-    height: 44px;
-    z-index: 101;
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-}
-
-#site-translate-message{
-	display: table-cell;
-    height: 38px;
-    vertical-align: middle;
-    width: 5000px;
-}
-
-#site-translate-header-wrapper p{
-	font-size: 10px;
-    line-height: 12px;
-}
-
-#container {
-    margin: 44px auto 0;
-}
-
-#service {
-    top: 44px !important;
-}
-
-.header_upper {
-    top: 44px;
-}
-
-.zasa_hd {
-    padding-top: 96px;
+#site-translate-header-wrapper {
+	display: none;
 }
 
 .header_upper ul li:lang(en) {

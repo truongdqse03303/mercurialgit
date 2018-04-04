@@ -32,3 +32,8 @@ form#spotForm > div#spot-display > div.display-check {
 	replace:'<a(.*?)href="/blog/entry(.*?)//">' '<a$1 href="/blog/entry$2/">';
 	replace:'<a(.*?)href="/blog/entry(.*?)///">' '<a$1 href="/blog/entry$2/">';
 }
+
+@preprocess {
+	replace:'<span id="hisCnt">(.*?)</span>' '<span id="hisCnt">$1</span><br style="display:none;">';
+	replace:'<span id="favoCnt">(.*?)</span>' '<span id="favoCnt">$1</span><br style="display:none;">';
+}
