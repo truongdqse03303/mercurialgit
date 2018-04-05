@@ -2,6 +2,10 @@
 	display: none;
 }
 
+#site-translate-icp {
+    width: auto;
+}
+
 .header_upper ul li:lang(en) {
     display: block;
 }
