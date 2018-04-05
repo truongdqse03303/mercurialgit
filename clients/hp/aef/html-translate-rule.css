@@ -37,8 +37,10 @@ div.check_section > ul > li,
         attribute:clftx add 'exclude';
 }
 
+.except_station > .outer > ul > li,
 .listview_inner > .image,
-.listview_inner > .imagebox {
+.listview_inner > .imagebox,
+.underFix_contents > span > span {
         attribute:clftx add 'exclude';
 }
 
@@ -51,8 +53,8 @@ div.check_section > ul > li,
 }
 
 @postprocess {
+	replace:'<li(.*?)class="pretended m_val">(.*?)<!--cltx--><span>(.*?)</span>(.*?)</li>' '<li$1class="pretended m_val">$2<span>$3</span>$4</li>';
 	replace:'<a(.*?)href="/blog/entry(.*?)">' '<a$1 href="/blog/entry$2/">';
 	replace:'<a(.*?)href="/blog/entry(.*?)//">' '<a$1 href="/blog/entry$2/">';
 	replace:'<a(.*?)href="/blog/entry(.*?)///">' '<a$1 href="/blog/entry$2/">';
 }
-
