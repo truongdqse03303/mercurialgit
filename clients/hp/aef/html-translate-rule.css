@@ -37,7 +37,7 @@ div.check_section > ul > li,
         attribute:clftx add 'exclude';
 }
 
-.except_station > .outer > ul > li,
+.outer > ul > li,
 .listview_inner > .image,
 .listview_inner > .imagebox,
 .underFix_contents > span > span {
