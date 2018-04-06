@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="www.trans-action.co.jp" />
     <request hostname="www.vapestudio.jp" />
+    <request hostname="www.trans.co.jp" />
   </request-list>
 
   <extension-param>
