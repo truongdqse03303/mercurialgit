@@ -1,0 +1,77 @@
+// @RULESET
+// URL = http://www.akan-mashu-nationalpark.asia/js/seasonal_slide.js
+// URL = http://www.akan-mashu-nationalpark.asia.e.adr.hp.transer.com/js/seasonal_slide.js
+
+@postprocess {
+  /*冬スライダー text*/
+  replace: '厳寒期の美幌峠。' 'Bihoro-pass in the cold season.';
+  replace: '全てが凍てついた銀世界に広がる広大なパノラマをバックに語らうふたりのシルエット。' 'Silhouettes from behind of two people talking against the vast panorama of a completely frozen, silvery world.';
+  replace: '（美幌峠フォトコンテストグランプリ作品「語らい」　網走市　桧枝広美）' 'Bihoro-pass Photo Contest Grand Prix winner, "Talk" Abashiri Hiromi Hieda';
+  replace: '町民手づくりの300個以上のアイスキャンドルが点灯し幻想的な雰囲気の中、幅広い年齢層が楽しめるイベント' 'At this event, people of all ages can enjoy the fantastic atmosphere created by the over 300 ice candles made by the townspeople.';
+  replace: '町\\(直営\\)の焼酎醸造所は全国でもここだけ。' 'This is the only shochu distillery directly managed by a town in all of Japan.';
+  replace: 'ここからも、日本百名山「斜里岳」をご覧になれます。' 'You can also see Mt. Sharidake here, one of the 100 most famous mountains in Japan.';
+  replace: '濤沸湖は貴重な動植物を守り、育てる宝のような湖。初冬と早春にはオオハクチョウが訪れ、四季を通じてバードウオッチングが楽しめます。' 'Lake Tofutsu is a lake that protects and raises valuable plants and animals.Between early winter and early spring, the whooping swan comes here, where bird watching can be enjoyed throughout the year.';
+  replace: '四季を通じて美しい景色を楽しめる人気のスポット。冬になると雪原にたたずむ木々の美しい風景が楽しめます。' 'A popular spot to enjoy beautiful views throughout the four seasons.In winter, you can enjoy the beautiful scenery of trees nestled in snowy fields.';
+  replace: 'オンネトーに冬が到来すると、凍結した湖上は深い雪に覆われ、静寂だけが一面の銀世界を支配する。' 'When winter comes to Onneto, the frozen lake is covered in deep snow and silence overtakes the silvery world.';
+  replace: '1月から3月上旬のキンと冷え切った阿寒湖氷上にはシーズン中20%の確率でしか見ることのできない奇跡の霜の花畑が広がします。' 'From January to early march, during the season when Lake Akan freezes over completely, there is a 20% chance of seeing a miraculous field of frost crystals blooming across the lake.';
+  replace: '360度のパノラマを望める多和平では、恒例の「多和平初日の出を見る会」が開催されます。' 'At Tawadaira, where you can see a 360˚ panoramic view, a "Tawadaira New Years Sunrise Viewing Party" is held every year.';
+  replace: '霧の水蒸気が木々に付着し凍ってできる「霧氷」。冬の早朝に水のカムイが作り出す、幻想的な風景。' '"Fog ice" created when water vapor condenses on trees and freezes.The fantastic early scenery created by the Kamuy in early winter.';
+  replace: 'エゾ鹿は町内各地で見られますが、お車を運転の際はその可愛さに目を奪われて事故を起こさないようご注意を。' 'Hokkaido Sika Deer can be seen in various places throughout the town. When driving, take care not to be distracted by their cuteness and get into an accident.';
+  replace: '上空からも楽しめる絶景は北海道遺産にも登録されており、冬は白銀の世界、雪解け後は緑のコントラスト、季節によって様々な色を見ることができます。' 'The superb aerial views are registered as Hokkaido heritage. In winter, you can see the silvery world. Then, as the snow melts, the contrast of the greenery shows the variety of colors that change from season to season.';
+
+  /*冬スライダー town*/
+  replace: '美幌町' 'Bihoro-cho';
+  replace: '津別町' 'Tsubetsu-machi';
+  replace: '清里町' 'Kiyosato';
+  replace: '小清水' 'Koshimizu';
+  replace: '大空町' 'Oki-cho';
+  replace: '足寄町' 'Ashoro-cho';
+  replace: '釧路市' 'Kushiro';
+  replace: '標茶町' 'Shibecha';
+  replace: '弟子屈' 'Teshikaga';
+  replace: '白糠町' 'Shirajima';
+  replace: '中標津' 'Medium scale';
+
+  /*冬スライダー title*/
+  replace: '冬の美幌峠で語らうふたり' 'Two people talking at Bihoro-pass in winter';
+  replace: 'つべつアイスキャンドル点灯まつり' 'Tsubetsu Ice Candlelit Festival';
+  replace: '清里焼酎醸造所' 'Kiyosato Shochu Distillery';
+  replace: '濤沸湖' 'Lake Tofutsu';
+  replace: '「メルヘンの丘」と銀世界' 'Märchen-no-Oka and a silvery world';
+  replace: '初冬のオンネトー' 'Onneto in early winter';
+  replace: '氷上に花咲く霜の結晶' 'Crystals of frost blooming on the ice';
+  replace: '多和平（たわだいら）からの初日の出' 'New Years Day sunrise from Tawadaira';
+  replace: 'カムイに出会う瞬間' 'The moment when you encounter Kamuy (Ainu gods)';
+  replace: '冬山から顔を覗かせる野生のエゾ鹿' 'Hokkaido Sika Deer peeking its face out from a wintry mountain.';
+  replace: '自然が織り成す圧巻の景色　根釧台地の格子状防風林' 'Masterpiece scenery woven by nature Lattice windbreaker forests of Konsendaichi';
+
+  /*冬スライダー place*/
+  replace: '美幌峠' 'Bihoro-pass';
+  replace: 'さんさん館' 'Sansan-kan';
+  replace: 'メルヘンの丘　ビューポイントパーキング' 'Märchen-no-Oka Parking lot with a view';
+  replace: 'オンネトー' 'Onneto';
+  replace: '阿寒湖上' 'Lake Akan';
+  replace: '多和平' 'Tawadaira';
+  replace: '摩周第一展望台' 'Mashu Viewing Tower No. 1';
+  replace: '国道392号線沿' 'side of Route 392';
+  replace: '飛行機　機内' 'aerially Inside airplane';
+
+  /*冬スライダー season*/
+  replace: '1～2月' 'January – February';
+  replace: '2月第1土曜日' 'First Saturday in February';
+  replace: '通年' 'Year-round';
+  replace: '11月から3月上旬' 'November – early March';
+  replace: '1月～3月' 'January – March';
+  replace: '5月から12月中旬' 'May – mid-December';
+  replace: '1月初旬～3月初旬' 'Early January – early March';
+  replace: '1月' 'January';
+  replace: '11月～3月' 'November – March';
+  replace: '12月中旬～3月末' 'Mid-December – Late March';
+
+  /*冬スライダー owner*/
+  replace: '撮影：' 'Photographer: ';
+  replace: '桧枝広美' 'Hiromi Hieda';
+  replace: '江草智行' 'Tomoyuki Egusa';
+  replace: '\\(株\\)北海道アート社' 'Hokkaido Art Co., Ltd.';
+  replace: '神子島智樹' 'Tomoki Kagoshima';
+}
