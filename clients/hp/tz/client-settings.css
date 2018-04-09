@@ -1,0 +1,68 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 99;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+.header-topinner1{
+    top: 44px;
+}
+
+.header-bottominner{
+    top: 184px !important;
+}
+
+.container{
+    padding-top: 382px !important;
+}
+
+@media screen and (max-width: 640px){
+    .container{
+        padding-top: 120px !important;
+    }
+
+    .header{
+        top: 44px;
+    }
+
+    .info{
+        line-height: 1.2;
+    }
+
+    .menu-inner{
+        padding-top: 89px;
+    }
+
+    .menu__close{
+        top: 44px;
+    }
+
+    .header__carinfo .txt:lang(en){
+        line-height: 1.2;
+    }
+
+    .shoplist .nav--a .nav__txt{
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .shoplist .nav--a .nav .ajust{
+        padding-top: 0px;
+    }
+}
