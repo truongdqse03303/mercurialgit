@@ -55,8 +55,14 @@ div.check_section > ul > li,
 }
 
 @postprocess {
-	replace:'<li(.*?)class="pretended m_val">(.*?)<!--cltx--><span>(.*?)</span>(.*?)</li>' '<li$1class="pretended m_val">$2<span>$3</span>$4</li>';
 	replace:'<a(.*?)href="/blog/entry(.*?)">' '<a$1 href="/blog/entry$2/">';
 	replace:'<a(.*?)href="/blog/entry(.*?)//">' '<a$1 href="/blog/entry$2/">';
 	replace:'<a(.*?)href="/blog/entry(.*?)///">' '<a$1 href="/blog/entry$2/">';
+}
+
+
+// @RULESET
+// URL #= //www\.japanhouse\.com/
+@postprocess {
+	replace:'<li(.*?)class="pretended m_val">(.*?)<!--cltx--><span>(.*?)</span>(.*?)</li>' '<li$1class="pretended m_val">$2<span>$3</span>$4</li>';
 }
