@@ -1,0 +1,54 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height:12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:38px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+.page-header{
+	margin-top: 44px !important;
+}
+
+.access.contents-wrap .section1 dt.triple:lang(en){
+	height: 140px !important;
+}
+
+.access.contents-wrap .section1 dt.triple:lang(ko){
+	height: 120px !important;
+}
+
+.access.contents-wrap .section1 dd.triple{
+	height: auto;
+	padding-top: 0;
+}
+
+.access.contents-wrap .section1 dt.double:lang(en){
+	height: 100px !important;
+}
+
+@media screen and (max-width: 757px){
+	.access.contents-wrap .section1 dt.triple:lang(en){
+		height: auto !important;
+	}
+
+	.access.contents-wrap .section1 dt.triple:lang(ko){
+		height: auto !important;
+	}
+
+	.access.contents-wrap .section1 dt.double:lang(en){
+		height: auto !important;
+	}
+}

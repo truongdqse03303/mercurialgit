@@ -1,0 +1,65 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+#tmp_weather_cnt #wicon img{
+    margin-bottom: 0px;
+}
+
+#tmp_weather_cnt p:not(#wicon){
+    display: inline-block;
+    width: 160px;
+    margin-left: 10px;
+    vertical-align: 10px;
+}
+
+#tmp_contents #tmp_facilities_btn li{
+    margin: 0 16px 20px 0;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 480px){
+    #tmp_info .tab_ttl a{
+        font-size: 1rem;
+    }
+
+    #tmp_sma_lnavi_cnt li a{
+        padding: 10px 10px 10px 14px;
+    }
+
+    #tmp_info{
+        padding-top: 4.5rem;
+    }
+
+    #tmp_event_cnt .bgcolor{
+        font-weight: normal;
+        font-size: 85%;
+    }
+
+    .kanko #main_contents_area .ttl{
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+
+    .btn + .btn{
+        margin-left: 0;
+        margin-top: .5em;
+    }
+}

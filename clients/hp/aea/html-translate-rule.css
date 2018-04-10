@@ -1,0 +1,21 @@
+/* 翻訳除外 */
+#tmp_gallery_player .stop_btn2,
+#tmp_gallery_player .play_btn2,
+#tmp_gallery .list_order li,
+#tmp_gallery_player2 .stop_btn2,
+#tmp_gallery_player2 .play_btn2,
+#tmp_kgallery .list_order li,
+#tmp_kgallery .wrap_gallery_cntrol .gallery_navi p,
+#tmp_sma_menu .close_btn{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<label for="que(.*?)">([123])：(.*?)</label>' '<label for="que$1">$2：<br style="display:none;">$3</label>';
+	replace:'<p class="cal_date"><span class="year">(.*?)</span>(.*?)<span class="month">(.*?)</span>(.*?)</p>' '<p class="cal_date"><span class="year">$1</span><br style="display:none;"><span class="month">$3</span></p>';
+}
+
+@postprocess{
+	replace:'<p><!--cltx--><span>#month#</span> moon <span>#day#</span> day #week# day</p>' '<p><span>#month#</span> moon <span>#day#</span> day #week# day</p>';
+	replace:'<p><!--cltx-->#lunar_date#</p>' '<p>#lunar_date#</p>';
+}
