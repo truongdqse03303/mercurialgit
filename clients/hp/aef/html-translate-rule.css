@@ -46,7 +46,6 @@ div.check_section > ul > li,
 }
 
 @preprocess {
-	replace:"domain: 'japanhouse.com'" "domain: 'transer.com'";
 	replace:'<span id="hisCnt">(.*?)</span>' '<span id="hisCnt">$1</span><br style="display:none;">';
 	replace:'<span id="favoCnt">(.*?)</span>' '<span id="favoCnt">$1</span><br style="display:none;">';
 	replace:'<a href="/area_b1/" class="area"><i class="fa fa-map-marker" aria-hidden="true"></i>(.*?)</a>' '<a href="/area_b1/" class="area"><i class="fa fa-map-marker" aria-hidden="true"></i><br style="display:none;">$1</a>';

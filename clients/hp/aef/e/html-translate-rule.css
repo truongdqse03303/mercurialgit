@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
 }
+
+@preprocess {
+	replace:"domain: 'japanhouse.com'" "domain: 'transer.com'";
+}
