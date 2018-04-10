@@ -17,4 +17,5 @@ body {
 
 @preprocess {
 	replace:'フリーワード' '自由词';
+	replace:"domain: 'japanhouse.com'" "domain: 'transer-cn.com'";
 }
