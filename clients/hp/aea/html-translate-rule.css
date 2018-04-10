@@ -16,6 +16,6 @@
 }
 
 @postprocess{
-	replace:'<p><!--cltx--><span>#month#</span> moon <span>#day#</span> day #week# day</p>' '<p><span>#month#</span> moon <span>#day#</span> day #week# day</p>';
+	replace:'<p><!--cltx--><span>#month#</span> moon <span>#day#</span> day #week# day</p>' '<p><span>#month#</span><br style="display:none;"> moon <span>#day#</span><br style="display:none;"> day #week# day</p>';
 	replace:'<p><!--cltx-->#lunar_date#</p>' '<p>#lunar_date#</p>';
 }
