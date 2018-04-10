@@ -64,7 +64,7 @@ div#zoomImgItem {
 
 
 @preprocess {
-	replace: '<a href="https://www.rehouse.co.jp/toushi/investBukkenList?invBukkenSm=(.*?)">' '<a href="https://www.rehouse.co.jp/toushi/investBukkenList?invBukkenSm=$1" class="cl-norewrite">';
+	replace: '<a href="https://www.rehouse.co.jp/toushi/investBukkenList(.*?)">' '<a href="https://www.rehouse.co.jp/toushi/investBukkenList$1" class="cl-norewrite">';
 }
 
 @postprocess {
