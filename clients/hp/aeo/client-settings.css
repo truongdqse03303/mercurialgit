@@ -6,6 +6,12 @@
 	letter-spacing: normal;
 }
 
+#globalNav18:lang(en) ul li a {
+    height: auto;
+    line-height: normal;
+    font-size: 12px;
+}
+
 #recommendation:lang(en) .bannerArea p a {
     font-size: 8.5pt;
 }

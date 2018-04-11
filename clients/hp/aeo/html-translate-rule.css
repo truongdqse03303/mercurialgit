@@ -1,0 +1,4 @@
+/* 翻訳除外 */
+.facebookInner{
+	attribute:cltx add 'exclude';
+}
