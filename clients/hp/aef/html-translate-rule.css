@@ -27,6 +27,7 @@ form#spotForm > div#spot-display > div.display-check {
 }
 
 /* エリア検索など */
+.listview,
 .searchdetail,
 .shikirei > li,
 .menuInner > .item,
@@ -41,7 +42,8 @@ div.check_section > ul > li,
 .outer > ul > li,
 .listview_inner > .image,
 .listview_inner > .imagebox,
-.underFix_contents > span > span {
+.underFix_contents > span,
+.action-btn > ul > li {
         attribute:clftx add 'exclude';
 }
 
