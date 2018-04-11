@@ -36,7 +36,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>(http|https)://(www\.japanhouse\.com|m\.japanhouse\.com)/(search/|bkn/|mobile/|default/)(ajax/|map/|search/)(bkncnt/|kodawaricount/|selectbkn/|getmapbknresult/|all_cnt/|public_cnt/|today_cnt/|ajaxlist/|bkncount/|favorite/|azalink/)</param-value>
+      <param-value>(http|https)://(www\.japanhouse\.com|m\.japanhouse\.com)/(search/|bkn/|mobile/|default/)(ajax/|map/|search/|select/)(bkncnt/|kodawaricount/|selectbkn/|getmapbknresult/|all_cnt/|public_cnt/|today_cnt/|ajaxlist/|bkncount/|favorite/|azalink/|station/)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
