@@ -1,4 +1,5 @@
 /* 翻訳除外 */
+.flexslider,
 .facebookInner{
 	attribute:cltx add 'exclude';
 }
