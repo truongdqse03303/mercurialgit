@@ -22,7 +22,9 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>(http|https)://www\.japanhouse\.com/js/search/select\.js.*</param-value>
+      <!-- param-value>(http|https)://www\.japanhouse\.com/js/search/select\.js.*</param-value -->
+      <param-value>(http|https)://(www\.japanhouse\.com|m\.japanhouse\.com)/(js/|mobile/)(search/|select/)(select\.js.*|station.*)</param-value>
+
     </param>
     <param>
       <param-name>resource.type.name</param-name>
@@ -36,7 +38,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>(http|https)://(www\.japanhouse\.com|m\.japanhouse\.com)/(search/|bkn/|mobile/|default/)(ajax/|map/|search/|select/)(bkncnt/|kodawaricount/|selectbkn/|getmapbknresult/|all_cnt/|public_cnt/|today_cnt/|ajaxlist/|bkncount/|favorite/|azalink/|station/)</param-value>
+      <param-value>(http|https)://(www\.japanhouse\.com|m\.japanhouse\.com)/(search/|bkn/|mobile/|default/)(ajax/|map/|search/|select/)(bkncnt/|kodawaricount/|selectbkn/|getmapbknresult/|all_cnt/|public_cnt/|today_cnt/|ajaxlist/|bkncount/|favorite/|azalink/|member_cnt/)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
