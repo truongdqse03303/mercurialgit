@@ -10,3 +10,7 @@
   eid: MS-JAVI;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess{
+	replace:'UA-4717922-1' 'UA-4717922-7';
+}

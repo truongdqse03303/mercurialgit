@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER COMPUTER";
 }
+
+@preprocess{
+	replace:'UA-4717922-1' 'UA-4717922-6';
+}

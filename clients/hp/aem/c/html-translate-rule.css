@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER COMPUTER";
 }
 
+@preprocess{
+	replace:'UA-4717922-1' 'UA-4717922-4';
+}
+
 body {
   attribute: lang add 'zh';
 }
