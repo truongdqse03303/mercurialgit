@@ -192,3 +192,7 @@ div.auto-translation > .auto-translation_list > li {
 .professional_q_txt {
 	attribute: style add 'width: 440px; /* update */ font-size: 0.75em; /* update */ left: 0;'; /* update */
 }
+
+#language.dropmenu {
+  attribute: cltx add 'exclude';
+}
