@@ -1,0 +1,64 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 998;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+#subContent #wp-calendar th{
+    font-size: 9px;
+}
+
+@media screen and (max-width: 480px){
+    #globalNav .table .th img{
+        width: 90%;
+    }
+
+    #globalNav .table .th p span{
+        font-size: 13px;
+    }
+
+    .sentry a{
+        word-break: break-all;
+    }
+
+    .sentry p, 
+    .sentry li,
+    .sentry dt,
+    .sentry dd{
+        text-align: left;
+        line-height: 1.3;
+    }
+
+    .sentry table tbody td{
+        vertical-align: top;
+    }
+
+    .trnslt select:lang(en){
+        font-size: 10px;
+    }
+
+    #siteNav .contentRight .table .td.translate{
+        top: 40px;
+    }
+
+    .sentry .flex-imgs.cols2 .contentLeft{
+        width: 100%;
+    }
+
+    .sentry table{
+        word-break: break-all;
+    }
+}

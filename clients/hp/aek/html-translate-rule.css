@@ -1,0 +1,5 @@
+/* 翻訳除外 */
+.flexslider,
+.flex-control-paging li a{
+	attribute:cltx add 'exclude';
+}
