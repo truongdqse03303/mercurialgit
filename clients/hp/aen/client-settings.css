@@ -48,3 +48,16 @@ p.r_kashi {
 .mt10 {
     max-width: 440px;
 }
+
+@media screen and (max-width: 640px) {
+
+	#site-translate-header-wrapper {
+	    position: fixed;
+	    top: 0;
+	}
+
+	.header {
+	    top: 44px;
+	}
+
+}
