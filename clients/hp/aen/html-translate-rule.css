@@ -1,5 +1,11 @@
 /* 翻訳除外 */
 #slideimage,
-#nav1 li{
+#nav1 li,
+.fb_iframe_widget{
 	attribute:cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<strong>すみだ まち処</strong>' '<br style="display:none;"><strong>すみだ まち処</strong>';
+	replace:'<h2 class="footer_title">産業観光プラザ すみだ まち処</h2>' '<h2 class="footer_title">産業観光プラザ <br style="display:none;">すみだ まち処</h2>';
 }
