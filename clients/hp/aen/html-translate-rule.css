@@ -1,7 +1,7 @@
 /* 翻訳除外 */
 #slideimage,
 #nav1 li,
-.fb_iframe_widget{
+.bg-home01{
 	attribute:cltx add 'exclude';
 }
 
