@@ -1,3 +1,11 @@
 div.list_ccc span > a {
   text-flow: break;
 }
+
+@preprocess {
+	replace: '<a accesskey="L"(.*?)>' '<a accesskey="L"$1 class="cl-norewrite">';
+}
+
+@postprocess {
+	replace: '%E2%9F%A8' '&amp;lang';
+}
