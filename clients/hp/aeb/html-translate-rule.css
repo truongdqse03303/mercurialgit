@@ -1,0 +1,17 @@
+/* 翻訳除外 */
+.list_order li,
+.gallery_cntrol p,
+.prev,
+.next,
+.close_btn{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<label for="que(.*?)">([123])：(.*?)</label>' '<label for="que$1">$2：<br style="display:none;">$3</label>';
+
+	replace:'<div class="event_col3M"><p class="cal_date"><span class="year">(.*?)</span>(.*?)<span class="month">(.*?)</span>(.*?)</p></div>' '<div class="event_col3M"><p class="cal_date"><span class="year">$1$2</span><br style="display:none;"><span class="month">$3$4</span></p></div>';
+}
+
+
+

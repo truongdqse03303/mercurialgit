@@ -1,0 +1,6 @@
+// @RULESET
+// URL = http://www.city.minamikyushu.lg.jp/shared/js/setting_responsive.js
+
+@preprocess{
+	replace:'var spMenuCloseBtnText= \'閉じる\';' 'var spMenuCloseBtnText= \'关闭\';';
+}

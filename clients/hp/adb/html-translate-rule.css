@@ -1,0 +1,19 @@
+/* 翻訳除外 */
+#tmp_hgallery .list_order li,
+#tmp_hgallery .gallery_cntrol p,
+.tokusetsu_gallery_ctrl .list_order li,
+.tokusetsu_gallery_cntrol p,
+.tokusetsu_gallery_navi .prev_btn,
+.tokusetsu_gallery_navi .next_btn,
+.wadai_gallery_cntrol p,
+.wadai_gallery_navi .prev_btn,
+.wadai_gallery_navi .next_btn,
+.close_btn{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<label for="que(.*?)">([123])：(.*?)</label>' '<label for="que$1">$2：<br style="display:none;">$3</label>';
+
+	replace:'<div class="event_col3M"><p class="cal_date"><span class="year">(.*?)</span>(.*?)<span class="month">(.*?)</span>(.*?)</p></div>' '<div class="event_col3M"><p class="cal_date"><span class="year">$1$2</span><br style="display:none;"><span class="month">$3$4</span></p></div>';
+}

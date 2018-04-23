@@ -1,0 +1,47 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 10000;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+.format_sogo_top #tmp_gnavi li{
+    width: auto;
+}
+
+.format_sogo_top #tmp_gnavi a{
+    font-size: 100%;
+}
+
+.format_top #tmp_gnavi li,
+.format_free #tmp_gnavi li{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 480px){
+    #tmp_hlogo h1 span,
+    #tmp_hlogo p span,
+    #tmp_hlogo a{
+        font-size: 60%;
+    }
+    
+    #tmp_contents #tmp_facilities_btn li a span{
+        display: block;
+    }
+
+    .tmp_tab_ttl li{
+        font-size: 100%;
+    }
+}

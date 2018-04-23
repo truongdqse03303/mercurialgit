@@ -1,0 +1,67 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 10000;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+.format_sogo_top #tmp_wrapper{
+    width: 100%;
+}
+
+#tmp_contents #tmp_search_area #tmp_facilities_btn li{
+    padding: 0 5px 10px 0;
+}
+
+#tmp_contents #tmp_facilities_btn li{
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tmp_gnavi a{
+    font-size: 100%;
+}
+
+@media screen and (max-width: 480px){
+    #sogo_menu p a{
+        font-size: 1em;
+    }
+    
+   #tmp_kanko_main_menu_area .main_menu_item{
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+   }
+
+   #tmp_life_cnt .life01 p{
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+   }
+
+   #tmp_life_cnt .life01 a{
+    word-wrap: break-word;
+   }
+
+   #tmp_contents .idx_info_ttl > div{
+    position: static;
+   }
+
+   #tmp_contents #tmp_search_area #tmp_facilities_btn li{
+    width: 49%;
+   }
+}
