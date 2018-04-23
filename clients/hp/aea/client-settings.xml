@@ -16,6 +16,20 @@
   <param-value>client-settings.css</param-value>
   </extension-param>
 
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>(http|https)://www\.vill\.yamato\.lg\.jp/cgi-bin/urgency/getlist\.cgi</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>BINARY</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>

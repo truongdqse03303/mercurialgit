@@ -12,6 +12,7 @@
 
 @preprocess {
 	replace:'<label for="que(.*?)">([123])：(.*?)</label>' '<label for="que$1">$2：<br style="display:none;">$3</label>';
+	replace:'<label for="que(.*?)">([123])：(.*?)</label>' '<label for="que$1">$2：<br style="display:none;">$3</label>';
 	replace:'<p class="cal_date"><span class="year">(.*?)</span>(.*?)<span class="month">(.*?)</span>(.*?)</p>' '<p class="cal_date"><span class="year">$1</span><br style="display:none;"><span class="month">$3</span></p>';
 }
 

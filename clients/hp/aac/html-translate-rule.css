@@ -37,3 +37,9 @@ div.works-search > div.checklist > div.checklist-category {
 div.pagenavi > div.pagenavi-container > div.pagenavi-mask {
  attribute: style add 'font-size:13px;';
 }
+
+// @RULESET
+// URL #= //www.universalhome.co.jp/modelhouse/chiba/kisarazu/
+@preprocess{
+	replace:'<span class="staffName">強瀬　栞里</span>' '<br style="display:none;"><span class="staffName">強瀬 <br style="display:none;">栞里</span><br style="display:none;">';
+}
