@@ -1,0 +1,48 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: auto;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: auto;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 1.5;
+}
+
+body{
+    letter-spacing: normal;
+}
+
+.topicsBox{
+    float: none;
+    width: auto;
+}
+
+.navbar-nav>li{
+    float: none !important;
+}
+
+.navbar-nav > li > a{
+   padding: 15px 5px 10px 5px !important; 
+}
+
+@media (max-width: 980px){
+    .navbar-default .navbar-collapse{
+        margin-top: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .mainNav li{
+        top: 40px;
+    }
+}

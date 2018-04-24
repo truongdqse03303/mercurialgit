@@ -1,6 +1,12 @@
 #header_global,
+#fSTwitter,
+.mainConts,
 #Twitter,
 #Twitter_lily
 #SocialButton {
 	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace: '<dd class="period">(.*?)<span class="fs-14 fontStyleN">(.*?)</span><span class="fs-30">(.*?)</span>(.*?)<span class="fs-14 fontStyleN">(.*?)</span></dd>' '<dd class="period">$1<br style="display:none;"><span class="fs-14 fontStyleN">$2</span><br style="display:none;"><span class="fs-30">$3</span><br style="display:none;">$4<br style="display:none;"><span class="fs-14 fontStyleN">$5</span></dd>';	/* top date */
 }

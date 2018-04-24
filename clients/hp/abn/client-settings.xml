@@ -13,7 +13,7 @@
 
   <extension-param>
   <param-name>site.translate.header.style</param-name>
-  <param-value>style: #site-translate-header-wrapper{width:auto !important;}</param-value>
+  <param-value>client-settings.css</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->

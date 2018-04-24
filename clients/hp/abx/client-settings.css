@@ -1,0 +1,58 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+article#container{
+	top:49px;
+	position: absolute;
+	width: 100%;
+}
+
+div#container {
+	margin: 44px auto 0;
+}
+
+#gHeader {
+	margin: 0;
+	top: 48px;
+}
+
+nav {
+	top:390px;
+}
+
+body#default {
+	background: url(http://yurien.com/common/images/visual_default_img_bg.jpg) no-repeat center 30px,url(http://yurien.com/common/images/bg.png) repeat-x #FFF;
+}
+
+#topInfo dl#businessH dd.period {
+    font-size: 5.5rem;
+}
+
+#topInfo dl#businessH dt {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+div#footer div#footer_header {
+	width: 980px;
+}
+
+div#footer div#footer_header div#footer_header_etc {
+	width: 810px;
+}

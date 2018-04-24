@@ -31,4 +31,6 @@
 	replace:'<dt>Q7(.*?)</dt>' '<dt>Q7<br style="display:none;">$1</dt>';
 	replace:'<dt>Q8(.*?)</dt>' '<dt>Q8<br style="display:none;">$1</dt>';
 	replace:'<dt>Q9(.*?)</dt>' '<dt>Q9<br style="display:none;">$1</dt>';
+
+	replace:'<strong>(.*?)</strong>(.*?)<br>(.*?)<strong>(.*?)</strong>(.*?)<strong>(.*?)</strong>(.*?)<strong>(.*?)</strong>(.*?)<strong>(.*?)</strong>(.*?)</td>' '<strong>$1</strong><br style="display:none;">$2<br>$3<br style="display:none;"><strong>$4</strong><br style="display:none;">$5<br style="display:none;"><strong>$6</strong><br style="display:none;">$7<br style="display:none;"><strong>$8</strong><br style="display:none;">$9<br style="display:none;"><strong>$10</strong><br style="display:none;">$11</td>';
 }
