@@ -39,7 +39,7 @@ div.check_section > ul > li,
         attribute:cltx add 'exclude';
 }
 
-.img_gallery,
+.container > .slider,
 .outer > ul > li,
 .listview_inner > .image,
 .listview_inner > .imagebox,
@@ -48,6 +48,7 @@ div.check_section > ul > li,
 .listview_inner > .imagebox > .bknimage,
 .listview_inner > .imagebox > .bknimage > img,
 .underFix_contents,
+.favorite_buttom,
 .action-btn > ul > li {
         attribute:cltx add 'exclude';
 }
