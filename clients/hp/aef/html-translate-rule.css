@@ -36,15 +36,20 @@ div.check_section > .outer,
 div.check_section > ul > li,
 .squeeze_area > .squeezeInner,
 .squeeze_area > .squeezeInner > p {
-        attribute:clftx add 'exclude';
+        attribute:cltx add 'exclude';
 }
 
+.img_gallery,
 .outer > ul > li,
 .listview_inner > .image,
 .listview_inner > .imagebox,
-.underFix_contents > span,
+.spi > .listview_inner > .imagebox,
+.imagebox,
+.listview_inner > .imagebox > .bknimage,
+.listview_inner > .imagebox > .bknimage > img,
+.underFix_contents,
 .action-btn > ul > li {
-        attribute:clftx add 'exclude';
+        attribute:cltx add 'exclude';
 }
 
 @preprocess {
