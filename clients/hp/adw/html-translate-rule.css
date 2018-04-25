@@ -9,7 +9,9 @@
 	replace:'<p>空間の中に和（京都）と洋の要素を融合させた「ファミリールーム」。' '<p>空間の中に和（京都）と洋の要素を融合させた「ファミリールーム」<br style="display:none;">。';
 	replace:'<li class="type_restaurant_office"><a tel="0752542526">(.*?)<br><span>(.*?)</span>（9:00～19:00）</a></li>' '<li class="type_restaurant_office"><a tel="0752542526">$1<br><span>$2</span><br style="display:none;"> (9:00～19:00)</a></li>';
 	replace:'<tr><th>天井高</th><td>(.*?)<span class="f11">(.*?)</span></td></tr>' '<tr><th>天井高</th><td>$1<br style="display:none;"><span class="f11">$2</span></td></tr>';
+	replace:'<li><p>2F</p><p>(.*?)<a href="/okura/faq/#yojiya" rel="nofollow" class="inner_link">(.*?)</a>(.*?)</p></li>' '<li><p>2F</p><p>$1<br style="display:none;"><a href="/okura/faq/#yojiya" rel="nofollow" class="inner_link">$2</a><br style="display:none;">$3</p></li>';
 }
+
 
 @postprocess{
 	replace:'<a tel="0752542526">Restaurant office<br>(.*?)<span>(.*?)</span><br style="display:none;"> (.*?)9:00～19:00</a>' '<a tel="0752542526">Restaurant office<br>$1<span>$2</span><br style="display:none;"> $3(9:00～19:00)</a>';
