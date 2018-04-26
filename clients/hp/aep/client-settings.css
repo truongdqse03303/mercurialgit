@@ -1,0 +1,26 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: auto;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: auto;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 1.5;
+}
+
+body,p, ul, dl, ol, li, address, legend{
+    letter-spacing: normal;
+}
+
+.mol_tableblock td{
+    font-size: 75%;
+}

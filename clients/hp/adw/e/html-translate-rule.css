@@ -90,3 +90,9 @@
 
 
 }
+
+// @RULESET
+// URL #= //www\.hotel\.kyoto/okura/facility/floor/
+@postprocess{
+	replace:'Beauty treatment sa<a href="/okura/faq/#yojiya"(.*?)>lon / </a>Yojiya' 'Beauty treatment salon / <a href="/okura/faq/#yojiya"$1>Yojiya</a>';
+}
