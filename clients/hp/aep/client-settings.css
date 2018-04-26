@@ -24,3 +24,7 @@ body,p, ul, dl, ol, li, address, legend{
 .mol_tableblock td{
     font-size: 75%;
 }
+
+.head_box {
+    font-size: 78%;
+}
