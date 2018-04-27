@@ -18,6 +18,9 @@
 	padding-top: 177px;
 }
 
+.contact_wrap .inner p {
+	font-size: 32px;
+}
 
 @media only screen and (max-width: 640px){
 	.header{
@@ -26,6 +29,10 @@
 
 	.content{
 		padding-top: 101px;
+	}
+
+	.contact_wrap .inner p {
+    	font-size: 21px;
 	}
 }
 

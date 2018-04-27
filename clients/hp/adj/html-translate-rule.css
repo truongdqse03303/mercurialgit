@@ -5,5 +5,5 @@
 // @RULESET
 // URL #= //www.hibiya.tokyo-midtown.com/en/conference/.*
 @preprocess{
-	replace:'<div class="right_box"><p>(.*?)<span>(.*?)</span></p></div>' '<div class="right_box"><p>$1<br style="display:none;"><span>$2</span></p>';
+	replace:'<div class="right_box">(.*?)<p>(.*?)<span>(.*?)</span></p>' '<div class="right_box">$1<p>$2<br style="display:none;"><span>$3</span></p>';
 }
