@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT ART SYSTEM COMPUTER";
 }
+
+@preprocess{
+	replace:'<div class="head_box">' '<div class="head_box en_head_box">';
+}

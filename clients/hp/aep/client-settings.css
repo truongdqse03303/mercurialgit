@@ -25,6 +25,20 @@ body,p, ul, dl, ol, li, address, legend{
     font-size: 75%;
 }
 
-.head_box {
+.en_head_box,
+.ko_head_box {
     font-size: 78%;
+}
+
+#search #search_l{
+    width: 23%;
+    padding: 0 10px 0 0;
+}
+
+#search #search_r .formTxt{
+    width: 300px;
+}
+
+#search #search_l p{
+    line-height: 1.2;
 }

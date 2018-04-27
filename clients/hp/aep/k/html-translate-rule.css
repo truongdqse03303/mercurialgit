@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER COMPUTER";
 }
+
+@preprocess{
+	replace:'<div class="head_box">' '<div class="head_box ko_head_box">';
+}
