@@ -1,0 +1,19 @@
+#site-translate-header-wrapper {
+	width:100% !important;
+	line-height: normal;
+}
+
+#floor_guild .nav_floor ul li a span.detail_floor {
+    font-size: 10px;
+}
+
+.reminder_friends_society .friends_society_content .txt_blue {
+    top: 10%;
+    line-height: 1.0;
+}
+
+.reminder_friends_society .friends_society_content .txt_white {
+    left: 2%;
+    font-size: 12px;
+    line-height: normal;
+}
