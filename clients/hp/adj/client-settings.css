@@ -27,6 +27,11 @@
     margin: 0;
 }
 
+.contact_wrap .inner .index {
+    margin-right: 5px;
+}
+
+
 @media only screen and (max-width: 640px){
 	.header{
 		top: 45px;
