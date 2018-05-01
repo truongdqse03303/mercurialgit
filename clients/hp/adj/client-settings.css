@@ -22,6 +22,11 @@
 	font-size: 32px;
 }
 
+.contact_wrap .inner {
+    width: auto;
+    margin: 0;
+}
+
 @media only screen and (max-width: 640px){
 	.header{
 		top: 45px;
