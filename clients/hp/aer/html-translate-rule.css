@@ -1,4 +1,5 @@
 @preprocess{
 	replace:'<span class="floor_building">(.*?)</span><span class="detail_floor">(.*?)</span>' '<span class="floor_building">$1</span><br style="display:none;"><span class="detail_floor">$2</span>';
 	replace:'<span class="detail_floor">(.*?)<br />チケットカウンター</span>' '<span class="detail_floor">$1<br style="display:none;">チケットカウンター</span>';
+	replace:'<div class="lcp_customfield"><span(.*?)>(.*?)</span>(.*?)</div>' '<div class="lcp_customfield"><span$1>$2</span><br style="display:none;">$3</div>';
 }
