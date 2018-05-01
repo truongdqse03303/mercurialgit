@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+}
+@engine ryubo/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine ryubo/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER";
+}
+
+@preprocess {
+	replace: 'UA-55029337-1' 'UA-55029337-6';
+}

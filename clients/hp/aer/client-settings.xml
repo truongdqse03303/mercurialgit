@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>デパートリウボウ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ryubo/service 2196ec843d560d91e986395708ebaf2fe8e35a9d</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="ryubo.jp" ssl="true" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

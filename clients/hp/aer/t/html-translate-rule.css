@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM FASHION";
+}
+@engine ryubo/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM FASHION";
+}
+@engine ryubo/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION";
+}
+
+@preprocess {
+	replace: 'UA-55029337-1' 'UA-55029337-4';
+}
