@@ -36,6 +36,7 @@ form#spotForm > div#spot-display > div.display-check {
 /* エリア検索など */
 #article > #tab,
 #img_main,
+#pht-left > p,
 .bukkenImages,
 .listview,
 .searchdetail,
