@@ -1,0 +1,59 @@
+.flee-search,
+.free_search_cnt,
+.free_search > div > div{
+	attribute: cltx add 'exclude';
+}
+
+div.top-section > div > div > p {
+	attribute:cltx add 'exclude';
+}
+
+p.bukken.osusume {
+        attribute:cltx add 'exclude';
+}
+
+div.section.act6 > ul > li > p.bukken {
+        attribute:cltx add 'exclude';
+}
+
+.costomer-pht {
+        attribute:cltx add 'exclude';
+}
+
+div.check_section > div > ul > li{
+        attribute:cltx add 'exclude';
+}
+
+div#contents > form#searchForm > p.center,
+div#contents > form#searchForm > .step > p.center {
+        attribute:cltx add 'exclude';
+}
+
+form#spotForm > div#spot-display > div.display-check {
+        attribute:cltx add 'exclude';
+}
+
+/* エリア検索など */
+#article > #tab,
+#img_main,
+.bukkenImages,
+.listview,
+.searchdetail,
+.shikirei > li,
+.menuInner > .item,
+div.check_section,
+div.check_section > .outer,
+div.check_section > ul > li,
+.squeeze_area > .squeezeInner,
+.squeeze_area > .squeezeInner > p {
+        attribute:cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<span class="number-color bknCnt">(.*?)</span>' '<br style="display:none;"><span class="number-color bknCnt">$1</span><br style="display:none;">';
+	replace:'<span id="hisCnt">(.*?)</span>' '<span id="hisCnt">$1</span><br style="display:none;">';
+	replace:'<span id="favoCnt">(.*?)</span>' '<span id="favoCnt">$1</span><br style="display:none;">';
+	replace:'<a href="/area_b1/" class="area"><i class="fa fa-map-marker" aria-hidden="true"></i>(.*?)</a>' '<a href="/area_b1/" class="area"><i class="fa fa-map-marker" aria-hidden="true"></i><br style="display:none;">$1</a>';
+	replace:'<span class="step-ttl">(.*?)</span>' '<span class="step-ttl">$1</span><br style="display:none;">';
+	replace:'<div class="pager clearfix"><p>(.*?)<span>(.*?)</span>(.*?)<span>(.*?)</span>(.*?)</p>' '<div class="pager clearfix"><p>$1<br style="display:none;"><span>$2</span><br style="display:none;">$3<br style="display:none;"><span>$4</span><br style="display:none;">$5</p>';
+}
