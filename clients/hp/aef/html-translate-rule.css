@@ -56,7 +56,7 @@ div.check_section > ul > li,
 }
 
 @preprocess {
-	replace:'<p class="number">(.*?)<span class="number-color bknCnt">(.*?)</span>(.*?)</p>' '<p class="number">$1<br style="display:none;"><span class="number-color bknCnt">$2</span>$3</p>';
+	replace:'<p class="number">(.*?)<span class="number-color bknCnt">(.*?)</span>(.*?)</p>' '<p class="number">$1<br style="display:none;"><span class="number-color bknCnt">$2</span><br style="display:none;">$3</p>';
 	replace:'<span id="hisCnt">(.*?)</span>' '<span id="hisCnt">$1</span><br style="display:none;">';
 	replace:'<span id="favoCnt">(.*?)</span>' '<span id="favoCnt">$1</span><br style="display:none;">';
 	replace:'<a href="/area_b1/" class="area"><i class="fa fa-map-marker" aria-hidden="true"></i>(.*?)</a>' '<a href="/area_b1/" class="area"><i class="fa fa-map-marker" aria-hidden="true"></i><br style="display:none;">$1</a>';
