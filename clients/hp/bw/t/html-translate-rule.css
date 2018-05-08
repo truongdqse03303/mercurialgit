@@ -1,9 +1,0 @@
-@engine default {
-  eid: CR-JCT;
-  dictionaries: "KYOTANGO_DIC KYOTANGO_TM CROSS_DIC CROSS_TM";
-}
-
-@engine kyotango/main {
-  eid: CR-JCT;
-  dictionaries: "KYOTANGO_DIC_MASTER KYOTANGO_TM_MASTER";
-}
