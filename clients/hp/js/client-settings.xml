@@ -11,11 +11,11 @@
     <request hostname="language.yokohama-mores.jp" />
   </request-list>
 
+  <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
+  </extension-param>
+
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>
-  
-  <extension-param>
-    <param-name>show.translate.header</param-name>
-    <param-value>false</param-value>
-  </extension-param>
 </client-settings>

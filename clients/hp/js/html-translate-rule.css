@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= //language\.yokohama-mores\.jp/sp/.*
+@preprocess {
+	replace:'<body>' '<body class="spversion">';
+}
