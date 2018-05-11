@@ -1,3 +1,9 @@
+/* 翻訳除外 */
+.slides li,
+#header-image .widget_metaslider_widget .metaslider .flex-control-nav li{
+	attribute:cltx add 'exclude';
+}
+
 @preprocess{
 	replace:'<span class="floor_building">(.*?)</span><span class="detail_floor">(.*?)</span>' '<span class="floor_building">$1</span><br style="display:none;"><span class="detail_floor">$2</span>';
 	replace:'<span class="detail_floor">(.*?)<br />チケットカウンター</span>' '<span class="detail_floor">$1<br style="display:none;">チケットカウンター</span>';

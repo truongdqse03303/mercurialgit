@@ -1,9 +1,6 @@
 #site-translate-header-wrapper {
 	width:100% !important;
 	line-height: normal;
-	position: fixed;
-	top: 0;
-	z-index: 10000;
 }
 
 #floor_guild .nav_floor ul li a span.detail_floor {
@@ -25,4 +22,30 @@
     left: 2%;
     font-size: 12px;
     line-height: normal;
+}
+
+#global_menu_wrapper{
+	padding-top: 25px; 
+}
+
+.normal_menu .global_menu_list li h4{
+	display: block;
+	padding: 0 0 0 5px;
+	line-height: 1.2;
+}
+
+.page-template-page-normal #main .component-inner,
+.page-template-default #main .component-inner,
+.archive #main .component-inner,
+.single-post #main .component-inner{
+	padding-top: 80px;
+}
+
+@media screen and (max-width: 800px){
+	.page-template-page-normal #main .component-inner,
+	.page-template-default #main .component-inner,
+	.archive #main .component-inner,
+	.single-post #main .component-inner{
+		padding-top: 0px;
+	}
 }
