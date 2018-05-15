@@ -24,6 +24,15 @@
     line-height: normal;
 }
 
+.reminder_friends_society:lang(en) .friends_society_content .text_title {
+    top: 73%;
+}
+
+.reminder_friends_society:lang(en) .friends_society_content .text_detail {
+    top: 79%;
+    line-height: 1.15;
+}
+
 #global_menu_wrapper{
 	padding-top: 25px; 
 }

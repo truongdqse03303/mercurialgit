@@ -1,10 +1,13 @@
 /* 翻訳除外 */
 .slides li,
-#header-image .widget_metaslider_widget .metaslider .flex-control-nav li{
+#header-image .widget_metaslider_widget .metaslider .flex-control-nav li,
+.nivo-controlNav{
 	attribute:cltx add 'exclude';
 }
 
 @preprocess{
+	replace:'<span class="num-list">(.*?)</span>' '<span class="num-list">$1</span><br style="display:none;">';
+	replace:'<a class="more_list more_specialevent" href="specialevent/">(.*?)</a>' '<br style="display:none;"><a class="more_list more_specialevent" href="specialevent/">$1</a><br style="display:none;">';
 	replace:'<span class="floor_building">(.*?)</span><span class="detail_floor">(.*?)</span>' '<span class="floor_building">$1</span><br style="display:none;"><span class="detail_floor">$2</span>';
 	replace:'<span class="detail_floor">(.*?)<br />チケットカウンター</span>' '<span class="detail_floor">$1<br style="display:none;">チケットカウンター</span>';
 	replace:'<div class="lcp_customfield"><span(.*?)>(.*?)</span>(.*?)</div>' '<div class="lcp_customfield"><span$1>$2</span><br style="display:none;">$3</div>';
