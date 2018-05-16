@@ -14,3 +14,11 @@
 @preprocess {
 	replace: 'UA-20131188-3' 'UA-20131188-5';
 }
+
+// @RULESET
+// URL #= //mitsui-shopping-park\.com/urban/muromachi/.*
+@postprocess{
+	replace:'<!--cltx--><a href="/urban/redirect.html(.*?)" target="_blank">Connected to Exi</a>t A6 of Mitsukoshimae Station on the Tokyo Metro Hanzomon Line/Ginza Lines' '<!--cltx-->Connected to Exit A6 of Mitsukoshimae Station on the <a href="/urban/redirect.html$1" target="_blank">Tokyo Metro</a> Hanzomon Line/Ginza Lines';
+	replace: '<!--cltx--><a href="/urban/redirect.html(.*?)" target="_blank">Connecte</a>d to Shin-Nihonbashi Station on the JR Sobu Express Line' '<!--cltx-->Connected to Shin-Nihonbashi Station on the <a href="/urban/redirect.html$1" target="_blank">JR</a> Sobu Express Line';
+	replace: '<!--cltx--><a href="/urban/redirect.html(.*?)" target="_blank">Metro Link Nihonbashi \\(fre</a>e shuttle bus\\)' '<!--cltx--><a href="/urban/redirect.html$1" target="_blank">Metro Link Nihonbashi</a> \\(free shuttle bus\\)';
+}
