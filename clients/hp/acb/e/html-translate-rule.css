@@ -12,7 +12,7 @@
 }
 
 @preprocess {
-//	replace:'<script type="text/javascript">(.*?)UA-36181078-1(.*?)</script>' '<!-- Global site tag \\(gtag.js\\) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117945577-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag\\(\\){dataLayer.push\\(arguments\\);}gtag\\(\'js\', new Date\\(\\)\\);gtag\\(\'config\', \'UA-117945577-1\'\\);</script>';
+	replace:'<body>(.*?)<script type="text/javascript">(.*?)UA-36181078-1(.*?)</script>' '<body>$1<!-- Global site tag \\(gtag.js\\) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117945577-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag\\(\\){dataLayer.push\\(arguments\\);}gtag\\(\'js\', new Date\\(\\)\\);gtag\\(\'config\', \'UA-117945577-1\'\\);</script>';
 }
 
 @postprocess {
