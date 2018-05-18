@@ -11,6 +11,10 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+@preprocess{
+	replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
+}
+
 @postprocess {
 	replace:'<option value=(.*?)//www.rokko-island.com' '<option value=$1//www.rokko-island.com.k.adp.hp.transer.com';
 }

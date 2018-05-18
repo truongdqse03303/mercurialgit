@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM";
 }
 
+@preprocess{
+	replace:'<!-- crosslanguage-t:show(.*?)/crosslanguage-t:show -->' '$1';
+}
+
 @postprocess {
 	replace:'<option value=(.*?)//www.rokko-island.com' '<option value=$1//www.rokko-island.com.t.adp.hp.transer.com';
 }
