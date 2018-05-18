@@ -1,0 +1,7 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+.en div#naviArea ul#navi_list li p {
+    line-height: normal;
+}

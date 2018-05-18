@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+@postprocess {
+	replace: '<body(.*?)>' '<body$1 class="en">';
+}

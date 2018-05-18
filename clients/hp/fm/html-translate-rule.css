@@ -1,3 +1,15 @@
+.flash{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess {
+	replace: '<img(.*?)//www.city.kumamoto.jp/slide/pub/SlideViewerImageHandler.ashx(.*?)set_pic=1"(.*?)>' '<img$1//www.city.kumamoto.jp/slide/pub/SlideViewerImageHandler.ashx$2set_pic=1"$3 class="cl-norewrite">';
+}
+
+@postprocess {
+  replace: '%E2%8A%82' '&amp;sub';
+}
+
 // @RULESET
 // URL #= http://www\.city\.kumamoto.jp/(?!mobile/).*
 @preprocess {
