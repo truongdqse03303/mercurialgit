@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.biccamera.co.jp" />
+    <request hostname="www.biccamera.co.jp" ssl="true" />
     <request hostname="www.biccamera.com" ssl="true" />
     <request hostname="search.biccamera.com" />
     <request hostname="sp.biccamera.com" />
