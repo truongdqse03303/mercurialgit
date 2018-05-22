@@ -1,0 +1,17 @@
+#site-translate-header-wrapper {
+	width: auto !important;
+}
+
+*+div {
+	margin-top: unset;
+}
+
+#commonPageHeader {
+	position: relative;
+}
+
+@media (min-width: 801px) {
+	#commonPageFooter dt {
+	    width: auto;
+	}
+}

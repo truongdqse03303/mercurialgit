@@ -1,0 +1,10 @@
+#imageSlide > #itemArea{
+	attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL #= //bandainamco-am.co.jp/chara_shop/
+// URL #= //preview.namco.web-meister.jp/wmpreview/www.namco.co.jp/chara_shop/
+@postprocess{
+	replace:'<p>(.*?)<!--cltx--><a href="(.*?)/NEWS/(.*?)">' '<p>$1<a href="$2/NEWS/$3">';
+}
