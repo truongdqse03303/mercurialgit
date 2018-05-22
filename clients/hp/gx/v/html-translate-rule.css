@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine nanao/main {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine nanao/cross {
+  eid: MS-JAVI;
+  dictionaries: "CROSS_TM_MASTER";
+}
