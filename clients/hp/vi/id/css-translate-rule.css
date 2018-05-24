@@ -1,5 +1,5 @@
 // @RULESET
-// URL = http://www.biccamera.co.jp/bicsports/css/common.css
+// URL = //www.biccamera.co.jp/bicsports/css/common.css
 @preprocess {
  replace:'font-size:125%;' 'font-size:17px;';
  replace:'font-size: 125%;' 'font-size:116%;';
@@ -7,13 +7,13 @@
 }
 
 // @RULESET
-// URL = http://www.biccamera.com/bc/c/css/general.css
+// URL = //www.biccamera.com/bc/c/css/general.css
 @preprocess {
  replace:' font-size:140% !important;' ' font-size:100% !important;';
 }
 
 // @RULESET
-// URL = http://www.biccamera.co.jp/shopguide/office/office_lbanner.css
+// URL = //www.biccamera.co.jp/shopguide/office/office_lbanner.css
 @preprocess {
  replace:'padding: 15px' 'padding: 9px';
 }

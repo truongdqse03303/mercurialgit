@@ -10,12 +10,15 @@ replace: '<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-
 replace:'<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padding:4px;margin:4px 0px">' '<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padding:4px;margin:4px 0px;display:none;" clftx="exclude">';
 }
 
-div[id=KEY-SEARCH-BOX]{
+div[id=KEY-SEARCH-BOX],
+.head-link,
+.grid3 > .csr-banner,
+.grid4{
 attribute: cltx add 'exclude';
 }
 
 // @RULESET
-// URL #= http://www.biccamera.co.jp/sport_activity/.*
+// URL #= //www.biccamera.co.jp/sport_activity/.*
 div#banner {
  attribute: clftx add 'exclude';
 }

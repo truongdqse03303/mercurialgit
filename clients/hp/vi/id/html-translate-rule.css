@@ -14,10 +14,10 @@
 replace:'charset=Shift_JIS' 'charset=UTF-8';
 }
 @postprocess {
- replace: 'src="http://www\.biccamera\.com/bc/images/news/(.*?).jpg"' 'src="../images/news/$1.jpg"';
+ replace: 'src="(http|https)://www\.biccamera\.com/bc/images/news/(.*?).jpg"' 'src="../images/news/$1.jpg"';
 }
 @postprocess {
- replace: 'src="http://sake\.biccamera\.com/bs/images/news/(.*?).jpg"' 'src="../images/news/$1.jpg"';
+ replace: 'src="(http|https)://sake\.biccamera\.com/bs/images/news/(.*?).jpg"' 'src="../images/news/$1.jpg"';
 }
 @preprocess {
  replace:'<span class="product_count">(.*?)</span>' '<span class="product_count">$1</span><br style="display:none;">';
@@ -33,13 +33,13 @@ span.price {
 }
 
 // @RULESET
-// URL = http://www.biccamera.co.jp/service/store/photo/index.html
+// URL = //www.biccamera.co.jp/service/store/photo/index.html
 p.link {
  attribute: style add 'margin-top: 32px;';
 }
 
 // @RULESET
-// URL #= http://www\.biccamera\.co\.jp/shoplist/.*
+// URL #= //www\.biccamera\.co\.jp/shoplist/.*
 span#kanagawa {
  attribute: style add 'font-size: 15px;';
 }
@@ -51,7 +51,7 @@ div#shoplist {
 }
 
 // @RULESET
-// URL #= http://www\.biccamera\.co\.jp/bicsports/.*
+// URL #= //www\.biccamera\.co\.jp/bicsports/.*
 #header3_inner, div.osusume {
  attribute: style add 'font-size: 13px;';
 }
@@ -78,7 +78,7 @@ div#footer.grid12.first {
 }
 
 // @RULESET
-// URL #= http://www\.biccamera.co\.jp/bictoys/.*
+// URL #= //www\.biccamera.co\.jp/bictoys/.*
 #news {
  attribute: style add 'font-size: 15px;';
 }
@@ -126,27 +126,27 @@ div#osusume > ul > li.bottom > a {
 }
 
 // @RULESET
-// URL #= http://www\.biccamera\.com/bc/c/info/order/keep-howto\.jsp
+// URL #= //www\.biccamera\.com/bc/c/info/order/keep-howto\.jsp
 @postprocess {
  replace: 'catatan"</a>' 'catatan</a>"';
  replace: 'Metode pembayaran yang tersedia bervariasi oleh toko.</a>' 'Metode pembayaran</a> yang tersedia bervariasi oleh toko.'; 
 }
 
 // @RULESET
-// URL #= http://www\.biccamera\.co\.jp/service/store/photo/.*
+// URL #= //www\.biccamera\.co\.jp/service/store/photo/.*
 p.link > a , .price > b {
  text-flow: break;
 }
 
 // @RULESET
-// URL #= http://www\.biccamera\.com/bc/c/service/rakuraku_online/.*
+// URL #= //www\.biccamera\.com/bc/c/service/rakuraku_online/.*
 ul.area {
  attribute: style add 'font-size: 11px;letter-spacing: -0.1em;';
 }
 
 
 // @RULESET
-// URL #= http://www\.biccamera\.com/bc/c/service/bicsim/.*
+// URL #= //www\.biccamera\.com/bc/c/service/bicsim/.*
 @postprocess {
  replace: '<a href="/bc/c/service/sim/index.jsp">Atas Sumah</a></p></div>' '<a href="/bc/c/service/sim/index.jsp">Atas Sumah<br>&nbsp;</a></p></div>';
  replace: '<a href="/bc/c/service/sim/whats_sim.jsp">Dan SIM\\?</a></p></div>' '<a href="/bc/c/service/sim/whats_sim.jsp">Dan SIM?<br>&nbsp;</a></p></div>';
@@ -159,7 +159,7 @@ ul.area {
 }
 
 // @RULESET
-// URL #= http://www\.biccamera\.com/bc/c/life/futon/.*
+// URL #= //www\.biccamera\.com/bc/c/life/futon/.*
 ul#headermenufull3 {
  attribute: style add 'font-size: 11px;';
 }
@@ -168,25 +168,25 @@ div.buystyle {
 }
 
 // @RULESET
-// URL #= http://www.biccamera.com/bc/c/topics/staffuse/.*
+// URL #= //www.biccamera.com/bc/c/topics/staffuse/.*
 #headermenufull4l {
   attribute: style add 'font-size: 10px;letter-spacing: -0.1em;';
 }
 
 // @RULESET
-// URL #= http://www\.biccamera\.com/bc/c/contents/diaryplamo/.*
+// URL #= //www\.biccamera\.com/bc/c/contents/diaryplamo/.*
 @preprocess {
  replace:'<span class="date">(.*?)</span>' '<span class="date">$1</span><br style="display:none;">';
 }
 
 // @RULESET
-// URL #= http://sake\.biccamera\.com/bs/(top|disp)/.*
+// URL #= //sake\.biccamera\.com/bs/(top|disp)/.*
 @preprocess {
- replace: '<a href="//sake.biccamera.com(.*?)">' '<a href="http://sake.biccamera.com$1">';
+ replace: '<a href="//sake.biccamera.com(.*?)">' '<a href="https://sake.biccamera.com$1">';
 }
 
 // @RULESET
-// URL #= http://www.biccamera.co.jp/sport_activity/.*
+// URL #= //www.biccamera.co.jp/sport_activity/.*
 div#contents > p.syousai_link > a {
  attribute: style add 'font-size: 11px;line-height: 9px;text-align: left;';
 }
@@ -213,7 +213,7 @@ h3.title {
 }
 
 // @RULESET
-// URL #= http://www\.biccamera\.co\.jp/shopguide/office/.*
+// URL #= //www\.biccamera\.co\.jp/shopguide/office/.*
 h3.blue {
  attribute: style add 'font-size: 16px;line-height: 16px;display: table-cell;vertical-align: middle;';
 }
@@ -231,7 +231,7 @@ dt.no1_big ,dt.no2_big , dt.no3_big ,dt.no4_big ,dt.no5_big , dt.no6_big , dt.no
 }
 
 // @RULESET
-// URL #= http://www\.biccamera\.com/bc/cart/.*
+// URL #= //www\.biccamera\.com/bc/cart/.*
 #TMP-BTN-7 {
  attribute: style set 'font-size: 10px;letter-spacing: -0.1em;';
 }
@@ -253,7 +253,7 @@ dt.no1_big ,dt.no2_big , dt.no3_big ,dt.no4_big ,dt.no5_big , dt.no6_big , dt.no
 
 
 // @RULESET
-// URL #= http://www\.biccamera\.co\.jp/.*
+// URL #= //www\.biccamera\.co\.jp/.*
 div.foot {
  attribute: style add 'font-size: 15px;width: 115%;margin-left: -80px;';
 }
