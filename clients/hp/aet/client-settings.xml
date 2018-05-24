@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.greenbokujo.jp" ssl="true" />
-    <request hostname="greenbokujo.doodlecode.work" ssl="true" ssl_verifypeer="false" />
+    <request hostname="greenbokujo.doodlecode.work" ssl="true" />
   </request-list>
 
   <!-- Basic認証 -->
@@ -25,7 +25,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(https|http)://greenbokujo\.doodlecode\.work\.*</param-value>
+      <param-value>(https|http)://greenbokujo\.doodlecode\.work.*</param-value>
     </param>
   </resource-handler>
 
