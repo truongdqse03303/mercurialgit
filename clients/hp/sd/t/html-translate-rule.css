@@ -15,5 +15,10 @@
 replace:'(<p>.*?)<a title="店鋪一覽" href="/shop/" cltx>間請至店鋪</a>頁面(.*?</p>)' '$1間請至<a title="店鋪一覽" href="/shop/" cltx>店鋪頁面</a>$2';
 replace:'(<p>.*?)(<strong>.*?<span>)請洽防災</span>中心</strong>內的「失物</span></strong><span style="font-size: large;">招領」.*?075-</span>365-7538。</p>' '$1請洽$2防災</span>中心</strong>內的「失物招領」</span></strong><span style="font-size: large;">075-365-7538</span>。</p>';
 replace:'(<p>.*?)<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">請洽京都旅客服務中心</a><span>（京NAVI）。(.*?)<a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">問，請洽</a><span>京都市交通局。(.*?</p>)' 
-'$1請洽<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">京都旅客服務中心<span>（京NAVI）。</a>$2問，請洽<a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank"><span>京都市交通局。</span></a></p>';
+'$1請洽<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">京都旅客服務中心<span>（京NAVI）。</a>$2問，請洽<a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank"><span>京都市交通局。</span></a></p>';}
+
+// @RULESET
+// URL #= //www.porta.co.jp/shop.*
+@postprocess {
+	replace:'<li><!--cltx--><a href="(.*?)">蚊子</a></li>' '<li><!--cltx--><a href="$1">ka</a></li>';
 }

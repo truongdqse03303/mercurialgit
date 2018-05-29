@@ -20,6 +20,10 @@ replace:'(<p>.*?)<strong><span><strong><span>(.*?)防灾(</span>)(.*?)</strong>(
 replace: '(<p>.*?)<a title="店铺一览" href="/shop/" cltx>(.*?)</a>这里(.*?</p>)' '$1$2<a title="店铺一览" href="/shop/" cltx>这里</a>$3';
 replace: '(<p>.*?</span>)<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">请使用(.*?)</a><span>(.*?)</span>(.*?</span>)<a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">(.*?)</a><span>系(.*?)</p>'
  '$1请使用<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">$2$3</a>$4$5系<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">$6</a></p>';
-
 }
 
+// @RULESET
+// URL #= //www.porta.co.jp/shop.*
+@postprocess {
+	replace:'<li><!--cltx--><a href="(.*?)">蚊子</a></li>' '<li><!--cltx--><a href="$1">ka</a></li>';
+}

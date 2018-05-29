@@ -17,3 +17,10 @@ replace: '(<p>.*?)<a title="Shop List" href="/shop/" cltx>(.*?)</a>(.*?)(shop.*?
 replace: '(<p>.*?<span>.*?</span>)<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">(lease.*?visit.*?)(.*?)</a>(.*?)</span>(.*?</span>)<a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">(.*?visit)(.*?)</a>(<span>.*?)(</span>)</p>'
  '$1$2<a href="http://www\.kyokanko\.or\.jp/kyonavi_open\.html" target="_blank">$3$4</a>$5$6<a href="http://www\.city\.kyoto\.lg\.jp/kotsu/" target="_blank">$7$8</a></p>';
 }
+
+// @RULESET
+// URL #= //www.porta.co.jp/shop.*
+@postprocess {
+	replace:'<li><!--cltx--><a href="(.*?)">Mosquito</a></li>' '<li><!--cltx--><a href="$1">ka</a></li>';
+	replace:'<li><!--cltx--><a href="(.*?)">Lah</a></li>' '<li><!--cltx--><a href="$1">ra</a></li>';
+}
