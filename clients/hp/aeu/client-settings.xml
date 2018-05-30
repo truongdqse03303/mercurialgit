@@ -9,7 +9,6 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.ogaki100th.com" />
-    <request hostname="www4.ginet.or.jp" path="/test/ogaki100th/" />
     <request hostname="cug.ginet.or.jp" path="/wordpresstest/" />
   </request-list>
 
@@ -27,11 +26,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic dGVzdDp0VldUUzJ5cg==</param-value>
+      <param-value>Basic b2dha2kxMDB0aDpaNGV1OUZ3dg==</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https)://(www4\.ginet\.or\.jp.*|cug\.ginet\.or\.jp.*)</param-value>
+      <param-value>(http|https)://cug\.ginet\.or\.jp.*</param-value>
     </param>
   </resource-handler>
 

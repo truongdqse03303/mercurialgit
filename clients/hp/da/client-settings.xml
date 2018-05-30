@@ -11,4 +11,10 @@
     <request hostname="www.city.fukuyama.hiroshima.jp" />
   </request-list>
 
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>v</param-value>
+  </extension-param>
+
 </client-settings>
