@@ -26,8 +26,10 @@
 // @RULESET
 // URL #= //mitsui-shopping-park\.com/urban/mitsuitower/.*
 @postprocess{
+	replace: 'Tokyo Metro Gi</a>nza Line' 'Tokyo Metro</a> Ginza Line';
 	replace: '<!--cltx-->7<a href="/urban/redirect.html(.*?)" target="_blank">-min. walk from Ni</a>honbashi Station on the Tokyo Metro' '<!--cltx-->7-min. walk from Nihonbashi Station on the <a href="/urban/redirect.html$1" target="_blank">Tokyo Metro</a>';
 	replace: '<!--cltx-->10<a href="/urban/redirect.html(.*?)" target="_blank">-min. walk from Ni</a>honbashi Station on the Toei Subway' '<!--cltx-->10-min. walk from Nihonbashi Station on the <a href="/urban/redirect.html$1" target="_blank">Toei Subway</a>';
+	replace: '<!--cltx-->3<a href="/urban/redirect.html(.*?)" target="_blank">-min. wa</a>lk from Shin-Nihonbashi Station on the JR' '<!--cltx-->3-min. walk from Shin-Nihonbashi Station on the <a href="/urban/redirect.html$1" target="_blank">JR</a>';
 	replace: '<!--cltx-->7<a href="/urban/redirect.html(.*?)" target="_blank">-min. w</a>alk from Kanda Station on the JR' '<!--cltx-->7-min. walk from Kanda Station on the <a href="/urban/redirect.html$1" target="_blank">JR</a>';
 	replace: '<!--cltx-->12<a href="/urban/redirect.html(.*?)" target="_blank">-min. w</a>alk from Tokyo Station on the JR' '<!--cltx-->12-min. walk from Tokyo Station on the <a href="/urban/redirect.html$1" target="_blank">JR</a>';
 	replace: '<!--cltx--><a href="/urban/redirect.html(.*?)" target="_blank">Metro Link Nihonbashi \\(fre</a>e shuttle bus\\)' '<!--cltx--><a href="/urban/redirect.html$1" target="_blank">Metro Link Nihonbashi</a> \\(free shuttle bus\\)';
