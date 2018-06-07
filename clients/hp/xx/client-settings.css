@@ -1,0 +1,68 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+	z-index: 999;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+.container {
+    padding-top: 120px;
+}
+
+.cmn-header-wrapper {
+	z-index: 99;
+	margin: 44px auto 0;
+}
+
+.wrapper {
+	margin: 44px auto 0;
+}
+
+header {
+	margin: 44px auto 0;
+}
+
+.spversion .container {
+    padding-top: 124px;
+}
+
+.header__slidenav-inner2 .card__txt .ajust:lang(en){
+	padding-top: 0px;
+}
+
+.header__slidenav-inner2 .card__txt:lang(en){
+	line-height: 1.1;
+}
+
+.header__slidenav-inner2 .card__ic:lang(en){
+	height: 65px;
+}
+
+.section .card--d .card:lang(en){
+	height: auto;
+	word-break: break-word;
+}
+
+@media screen and (max-width: 767px) {
+	.nav--a-wrapper .nav--a .nav__txt:lang(en){
+		line-height: 1.1;
+	}
+
+	.tab__item a:lang(en){
+		padding-top: 8px;
+	}
+}
