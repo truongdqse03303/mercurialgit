@@ -59,7 +59,7 @@ div#footer div#footer_header div#footer_header_etc {
 
 @media screen and (min-width: 481px) {
 
-	#gMenu nav > ul li {
+	#gMenu nav:lang(en) > ul li {
 	    font-size: 1.5rem;
 	}
 
