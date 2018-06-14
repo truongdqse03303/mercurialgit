@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.grooo.co.jp" ssl="true" ssl_verifypeer="false" />
+    <request hostname="cr-lab.hiworld.com.vn" ssl="true" ssl_verifypeer="false" />
   </request-list>
 
 
