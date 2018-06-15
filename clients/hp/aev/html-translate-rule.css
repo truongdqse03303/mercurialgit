@@ -1,0 +1,18 @@
+#newsTab li,
+#newsTab li a,
+#newsTab .img {
+  attribute: cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<a href="index\\.php\\?page=(.*?)">(.*?)</a>''<a href="index\\.php\\?page=$1">$2</a><br style="display:none;">';
+	replace:'<span class="ss">(.*?)</span>' '<br style="display:none;"><span class="ss">$1</span>';
+	replace:'<span class="ss">(.*?)</span><br />' '<span class="ss">$1</span>';
+	replace:'<span style="font-size:18px;"><span style="color:rgb\\(206,77,102\\);">無料</span></span>' '<br style="display:none;"><span style="font-size:18px;"><span style="color:rgb\\(206,77,102\\);">無料</span></span><br style="display:none;">';
+}
+
+@postprocess{
+	replace:'To &lt;front' '＜ To front';
+	replace:'到&lt;前' '＜ 到前';
+	replace:'&lt;전에' '＜ 전에';
+}

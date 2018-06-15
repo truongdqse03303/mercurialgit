@@ -1,0 +1,5 @@
+.bx-prev,
+.bx-next,
+.bx-controls-direction{
+	attribute: cltx add 'exclude';
+}
