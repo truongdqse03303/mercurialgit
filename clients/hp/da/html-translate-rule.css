@@ -1,0 +1,8 @@
+#btn_pagetop,
+.facebook_wrap{
+	attribute: cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<a href="\/soshiki\/list1-1\.html">新着更新情報の一覧を見る</a>' '<a href="\/soshiki\/list1-1\.html">新着更新情報の一覧を見る<br style="display:none;"></a>';
+}
