@@ -13,6 +13,13 @@
 
 @preprocess{
 	replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+	replace:'<span title="月">月</span>' '<span title="MO">MO</span>';
+	replace:'<span title="火">火</span>' '<span title="TU">TU</span>';
+	replace:'<span title="水">水</span>' '<span title="WE">WE</span>';
+	replace:'<span title="木">木</span>' '<span title="TH">TH</span>';
+	replace:'<span title="金">金</span>' '<span title="FR">FR</span>';
+	replace:'<span title="土">土</span>' '<span title="SA">SA</span>';
+	replace:'<span title="日">日</span>' '<span title="SU">SU</span>';
 }
 
 /*picture要素の画像差し替え*/

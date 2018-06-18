@@ -18,7 +18,8 @@
 /* 翻訳除外 */
 .instagram_feed,
 .fb_feed,
-.mod_gallery_sub{
+.mod_gallery_sub,
+.ui-datepicker-header{
 	attribute:cltx add 'exclude';
 }
 
