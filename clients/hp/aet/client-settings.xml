@@ -9,7 +9,6 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.greenbokujo.jp" ssl="true" />
-    <request hostname="greenbokujo.doodlecode.work" ssl="true" />
   </request-list>
 
   <!-- Basic認証 -->
