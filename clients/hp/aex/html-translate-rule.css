@@ -1,0 +1,5 @@
+.flex-nav-next,
+.flex-nav-prev,
+.flex-control-paging li{
+	attribute: cltx add 'exclude';
+}

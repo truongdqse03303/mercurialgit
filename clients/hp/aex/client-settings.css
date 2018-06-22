@@ -1,0 +1,32 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+.route-box p{
+	font-size: 11px;
+	line-height: 1.423;
+}
+
+ruby > rt {
+	display: none;
+}
+
+@media screen and (max-width: 420px){
+	th{
+		white-space: normal;
+	}
+}
