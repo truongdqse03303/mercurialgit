@@ -38,7 +38,7 @@ replace:'<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padd
         replace:'<link rel="stylesheet" href="../tool/header/css/head.css" type="text/css">' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head.css" type="text/css">';
         replace:'<link rel="stylesheet" href="../tool/header/css/head.css" type="text/css" media="print" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head.css" type="text/css" media="print" />';
         replace:'<script type="text/javascript" src="../tool/header/js/dropdown.js">' '<script type="text/javascript" src="//www.biccamera.co.jp/tool/header/js/dropdown.js">';
-        replace:'<link rel="stylesheet" href="css/bicgroup.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/css/bicgroup.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="css/bicgroup.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/bicgroup/css/bicgroup.css" type="text/css" />';
 }
 
 div[id=KEY-SEARCH-BOX]{
