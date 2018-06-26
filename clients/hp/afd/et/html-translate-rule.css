@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-EN.ZH-HANT.JA;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOVT GOURMET";
+}
+@engine test_jrtbinm/main {
+  eid: BR-EN.ZH-HANT.JA;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOVT GOURMET";
+}
+@engine test_jrtbinm/cross {
+  eid: BR-EN.ZH-HANT.JA;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
+}
