@@ -28,6 +28,19 @@ replace: '<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-
 replace:'<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padding:4px;margin:4px 0px">' '<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padding:4px;margin:4px 0px;display:none;" clftx="exclude">';
 }
 
+@preprocess {
+        replace:'<link rel="stylesheet" href="../tool/css/reset.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/reset.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/css/base.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/base.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/css/grid-12.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/grid-12.css" type="text/css" />';
+        replace:'<script type="text/javascript" src="../tool/js/ga.js">' '<script type="text/javascript" src="//www.biccamera.co.jp/tool/js/ga.js">';
+        replace:'<script type="text/javascript" src="../tool/jquery.js">' '<script type="text/javascript" src="//www.biccamera.co.jp/tool/jquery.js">';
+        replace:'<link rel="stylesheet" href="../tool/header/css/head-hv.css?20171203" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head-hv.css?20171203" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/header/css/head.css" type="text/css">' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head.css" type="text/css">';
+        replace:'<link rel="stylesheet" href="../tool/header/css/head.css" type="text/css" media="print" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head.css" type="text/css" media="print" />';
+        replace:'<script type="text/javascript" src="../tool/header/js/dropdown.js">' '<script type="text/javascript" src="//www.biccamera.co.jp/tool/header/js/dropdown.js">';
+        replace:'<link rel="stylesheet" href="css/bicgroup.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/css/bicgroup.css" type="text/css" />';
+}
+
 div[id=KEY-SEARCH-BOX]{
 attribute: cltx add 'exclude';
 }
