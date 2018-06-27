@@ -21,6 +21,14 @@ replace:'<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padd
         replace:'<link rel="stylesheet" href="../tool/header/css/head.css" type="text/css" media="print" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head.css" type="text/css" media="print" />';
         replace:'<script type="text/javascript" src="../tool/header/js/dropdown.js">' '<script type="text/javascript" src="//www.biccamera.co.jp/tool/header/js/dropdown.js">';
         replace:'<link rel="stylesheet" href="css/bicgroup.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/bicgroup/css/bicgroup.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/css/shop_style.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/shop_style.css" type="text/css" />';
+        replace:'<script src="../tool/js/mobile-proxy.js">' '<script src="//www.biccamera.co.jp/tool/js/mobile-proxy.js">';
+        replace:'<link rel="stylesheet" href="../tool/header/css/head-hv.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head-hv.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/footer/css/foot-hv.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/footer/css/foot-hv.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/footer/css/foot.css" type="text/css" media="print" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/footer/css/foot.css" type="text/css" media="print" />';
+        replace:'<link rel="stylesheet" href="css/list-hv.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/shoplist/css/list-hv.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="css/list.css" type="text/css" media="print" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/shoplist/css/list.css" type="text/css" media="print" />';
+        replace:'<script src="js/jquery.liveFilter.js">' '<script src="//www.biccamera.co.jp/shoplist/js/jquery.liveFilter.js">';
 }
 
 div[id=KEY-SEARCH-BOX],
