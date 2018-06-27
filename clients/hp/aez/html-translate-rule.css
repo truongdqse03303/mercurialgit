@@ -1,0 +1,3 @@
+@preprocess{
+	replace:'<p><a href="#noscript;" id="fontC" title="文字色変更" (.*?)>文字色変更</a></p>' '<p><a href="#noscript;" id="fontC" title="色変更" $1>色変更</a></p>';
+}

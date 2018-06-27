@@ -1,0 +1,47 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+/*top*/
+input.siteSearchText{
+	width: 160px;
+}
+
+.headerOption dl#tsBox dt span{
+	width: 40px;
+}
+
+input.siteSearchBtn{
+	letter-spacing: 0.5px;
+}
+
+#tabBtn_159531_1,
+#tabBtn_159531_3{
+	white-space: normal;
+	line-height: 18px;
+}
+
+.bExtCatTabList ul li a{
+	padding: 5px 20px 0px;
+}
+
+/*kosodate*/
+p#childcareSubTtl{
+	left: 310px;
+	top: 80px;
+	max-width: 500px;
+}
