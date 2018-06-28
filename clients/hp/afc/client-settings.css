@@ -46,6 +46,10 @@
 	top: 70px;
 }
 
-.sp_contents {
-	margin-top: 94px !important;
+.sp_contents .wrapper {
+	margin: 95px auto 0;
+}
+
+.sp_contents .cmn_header {
+	top: 44px;
 }

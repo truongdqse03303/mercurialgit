@@ -5,5 +5,5 @@
 // @RULESET
 // URL #= //ginzaplace.jp/sp/.*
 @preprocess{
-	replace:'<div class="main_contents">' '<div class="main_contents sp_contents">';
+	replace:'<body(.*?)class="(.*?)"(.*?)>' '<body$1class="$2 sp_contents"$3>';
 }
