@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>阿波おどり実行委員会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>awaodori-kanko/service 8b679d069aabc2d34c15b43ad1bccfe6d939536d</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="awaodori-kanko.jp" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

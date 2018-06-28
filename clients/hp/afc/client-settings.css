@@ -1,0 +1,51 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+.wrapper {
+	margin: 44px auto 0;
+}
+
+.cmn_header.fixed{
+	top: 44px !important;
+}
+
+.cmn-header-wrapper{
+	z-index: 101;
+	margin: 44px auto 0;
+}
+
+.hd-txt-block {
+    width: auto;
+    height: auto;
+    padding: 1px 15px;
+}
+
+.global_nav_contents {
+	top: 44px;
+}
+
+.global_nav_contents .menu_close {
+	top: 70px;
+}
+
+.sp_contents {
+	margin-top: 94px !important;
+}

@@ -1,0 +1,9 @@
+.global_nav_contents{
+	attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL #= //ginzaplace.jp/sp/.*
+@preprocess{
+	replace:'<div class="main_contents">' '<div class="main_contents sp_contents">';
+}
