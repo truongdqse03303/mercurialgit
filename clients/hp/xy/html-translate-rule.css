@@ -1,7 +1,0 @@
-div#cs-navigation-wpcontent_slider {
- attribute: cltx add 'exclude';
-}
-
-div#wpcontent_slider {
- attribute: cltx add 'exclude';
-}

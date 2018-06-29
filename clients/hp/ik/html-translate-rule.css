@@ -1,7 +1,0 @@
-@postprocess {
-  replace: "btnSeekSubmit\\(\\)" "window.open('https://asp.hotel-story.ne.jp/ver3d/di/?hcod1=05911&hcod2=001&seek=on&def=seek','planlist','width=1000,Height=600,resizable=yes,scrollbars=yes,status=yes');";
-}
-
-@postprocess {
-  replace: "btnSeekSubmitCancel\\(\\)" "window.open('https://asp.hotel-story.ne.jp/ver3d/ASPY0300.asp?cod1=05911&cod2=','cencel','width=1000,Height=600,resizable=yes,scrollbars=yes,status=yes');";
-}

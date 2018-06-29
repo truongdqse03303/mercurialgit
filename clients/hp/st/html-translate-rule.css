@@ -1,7 +1,0 @@
-div#ChirashiplusDiv {
-  attribute: cltx add 'include';
-}
-
-@postprocess {
-  replace: "'UA-8505490-1'" "'UA-8505490-8'";
-}

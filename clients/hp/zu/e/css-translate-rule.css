@@ -1,5 +1,0 @@
-// @RULESET
-// URL = http://www.park-funabashi.or.jp/css/bay.css
-@postprocess {
-  replace: 'line-height : 150%;' 'line-height : 100%;';
-}
