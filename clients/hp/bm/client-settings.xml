@@ -22,6 +22,7 @@
         <path value="/sp/store.*" />
       </path-list>
     </request>
+    <request hostname="www.mitsukoshi.mistore.jp" ssl="true" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->

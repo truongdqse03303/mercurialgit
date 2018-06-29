@@ -21,6 +21,7 @@
   <!-- 翻訳対象のリクエスト情報 （必須）-->
    <request-list>
     <request hostname="isetan.stage.mistore.jp" />
+    <request hostname="www.isetan.mistore.jp" ssl="true" />
   </request-list>
 
   <!-- HTML断片翻訳対象外のURL -->
