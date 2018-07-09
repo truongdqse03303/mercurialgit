@@ -42,6 +42,7 @@
 	replace:'<td><!--cltx-->October</td>' '<td><!--cltx-->Oct</td>';
 	replace:'<td><!--cltx-->November</td>' '<td><!--cltx-->Nov</td>';
 	replace:'<td><!--cltx-->December</td>' '<td><!--cltx-->Dec</td>';
+	replace:'<link rel="alternate" href="https://www.jtrip.co.jp.(.*?).acq.hp.transer.com/(.*?)" hreflang="ja">' '<link rel="alternate" href="https://www.jtrip.co.jp/$2" hreflang="ja">';
 }
 
 // @RULESET

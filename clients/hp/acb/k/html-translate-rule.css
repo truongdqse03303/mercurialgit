@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess {
+	replace:'<body>(.*?)<script type="text/javascript">(.*?)UA-36181078-1(.*?)</script>' '<body>$1<!-- Global site tag \\(gtag.js\\) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121713776-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag\\(\\){dataLayer.push\\(arguments\\);}gtag\\(\'js\', new Date\\(\\)\\);gtag\\(\'config\', \'UA-121713776-1\'\\);</script>';
+}

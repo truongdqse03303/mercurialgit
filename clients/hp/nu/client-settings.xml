@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.takashimaya.co.jp" />
+    <request hostname="www.takashimaya.co.jp" ssl="true" />
       <path-list resource="false">
         <path value="/((tokyo|shinjuku|yokohama|osaka|kyoto)/(store_information/(topics|event)|clearance)|sp)/.*" />
         <path value="/shinjuku/event/(cosme|accessory_press)\.html" />
@@ -24,6 +24,15 @@
         <path value="/store/special/doraemon_hellokitty/.*" />
       </path-list>
   </request-list>
+
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+    <url>(http|https)://www\.takashimaya\.co\.jp/corp/.*</url>
+    <url>(http|https)://www\.takashimaya\.co\.jp/shopping/.*</url>
+    <url>(http|https)://www\.takashimaya\.co\.jp/rosekitchen/.*</url>
+    <url>(http|https)://www\.takashimaya\.co\.jp/tsuhan/.*</url>
+  </url-list>
+
   
   <!-- HTML断片翻訳のスプリクトタグの挿入位置 -->
   <extension-param>
