@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>南海フェリー</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nankai-ferry/service 200c3d0ec0c83ebe2755706f864c08043372d15c</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.nankai-ferry.co.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
