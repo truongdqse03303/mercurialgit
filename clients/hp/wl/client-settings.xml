@@ -27,7 +27,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://t-www.atre.co.jp/.*</param-value>
+      <param-value>(http|https)://t-www.atre.co.jp/.*</param-value>
     </param>
   </resource-handler>
       
