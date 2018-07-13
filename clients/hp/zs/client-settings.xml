@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="takashimaya-timessquare.jp" />
+    <request hostname="takashimaya-timessquare.jp" ssl="true" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
