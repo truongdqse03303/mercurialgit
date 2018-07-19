@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>一般社団法人 Tリーグ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tleague/service c43b3de96e8806dec88a54d5798156177f4a1584</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="tleague.jp" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
