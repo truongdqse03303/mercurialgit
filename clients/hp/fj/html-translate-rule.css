@@ -1,0 +1,16 @@
+.bx-controls-direction,
+.sns_box{
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace: '<p class="hito"><span>(.*?)</span>人</p>' '<p class="hito"><span>$1</span><br style="display:none;">人</p>';
+	replace: '<p class="setai"><span>(.*?)</span>世帯</p>' '<p class="setai"><span>$1</span><br style="display:none;">世帯</p>';
+	replace: '<span class="text">(.*?)<span>(.*?)</span></span>' '<span class="text">$1<br style="display:none;"><span>$2</span></span>';
+}
+
+// @RULESET
+// URL #= //www.city.kodaira.tokyo.jp/
+@preprocess {
+	replace: '<div class="title">(.*?)<p>(.*?)<span>(.*?)</span></p>(.*?)</div>' '<div class="title">$1<p>$2<br style="display:none;"><span>$3</span></p>$4</div>';
+}

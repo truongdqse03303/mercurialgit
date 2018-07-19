@@ -1,0 +1,51 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+#top_navi_area .iza .title {
+	width: 23%;
+}
+
+#top_navi_area:lang(en) .iza li {
+	min-height: 100px;
+}
+
+#service_area .life a {
+    font-size: 95%;
+}
+
+#contents_area .recommend_box li {
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.subtop_menu_box h2 {
+	font-size: 100%;
+}
+
+.event_box .left_area:lang(en) {
+    width: 250px;
+}
+
+@media screen and (max-width:670px) {
+
+	#top_navi_area .iza .title {
+	    width: auto;
+	}
+
+}
