@@ -1,0 +1,7 @@
+.flexslider{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess {
+	replace: '<span class="fsresult">(.*?)</span>' '<span class="fsresult">$1</span><br style="display:none;">';
+}
