@@ -35,6 +35,8 @@
   
   <!-- サイトで使用される文字セット -->
   <charset>Shift_JIS</charset>
+  <charset url="(http|https)://www.mitsukoshi.mistore.jp/.*">UTF-8</charset>
+
 
   <!-- ブランド検索ページのURLエンコーディングの設定 -->
   <resource-handler>
