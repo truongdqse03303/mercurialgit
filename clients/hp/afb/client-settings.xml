@@ -16,6 +16,12 @@
   <param-value>client-settings.css</param-value>
   </extension-param>
 
+  <!-- 免責事項をフッターに表示 -->
+  <extension-param>
+    <param-name>show.translate.header</param-name>
+    <param-value>footer</param-value>
+  </extension-param>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
