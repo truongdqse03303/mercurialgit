@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.atre.co.jp" />
+    <request hostname="www.atre.co.jp" ssl="true" />
     <request hostname="t2-www.atre.co.jp" />
   </request-list>
 

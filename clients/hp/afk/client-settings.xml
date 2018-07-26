@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>一般社団法人 Tリーグ</name>
+  <name>SHIBUYA STREAM</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>tleague/service c43b3de96e8806dec88a54d5798156177f4a1584</licence>
+  <licence>shibuyastream/service 853763695b619476bda9cd236cc1280530669c25</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="tleague.jp" ssl="true" />
-    <request hostname="tleague-test.sportsea.net" />
+    <request hostname="shibuyastream.jp" ssl="true" />
+    <request hostname="stage.shibuyastream.jp" />
   </request-list>
+
+   <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
+  </extension-param>
 
   <!-- Basic認証 -->
   <resource-handler>
@@ -21,11 +26,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic dGxlYWd1ZS11c2VyOkd4M25DZDJw</param-value>
+      <param-value>Basic c3RyZWFtOnNoaWJ1eWEwOTAx</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https)://tleague-test\.sportsea\.net.*</param-value>
+      <param-value>(http|https)://stage\.shibuyastream\.jp.*</param-value>
     </param>
   </resource-handler>
 

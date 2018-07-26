@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ASTY静岡</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>asty-shizuoka/service b95d6414ea95e064867519f7481899d87511679a</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.asty-shizuoka.co.jp" path="/asty" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
