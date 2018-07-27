@@ -19,4 +19,6 @@ section  > .inner > .common_bxslider_wrap > .bx-wrapper,
 	replace:'<div class="txtarea"><p class="txt">(.*?)<br>(.*?)</p></div>' '<div class="txtarea"><p class="txt">$1$2</p></div>';
 	replace:'おしながきはこちら' '<br style="display:none;">おしながきはこちら<br style="display:none;">';
 	replace:'飲み放題メニューはこちら' '<br style="display:none;">飲み放題メニューはこちら<br style="display:none;">';
+	replace:'<p class="txt mincho fs_18"> こちらの乗合いカレンダーより出港日をご確認いただけます。 </p>' '<p class="txt mincho fs_18" style="display:none;> こちらの乗合いカレンダーより出港日をご確認いただけます。 </p>';
+	replace:'<p class="txt mincho fs_14">※御予約は日本語のみでのご対応となります。</p>' '<p class="txt mincho fs_14" style="display:none;>※御予約は日本語のみでのご対応となります。</p>';
 }
