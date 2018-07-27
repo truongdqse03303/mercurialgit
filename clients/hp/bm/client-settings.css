@@ -22,3 +22,16 @@
 .news-list__entry__date {
     line-height: 1.0;
 }
+
+@media only screen and (max-width: 767px) {
+
+	.news-list__entry__info {
+		margin-top: 2px;
+		letter-spacing: normal;
+		font-size: 82%;
+	}
+
+	.news-list__entry__date {
+	    margin-top: 3px;
+	}
+}
