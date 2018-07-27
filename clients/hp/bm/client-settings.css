@@ -5,3 +5,20 @@
 #site-translate-header-wrapper p {
 	letter-spacing: normal;
 }
+
+.news-list__entry__title {
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.news-list__entry__tag {
+	width: auto;
+}
+
+.news-list__entry__info {
+    margin-top: 5px;
+}
+
+.news-list__entry__date {
+    line-height: 1.0;
+}
