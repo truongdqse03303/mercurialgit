@@ -10,3 +10,18 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
+
+/*画像差し替え*/
+@preprocess{
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-01.png' '/common/images/chinese_hantaiji/btn-cmn-gl-sub-nav-link-01-ch.png';
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-02.png' '/common/images/chinese_hantaiji/btn-cmn-gl-sub-nav-link-02-ch.png';
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-03.png' '/common/images/chinese_hantaiji/btn-cmn-gl-sub-nav-link-03-ch.png';
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-04.png' '/common/images/chinese_hantaiji/btn-cmn-gl-sub-nav-link-04-ch.png';
+
+	replace:'/common/images/img-floor-guid.png' '/common/images/chinese_hantaiji/img-floor-guid-ch.png';
+	replace:'/common/images/img-floor-guid-on.png' '/common/images/chinese_hantaiji/img-floor-guid-on-ch.png';
+	replace:'/common/images/img-floor-guid-jgt.png' '/common/images/chinese_hantaiji/img-floor-guid-jgt-ch.png';
+	replace:'/common/images/img-floor-guid-towers.png' '/common/images/chinese_hantaiji/img-floor-guid-towers-ch.png';
+	replace:'/common/images/img-floor-guid-gate.png' '/common/images/chinese_hantaiji/img-floor-guid-gate-ch.png';
+}
+

@@ -10,3 +10,17 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
 }
+
+/*画像差し替え*/
+@preprocess{
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-01.png' '/common/images/english/btn-cmn-gl-sub-nav-link-01-e.png';
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-02.png' '/common/images/english/btn-cmn-gl-sub-nav-link-02-e.png';
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-03.png' '/common/images/english/btn-cmn-gl-sub-nav-link-03-e.png';
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-04.png' '/common/images/english/btn-cmn-gl-sub-nav-link-04-e.png';
+
+	replace:'/common/images/img-floor-guid.png' '/common/images/english/img-floor-guid-e.png';
+	replace:'/common/images/img-floor-guid-on.png' '/common/images/english/img-floor-guid-on-e.png';
+	replace:'/common/images/img-floor-guid-jgt.png' '/common/images/english/img-floor-guid-jgt-e.png';
+	replace:'/common/images/img-floor-guid-towers.png' '/common/images/english/img-floor-guid-towers-e.png';
+	replace:'/common/images/img-floor-guid-gate.png' '/common/images/english/img-floor-guid-gate-e.png';
+}

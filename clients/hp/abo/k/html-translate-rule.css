@@ -10,3 +10,17 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+/*画像差し替え*/
+@preprocess{
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-01.png' '/common/images/korean/btn-cmn-gl-sub-nav-link-01-k.png';
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-02.png' '/common/images/korean/btn-cmn-gl-sub-nav-link-02-k.png';
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-03.png' '/common/images/korean/btn-cmn-gl-sub-nav-link-03-k.png';
+	replace:'/common/images/btn-cmn-gl-sub-nav-link-04.png' '/common/images/korean/btn-cmn-gl-sub-nav-link-04-k.png';
+
+	replace:'/common/images/img-floor-guid.png' '/common/images/korean/img-floor-guid-k.png';
+	replace:'/common/images/img-floor-guid-on.png' '/common/images/korean/img-floor-guid-on-k.png';
+	replace:'/common/images/img-floor-guid-jgt.png' '/common/images/korean/img-floor-guid-jgt-k.png';
+	replace:'/common/images/img-floor-guid-towers.png' '/common/images/korean/img-floor-guid-towers-k.png';
+	replace:'/common/images/img-floor-guid-gate.png' '/common/images/korean/img-floor-guid-gate-k.png';
+}
