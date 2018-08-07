@@ -43,4 +43,9 @@
 	    margin-top: 1px;
 	}
 
+	.news-list__entry__title:lang(en) {
+	    margin-top: 1px;
+    	line-height: 0.9;
+	}
+
 }
