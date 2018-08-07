@@ -1,3 +1,5 @@
+.top_sidebar,
+.top_main_content,
 .cmn-gl_nav_bar--in,
 .cmn-gl_sub_nav,
 .cmn-gl_nav--in,
@@ -5,7 +7,7 @@
 	attribute: cltx add 'exclude';
 }
 
-/* ƒŒƒXƒgƒ‰ƒ“ŠX@“X–¼ */
+/* ãƒ¬ã‚¹ãƒˆãƒ©ãƒ³è¡—ã€€åº—å */
 @preprocess {
 	replace:'<h2><span class="jan">(.*?)</span>(.*?)</h2>' '<h2><span class="jan">$1</span><br style="display:none;">$2</h2>';
 }
