@@ -1,3 +1,7 @@
+.ui-datepicker-header{
+	attribute: cltx add 'exclude';
+}
+
 @preprocess {
 	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 	replace:'<span class="_f_area">(.*?)</span>' '<span class="_f_area">$1</span><br style="display:none;">';
