@@ -31,7 +31,20 @@
 		font-size: 82%;
 	}
 
+	.news-list__entry__info:lang(en) {
+	    line-height: 0.8;
+	}
+
 	.news-list__entry__date {
 	    margin-top: 3px;
 	}
+
+	.news-list__entry__date:lang(en) {
+	    margin-top: 1px;
+	}
+
+	.news-list__entry, .grid-sizer {
+	    width: auto;
+	}
+
 }
