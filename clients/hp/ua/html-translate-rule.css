@@ -1,3 +1,8 @@
+#main,
+#footer-info,
+#footer-info-02{
+	attribute: cltx add 'exclude';
+}
 
 @postprocess {
   replace: '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden01.html">' '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden01.shtml">';
