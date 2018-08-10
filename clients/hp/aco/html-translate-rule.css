@@ -1,3 +1,5 @@
+.area1 > .section-inner > section#main,
+.pt_slide3,
 .ui-datepicker-header{
 	attribute: cltx add 'exclude';
 }
