@@ -10,3 +10,20 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM SPORTS";
 }
+
+// @RULESET
+// URL #= //tleague\.jp/match/.*
+// URL #= //tleague-test\.sportsea\.net/match/.*
+@postprocess{
+	replace:'January' 'Jan.';
+	replace:'February' 'Feb.';
+	replace:'March' 'Mar.';
+	replace:'April' 'Apr.';
+	replace:'June' 'Jun.';
+	replace:'July' 'Jul.';
+	replace:'August' 'Aug.';
+	replace:'September' 'Sep.';
+	replace:'October' 'Oct.';
+	replace:'November' 'Nov.';
+	replace:'December' 'Dec.';
+}
