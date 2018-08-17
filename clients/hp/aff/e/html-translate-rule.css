@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM SPORTS";
 }
 
+@postprocess{
+	replace:'<title cltx>Hayata young bird - Nippon Life Red ELF - T league official site</title>' '<title cltx>Hina Hayata - Nippon Life Red ELF - T league official site</title>';
+}
+
 // @RULESET
 // URL #= //tleague\.jp/match/.*
 // URL #= //tleague-test\.sportsea\.net/match/.*

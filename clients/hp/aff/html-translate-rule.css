@@ -1,3 +1,12 @@
 .fb_iframe_widget{
 	attribute: cltx add 'exclude';
 }
+
+// @RULESET
+// URL #= //tleague\.jp/team/.*
+// URL #= //tleague-test\.sportsea\.net/team/.*
+@preprocess{
+	replace:'<h1 class="ttl-heavy bg-1st">(.*?)<span>(.*?)</span></h1>' '<h1 class="ttl-heavy bg-1st">$1<br style="display:none;"><span>$2</span></h1>';
+	replace:'<p><b>(.*?)</b><em>(.*?)</em>' '<p><b>$1</b><br style="display:none;"><em>$2</em>';
+
+}
