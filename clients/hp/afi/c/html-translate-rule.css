@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+	replace:'咖哩&amp;咖哩麵包裹天馬' '咖喱&咖喱面包 天马';
+}

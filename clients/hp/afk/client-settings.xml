@@ -9,7 +9,6 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="shibuyastream.jp" ssl="true" />
-    <request hostname="stage.shibuyastream.jp" />
   </request-list>
 
    <extension-param>
@@ -26,11 +25,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic c3RyZWFtOnNoaWJ1eWEwOTAx</param-value>
+      <param-value>Basic c3RyZWFtOnN0cmVhbTMyMTM=</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https)://stage\.shibuyastream\.jp.*</param-value>
+      <param-value>(http|https)://shibuyastream\.jp.*</param-value>
     </param>
   </resource-handler>
 

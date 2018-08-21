@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="yamaga-tanbou.jp" />
+    <request hostname="yamaga-tanbou.jp" ssl="true" />
     <request hostname="yamaga-kankoh.shin-test.net" />
   </request-list>
 
