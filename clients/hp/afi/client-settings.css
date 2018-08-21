@@ -1,0 +1,41 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+@media screen and (max-width: 767px){
+	.shopcards--infos--mono .title:lang(en){
+		font-size: 0.6rem;
+	}
+
+	.navi--otherasty-index li:lang(en){
+		white-space: normal;
+	}
+
+	.btn:lang(en){
+		font-size: 0.7rem;
+	}
+
+	.compo--contents .align--center:lang(en){
+		width: 100%!important;
+	}
+
+	.compo--contents .align--center a.btn:lang(en){
+		width: 90%!important;
+		margin: 0 auto;
+		margin-top: 0.8rem;
+	}
+}

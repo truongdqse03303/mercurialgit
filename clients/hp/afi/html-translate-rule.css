@@ -1,0 +1,7 @@
+.swiper-wrapper{
+	attribute: cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<span class="category">(.*?)</span><span class="date">(.*?)</span>' '<span class="category">$1</span><br style="display:none;"><span class="date">$2</span>';
+}
