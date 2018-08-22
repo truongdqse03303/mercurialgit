@@ -12,7 +12,15 @@
 }
 
 @postprocess{
-	replace:'<title cltx>Hayata young bird - Nippon Life Red ELF - T league official site</title>' '<title cltx>Hina Hayata - Nippon Life Red ELF - T league official site</title>';
+//	replace:'<title cltx>Hayata young bird - Nippon Life Red ELF - T league official site</title>' '<title cltx>Hina Hayata - Nippon Life Red ELF - T league official site</title>';
+}
+
+@preprocess{
+	replace:'<div class="cell-arena">(.*?)<a(.*?)>名古屋<span>武田テバ</span></a>(.*?)</div>' '<div class="cell-arena">$1<a$2>名古屋市<span>武田テバ</span></a>$3</div>';
+	replace:'<div class="cell-home">(.*?)<span class="emb">(.*?)</span>名古屋(.*?)</div>' '<div class="cell-home">$1<span class="emb">$2</span>TOP NAGOYA$3</div>';
+	replace:'<div class="cell-away">(.*?)<span class="emb">(.*?)</span>名古屋(.*?)</div>' '<div class="cell-away">$1<span class="emb">$2</span>TOP NAGOYA$3</div>';
+	replace:'<div class="comp-home">(.*?)<span class="emb">(.*?)</span>名古屋(.*?)</div>' '<div class="comp-home">$1<span class="emb">$2</span>TOP NAGOYA$3</div>';
+	replace:'<div class="comp-away">(.*?)<span class="emb">(.*?)</span>名古屋(.*?)</div>' '<div class="comp-away">$1<span class="emb">$2</span>TOP NAGOYA$3</div>';
 }
 
 // @RULESET

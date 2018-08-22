@@ -33,6 +33,32 @@
 	.ui-tab li:lang(en){
 		width: 200px;
 	}
+
+	.ui-match-table > li .field > .cell-home,
+	.ui-match-table > li .field > .cell-away{
+		font-size: 1.55rem;
+	}
+
+	.ui-match-table > li .field > .cell-date:lang(en) {
+	    width: 12%;
+	}
+
+	.ui-match-table > li .field > .cell-home:lang(en) {
+	    width: 16%;
+	}
+
+	.ui-match-table > li .field > .cell-away {
+	    width: 16%;
+	}
+
+	.ui-match-table > li .field > .cell-time:lang(en) {
+	    width: auto;
+	}
+
+	.ui-match-table > li .field > .cell-arena:lang(en) {
+	    width: 13%;
+		font-size: 92%;
+	}
 }
 
 @media (max-width: 834px){
