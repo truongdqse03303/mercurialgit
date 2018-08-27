@@ -1,3 +1,7 @@
+aside.twitter{
+	attribute: cltx add 'exclude';
+}
+
 @preprocess{
 	replace:'<h1 class="ic_photo serif bgBox mb5">先週のランキング <b class="sans-serif fs06 clGrn">Photo ranking</b></h1>' '<h1 class="ic_photo serif bgBox mb5">先週のランキング <br style="display:none;"><b class="sans-serif fs06 clGrn">Photo ranking</b></h1>';
 	replace:'<h1 class="(.*?) serif">(.*?)<span class="sans-serif fs06 clGray ifpc">(.*?)</span></h1>' '<h1 class="$1 serif">$2<br style="display:none;"><span class="sans-serif fs06 clGray ifpc">$3</span></h1>';
