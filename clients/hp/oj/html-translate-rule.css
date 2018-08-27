@@ -1,3 +1,0 @@
-div.photos-left, div.photos, div[id="weathernews_blog_parts"], ul[class="tabs"], li[class="gallery-thumbnail"] {
-  attribute: cltx add 'exclude';
-}

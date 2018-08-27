@@ -1,9 +1,0 @@
-dd strong {
-
-text-flow: break;
-
-}
-
-div#topicsContainer {
-  attribute: cltx add 'exclude';
-}

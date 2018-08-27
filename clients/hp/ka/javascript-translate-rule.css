@@ -1,5 +1,0 @@
-// @RULESET
-// URL =http://www.smilring.com/js/jquery.multiple.select.js
-@postprocess {
-  replace: '<div class="ms-parent"></div>' '<div class="ms-parent" cltx="exclude"></div>';
-}
