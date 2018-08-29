@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="machidokoro.com" ssl="true" />
+    <request hostname="machidokoro.com" ssl="true" ssl_verifypeer="false" />
   </request-list>
 
   <extension-param>
