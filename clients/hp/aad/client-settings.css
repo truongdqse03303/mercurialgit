@@ -195,14 +195,21 @@ footer .reserve .tel .label {
 
 /* 非表示 */
 .page_header,
+.gnavi .list .child:nth-child(2),
+.gnavi .list .child:nth-child(6),
 footer .inner.pc_only,
 .page-course .other_content {
 	display: none;
 }
 
+section.plan_lead,
 .page-course .contents,
 .page-access section.last_section {
     margin: 180px auto 0;
+}
+
+.reserve .mail a {
+	text-decoration: underline;
 }
 
 .page-course .contents .tab_contents_wrap .tab_wrap .tab:first-child,
@@ -219,8 +226,9 @@ footer .inner.pc_only,
 .page-dining .contents .anchor,
 .page-dining .contents .with_line,
 .page-dining .contents .txt.ct,
-.page-dining .contents .food_frame,
-.page-dining .contents .btns {
+.page-dining .contents .btns,
+.page-dining .contents .other_content,
+.page-dining .dining2 .food_frame {
 	display: none;
 }
 
@@ -230,10 +238,13 @@ footer .inner.pc_only,
 
 .page-noriai .contents .open_calendar,
 .page-noriai .contents nav.anchor,
-.page-noriai .contents .plan_celebration,
-.page-noriai .contents .other_content,
-.page-noriai .contents .plan_flow .with_square,
+.page-noriai .anchor.mincho.pc_only,
+.page-noriai .anchor.mincho.sp_only,
+.page-noriai .plan_celebration,
+.page-noriai .other_content,
+.page-noriai .matchheight_parent,
+.page-noriai .plan_flow .with_square,
 .page-noriai .contents .plan_flow .flow,
-.page-noriai .contents .plan_box {
+.page-noriai .plan_box {
 	display: none;
 }
