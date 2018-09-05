@@ -28,6 +28,14 @@ a.btnor .i-book{
 	font-size: 13px;
 }
 
+.bigbtn {
+    letter-spacing: normal;
+}
+
+.merrit .p-left {
+	margin-top: 0;
+}
+
 @media screen and (max-width: 812px){
 	.bigbtn:lang(en){
 		font-size: 13px;

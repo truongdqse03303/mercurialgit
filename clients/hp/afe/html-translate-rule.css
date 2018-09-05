@@ -8,3 +8,9 @@
 	replace:'<div class="txt">(.*?)<span>(.*?)</span>' '<div class="txt">$1<br style="display:none;"><span>$2</span>';
 }
 
+// @RULESET
+// URL #= //nankai-ferry.co.jp/howto.*
+// URL #= //www.nankai-ferry.co.jp/howto.*
+@preprocess{
+	replace:'<span style="(.*?)">のご乗船手順</span>' 'のご乗船手順';
+}
