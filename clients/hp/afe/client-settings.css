@@ -1,0 +1,47 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+#cont{
+	top: 44px;
+}
+
+nav ul li a{
+	font-size: 13px;
+}
+
+a.panel .txt{
+	min-height: 130px;
+}
+
+#foot1{
+	margin-top: 44px;
+}
+
+a.btnor .i-book{
+	font-size: 13px;
+}
+
+@media screen and (max-width: 812px){
+	.bigbtn:lang(en){
+		font-size: 13px;
+	}
+
+	#foot1{
+		margin-top: 
+	}
+}
