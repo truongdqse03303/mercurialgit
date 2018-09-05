@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>観るなび（公社 日本観光振興協会）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nihon-kankou/service 6b4ab4207fdc3e10adef486cecf8660ec6114310</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.nihon-kankou.or.jp" />
+    <request hostname="en.nks.iamdn.com" />    
+  </request-list>
+  
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+  
+      <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>http://(www.nihon-kankou.or.jp|en.nks.iamdn.com)/ajax/.*</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>BINARY</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+  
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

@@ -1,0 +1,31 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM FASHION GOURMET INTERNET";
+}
+@engine nihon-kankou/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM FASHION GOURMET";
+}
+@engine nihon-kankou/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM FASHION GOURMET";
+}
+
+@preprocess {
+  replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+}
+
+.pagenation {
+  attribute: cltx add 'exclude';
+}
+
+@postprocess {
+ replace:'Ten cases' '10 cases';
+ replace:'cas</em>es\.</span>' '</em>cases.</span>';
+ replace:'ca</em>ses\.</span>' '</em>cases.</span>';
+}
+
+@postprocess {
+ replace:'UA-52357561-1' 'UA-52357561-4';
+ replace:'UA-52898506-1' 'UA-52357561-4';
+}
