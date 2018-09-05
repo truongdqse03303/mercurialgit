@@ -11,6 +11,10 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+#movie {
+ attribute: cltx add 'exclude';
+}
+
 @preprocess {
   replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
 }
@@ -151,4 +155,10 @@ a[href^="https://www.daimaru.co.jp/fukuoka/company/hakata.html"] {
 // URL #=//dmdepart.jp/flnews/
 @preprocess {
   replace: '(<meta http-equiv="refresh" content="3 ; URL=)s(/index.html">)' '$1k$2';
+}
+
+// @RULESET
+// URL #=//www.daimaru.co.jp/fukuoka/.*
+@preprocess {
+  replace: 'renewal/top/img/common/douga.jpg' 'https://www.daimaru.co.jp/fukuoka/renewal/top/img/common/douga.jpg';
 }
