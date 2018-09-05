@@ -16,20 +16,12 @@
 	text-align: center;
 }
 
-#cont{
-	top: 44px;
-}
-
 nav ul li a{
 	font-size: 13px;
 }
 
 a.panel .txt{
 	min-height: 130px;
-}
-
-#foot1{
-	margin-top: 44px;
 }
 
 a.btnor .i-book{
@@ -39,9 +31,5 @@ a.btnor .i-book{
 @media screen and (max-width: 812px){
 	.bigbtn:lang(en){
 		font-size: 13px;
-	}
-
-	#foot1{
-		margin-top: 
 	}
 }
