@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>TOKYO GROWN</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tokyo-grown/service c8e0edef4040ff38d489574c923b6ca9fb7a5631</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="tokyogrown.jp" ssl="true" />
+    <request hostname="tokyogrown.preview01.com" ssl="true" ssl_verifypeer="false" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

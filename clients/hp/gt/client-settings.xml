@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="akaihane.or.jp" />
-    <request hostname="www.akaihane.or.jp" />
+    <request hostname="www.akaihane.or.jp" ssl="true" />
     <request hostname="hanett.akaihane.or.jp" path="/hanett" />
   </request-list>
   
