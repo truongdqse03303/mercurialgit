@@ -1,5 +1,0 @@
-// @RULESET
-// URL = http://www.bise.jp/css/basis.css
-@postprocess {
-  replace: 'padding-top: 20px;' 'padding-top: 12px;';
-}
