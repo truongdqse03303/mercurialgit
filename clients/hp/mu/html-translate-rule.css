@@ -1,4 +1,5 @@
 @postprocess {
+	replace:'<div class="listBlock-tumb-img"><img src="(.*?)"(.*?)></div>' '<div class="listBlock-tumb-img"><img src="#\\{image\\}"$2></div>';
 	replace:'<p class="listBlock-tumb-txt"(.*?)><!--cltx-->' '<p class="listBlock-tumb-txt"$1>';
 	replace:'<p class="label-row"><!--cltx--><span class="label">' '<p class="label-row"><span class="label">';
 }
