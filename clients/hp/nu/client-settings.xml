@@ -35,11 +35,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic bmlob21iYXNoaTp0YWthc2hpbWF5YQ==</param-value>
+      <param-value>Basic bjI6ZGV2</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https)://54\.95\.69\.16.*</param-value>
+      <param-value>(http|https)://www\.takashimaya\.co\.jp/nihombashi/specialtystores/.*</param-value>
     </param>
   </resource-handler>
 
