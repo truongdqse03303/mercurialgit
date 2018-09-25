@@ -8,7 +8,7 @@
 
 <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.tenmaya.co.jp" />
+    <request hostname="www.tenmaya.co.jp" ssl="true" />
       <path-list resource="false">
       <path value="/(okayama|tsuyama|kurashiki|fukuyama|portplaza|alpark|hacchobori|midorii|yonago|takamatsu)/.*" />
       <path value="/stores\.html" />
