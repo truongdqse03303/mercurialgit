@@ -1,0 +1,12 @@
+.style_inputArea,
+.top-page,
+.reserveform,
+.bookingDate,
+.bookingNights,
+.sec-reserve{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess{
+//	replace:'<script type="text/javascript" src="/ueno/src/dynjs/jkl-calendar.js" charset="Shift_JIS"></script>' '<script type="text/javascript" src="/ueno/src/dynjs/jkl-calendar.js" charset="UTF-8"></script>';
+}
