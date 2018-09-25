@@ -1,0 +1,5 @@
+// @RULESET
+// URL =http://www.tomorrowland.co.jp/newdata/js/sp-slidemenu.js
+@preprocess {
+  replace: "zIndex: '1'" "zIndex: '999'";
+}
