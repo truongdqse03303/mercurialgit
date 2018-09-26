@@ -9,3 +9,9 @@
 	replace:'<span class="l-header__textarea__tel">(.*?)</span>' '<br style="display:none;"><span class="l-header__textarea__tel">$1</span><br style="display:none;">';
 	replace:'<a href="(.*?)" class="contact-box__tel">(.*?)</a>' '<br style="display:none;"><a href="$1" class="contact-box__tel">$2</a><br style="display:none;">';
 }
+
+// @RULESET
+// URL #= //itamisyaryo\.com/process/.*
+@preprocess {
+	replace:'<span class="text-arrow">(.*?)</span>' '<span class="text-arrow">$1</span><br style="display:none;">';
+}
