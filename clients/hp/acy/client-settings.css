@@ -1,5 +1,19 @@
-﻿#site-translate-header-wrapper {
-  width: auto!important;
+﻿#site-translate-header-wrapper{
+	width: 100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
 }
 
 #content .pagenation .paging li span, #result-single-item .single .single-info {
@@ -37,3 +51,29 @@
 #search input.txt-search-word {
     background-image: none !important;
 }
+
+/*top見出し*/
+.k-traverse{
+	white-space: normal;
+}
+
+.p-box-counter__txt{
+	padding: 6px;
+}
+
+.p-box-counter__number{
+	font-size: 14px;
+}
+
+.p-box-counter__em{
+	font-size: 14px;
+}
+
+.k-traverse__item:nth-child(2),
+.k-traverse__item--about:nth-child(2),
+.k-traverse__item:nth-child(4),
+.k-traverse__item--about:nth-child(4){
+	min-width: 250px;
+}
+
+
