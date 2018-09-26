@@ -1,0 +1,6 @@
+@preprocess {
+	replace:'<p class="section-pickup__copy"><span>全部再資源化</span>使用済み自動車の処理工程</p>' '<p class="section-pickup__copy"><span>全部再資源化</span><br style="display:none;">使用済み自動車の処理工程</p>';
+}
+
+
+
