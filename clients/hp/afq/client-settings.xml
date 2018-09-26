@@ -16,9 +16,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <!-- param-value>(http|https)://tosei-hotel\.co\.jp/src/dynjs/jkl-calendar\.js.*</param-value -->
-      <!-- param-value>(http|https)://tosei-hotel\.co\.jp/(kanda|ueno)/(src|Data)/(dynjs.*|JSON\.js.*)/jkl-calendar\.js.*</param-value -->
-      <param-value>(http|https)://tosei-hotel\.co\.jp/(assets.*|kanda.*|ueno.*)</param-value>
+      <param-value>(http|https)://tosei-hotel\.co\.jp/src/dynjs/jkl-calendar\.js.*</param-value>
     <param>
       <param-name>resource.type.name</param-name>
       <param-value>JAVASCRIPT</param-value>
