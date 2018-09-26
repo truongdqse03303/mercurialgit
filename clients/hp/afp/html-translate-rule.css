@@ -15,3 +15,10 @@
 @preprocess {
 	replace:'<span class="text-arrow">(.*?)</span>' '<span class="text-arrow">$1</span><br style="display:none;">';
 }
+
+// @RULESET
+// URL #= //itamisyaryo\.com/company/.*
+@preprocess {
+	replace:'<span class="enkaku-list__year">(.*?)</span>' '<span class="enkaku-list__year">$1</span><br style="display:none;">';
+}
+
