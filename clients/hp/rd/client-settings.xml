@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www4.city.kanazawa.lg.jp" />
+    <request hostname="www4.city.kanazawa.lg.jp" ssl="true" />
     <request hostname="kanazawa-bousai.com" />
     <!--<request hostname="www2.city.kanazawa.ishikawa.jp" path="/uketsuke/uketsuketop.html" />-->
     <request hostname="www2.wagamachi-guide.com" path="/kanazawa-mss/" />
