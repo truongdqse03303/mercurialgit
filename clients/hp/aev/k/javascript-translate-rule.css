@@ -2,5 +2,5 @@
 // URL #= (http|https)://www.fujisaki.co.jp/js/ga.js
 // URL #= (http|https)://www.fujisaki.co.jp/sp/js/ga.js
 @preprocess {
-	replace: '\\(function(.*?)\'pageview\'\\);' '<!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-62755734-6"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag(\'js\', new Date());gtag(\'config\', \'UA-62755734-6\');</script>';
+	replace: 'UA-62755734-1' 'UA-62755734-6';
 }
