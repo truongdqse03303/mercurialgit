@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-JA.IT.EN;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM IT COMPUTER MARKET";
+}
+@engine openwifi/main {
+  eid: BR-JA.IT.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER IT COMPUTER MARKET";
+}
+@engine openwifi/cross {
+  eid: BR-JA.IT.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT COMPUTER MARKET";
+}
