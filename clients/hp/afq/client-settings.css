@@ -15,3 +15,37 @@
 	padding: 3px 0;
 	text-align: center;
 }
+
+h2 {
+    letter-spacing: normal;
+}
+
+#tpl-header .header-logo {
+    top: 44px;
+}
+
+.sec-reserve .select-hotel {
+    width: auto;
+}
+
+.sec-reserve .reserve-date {
+    top: 60px;
+    left: 0;
+}
+
+.f_ueno #dynSearchTest1 .persons-bock {
+    margin-right: 140px;
+}
+
+.sec-reserve .bookingDate .lbchkpsn {
+	width: 150px;
+}
+
+.sec-reserve .bookingDate .undecided {
+    width: 145px;
+    font-size: 90%;
+}
+
+#tpl-header {
+	top: 14px;
+}

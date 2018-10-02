@@ -1,12 +1,16 @@
-.style_inputArea,
-.top-page,
-.reserveform,
-.bookingDate,
-.bookingNights,
-.sec-reserve{
+#dynCalendarTest1_screen{
 	attribute:cltx add 'exclude';
 }
 
 @preprocess{
-	replace:'<script type="text/javascript" src="/ueno/src/dynjs/jkl-calendar.js" charset="Shift_JIS"></script>' '<script type="text/javascript" src="/ueno/src/dynjs/jkl-calendar.js" charset="UTF-8"></script>';
+	replace:'<div class="reserve-date only-pc">ご宿泊日</div>' '<br style="display:none;"><div class="reserve-date only-pc">ご宿泊日</div><br style="display:none;">';
+//	replace:'<script type="text/javascript" src="/kanda/src/dynjs/jkl-calendar.js" charset="Shift_JIS"></script>' '<script type="text/javascript" src="/kanda/src/dynjs/jkl-calendar.js" charset="UTF-8"></script>';
+//	replace:'<script type="text/javascript" src="/ueno/src/dynjs/jkl-calendar.js" charset="Shift_JIS"></script>' '<script type="text/javascript" src="/ueno/src/dynjs/jkl-calendar.js" charset="UTF-8"></script>';
+	replace:'<span class="dyn(.*?)"></span>' '<br style="display:none;"><span class="dyn$1"></span><br style="display:none;">';
+}
+
+// @RULESET
+// URL #= //tosei-hotel.co.jp/src/dynviews/bookingdate.html.*
+@preprocess{
+	"<span class=\'dynDate\'>" "<span class=\'dynDate\' cltx=\'exclude\'>";
 }

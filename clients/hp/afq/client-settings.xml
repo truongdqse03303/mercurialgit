@@ -11,10 +11,29 @@
     <request hostname="tosei-hotel.co.jp" />
   </request-list>
 
+  <!-- URLとリソース種類のマッピングの設定 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
+    <param>
+      <param-name>resource.url.pattern</param-name>
+      <param-value>(http|https)://tosei-hotel\.co\.jp/(src|kanda/src|ueno/src|kanda|ueno)/dynviews/.*\.html.*</param-value>
+    </param>
+    <param>
+      <param-name>resource.type.name</param-name>
+      <param-value>JAVASCRIPT</param-value>
+    </param>
+    <priority>4</priority>
+  </resource-handler>
+
+  <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
+  </extension-param>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 
-
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
+
 </client-settings>
