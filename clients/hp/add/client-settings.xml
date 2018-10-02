@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
   <name>おおさか防災ネット</name>
@@ -16,6 +16,9 @@
     <param-name>site.translate.header.style</param-name>
     <param-value>style: #site-translate-header-wrapper, #site-translate-icp{width:auto !important;}</param-value>
   </extension-param>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
