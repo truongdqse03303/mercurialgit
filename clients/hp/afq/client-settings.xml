@@ -16,7 +16,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>(http|https)://tosei-hotel\.co\.jp/(src|kanda/src|ueno/src|kanda|ueno)/dynviews/.*\.html.*</param-value>
+      <param-value>(http|https)://tosei-hotel\.co\.jp/(src|kanda/src|ueno/src|kanda|ueno|assets)/(dynviews|top/js)/(.*\.html.*|script.js.*)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>

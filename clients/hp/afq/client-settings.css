@@ -28,17 +28,16 @@ h2 {
     width: auto;
 }
 
-.sec-reserve .reserve-date {
-    top: 60px;
-    left: 0;
-}
-
 .f_ueno #dynSearchTest1 .persons-bock {
     margin-right: 140px;
 }
 
 .sec-reserve .bookingDate .lbchkpsn {
 	width: 150px;
+}
+
+.sec-reserve.uenopage .bookingDate .lbchkpsn {
+    width: 240px;
 }
 
 .sec-reserve .bookingDate .undecided {
@@ -48,4 +47,38 @@ h2 {
 
 #tpl-header {
 	top: 14px;
+}
+
+.sec-reserve.uenopage .bookingDate .undecided,
+.sec-reserve.uenopage .bookingDate .lbchkpsn {
+    left: 580px;
+}
+
+.sec-reserve.uenopage .dynSubmit {
+    margin-left: 150px;
+}
+
+.sec-reserve .reserve-date {
+    left: 190px;
+}
+
+.sec-reserve.uenopage .reserve-date {
+    top: 60px;
+    left: 0;
+}
+
+.sec-reserve .reserve-persons {
+    left: 600px;
+}
+
+@media screen and (max-width: 750px) {
+
+	.sec-reserve .select-hotel {
+	    width: 100%;
+	}
+
+	.sec-reserve.uenopage .dynSubmit {
+	    margin-left: 0;
+	}
+
 }
