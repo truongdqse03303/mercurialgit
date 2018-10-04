@@ -1,0 +1,10 @@
+// @RULESET
+// URL #= //tosei-hotel.co.jp/kanda/Data/JSON.js.*
+// URL #= //tosei-hotel.co.jp/ueno/Data/JSON.js.*
+@postprocess{
+	replace:'bookingDateNights: "泊"' 'bookingDateNights: "泊"';
+	replace:'bookingDateRooms: "室"' 'bookingDateRooms: "室"';
+	replace:'personsUndecided: "人数未定"' 'personsUndecided: "日程未定"';
+	replace:'bookingDateUndecided: "日程未定"' 'bookingDateUndecided: "人数未定"';
+	replace:'submitSubmit: "検索"' 'submitSubmit: "搜索"';
+}

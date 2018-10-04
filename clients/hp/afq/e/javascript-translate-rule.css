@@ -1,5 +1,6 @@
 // @RULESET
-// URL #= //tosei-hotel.co.jp/(kanda|ueno)/Data/JSON.js.*
+// URL #= //tosei-hotel.co.jp/kanda/Data/JSON.js.*
+// URL #= //tosei-hotel.co.jp/ueno/Data/JSON.js.*
 @postprocess{
 	replace:'bookingDateNights: "泊"' 'bookingDateNights: "Night"';
 	replace:'bookingDateRooms: "室"' 'bookingDateRooms: "Room"';

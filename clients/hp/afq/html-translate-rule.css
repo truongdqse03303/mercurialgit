@@ -4,6 +4,28 @@
 	attribute:cltx add 'exclude';
 }
 
+@preprocess {
+	replace:'<td style="color: #D00000;(.*?)">日</td>' '<td style="color: #D00000;$1">Sun</td>';
+	replace:'<td style="color: #404040;(.*?)">月</td>' '<td style="color: #D00000;$1">Mon</td>';
+	replace:'<td style="color: #404040;(.*?)">火</td>' '<td style="color: #D00000;$1">Tue</td>';
+	replace:'<td style="color: #404040;(.*?)">水</td>' '<td style="color: #D00000;$1">Wed</td>';
+	replace:'<td style="color: #404040;(.*?)">木</td>' '<td style="color: #D00000;$1">Thu</td>';
+	replace:'<td style="color: #404040;(.*?)">金</td>' '<td style="color: #D00000;$1">Fri</td>';
+	replace:'<td style="color: #0040D0;(.*?)">土</td>' '<td style="color: #D00000;$1">Sat</td>';
+}
+
+/*
+@postprocess {
+	replace:'<td style="color: #D00000;(.*?)"><!--cltx-->(.*?)</td>' '<td style="color: #D00000;$1">Sun</td>';
+	replace:'<td style="color: #404040;(.*?)"><!--cltx-->(.*?)</td>' '<td style="color: #D00000;$1">Mon</td>';
+	replace:'<td style="color: #404040;(.*?)"><!--cltx-->(.*?)</td>' '<td style="color: #D00000;$1">Tue</td>';
+	replace:'<td style="color: #404040;(.*?)"><!--cltx-->(.*?)</td>' '<td style="color: #D00000;$1">Wed</td>';
+	replace:'<td style="color: #404040;(.*?)"><!--cltx-->(.*?)</td>' '<td style="color: #D00000;$1">Thu</td>';
+	replace:'<td style="color: #404040;(.*?)"><!--cltx-->(.*?)</td>' '<td style="color: #D00000;$1">Fri</td>';
+	replace:'<td style="color: #0040D0;(.*?)"><!--cltx-->(.*?)</td>' '<td style="color: #D00000;$1">Sat</td>';
+}
+*/
+
 @preprocess{
 	replace:'<div class="reserve-date only-pc">ご宿泊日</div>' '<br style="display:none;"><div class="reserve-date only-pc">ご宿泊日</div><br style="display:none;">';
 	replace:'<span class="dyn(.*?)"></span>' '<br style="display:none;"><span class="dyn$1"></span><br style="display:none;">';
@@ -19,4 +41,10 @@
 // URL #= //tosei-hotel\.co\.jp/ueno/.*
 @preprocess{
 	replace:'<section class="section sec-reserve">' '<section class="section sec-reserve uenopage">';
+}
+
+// @RULESET
+// URL #= //tosei-hotel\.co\.jp/
+@preprocess{
+	replace:'<section class="section sec-reserve">' '<section class="section sec-reserve toppage">';
 }

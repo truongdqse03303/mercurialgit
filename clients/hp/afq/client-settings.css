@@ -24,24 +24,29 @@ h2 {
     top: 44px;
 }
 
-.sec-reserve .select-hotel {
+.sec-reserve:lang(en) .select-hotel {
     width: auto;
 }
 
-.f_ueno #dynSearchTest1 .persons-bock {
+.f_ueno #dynSearchTest1:lang(en) .persons-bock {
     margin-right: 140px;
 }
 
-.sec-reserve .bookingDate .lbchkpsn {
+.sec-reserve:lang(en) .bookingDate .lbchkpsn {
 	width: 150px;
 }
 
-.sec-reserve.uenopage .bookingDate .lbchkpsn {
+.sec-reserve.uenopage:lang(en) .bookingDate .lbchkpsn {
     width: 240px;
 }
 
-.sec-reserve .bookingDate .undecided {
-    width: 145px;
+.sec-reserve:lang(en) .bookingDate .undecided {
+    width: auto;
+    font-size: 90%;
+}
+
+.sec-reserve:lang(en) .bookingDate .lbchkpsn {
+    width: auto;
     font-size: 90%;
 }
 
@@ -49,36 +54,122 @@ h2 {
 	top: 14px;
 }
 
-.sec-reserve.uenopage .bookingDate .undecided,
-.sec-reserve.uenopage .bookingDate .lbchkpsn {
+
+.sec-reserve.toppage:lang(en) .dynPersons {
+    margin-left: 0;
+}
+
+.sec-reserve.toppage:lang(en) .persons-bock {
+    margin-right: 145px;
+}
+
+.sec-reserve.toppage:lang(en) .bookingDate .undecided {
+    right: 220px;
+}
+
+.sec-reserve.kandapage:lang(en) .flex {
+    -webkit-justify-content: start;
+    justify-content: start;
+}
+
+.sec-reserve.kandapage:lang(en) .bookingDate .style_subhead {
+    width: 100%;
+}
+
+.sec-reserve.kandapage:lang(en) .bookingDate .undecided {
+    margin-left: 0;
+}
+
+.sec-reserve.kandapage:lang(en) .bookingDate {
+	width: 390px;
+}
+
+.sec-reserve.kandapage:lang(en) .bookingDate .lbchkpsn {
+    width: auto;
+}
+
+.sec-reserve.kandapage:lang(en) .dynPersons {
+    margin-left: 0;
+    margin-top: 27px;
+}
+
+.sec-reserve.uenopage:lang(en) .bookingDate .undecided,
+.sec-reserve.uenopage:lang(en) .bookingDate .lbchkpsn {
     left: 580px;
 }
 
-.sec-reserve.uenopage .dynSubmit {
+.sec-reserve.uenopage:lang(en) .dynSubmit {
     margin-left: 150px;
 }
 
-.sec-reserve .reserve-date {
-    left: 190px;
+.sec-reserve:lang(en) .reserve-date {
+    left: 160px;
 }
 
-.sec-reserve.uenopage .reserve-date {
+.sec-reserve.uenopage:lang(en) .reserve-date {
     top: 60px;
     left: 0;
 }
 
-.sec-reserve .reserve-persons {
+.sec-reserve:lang(en) .reserve-persons {
     left: 600px;
+}
+
+.sec-reserve.toppage:lang(en) .reserve-persons {
+    left: 540px;
+}
+
+.sec-reserve.toppage:lang(en) .bookingDate .undecided{
+	right: 224px;
+}
+
+.sec-reserve.toppage:lang(en) .bookingDate .lbchkpsn {
+    right: 165px;
 }
 
 @media screen and (max-width: 750px) {
 
-	.sec-reserve .select-hotel {
+	.sec-reserve:lang(en) .select-hotel {
 	    width: 100%;
 	}
 
-	.sec-reserve.uenopage .dynSubmit {
+	.sec-reserve.toppage:lang(en) .reserve-date {
+	    left: 0;
+	}
+
+	.sec-reserve.toppage:lang(en) .persons-bock {
+	    margin-right: 0;
+		margin-left: 5px;
+	}
+
+	.sec-reserve.uenopage:lang(en) .dynSubmit {
 	    margin-left: 0;
+	}
+
+	.sec-reserve.uenopage:lang(en) .persons-bock {
+	    margin-right: 0;
+	    margin-left: 5px;
+	}
+
+	.sec-reserve:lang(en) .reserve-date {
+	    top: 48px;
+	}
+
+	.sec-reserve.uenopage:lang(en) .reserve-date {
+	    top: -20px;
+	}
+
+	.sec-reserve.kandapage:lang(en) .bookingDate .style_subhead {
+	    width: auto;
+	}
+
+	.sec-reserve.kandapage:lang(en) .dynPersons {
+	    margin-left: 15px;
+	    margin-top: 0;
+	}
+
+	.sec-reserve.kandapage:lang(en) .bookingDate {
+	    width: 100%;
 	}
 
 }
