@@ -63,10 +63,6 @@ h2 {
     margin-right: 145px;
 }
 
-.sec-reserve.toppage:lang(en) .bookingDate .undecided {
-    right: 220px;
-}
-
 .sec-reserve.kandapage:lang(en) .flex {
     -webkit-justify-content: start;
     justify-content: start;
@@ -120,11 +116,11 @@ h2 {
 }
 
 .sec-reserve.toppage:lang(en) .bookingDate .undecided{
-	right: 224px;
+	left: 460px;
 }
 
 .sec-reserve.toppage:lang(en) .bookingDate .lbchkpsn {
-    right: 165px;
+    left: 460px;
 }
 
 @media screen and (max-width: 750px) {
