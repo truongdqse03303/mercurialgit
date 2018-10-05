@@ -131,6 +131,10 @@ h2 {
     left: 460px;
 }
 
+.sec-reserve.kandapage:lang(ko) .bookingDate {
+    width: 430px;
+}
+
 @media screen and (max-width: 750px) {
 
 	.sec-reserve:lang(en) .select-hotel {
@@ -186,6 +190,10 @@ h2 {
 
 	.sec-reserve .bookingDate:lang(ko) {
 	    padding-left: 70px;
+	}
+
+	.sec-reserve.kandapage:lang(ko) .bookingDate {
+	    padding-left: 0;
 	}
 
 	.sec-reserve.uenopage:lang(ko) .reserve-date {
