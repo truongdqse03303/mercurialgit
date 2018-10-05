@@ -24,6 +24,10 @@ h2 {
     top: 44px;
 }
 
+#tpl-header {
+	top: 14px;
+}
+
 .sec-reserve:lang(en) .select-hotel {
     width: auto;
 }
@@ -50,17 +54,20 @@ h2 {
     font-size: 90%;
 }
 
-#tpl-header {
-	top: 14px;
-}
-
-
 .sec-reserve.toppage:lang(en) .dynPersons {
     margin-left: 0;
 }
 
 .sec-reserve.toppage:lang(en) .persons-bock {
     margin-right: 145px;
+}
+
+.sec-reserve.toppage:lang(en) .sec-ttl {
+    margin-bottom: 18px;
+}
+
+.sec-reserve.toppage:lang(en) .tpl-inner-wrap {
+    padding-top: 20px;
 }
 
 .sec-reserve.kandapage:lang(en) .flex {
@@ -99,10 +106,11 @@ h2 {
 }
 
 .sec-reserve:lang(en) .reserve-date {
-    left: 160px;
+    left: 155px;
 }
 
-.sec-reserve.uenopage:lang(en) .reserve-date {
+.sec-reserve.uenopage:lang(en) .reserve-date,
+.sec-reserve.uenopage:lang(ko) .reserve-date {
     top: 60px;
     left: 0;
 }
@@ -112,7 +120,7 @@ h2 {
 }
 
 .sec-reserve.toppage:lang(en) .reserve-persons {
-    left: 540px;
+    left: 550px;
 }
 
 .sec-reserve.toppage:lang(en) .bookingDate .undecided{
@@ -138,10 +146,12 @@ h2 {
 		margin-left: 5px;
 	}
 
+	.sec-reserve.kandapage:lang(en) .dynSubmit,
 	.sec-reserve.uenopage:lang(en) .dynSubmit {
 	    margin-left: 0;
 	}
 
+	.sec-reserve.kandapage:lang(en) .persons-bock,
 	.sec-reserve.uenopage:lang(en) .persons-bock {
 	    margin-right: 0;
 	    margin-left: 5px;
@@ -151,6 +161,7 @@ h2 {
 	    top: 48px;
 	}
 
+	.sec-reserve.kandapage:lang(en) .reserve-date,
 	.sec-reserve.uenopage:lang(en) .reserve-date {
 	    top: -20px;
 	}
@@ -166,6 +177,19 @@ h2 {
 
 	.sec-reserve.kandapage:lang(en) .bookingDate {
 	    width: 100%;
+	}
+
+	.sec-reserve.kandapage:lang(en) .form-block {
+	    width: auto;
+	    max-width: unset;
+	}
+
+	.sec-reserve .bookingDate:lang(ko) {
+	    padding-left: 70px;
+	}
+
+	.sec-reserve.uenopage:lang(ko) .reserve-date {
+	    top: 0;
 	}
 
 }

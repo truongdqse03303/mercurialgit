@@ -1,0 +1,15 @@
+// @RULESET
+// URL #= //syusuien.co.jp/sp/.*
+@preprocess{
+	replace:'<a href="http://www7.489ban.net/v4/client/plan/list/customer/syusuien/"(.*?)>' '<a href="http://www7.489ban.net/s/c/indexinbound/index/customer/syusuien/lang/4"$1>';
+	replace:'<a href="https://www7.489ban.net/v4/client/booked/index/customer/syusuien"(.*?)>' '<a href="https://www7.489ban.net/s/c/bookedinbound/index/customer/syusuien/lang/4"$1>';
+//	replace:'<a href="http://www7.489ban.net/v4/client/plan/daycalender/customer/syusuien"(.*?)>' '<a href="http://www7.489ban.net/s/c/planinbound/daycalender/customer/syusuien/lang/4"$1>';
+}
+
+// @RULESET
+// URL #= //syusuien.co.jp/.*
+@preprocess{
+	replace:'<a href="http://www7.489ban.net/v4/client/plan/list/customer/syusuien/"(.*?)>' '<a href="http://www7.489ban.net/v4/client/planinbound/list/customer/syusuien/lang/4"$1>';
+	replace:'<a href="https://www7.489ban.net/v4/client/booked/index/customer/syusuien"(.*?)>' '<a href="https://www7.489ban.net/v4/client/bookedinbound/index/customer/syusuien/lang/4"$1>';
+	replace:'<a href="http://www7.489ban.net/v4/client/plan/daycalender/customer/syusuien"(.*?)>' '<a href="http://www7.489ban.net/v4/client/planinbound/daycalender/customer/syu suien/lang/4"$1>';
+}
