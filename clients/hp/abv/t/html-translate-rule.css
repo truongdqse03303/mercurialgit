@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT BEAUTY MEDICAL";
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage-t:show(.*?)/crosslanguage-t:show -->' '$1';
+}
