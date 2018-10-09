@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JATH;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine test-bic-asia/main {
+  eid: MS-JATH;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine test-bic-asia/cross {
+  eid: MS-JATH;
+  dictionaries: "CROSS_TM_MASTER";
+}

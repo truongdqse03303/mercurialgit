@@ -1,0 +1,60 @@
+.bcs_mainColumn > div#category_top_page_ranking_pc.bcs_tabBox > ul.bcs_tabs > li {
+ attribute: clftx add 'exclude';
+}
+
+@preprocess {
+ replace:'charset=Shift_JIS' 'charset=UTF-8';
+}
+
+@preprocess {
+ replace:'<span class="bcs_orange">(.*)ポイント</span>' '<span class="bcs_orange">$1ポイント</span><br style="display:none;">';
+ replace:'<li><a href=(.*) onclick=(.*)>在庫がある商品<span>（(.*)）</span></a></li>' '<li><a href=$1 onclick=$2>在庫がある商品<br style="display:none;">&nbsp;<span>（$3）</span></a></li>';
+ replace:'<p class="bcs_point">(.*)<span>(.*)</span>(.*)</p>' '<p class="bcs_point">$1<span>$2</span><br style="display:none;">$3</p>';
+}
+
+@postprocess {
+ replace:'<ul class="bcs_tabs">' '<ul class="bcs_tabs" clftx="exclude">';
+}
+
+@preprocess {
+  replace: '(<a href="\\*" onclick="window\.print\\(\\)">印刷する</a>)' '<p>$1</p>';
+}
+
+@postprocess {
+replace: '<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><meta http-equiv="X-UA-Compatible" content="IE=edge">' '<head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>';
+}
+
+@preprocess {
+replace:'<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padding:4px;margin:4px 0px">' '<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padding:4px;margin:4px 0px;display:none;" clftx="exclude">';
+}
+
+@preprocess {
+        replace:'<link rel="stylesheet" href="../tool/css/reset.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/reset.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/css/base.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/base.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/css/grid-12.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/grid-12.css" type="text/css" />';
+        replace:'<script type="text/javascript" src="../tool/js/ga.js">' '<script type="text/javascript" src="//www.biccamera.co.jp/tool/js/ga.js">';
+        replace:'<script type="text/javascript" src="../tool/jquery.js">' '<script type="text/javascript" src="//www.biccamera.co.jp/tool/jquery.js">';
+        replace:'<link rel="stylesheet" href="../tool/header/css/head-hv.css?20171203" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head-hv.css?20171203" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/header/css/head.css" type="text/css">' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head.css" type="text/css">';
+        replace:'<link rel="stylesheet" href="../tool/header/css/head.css" type="text/css" media="print" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head.css" type="text/css" media="print" />';
+        replace:'<script type="text/javascript" src="../tool/header/js/dropdown.js">' '<script type="text/javascript" src="//www.biccamera.co.jp/tool/header/js/dropdown.js">';
+        replace:'<link rel="stylesheet" href="css/bicgroup.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/bicgroup/css/bicgroup.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/css/shop_style.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/shop_style.css" type="text/css" />';
+        replace:'<script src="../tool/js/mobile-proxy.js">' '<script src="//www.biccamera.co.jp/tool/js/mobile-proxy.js">';
+        replace:'<link rel="stylesheet" href="../tool/header/css/head-hv.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head-hv.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/footer/css/foot-hv.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/footer/css/foot-hv.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="../tool/footer/css/foot.css" type="text/css" media="print" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/footer/css/foot.css" type="text/css" media="print" />';
+        replace:'<link rel="stylesheet" href="css/list-hv.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/shoplist/css/list-hv.css" type="text/css" />';
+        replace:'<link rel="stylesheet" href="css/list.css" type="text/css" media="print" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/shoplist/css/list.css" type="text/css" media="print" />';
+        replace:'<script src="js/jquery.liveFilter.js">' '<script src="//www.biccamera.co.jp/shoplist/js/jquery.liveFilter.js">';
+}
+
+div[id=KEY-SEARCH-BOX]{
+attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL #= http://www.biccamera.co.jp/sport_activity/.*
+div#banner {
+ attribute: clftx add 'exclude';
+}
