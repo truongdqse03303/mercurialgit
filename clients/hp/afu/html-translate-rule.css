@@ -1,0 +1,31 @@
+#main,
+#footer-info,
+#footer-info-02{
+	attribute: cltx add 'exclude';
+}
+
+@postprocess {
+  replace: '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden01.html">' '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden01.shtml">';
+  replace: '<a href="http://hokkaido-garden.jp.(e|c|t|k).ua.hp.transer.com/garden01.html">' '<a href="http://hokkaido-garden.jp.$1.ua.hp.transer.com/garden01.shtml">';
+  
+  replace: '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden02.html">' '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden02.shtml">';
+  replace: '<a href="http://hokkaido-garden.jp.(e|c|t|k).ua.hp.transer.com/garden02.html">' '<a href="http://hokkaido-garden.jp.$1.ua.hp.transer.com/garden02.shtml">';
+  
+  replace: '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden03.html">' '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden03.shtml">';
+  replace: '<a href="http://hokkaido-garden.jp.(e|c|t|k).ua.hp.transer.com/garden03.html">' '<a href="http://hokkaido-garden.jp.$1.ua.hp.transer.com/garden03.shtml">';
+  
+  replace: '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden04.html">' '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden04.shtml">';
+  replace: '<a href="http://hokkaido-garden.jp.(e|c|t|k).ua.hp.transer.com/garden04.html">' '<a href="http://hokkaido-garden.jp.$1.ua.hp.transer.com/garden04.shtml">';
+  
+  replace: '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden05.html">' '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden05.shtml">';
+  replace: '<a href="http://hokkaido-garden.jp.(e|c|t|k).ua.hp.transer.com/garden05.html">' '<a href="http://hokkaido-garden.jp.$1.ua.hp.transer.com/garden05.shtml">';
+  
+  replace: '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden06.html">' '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden06.shtml">';
+  replace: '<a href="http://hokkaido-garden.jp.(e|c|t|k).ua.hp.transer.com/garden06.html">' '<a href="http://hokkaido-garden.jp.$1.ua.hp.transer.com/garden06.shtml">';
+  
+  replace: '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden07.html">' '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden07.shtml">';
+  replace: '<a href="http://hokkaido-garden.jp.(e|c|t|k).ua.hp.transer.com/garden07.html">' '<a href="http://hokkaido-garden.jp.$1.ua.hp.transer.com/garden07.shtml">';
+  
+  replace: '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden08.html">' '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden08.shtml">';
+  replace: '<a href="http://hokkaido-garden.jp.(e|c|t|k).ua.hp.transer.com/garden08.html">' '<a href="http://hokkaido-garden.jp.$1.ua.hp.transer.com/garden08.shtml">';
+}

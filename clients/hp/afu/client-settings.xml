@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ガーデン街道</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>test-hokkaido-garden/service aa5d23d1ec332ba0bb4387d368cce369713a9b65</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="hokkaido-garden.jp" />
+  </request-list>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>th</param-value>
+  </extension-param>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
