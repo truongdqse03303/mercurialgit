@@ -8,8 +8,6 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="ochahaku.kyoto" />
-    <request hostname="www.ochahaku.kyoto" />
     <request hostname="ochanokyoto.jp" />
     <request hostname="www.ochanokyoto.jp" />
   </request-list>
