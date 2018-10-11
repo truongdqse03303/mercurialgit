@@ -1,21 +1,3 @@
-.bcs_mainColumn > div#category_top_page_ranking_pc.bcs_tabBox > ul.bcs_tabs > li {
- attribute: clftx add 'exclude';
-}
-
-@preprocess {
- replace:'charset=Shift_JIS' 'charset=UTF-8';
-}
-
-@preprocess {
- replace:'<span class="bcs_orange">(.*)ポイント</span>' '<span class="bcs_orange">$1ポイント</span><br style="display:none;">';
- replace:'<li><a href=(.*) onclick=(.*)>在庫がある商品<span>（(.*)）</span></a></li>' '<li><a href=$1 onclick=$2>在庫がある商品<br style="display:none;">&nbsp;<span>（$3）</span></a></li>';
- replace:'<p class="bcs_point">(.*)<span>(.*)</span>(.*)</p>' '<p class="bcs_point">$1<span>$2</span><br style="display:none;">$3</p>';
-}
-
-@postprocess {
- replace:'<ul class="bcs_tabs">' '<ul class="bcs_tabs" clftx="exclude">';
-}
-
 @preprocess {
   replace: '(<a href="\\*" onclick="window\.print\\(\\)">印刷する</a>)' '<p>$1</p>';
 }
@@ -49,12 +31,36 @@ replace:'<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padd
         replace:'<script src="js/jquery.liveFilter.js">' '<script src="//www.biccamera.co.jp/shoplist/js/jquery.liveFilter.js">';
 }
 
-div[id=KEY-SEARCH-BOX]{
+.bcs_sort_soldoutDisp,
+.Ec_Ctgtop_Recommend_Content,
+.bx-controls,
+.bcs_layoutInner > ul > li,
+.bcs_ranking > ul > li,
+.bcs_feature > ul > li,
+.bcs_categoryList > ul > li,
+.bcs_diary > ul > li,
+.bcs_inner > h2,
+.bcs_guarantee > .bcs_inner  {
+ attribute: clftx add 'exclude';
+}
+
+.bcs_selectBox,
+.bx-prev,
+.bx-next,
+.bcs_itemSlidermini,
+.bcs_itemSlider {
+ attribute: cltx add 'exclude';
+}
+
+div[id=KEY-SEARCH-BOX],
+.head-link,
+.grid3 > .csr-banner,
+.grid4{
 attribute: cltx add 'exclude';
 }
 
 // @RULESET
-// URL #= http://www.biccamera.co.jp/sport_activity/.*
+// URL #= //www.biccamera.co.jp/sport_activity/.*
 div#banner {
  attribute: clftx add 'exclude';
 }
