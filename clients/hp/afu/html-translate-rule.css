@@ -1,7 +1,11 @@
 #main,
 #footer-info,
-#footer-info-02{
+#footer-info-02 {
 	attribute: cltx add 'exclude';
+}
+
+ul#globalNavi > li {
+	attribute: clftx add 'exclude';
 }
 
 @postprocess {
