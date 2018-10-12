@@ -33,6 +33,19 @@ header .reserve .txt:lang(en) {
 	padding: 0 5px 0 0;
 }
 
+header .reserve .his {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .reserve .txt:before {
+	display: none;
+}
+
+body.home header .reserve .number a {
+	color: #fff;
+}
+
 .gnavi .list .child .link:lang(en) {
 	padding: 0 25px;
 	font-size: 84%;

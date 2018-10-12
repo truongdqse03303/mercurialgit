@@ -4,6 +4,10 @@
 	attribute: cltx add 'exclude';
 }
 
+ul#globalNavi > li {
+	attribute: clftx add 'exclude';
+}
+
 @postprocess {
   replace: '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden01.html">' '<a class="cl-norewrite" href="http://hokkaido-garden.jp/garden01.shtml">';
   replace: '<a href="http://hokkaido-garden.jp.(e|c|t|k).ua.hp.transer.com/garden01.html">' '<a href="http://hokkaido-garden.jp.$1.ua.hp.transer.com/garden01.shtml">';

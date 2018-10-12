@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess {
+	replace: '<div class="reserve(.*?)">(.*?)</div><!--/ .reserve -->' '<div class="reserve pc_only"><img src="//www.funasei.com/english/images/his.png" alt="HIS" class="his"><p class="txt mincho">HIS 여행사에 문의하십시오</p><div class="number" style="font-size:18px"><a href="mailto:harajukutic@his-world.com">harajukutic@his-world.com</a></div></div>';
+}
