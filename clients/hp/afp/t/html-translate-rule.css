@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER CAR TRADE";
 }
+
+@postprocess {
+	replace:'<option value="(.*?).c.afp.hp.transer.com(.*?)"(.*?)>中國</option>' '<option value="$1.c.afp.hp.transer.com$2"$3>中国</option>';
+}

@@ -1,3 +1,7 @@
+.fb-page{
+	attribute:cltx add 'exclude';
+}
+
 @preprocess {
   replace: 'UA-63932472-1' 'UA-63932472-2';
 }
