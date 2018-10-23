@@ -135,7 +135,11 @@ h2 {
     width: 430px;
 }
 
-@media screen and (max-width: 750px) {
+@media only screen and (max-width: 750px) {
+
+	.hero .btn-block .reserve-btn {
+    	font-size: 75%;
+	}
 
 	.sec-reserve:lang(en) .select-hotel {
 	    width: 100%;
