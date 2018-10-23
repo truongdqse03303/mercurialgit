@@ -1,0 +1,73 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+
+@media (min-width: 768px) {
+
+	#header_line {
+	    margin: 44px auto 0;
+	}
+
+	header.pc_fixed {
+	    margin: 44px auto 0;
+		font-size: 80%;
+	}
+
+	#header .nav1 {
+	    margin-bottom: 0;
+	    margin-top: 0;
+	}
+
+	#header .nav1>li {
+	    font-size: 85%;
+	}
+
+	.gray_box_parent {
+	    height: 184px;
+	}
+
+	.gray_box.privilege {
+	    height: auto;
+	}
+
+	.profile {
+	    height: auto;
+	}
+
+}
+
+@media (max-width: 767.98px) {
+
+	body {
+	    margin: 44px auto 0;
+	}
+
+	header {
+	    top: 44px;
+	}
+
+	.overlayMenuBtn {
+	    top: 49px;
+	}
+
+	.gray_box_parent {
+	    height: 294px;
+	}
+
+}
