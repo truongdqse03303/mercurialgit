@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.orange-book.com" />
+    <request hostname="www.orange-book.com" ssl="true" />
     <request hostname="t-www.orange-book.com" ssl="true" />
     <request hostname="image.orange-book.com" />
   </request-list>
