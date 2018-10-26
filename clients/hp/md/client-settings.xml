@@ -12,6 +12,7 @@
     <request hostname="dmdepart.jp" ssl="true" />
     <request hostname="wakaba.coara.or.jp" />
     <request hostname="daimaru-fukuoka.jp" ssl="true" />
+    <request hostname="s575.stg.at21.jp" path="/tokyo" />
   </request-list>
   
   <!-- 免責ヘッダーを絶対座標で指定 -->
@@ -19,7 +20,24 @@
     <param-name>site.translate.header.style</param-name>
     <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
   </extension-param>
-  
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic c3RnNTc1OnM4WEFoNW1U</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://s575\.stg\.at21\.jp.*</param-value>
+    </param>
+  </resource-handler>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
 

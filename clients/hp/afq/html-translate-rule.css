@@ -5,6 +5,7 @@
 }
 
 @preprocess {
+	replace:'<span class="sec-ttl-txt">(.*?)<br class="PC">(.*?)</span>' '<span class="sec-ttl-txt">$1$2</span>';
 	replace:'<td style="(.*?)">日</td>' '<td style="$1">Sun</td>';
 	replace:'<td style="(.*?)">月</td>' '<td style="$1">Mon</td>';
 	replace:'<td style="(.*?)">火</td>' '<td style="$1">Tue</td>';
