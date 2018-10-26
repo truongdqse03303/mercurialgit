@@ -135,18 +135,6 @@ h2 {
     width: 430px;
 }
 
-.sec-reserve.kandapage .form-block {
-    width: auto;
-}
-
-.sec-reserve.kandapage .dynSubmit input[type="button"] {
-	margin: 0 0 0 10%;
-}
-
-.sec-reserve.kandapage .sec-ttl .sec-ttl-txt {
-    font-size: 70%;
-}
-
 @media only screen and (max-width: 750px) {
 
 	.hero .btn-block .reserve-btn {
