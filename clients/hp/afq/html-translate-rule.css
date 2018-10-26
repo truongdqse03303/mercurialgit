@@ -6,6 +6,9 @@
 
 @preprocess {
 	replace:'<span class="sec-ttl-txt">(.*?)<br class="PC">(.*?)</span>' '<span class="sec-ttl-txt">$1$2</span>';
+	replace:'<span class="PC">(.*?)</span>' '<br style="display:none;"><span class="PC">$1</span><br style="display:none;">';
+	replace:'<span class="only-pc">(.*?)</span>' '<br style="display:none;"><span class="only-pc">$1</span><br style="display:none;">';
+	replace:'<span class="only-sp">(.*?)</span>' '<br style="display:none;"><span class="only-sp">$1</span><br style="display:none;">';
 	replace:'<td style="(.*?)">日</td>' '<td style="$1">Sun</td>';
 	replace:'<td style="(.*?)">月</td>' '<td style="$1">Mon</td>';
 	replace:'<td style="(.*?)">火</td>' '<td style="$1">Tue</td>';
