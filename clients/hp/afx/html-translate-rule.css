@@ -2,3 +2,8 @@
 #twitter-box  {
  attribute: cltx add 'exclude';
 }
+
+@preprocess {
+  replace: '<span class="eng">(.*?)</span>' '<br style="display:none;"><span class="eng">$1</span><br style="display:none;">';
+  replace: '<span class="entry-date">(.*?)</span>' '<br style="display:none;"><span class="entry-date">$1</span><br style="display:none;">';
+}

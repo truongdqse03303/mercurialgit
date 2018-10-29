@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.jec.ac.jp" />
+    <request hostname="www.jec.ac.jp" ssl="true" />
   </request-list>
 
   <extension-param>
