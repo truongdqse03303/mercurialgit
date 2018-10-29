@@ -1,0 +1,4 @@
+#facebook-box,
+#twitter-box  {
+ attribute: cltx add 'exclude';
+}

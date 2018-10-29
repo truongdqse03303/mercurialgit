@@ -1,0 +1,38 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+header {
+	margin: 44px auto 0;
+}
+
+#build-menu {
+	margin: 44px auto 0;
+}
+
+.build-menu-animating #build-menu-page {
+    top: 44px;
+}
+
+#usagidaira .section-inner .button-box a {
+    width: 250px;
+}
+
+#page-billboard-inner .cat-name {
+    height: auto;
+}
