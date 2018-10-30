@@ -1,15 +1,16 @@
 @engine default {
-  eid: MS-JATH;
-  dictionaries: "CLIENT_TM CROSS_TM";
+  eid: CR-JT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM";
 }
 @engine biccamera-asia/main {
-  eid: MS-JATH;
-  dictionaries: "CLIENT_TM_MASTER";
+  eid: CR-JT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM";
 }
 @engine biccamera-asia/cross {
-  eid: MS-JATH;
-  dictionaries: "CROSS_TM_MASTER";
+  eid: CR-JT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM";
 }
+
 @preprocess {
  replace:'charset=Shift_JIS' 'charset=UTF-8';
 }
