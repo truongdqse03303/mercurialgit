@@ -16,3 +16,25 @@
 @postprocess {
  replace:'<ul class="bcs_tabs">' '<ul class="bcs_tabs" clftx="exclude">';
 }
+
+.bcs_sort_soldoutDisp,
+.Ec_Ctgtop_Recommend_Content,
+.bx-controls,
+.bcs_layoutInner > ul > li,
+.bcs_ranking > ul > li,
+.bcs_feature > ul > li,
+.bcs_categoryList > ul > li,
+.bcs_diary > ul > li,
+.bcs_inner > h2,
+.bcs_guarantee > .bcs_inner,
+.bcs_item  {
+ attribute: clftx add 'exclude';
+}
+
+.bcs_selectBox,
+.bx-prev,
+.bx-next,
+.bcs_itemSlidermini,
+.bcs_itemSlider {
+ attribute: cltx add 'exclude';
+}
