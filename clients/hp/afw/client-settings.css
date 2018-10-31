@@ -17,8 +17,19 @@
 	width:5000px;
 }
 
+.btn-default {
+    width: 170px;
+}
+
+.archive_list>li {
+    display: block;
+}
 
 @media (min-width: 768px) {
+
+	#fixed_menu>ul.nav1 {
+	    width: auto;
+	}
 
 	#header_line {
 	    margin: 44px auto 0;
@@ -26,7 +37,10 @@
 
 	header.pc_fixed {
 	    margin: 44px auto 0;
-		font-size: 80%;
+	}
+
+	header.pc_fixed:lang(en) {
+		font-size: 72%;
 	}
 
 	#header .nav1 {
@@ -89,6 +103,21 @@
 
 	.gray_box_parent {
 	    height: 294px;
+	}
+
+	#footer_nav:lang(en) {
+	    display: -webkit-box;
+	    display: -moz-box;
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: -moz-flex;
+	    display: flex;
+	    -webkit-box-lines: multiple;
+	    -moz-box-lines: multiple;
+	    -webkit-flex-wrap: wrap;
+	    -moz-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	}
 
 }
