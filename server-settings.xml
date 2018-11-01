@@ -116,7 +116,7 @@
   </translation-server>
 
   <!-- 翻訳結果キャッシュサーバを利用する設定ID(カンマ区切り) -->
-  <translatedcache-sid>th,v,id,tm-th,tm-v,tm-id,cfm-th,cfm-v,cfm-id</translatedcache-sid>
+  <translatedcache-sid>v,id,tm-v,tm-id,cfm-v,cfm-id</translatedcache-sid>
   
   <!-- 断片翻訳キャッシュ番号の上限と達した場合の削除するレコード数 -->
   <fragment-maxseq>500</fragment-maxseq>
