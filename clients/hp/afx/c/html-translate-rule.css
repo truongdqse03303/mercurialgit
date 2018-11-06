@@ -14,3 +14,8 @@
 body {
   attribute: lang add 'zh';
 }
+
+/* Googleアナリティクス */
+@preprocess {
+	replace: 'UA-26681577-1' 'UA-26681577-9';
+}
