@@ -22,6 +22,7 @@
    <request-list>
     <request hostname="isetan.stage.mistore.jp" />
     <request hostname="www.isetan.mistore.jp" ssl="true" />
+    <request hostname="www.isetan.stg.mistore.jp" ssl="true" />
   </request-list>
 
   <extension-param>
