@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET ART";
 }
+
+@postprocess {
+	replace:'Please check out \\[Kyushu Sanko bus\\] <a href="https://www.kyusanko.co.jp/sankobus/ttsys/" target="_blank">for the</a> time tables of fixed‐route bus.' 'Please check out <a href="https://www.kyusanko.co.jp/sankobus/english" target="_blank">\\[Kyushu Sanko bus\\]</a> for the time tables of fixed‐route bus.';
+}
