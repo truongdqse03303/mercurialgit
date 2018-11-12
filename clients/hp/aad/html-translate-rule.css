@@ -8,6 +8,7 @@ section  > .inner > .common_bxslider_wrap > .bx-wrapper,
 }
 
 @preprocess {
+	replace:'<div class="logo"><a href="(.*?)">(.*?)</a></div>' '<div class="logo"><a href="https://www.funasei.com/plan/noriai/">$2</a></div>';
 	replace:'<p class="txt mincho">(.*?)<span class="time">(.*?)</span></p>' '<p class="txt mincho">$1<br style="display:none;"><span class="time">$2</span></p>';
 	replace:'<th class="bg_rd mincho">(.*?)<span class="fs_48">(.*?)</span>(.*?)</th>' '<th class="bg_rd mincho">$1<br style="display:none;"><span class="fs_48">$2</span><br style="display:none;">$3</th>';
 	replace:'<th class="mincho bg_rd">(.*?)<span class="fs_48">(.*?)</span>(.*?)</th>' '<th class="bg_rd mincho">$1<br style="display:none;"><span class="fs_48">$2</span><br style="display:none;">$3</th>';

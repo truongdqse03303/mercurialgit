@@ -207,7 +207,13 @@ footer .reserve .tel .label {
 }
 
 /* 非表示 */
+body:not(.home) .gnavi .list {
+    padding: 0;
+}
+
 .page_header,
+.gnavi .list .child:nth-child(0),
+.gnavi .list .child:nth-child(1),
 .gnavi .list .child:nth-child(2),
 .gnavi .list .child:nth-child(6),
 footer .inner.pc_only,
