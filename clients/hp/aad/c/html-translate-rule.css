@@ -16,5 +16,5 @@ body {
 }
 
 @preprocess {
-	replace: '<div class="reserve(.*?)">(.*?)</div><!--/ .reserve -->' '<div class="reserve pc_only"><img src="//www.funasei.com/english/images/his.png" alt="HIS" class="his"><p class="txt mincho">請聯絡HIS旅行社</p><div class="number" style="font-size:18px"><a href="mailto:harajukutic@his-world.com">harajukutic@his-world.com</a></div></div>';
+	replace: '<div class="reserve(.*?)">(.*?)</div><!--/ .reserve -->' '<div class="reserve pc_only"><img src="//www.funasei.com/english/images/his.png" alt="HIS" class="his"><p class="txt mincho">请联系HIS旅行社</p><div class="number" style="font-size:18px"><a href="mailto:harajukutic@his-world.com">harajukutic@his-world.com</a></div></div>';
 }
