@@ -23,3 +23,17 @@ section  > .inner > .common_bxslider_wrap > .bx-wrapper,
 	replace:'<p class="txt mincho fs_18"> こちらの乗合いカレンダーより出港日をご確認いただけます。 </p>' '<p class="txt mincho fs_18" style="display:none;> こちらの乗合いカレンダーより出港日をご確認いただけます。 </p>';
 	replace:'<p class="txt mincho fs_14">※御予約は日本語のみでのご対応となります。</p>' '<p class="txt mincho fs_14" style="display:none;>※御予約は日本語のみでのご対応となります。</p>';
 }
+
+
+// @RULESET
+// URL #= //www.funasei.com/course.*
+@preprocess {
+	replace:'<div class="label">(.*?)<span class="sub">(.*?)</span></div>' '<div class="label">$1<br style="display:none;"><span class="sub">$2</span></div>';
+	replace:'<div class="tab_content">' '<div class="tab_content hide">';
+	replace:'<div class="tab_content hide">' '<div class="tab_content">';
+}
+
+@postprocess {
+	replace:'<li class="tab active">(.*?)<div class="label">' '<li class="tab">$1<div class="label">';
+	replace:'<li class="tab">(.*?)<div class="label">' '<li class="tab active">$1<div class="label">';
+}

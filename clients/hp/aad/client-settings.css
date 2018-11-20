@@ -135,6 +135,16 @@ footer .reserve .tel .label {
 	float: right;
 }
 
+section.plan_lead,
+.page-course .contents,
+.page-access section.last_section {
+    margin: 180px auto 0;
+}
+
+.page-dining .contents {
+    margin: 180px auto 0;
+}
+
 @media screen and (min-width: 781px) {
 
 	body:not(.home) .gnavi {
@@ -162,6 +172,18 @@ footer .reserve .tel .label {
 }
 
 @media screen and (max-width: 780px) {
+
+	.course .tab_contents_wrap .tab_wrap .tab {
+	    width: 100%;
+	}
+
+	section.plan_lead, .page-course .contents, .page-access section.last_section {
+	    margin: 140px auto 0;
+	}
+
+	.page-dining .contents {
+	    margin: 140px auto 0;
+	}
 
 	#site-translate-header-wrapper p {
 		text-align: left;
@@ -221,23 +243,14 @@ footer .inner.pc_only,
 	display: none;
 }
 
-section.plan_lead,
-.page-course .contents,
-.page-access section.last_section {
-    margin: 180px auto 0;
-}
-
 .reserve .mail a {
 	text-decoration: underline;
 }
 
 .page-course .contents .tab_contents_wrap .tab_wrap .tab:first-child,
-.page-course .contents .tab_contents_wrap .tab_contents .tab_content:first-child {
+.page-course .contents .tab_contents_wrap .tab_contents .tab_content:first-child,
+.page-course .contents section.course #tab2 {
 	display: none;
-}
-
-.page-dining .contents {
-    margin: 180px auto 0;
 }
 
 .page-dining .common_bxslider_wrap,
