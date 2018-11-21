@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>多摩都市モノレール</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>tama-monorail/service a69d24d3b94ebf1e16eb4f673ff2267d16498b4f</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.tama-monorail.co.jp" ssl="true" />
+  </request-list>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

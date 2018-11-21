@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM MECHA";
+}
+@engine tama-monorail/main {
+  eid: CR-JC;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM MECHA";
+}
+@engine tama-monorail/cross {
+  eid: CR-JC;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM MECHA";
+}
+
+body {
+  attribute: lang add 'zh';
+}
