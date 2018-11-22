@@ -59,14 +59,15 @@
 
 .p-box-counter__txt{
 	padding: 6px;
+	font-size: 85%;
 }
 
 .p-box-counter__number{
-	font-size: 14px;
+	font-size: 10.5px;
 }
 
 .p-box-counter__em{
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .k-traverse__item:nth-child(2),
@@ -76,4 +77,13 @@
 	min-width: 250px;
 }
 
-
+.iphone .k-traverse__item:nth-child(2),
+.android .k-traverse__item:nth-child(2),
+.iphone .k-traverse__item--about:nth-child(2),
+.android .k-traverse__item--about:nth-child(2),
+.iphone .k-traverse__item:nth-child(4),
+.android .k-traverse__item:nth-child(4),
+.iphone .k-traverse__item--about:nth-child(4),
+.android .k-traverse__item--about:nth-child(4) {
+    min-width: auto;
+}

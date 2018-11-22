@@ -24,6 +24,8 @@
 	attribute: cltx add 'exclude';
 }
 
+.k-product-img,
+.k-product-img--modal,
 .f-tooltip-close {
 	attribute: cltx add 'exclude';
 }

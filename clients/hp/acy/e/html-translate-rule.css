@@ -17,5 +17,7 @@
 }
 
 @postprocess {
+	replace:'<div class="p-box-counter__number"(.*?)><!--cltx-->Appro<span class="p-box-counter__em">ximately(.*?)</span>(.*?) points</div>' '<div class="p-box-counter__number"$1><!--cltx-->Approximately <span class="p-box-counter__em">$2$3</span> points</div>';
+	replace:'<div class="p-box-counter__number"(.*?)><!--cltx-->Approx<span class="p-box-counter__em">imately(.*?)</span>(.*?) points</div>' '<div class="p-box-counter__number"$1><!--cltx-->Approximately <span class="p-box-counter__em">$2$3</span> points</div>';
 	replace:'<input name="freeword"(.*?)>' '<input name="freeword"$1 placeholder="Search keyword,item No,etc">';
 }
