@@ -1,0 +1,23 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+	.slidemenu .slidemenu-body .slidemenu-content {
+	    margin: 44px 0 0;
+	}
+}

@@ -8,8 +8,8 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.elecom.co.jp" />
-    <request hostname="www2.elecom.co.jp" />
+    <request hostname="www.elecom.co.jp" ssl="true" />
+    <request hostname="www2.elecom.co.jp" ssl="true" />
     <request hostname="search-elecom.dga.jp" />    
   </request-list>
   
