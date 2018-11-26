@@ -9,7 +9,8 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.mitaka.tokyo.jp" />
-    <request hostname="www.cms.mitaka08.sd.serco.co.jp" />    
+    <request hostname="www.cms.mitaka08.sd.serco.co.jp" />
+    <request hostname="www-mitaka18.sd.serco.co.jp" />
   </request-list>
 
   <!-- 使用する設定IDの一覧 -->
@@ -28,7 +29,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://www\.cms\.mitaka08\.sd\.serco\.co\.jp/.*</param-value>
+      <param-value>http://(www\.cms\.mitaka08\.sd\.serco\.co\.jp/.*|www-mitaka18\.sd\.serco\.co\.jp/.*)</param-value>
     </param>
   </resource-handler>
   
@@ -41,5 +42,5 @@
     <!-- サイトで使用される文字セット -->
   <!--charset>Shift_JIS</charset-->
   <charset url="http://www\.city\.mitaka\.tokyo\.jp/c_js/ex\.js">Shift_JIS</charset>
-  <charset url="http://www\.city\.mitaka\.tokyo\.jp/c_js/uaswitch_mitaka\.js">Shift_JIS</charset>  
+  <charset url="http://www\.city\.mitaka\.tokyo\.jp/c_js/uaswitch_mitaka\.js">Shift_JIS</charset>
 </client-settings>

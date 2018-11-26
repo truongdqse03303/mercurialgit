@@ -1,3 +1,0 @@
-@preprocess {
-	replace:'action="https://www2.elecom.co.jp/search/keyword/search.asp"' 'action="http://www2.elecom.co.jp/search/keyword/search.asp"';
-}
