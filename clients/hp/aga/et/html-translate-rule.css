@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-EN.ZH-HANT.JA;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM CAR ELEC";
+}
+@engine furukawa/main {
+  eid: BR-EN.ZH-HANT.JA;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER CAR ELEC";
+}
+@engine furukawa/cross {
+  eid: BR-EN.ZH-HANT.JA;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER CAR ELEC";
+}

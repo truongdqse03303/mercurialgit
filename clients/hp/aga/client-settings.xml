@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>古河テクノリサーチ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>furukawa/service dbbe31a2ea318c903e4bf7417e2d7494123ad475</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.furukawa.co.jp" path="/splicer/en/" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JAID;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine pref-osaka/main {
+  eid: MS-JAID;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine pref-osaka/cross {
+  eid: MS-JAID;
+  dictionaries: "CROSS_TM_MASTER";
+}
