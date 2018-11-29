@@ -1,0 +1,7 @@
+@preprocess {
+	replace:'href="//www.elecom.co.jp(.*?)"' 'href="https://www.elecom.co.jp$1"';
+	replace:'href="http://www.elecom.co.jp(.*?)"' 'href="https://www.elecom.co.jp$1"';
+	replace:'href="//www2.elecom.co.jp(.*?)"' 'href="https://www2.elecom.co.jp$1"';
+	replace:'href="http://www2.elecom.co.jp(.*?)"' 'href="https://www2.elecom.co.jp$1"';
+	replace:'https://search-elecom.dga.jp' 'http://search-elecom.dga.jp';
+}
