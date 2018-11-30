@@ -15,6 +15,9 @@ body {
   attribute: lang add 'zh';
 }
 
+@preprocess {
+	replace: 'UA-29028432-1' 'UA-29028432-4';
+}
 
 // @RULESET
 // URL = http://www.tomorrowland.co.jp/new-index20150929.php

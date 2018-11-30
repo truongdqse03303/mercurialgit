@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
 
+@preprocess {
+	replace: 'UA-29028432-1' 'UA-29028432-5';
+}
+
 // @RULESET
 // URL = http://www.tomorrowland.co.jp/new-index20150929.php
 // URL = http://www.tomorrowland.co.jp/new2015-informationservice/index.html

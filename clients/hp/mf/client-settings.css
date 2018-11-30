@@ -15,6 +15,9 @@
 	text-align: center;
 }
 
+#insta {
+    top: 44px;
+}
 
 @media screen and (max-width: 480px) {
 	.slidemenu .slidemenu-body .slidemenu-content {
