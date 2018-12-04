@@ -87,3 +87,15 @@
 .android .k-traverse__item--about:nth-child(4) {
     min-width: auto;
 }
+
+.iphone .a-btn--info,
+.android .a-btn--info {
+    padding: 2px 20px 5px 5px;
+    font-size: 60%;
+}
+
+.iphone .a-btn--info:before,
+.android .a-btn--info:before {
+    top: 4px;
+    right: 2px;
+}

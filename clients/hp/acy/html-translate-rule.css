@@ -31,6 +31,7 @@
 }
 
 @preprocess {
+	replace:'<a href=(.*?)class="a-link--icon-anchor(.*?)">' '<br style="display:none;"><a href=$1class="a-link--icon-anchor$2">';
 	replace:'UA-11613701-1' 'UA-11613701-12';	/* Googleアナリティクス */
 	replace:'<h1>(.*?)<strong>(.*?)</strong><a(.*?)class="rss">(.*?)</a><span>(.*?)</span></h1>' '<h1>$1<br style="display:none;"><strong>$2</strong><br style="display:none;"><a$3class="rss">$4</a><br style="display:none;"><span>$5</span></h1>';	/* ページタイトル */
 	replace:'<h1>(.*?)<strong>(.*?)</strong><span>(.*?)</span></h1>' '<h1>$1<br style="display:none;"><strong>$2</strong><br style="display:none;"><span>$3</span></h1>';	/* ページタイトル */

@@ -196,3 +196,14 @@ div.auto-translation > .auto-translation_list > li {
 #language.dropmenu {
   attribute: cltx add 'exclude';
 }
+
+
+/* 2018.12.03 */
+.facebook_box,
+.twitter_box {
+  attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+}
