@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="pre1.alpha-create.ne.jp" ssl="true" />
+    <request hostname="pre1.alpha-create.ne.jp" ssl="true" ssl_verifypeer="false" />
   </request-list>
 
 
