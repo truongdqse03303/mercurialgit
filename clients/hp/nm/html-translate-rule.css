@@ -4,7 +4,6 @@
   replace: '(<ul class="sp_gnav clearfix">.*?</li>.*?</li>)(.*?</li>.*?</li>)' '$1<!-- crosslanguage:delete -->$2<!-- /crosslanguage:delete -->';
   replace: '(<div class="top_bnr_area link_area">.*?</div>)' '<!-- crosslanguage:delete -->$1<!-- /crosslanguage:delete -->';
   replace: '(<div class="bnr_box01 clearfix">.*?</div>.*?</div>)' '<!-- crosslanguage:delete -->$1<!-- /crosslanguage:delete -->';
-  replace: '(<ul class="ft_nav clearfix link_area">.*?</ul>.*?</ul>)(.*?</ul>.*?</ul>)(.*?</ul>.*?</ul>)(.*?</ul>.*?</ul>)(.*?</ul>.*?</ul>)' '$1<!-- crosslanguage:delete -->$2<!-- /crosslanguage:delete -->$3<!-- crosslanguage:delete -->$4<!-- /crosslanguage:delete -->$5';
   replace: '(<p class="txt02")>(<img class="img02" src="\.\./common/img/txt_new_member02_02\.gif".*?</span>)' '$1 style="display: inline;">$2</p>$1 style="display: inline;">';
 }
 
