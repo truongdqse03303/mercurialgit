@@ -40,11 +40,6 @@
 	width:5000px;
 }
 
-.kandabody #tpl-header.show,
-.uenobody #tpl-header.show{
-	top:20px;
-}
-
 h2 {
     letter-spacing: normal;
 }
@@ -55,6 +50,11 @@ h2 {
 
 #tpl-header {
 	top: 14px;
+}
+
+.kandabody #tpl-header.show,
+.uenobody.show-header #tpl-header {
+	top:20px;
 }
 
 .sec-reserve:lang(en) .select-hotel {
