@@ -1,3 +1,4 @@
+.hero,
 #dynSearchTest1,
 #dynSearchTest2,
 #dynSearchTest3{
@@ -27,17 +28,21 @@
 // @RULESET
 // URL #= //tosei-hotel\.co\.jp/kanda/.*
 @preprocess{
-	replace:'<section class="section sec-reserve">' '<section class="section sec-reserve kandapage">';
+	replace:'<body(.*?)class="(.*?)"(.*?)>' '<body$1class="$2 kandabody"$3>';
+	replace:'<body>' '<body class="kandabody">';
+	replace:'<section class="section sec-reserve(.*?)">' '<section class="section sec-reserve $1 kandapage">';
 }
 
 // @RULESET
 // URL #= //tosei-hotel\.co\.jp/ueno/.*
 @preprocess{
-	replace:'<section class="section sec-reserve">' '<section class="section sec-reserve uenopage">';
+	replace:'<body(.*?)class="(.*?)"(.*?)>' '<body $1 class="$2 uenobody"$3>';
+	replace:'<body>' '<body class="uenobody">';
+	replace:'<section class="section sec-reserve(.*?)">' '<section class="section sec-reserve $1 uenopage">';
 }
 
 // @RULESET
 // URL #= //tosei-hotel\.co\.jp/
 @preprocess{
-	replace:'<section class="section sec-reserve">' '<section class="section sec-reserve toppage">';
+	replace:'<section class="section sec-reserve(.*?)">' '<section class="section sec-reserve $1 toppage">';
 }

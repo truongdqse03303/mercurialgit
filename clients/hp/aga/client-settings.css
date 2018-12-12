@@ -1,0 +1,12 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
