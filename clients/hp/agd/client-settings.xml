@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="pre1.alpha-create.ne.jp" ssl="true" ssl_verifypeer="false" />
+    <request hostname="106.186.214.114" ssl="true" />
   </request-list>
 
 

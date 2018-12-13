@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="www.city.shibuya.tokyo.jp" />
     <request hostname="bosai.city.shibuya.tokyo.jp" />
+    <request hostname="104.46.234.155" />
   </request-list>
   
   <!-- Basic認証 -->
@@ -21,11 +22,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic c2I6MTEzMA==</param-value>
+      <param-value>Basic c2hpYnV5YWt1OnRnZXNTaGlidXlhVC1TaXRl</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://bosai\.city\.shibuya\.tokyo\.jp/.*</param-value>
+      <param-value>(http|https)://104\.46\.234\.155/.*</param-value>
     </param>
   </resource-handler>
   

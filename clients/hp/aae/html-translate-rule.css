@@ -6,13 +6,12 @@ nav.owa-menu {
  attribute:style add 'margin-top:44px;';
 }
 
-div.whatIs-wrap,
-.cl-notranslate,
 .owa-menu__lang-list {
  attribute:cltx add 'exclude';
 }
 
 @postprocess {
+ replace: '<!--cltx-->\\{\\{genre.name\\}\\}' '\\{\\{genre.name\\}\\}';
  replace: '<!--cltx--><a href="/shizuoka/location' '<a href="/shizuoka/location';
  replace: '<!--cltx--><a href="/omachi-navi/location' '<a href="/omachi-navi/location';
  replace: '<!--cltx--><span v-if="timeline.live"' '<span v-if="timeline.live"';
