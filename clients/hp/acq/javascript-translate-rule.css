@@ -1,5 +1,0 @@
-// @RULESET
-// URL = http://www.jtrip.co.jp/j-okinawa/js/jquery.bxslider.js
-@preprocess {
- replace: 'slider.viewport.css(.*?)', '';
-}
