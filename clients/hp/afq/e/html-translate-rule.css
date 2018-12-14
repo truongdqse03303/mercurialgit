@@ -16,5 +16,5 @@
 }
 
 @preprocess{
-	replace:'トーセイホテルココネ上野【公式サイト】' 'Tosei Hotel COCONE Ueno【official site】';
+	replace:'<title(.*?)>トーセイホテルココネ上野【公式サイト】(.*?)</title>' '<title$1>Tosei Hotel COCONE Ueno【official site】</title>';
 }
