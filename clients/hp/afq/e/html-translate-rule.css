@@ -14,3 +14,7 @@
 @preprocess {
   replace:'UA-105266315-3' 'UA-105266315-4';
 }
+
+@preprocess{
+	replace:'トーセイホテルココネ上野【公式サイト】｜ご予約はお得な公式サイトから！' 'TOSEI HOTEL COCONE UENO［official site］｜As for the reservation, official site of Tosei Hotel COCONE is advantageous.';
+}
