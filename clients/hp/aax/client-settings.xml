@@ -8,10 +8,10 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.nagaipark.com" />
-    <request hostname="www.osaka-sp.jp" />
-    <request hostname="www.mtp-tennis.com" />
-    <request hostname="www.nagai-park.jp" />
+    <request hostname="www.nagaipark.com" ssl="true" />
+    <request hostname="www.osaka-sp.jp" ssl="true" />
+    <request hostname="www.mtp-tennis.com" ssl="true" />
+    <request hostname="www.nagai-park.jp" ssl="true" />
   </request-list>
 
   <!-- サイトで使用される文字セット -->
