@@ -1,0 +1,7 @@
+#header{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<h2 class="title">(.*?)<small>(.*?)</small></h2>' '<h2 class="title">$1<br style="display:none;"><small>$2</small></h2>';
+}
