@@ -5,3 +5,7 @@
 	replace:'href="http://www2.elecom.co.jp(.*?)"' 'href="https://www2.elecom.co.jp$1"';
 	replace:'https://search-elecom.dga.jp' 'http://search-elecom.dga.jp';
 }
+
+.l-header__global-block {
+	attribute: cltx add 'exclude';
+}
