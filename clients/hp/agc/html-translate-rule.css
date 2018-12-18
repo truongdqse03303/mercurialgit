@@ -1,4 +1,5 @@
-#header{
+#header,
+.topSlidesWrap{
 	attribute:cltx add 'exclude';
 }
 
