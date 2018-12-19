@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-  <request hostname="www.rehouse.co.jp" ssl="true">
+  <request hostname="www.rehouse.co.jp" ssl="true" ssl_verifypeer="false">
     <path-list>
         <path value="/bukkenList/.*" />
         <path value="/cityBukkenList/.*" />
