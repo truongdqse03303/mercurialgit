@@ -10,3 +10,23 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+/* ÉÅÉjÉÖÅ[âÊëúç∑Çµë÷Ç¶ */
+@preprocess{
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_01.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_01_on_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_02.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_02_on_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_03.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_03_on_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_04.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_04_on_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_05.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_05_on_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_06.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_06_on_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_07.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_07_on_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_08.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_08_on_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_01.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_01_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_02.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_02_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_03.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_03_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_04.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_04_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_05.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_05_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_06.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_06_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_07.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_07_kor.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_08.png' 'www.kankou-hamada.org/themes/kankou/images/korean/nav_08_kor.png';
+}

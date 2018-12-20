@@ -14,3 +14,23 @@
 body {
   attribute: lang add 'zh';
 }
+
+/* ÉÅÉjÉÖÅ[âÊëúç∑Çµë÷Ç¶ */
+@preprocess{
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_01.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_01_on_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_02.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_02_on_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_03.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_03_on_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_04.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_04_on_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_05.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_05_on_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_06.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_06_on_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_07.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_07_on_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_08.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_08_on_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_01.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_01_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_02.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_02_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_03.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_03_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_04.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_04_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_05.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_05_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_06.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_06_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_07.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_07_sim.png';
+	replace:'www.kankou-hamada.org/themes/kankou/images/nav_08.png' 'www.kankou-hamada.org/themes/kankou/images/simplified/nav_08_sim.png';
+}
