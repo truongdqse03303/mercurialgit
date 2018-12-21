@@ -1,0 +1,60 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+.heading-article {
+    padding: 5px 200px 10px 15px;
+}
+
+.side-search-heading {
+    font-size: 100%;
+}
+
+.company-tx {
+    line-height: 1.3;
+}
+
+.element-news dt {
+    width: auto;
+    margin: 0 3% 0 0;
+}
+
+.contents-main-1column .element-tab-search li {
+    width: auto;
+    padding: 0 2%;
+}
+
+.article-pager .pager-next a {
+    background-position: 60px center;
+}
+
+.article-pager .pager-last a {
+    background-position: 80px center;
+}
+
+.collect-processing {
+    margin: 0;
+}
+
+.contents-article .item-detail-tab-contents .tab li {
+    width: auto;
+}
+
+/*
+@media screen and (max-width: 767px){
+
+	.card {
+		width:45%;
+	}
+
+}
+*/

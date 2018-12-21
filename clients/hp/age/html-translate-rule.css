@@ -1,0 +1,12 @@
+.heading-area,
+.photo-wrap {
+	attribute:cltx add 'exclude';
+}
+
+@preprocess {
+//	replace:'<p class="total-count"><span>(.*?)</span>(.*?)</p>' '<p class="total-count"><span><br style="display:none;">$1<br style="display:none;"></span>$2</p>';
+}
+
+@postprocess {
+	replace:'<p class="tx-heading"(.*?)clftx="(.*?)">(.*?)</p>' '<p class="tx-heading"$1>$3</p>';
+}
