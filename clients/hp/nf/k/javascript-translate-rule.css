@@ -3,3 +3,10 @@
 @preprocess {
   replace: '三鷹市 スタイル' '미타카시 스타일';
 }
+
+// @RULESET
+// URL #= //www.city.mitaka.tokyo.jp/c_js/accordion.js.*
+// URL #= //www-mitaka18.sd.serco.co.jp/c_js/accordion.js.*
+@preprocess {
+	replace: '閉じる' '닫는다';
+}
