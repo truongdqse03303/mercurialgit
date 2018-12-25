@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>山梨県立図書館</name>
-  
+  <name>灘五郷酒造組合</name>
+
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>lib-pref-yamanashi/service cd5bbbfbb9dd6c6277937d47a024173b9afd2dc4</licence>
-  
+  <licence>nadagogo/service e16f64d744759c5e2eeebf9eb18a49050e3eda8b</licence>
+
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.lib.pref.yamanashi.jp" ssl="true" />
-    <request hostname="navi.lib.pref.yamanashi.jp" ssl="true" />
+    <request hostname="www.nadagogo.ne.jp" />
   </request-list>
+
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
   <name>トゥモローランド</name>
@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.tomorrowland.co.jp" />
+    <request hostname="www.tomorrowland.co.jp" ssl="true" />
   </request-list>
 
   <extension-param>
