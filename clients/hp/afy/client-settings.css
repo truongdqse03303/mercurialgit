@@ -20,6 +20,14 @@
 	bottom: 2em;
 }
 
+.my-spot .item .info dl dt {
+    width: 7em;
+}
+
+.my-spot .item .info .type02 dt {
+    width: 7em;
+}
+
 @media screen and (min-width: 769px){
 	.siteHeader__left {
 	    margin-right: 0 !important;
