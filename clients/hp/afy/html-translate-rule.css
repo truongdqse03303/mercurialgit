@@ -1,0 +1,9 @@
+.siteHeader__right__company,
+.navtoggle{
+	attribute: cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<strong>(.*?)</strong>円</div>' '<strong>$1<br /></strong>円</div>';
+	replace:'<span class="tm-color--red">(.*?)</span>円' '<span class="tm-color--red">$1<br style="display:none;"></span>円';
+}

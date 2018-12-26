@@ -1,3 +1,8 @@
+@preprocess {
+	replace: '<p class="store-news-list-img">' '<p class="shop-news-list-img" cltx="exclude">';
+	replace: '<p class="shop-news-list-img">' '<p class="shop-news-list-img" cltx="exclude">';
+}
+
 // @RULESET
 // URL ^= http://www.0101.co.jp/stores/guide/store
 // URL ^= http://www.0101.co.jp/stores/guide/crosslanguage.fragment.translate/

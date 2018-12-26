@@ -1,0 +1,92 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+.tm-card--shopping .tm-card__price{
+	bottom: 2em;
+}
+
+@media screen and (min-width: 769px){
+	.siteHeader__left {
+	    margin-right: 0 !important;
+	}
+
+	.siteHeader__left__nav>ul .submenu a{
+		padding: 1em 10px 1em 1em;
+	}
+
+	.infoArea__realtime{
+		font-size: 1.7rem;
+		margin-right: 50px;
+	}
+
+	.infoArea__realtime__status__index{
+		width: 200px;
+		text-align: left;
+	}
+
+	.infoArea__link{
+		font-size: 1.1rem;
+		width: 30%;
+	}
+
+	.infoArea__link__bottom{
+		margin-top: 0px;
+	}
+
+	.button a{
+		padding: 1em 1em 1em 46px;
+	}
+
+	.button a:before{
+		left: 10px;
+	}
+
+	.stationLinks ul li a{
+		padding: 1em 1em 1em 0.9em;
+	}
+
+	.tm-card--shopping .tm-card__select label span{
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.stationInfoPanels .stationInfoPanel{
+		height: 200px;
+	}
+
+	.tm-guide-mv .tm-guide-mv__ttl>em{
+		font-size: 2em;
+		letter-spacing: .01em;
+	}
+
+	.stationFlow ul li{
+		min-width: 33%;
+	}
+
+	.tm-card--shopping .tm-card__select label span{
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 414px){
+	.section--info .infoTab ul li,
+	.section--info .infoTab ul li[data-label=newsrelease]{
+		width: 33%;
+	}
+}
