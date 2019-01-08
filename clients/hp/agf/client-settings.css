@@ -1,0 +1,16 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+.tcdw_ranking_list_widget .rank {
+	width: auto;
+	height: auto;
+}
+
+.tcdw_ranking_list_widget .info {
+	height: auto;
+}

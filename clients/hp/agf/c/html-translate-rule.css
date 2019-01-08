@@ -18,3 +18,7 @@ body {
 @preprocess{
 	replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
 }
+
+@postprocess{
+	replace:'<span class="cat-category(.*?)" data-href="(.*?)//funfun-tokushima.jp/(.*?)"(.*?)>' '<span class="cat-category$1" data-href="$2//funfun-tokushima.jp.c.agf.hp.transer.com/$3"$4>';
+}
