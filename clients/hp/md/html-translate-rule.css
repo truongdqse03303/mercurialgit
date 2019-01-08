@@ -6,6 +6,12 @@ div.slide_container {
  attribute: clftx add 'exclude';
 }
 
+
+#wrapper > .box{
+ attribute: cltx add 'exclude';
+}
+
+
 @preprocess {
   replace: '<span class="event_floor">(.*?)</span><span class="event_name">(.*?)</span>' '<span class="event_floor">$1</span><br style="display:none;"><span class="event_name">$2</span>';
   replace:'<!-- crosslanguage:show.*?/crosslanguage:show -->' '<p class="mt10"><a href="http://nijajani.com/" target="_blank"><img src="/common/images/store/com_nav_bn02.jpg" alt="" width="209" height="50" /></a></p><p class="mt10"><a href="http://weibo.cn/qr/userinfo?uid=5200185773" target="_blank"><img src="/common/images/store/com_nav_bn03.jpg" alt="" width="209" height="50" /></a></p><p class="mt10"><a href="http://weixin.qq.com/r/tUNkfB7ET0MwrVof9xan" target="_blank"><img src="/common/images/store/com_nav_bn04.jpg" alt="" width="209" height="50" /></a></p><p class="mt10"><a href="https://www.facebook.com/daimarudps" target="_blank"><img src="/common/images/store/com_nav_bn05.jpg" alt="" width="209" height="50" /></a></p>';
