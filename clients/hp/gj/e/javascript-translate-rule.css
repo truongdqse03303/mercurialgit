@@ -1,0 +1,7 @@
+@postprocess{
+	replace:'製品情報' 'Product information';
+	replace:'対応表' 'Compatibility table';
+	replace:'ダウンロード' 'Download';
+	replace:'サポート' 'Support';
+	replace:'ショッピング' 'Shopping';
+}

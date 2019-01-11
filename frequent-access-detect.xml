@@ -5,6 +5,7 @@
   <mode>2</mode>
   <address-list type="allow">
     <address>202\.5\.75\.126</address>
+    <address>150\.249\.196\.5</address>
     <address>133\.83\.4\.31</address>
     <address>210\.128\.213\.242</address>
     <address>10\.33\.90\.113</address>
@@ -14,6 +15,7 @@
     <address>122\.1\.124\.193</address>
     <address>210\.232\.61\.65</address>
     <address>172\.31\.188\.\d{3}</address>
+    <address>106\.186\.214\.114</address>
   </address-list>
   <ignore-pattern>
     .*/crosslanguage\\..+?\\.translate/.*|.+\\.(?:css|js|jsp|jpe?g|gif|png|ico)$

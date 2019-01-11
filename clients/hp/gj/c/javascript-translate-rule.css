@@ -1,0 +1,7 @@
+@postprocess{
+	replace:'製品情報' '产品信息';
+	replace:'対応表' '对应表';
+	replace:'ダウンロード' '下载';
+	replace:'サポート' '支援';
+	replace:'ショッピング' '购物';
+}

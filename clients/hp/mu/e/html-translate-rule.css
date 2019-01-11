@@ -10,3 +10,12 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+@postprocess {
+	replace:'<h3><!--cltx-->We display <span class="num">(.*?)</span>of (.*?)<span class="cont">(.*?) cas</span>es</h3>' '<h3><!--cltx-->We display <span class="num">$1</span> of <span class="cont">$2$3</span> cases</h3>';
+	replace:'<h3><!--cltx-->We display <span class="num">(.*?)</span> of<span class="cont">(.*?) cas</span>es</h3>' '<h3><!--cltx-->We display <span class="num">$1</span> of <span class="cont">$2$3</span> cases</h3>';
+	replace:'<h3><!--cltx-->We display <span class="num">(.*?) of</span>(.*?)<span class="cont">(.*?) cas</span>es</h3>' '<h3><!--cltx-->We display <span class="num">$1</span> of <span class="cont">$2$3</span> cases</h3>';
+	replace:'<h3><!--cltx-->We display <span class="num">(.*?)-</span>(.*?) o<span class="cont">f (.*?) cas</span>es</h3>' '<h3><!--cltx-->We display <span class="num">$1-$2</span> of <span class="cont">$3</span> cases</h3>';
+	replace:'<h3><!--cltx-->We display <span class="num">(.*?)-</span>(.*?) of <span class="cont">(.*?) cas</span>es</h3>' '<h3><!--cltx-->We display <span class="num">$1-$2</span> of <span class="cont">$3</span> cases</h3>';
+	replace:'<h3><!--cltx-->We display <span class="num">(.*?) o</span>f (.*?)<span class="cont">(.*?) cas</span>es</h3>' '<h3><!--cltx-->We display <span class="num">$1</span> of <span class="cont">$2$3</span> cases</h3>';
+}

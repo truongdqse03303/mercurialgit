@@ -1,3 +1,7 @@
+.l-header__main-menu > li {
+	attribute:cltx add 'exclude';
+}
+
 @preprocess {
 	replace:'href="//www.elecom.co.jp(.*?)"' 'href="https://www.elecom.co.jp$1"';
 	replace:'href="http://www.elecom.co.jp(.*?)"' 'href="https://www.elecom.co.jp$1"';

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>江東区観光協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>koto-kanko/service 5a5a805ddc51b46622b02c6d62a8e60d7c18d2b8</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="koto-kanko.jp" ssl="true" ssl_verifypeer="false" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

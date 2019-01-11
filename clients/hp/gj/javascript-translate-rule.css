@@ -1,0 +1,3 @@
+@preprocess {
+	replace:'<li>(.*?)<a(.*?)class="l-header__menu-parent js-global-nav-trigger">' '<li clftx="exclude">$1<a$2class="l-header__menu-parent js-global-nav-trigger">';
+}

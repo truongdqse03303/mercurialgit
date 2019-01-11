@@ -1,0 +1,15 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+.keywordBox h3 {
+	font-size: 1.5rem;
+}
+
+.searchBoxInner .searchBtn button {
+    font-size: inherit;
+}
