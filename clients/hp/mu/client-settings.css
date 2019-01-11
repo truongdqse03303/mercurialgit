@@ -13,3 +13,33 @@
 .searchBoxInner .searchBtn button {
     font-size: inherit;
 }
+
+.notice__tab li:last-child {
+    margin-right: 0;
+    padding: 1% 0.1%;
+    font-size: 90%;
+}
+
+.notice__tab li:first-child strong {
+    font-size: inherit;
+    padding: 1% 2%;
+}
+
+@media screen and (max-width: 768px) {
+
+/*
+	.drawer-hamburger {
+	    top: 44px !important;
+    	z-index: 99999 !important;
+	}
+*/
+
+	.top_main__nav2 .prepare .earthquake ul.flex li, .top_main__nav2 .prepare .other ul.flex li {
+	    width: auto;
+	}
+
+	.top_main__nav2 .prepare .earthquake ul.flex li:nth-child(2n), .top_main__nav2 .prepare .earthquake ul.flex li:nth-child(5), .top_main__nav2 .prepare .earthquake ul.flex li:nth-child(6) {
+	    width: auto;
+	}
+
+}
