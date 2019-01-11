@@ -1,4 +1,4 @@
-@postprocess{
+@preprocess{
 	replace:'製品情報' '产品信息';
 	replace:'対応表' '对应表';
 	replace:'ダウンロード' '下载';
