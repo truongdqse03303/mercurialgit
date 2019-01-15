@@ -23,6 +23,14 @@
     line-height: 1.0;
 }
 
+.aem-Grid.aem-Grid--default--12:lang(en) > .text.aem-GridColumn.aem-GridColumn--default--1 {
+    width: 16%;
+}
+
+.service-list__text .ci-btn-medium > a {
+	width: auto;
+}
+
 @media only screen and (max-width: 767px) {
 
 	.news-list__entry__info {

@@ -5,3 +5,11 @@
 #site-translate-header-wrapper p {
 	letter-spacing: normal;
 }
+
+.aem-Grid.aem-Grid--default--12:lang(en) > .text.aem-GridColumn.aem-GridColumn--default--1 {
+    width: 16%;
+}
+
+.service-list__text .ci-btn-medium > a {
+    width: auto;
+}
