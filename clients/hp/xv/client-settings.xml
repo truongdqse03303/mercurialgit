@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="gracehotel.jp" ssl="true" />
+    <request hostname="gracehotel.jp" ssl="true" ssl_verifypeer="false" />
     <request hostname="www.gracehotel.jp" />
   </request-list>
   
