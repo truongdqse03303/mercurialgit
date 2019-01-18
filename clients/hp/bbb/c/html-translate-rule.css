@@ -17,5 +17,5 @@ body {
 
 @postprocess {
   replace: 'UA-48397272-1' 'UA-48374796-10';
-  replace: "('create', 'UA-.*?', )'miguide.jp'" "$1'miguide.jp.c.bbb.hpcn.transer-cn.com'";
+  replace: "('create', 'UA-.*?', )'miguide.jp'" "$1'miguide.jp.c.bbb.hp.transer.com'";
 }

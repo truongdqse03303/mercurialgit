@@ -16,7 +16,7 @@ body {
 }
 
 @postprocess {
- replace:'<option value="http://www.atre.co.jp/contact' '<option value="http://www.atre.co.jp.c.ww.hpcn.transer-cn.com/contact';
+ replace:'<option value="http://www.atre.co.jp/contact' '<option value="http://www.atre.co.jp.c.ww.hp.transer.com/contact';
 }
 
 @preprocess {
@@ -24,7 +24,7 @@ replace: "'UA-72579279-1'" "'UA-72579279-3'";
 }
 
 @postprocess {
-replace:'data-url="http://www.atre.co.jp/' 'data-url="http://www.atre.co.jp.c.ww.hpcn.transer-cn.com/';
+replace:'data-url="http://www.atre.co.jp/' 'data-url="http://www.atre.co.jp.c.ww.hp.transer.com/';
 }
 
 @postprocess {

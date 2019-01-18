@@ -25,7 +25,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.c.md.hpcn.transer-cn.com/flnews/s/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.c.md.hp.transer.com/flnews/s/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
 }
 
 // @RULESET
@@ -34,7 +34,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.c.md.hpcn.transer-cn.com/flnews/s/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.c.md.hp.transer.com/flnews/s/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
 }
 
 // @RULESET
@@ -43,7 +43,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.c.md.hpcn.transer-cn.com/flnews/s/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.c.md.hp.transer.com/flnews/s/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
 }
 
 // @RULESET
@@ -52,7 +52,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.c.md.hpcn.transer-cn.com/flnews/s/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.c.md.hp.transer.com/flnews/s/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
 }
 
 // @RULESET
@@ -61,7 +61,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.c.md.hpcn.transer-cn.com/flnews/s/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
+  replace: '(<div id="mainContent">)' '$1<p class="aC" cltx="exclude"><a href="https://dmdepart.jp.c.md.hp.transer.com/flnews/s/" target="_blank"><img width="730" height="349" alt="" src="https://dmdepart.jp/fl/images/storemain_pc_c.jpg"></a></p>';
 }
 
 // @RULESET
@@ -70,7 +70,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/shinsaibashi/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.c.md.hpcn.transer-cn.com/flnews/s/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.c.md.hp.transer.com/flnews/s/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -79,7 +79,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/umedamise/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.c.md.hpcn.transer-cn.com/flnews/s/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.c.md.hp.transer.com/flnews/s/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -88,7 +88,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/kyoto/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.c.md.hpcn.transer-cn.com/flnews/s/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.c.md.hp.transer.com/flnews/s/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -97,7 +97,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/kobe/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.c.md.hpcn.transer-cn.com/flnews/s/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.c.md.hp.transer.com/flnews/s/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -106,7 +106,7 @@ body {
 @postprocess {
   replace: '<script type="text/javascript" src="/smp/sapporo/js/galleryImg\.js" charset="UTF-8"></script>' '';
   replace: '<script type="text/javascript" src="/common/js/mainImagesGallery\.js"></script>' '';
-  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.c.md.hpcn.transer-cn.com/flnews/s/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
+  replace: '(<nav class="shopInfoNav">)' '<p class="aC mt15 mb15" cltx="exclude"><a href="https://dmdepart.jp.c.md.hp.transer.com/flnews/s/" target="_blank"><img width="300" alt="" src="https://dmdepart.jp/fl/images/storemain_smp_c.jpg"></a></p>$1';
 }
 
 // @RULESET
@@ -119,7 +119,7 @@ body {
 // @RULESET
 // URL #=//dmdepart.jp/flnews/
 a[href="https://www.matsuzakaya.co.jp/ueno/"] {
-  attribute: href rewrite "https://www.matsuzakaya.co.jp.c.md.hpcn.transer-cn.com/ueno/";
+  attribute: href rewrite "https://www.matsuzakaya.co.jp.c.md.hp.transer.com/ueno/";
 }
 a[href="https://www.matsuzakaya.co.jp/nagoya/inbound/en/"] {
   attribute: href rewrite "https://www.matsuzakaya.co.jp/nagoya/inbound/ch/";

@@ -16,11 +16,11 @@ body {
 }
 
 @postprocess {
- replace:'<option value="http://t-www.atre.co.jp/contact' '<option value="http://t-www.atre.co.jp.c.wl.hpcn.transer-cn.com/contact';
+ replace:'<option value="http://t-www.atre.co.jp/contact' '<option value="http://t-www.atre.co.jp.c.wl.hp.transer.com/contact';
 }
 
 @postprocess {
-replace:'data-url="http://t-www.atre.co.jp/' 'data-url="http://t-www.atre.co.jp.c.wl.hpcn.transer-cn.com/';
+replace:'data-url="http://t-www.atre.co.jp/' 'data-url="http://t-www.atre.co.jp.c.wl.hp.transer.com/';
 }
 
 @postprocess {

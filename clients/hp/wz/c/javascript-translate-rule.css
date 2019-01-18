@@ -1,7 +1,7 @@
 // @RULESET
 // URL =http://www.jrtk.jp/b-1gp/js/header.js
 @postprocess {
-  replace: '<a class="cl-norewrite" href="http://www.jrtk.jp.c.wz.hpcn.transer-cn.com/b-1gp/">日本語</a>' '<a class="cl-norewrite" href="http://www.jrtk.jp/b-1gp/">日本語</a>';
+  replace: '<a class="cl-norewrite" href="http://www.jrtk.jp.c.wz.hp.transer.com/b-1gp/">日本語</a>' '<a class="cl-norewrite" href="http://www.jrtk.jp/b-1gp/">日本語</a>';
   replace: '<a class="cl-norewrite" href="/translation/e/">English</a>' '<a class="cl-norewrite" href="http://www.jrtk.jp/translation/e/">English</a>';  
   replace: '<a class="cl-norewrite" href="/translation/sc/">簡体中文</a>' '<a class="cl-norewrite" href="http://www.jrtk.jp/translation/sc/">簡体中文</a>';
   replace: '<a class="cl-norewrite" href="/translation/tc/">繁体中文</a>' '<a class="cl-norewrite" href="http://www.jrtk.jp/translation/tc/">繁体中文</a>';
@@ -10,9 +10,9 @@
 
 
 // @RULESET
-// URL =http://www.jrtk.jp.c.wz.hpcn.transer-cn.com/b-1gp/js/header.js
+// URL =http://www.jrtk.jp.c.wz.hp.transer.com/b-1gp/js/header.js
 @postprocess {
-  replace: '<a class="cl-norewrite" href="http://www.jrtk.jp.c.wz.hpcn.transer-cn.com/b-1gp/">日本語</a>' '<a class="cl-norewrite" href="http://www.jrtk.jp/b-1gp/">日本語</a>';
+  replace: '<a class="cl-norewrite" href="http://www.jrtk.jp.c.wz.hp.transer.com/b-1gp/">日本語</a>' '<a class="cl-norewrite" href="http://www.jrtk.jp/b-1gp/">日本語</a>';
   replace: '<a class="cl-norewrite" href="/translation/e/">English</a>' '<a class="cl-norewrite" href="http://www.jrtk.jp/translation/e/">English</a>';  
   replace: '<a class="cl-norewrite" href="/translation/sc/">簡体中文</a>' '<a class="cl-norewrite" href="http://www.jrtk.jp/translation/sc/">簡体中文</a>';
   replace: '<a class="cl-norewrite" href="/translation/tc/">繁体中文</a>' '<a class="cl-norewrite" href="http://www.jrtk.jp/translation/tc/">繁体中文</a>';

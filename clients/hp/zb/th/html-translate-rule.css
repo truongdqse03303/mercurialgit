@@ -33,7 +33,7 @@
 @postprocess {
  replace: 'href="http://www.crosslanguage.co.jp./"' 'href="http://www.crosslanguage.co.jp/"';
  replace: 'href="http://www.crosslanguage.co.jp..e.zb.hp.transer.com/"' 'href="http://www.crosslanguage.co.jp.e.zb.hp.transer.com/"';
- replace: 'href="http://www.crosslanguage.co.jp..c.zb.hpcn.transer-cn.com/"' 'href="http://www.crosslanguage.co.jp.c.zb.hpcn.transer-cn.com/"';
+ replace: 'href="http://www.crosslanguage.co.jp..c.zb.hp.transer.com/"' 'href="http://www.crosslanguage.co.jp.c.zb.hp.transer.com/"';
  replace: 'href="http://www.crosslanguage.co.jp..t.zb.hp.transer.com/"' 'href="http://www.crosslanguage.co.jp.t.zb.hp.transer.com/"';
  replace: 'href="http://www.crosslanguage.co.jp..k.zb.hp.transer.com/"' 'href="http://www.crosslanguage.co.jp.k.zb.hp.transer.com/"';
  replace: 'href="http://www.crosslanguage.co.jp..th.zb.hp.transer.com/"' 'href="http://www.crosslanguage.co.jp.th.zb.hp.transer.com/"';

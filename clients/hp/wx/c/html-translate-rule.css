@@ -16,5 +16,5 @@ body {
 }
 
 @postprocess {
- replace:'<option value="http://prov-www.atre.co.jp/contact' '<option value="http://prov-www.atre.co.jp.c.wx.hpcn.transer-cn.com/contact';
+ replace:'<option value="http://prov-www.atre.co.jp/contact' '<option value="http://prov-www.atre.co.jp.c.wx.hp.transer.com/contact';
 }

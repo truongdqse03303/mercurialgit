@@ -1,5 +1,5 @@
 // @RULESET
-// URL =http://t-www.atre.co.jp.c.wl.hpcn.transer-cn.com/common/js_frontend/common.js
+// URL =http://t-www.atre.co.jp.c.wl.hp.transer.com/common/js_frontend/common.js
 @preprocess {
     replace:'開く' '开放';
     replace:'閉じる' '亲密';
