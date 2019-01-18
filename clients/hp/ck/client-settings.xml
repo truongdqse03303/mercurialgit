@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.tv-tokyo.co.jp" />
+    <request hostname="www.tv-tokyo.co.jp" ssl="true" ssl_verifypeer="false" />
     <request hostname="txhd.co.jp" />
     <request hostname="www.txhd.co.jp" />
     <request hostname="iiyado.tv-tokyo.co.jp" />

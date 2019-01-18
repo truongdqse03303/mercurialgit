@@ -1,0 +1,40 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+#siteHeader {
+    top: 0;
+}
+
+#globalNav #mainNav > li {
+    font-size: 65%;
+}
+
+.btnList li {
+     height: auto;
+}
+
+.home .contents h1, #container h1.iconH1 {
+    font-size: 1.5em;
+}
+
+.home #eventList li a b {
+    font-size: 80%;
+}
+
+#sidebar .aside > *, #sidebar .spBox > * {
+    font-size: 90%;
+}
+
+#toggle-sidebar {
+    top: 49px;
+}
+
+#header:lang(en) .widthwrap .fll {
+    height: auto;
+    line-height: 1.2;
+}

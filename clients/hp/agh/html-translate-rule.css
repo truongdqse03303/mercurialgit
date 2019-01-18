@@ -1,0 +1,7 @@
+.twBox{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<div class="detail"><b>(.*?)</b><small>(.*?)</small></div>' '<div class="detail"><b>$1</b><br style="display:none;"><small>$2</small></div>';
+}

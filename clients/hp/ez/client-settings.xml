@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="61.122.228.98" />
-    <request hostname="www.city.nagareyama.chiba.jp" />
+    <request hostname="www.city.nagareyama.chiba.jp" ssl="true" ssl_verifypeer="false" />
   </request-list>
 
   <!-- robots.txtの設定。サイト公開まで -->
