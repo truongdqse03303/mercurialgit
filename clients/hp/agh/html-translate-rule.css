@@ -5,3 +5,9 @@
 @preprocess{
 	replace:'<div class="detail"><b>(.*?)</b><small>(.*?)</small></div>' '<div class="detail"><b>$1</b><br style="display:none;"><small>$2</small></div>';
 }
+
+// @RULESET
+// URL ^= //koto-kanko.jp/topics.*
+@preprocess{
+	replace:'<h1>(.*?)<span>(.*?)</span></h1>' '<h1>$1<br style="display:none;"><span>$2</span></h1>';
+}

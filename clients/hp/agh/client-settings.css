@@ -10,8 +10,16 @@
     top: 0;
 }
 
-#globalNav #mainNav > li {
-    font-size: 65%;
+#globalNav {
+    margin-top: 0;
+}
+
+#globalNav:lang(en) #mainNav > li{
+    font-size: 67%;
+}
+
+#globalNav:lang(ko) #mainNav > li{
+    font-size: 100%;
 }
 
 .btnList li {
