@@ -10,3 +10,8 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER LAW";
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
+}
+

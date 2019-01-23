@@ -10,3 +10,7 @@
   eid: BR-PR-JA.IT.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT LAW";
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage-i:show(.*?)/crosslanguage-i:show -->' '$1';
+}
