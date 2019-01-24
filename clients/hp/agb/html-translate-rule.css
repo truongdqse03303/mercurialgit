@@ -1,3 +1,7 @@
+table.osaka_block{
+	attribute:cltx add 'exclude';
+}
+
 @preprocess {
  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
