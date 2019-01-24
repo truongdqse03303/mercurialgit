@@ -1,3 +1,5 @@
+// @RULESET
+// URL #= //www.tv-tokyo.co.jp/kaisha/.*
 @preprocess {
   replace: 'common/css/base.css' 'en/common/css/base.css';
   replace: 'common/css/reset.css' 'en/common/css/reset.css';
