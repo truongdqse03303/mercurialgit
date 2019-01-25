@@ -1,0 +1,21 @@
+#globalNavi,
+#switchBtnArea {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<span class="youbi">(.*?)</span><span class="score">(.*?)</span><span(.*?)>(.*?)</span>' '<br style="display:none;"><span class="youbi">$1</span><br style="display:none;"><span class="score">$2</span><br style="display:none;"><span$3>$4</span>';	/* トップ 試合 */
+	replace:'<h2 class="topLarge(.*?)">(.*?)<span class="htext">(.*?)</span><span class="hlink">(.*?)</span></a></h2>' '<h2 class="topLarge$1">$2<span class="htext">$3</span><br style="display:none;"><span class="hlink">$4</span></a></h2>';	/* Newsタイトル(PC/SP共通)  */
+	replace:'<p>(.*?)<span class="date">(.*?)</span>(.*?)</a><a(.*?)>(.*?)</a></p>' '<p>$1<br style="display:none;"><span class="date">$2</span><br style="display:none;">$3</a><br style="display:none;"><a$4>$5</a></p>';	/* News */
+	replace:'<h2 class="topLarge">(.*?)<span class="htext">(.*?)</span><span class="hlink">(.*?)</span></a></h2>' '<h2 class="topLarge">$1<span class="htext">$2</span><br style="display:none;"><span class="hlink">$3</span></a></h2>';	/* ショップのオススメグッズ */
+	replace:'<li id="charity">(.*?)<span class="rlImg">(.*?)</span><span class="linkpage">(.*?)</span></a></li>' '<li id="charity">$1<span class="rlImg">$2</span><br style="display:none;"><span class="linkpage">$3</span></a></li>';	/* 右リンク */
+	replace:'<li id="rtravel">(.*?)<span class="rlImg">(.*?)</span><span class="linkpage">(.*?)</span></a></li>' '<li id="rtravel">$1<span class="rlImg">$2</span><br style="display:none;"><span class="linkpage">$3</span></a></li>';	/* 右リンク */
+	replace:'<h2 class="topMiddle">(.*?)<span class="htext">(.*?)</span><span class="hlink">(.*?)</span></a></h2>' '<h2 class="topMiddle">$1<span class="htext">$2</span><br style="display:none;"><span class="hlink">$3</span></a></h2>';	/* スポンサーからのお知らせ */
+	replace:'<li><span class="calicon(.*?)">(.*?)</span>(.*?)</li>' '<li><span class="calicon$1">$2</span><br style="display:none;">$3</li>';	/* カレンダーアイコン */
+	replace:'<h5><span class="notebox1">(.*?)</span>(.*?)</h5>' '<h5><span class="notebox1">$1</span><br style="display:none;">$2</h5>';	/* school/junior/ */
+	replace:'<h5 class="scDetailtit bgCrimson">(.*?)<span(.*?)>(.*?)</span></h5>' '<h5 class="scDetailtit bgCrimson">$1<br style="display:none;"><span$2>$3</span></h5>';	/* school/junior/ */
+	replace:'<dd class="subcell"><span>(.*?)</span>(.*?)</dd>' '<dd class="subcell"><span>$1</span><br style="display:none;">$2</dd>';	/* match/game */
+	replace:'<div class="clubCell"><span class="num">(.*?)</span><span class="pos">(.*?)</span><span class="name">(.*?)</span></div>' '<div class="clubCell"><span class="num">$1</span><br style="display:none;"><span class="pos">$2</span><br style="display:none;"><span class="name">$3</span></div>';	/* match/game */
+	replace:'<div class="dataCell"><span class="countNum">(.*?)</span>(.*?)</div>' '<div class="dataCell"><span class="countNum">$1</span><br style="display:none;">$2</div>';	/* match/game */
+	replace:'<h5 class="bgPink">(.*?)<small class="textRed">(.*?)</small></h5>' '<h5 class="bgPink">$1<br style="display:none;"><small class="textRed">$2</small></h5>';
+}
