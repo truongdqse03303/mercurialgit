@@ -1,0 +1,38 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+	height: 21px;
+}
+
+#site-translate-message{
+	padding: 2px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+/*
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+*/
+
+#fixedsearch,
+#fixedsearch .searchicon {
+    top: 21px;
+}
+
+.about_outline .linker a.btn_type01 {
+    width: auto;
+}
+
+
+
