@@ -43,3 +43,9 @@ div.pagenavi > div.pagenavi-container > div.pagenavi-mask {
 @preprocess{
 	replace:'<span class="staffName">強瀬　栞里</span>' '<br style="display:none;"><span class="staffName">強瀬 <br style="display:none;">栞里</span><br style="display:none;">';
 }
+
+// @RULESET
+// URL #= //www.universalhome.co.jp/modelhouse/okinawa/okinawa/
+@preprocess{
+	replace:'<span class="staffPosition">工務</span><span class="staffName">名嘉 清祐</span>' '<span class="staffPosition">工務</span><br style="display:none;"><span class="staffName">名嘉 清祐</span>';
+}
