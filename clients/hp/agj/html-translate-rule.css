@@ -1,0 +1,27 @@
+.sp_ver > #header,
+.console > .btn_prev,
+.console > .btn_next,
+.photo > .btn,
+#ZVclose,
+.searchList > li,
+.jyouken_list > dl > dd,
+.kodawari_list > dl > dd > ul >li {
+	attribute:clftx add 'exclude';
+}
+
+.box_left {
+	attribute:cltx add 'exclude';
+}
+
+
+@preprocess{
+	replace:'<p class="member"><span class="cnt" id="cnt03"><span class="num"(.*?)>(.*?)</span></span>件</p>' '<p class="member"><span class="cnt" id="cnt03"><span class="num"$1>$2</span></span><br style="display:none;">件</p>';
+	replace:'<td><strong><a href="(.*?)">(.*?)</a></strong>件</td>' '<td><strong><a href="$1">$2</a></strong><br style="display:none;">件</td>';
+}
+
+
+// @RULESET
+// URL #= //www.towa-house.co.jp/sp/.*
+@preprocess{
+	replace:'<body(.*?)>' '<body$1 class="sp_ver">';
+}
