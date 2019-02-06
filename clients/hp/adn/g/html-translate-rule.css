@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-PR-JA.DE.EN;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM GOURMET";
+}
+@engine uminokyoto/main {
+  eid: BR-PR-JA.DE.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM GOURMET";
+}
+@engine uminokyoto/cross {
+  eid: BR-PR-JA.DE.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
+}
