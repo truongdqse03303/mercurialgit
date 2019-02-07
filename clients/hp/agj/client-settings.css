@@ -29,3 +29,20 @@
     font-size: 12px;
     padding: 10px 15px;
 }
+
+/* side */
+.sideContainer[lang|="en"] #SDclubNews dt {
+    width: 80px;
+	line-height: normal;
+}
+
+.sideContainer:lang(en) #SDclubNews dd {
+    width: auto;
+}
+
+/* spec */
+.page_navi .sort1 .page ul {
+    position: relative;
+    float: right;
+    margin: 1% 0 0;
+}

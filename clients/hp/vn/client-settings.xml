@@ -8,9 +8,9 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.perie.co.jp" />
+    <request hostname="www.perie.co.jp" ssl="true" />
     <request hostname="157.71.193.85" />
-    <request hostname="157.71.193.86" />
+    <request hostname="157.71.193.86" ssl="true" />
     <request hostname="perie.stitch.co.jp" />
     <request hostname="www.ekipara.com" />
   </request-list>

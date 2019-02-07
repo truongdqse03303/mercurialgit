@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>栃木県小山市</name>
+  <name>大阪まいしまシーサイドパーク</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>city-oyama/service b79b42241b664cc527a6780b98fc4d2ea2b0d2d0</licence>
+  <licence>seasidepark_maishima/service 00955be2ec9ea44c571199ae1ff3edc4e761dacf</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.oyama.tochigi.jp" ssl="true" ssl_verifypeer="false" />
+    <request hostname="seasidepark.maishima.com" ssl="true" />
   </request-list>
 
 

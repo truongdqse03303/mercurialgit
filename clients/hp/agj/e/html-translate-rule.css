@@ -10,3 +10,17 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT SYSTEM ARCHI BUSINESS";
 }
+
+@postprocess{
+	replace:'ca</a></strong>ses' '</a></strong>cases';
+	replace:'cas</strong>es</dd>' '</a></strong>cases';
+	replace:'ca</strong>ses</dd>' '</strong>cases</dd>';
+	replace:'cas</span></span>es' '</span></span>cases';
+	replace:'cas</a></strong>es</td>' '</a></strong>cases</td>';
+}
+
+// @RULESET
+// URL #= //www.towa-house.co.jp/srch/.*
+@postprocess{
+	replace:'We look for <span>(.*?)</span>(.*?) new single-family houses from area' 'We look for <span>$1$2</span> new single-family houses from area';
+}
