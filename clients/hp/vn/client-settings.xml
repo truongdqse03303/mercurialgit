@@ -10,7 +10,7 @@
   <request-list>
     <request hostname="www.perie.co.jp" ssl="true" />
     <request hostname="157.71.193.85" />
-    <request hostname="157.71.193.86" ssl="true" />
+    <request hostname="157.71.193.86" ssl="true" ssl_verifypeer="false" />
     <request hostname="perie.stitch.co.jp" />
     <request hostname="www.ekipara.com" />
   </request-list>
@@ -38,7 +38,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://(perie\.stitch\.co\.jp|157\.71\.193\.85).*</param-value>
+      <param-value>(https|http)://(perie\.stitch\.co\.jp|157\.71\.193\.85|157\.71\.193\.86).*</param-value>
     </param>
   </resource-handler>
   
