@@ -1,5 +1,5 @@
 // @RULESET
 // URL #= //tosei-hotel.co.jp/kanda/Data/JSON.js.*
-@preprocess {
+@postprocess {
 	replace:'hcod1: "79210"' 'hcod1: "79211"';
 }
