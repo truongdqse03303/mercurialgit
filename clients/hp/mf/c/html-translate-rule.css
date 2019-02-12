@@ -17,6 +17,7 @@ body {
 
 @preprocess {
 	replace: 'UA-29028432-1' 'UA-29028432-4';
+	replace: "('_setDomainName', )'tomorrowland.co.jp'" "$1'www.tomorrowland.co.jp.c.mf.hp.transer.com'";
 }
 
 // @RULESET

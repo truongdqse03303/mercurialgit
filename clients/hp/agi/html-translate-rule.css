@@ -1,0 +1,20 @@
+.fbConts {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace: '<div class="ribbon"(.*?)><span>(.*?)</span>(.*?)</div>' '<div class="ribbon"$1><br style="display:none;"><span>$2</span><br style="display:none;">$3</div>';
+}
+
+// @RULESET
+// URL = https://seasidepark.maishima.com/
+// URL = https://seasidepark.maishima.com/nemophila/
+@preprocess{
+	replace:'<body(.*?)>' '<body $1 id="notfixed_header">';
+}
+
+// @RULESET
+// URL #= https://seasidepark.maishima.com/nemophila/.*
+@preprocess{
+	replace:'<body(.*?)>' '<body $1 id="fixed_header">';
+}
