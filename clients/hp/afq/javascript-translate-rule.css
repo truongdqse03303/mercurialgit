@@ -1,3 +1,11 @@
+// @RULESET
+// URL #= //tosei-hotel.co.jp/kanda/Data/JSON.js.*
 @preprocess {
 	replace:'hcod1: \\"79210\\"' 'hcod1: \\"79211\\"';
+}
+
+// @RULESET
+// URL #= //tosei-hotel.co.jp/ueno/Data/JSON.js.*
+@preprocess {
+	replace:'hcod1: \\"85290\\"' 'hcod1: \\"85291\\"';
 }

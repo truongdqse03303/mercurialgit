@@ -1,8 +1,8 @@
 @preprocess{
-	replace:'<a (.*?) class="foodTab_content_inner_select foodTab_content_inner_category"><span>(.*?)</span></a>' '<a $1 class="foodTab_content_inner_select foodTab_content_inner_category"><span>$2</span><br style="display:none;"></a>';
-	replace:'<a (.*?) class="foodTab_content_inner_select foodTab_content_inner_category (.*?)"><span>(.*?)</span></a>' '<a $1 class="foodTab_content_inner_select foodTab_content_inner_category $2"><span>$3</span><br style="display:none;"></a>';
-	replace:'<a (.*?) class="foodTab_content_inner_select foodTab_content_inner_floor"><span>(.*?)</span></a>' '<a $1 class="foodTab_content_inner_select foodTab_content_inner_floor"><span>$2</span><br style="display:none;"></a>';
-	replace:'<a (.*?) class="foodTab_content_inner_select foodTab_content_inner_floor (.*?)"><span>(.*?)</span></a>' '<a $1 class="foodTab_content_inner_select foodTab_content_inner_floor $2"><span>$3</span><br style="display:none;"></a>';
+	replace:'<a (.*?) class="foodTab_content_inner_select foodTab_content_inner_category" (.*?)><span>(.*?)</span></a>' '<a $1 class="foodTab_content_inner_select foodTab_content_inner_category" $2><span>$3</span><br style="display:none;"></a>';
+	replace:'<a (.*?) class="foodTab_content_inner_select foodTab_content_inner_category (.*?)" (.*?)><span>(.*?)</span></a>' '<a $1 class="foodTab_content_inner_select foodTab_content_inner_category $2" $3><span>$4</span><br style="display:none;"></a>';
+	replace:'<a (.*?) class="foodTab_content_inner_select foodTab_content_inner_floor" (.*?)><span>(.*?)</span></a>' '<a $1 class="foodTab_content_inner_select foodTab_content_inner_floor" $2><span>$3</span><br style="display:none;"></a>';
+	replace:'<a (.*?) class="foodTab_content_inner_select foodTab_content_inner_floor (.*?)" (.*?)><span>(.*?)</span></a>' '<a $1 class="foodTab_content_inner_select foodTab_content_inner_floor $2" $3><span>$4</span><br style="display:none;"></a>';
 }
 
 @postprocess{
