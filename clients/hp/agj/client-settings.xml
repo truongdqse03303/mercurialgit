@@ -10,16 +10,7 @@
   <request-list>
 	<request hostname="www.towa-house.co.jp" ssl="true">
 		<path-list>
-			<path value="/cn/search/.*" />
-			<path value="/cn/list/.*" />
-			<path value="/cn/detail/.*" />
-			<path value="/cn/sp/.*" />
-		</path-list>
-		<path-list resource="true">
-		    <path value="/php-bin/.*" />
-		    <path value="/script/.*" />
-		    <path value="/srch/.*" />
-		    <path value="/bin/.*" />
+			<path value="/cn/\S+" />
 		</path-list>
 	</request>
   </request-list>
