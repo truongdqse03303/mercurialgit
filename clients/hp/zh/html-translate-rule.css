@@ -1,3 +1,11 @@
 footer {
 	attribute: cltx add 'exclude';
 }
+
+// @RULESET
+// URL #= //yamaga-tanbou.jp/sakurayu/.*
+// URL #= //yamaga-tanbou.jp/mingeikan/.*
+// URL #= //yamaga-tanbou.jp/yachiyoza/.*
+@preprocess{
+	replace:'<a href="(.*?)" class="btn btn-pickup-site(.*?)"(.*?)><span>(.*?)</span><span>(.*?)</span></a>' '<a href="$1" class="btn btn-pickup-site$2"$3><br style="display:none;"><span>$4</span><br style="display:none;"><span>$5</span></a>';
+}
