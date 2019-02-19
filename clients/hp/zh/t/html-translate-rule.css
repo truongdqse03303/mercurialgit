@@ -18,5 +18,5 @@
 // @RULESET
 // URL #= //yamaga-tanbou.jp/mingeikan/.*
 @preprocess{
-	replace:'<ruby>鶴田<rp>（</rp><rt>つるた</rt><rp>）</rp>一郎<rp>（</rp><rt>いちろう</rt><rp>）</rp></ruby>' '鹤田（TSURUTA）一郎（ICHIROU）';
+	replace:'<ruby>鶴田<rp>（</rp><rt>つるた</rt><rp>）</rp>一郎<rp>（</rp><rt>いちろう</rt><rp>）</rp></ruby>' '鹤田 一郎（TSURUTA ICHIROU）';
 }
