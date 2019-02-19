@@ -10,3 +10,9 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET ART";
 }
+
+// @RULESET
+// URL #= //yamaga-tanbou.jp/mingeikan/.*
+@preprocess{
+	replace:'<ruby>鶴田<rp>（</rp><rt>つるた</rt><rp>）</rp>一郎<rp>（</rp><rt>いちろう</rt><rp>）</rp></ruby>' 'Ichiro Tsuruta';
+}

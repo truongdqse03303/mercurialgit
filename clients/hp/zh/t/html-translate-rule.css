@@ -14,3 +14,9 @@
 @preprocess {
   replace:'<aside class="foot-content foot-facebook-area">(.*?)<h2 lang="en">Facebook</h2>(.*?)</aside>' '<aside class="foot-content foot-facebook-area"><h2 lang="en">Facebook</h2><div class="fb-page" data-href="https://www.facebook.com/yamagaonnsen/" data-tabs="timeline" data-width="460" data-height="380" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/yamagaonnsen/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/yamagaonnsen/">熊本縣北觀光指南</a></blockquote></div></aside>';
 }
+
+// @RULESET
+// URL #= //yamaga-tanbou.jp/mingeikan/.*
+@preprocess{
+	replace:'<ruby>鶴田<rp>（</rp><rt>つるた</rt><rp>）</rp>一郎<rp>（</rp><rt>いちろう</rt><rp>）</rp></ruby>' '鹤田（TSURUTA）一郎（ICHIROU）';
+}

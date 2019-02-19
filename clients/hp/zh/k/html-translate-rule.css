@@ -10,3 +10,9 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL #= //yamaga-tanbou.jp/mingeikan/.*
+@preprocess{
+	replace:'<ruby>鶴田<rp>（</rp><rt>つるた</rt><rp>）</rp>一郎<rp>（</rp><rt>いちろう</rt><rp>）</rp></ruby>' '쓰루타 이치로';
+}
