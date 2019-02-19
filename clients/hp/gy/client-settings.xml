@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.aichi-med-u.ac.jp" />
+    <request hostname="www.aichi-med-u.ac.jp" ssl="true" />
   </request-list>
 
   <!-- 免責ヘッダーを絶対座標で指定 -->

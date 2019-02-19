@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.inabe.mie.jp" />
+    <request hostname="www.city.inabe.mie.jp" ssl="true" />
     <request hostname="fibox.ficsc.info" path="/inabe/" />
   </request-list>
 
