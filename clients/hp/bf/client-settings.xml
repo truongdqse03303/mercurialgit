@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="www.city.koshi.lg.jp" />
+    <request hostname="www.city.koshi.lg.jp" ssl="true" ssl_verifypeer="false" />
     <request hostname="kosodate.city.koshi.lg.jp" />
     <request hostname="map.kumamoto-net.ne.jp" path="/ictmap/ictmapjs.phtml\?.+" />
   </request-list>

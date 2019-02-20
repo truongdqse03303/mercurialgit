@@ -8,6 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
+    <request hostname="www.iwataya-mitsukoshi.mistore.co.jp" ssl="true" />
     <request hostname="www.iwataya-mitsukoshi.co.jp" />
     <request hostname="www.i.iwataya-mitsukoshi.co.jp" />
     <request hostname="www.m.iwataya-mitsukoshi.co.jp" />
