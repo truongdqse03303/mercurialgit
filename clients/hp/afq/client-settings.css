@@ -4,11 +4,6 @@
 	box-sizing: border-box;
 }
 
-#site-translate-header-wrapper p{
-	font-size:10px;
-	line-height: 12px;
-}
-
 #site-translate-message{
 	display:block;	
 	vertical-align:middle;
@@ -17,7 +12,7 @@
 }
 
 .hero .btn-block {
-	top: 30px;
+	top: 50px;
 }
 
 .kandabody #site-translate-header-wrapper,
@@ -25,6 +20,7 @@
 	width:100% !important;
 	position: fixed;
 	top:0;
+    height: 44px;
 }
 
 .kandabody #site-translate-header-wrapper p,
@@ -38,6 +34,7 @@
 	display:table-cell;
 	vertical-align:middle;
 	width:5000px;
+    height: 38px;
 }
 
 h2 {
@@ -49,12 +46,12 @@ h2 {
 }
 
 #tpl-header {
-	top: 14px;
+	top: 36px;
 }
 
 .kandabody #tpl-header.show,
 .uenobody.show-header #tpl-header {
-	top:20px;
+	top:40px;
 }
 
 .sec-reserve:lang(en) .select-hotel {
