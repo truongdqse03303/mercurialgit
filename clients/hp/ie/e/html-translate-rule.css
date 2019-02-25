@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT";
 }
+
+@preprocess {
+	replace:'<a href="(.*?)/sakura/(.*?)"(.*?)>' '<a href="$1/sakura/$2"$3 class="cl-norewrite">';
+}

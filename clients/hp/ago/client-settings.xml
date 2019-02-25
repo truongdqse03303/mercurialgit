@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>渋谷ヒカリエ　自社テスト用</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>hikarie-test/service a7284866a735bf63123fc5baa708c61b29784086</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.hikarie.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

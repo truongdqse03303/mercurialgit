@@ -1,0 +1,71 @@
+/* この辺は最初に用意してもらったテンプレ */
+#site-translate-header-wrapper{
+	width: 100% !important;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	height: 21px;
+}
+
+#site-translate-message{
+	padding: 2px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+	line-height: 12px;
+}
+/* ここまでテンプレ */
+
+
+/* ヘッダーのボックスが免責に被るので下げる */
+.header {
+	margin-top: 21px;
+}
+
+/* 併せてコンテンツ部分も下げる。もとが 70px なので +21 */
+.topPickupBox02 {
+	margin-top: 91px;
+}
+.contentBoxPost {
+	margin-top: 91px;
+}
+
+/* 画面の幅とズームサイズによってはスライドのテキストが切れるので調整 */
+.heroTitle {
+	font-size: 20px;
+	line-height: 1.0em
+}
+.text14 {
+	line-height: 1.1em
+}
+
+/* スマホ&タブレット用の調整 */
+@media screen and (max-width:736px){
+	/* 折り返し用に広めに幅を取る */
+	#site-translate-header-wrapper{
+		height: 28px;
+	}
+	.header {
+		margin-top: 28px;
+	}
+	/* 元が 46px なので +28 */
+	.topPickupBox02 {
+		margin-top: 74px; 
+	}
+	.contentBoxPost {
+		margin-top: 74px;
+	}
+	/* メニューボタンが免責の下に来るように調整
+	ちょうどヘッダーの中に入るくらい */
+	#menuButton {
+		top: 24px;
+	}
+	/* 縦画面用にカバースライドのテキストレイアウトを調整していたのでコピペ */
+	.heroTitle {
+		font-size: 15px;
+		/* line-height: 1.5em; 行間だけは狭めておく */
+		margin-bottom: 0px;
+		margin-top: 5px;
+	}
+}

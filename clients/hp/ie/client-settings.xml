@@ -8,6 +8,8 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
+    <request hostname="visit-chiyoda.tokyo" ssl="true" />
+    <request hostname="visit-chiyoda.sakura.ne.jp" />
     <request hostname="kanko-chiyoda.jp" />
     <request hostname="www.kanko-chiyoda.jp" />
   </request-list>
