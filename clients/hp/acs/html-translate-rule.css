@@ -4,6 +4,7 @@
 }
 
 @preprocess {
+	replace:'<em class="pcOnly">(.*?)</em><em class="spOnly">(.*?)</em>' '<em class="pcOnly">$1</em><br style="display:none;"><em class="spOnly">$2</em>';
 	replace:'<i class="pcOnly">(.*?)</i><i class="spOnly">(.*?)</i>' '<i class="pcOnly">$1</i><br style="display:none;"><i class="spOnly">$2</i>';
 	replace:'<span class="youbi">(.*?)</span><span class="score">(.*?)</span><span(.*?)>(.*?)</span>' '<br style="display:none;"><span class="youbi">$1</span><br style="display:none;"><span class="score">$2</span><br style="display:none;"><span$3>$4</span>';	/* トップ 試合 */
 	replace:'<h2 class="topLarge(.*?)">(.*?)<span class="htext">(.*?)</span><span class="hlink">(.*?)</span></a></h2>' '<h2 class="topLarge$1">$2<span class="htext">$3</span><br style="display:none;"><span class="hlink">$4</span></a></h2>';	/* Newsタイトル(PC/SP共通)  */
