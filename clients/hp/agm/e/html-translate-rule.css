@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
 }
 
+@preprocess {
+    replace:'UA-128434543-1' 'UA-128434543-2';
+}
+
 @postprocess {
         replace:'data-results-url=\'https://www.hellocal.jp/(.*?)\'' 'data-results-url=\'https://www.hellocal.jp.e.agm.hp.transer.com/$1\'';
         replace:'data-ajax-form-url=\'https://www.hellocal.jp/(.*?)\'' 'data-ajax-form-url=\'https://www.hellocal.jp.e.agm.hp.transer.com/$1\'';
