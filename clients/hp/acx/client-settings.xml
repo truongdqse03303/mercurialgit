@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.town.kutchan.hokkaido.jp" />
+    <request hostname="www.town.kutchan.hokkaido.jp" ssl="true" />
   </request-list>
 
   <extension-param>

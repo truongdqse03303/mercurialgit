@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.cial.co.jp" />
+    <request hostname="www.cial.co.jp" ssl="true" />
     <request hostname="www.ekipara.com" />    
   </request-list>
   
