@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>士別・和寒・剣淵・幌加内着地型観光推進協議会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>slowtrip/service 2324b6d4c018da856ec28b02ee7680fae6ea45e5</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="slowtrip.jp" />
+  </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic c2xvdzp0cmlw</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://slowtrip\.jp/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

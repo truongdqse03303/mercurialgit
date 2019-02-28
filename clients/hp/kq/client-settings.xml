@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.iwataya-mitsukoshi.mistore.co.jp" ssl="true" />
+    <request hostname="www.iwataya-mitsukoshi.mistore.jp" ssl="true" />
     <request hostname="www.iwataya-mitsukoshi.co.jp" />
     <request hostname="www.i.iwataya-mitsukoshi.co.jp" />
     <request hostname="www.m.iwataya-mitsukoshi.co.jp" />
@@ -28,10 +28,27 @@
     <priority>4</priority>
     <terminal>true</terminal>
   </resource-handler>
-  
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic bGFudGFuYTptaTIwMTg=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://www\.iwataya-mitsukoshi\.mistore\.jp/.*</param-value>
+    </param>
+  </resource-handler>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
   
   <!-- サイトで使用される文字セット -->
-  <charset>shift_jis</charset>
+  <!-- charset>shift_jis</charset -->
 </client-settings>
