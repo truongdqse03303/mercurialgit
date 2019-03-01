@@ -8,9 +8,9 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.cial.improve-inc.biz" ssl="true" />
+    <request hostname="cial.improve-inc.biz" ssl="true" ssl_verifypeer="false" />
     <request hostname="www.cial.co.jp" ssl="true" />
-    <request hostname="www.ekipara.com" />    
+    <request hostname="www.ekipara.com" />
   </request-list>
   
     <!-- 免責ヘッダーを絶対座標で指定 -->
