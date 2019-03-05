@@ -9,8 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="cial.improve-inc.biz" ssl="true" ssl_verifypeer="false" />
-    <request hostname="www.cial.co.jp" ssl="true" />
-    <request hostname="www.ekipara.com" />
+    <request hostname="www.cial.co.jp" ssl="true" ssl_verifypeer="false" />
   </request-list>
 
   <!-- Basic認証 -->
