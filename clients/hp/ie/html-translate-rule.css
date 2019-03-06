@@ -1,3 +1,4 @@
-@preprocess {
+@preprocess{
+  replace:'<h3 class="head_ttl min"><span class="en">(.*?)<br class="sn">(.*?)</span>(.*?)<b>' '<h3 class="head_ttl min"><span class="en">$1<br class="sn">$2</span><br style="display:none;">$3<br style="display:none;"><b>';
   replace: '<body(.*?)>(.+)</body>' '<body$1><div id="clwrapper">$2</div></body>';
 }
