@@ -1,0 +1,43 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 101;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+#headerWrap {
+    top: 44px;
+}
+
+#contents {
+    margin-top: 194px;
+}
+
+.topslides-slider-left, .topslides-slider-right {
+    top: 448px;
+}
+
+@media screen and (max-width: 767px) {
+
+	#contents {
+	    margin-top: 124px;
+	}
+
+	#header .spMenuBox {
+	    top: 124px;
+	}
+}

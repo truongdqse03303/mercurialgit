@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="burari-tambaji.com" />
+    <request hostname="www.burari-tambaji.com" />
   </request-list>
 
   <extension-param>
@@ -29,7 +29,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https)://burari-tambaji\.com/.*</param-value>
+      <param-value>(http|https)://www\.burari-tambaji\.com/.*</param-value>
     </param>
   </resource-handler>
 
