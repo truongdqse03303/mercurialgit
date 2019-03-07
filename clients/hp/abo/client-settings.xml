@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.towers.jp" />
+    <request hostname="www.towers.jp" ssl="true" />
     <request hostname="sta.towers.hosting.jtis.co.jp" />
   </request-list>
 

@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.pref.gunma.jp" />
+    <request hostname="www.pref.gunma.jp" ssl="true" />
     <request hostname="61.208.22.197" />
     <request hostname="111.87.89.75" />
   </request-list>

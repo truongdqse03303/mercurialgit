@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.jiyugaoka-abc.com" />
+    <request hostname="www.jiyugaoka-abc.com" ssl="true" />
   </request-list>
   
   <!-- Basic認証 -->
