@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>豊島区観光協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kanko-toshima/service bc29a4f9563fe3315b28aaab1b5f10da9ed5ab40</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kanko-toshima.jp" ssl="true" />
+    <request hostname="mitte-x-pre.istsw.jp" path="/kanko-toshima/preview/" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
