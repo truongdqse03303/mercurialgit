@@ -7,3 +7,9 @@
   eid: CR-JE;
   dictionaries: "NOMI_DIC_MASTER NOMI_TM_MASTER GOVT TOURISM";
 }
+
+// @RULESET
+// URL #= //www.city.nomi.ishikawa.jp/senryaku/180425_2.html
+@preprocess {
+	replace:'<span>したいこと、</span><ruby><span>能美市</span><rp><span>\\(</span></rp><rt><span>のみし</span></rt><rp><span>\\)</span></rp></ruby><span>だったら叶うかも</span>' 'Make It Happen in Nomi City';
+}
