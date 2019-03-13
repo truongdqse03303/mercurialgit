@@ -1,3 +1,5 @@
+.search_03 > .child-menu > ul > li,
+.floor-num,
 .scroll {
 	attribute: cltx add 'exclude';
 }

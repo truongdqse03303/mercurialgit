@@ -13,8 +13,8 @@
   </request-list>
 
   <extension-param>
-    <param-name>site.translate.header.style</param-name>
-    <param-value>style: #site-translate-header-wrapper{width:auto!important;border: dotted 2px #FF0000;} #site-translate-header-wrapper p{box-sizing: border-box;padding: 10px;color: red;font-weight: bold;} body:lang(en) {word-break: normal;} .storeList ul li p {padding:0 5%;} .shopInfo .clm dl dt {width: auto; margin: 0 2% 0 0;} @media screen and (max-width: 767px) { #site-translate-header-wrapper p {font-size: 80%;} .headerLogo h1 {font-size: 9px !important;} .drawerNav { top: 124px !important; } .footerNav .footerClm { max-width: 95% !important; } .footerLink ul li:lang(en){ font-size: 95%; }}</param-value>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->
