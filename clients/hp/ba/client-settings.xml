@@ -8,6 +8,7 @@
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
+    <request hostname="maruiimai.mistore.jp" ssl="true" />
     <request hostname="www.marui-imai.jp" />
   </request-list>
 

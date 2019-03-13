@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.pref.yamanashi.jp" />
+    <request hostname="www.pref.yamanashi.jp" ssl="true" />
     <request hostname="pub.nohin.pref-yamanashi2017.cms8341.com" />
   </request-list>
 

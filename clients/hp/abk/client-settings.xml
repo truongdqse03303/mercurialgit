@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.minamishimabara.lg.jp" />
+    <request hostname="www.city.minamishimabara.lg.jp" ssl="true" />
   </request-list>
 
   <extension-param>
