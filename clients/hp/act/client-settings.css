@@ -52,6 +52,11 @@ body:lang(en) {
 	    width: auto;
 	}
 
+	.footer__nav li {
+	    width: 23%;
+	    margin: 0 1% 0 0;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
