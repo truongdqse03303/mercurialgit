@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>山梨県庁（テスト環境）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>test-pref-yamanashi/service 1c06159f945622e2ab094ce903d0ba2baa317c1b</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.pref.yamanashi.jp" />
+    <request hostname="pub.nohin.pref-yamanashi2017.cms8341.com" />
+  </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic bm9oaW4tcHJlZi15YW1hbmFzaGkyMDE3OjghPD1iI3Vz</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://pub\.nohin\.pref-yamanashi2017\.cms8341\.com.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>v,id</param-value>
+  </extension-param>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
