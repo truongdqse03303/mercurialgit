@@ -12,6 +12,23 @@
     <request hostname="www.marui-imai.jp" />
   </request-list>
 
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic bGFudGFuYTptaTIwMTg=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://www\.maruiimai\.mistore\.jp.*</param-value>
+    </param>
+  </resource-handler>
+
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
   

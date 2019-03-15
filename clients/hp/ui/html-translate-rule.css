@@ -1,3 +1,7 @@
 ul#archive_list{
 attribute: cltx add "exclude";
 }
+
+@preprocess{
+	replace:'<span class="cat">(.*?)</span>' '<br style="display:none;"><span class="cat">$1</span>';
+}

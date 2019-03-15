@@ -1,4 +1,10 @@
 // @RULESET
+// URL #= //www.hikarie.jp/scripts/cafe_restaurant.js
+@preprocess {
+  replace: "shop_info\.shop_item \\+ '</span>'" "shop_info\.shop_item \\+ '</span><br style=\"display:none;\">'";
+}
+
+// @RULESET
 // URL =http://www.hikarie.jp/scripts/shopping.js
 @preprocess {
   replace: "(\\('a.btn-more'\\)).on" "$1.live";
