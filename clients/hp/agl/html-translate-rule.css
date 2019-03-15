@@ -1,0 +1,12 @@
+.mainVisualComponent{
+	attribute:cltx add 'exclude';
+}
+
+.TheaterListInner > ul > li,
+.layoutPackage{
+	attribute:clftx add 'exclude';
+}
+
+@preprocess{
+	replace:'<h1><span>(.*?)</span><span>(.*?)</span></h1>' '<h1><span>$1</span><br style="display:none;"><span>$2</span></h1>';
+}

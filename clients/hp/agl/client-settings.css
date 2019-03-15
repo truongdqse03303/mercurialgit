@@ -1,0 +1,130 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+
+body#Company #RnContents.Lower {
+    padding-top: 188px;
+}
+
+#RnContents {
+    padding-top: 136px;
+}
+
+#Index #RnContents {
+    padding-top: 0;
+}
+
+
+#RnIndexHeader, #RnHeader {
+    top: 44px;
+}
+
+#Index #RnIndexHeader, #Index #RnHeader {
+     top: 44px;
+}
+
+#RnHeader .RnHeaderInner {
+    margin: 10px auto;
+}
+
+#RnIndexHeader li.NavList:nth-child(2) {
+    padding-right: 380px;
+}
+
+.RnIndexKv .RnIndexKvCopy {
+    left: 65%;
+    width: 620px;
+}
+
+
+@media (min-width: 901px) {
+
+	#RnHeader .RnHeaderInner h1 {
+	    padding-top: 0;
+	}
+
+	#RnHeader.RnHeaderFixed {
+	    top: 44px;
+	}
+
+	#RnHeader .RnHeaderInner nav .NavList {
+	    padding: 20px 0 0;
+	}
+
+	#Index #RnHeader .RnHeaderInner nav .NavList {
+	    padding: 0;
+	}
+
+	#RnHeader .RnHeaderInner nav .NavList .NavToggleService,
+	#RnHeader .RnHeaderInner nav .NavList .NavToggleCom{
+	    top: 134px;
+	}
+
+	.NavBtnActive #RnHeader .RnHeaderInner nav .NavList .NavToggleService,
+	.NavBtnActive #RnHeader .RnHeaderInner nav .NavList .NavToggleCom,
+	#Index #RnHeader .RnHeaderInner nav .NavList .NavToggleService,
+	#Index #RnHeader .RnHeaderInner nav .NavList .NavToggleCom{
+	    top: 109px;
+	}
+
+	#RnHeader .RnHeaderInner nav .NavList .NavBtn::after,
+	#RnHeader .RnHeaderInner nav .NavList .NavNoBtn::after {
+	    bottom: 4px;
+	}
+
+	#Index #RnHeader .RnHeaderInner nav .NavList .NavBtn::after,
+	#Index #RnHeader .RnHeaderInner nav .NavList .NavNoBtn::after {
+	    bottom: 13px;
+	}
+
+	#RnHeader .RnHeaderInner nav .NavList .NavBtn.NavBtnActive::after,
+ 	#RnHeader .RnHeaderInner nav .NavList .NavNoBtn.NavBtnActive::after {
+	    bottom: -3px;
+	}
+
+	#Index #RnHeader .RnHeaderInner nav .NavList .NavBtn.NavBtnActive::after, 
+	#Index #RnHeader .RnHeaderInner nav .NavList .NavNoBtn.NavBtnActive::after {
+	    bottom: 5px;
+	}
+
+	#RnHeader .RnHeaderAside {
+	    top: 0;
+	}
+
+}
+
+@media (max-width: 900px) {
+
+	#RnHeader {
+	    top: 44px;
+	}
+
+	.RnIndexKv .RnIndexKvCopy {
+	    left: 0;
+	    width: auto;
+	}
+
+	#RnHeader .RnHeaderInner {
+	    margin: 0;
+	}
+
+	#RnContents {
+	    padding-top: 0;
+	}
+}
