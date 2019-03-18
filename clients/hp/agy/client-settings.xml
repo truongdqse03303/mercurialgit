@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>丹波市（Saturday TAMBA）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>saturdaytamba/service b09decb142e1d7bb8e3ca8a8065ed22cb93535fa</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="saturdaytamba.com" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
