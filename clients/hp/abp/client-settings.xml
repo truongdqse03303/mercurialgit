@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.bigbang-osaka.or.jp" />
+    <request hostname="www.bigbang-osaka.or.jp" ssl="true" ssl_verifypeer="false" />
     <request hostname="bigbang-osaka.or.jp" />
   </request-list>
 

@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.harborland.co.jp" />
+    <request hostname="www.harborland.co.jp" ssl="true" ssl_verifypeer="false" />
     <request hostname="www.promenakobe.com" />
   </request-list>
 
