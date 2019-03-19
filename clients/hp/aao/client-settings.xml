@@ -9,7 +9,6 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.pref.yamanashi.jp" ssl="true" />
-    <request hostname="pub.nohin.pref-yamanashi2017.cms8341.com" />
   </request-list>
 
   <!-- コンテンツキャッシュ使用有無の設定-->
@@ -20,23 +19,6 @@
    <param-name>mst.logo.show</param-name>
    <param-value>id,v</param-value>
   </extension-param>
-
-  <!-- Basic認証 -->
-  <resource-handler>
-    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
-    <param>
-      <param-name>header.name.auth</param-name>
-      <param-value>Authorization</param-value>
-    </param>
-    <param>
-      <param-name>header.value.auth</param-name>
-      <param-value>Basic bm9oaW4tcHJlZi15YW1hbmFzaGkyMDE3OjghPD1iI3Vz</param-value>
-    </param>
-    <param>
-      <param-name>header.applied.auth</param-name>
-      <param-value>http://pub\.nohin\.pref-yamanashi2017\.cms8341\.com/.*</param-value>
-    </param>
-  </resource-handler>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

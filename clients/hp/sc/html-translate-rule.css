@@ -1,3 +1,14 @@
+#store-top-rote,
+.event-list-img,
+.language-rote-list__item{
+	attribute: cltx add "exclude";
+}
+
+@preprocess {
+	replace: '<p class="store-news-list-img(.*?)"(.*?)>' '<p class="store-news-list-img$1" cltx="exclude"$2>';
+	replace: '<p class="shop-news-list-img(.*?)"(.*?)>' '<p class="shop-news-list-img$1" cltx="exclude"$2>';
+}
+
 // @RULESET
 // URL ^= http://0101.ejworks.com/stores/guide/store
 // URL ^= http://0101.ejworks.com/stores/guide/crosslanguage.fragment.translate/
