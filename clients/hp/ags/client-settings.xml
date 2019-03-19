@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>風間浦村役場</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kazamaura/service 493296a4a9b530840c4dd5dc84a932ae3079ab7f</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kazamaura.jp" ssl="true" />
+    <request hostname="sica.co.jp" path="/kazamaura" />
+  </request-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
