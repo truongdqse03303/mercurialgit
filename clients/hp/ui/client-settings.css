@@ -46,6 +46,10 @@ dl.generic dt {
     width: 120px;
 }
 
+dl.generic dd {
+    padding: 0.7em 0 0.7em 120px;
+}
+
 .bread_nav div.pankuzu {
 	display: inline;
     font-size: 10px;
