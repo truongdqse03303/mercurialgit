@@ -5,3 +5,16 @@ attribute: cltx add "exclude";
 @preprocess{
 	replace:'<span class="cat">(.*?)</span>' '<br style="display:none;"><span class="cat">$1</span>';
 }
+
+@preprocess{
+	replace:'<div class="bread_nav">(.*?)<p><a href="/" title="TOP">TOP</a> / <a href="/cafe_restaurant/">(.*?)</a> / <span class="shop_name"></span></p>(.*?)</div>' '<div class="bread_nav">$1<div class="pankuzu"><a href="/" title="TOP">TOP</a> / <a href="/cafe_restaurant/">$2</a> / <br style="display:none;"><span class="shop_name"></span></div>$3</div>';
+
+}
+
+// @RULESET
+// URL #= //www.hikarie.jp/sp/.*
+// URL #= //www.hikarie.jp.e.ui.hp.transer.com/sp/.*
+@preprocess{
+	replace:'<body (.*?) class="(.*?)" (.*?)>' '<body $1 class="$2 sp_transer" $3>';
+	replace:'<body>' '<body class="sp_transer">';
+}

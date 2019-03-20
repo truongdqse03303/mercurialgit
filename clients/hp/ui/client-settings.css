@@ -1,0 +1,56 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: normal;
+}
+
+body#normal {
+    padding: 44px 0 0 !important;
+}
+
+.gblheader {
+    top: 44px;
+}
+
+.sp_transer #site-translate-header-wrapper {
+	width: auto !important;
+	position: relative;
+}
+
+.sp_transer #site-translate-message{
+	display: block;
+    height: auto;
+    width: auto;
+}
+
+.sp_transer #site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: normal;
+}
+
+dl.generic dt {
+    width: 120px;
+}
+
+.bread_nav div.pankuzu {
+	display: inline;
+    font-size: 10px;
+}
+
+.bread_nav div.pankuzu a {
+    text-decoration: underline;
+}

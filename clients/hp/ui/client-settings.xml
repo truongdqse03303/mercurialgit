@@ -40,6 +40,11 @@
     <param-value>style:#site-translate-header-wrapper{position:absolute;z-index:100000;opacity:0.9 !important;}</param-value>
   </extension-param>
 
+  <extension-param>
+	  <param-name>site.translate.header.style</param-name>
+	  <param-value>client-settings.css</param-value>
+  </extension-param>
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>

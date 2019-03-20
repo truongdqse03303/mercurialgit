@@ -12,4 +12,11 @@ li>span>a{
 
 @preprocess {
     replace: 'index\.html' '';
-    }
+}
+
+// @RULESET
+// URL #= //www.city.yokohama.lg.jp/
+// URL #= //attention-test-naibukoukai-u7zhzrnw.city.yokohama.lg.jp/
+@preprocess {
+	replace:'<span class="g-sub">(.*?)</span>' '<br style="display:none;"><span class="g-sub">$1</span><br style="display:none;">';
+}
