@@ -12,6 +12,7 @@
 }
 
 @postprocess {
+	replace: 'LaLaport IWATo' 'LaLaport IWATA';
 	replace: '10h00' '10\\:00';
 	replace: '11h00' '11\\:00';
 	replace: '21h00' '21\\:00';
