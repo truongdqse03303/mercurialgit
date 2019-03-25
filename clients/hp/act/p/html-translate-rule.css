@@ -17,6 +17,7 @@
 	replace: '11h00' '11\\:00';
 	replace: '21h00' '21\\:00';
 	replace: '22h00' '22\\:00';
+	replace: 'De 10\\:00 a 22\\:00' '10\\:00 – 22\\:00';
 	replace: '<a href="(.*?)?kana=あ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=あ"><strong class="child-menu__link"><span>a</span></strong></a>';
 	replace: '<a href="(.*?)?kana=か"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=か"><strong class="child-menu__link"><span>ka</span></strong></a>';
 	replace: '<a href="(.*?)?kana=さ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=さ"><strong class="child-menu__link"><span>sa</span></strong></a>';

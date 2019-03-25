@@ -10,7 +10,8 @@
 	font-weight: bold;
 }
 
-body:lang(en) {
+body:lang(en),
+body:lang(pt){
 	word-break: normal;
 }
 
