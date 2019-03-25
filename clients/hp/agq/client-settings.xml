@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.kanko-toshima.jp" ssl="true" />
+    <request hostname="www.kanko-toshima.jp" ssl="true" ssl_verifypeer="false" />
     <request hostname="mitte-x-pre.istsw.jp" path="/kanko-toshima/preview/" />
   </request-list>
 
