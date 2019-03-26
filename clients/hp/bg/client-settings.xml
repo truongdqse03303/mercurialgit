@@ -8,6 +8,6 @@
   
   <!-- クライアントが使用できるドメインの一覧 -->
   <request-list>
-    <request hostname="www.city.nomi.ishikawa.jp" />
+    <request hostname="www.city.nomi.ishikawa.jp" ssl="true" />
   </request-list>
 </client-settings>
