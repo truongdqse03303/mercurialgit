@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>鹿児島県大島郡知名町</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>town-china/service c155a51d2d8680dfb293ae9ea404ab05f5d4e343</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.china.lg.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
