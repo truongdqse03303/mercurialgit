@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="asahikawanishi-aeonmall.com" />
-    <request hostname="odaka-aeonmall.com" />
+    <request hostname="odaka-aeonmall.com" ssl="true" />
     <request hostname="kyotokatsuragawa-aeonmall.com" />
     <request hostname="kofushowa-aeonmall.com" />
     <request hostname="higashiura-aeonmall.com" />

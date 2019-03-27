@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.funabashi.chiba.jp" />
-    <request hostname="www.city.funabashi.lg.jp" />
+    <request hostname="www.city.funabashi.lg.jp" ssl="true" />
   </request-list>
   
   <!-- サイトで使用される文字セット（任意） -->
