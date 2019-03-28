@@ -53,6 +53,14 @@
 	padding: 54px 15px;
 }
 
+.TIES .left-bar>ul {
+    margin: 44px auto 0;
+}
+
+.TIES .left-bar>ul>li {
+    font-size: 95% !important;
+}
+
 @media (max-width: 767px) {
 
 	.info-showcase ul.showcase-tab li,

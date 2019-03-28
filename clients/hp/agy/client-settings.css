@@ -1,0 +1,19 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+@media screen and (max-width: 767px) {
+	.nav-toggle {
+	    top: 52px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.nav-toggle {
+	    top: 68px;
+	}
+}
