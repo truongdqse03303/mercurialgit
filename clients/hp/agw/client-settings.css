@@ -1,0 +1,35 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+.topmenu li {
+    font-size: 90%;
+    line-height: normal;
+    height: 50px;
+}
+
+#headertop {
+	height: auto;
+}
+
+#headertop h1 {
+	height: auto;
+}
+
+.btn {
+    top: 1px;
+}

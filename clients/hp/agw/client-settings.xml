@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>リュウム（京都民泊ポータルサイト）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>minpakuportal-kyoto/service 26e7b71dc24493005125d6979325b0cbf23a94e8</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="minpakuportal.city.kyoto.lg.jp" ssl="true" />
+    <request hostname="red-francium2347.znlc.jp" />
+  </request-list>
+
+  <extension-param>
+	<param-name>site.translate.header.style</param-name>
+	<param-value>client-settings.css</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
