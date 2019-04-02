@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.kazamaura.jp" ssl="true" />
+    <request hostname="www.kazamaura.jp" ssl="true" ssl_verifypeer="false" />
     <request hostname="sica.co.jp" path="/kazamaura" />
   </request-list>
 
