@@ -1,3 +1,7 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+}
+
 #top #contents #home-nav #picup-link .item a {
     font-size: 2vw;
     letter-spacing: normal;
