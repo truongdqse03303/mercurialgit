@@ -52,6 +52,9 @@ body#Company #RnContents.Lower {
     width: 620px;
 }
 
+.ServicePoint .ServicePointCopy div, .ServicePointReverse .ServicePointCopy div {
+    text-align: left;
+}
 
 @media (min-width: 901px) {
 

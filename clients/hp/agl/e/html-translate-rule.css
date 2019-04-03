@@ -10,3 +10,15 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM AGRI MEDICAL";
 }
+
+@preprocess{
+	replace:'<span class="NavBtnLine">サービス案内</span>' '<span class="NavBtnLine">SERVICE</span>';
+	replace:'<span class="NavBtnServiceSp">サービス案内</span>' '<span class="NavBtnServiceSp">SERVICE</span>';
+	replace:'<span class="NavBtnLine">キングランスピリット</span>' '<span class="NavBtnLine">KINGRUN SPIRIT</span>';
+	replace:'<div class="NavBtn"><a href="/spirit/">キングランスピリット</a></div>' '<div class="NavBtn"><a href="/spirit/">KINGRUN SPIRIT</a></div>';
+	replace:'<a href="/company/" class="NavBtnComPc">会社情報</a>' '<a href="/company/" class="NavBtnComPc">COMPANY INFORMATION</a>';
+	replace:'<span class="NavBtnComSp">会社情報</span>' '<span class="NavBtnComSp">COMPANY INFORMATION</span>';
+	replace:'<span class="NavBtnLine">会社情報</span>' '<span class="NavBtnLine">COMPANY INFORMATION</span>';
+	replace:'<div class="NavBtn"><a href="/recruit/"(.*?)>採用情報</a></div>' '<div class="NavBtn"><a href="/recruit/"$1>RECRUIT</a></div>';
+	replace:'<span class="NavBtnLine">採用情報</span>' '<span class="NavBtnLine">RECRUIT</span>';
+}
