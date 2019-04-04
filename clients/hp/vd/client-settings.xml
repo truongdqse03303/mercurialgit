@@ -26,7 +26,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://(asahikawanishi-aeonmall|odaka-aeonmall|kyotokatsuragawa-aeonmall|kofushowa-aeonmall|higashiura-aeonmall|suzuka-aeonmall|tsurumiryokuchi-aeonmall|osakadomecity-aeonmall|wakayama-aeonmall|kochi-aeonmall).(com|jp)/(json_api/.*|theme/RenewalPage/templates.html)</param-value>
+      <param-value>(http|https)://(asahikawanishi-aeonmall|odaka-aeonmall|kyotokatsuragawa-aeonmall|kofushowa-aeonmall|higashiura-aeonmall|suzuka-aeonmall|tsurumiryokuchi-aeonmall|osakadomecity-aeonmall|wakayama-aeonmall|kochi-aeonmall).(com|jp)/(json_api/.*|theme/RenewalPage/templates.html)</param-value>
      </param>
     <param>
       <param-name>resource.type.name</param-name>
