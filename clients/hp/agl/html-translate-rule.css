@@ -8,7 +8,9 @@
 }
 
 @preprocess{
-	replace:'<!-- crosslanguage:delete --><br><!-- /crosslanguage:delete -->' '';
+	replace:'<a href="/catalogs/" (.*?) class="flexComponent">(.*?)</a>' '<a href="/catalogs_eng/#page1" $1 class="flexComponent cl-norewrite">$2</a>';
+	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+	replace:'<!-- crosslanguage:delete --><br(.*?)><!-- /crosslanguage:delete -->' '';
 	replace:'<span class="NavBtnComSp">(.*?)</span><a (.*?) class="NavBtnComPc">(.*?)</a>' '<span class="NavBtnComSp">$1</span><br style="display:none;"><a $2 class="NavBtnComPc">$3</a>';
 	replace:'<h1><span>(.*?)</span><span>(.*?)</span></h1>' '<h1><span>$1</span><br style="display:none;"><span>$2</span></h1>';
 }

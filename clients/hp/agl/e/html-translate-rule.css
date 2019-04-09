@@ -12,6 +12,7 @@
 }
 
 @preprocess{
+	replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
 	replace:'<span class="NavBtnLine">サービス案内</span>' '<span class="NavBtnLine">SERVICE</span>';
 	replace:'<span class="NavBtnServiceSp">サービス案内</span>' '<span class="NavBtnServiceSp">SERVICE</span>';
 	replace:'<span class="NavBtnLine">キングランスピリット</span>' '<span class="NavBtnLine">KINGRUN SPIRIT</span>';
