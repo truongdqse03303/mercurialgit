@@ -1,1 +1,63 @@
-#site-translate-header-wrapper{width:100% !important;height:44px;position: fixed;top:0;z-index: 999;} #site-translate-header-wrapper p{font-size:10px;line-height: 12px;} #site-translate-message{display:table-cell;height:44px;vertical-align:middle;width:5000px;} #mobile-top {margin: 44px auto 0;} .TIES .left-bar {top: 88px;} .we-page-top, .page-home-item { margin: 44px auto 0;} .TIES .page-active .content-container .category-actions .category-expand, .TIES .page-active .content-container .category-actions .category-shrink{width: auto;} .D6 .we-page .we-content .we-title {padding-top: 60px;} .TIES .page-entry .we-content-title, .TIES .page-entrylist .we-content-title, .TIES .page-contact .we-content-title {top: 119px;} .D5 .page-entry .content-container>li>.block-item.photo-list, .D5 .page-event .content-container>li>.block-item.photo-list {padding-top: 109px;}.block-item {padding: 54px 15px;} @media (max-width: 767px) {.info-showcase ul.showcase-tab li, .TIES .page-tablist ul.content-tab>li{font-size: 40%;}}
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+	z-index: 999;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+#mobile-top {
+	margin: 44px auto 0;
+}
+
+.TIES .left-bar {
+	top: 88px;
+}
+
+.we-page-top, .page-home-item {
+	margin: 44px auto 0;
+}
+
+.TIES .page-active .content-container .category-actions .category-expand, .TIES .page-active .content-container .category-actions .category-shrink{
+	width: auto;
+}
+
+.D6 .we-page .we-content .we-title {
+	padding-top: 60px;
+}
+
+.TIES .page-entry .we-content-title, .TIES .page-entrylist .we-content-title, .TIES .page-contact .we-content-title {
+	top: 119px;
+}
+
+.D5 .page-entry .content-container>li>.block-item.photo-list, .D5 .page-event .content-container>li>.block-item.photo-list {
+	padding-top: 109px;
+}
+
+.block-item {
+	padding: 54px 15px;
+}
+
+.TIES .left-bar.shrinked {
+    top: 88px;
+}
+
+@media (max-width: 767px) {
+	
+	.info-showcase ul.showcase-tab li, .TIES .page-tablist ul.content-tab>li{
+		font-size: 40%;
+	}
+
+}

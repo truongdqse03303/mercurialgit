@@ -1,0 +1,73 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+#header {
+    top: 44px;
+}
+
+#navi {
+    top: 134px;
+}
+
+#topicPath {
+    margin-top: 174px;
+}
+
+.hTel {
+    margin: 5px 0;
+}
+
+.keyvNew .owl-theme {
+    top: 44px;
+}
+
+#pageHome .sideList {
+    top: 214px;
+}
+
+.pageSchool #description {
+    margin: 15px 0 0 7px;
+}
+
+.buttonBlock .buttonList li {
+    float: none;
+    width: 32%;
+    display: inline-block;
+	vertical-align: top;
+}
+
+.buttonBlock:lang(en) .btnFirst a span {
+    font-size: 77%;
+}
+
+.buttonBlock:lang(id) .btnFirst a span {
+    font-size: 110%;
+}
+
+@media screen and (max-width: 736px) {
+
+	#topicPath {
+	    margin-top: 99px;
+	}
+
+	.buttonBlock .buttonList li {
+	    width: 100%;
+	}
+
+}

@@ -57,6 +57,10 @@
 	padding: 54px 15px;
 }
 
+.TIES .left-bar.shrinked {
+    top: 88px;
+}
+
 @media (max-width: 767px) {
 
 	.info-showcase ul.showcase-tab li,
