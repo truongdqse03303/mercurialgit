@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="ocw.cc.sophia.ac.jp" />
+    <request hostname="ocw.cc.sophia.ac.jp" ssl="true" />
   </request-list>
 
   <!-- クライアントより指定のヘッダーを送信 -->

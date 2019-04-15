@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.cenova.jp" />
+    <request hostname="www.cenova.jp" ssl="true" />
     <request hostname="o2o.samurai-ar.info" />
     <request hostname="cenova-stg.samurai-ar.info" />
   </request-list>

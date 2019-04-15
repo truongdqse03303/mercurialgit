@@ -11,11 +11,11 @@
     <request hostname="asahikawanishi-aeonmall.com" />
     <request hostname="odaka-aeonmall.com" ssl="true" />
     <request hostname="kyotokatsuragawa-aeonmall.com" />
-    <request hostname="kofushowa-aeonmall.com" />
+    <request hostname="kofushowa-aeonmall.com" ssl="true" />
     <request hostname="higashiura-aeonmall.com" />
     <request hostname="suzuka-aeonmall.com" />
-    <request hostname="tsurumiryokuchi-aeonmall.com" />
-    <request hostname="osakadomecity-aeonmall.com" />
+    <request hostname="tsurumiryokuchi-aeonmall.com" ssl="true" />
+    <request hostname="osakadomecity-aeonmall.com" ssl="true" />
     <request hostname="wakayama-aeonmall.com" />
     <request hostname="kochi-aeonmall.com" />
   </request-list>
