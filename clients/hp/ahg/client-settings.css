@@ -1,0 +1,29 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+@media only screen and (min-width: 1025px) {
+
+	.ul1_footer,
+	.ul2_footer,
+	.ul3_footer,
+	.ul4_footer {
+	    margin: 0 30px 0 0;
+	}
+
+}

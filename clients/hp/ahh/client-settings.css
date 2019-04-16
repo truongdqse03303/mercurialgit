@@ -1,0 +1,70 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+
+/*根室交通、阿寒バスの下のボタンのサイズ調整*/
+.access_bus_cont_btn a {
+    width: auto;
+}
+/*アクセス上右上のボタンのサイズ調整*/
+#header_sub {
+    width: 340px;
+}
+/*Car for hire下の会社名サイズ調整*/
+.access_higher_table01 table {
+    font-size: 0.15rem;
+}
+/*スマホ、タブレット各種調整*/
+@media screen and (max-width: 767px) {
+.SP_navi nav {
+    top: 1.19rem;
+}
+.footer_logo {
+    padding-top: 0.7rem;
+}
+#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;}
+
+
+/*根室中標津空港ロゴのマージン位置調整*/
+	header {
+    	top: 44px;
+}
+
+/*根室中標津空港へようこそテキスト左寄せ、幅調整*/
+#top_main_copy {
+    	text-align: left;
+    	width: 70%;
+	}
+}
+/*天気予報のロゴを修正*/
+#topGadgetWether {
+    top: 0.542rem;
+}
+/*アクセスページに遷移後、ヘッダーのボタン一覧が写真に埋もれてしまうのを修正*/
+.inner_box {
+    padding-bottom: 0.46rem;
+}
+/*Timetableが重なるのを修正*/
+.inner_box h2 {
+    margin-top: 0.4rem;
+}
+/*ライブカメラの文字「現在の中標津空港のサイズ」調整*/
+.inner_box h2 strong.both_border {
+    font-size: 0.16rem;
+}
