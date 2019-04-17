@@ -10,3 +10,7 @@
   eid: MS-JAVI;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess {
+    replace: '<body(.*?)>' '<body$1 lang="vi">';
+}
