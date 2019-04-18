@@ -11,6 +11,12 @@ nav.owa-menu {
  attribute:cltx add 'exclude';
 }
 
+.owp-site-desc,
+.owp-footer-address__text,
+.owa-footer-address__text {
+ attribute:clftx add 'exclude';
+}
+
 @postprocess {
  replace: '<li>(.*?)<!--cltx--><a href="(.*?)/location/(.*?)">' '<li>$1<a href="$2/location/$3">';
  replace: '<!--cltx-->\\{\\{genre.name\\}\\}' '\\{\\{genre.name\\}\\}';
