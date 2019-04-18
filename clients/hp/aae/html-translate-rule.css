@@ -13,7 +13,12 @@ nav.owa-menu {
 
 .owp-site-desc,
 .owp-footer-address__text,
-.owa-footer-address__text {
+.owa-footer-address__text,
+.owa-main-menu-list > li,
+.owa-menu__btn-list-a > li,
+.owa-menu__btn-list-b > li,
+.owa-main > .text-center,
+.el-inner > .el-h {
  attribute:clftx add 'exclude';
 }
 
