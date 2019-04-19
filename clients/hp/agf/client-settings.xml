@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="funfun-tokushima.jp" ssl="true" ssl_verifypeer="false" />
+    <request hostname="funfun-tokushima.jp" ssl="true" />
   </request-list>
 
   <extension-param>
