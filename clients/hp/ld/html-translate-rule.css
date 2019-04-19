@@ -7,3 +7,9 @@
 span {
   text-flow: break;
 }
+
+// @RULESET
+// URL #= //www.sogo-seibu.jp/foreign/
+@preprocess{
+	replace:'<span>Tax Refund Counter</span>' '<span>Tax Refund Counter</span><br style="display:none;">';
+}
