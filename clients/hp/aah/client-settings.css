@@ -1,0 +1,40 @@
+#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;}
+
+
+@media screen and (min-width: 768px) {
+
+	 .col-md-3 {
+	  width: 90%;
+	 }
+	/*オンライン予約幅調整*/
+	.col-md-3 {
+	    width: 35%;
+	}
+	/*おすすめプラン幅調整*/
+	.col-md-9 {
+	    width: 65%;
+	}
+
+}
+
+.navbar-fixed-top {
+    top: 44px;
+}
+.header-fixed .header .navbar-nav > li > a {
+    font-size: 14px;
+}
+:lang(id) .header-fixed .header .navbar-nav > li > a {
+    font-size: 12px;
+}
+:lang(vi) .header-fixed .header .navbar-nav > li > a {
+    font-size: 11px;
+}
+/*スマホ、タブレット各種調整*/
+@media screen and (max-width: 767px) {
+.col-md-3 {
+    width: 90%;
+}
+.btn-u {
+    font-size: 11px;
+}
+}

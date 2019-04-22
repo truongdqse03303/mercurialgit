@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
   <name>ホテル金波（鷲羽ハイランドホテル）</name>
@@ -10,6 +10,7 @@
   <request-list>
     <request hostname="hailand.co.jp" />
     <request hostname="www.hailand.co.jp" />
+    <request hostname="www.kasago.jp" />
   </request-list>
 
   <!-- Microsoft Translatorロゴを表示する設定ID -->
@@ -20,7 +21,7 @@
 
   <extension-param>
     <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto !important;}</param-value>
+    <param-value>client-settings.css</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->
