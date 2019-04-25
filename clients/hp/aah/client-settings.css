@@ -1,40 +1,89 @@
-#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;}
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+}
 
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
 
-@media screen and (min-width: 768px) {
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
 
-	 .col-md-3 {
-	  width: 90%;
-	 }
-	/*オンライン予約幅調整*/
-	.col-md-3 {
-	    width: 35%;
-	}
-	/*おすすめプラン幅調整*/
-	.col-md-9 {
-	    width: 65%;
-	}
+.tp-banner-container {
+   margin: 88px auto 0;
+}
 
+#lang_select_sm {
+    margin-top: 20px;
 }
 
 .navbar-fixed-top {
     top: 44px;
 }
+
+.catch_img p span.ls10 {
+	letter-spacing: normal;
+}
+
+#subpage .catch_img {
+    padding-top: 168px;
+}
+
 .header-fixed .header .navbar-nav > li > a {
     font-size: 14px;
 }
+
 :lang(id) .header-fixed .header .navbar-nav > li > a {
     font-size: 12px;
 }
+
 :lang(vi) .header-fixed .header .navbar-nav > li > a {
     font-size: 11px;
 }
+
+#reservation-button {
+   top: 124px;
+}
+
+.btn_contact_side {
+   top: 244px;
+}
+
+.btn_contact_mail {
+   top: 294px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+	/*オンライン予約幅調整*/
+	#top-information .col-md-3 {
+	    width: 35%;
+	}
+	/*おすすめプラン幅調整*/
+	#top-information .col-md-9 {
+	    width: 65%;
+	}
+
+}
+
 /*スマホ、タブレット各種調整*/
 @media screen and (max-width: 767px) {
-.col-md-3 {
-    width: 90%;
-}
-.btn-u {
-    font-size: 11px;
-}
+
+	#top-information .col-md-3 {
+	    width: 90%;
+	}
+
+	.btn-u {
+	    font-size: 11px;
+	}
+
 }
