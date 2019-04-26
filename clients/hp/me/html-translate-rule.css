@@ -11,6 +11,13 @@ div#galleryContents li, div#galleryThumbnail li, div#slideshow li,div#headerFore
   replace: "'UA-19142011-1'" "'UA-56621341-1'";
 }
 
+/* 免責非表示 */
+// @RULESET
+// URL #= //www\.matsuzakaya\.co\.jp/(nagoya|toyota|ueno|shizuoka|takatsuki)/app/menu\.html
+@preprocess {
+  replace: '<html (.*?)>' '<html $1 class="display_none">';
+}
+
 // @RULESET
 // URL #=//www\.matsuzakaya\.co\.jp/(|smp/)takatsuki/(|index\.html)
 @preprocess {

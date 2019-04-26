@@ -1,0 +1,7 @@
+#site-translate-header-wrapper{
+	width:auto !important;
+}
+
+.display_none #site-translate-header-wrapper {
+	display: none;
+}
