@@ -1,0 +1,76 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+#hmMain p {
+    font-size: 70%;
+}
+
+.troubleshooting > ul li a span {
+    font-size: 51%;
+}
+
+
+#signature .fsMax {
+    font-size: 160%;
+}
+
+.troubleshooting > ul li.Is5,
+.troubleshooting > ul li.Is6,
+.troubleshooting > ul li.Is7,
+.troubleshooting > ul li.Is8,
+.troubleshooting > ul li.Is9,
+.troubleshooting > ul li.Is10 {
+	width: 30%;
+    font-size: 60%;
+}
+
+.topBox ul.sub {
+    margin: 1em;
+}
+
+.about > dl {
+    font-size: 85%;
+}
+
+.troubleshooting:lang(id) > ul li {
+    margin: 0 0 12px 7px;
+}
+
+.about > ul {
+    width: 100%;
+}
+
+.about > ul li {
+    width: 28%;
+    float: none;
+    font-size: 80%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#site-translate-mst:lang(vi),
+#site-translate-mst:lang(id) {
+    margin: 370px auto 0 !important;
+    width: 100% !important;
+    max-width: 960px;
+}
+
+#copyright > p {
+    font-size: 90%;
+}

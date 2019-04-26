@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine city-shobara-hiroshima/main {
+  eid: MS-JAVI;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine city-shobara-hiroshima/cross {
+  eid: MS-JAVI;
+  dictionaries: "CROSS_TM_MASTER";
+}

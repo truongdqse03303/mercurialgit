@@ -1,0 +1,15 @@
+#wrapper,
+#topBanner{
+	attribute:cltx add 'exclude';
+}
+
+#header > p,
+.textresizer > li,
+#xp1 > div > div{
+	attribute:clftx add 'exclude';
+}
+
+@preprocess{
+	replace:'<span>外部サイトへリンクします。</span>' '<br style="display:none;"><span>外部サイトへリンクします。</span>';
+	replace:'<span>各広告媒体への広告を募集しております。</span>' '<br style="display:none;"><span>各広告媒体への広告を募集しております。</span>';
+}

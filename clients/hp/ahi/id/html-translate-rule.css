@@ -1,0 +1,12 @@
+@engine default {
+  eid: MS-JAID;
+  dictionaries: "CLIENT_TM CROSS_TM";
+}
+@engine city-shobara-hiroshima/main {
+  eid: MS-JAID;
+  dictionaries: "CLIENT_TM_MASTER";
+}
+@engine city-shobara-hiroshima/cross {
+  eid: MS-JAID;
+  dictionaries: "CROSS_TM_MASTER";
+}
