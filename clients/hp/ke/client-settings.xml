@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.shinagawa.tokyo.jp" />
+    <request hostname="www.city.shinagawa.tokyo.jp" ssl="true" />
   </request-list>
 
   <!-- 免責事項をフッターに表示 -->

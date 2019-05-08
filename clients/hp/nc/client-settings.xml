@@ -8,8 +8,8 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.chuo-kanko.or.jp" />
-    <request hostname="tokuhain.chuo-kanko.or.jp" />
+    <request hostname="www.chuo-kanko.or.jp" ssl="true" />
+    <request hostname="tokuhain.chuo-kanko.or.jp" ssl="true" />
     <request hostname="chuo-kanko.or.jp" />
   </request-list>
   

@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
 
+@preprocess {
+	replace: 'UA-106973307-1' 'UA-106973307-6';
+}
+
 @postprocess {
 	replace: 'LaLaport IWATo' 'LaLaport IWATA';
 	replace: '10h00' '10\\:00';
