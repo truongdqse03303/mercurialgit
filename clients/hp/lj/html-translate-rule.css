@@ -32,7 +32,6 @@ replace:'<div style="border:1px solid #F00;background-color:#FEE;color:#F00;padd
         replace:'<link rel="stylesheet" href="../tool/css/reset.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/reset.css" type="text/css" />';
         replace:'<link rel="stylesheet" href="../tool/css/base.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/base.css" type="text/css" />';
         replace:'<link rel="stylesheet" href="../tool/css/grid-12.css" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/css/grid-12.css" type="text/css" />';
-        replace:'<script type="text/javascript" src="../tool/js/ga.js">' '<script type="text/javascript" src="//www.biccamera.co.jp/tool/js/ga.js">';
         replace:'<script type="text/javascript" src="../tool/jquery.js">' '<script type="text/javascript" src="//www.biccamera.co.jp/tool/jquery.js">';
         replace:'<link rel="stylesheet" href="../tool/header/css/head-hv.css?20171203" type="text/css" />' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head-hv.css?20171203" type="text/css" />';
         replace:'<link rel="stylesheet" href="../tool/header/css/head.css" type="text/css">' '<link rel="stylesheet" href="//www.biccamera.co.jp/tool/header/css/head.css" type="text/css">';
