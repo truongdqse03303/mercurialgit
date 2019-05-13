@@ -20,3 +20,35 @@
 header {
     top: 44px;
 }
+:lang(en) body {
+    font-size: 1.73em;
+}
+:lang(fr) body {
+    font-size: 1.57em;
+}
+main#home section#route .timetable {
+    margin-right: -120px;
+    margin-left: -120px;
+}
+
+main#home div#jumbotron .slick-slider .slick-list .init.slick-slide > p img {
+   top: 50%;
+}
+
+@media screen and (min-width: 1200px) {
+
+    main#home div#jumbotron {
+        height: 662px;
+    }
+
+    main#home div#jumbotron .slick-slider {
+        top: 44px;
+    }
+
+}
+:lang(en) main#home section#guide .intro .intro-wrap-kids .ttl img {
+    top: -66px;
+}
+:lang(fr) main#home section#guide .intro .intro-wrap-kids .ttl img {
+    top: -80px;
+}
