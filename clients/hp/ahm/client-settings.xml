@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>稲城市観光協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>inagi-kanko/service fecd2d8220b47ed286097c95ceadfa56f7675bbd</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="inagi-kanko.jp" />
+    <request hostname="mitte-x-pre.istsw.jp" path="/inagi-kanko/preview/" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

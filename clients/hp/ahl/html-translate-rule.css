@@ -1,0 +1,8 @@
+.main-visual,
+.sub-category{
+	attribute:cltx add 'exclude';
+}
+
+@preprocess {
+	replace: '<h2 class="general-footer_title">(.*?)<span class="general-footer_title_sub">(.*?)</span></h2>' '<h2 class="general-footer_title">$1<br style="display:none;"><span class="general-footer_title_sub">$2</span></h2>';
+}

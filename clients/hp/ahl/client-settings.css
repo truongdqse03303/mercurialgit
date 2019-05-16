@@ -1,0 +1,41 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+.sub-category {
+	padding: 0;
+}
+
+.sub-category_list > li {
+    margin: 10px 5px 0 0;
+}
+
+.blog-list-ttl.type02 .popup {
+    top: -122px;
+}
+
+.store-footer .shop-detail {
+    padding-left: 0;
+}
+
+@media screen and (max-width: 736px) {
+
+	.sub-category_list > li {
+	    width: 23.3%;
+	}
+
+}
