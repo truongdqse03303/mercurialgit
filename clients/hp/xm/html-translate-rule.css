@@ -5,3 +5,7 @@ div.parts_page_nation {
 div.big {
   attribute: style add 'font-size: 25px;';
 }
+
+@preprocess {
+	replace:'<a class="opentext">(.*?)</a><a class="closetext">(.*?)</a>' '<a class="opentext">$1</a><br style="display:none;"><a class="closetext">$2</a>';
+}
