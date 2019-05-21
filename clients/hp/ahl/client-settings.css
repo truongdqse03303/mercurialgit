@@ -16,6 +16,10 @@
 	text-align: center;
 }
 
+.shop-detail_list:lang(en) > li > a {
+    font-size: 85%;
+}
+
 .sub-category {
 	padding: 0;
 }

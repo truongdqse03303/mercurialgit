@@ -11,6 +11,11 @@
     <request hostname="ocw.cc.sophia.ac.jp" ssl="true" ssl_verifypeer="false" />
   </request-list>
 
+  <extension-param>
+	  <param-name>site.translate.header.style</param-name>
+	  <param-value>client-settings.css</param-value>
+  </extension-param>
+
   <!-- クライアントより指定のヘッダーを送信 -->
   <resource-handler>
     <type name="xtranslation">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
