@@ -1,0 +1,77 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+.row-header {
+    padding-top: 54px;
+    padding-bottom: 10px;
+}
+
+.menu ul {
+    top: 123px;
+}
+
+:lang(en) .menu ul li a {
+    font-size: 11px;
+}
+
+:lang(en) .row_info01_sign_name {
+    font-size: 20px;
+}
+
+:lang(en) .title_style .text_jp {
+    font-size: 16px;
+}
+
+:lang(en) .row_banner_txt {
+    font-size: 14px;
+    width: 430px;
+}
+
+:lang(ko) .row_banner_txt {
+    font-size: 24px;
+}
+
+:lang(en) .re-table tr td:first-child {
+    width: 230px;
+}
+
+:lang(en) .menu-ft ul li a {
+    font-size: 11px;
+}
+
+:lang(en) .bu-table-text {
+    font-size: 16px;
+}
+
+:lang(en) .bu-table-text2 {
+    font-size: 15px;
+}
+
+.bu-left {
+	width: 55%;
+}
+
+.bu-right {
+	width: 45%;
+	padding-left: 30px;
+}
+
+.bu-ul li {
+    font-size: 15px;
+}
