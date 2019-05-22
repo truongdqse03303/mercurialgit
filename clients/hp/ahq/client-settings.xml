@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>南伊豆町観光協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>minami-izu/service 8b9bf26407c6251edce6a86936e281c4e570a94c</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.minami-izu.jp" ssl="true" />
+    <request hostname="mitte-x-pre.istsw.jp" path="/minamiizu-kankou/preview/" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
