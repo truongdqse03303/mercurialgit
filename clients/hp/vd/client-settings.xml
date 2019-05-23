@@ -10,13 +10,13 @@
   <request-list>
     <request hostname="asahikawanishi-aeonmall.com" />
     <request hostname="odaka-aeonmall.com" ssl="true" />
-    <request hostname="kyotokatsuragawa-aeonmall.com" />
+    <request hostname="kyotokatsuragawa-aeonmall.com" ssl="true" />
     <request hostname="kofushowa-aeonmall.com" ssl="true" />
-    <request hostname="higashiura-aeonmall.com" />
+    <request hostname="higashiura-aeonmall.com" ssl="true" />
     <request hostname="suzuka-aeonmall.com" />
     <request hostname="tsurumiryokuchi-aeonmall.com" ssl="true" />
     <request hostname="osakadomecity-aeonmall.com" ssl="true" />
-    <request hostname="wakayama-aeonmall.com" />
+    <request hostname="wakayama-aeonmall.com" ssl="true" />
     <request hostname="kochi-aeonmall.com" />
   </request-list>
   
