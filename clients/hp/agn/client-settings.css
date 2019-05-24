@@ -71,3 +71,33 @@
 	}
 
 }
+/*追加*/
+#navi {
+    width: 96%;
+}
+.hRight {
+	margin-right: -40px;
+}
+
+#navi .naviExtra .naviList li{
+	margin: 0 20px 0 0;
+}
+
+#navi .naviExtra .naviList li:last-child {
+    margin: 0;
+}
+#navi > ul > li > a {
+    color: #333;
+    font-size: 10px;
+}
+.pageSchool #description {
+    font-size: 11px;
+}
+.hTel {
+    font-size: 13px;
+}
+
+#naviGuidelines .naviExtra .naviList li:last-child ul li.first {
+	height: 0;
+    padding: 0;
+}

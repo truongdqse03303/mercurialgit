@@ -1,3 +1,21 @@
 .twitterF {
 	attribute: cltx add 'exclude';
 }
+
+@preprocess {
+	replace:'<i class="fa fa-bell-o"></i>(.*?)</span>' '<i class="fa fa-bell-o"></i>$1</span><br style="display:none;">';
+	replace:'<h2 class="headline4 firstPoint">(.*?)<span>(.*?)</span></h2>' '<h2 class="headline4 firstPoint">$1<br style="display:none;"><span>$2</span></h2>';
+	replace:'<h4 class="headline13">(.*?)<span>(.*?)</span></h4>' '<h4 class="headline13">$1<br style="display:none;"><span>$2</span></h4>';
+	replace:'<span class="pcDisplay">(.*?)</span><span class="spDisplay">(.*?)</span>' '<span class="pcDisplay">$1</span><br style="display:none;"><span class="spDisplay">$2</span>';
+	replace:'<a href="(.*?)" class="mb10">(.*?)<span><i class="fa fa-angle-right"></i></span></a>' '<a href="$1" class="mb10">$2<br style="display:none;"><span><i class="fa fa-angle-right"></i></span></a>';
+	replace:'<a href="(.*?)" class="mr20 mb10">(.*?)<span><i class="fa fa-angle-right"></i></span></a>' '<a href="$1" class="mr20 mb10">$2<br style="display:none;"><span><i class="fa fa-angle-right"></i></span></a>';
+	replace:'<p class="hTel pcDisplay">(.*?)<span>(.*?)</span></p>' '<p class="hTel pcDisplay">$1<br style="display:none;"><span>$2</span></p>';
+	replace:'<a href="/toho/support/" class=""><span>(.*?)／(.*?)</span></a>' '<a href="/toho/support/" class=""><span>$1／$2</span><br style="display:none;"></a>';
+}
+
+// @RULESET
+// URL #= //www.tohogakuen.ac.jp/visitor/parent/
+@preprocess{
+	replace:'<p class="text"><em class="p1">(.*?)</em>(.*?)</p>' '<p class="text"><em class="p1">$1</em><br style="display:none;">$2</p>';
+	replace:'<p class="text"><em class="p2">(.*?)</em>(.*?)</p>' '<p class="text"><em class="p2">$1</em><br style="display:none;">$2</p>';
+}
