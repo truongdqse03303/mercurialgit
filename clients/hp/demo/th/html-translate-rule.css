@@ -1,3 +1,4 @@
+/*
 @engine default {
   eid: MS-JATH;
   dictionaries: "CLIENT_TM CROSS_TM";
@@ -9,4 +10,17 @@
 @engine demo/cross {
   eid: MS-JATH;
   dictionaries: "CROSS_TM_MASTER";
+}
+*/
+@engine default {
+  eid: CR-JT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM TOURISM";
+}
+@engine demo/main {
+  eid: CR-JT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER TOURISM";
+}
+@engine demo/cross {
+  eid: CR-JT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM";
 }
