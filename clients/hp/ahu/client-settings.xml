@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>サイブリッジ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>staff-first/service 320b2013c03c3bd1ff791ba6e0cd1a3cc93bb19a</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.staff-first.co.jp" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

@@ -1,0 +1,16 @@
+.we-content-title {
+ attribute: clftx add 'exclude';
+}
+
+
+
+@preprocess {
+	replace:'<span class="showcase-expand"(.*?)><i class="fa fa-angle-double-down"></i>(.*?)</span>' '<span class="showcase-expand"$1><i class="fa fa-angle-double-down"></i>$2</span><br style="display:none;">';
+	replace:'<span class="category-expand"(.*?)>(.*?)</span>' '<span class="category-expand"$1>$2</span><br style="display:none;">';
+}
+
+@postprocess {
+	replace: '<!--cltx--><span><i class="fa fa-search">' '<span><i class="fa fa-search">';
+	replace: '<!--cltx--><span><i class="fa fa-compass">' '<span><i class="fa fa-compass">';
+	replace: '<!--cltx--><span>(.*?)<span id="label-distance">' '<span>$1<span id="label-distance">';
+}
