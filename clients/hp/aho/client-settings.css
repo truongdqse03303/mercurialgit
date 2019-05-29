@@ -58,8 +58,6 @@
     margin: 0 0 0 80px;
 }
 
-
-
 .footer_cnt address span {
     margin: 0 0.4em 0 0;
 }
@@ -69,7 +67,18 @@
     left: 0px;
 }
 
-
 #tmp_cnavi ul li {
     width: auto;
+}
+
+@media screen and (max-width: 480px) {
+	.format_top.custom_event_course #tmp_search .container, .format_free #tmp_search .container, .format_base #tmp_search .container {
+	    width: auto;
+	}
+
+	#tmp_mcourse_tab .tab_ttl p {
+	    line-height: normal;
+	    font-size: 90%;
+	}
+
 }

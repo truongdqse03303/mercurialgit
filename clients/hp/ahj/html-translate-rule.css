@@ -1,0 +1,7 @@
+@postprocess {
+	replace: 'style="(.*?) transform: (.*?)"' '';
+}
+
+@preprocess {
+	replace: '<div class="factory_recruit">(.*?)<a href="(.*?)" class="more_btn">(.*?)<span>(.*?)</span></a>(.*?)</div>' '<div class="factory_recruit">$1<a href="$2" class="more_btn">$3<br style="display:none;"><span>$4</span></a>$5</div>';
+}

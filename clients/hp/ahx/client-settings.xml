@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>スカラコミュニケーションズ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>scala-com/service acedfa4c15a39f56646a114f4f1bc16073b18650</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="parco.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
