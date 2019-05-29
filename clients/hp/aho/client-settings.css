@@ -1,0 +1,75 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+#tmp_means {
+	width: auto;
+}
+
+.search_way {
+    width: auto;
+}
+
+#tmp_func_sch_btn {
+    letter-spacing: normal;
+}
+
+#tmp_info_menu .info_block li a{
+    font-size: 90%;
+    padding-top: 68px;
+}
+
+.rnavi_statistics .statistics_item .title {
+    letter-spacing: normal;
+}
+
+.rnavi_statistics .statistics_item p {
+    font-size: 90%;
+	padding: 5px 10px;
+}
+
+.format_top.custom_event_course #tmp_search .container, .format_free #tmp_search .container, .format_base #tmp_search .container {
+    width: 1080px;
+}
+
+.tab-pane .tab_cnt .label_list li span:first-child, .label_list li span:first-child {
+    min-width: 100px;
+}
+
+.tab-pane .tab_cnt .label_list .label_link, .label_list .label_link {
+    margin: 0px 0px 0px 118px;
+}
+
+.rnavi_statistics .statistics_item .count {
+    margin: 0 0 0 80px;
+}
+
+
+
+.footer_cnt address span {
+    margin: 0 0.4em 0 0;
+}
+
+.footer_cnt .address_link {
+    top: 0;
+    left: 0px;
+}
+
+
+#tmp_cnavi ul li {
+    width: auto;
+}

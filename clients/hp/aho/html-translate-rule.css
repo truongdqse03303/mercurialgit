@@ -1,0 +1,5 @@
+@preprocess{
+	replace:'<span>法人番号 (.*?)</span>' '<br style="display:none;"><span>法人番号 $1</span><br style="display:none;">';
+	replace:'<span class="address_link">(.*?)</span>' '<br style="display:none;"><span class="address_link">$1</span><br style="display:none;">';
+	replace:'<h1>(.*?)<span>(.*?)</span></h1>' '<h1>$1<br style="display:none;"><span>$2</span></h1>';
+}

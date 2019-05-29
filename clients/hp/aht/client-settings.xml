@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>葛飾区奥戸総合スポーツセンター体育館</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>spo-katsushika/service 9638333c5c0bebc48f0b9a79db55969cea5b84f5</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.spo-katsushika.esforta.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
