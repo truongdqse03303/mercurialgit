@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>テストアカウント（test-crosslanguage）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>test-crosslanguage/service 496f58a070d5a638d4dd51efe00d73ac7a8a78d6</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.crosslanguage.co.jp" ssl="true" ssl_verifypeer="false" />
+  </request-list>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>v,id</param-value>
+  </extension-param>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
