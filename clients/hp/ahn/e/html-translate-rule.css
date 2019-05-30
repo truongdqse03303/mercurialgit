@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
 }
+
+@postprocess {
+	replace: 'UA-130183275-1' 'UA-130183275-2';
+}

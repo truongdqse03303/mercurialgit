@@ -1,31 +1,104 @@
 #site-translate-header-wrapper{
-	width: 100% !important;
-	height: 44px;
+	width:100% !important;
+	height:44px;
 	position: fixed;
-	top: 0;
-	z-index: 9999;
+	top:0;z-index: 999;
 }
 
 #site-translate-header-wrapper p{
-	font-size: 10px;
+	font-size:10px;
 	line-height: 12px;
 }
 
 #site-translate-message{
-	display: table-cell;
-	height: 44px;
-	vertical-align: middle;
-	width: 5000px
+	display:
+	table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
 }
 
-@media screen and (max-width: 750px) {
+#mobile-top {
+	margin: 44px auto 0;
+}
 
-	header {
-		margin: 44px auto 0;
+.we-page-top, .page-home-item {
+	margin: 44px auto 0;
+}
+
+.TIES .page-active .content-container .category-actions .category-expand, .TIES .page-active .content-container .category-actions .category-shrink{
+	width: auto;
+}
+
+.D6 .we-page .we-content .we-title {
+	padding-top: 55px !important;
+}
+
+.TIES .page-entry .we-content-title,
+.TIES .page-entrylist .we-content-title,
+.TIES .page-contact .we-content-title {
+	top: 115px;
+}
+
+.D5 .page-entry .content-container>li>.block-item.photo-list,
+.D5 .page-event .content-container>li>.block-item.photo-list {
+	padding-top: 109px;
+}
+
+.block-item {
+	padding: 64px 15px;
+}
+
+.TIES .left-bar>ul {
+    margin: 44px auto 0;
+}
+
+.TIES .left-bar>ul>li {
+    font-size: 95% !important;
+}
+
+.TIES .page-eventlist .move-prev, .TIES .page-eventlist .move-next, .TIES .move-prev, .TIES .move-next {
+    top: 118px !important;
+}
+
+.bottom-bar>ul>li {
+    padding-top: 0;
+}
+
+.sitemap-span div {
+    width: 18% !important;
+    margin: 0 1.6% 0 0;
+}
+
+@media (max-width: 767px) {
+
+	.TIES .page-entry .we-content-title,
+	.TIES .page-entrylist .we-content-title,
+	.TIES .page-contact .we-content-title {
+		top: 90px;
 	}
 
-	#toggle {
-	    top: 44px;
+	.info-showcase ul.showcase-tab li,
+	.TIES .page-tablist ul.content-tab>li{
+		font-size: 40%;
+	}
+
+	.D5 .page-entry .content-container>li>.block-item.photo-list,
+	.D5 .page-event .content-container>li>.block-item.photo-list {
+		padding-top: 65px;
+	}
+
+	.D6 .we-page .we-content .we-title {
+		padding-top: 35px !important;
+	}
+
+	.TIES .page-eventlist .move-prev, .TIES .page-eventlist .move-next, .TIES .move-prev, .TIES .move-next {
+	    top: 95px !important;
+	}
+
+	.sitemap-span div {
+	    width: 100% !important;
+	    margin: 0;
 	}
 
 }

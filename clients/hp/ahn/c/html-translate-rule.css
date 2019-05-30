@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+	replace: 'UA-130183275-1' 'UA-130183275-3';
+}
