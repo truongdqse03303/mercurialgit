@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.ota-goca.or.jp" ssl="true" />
-    <request hostname="test-02.kankomaru.com" />
+    <request hostname="test-02.kankomaru.com" ssl="true" ssl_verifypeer="false" />
   </request-list>
 
 
