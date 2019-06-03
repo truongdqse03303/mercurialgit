@@ -8,8 +8,26 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.termina.info" />
+    <request hostname="www.termina.info" ssl="true" />
+    <request hostname="termina-new.improve-inc.biz" ssl="true" ssl_verifypeer="false" />
   </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic dGVybWluYXVzZXI6dGVybWluYTIwMTlqcg==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>https://termina-new\.improve-inc\.biz.*</param-value>
+    </param>
+  </resource-handler>
   
     <!-- HTML断片翻訳対象外のURL -->
   <url-list type="ignore">
