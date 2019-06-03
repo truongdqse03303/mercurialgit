@@ -72,6 +72,7 @@
 }
 
 @media screen and (max-width: 480px) {
+
 	.format_top.custom_event_course #tmp_search .container, .format_free #tmp_search .container, .format_base #tmp_search .container {
 	    width: auto;
 	}
@@ -79,6 +80,10 @@
 	#tmp_mcourse_tab .tab_ttl p {
 	    line-height: normal;
 	    font-size: 90%;
+	}
+
+	.tab-pane .tab_cnt .label_list .label_link, .label_list .label_link {
+	    margin: 0;
 	}
 
 }
