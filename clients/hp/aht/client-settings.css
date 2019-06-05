@@ -1,0 +1,20 @@
+#site-translate-header-wrapper {
+	width: auto !important;
+}
+
+body {
+    margin: 0;
+}
+
+#index-01 .tel_info ul li {
+    line-height: normal;
+}
+
+#index-01:lang(en) .tel_info {
+    width: 577px;
+}
+
+#index-01:lang(en) .tel_info ul li div {
+    font-size: 80%;
+	min-width: 360px;
+}
