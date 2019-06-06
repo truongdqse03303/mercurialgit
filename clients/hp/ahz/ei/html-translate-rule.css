@@ -1,0 +1,12 @@
+@engine default {
+  eid: PR-ENIT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
+}
+@engine sanriku2019/main {
+  eid: PR-ENIT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine sanriku2019/cross {
+  eid: PR-ENIT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}
