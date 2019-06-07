@@ -10,3 +10,7 @@
   eid: PR-ENIT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
+
+@preprocess {
+	replace: 'UA-71370639-28' 'UA-71370639-38';
+}
