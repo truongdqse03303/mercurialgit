@@ -1,0 +1,3 @@
+@preprocess {
+	replace:'https://mitte-x-img.istsw.jp/kanko-toshima/images/logo_prev.png' 'https://mitte-x-img.istsw.jp/kanko-toshima/photo/top_logo_eng4.png';
+}
