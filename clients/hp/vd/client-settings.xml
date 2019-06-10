@@ -13,7 +13,7 @@
     <request hostname="kyotokatsuragawa-aeonmall.com" ssl="true" />
     <request hostname="kofushowa-aeonmall.com" ssl="true" />
     <request hostname="higashiura-aeonmall.com" ssl="true" />
-    <request hostname="suzuka-aeonmall.com" />
+    <request hostname="suzuka-aeonmall.com" ssl="true" />
     <request hostname="tsurumiryokuchi-aeonmall.com" ssl="true" />
     <request hostname="osakadomecity-aeonmall.com" ssl="true" />
     <request hostname="wakayama-aeonmall.com" ssl="true" />

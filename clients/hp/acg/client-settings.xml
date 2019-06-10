@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.lachic.jp" />
+    <request hostname="www.lachic.jp" ssl="true" />
     <request hostname="elb-dev-vx-web-397754073.ap-northeast-1.elb.amazonaws.com" />
   </request-list>
 
