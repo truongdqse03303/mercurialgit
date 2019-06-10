@@ -1,5 +1,5 @@
-#mainVisual.slider {
-	attribute:clftx add 'exclude';
+#mainVisualWrap {
+	attribute:cltx add 'exclude';
 }
 
 // @RULESET
