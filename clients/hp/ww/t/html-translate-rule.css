@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
 
+@preprocess{
+	replace:'<!-- crosslanguage-t:show(.*?)/crosslanguage-t:show -->' '$1';
+}
+
 @postprocess {
  replace:'<option value="http://www.atre.co.jp/contact' '<option value="http://www.atre.co.jp.t.ww.hp.transer.com/contact';
 }

@@ -15,6 +15,10 @@ body {
   attribute: lang add 'zh';
 }
 
+@preprocess{
+	replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
+}
+
 @postprocess {
  replace:'<option value="http://www.atre.co.jp/contact' '<option value="http://www.atre.co.jp.c.ww.hp.transer.com/contact';
 }

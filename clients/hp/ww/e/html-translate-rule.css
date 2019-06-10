@@ -15,6 +15,10 @@ select.inpWLL {
 	attribute: style add 'font-size: 11px;';
 }
 
+@preprocess{
+	replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+}
+
 @postprocess {
     replace:'Atrai' 'Atre';
     replace:'Atto- Levi' 'Atrevie';

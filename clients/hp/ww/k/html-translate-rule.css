@@ -11,6 +11,10 @@
   dictionaries: "CROSS_TM_MASTER";
 }
 
+@preprocess{
+	replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
+}
+
 @postprocess {
   replace:'<div class="hdrStoreWrap">' '<div class="hdrStoreWrap langPatK">';
 }

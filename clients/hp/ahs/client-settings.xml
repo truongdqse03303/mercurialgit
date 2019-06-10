@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ザ ランドマークスクエア オオサカ（ポジティブドリームパーソンズ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>landmark-osaka/service f79d8037161b894a65380152be74baaad8e76f79</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.landmark-osaka.com" ssl="true" ssl_verifypeer="false" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
