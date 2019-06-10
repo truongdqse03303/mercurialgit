@@ -2,6 +2,11 @@ table.osaka_block{
 	attribute:cltx add 'exclude';
 }
 
+/* 言語ボックス */
+.foreign_language_item{
+	attribute:clftx add 'exclude';
+}
+
 @preprocess {
  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
