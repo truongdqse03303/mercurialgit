@@ -1,0 +1,21 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p {
+   font-size: 10px;
+   margin: 0 !important;
+   line-height: normal !important;
+}
+
+#site-translate-message{
+	display:block;
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+:lang(en) .fz-16px {
+    font-size: 15px;
+}

@@ -1,0 +1,3 @@
+@preprocess {
+	replace:'<span class="ymd">(.*?)</span>' '<span class="ymd">$1</span><br style="display:none;">';
+}
