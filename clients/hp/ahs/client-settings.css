@@ -118,14 +118,6 @@
     padding: 2px 4px;
 }
 
-@media only screen and (max-width: 767px) {
-
-	body.page-template-restaurant-page-shopdetail {
-	    padding-top: 109px;
-	}
-
-}
-
 @media only screen and (max-width:820px){
 
 	#header-top{
@@ -157,7 +149,7 @@
 	    top: 57px;
 	}
 
-	#swiper-area:lang(en) {
+	#swiper-area {
 	    top: 42px;
 	}
 
@@ -177,4 +169,12 @@
 	    margin: 44px auto 0;
 		top: 0 !important;
 	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	body.page-template-restaurant-page-shopdetail {
+	    padding-top: 109px;
+	}
+
 }
