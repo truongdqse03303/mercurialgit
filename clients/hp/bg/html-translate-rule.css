@@ -1,6 +1,8 @@
-#mainVisualWrap {
+#mainVisualWrap,
+.slidebanWrap {
 	attribute:cltx add 'exclude';
 }
+
 
 // @RULESET
 // URL = http://www.city.nomi.ishikawa.jp/cgi-bin/odb-get.exe?WIT_template=AC020000&WIT_oid=icityv2::Contents::1687
