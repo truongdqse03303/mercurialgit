@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>京都駅観光デパート</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>thecube/service 9a2613d5d8200bf2249e6690201e24f1bb7f2ba7</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.thecube.co.jp" ssl="true" />
+    <request hostname="103.14.15.92" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

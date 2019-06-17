@@ -10,6 +10,7 @@ section > .room > li {
 }
 
 @preprocess {
+	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 	replace:'<a class="hv-o only-pc" (.*?)><span class="only-pc">(.*?)</span>(.*?)</a>' '<a class="hv-o only-pc" $1><span class="only-pc">$2$3</span></a>';
 	replace:'<span class="sec-ttl-txt">(.*?)<br class="PC">(.*?)</span>' '<span class="sec-ttl-txt">$1$2</span>';
 //	replace:'<span class="PC">(.*?)</span>' '<br style="display:none;"><span class="PC">$1</span><br style="display:none;">';
