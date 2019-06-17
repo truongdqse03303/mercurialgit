@@ -5,6 +5,7 @@ article.row{
 }
 
 @preprocess{
+	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 	replace:'<span class="q-ico">Q</span><span class="q-box">(.*?)</span>' '<span class="q-ico">Q</span><br style="display:none;"><span class="q-box">$1</span>';
 	replace:'<span>一覧を見る</span>' '<br style="display:none;"><span>一覧を見る</span><br style="display:none;">';
 }
