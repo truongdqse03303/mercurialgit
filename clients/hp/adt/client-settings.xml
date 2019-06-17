@@ -8,8 +8,8 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="csa.gr.jp" ssl="true" />
-    <request hostname="stage.csa.gr.jp" ssl="true" />
+    <request hostname="csa.gr.jp" ssl="true" ssl_verifypeer="false" />
+    <request hostname="stage.csa.gr.jp" ssl="true" ssl_verifypeer="false" />
   </request-list>
 
   <extension-param>
