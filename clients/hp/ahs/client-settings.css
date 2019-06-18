@@ -153,6 +153,10 @@
 	    top: 42px;
 	}
 
+	#swiper-area:lang(en) {
+    	top: 42px;
+	}
+
 	#restaurant #main-area {
 	    margin-top: 44px;
 	}
