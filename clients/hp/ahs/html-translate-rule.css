@@ -10,4 +10,5 @@ article.row{
 	replace:'<span>一覧を見る</span>' '<br style="display:none;"><span>一覧を見る</span><br style="display:none;">';
 	replace:'<span class="spnone">(.*?)</span><span class="enpcnone">(.*?)</span>' '<span class="spnone">$1</span><br style="display:none;"><span class="enpcnone">$2</span>';
 	replace:'<h2 class="font-self">(.*?)<span class="enpcnone">(.*?)</span></h2>' '<h2 class="font-self">$1<br style="display:none;"><span class="enpcnone">$2</span></h2>';
+	replace:'<h2 class="heading08(.*?)">(.*?)<span>(.*?)</span></h2>' '<h2 class="heading08$1">$2<br style="display:none;"><span>$3</span></h2>';
 }
