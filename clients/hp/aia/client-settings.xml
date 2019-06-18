@@ -12,6 +12,22 @@
     <request hostname="103.14.15.92" />
   </request-list>
 
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic Y3ViZTpkZW1v</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://103\.14\.15\.92.*</param-value>
+    </param>
+  </resource-handler>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
