@@ -1,3 +1,8 @@
+.home-header-menu,
+.navi-list.type-course{
+ attribute: cltx add 'exclude';
+}
+
 div#galleryContents li, div#galleryThumbnail li, div#slideshow li,div#headerForeignLinks li{
  attribute: cltx add 'exclude';
 }

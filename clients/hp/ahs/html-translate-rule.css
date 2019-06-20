@@ -11,4 +11,5 @@ article.row{
 	replace:'<span class="spnone">(.*?)</span><span class="enpcnone">(.*?)</span>' '<span class="spnone">$1</span><br style="display:none;"><span class="enpcnone">$2</span>';
 	replace:'<h2 class="font-self(.*?)">(.*?)<span(.*?)>(.*?)</span></h2>' '<h2 class="font-self$1">$2<br style="display:none;"><span$3>$4</span></h2>';
 	replace:'<h2 class="heading08(.*?)">(.*?)<span(.*?)>(.*?)</span></h2>' '<h2 class="heading08$1">$2<br style="display:none;"><span$3>$4</span></h2>';
+	replace:'<p class="title(.*?)">(.*?)<span(.*?)>(.*?)</span></p>' '<p class="title$1">$2<br style="display:none;"><span$3>$4</span></p>';
 }

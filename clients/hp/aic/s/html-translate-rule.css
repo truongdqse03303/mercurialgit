@@ -1,0 +1,12 @@
+@engine default {
+  eid: BR-PR-JA.ES.EN;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM IT ARCHI BUSINESS";
+}
+@engine dshouse/main {
+  eid: BR-PR-JA.ES.EN;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER IT ARCHI BUSINESS";
+}
+@engine dshouse/cross {
+  eid: BR-PR-JA.ES.EN;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER IT ARCHI BUSINESS";
+}
