@@ -20,7 +20,7 @@
 }
 
 #header {
-	top: 44px;
+	top: 44px !important;
 }
 
 .bqplanlist-template-default #header,
@@ -78,12 +78,6 @@
 .sitecat {
     top: 83px;
 }
-
-/*
-.swiper-container pat1 swiper-container-horizontal swiper-container-fade {
-    margin: 44px;
-}
-*/
 
 #swiper-area:lang(en) {
     top: -63px;
