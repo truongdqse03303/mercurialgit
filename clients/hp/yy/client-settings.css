@@ -1,0 +1,21 @@
+#site-translate-header-wrapper{
+	width:auto !important;
+}
+
+#site-translate-message {
+	border: dotted 1px #ff0000;
+	margin: 0;
+	padding: 0;
+}
+
+.mobile #site-translate-message {
+	font-size: 80%;
+}
+
+@media screen and (max-width: 750px) {
+
+	.mkrnw-wrapper .l-footer .footer01 .about li:last-child {
+	    white-space: normal;
+	}
+
+}
