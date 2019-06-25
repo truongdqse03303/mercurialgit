@@ -16,5 +16,6 @@ body {
 }
 
 @preprocess {
-  replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
+	replace:'<!-- crosslanguage-c:show(.*?)/crosslanguage-c:show -->' '$1';
+	replace:'<div class="bottom-info-area-shop-area">(.*?)<p>(.*?)<span>(.*?)</span></p>' '<div class="bottom-info-area-shop-area">$1<p>$2<br style="display:none;"><span>$3</span></p>';
 }

@@ -12,7 +12,6 @@ article.row{
 	replace:'<h2 class="font-self(.*?)">(.*?)<span(.*?)>(.*?)</span></h2>' '<h2 class="font-self$1">$2<br style="display:none;"><span$3>$4</span></h2>';
 	replace:'<h2 class="heading08(.*?)">(.*?)<span(.*?)>(.*?)</span></h2>' '<h2 class="heading08$1">$2<br style="display:none;"><span$3>$4</span></h2>';
 	replace:'<p class="title(.*?)">(.*?)<span(.*?)>(.*?)</span></p>' '<p class="title$1">$2<br style="display:none;"><span$3>$4</span></p>';
-	replace:'<div class="bottom-info-area-shop-area">(.*?)<p>(.*?)<span>(.*?)</span></p>' '<div class="bottom-info-area-shop-area">$1<p>$2<br style="display:none;"><span>$3</span></p>';
 }
 
 
