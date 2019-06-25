@@ -1,0 +1,5 @@
+@preprocess {
+	replace:'<div class=\\\\"tip-mod-header__menu\\\\">' '<div class=\\\\"tip-mod-header__menu\\\\" clftx=\\\\"exclude\\\\">';
+	replace:'<div class=\\\\"tip-mod-footer__search\\\\">' '<div class=\\\\"tip-mod-footer__search\\\\" clftx=\\\\"exclude\\\\">';
+	replace:'<div class=\\\\"tip-mod-mobile__menu\\\\">' '<div class=\\\\"tip-mod-mobile__menu\\\\" clftx=\\\\"exclude\\\\">';
+}
