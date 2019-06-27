@@ -1,9 +1,0 @@
-@engine default {
-  eid: CR-JK;
-  dictionaries: "NONOICHI_DIC NONOICHI_TM CROSS_TM";
-}
-
-@engine nonoichi/main {
-  eid: CR-JK;
-  dictionaries: "NONOICHI_DIC_MASTER NONOICHI_TM_MASTER";
-}

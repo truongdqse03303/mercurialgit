@@ -1,6 +1,0 @@
-// @RULESET
-// URL = http://www.rehouse.co.jp/dir_sys/javascript/keywordSave.js
-@postprocess {
- replace: '"/bukkenList/' '"http://www.rehouse.co.jp/bukkenList/';
- replace: '"/smp/bukkenList/' '"http://www.rehouse.co.jp/bukkenList/';
-}
