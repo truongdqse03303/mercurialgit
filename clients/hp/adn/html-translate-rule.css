@@ -1,3 +1,12 @@
+.subHeadItem,
+ul#mainNav > li{
+	attribute: clftx add 'exclude';
+}
+
+.slideBox {
+	attribute: cltx add 'exclude';
+}
+
 @preprocess {
 	replace:'<span class="moreTxt">(.*?)</span>' '<br style="display:none;"><span class="moreTxt">$1</span>';
 	replace:'<h4><span>(.*?)</span><ruby>(.*?)<rt>(.*?)</rt></ruby></h4>' '<h4><span>$1</span><br style="display:none;"><ruby>$2<br style="display:none;"><rt>$3</rt><br style="display:none;"></ruby></h4>';
