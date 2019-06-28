@@ -3,7 +3,7 @@ ul#mainNav > li{
 	attribute: clftx add 'exclude';
 }
 
-.slideBox {
+#home-visual {
 	attribute: cltx add 'exclude';
 }
 
@@ -11,4 +11,5 @@ ul#mainNav > li{
 	replace:'<span class="moreTxt">(.*?)</span>' '<br style="display:none;"><span class="moreTxt">$1</span>';
 	replace:'<h4><span>(.*?)</span><ruby>(.*?)<rt>(.*?)</rt></ruby></h4>' '<h4><span>$1</span><br style="display:none;"><ruby>$2<br style="display:none;"><rt>$3</rt><br style="display:none;"></ruby></h4>';
 	replace:'<h2>(.*?)<span>(.*?)</span><strong>(.*?)</strong></h2>' '<h2>$1<br style="display:none;"><span>$2</span><br style="display:none;"><strong>$3</strong><br style="display:none;"></h2>';
+	replace:'\\$\\(' 'jQuery\\(';
 }
