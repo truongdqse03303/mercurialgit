@@ -1,0 +1,3 @@
+@preprocess{
+	replace:'<h3 class="bg_title">(.*?)<small>(.*?)</small></h3>' '<h3 class="bg_title">$1<br style="display:none;"><small>$2</small></h3>';
+}

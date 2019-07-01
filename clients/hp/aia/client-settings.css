@@ -1,0 +1,50 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    height: 44px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 38px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+header {
+    top: 44px;
+}
+
+#sub_nav {
+    margin-top: 134px;
+}
+
+.footer_info dl dd {
+    padding-left: 310px;
+}
+
+.footer_info {
+    width: 60%;
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+	.footer_info {
+	    width: 100%;
+		padding-left: 0;
+	}
+
+	.footer_info dl dd {
+	    padding-left: 0;
+	}
+
+}
