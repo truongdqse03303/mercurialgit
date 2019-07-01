@@ -1,0 +1,9 @@
+// @RULESET
+// URL #= //shonan.terracemall.com/shopguide/.*
+@preprocess {
+	replace:'&sub' '@@sub';
+}
+
+@postprocess {
+	replace:'@@sub' '&sub';
+}

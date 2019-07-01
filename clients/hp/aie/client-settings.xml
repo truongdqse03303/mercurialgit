@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ブランカ（FORiS）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>foris/service 4f1fa71f23bfd85e2bfa334b388c2a69981eeedb</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.foris.co.jp" />
+    <request hostname="test.foris.co.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
