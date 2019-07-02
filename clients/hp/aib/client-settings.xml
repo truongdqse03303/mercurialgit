@@ -9,12 +9,30 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="tip.tipness.co.jp" ssl="true" />
+    <request hostname="d363rfnmrrl2l6.cloudfront.net" ssl="true" />
   </request-list>
 
   <extension-param>
   <param-name>site.translate.header.style</param-name>
   <param-value>client-settings.css</param-value>
   </extension-param>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic dGlwbmVzczpMS2hCaG5obw==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://d363rfnmrrl2l6\.cloudfront\.net.*</param-value>
+    </param>
+  </resource-handler>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

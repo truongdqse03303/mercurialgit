@@ -1,0 +1,14 @@
+#site-translate-header-wrapper {
+	width: auto !important;
+}
+
+#forisPress,
+#banner-fb,
+#banner-new-bonita,
+#banner-web-coupon,
+#banner-recruit,
+#banner-fctokyo,
+#banner-art-mart,
+#forisPress0 {
+	display: none;
+}
