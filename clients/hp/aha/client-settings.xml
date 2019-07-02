@@ -9,8 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.crosslanguage.co.jp" ssl="true" ssl_verifypeer="false" />
-    <request hostname="www.crosslanguage.co.jp" />
-    <request hostname="www.crosslanguage.co.jp" />
+    <request hostname="www.uminokyoto.jp" />
   </request-list>
 
   <extension-param>
