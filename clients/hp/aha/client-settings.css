@@ -1,16 +1,120 @@
+#home-visual {
+	display: none;
+}
+
 #site-translate-header-wrapper{
-	width: 100% !important;
-	height:auto;
-	box-sizing: border-box;
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+	z-index: 999;
 }
 
 #site-translate-header-wrapper p{
+	font-size:10px;
 	line-height: 12px;
 }
 
 #site-translate-message{
-	display:block;	
+	display:
+	table-cell;
+	height:44px;
 	vertical-align:middle;
-	padding: 3px 0;
-	text-align: center;
+	width:5000px;
+}
+#header {
+	top: 44px;
+}
+.bqplanlist-template-default #header {
+    border-top: 44px solid;
+}
+.page-template-banquet-page-top #header,
+.page-template-banquet-page-facility #header,
+.page-template-banquet-page-plan #header,
+.page-template-banquet-module #header, 
+.page-template-banquet-page-scene #header,
+.page-template-banquet-contact #header,
+.bqfacility-template-default #header {
+     padding: 44px 0 0 0;
+}
+.bqplanlist-template-default #header.fixed {
+    border-top: 0px solid;
+}
+#header-top {
+    padding: 54px 0 30px 0;
+
+}
+#main-area {
+    margin: 44px auto;
+}
+.page-template-banquet-page-top #main-area, 
+.page-template-banquet-page-facility #main-area,
+.page-template-banquet-page-plan #main-area,
+.page-template-banquet-module #main-area, 
+.page-template-banquet-page-scene #main-area,
+.page-template-banquet-contact #main-area,
+.bqfacility-template-default #main-area,
+.bqplanlist-template-default #main-area,
+.page-template-normal-page #main-area,
+.post-template-default #main-area,
+.category-eventinfo #main-area,
+.category-sougouinfo #main-area,
+.page-template-default #main-area {
+    margin: 0px auto;
+}
+#restaurant #main-area {
+    margin: 144px auto;   
+}
+
+.fixed {
+    top: 44px;
+}
+.sitecat {
+    top: 83px;
+}
+.swiper-container pat1 swiper-container-horizontal swiper-container-fade {
+    margin: 44px;
+}
+#swiper-area:lang(en) {
+    top: -63px;
+}
+#utility-area .btn-gold {
+    position: absolute;
+    top: 35px;
+    right: 80px;
+    max-width: 230px;
+}
+.page-template-banquet-page-top #utility-area .btn-gold , 
+.page-template-banquet-page-facility #utility-area .btn-gold ,
+.page-template-banquet-page-plan #utility-area .btn-gold ,
+.page-template-banquet-module #utility-area .btn-gold , 
+.page-template-banquet-page-scene #utility-area .btn-gold ,
+.page-template-banquet-contact #utility-area .btn-gold,
+.bqfacility-template-default #utility-area .btn-gold,
+.bqplanlist-template-default #utility-area .btn-gold {
+    margin: 0px -87px auto;
+}
+
+@media only screen and (max-width:820px){
+
+	#header-top{
+		padding:0;
+	}
+
+	#header {
+	    margin: 44px auto 0;
+	}
+
+	#nav-area {
+	    top: 44px;
+	}
+
+	#openbtn {
+	    top: 44px;
+	}
+
+	#nav-area.bgactive {
+	    top: 102px;
+	}
+	
 }
