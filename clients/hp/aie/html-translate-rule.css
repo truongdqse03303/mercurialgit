@@ -1,0 +1,11 @@
+@postprocess {
+	replace: '/img/billboard/bnr_26.jpg' '//www.foris.co.jp/img/billboard2/1.jpg';
+	replace: '/img/billboard/bnr_25.jpg' '//www.foris.co.jp/img/billboard2/2.jpg';
+	replace: '/img/billboard/bnr_22.jpg' '//www.foris.co.jp/img/billboard2/3.jpg';
+	replace: '/img/billboard/bnr_23.jpg' '//www.foris.co.jp/img/billboard2/4.jpg';
+	replace: 'data-link="(.*?)"' '';
+	replace: '/img/billboard/smp_bnr_26.jpg' '//www.foris.co.jp/img/billboard2/1.jpg';
+	replace: '/img/billboard/smp_bnr_25.jpg' '//www.foris.co.jp/img/billboard2/2.jpg';
+	replace: '/img/billboard/smp_bnr_22.jpg' '//www.foris.co.jp/img/billboard2/3.jpg';
+	replace: '/img/billboard/smp_bnr_23.jpg' '//www.foris.co.jp/img/billboard2/4.jpg';
+}
