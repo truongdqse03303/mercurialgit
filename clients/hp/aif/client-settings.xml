@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>大阪ステーションシティ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>osakastationcity/service 823e84f1a187528af52568afb710953167ef521e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="dstest.osakastationcity.com" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
