@@ -3,6 +3,10 @@
   replace: "'UA-19142011-2'" "'UA-56621341-1'";
 }
 
+@preprocess {
+  replace: '<div class="zoomer-controls zoomer-controls-\'(.*?)>' '<div clftx="exclude" class="zoomer-controls zoomer-controls-\'$1>';
+}
+
 // @RULESET
 // URL #=http://www\.daimaru\.co\.jp/(shinsaibashi|umedamise|kyoto|kobe|tokyo|sapporo)/js/specialInfo\.js
 @preprocess {
