@@ -21,8 +21,8 @@ header,
 	replace:'<option value="https://www.vissel-kobe.co.jp.g.acs.hp.transer.com/" (.*?)>' '<option value="https://www.vissel-kobe.co.jp.g.acs.hp.transer.com/">';
 	replace:'<option value="https://www.vissel-kobe.co.jp.s.acs.hp.transer.com/" (.*?)>' '<option value="https://www.vissel-kobe.co.jp.s.acs.hp.transer.com/">';
 	replace:'</body>' '<script type=\'text/javascript\' src=\'https://www.shiibakanko.jp/wp-includes/js/jquery/jquery.js?ver=1.12.4\'></script><script type=\'text/javascript\' src=\'https://www.shiibakanko.jp/wp-content/themes/shiiba/js/functions.js?ver=4.9.10\'></script><script src="https://hps.transer.com/atasp/pagetrans2/crosslanguage-translate.php?clientid=aha&ready=0" type="text/javascript"></script></body>';
+	replace:'class="wd100"' 'class="wd100 lazy"';
 
-	replace:'<section id="home-visual"(.*?)>' '<section id="home-visual"$1 style="display:none;">';
+	replace:'\\$\\( function\\(\\)\\{(.*?)\\$\\( \'img.lazy\' \\)' 'jQuery\\( function\\(\\)\\{$1jQuery\\( \'img.lazy\' \\)';
 
 }
-
