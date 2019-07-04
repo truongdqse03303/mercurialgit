@@ -23,6 +23,6 @@ header,
 	replace:'</body>' '<script type=\'text/javascript\' src=\'https://www.shiibakanko.jp/wp-includes/js/jquery/jquery.js?ver=1.12.4\'></script><script type=\'text/javascript\' src=\'https://www.shiibakanko.jp/wp-content/themes/shiiba/js/functions.js?ver=4.9.10\'></script><script src="https://hps.transer.com/atasp/pagetrans2/crosslanguage-translate.php?clientid=aha&ready=0" type="text/javascript"></script></body>';
 	replace:'class="wd100"' 'class="wd100 lazy"';
 
-	replace:'\\$\\( function\\(\\)\\{(.*?)\\$\\( \'img.lazy\' \\)' 'jQuery\\( function\\(\\)\\{$1jQuery\\( \'img.lazy\' \\)';
+//	replace:'\\$\\( function\\(\\)\\{(.*?)\\$\\( \'img.lazy\' \\)' 'jQuery\\( function\\(\\)\\{$1jQuery\\( \'img.lazy\' \\)';
 
 }
