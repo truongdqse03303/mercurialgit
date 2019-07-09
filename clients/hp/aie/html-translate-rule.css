@@ -1,3 +1,8 @@
+@preprocess {
+	replace: '<li><a id="gnav-bonita"(.*?)>(.*?)</a></li>' '';
+	replace: '<a (.*?) class="news-shop-name">(.*?)</a>' '<a $1 class="news-shop-name">$2</a><br style="display:none;">';
+}
+
 @postprocess {
 	replace: '/img/billboard/bnr_26.jpg' '//www.foris.co.jp/img/billboard2/1.jpg';
 	replace: '/img/billboard/bnr_25.jpg' '//www.foris.co.jp/img/billboard2/2.jpg';

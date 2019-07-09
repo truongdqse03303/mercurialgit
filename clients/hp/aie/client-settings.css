@@ -2,13 +2,21 @@
 	width: auto !important;
 }
 
-#forisPress,
-#banner-fb,
-#banner-new-bonita,
-#banner-web-coupon,
-#banner-recruit,
-#banner-fctokyo,
-#banner-art-mart,
-#forisPress0 {
+.forisInformation,
+#banner-new-bonita {
 	display: none;
+}
+
+.navGlobal {
+	width: 640px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+
+	.navGlobal {
+		width: 100%;
+	}
+
 }
