@@ -24,6 +24,7 @@
     <param>
       <param-name>resource.url.pattern</param-name>
       <param-value>https://www2.elecom.co.jp/js/rmenu.js</param-value>
+      <param-value>https://www.elecom.co.jp/js/main.js</param-value>
      </param>
     <param>
       <param-name>resource.type.name</param-name>
