@@ -13,6 +13,16 @@
 	margin: 0 auto;
 }
 
+#forisFooter nav ul {
+	left: 0;
+    width: 100%;
+}
+
+#forisFooter nav li {
+    float: right;
+    right: 3.3%;
+}
+
 @media only screen and (max-width: 480px) {
 
 	.navGlobal {
