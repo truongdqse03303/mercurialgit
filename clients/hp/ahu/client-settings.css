@@ -17,4 +17,16 @@
 	    margin: 44px auto 0;
 	}
 
+	.header .headerNav li.active {
+	    margin-left: 45px;
+	}
+
+	.searchModal {
+	    top: 44px;
+	}
+
+	.searchBlock .searchJob .buttonSearch {
+	    width: auto;
+	}
+
 }
