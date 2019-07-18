@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ゴーフィールド</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>gofield/service 217541a069e9dbc4fad22ecdfa70529b37b7ba2e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.s-kiosk.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

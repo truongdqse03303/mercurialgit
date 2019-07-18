@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>品川健康センター</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>shinagawa-esforta/service 7a25ea70704ab18bdd5046beeb10ea2ea9e52211</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.shinagawa.esforta.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
