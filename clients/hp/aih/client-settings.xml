@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.s-kiosk.jp" />
+    <request hostname="www.s-kiosk.jp" ssl="true" />
   </request-list>
 
 

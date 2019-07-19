@@ -1,6 +1,7 @@
 @preprocess {
 	replace: '<li><a id="gnav-bonita"(.*?)>(.*?)</a></li>' '';
 	replace: '<a (.*?) class="news-shop-name">(.*?)</a>' '<a $1 class="news-shop-name">$2</a><br style="display:none;">';
+	replace: '〒183-0023' '183-0023';
 }
 
 @postprocess {
@@ -13,4 +14,8 @@
 	replace: '/img/billboard/smp_bnr_25.jpg' '//www.foris.co.jp/img/billboard2/2.jpg';
 	replace: '/img/billboard/smp_bnr_22.jpg' '//www.foris.co.jp/img/billboard2/3.jpg';
 	replace: '/img/billboard/smp_bnr_23.jpg' '//www.foris.co.jp/img/billboard2/4.jpg';
+}
+
+div#wrapper > footer#forisFooter > nav > ul > li {
+	attribute: style add 'float:left;position:relative;right:-46%';
 }
