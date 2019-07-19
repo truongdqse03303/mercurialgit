@@ -15,7 +15,3 @@
 	replace: '/img/billboard/smp_bnr_22.jpg' '//www.foris.co.jp/img/billboard2/3.jpg';
 	replace: '/img/billboard/smp_bnr_23.jpg' '//www.foris.co.jp/img/billboard2/4.jpg';
 }
-
-div#wrapper > footer#forisFooter > nav > ul > li {
-	attribute: style add 'float:left;position:relative;right:-46%';
-}
