@@ -41,7 +41,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>(http|https)://(sake|www)\.(stage|stage2|stage3)\.biccamera\.com/(bs|bc)/(js/.*|disp/.*\.jsp|resources/c21/js/.*\.js|resources2/disp/01_02_01/js/.*\.js)</param-value>
+      <param-value>(http|https)://(sake|www)\.(stage|stage2|stage3)\.biccamera\.com/(bs|bc)/(js/.*|disp/.*\.jsp|resources/c21/js/.*\.js|resources2/disp/01_02_01/js/.*\.js|cart/.*\.jsp)</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>
