@@ -1,0 +1,16 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+	letter-spacing: normal;
+}
+
+@media screen and (min-width: 768px) {
+
+	#pamphlet .hubLink .item a.pdf:after {
+		right: inherit;
+		margin: 0 0 0 10px;
+	}
+
+}

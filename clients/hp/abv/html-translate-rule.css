@@ -1,3 +1,12 @@
 @preprocess {
  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
+
+// @RULESET
+// URL #= //oici.jp/hospital/foreigner/.*
+@preprocess {
+	replace:'Japanese\\(日本語\\)' 'Japanese';
+	replace:'Institute Guide' 'Institute Guide(English)';
+	replace:'センター概要リーフレット' 'Institute Guide(Japanese)';
+	replace:'＜中文＞<br />院所概况' '＜Chinese＞<br />Institute Guide';
+}
