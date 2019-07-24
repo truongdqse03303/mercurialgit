@@ -1,0 +1,15 @@
+#site-translate-header-wrapper {
+	width: auto !important;
+}
+
+body {
+    margin: 0;
+}
+
+.tel ul li:last-child {
+    font-size: 0.8em;
+}
+
+#indexr1c1:lang(en) .tel {
+    width: 34.8%;
+}
