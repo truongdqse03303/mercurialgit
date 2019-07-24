@@ -17,7 +17,7 @@ body {
 
 /* 多言語対応 */
 @postprocess {
-	replace:'https://maps.googleapis.com/maps/api/js' 'https://maps.googleapis.com/maps/api/js?language=zh-CN&';
+	replace:'https://maps.googleapis.com/maps/api/js(.*)key=(.*)"' 'https://maps.googleapis.com/maps/api/js$1&language=zh-CN&key=$2"';
 }
 
 @postprocess {

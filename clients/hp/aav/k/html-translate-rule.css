@@ -13,7 +13,7 @@
 
 /* 多言語対応 */
 @postprocess {
-	replace:'https://maps.googleapis.com/maps/api/js' 'https://maps.googleapis.com/maps/api/js?language=ko&';
+	replace:'https://maps.googleapis.com/maps/api/js(.*)key=(.*)"' 'https://maps.googleapis.com/maps/api/js$1&language=ko&key=$2"';
 }
 
 @postprocess {

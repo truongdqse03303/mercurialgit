@@ -47,7 +47,7 @@ table.calendar {
 	replace:'<th><!--cltx-->Tree</th>' '<th><!--cltx-->Thu</th>';
 	replace:'<th><!--cltx-->Money</th>' '<th><!--cltx-->Fri</th>';
 	replace:'<th class="sat"><!--cltx-->Soil</th>' '<th class="sat"><!--cltx-->Sat</th>';
-	replace:'https://maps.googleapis.com/maps/api/js' 'https://maps.googleapis.com/maps/api/js?language=en&';
+	replace:'https://maps.googleapis.com/maps/api/js(.*)key=(.*)"' 'https://maps.googleapis.com/maps/api/js$1&language=en&key=$2"';
 	replace:'<div class="searchInput">(.*?)<input type="search" name="keyword" placeholder=(.*?)>(.*?)</div>' '<div class="searchInput">$1<input type="search" name="keyword" placeholder="Keyword">$3</div>';
 	replace:'<div class="searchInput selectDeco">(.*?)<input name="kw" placeholder=(.*?) value="">(.*?)</div>' '<div class="searchInput selectDeco">$1<input name="kw" placeholder="Keyword" value="">$3</div>';
 	replace:'<input type="search" name="keyword" placeholder=(.*?) class="wd60">' '<input type="search" name="keyword" placeholder="Event Search" class="wd60">';
