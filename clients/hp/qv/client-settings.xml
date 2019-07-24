@@ -8,6 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
+    <request hostname="www.city.shizuoka.lg.jp" ssl="true" />
     <request hostname="www.city.shizuoka.jp" />
     <request hostname="test2015web.city.shizuoka.jp" />
   </request-list>

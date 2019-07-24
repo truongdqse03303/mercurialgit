@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>大垣市役所</name>
+  <name>i-Link</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>ogaki/service 347a5b0d7c0992ba0ce710bc9fcd275547d1f26b</licence>
+  <licence>i-link/service 19db517016bdeb6b56eb81662c650e99f802b2c5</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.ogaki.lg.jp" ssl="true" />
+    <request hostname="www.i-link.jpn.com" />
   </request-list>
+
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

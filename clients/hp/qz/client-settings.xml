@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.iejima.org" />
+    <request hostname="www.iejima.org" ssl="true" />
     <request hostname="172.16.0.175" />
   </request-list>
   
