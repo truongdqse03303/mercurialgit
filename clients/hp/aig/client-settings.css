@@ -1,0 +1,66 @@
+#site-translate-header-wrapper {
+	width: auto !important;
+}
+
+@media only screen and (min-width: 960px) {
+
+	.catch_copy {
+	    height: auto;
+	    text-align: left;
+    	padding: 1% 3%;
+	}
+
+	.catch_copy p {
+	    line-height: normal;
+	    width: 700px;
+	    margin: 0 auto;
+	}
+
+	.link_block_left1 {
+	    margin-left: 0;
+	}
+
+	.kurokabe_logo {
+	    margin: 0 0 2%;
+	}
+
+}
+
+@media only screen and (max-width: 959px) {
+
+	#site-translate-header-wrapper{
+		width:100% !important;
+		height:44px;
+		position: fixed;
+		top:0;
+	}
+
+	#site-translate-header-wrapper p{
+		font-size:10px;
+		line-height: 12px;
+	}
+
+	#site-translate-message{
+		display:table-cell;
+		height:44px;
+		vertical-align:middle;
+		width:5000px;
+	}
+
+	.header_images_top {
+	    margin: 104px auto 0 auto;
+	}
+
+	.siteHeader {
+	    top: 44px;
+	}
+
+	.mm-navbar {
+	    top: 44px;
+	}
+
+	.mm-panels > .mm-panel > .mm-listview:first-child, .mm-panels > .mm-panel > .mm-navbar + .mm-listview {
+	    margin-top: 24px;
+	}
+
+}
