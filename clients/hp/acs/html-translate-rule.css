@@ -22,3 +22,8 @@
 	replace:'<h5 class="bgPink">(.*?)<small class="textRed">(.*?)</small></h5>' '<h5 class="bgPink">$1<br style="display:none;"><small class="textRed">$2</small></h5>';
 }
 
+// @RULESET
+// URL #= //www.vissel-kobe.co.jp/club/.*
+@preprocess {
+	replace:'<span class="dateArea">(.*?)</span>' '<span class="dateArea">$1</span><br style="display:none;">';
+}
