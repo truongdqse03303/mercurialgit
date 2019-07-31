@@ -5,6 +5,8 @@
 }
 
 @postprocess {
+	replace: '/img/billboard/bnr_27.jpg' '//www.foris.co.jp/img/billboard2/1.jpg';
+	replace: '/img/billboard/bnr_28.jpg' '//www.foris.co.jp/img/billboard2/4.jpg';
 	replace: '/img/billboard/bnr_26.jpg' '//www.foris.co.jp/img/billboard2/1.jpg';
 	replace: '/img/billboard/bnr_25.jpg' '//www.foris.co.jp/img/billboard2/2.jpg';
 	replace: '/img/billboard/bnr_22.jpg' '//www.foris.co.jp/img/billboard2/3.jpg';

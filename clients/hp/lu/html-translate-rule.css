@@ -1,3 +1,4 @@
 @preprocess {
   replace: '(http://www\.city\.omuta\.lg\.jp.*?)&sub(.*?)' '$1&amp;sub$2';
+  replace:'href=\"//www.city.omuta.lg.jp/(.*?)\"' 'href=\"http://www.city.omuta.lg.jp/$1\"';
 }

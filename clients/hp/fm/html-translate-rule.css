@@ -3,6 +3,7 @@
 }
 
 @preprocess {
+	replace:'href=\"//www.city.kumamoto.jp/(.*?)\"' 'href=\"http://www.city.kumamoto.jp/$1\"';
 	replace: '<img(.*?)//www.city.kumamoto.jp/slide/pub/SlideViewerImageHandler.ashx(.*?)set_pic=1"(.*?)>' '<img$1//www.city.kumamoto.jp/slide/pub/SlideViewerImageHandler.ashx$2set_pic=1"$3 class="cl-norewrite">';
 }
 
