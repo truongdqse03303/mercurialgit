@@ -13,7 +13,6 @@
 
 @postprocess{
 	replace:'<link rel="alternate" hreflang="ja" href="https://www.hotel.kyoto(.*?)/okura/(.*?)" />' '<link rel="alternate" hreflang="ja" href="https://www.hotel.kyoto/okura/$2" />';
-	replace:'<link rel="alternate" hreflang="ja" href="https://www.hotel.kyoto(.*?)/karasuma/(.*?)" />' '<link rel="alternate" hreflang="ja" href="https://www.hotel.kyoto/karasuma/$2" />';
 	replace:'<a tel="0752542526">Restaurant office<br>(.*?)<span>(.*?)</span><br style="display:none;"> (.*?)9:00～19:00</a>' '<a tel="0752542526">Restaurant office<br>$1<span>$2</span><br style="display:none;"> $3(9:00～19:00)</a>';
 }
 
@@ -46,4 +45,10 @@
 
 @preprocess{
 	replace:'<body id="(.*?)" class="(.*?)">' '<body id="$1" class="$2 rule-g">';
+}
+
+// @RULESET
+// URL #= //www\.hotel\.kyoto/karasuma/.*
+@postprocess{
+	replace:'<link rel="alternate" hreflang="ja" class="cl-norewrite" href="https://www.hotel.kyoto(.*?)/karasuma/(.*?)"(.*?) />' '<link rel="alternate" hreflang="ja" class="cl-norewrite" href="https://www.hotel.kyoto/karasuma/$2"$3 />';
 }
