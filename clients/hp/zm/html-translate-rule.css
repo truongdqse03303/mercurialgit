@@ -12,4 +12,5 @@ div.sns_top, div.sns {
 
 @preprocess {
  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+ replace:'1930年代を<ruby><rb>牽引</rb><rp>（</rp><rt>けんいん</rt><rp>）</rp></ruby>した機関車たち' '1930年代を牽引した機関車たち';
 }
