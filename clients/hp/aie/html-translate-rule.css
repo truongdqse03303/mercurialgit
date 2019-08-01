@@ -1,10 +1,19 @@
 @preprocess {
+	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 	replace: '<li><a id="gnav-bonita"(.*?)>(.*?)</a></li>' '';
 	replace: '<a (.*?) class="news-shop-name">(.*?)</a>' '<a $1 class="news-shop-name">$2</a><br style="display:none;">';
 	replace: '〒183-0023' '183-0023';
 }
 
 @postprocess {
+	replace: '/img/billboard/bnr_253.jpg' '//www.foris.co.jp/img/billboard2/1.jpg';
+	replace: '/img/billboard/bnr_254.jpg' '//www.foris.co.jp/img/billboard2/2.jpg';
+	replace: '/img/billboard/bnr_257.jpg' '//www.foris.co.jp/img/billboard2/3.jpg';
+	replace: '/img/billboard/bnr_249.jpg' '//www.foris.co.jp/img/billboard2/4.jpg';
+	replace: '/img/billboard/smp_bnr_253.jpg' '//www.foris.co.jp/img/billboard2/1.jpg';
+	replace: '/img/billboard/smp_bnr_254.jpg' '//www.foris.co.jp/img/billboard2/2.jpg';
+	replace: '/img/billboard/smp_bnr_257.jpg' '//www.foris.co.jp/img/billboard2/3.jpg';
+	replace: '/img/billboard/smp_bnr_249.jpg' '//www.foris.co.jp/img/billboard2/4.jpg';
 	replace: '/img/billboard/bnr_27.jpg' '//www.foris.co.jp/img/billboard2/1.jpg';
 	replace: '/img/billboard/bnr_28.jpg' '//www.foris.co.jp/img/billboard2/4.jpg';
 	replace: '/img/billboard/bnr_26.jpg' '//www.foris.co.jp/img/billboard2/1.jpg';
