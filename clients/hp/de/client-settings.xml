@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.union.tokyo23-seisou.lg.jp" />
+    <request hostname="www.union.tokyo23-seisou.lg.jp" ssl="true" />
     <request hostname="www1.g-reiki.net" path="/23seisou/" />
   </request-list>
 </client-settings>
