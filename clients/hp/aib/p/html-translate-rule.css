@@ -10,3 +10,18 @@
   eid: BR-PR-JA.PT.EN;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SPORTS HOBBY";
 }
+
+@preprocess {
+	replace:'\\\※18歳以上の方\\(高校生除く\\)限定の会員種類です。' 'Acima de 18 anos de idade (Excluindo alunos do ensino médio) é um tipo de membro limitado.';
+	replace:'最大2ヶ月お得な会費で、関東エリアのティップネス全店と全国のFASTGYM24をいつでもご利用いただけます。' 'Pode-se usar todas as academias Tipness na área de Kanto a qualquer momento durante 2 meses.';
+	replace:'3ヶ月目からはFASTGYM24を利用可能な別の会員種類にご移行いただきます。' 'A partir do terceiro mês será transferido para outro tipo de associado.';
+	replace:'<span>\\\¥1,850</span>月' '<span>1,850</span><br style="display:none;"> ienes / mês';
+	replace:'<span>\\\¥14,300</span>月' '<span>14,300</span><br style="display:none;"> ienes / mês';
+	replace:'<span>\\\¥13,800</span>月' '<span>13,800</span><br style="display:none;"> ienes / mês';
+	replace:'<span>\\\¥13,300</span>月' '<span>13,300</span><br style="display:none;"> ienes / mês';
+	replace:'<span>\\\¥12,800</span>月' '<span>12,800</span><br style="display:none;"> ienes / mês';
+	replace:'<span>\\\¥10,800</span>月' '<span>10,800</span><br style="display:none;"> ienes / mês';
+	replace:'<span>\\\¥9,800</span>月' 	'<span>9,800</span><br style="display:none;"> ienes / mês';
+
+
+}

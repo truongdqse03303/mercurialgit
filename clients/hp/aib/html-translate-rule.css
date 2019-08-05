@@ -1,0 +1,3 @@
+@preprocess {
+	replace:'<p class="shop-plan-member__item__course__box__title">(.*?)<span>(.*?)</span></p>' '<p class="shop-plan-member__item__course__box__title">$1<br style="display:none;"><span>$2</span></p>';
+}
