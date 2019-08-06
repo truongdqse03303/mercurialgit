@@ -1,0 +1,76 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+@media (min-width: 768px) {
+
+	header{
+		margin: 44px auto 0 !important;
+	}
+
+	#gnav {
+	    top: 119px;
+	}
+
+	#topNav.fixed {
+		top: 119px;
+	}
+
+	#gnav.fixed, #gnav.sub {
+		top: 123px;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+/*	
+	html:lang(zh-hans) #spHeadBtn #spBtnMenu,
+	html:lang(zh-hant) #spHeadBtn #spBtnMenu,
+	html:lang(ko) #spHeadBtn #spBtnMenu {
+		background-image: url(../top_img/top/btn_spBtnMenu_unizo.png);
+	}
+
+	#spHeadBtn #spBtnMenu.active {
+		background-image: url(../top_img/top/btn_spBtnMenu_active_unizo.png) !important;
+	}
+*/
+
+	header{
+		top: 44px;
+	}
+
+	#spMenu {
+		top: 91px;
+	}
+
+	#spHotelList {
+		top: 99px;
+	}
+
+	#spKvTop, section.noMainImg{
+		margin-top: 99px;
+	}
+
+	header #logo{
+		width: auto;
+		left: 1%;
+	}
+
+
+}
