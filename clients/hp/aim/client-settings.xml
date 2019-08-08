@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="cubic-wp.dev.alhena.jp" ssl="true" ssl_verifypeer="false" />
+    <request hostname="www.cubicplaza.com" />
   </request-list>
 
   <!-- Basic認証 -->
