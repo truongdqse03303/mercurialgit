@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
+}
+@engine hamleys/main {
+  eid: CR-JCT;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine hamleys/cross {
+  eid: CR-JCT;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}
+
+@preprocess {
+	replace:'UA-69110980-9' 'UA-69110980-15';	/* Googleアナリティクス */
+}

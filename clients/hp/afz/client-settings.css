@@ -1,0 +1,17 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+}
+
+
+
+@media screen and (max-width: 37.5em) {
+
+	.logo {
+	    top: 74px;
+	}
+
+	.navigation-link {
+	    top: 75px;
+	}
+
+}
