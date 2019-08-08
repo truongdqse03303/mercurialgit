@@ -200,4 +200,5 @@
 	replace:'千葉' 	'千葉';
 	replace:'埼玉' 	'埼玉';
 	replace:'群馬' 	'群馬';
+	replace:'<li><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">(.*?)<br>(.*?)</a></li>' '<li clftx=\\\\"exclude\\\\"><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">首次的TIPNESS</a></li>';
 }

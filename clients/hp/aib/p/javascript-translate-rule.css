@@ -201,8 +201,6 @@
 	replace:'埼玉' 	'Saitama';
 	replace:'群馬' 	'Gunma';
 	replace:'<li><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">(.*?)<br>(.*?)</a></li>' '<li><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">Primeiro<br>TIPNESS</a></li>';
-	replace:'店舗によって違う施設やプログラムを楽しみたい方にスタートアップ会員\\(FG24Plus\\)' 	'Para aqueles que querem desfrutar de diferentes instalações e programas, dependendo da academia, Membro de start-up (FG24 Plus)';
-	replace:'夏カラダ企画\\(FG24Plus\\)' 	'Plano Corpo de verão (FG24Plus)';
 	replace:'エディフィス山陽' 	'Edifice Sanyo Building';
 	replace:'she‐Bopビル3～5F' 	'She‐Bop Building 3-5F';
 	replace:'新宿イーストサイドスクエアB1F' 	'SHINJUKU EASTSIDE SQUARE B1F';

@@ -10,3 +10,7 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess {
+	replace:'<span>\\\¥(.*?)</span>月' '<span>$1</span><br style="display:none;">월';
+}

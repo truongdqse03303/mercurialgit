@@ -165,6 +165,9 @@
 	replace:'天王寺店' 'Tennoji store';
 	replace:'布施店' 'Fuse store';
 	replace:'武庫之荘店' 'Mukonosou store';
+	replace:'TIP.X TOKYO新宿' 'TIP.X TOKYO Shinjuku';
+	replace:'TIP.X TOKYO渋谷' 'TIP.X TOKYO Shibuya';
+	replace:'TIP.X TOKYO池袋' 'TIP.X TOKYO Ikebukuro';
 	replace:'<label for=\\\\"footer_search_check\\\\" class=\\\\"tip-mod-footer__search__button\\\\"><span>(.*?)</span></label>' '<label for=\\\\"footer_search_check\\\\" class=\\\\"tip-mod-footer__search__button\\\\"><span>Find a store</span></label>';
 	replace:'位置情報が取得できませんでした。' 'Location information could not be obtained,';
 	replace:'位置情報の許可をONにしてください。' 'Please turn on the location information permission.';
