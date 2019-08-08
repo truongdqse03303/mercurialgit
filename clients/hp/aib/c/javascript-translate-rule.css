@@ -1,4 +1,7 @@
 @preprocess {
+	replace:'TIP.X TOKYO新宿' 'TIP.X TOKYO 新宿';
+	replace:'TIP.X TOKYO渋谷' 'TIP.X TOKYO 涩谷';
+	replace:'TIP.X TOKYO池袋' 'TIP.X TOKYO 池袋';
 	replace:'綾瀬店' 	'绫濑店';
 	replace:'大泉学園店' 	'大泉学园店';
 	replace:'蒲田店' 	'蒲田店';

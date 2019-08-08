@@ -1,4 +1,7 @@
 @preprocess {
+	replace:'TIP.X TOKYO新宿' 	'TIP.X TOKYO Shinjuku';
+	replace:'TIP.X TOKYO渋谷' 	'TIP.X TOKYO Shibuya';
+	replace:'TIP.X TOKYO池袋' 	'TIP.X TOKYO Ikebukuro';
 	replace:'綾瀬店' 	'Loja de Ayase';
 	replace:'大泉学園店' 	'Loja de Oizumi Gakuen';
 	replace:'蒲田店' 	'Loja de Kamata';
@@ -90,8 +93,10 @@
 	replace:'両国店' 	'Loja de Ryogoku';
 	replace:'早稲田店' 	'Loja de Waseda';
 	replace:'ティップネス日本橋スタイル' 	'Loja de Tipness Nihonbashi Style';
+	replace:'日本橋スタイル' 	'Nihonbashi Style';
 	replace:'リベリー日本橋高島屋' 	'Loja de libéry Nihonbashi Takashimaya';
 	replace:'ティップネス丸の内スタイル' 	'Tipness Marunouchi Style';
+	replace:'丸の内スタイル' 	'Marunouchi Style';
 	replace:'国立富士見台店' 	'Loja de Kunitachi-Fujimidai';
 	replace:'小平店' 	'Loja de Kodaira';
 	replace:'柴崎店' 	'Loja de Shibasaki';

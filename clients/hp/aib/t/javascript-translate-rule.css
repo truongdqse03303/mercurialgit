@@ -1,6 +1,9 @@
 @preprocess {
+	replace:'TIP.X TOKYO新宿' 'TIP.X TOKYO 新宿';
+	replace:'TIP.X TOKYO渋谷' 'TIP.X TOKYO 澀谷';
+	replace:'TIP.X TOKYO池袋' 'TIP.X TOKYO 池袋';
 	replace:'綾瀬店' 	'綾瀨店';
-	replace:'大泉学園店' 	'大泉學園店';
+	replace:'大泉学園店' '大泉學園店';
 	replace:'蒲田店' 	'蒲田店';
 	replace:'喜多見店' 	'喜多見店';
 	replace:'木場店' 	'木場店';
@@ -91,8 +94,10 @@
 	replace:'両国店' 	'兩國店';
 	replace:'早稲田店'	'早稻田店';
 	replace:'ティップネス日本橋スタイル' 	'TIPNESS日本橋風格';
+	replace:'日本橋スタイル' 	'日本橋風格';
 	replace:'リベリー日本橋高島屋' 	'libéry日本橋高島屋';
 	replace:'ティップネス丸の内スタイル' 	'TIPNESS丸之內風格';
+	replace:'丸の内スタイル' 	'丸之內風格';
 	replace:'国立富士見台店' 	'國立富士見台店';
 	replace:'小平店' 	'小平店';
 	replace:'柴崎店' 	'柴崎店';

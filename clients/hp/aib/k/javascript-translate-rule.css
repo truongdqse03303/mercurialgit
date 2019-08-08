@@ -1,4 +1,7 @@
 @preprocess {
+	replace:'TIP.X TOKYO新宿' 'TIP.X TOKYO 신주쿠';
+	replace:'TIP.X TOKYO渋谷' 'TIP.X TOKYO 시부야';
+	replace:'TIP.X TOKYO池袋' 'TIP.X TOKYO 이케부쿠로';
 	replace:'綾瀬店' 	'아야세점';
 	replace:'大泉学園店' 	'오이즈미가쿠엔점';
 	replace:'蒲田店' 	'가마타점';
