@@ -208,5 +208,5 @@
 }
 
 @postprocess {
-	replace:'<li><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">(.*?)<br>(.*?)</a></li>' '<li clftx=\\\\"exclude\\\\"><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">처음 팁네스</a></li>';
+	replace:'<li><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">(.*?)</a></li>' '<li clftx=\\\\"exclude\\\\"><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">처음 팁네스</a></li>';
 }
