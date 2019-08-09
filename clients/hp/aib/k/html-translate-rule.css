@@ -12,5 +12,5 @@
 }
 
 @preprocess {
-	replace:'<span>\\\¥(.*?)</span>月' '<span>$1</span><br style="display:none;">월';
+	replace:'<span>\\\¥(.*?)</span>月' '<span>\\\¥$1</span><br style="display:none;">월';
 }

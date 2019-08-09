@@ -205,5 +205,5 @@
 	replace:'千葉' 	'지바';
 	replace:'埼玉' 	'사이타마';
 	replace:'群馬' 	'군마';
-	replace:'<li><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">(.*?)<br>(.*?)</a></li>' '<li clftx=\\\\"exclude\\\\"><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">시작한 팁네스→처음 팁네스</a></li>';
+	replace:'<li><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">(.*?)<br>(.*?)</a></li>' '<li clftx=\\\\"exclude\\\\"><a href=\\\\"/concept/orj4a90qo98acwk8.html\\\\">처음 팁네스</a></li>';
 }
