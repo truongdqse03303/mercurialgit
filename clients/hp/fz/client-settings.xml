@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="www.city.ama.aichi.jp" />
+    <request hostname="www.city.ama.aichi.jp" ssl="true" />
     <request hostname="61.122.228.79" />
   </request-list>
 

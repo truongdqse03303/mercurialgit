@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="cubic-wp.dev.alhena.jp" ssl="true" ssl_verifypeer="false" />
-    <request hostname="www.cubicplaza.com" />
+    <request hostname="www.cubicplaza.com" ssl="true" />
   </request-list>
 
   <!-- Basic認証 -->
@@ -34,7 +34,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>http://www\.cubicplaza\.com/wp-content/themes/cubic2019/static/css/.*</param-value>
+      <param-value>(http|https)://www\.cubicplaza\.com/wp-content/themes/cubic2019/static/css/.*</param-value>
     </param>
     <param>
       <param-name>resource.type.name</param-name>

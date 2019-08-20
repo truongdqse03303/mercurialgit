@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="lacittadella.co.jp" />
+    <request hostname="lacittadella.co.jp" ssl="true" />
   </request-list>
 
   <!-- 翻訳対象外URLの一覧 -->

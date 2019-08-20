@@ -18,6 +18,8 @@
     <request hostname="osakadomecity-aeonmall.com" ssl="true" />
     <request hostname="wakayama-aeonmall.com" ssl="true" />
     <request hostname="kochi-aeonmall.com" />
+    <request hostname="kobeminami-aeonmall.com" ssl="true" />
+
   </request-list>
   
       <!-- URLとリソース種類のマッピングの設定 -->
@@ -26,7 +28,7 @@
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
     <param>
       <param-name>resource.url.pattern</param-name>
-      <param-value>(http|https)://(asahikawanishi-aeonmall|odaka-aeonmall|kyotokatsuragawa-aeonmall|kofushowa-aeonmall|higashiura-aeonmall|suzuka-aeonmall|tsurumiryokuchi-aeonmall|osakadomecity-aeonmall|wakayama-aeonmall|kochi-aeonmall).(com|jp)/(json_api/.*|theme/RenewalPage/templates.html)</param-value>
+      <param-value>(http|https)://(asahikawanishi-aeonmall|odaka-aeonmall|kyotokatsuragawa-aeonmall|kofushowa-aeonmall|higashiura-aeonmall|suzuka-aeonmall|tsurumiryokuchi-aeonmall|osakadomecity-aeonmall|wakayama-aeonmall|kochi-aeonmall|kobeminami-aeonmall).(com|jp)/(json_api/.*|theme/RenewalPage/templates.html)</param-value>
      </param>
     <param>
       <param-name>resource.type.name</param-name>

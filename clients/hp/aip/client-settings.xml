@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>大樹町役場</name>
-  
+  <name>松本市（観光サイト）</name>
+
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>taiki/service 56794def701cc3430363ce81bb5dc3a02a4ee83d</licence>
-  
+  <licence>matsumoto-fun/service 8465f3fd9a5440034fc682fda5531c822f48068f</licence>
+
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.town.taiki.hokkaido.jp" ssl="true" />
+    <request hostname="www.matsumoto.fun" />
   </request-list>
 
-  <!-- サイトで使用される文字セット（任意） -->
-  <charset>Shift_JIS</charset>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
 </client-settings>
