@@ -10,3 +10,23 @@
   eid: MS-JAVI;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess {
+	replace: '/img/toho/keyv_toho_01.jpg' '/img/toho/keyv_toho_01_vn.jpg';
+	replace: '/img/toho/keyv_toho_02.jpg' '/img/toho/keyv_toho_02_vn.jpg';
+	replace: '/img/toho/keyv_toho_03.jpg' '/img/toho/keyv_toho_03_vn.jpg';
+	replace: '/img/toho/keyv_toho_04.jpg' '/img/toho/keyv_toho_04_vn.jpg';
+	replace: '/img/toho/keyv_toho_05.jpg' '/img/toho/keyv_toho_05_vn.jpg';
+	replace: '/img/movie/keyv_movie_01.jpg' '/img/movie/keyv_movie_01_vn.jpg';
+	replace: '/img/movie/keyv_movie_02.jpg' '/img/movie/keyv_movie_02_vn.jpg';
+	replace: '/img/movie/keyv_movie_03.jpg' '/img/movie/keyv_movie_03_vn.jpg';
+	replace: '/img/movie/keyv_movie_04.jpg' '/img/movie/keyv_movie_04_vn.jpg';
+	replace: '/img/movie/keyv_movie_05.jpg' '/img/movie/keyv_movie_05_vn.jpg';
+	replace: '/img/onkyo/keyv_onkyo_01.jpg' '/img/onkyo/keyv_onkyo_01_vn.jpg';
+	replace: '/img/onkyo/keyv_onkyo_02.jpg' '/img/onkyo/keyv_onkyo_02_vn.jpg';
+	replace: '/img/announce/keyv_announce_01.jpg' '/img/announce/keyv_announce_01_vn.jpg';
+	replace: '/img/announce/keyv_announce_02.jpg' '/img/announce/keyv_announce_02_vn.jpg';
+	replace: '/img/announce/keyv_announce_03.jpg' '/img/announce/keyv_announce_03_vn.jpg';
+	replace: '/img/announce/keyv_announce_04.jpg' '/img/announce/keyv_announce_04_vn.jpg';
+	replace: '/img/announce/keyv_announce_05.jpg' '/img/announce/keyv_announce_05_vn.jpg';
+}
