@@ -6,6 +6,10 @@ div.text-center {
 attribute: clftx add 'exclude';
 }
 
+.btnMenu > img {
+	attribute: cltx add 'exclude';
+}
+
 @preprocess {
  replace: '<div class="boxLanguages">' '<div class="boxLanguages cl-notranslate">';
 }
