@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>札幌市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-sapporo/service af59e323614e4f31bc8c701b1166f4f1bd029b7f</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.sapporo.jp" ssl="true" />
+  </request-list>
+
+  <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
+  </extension-param>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

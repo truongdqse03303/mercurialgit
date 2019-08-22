@@ -1,0 +1,36 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:auto;
+	box-sizing: border-box;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+	letter-spacing: normal;
+
+}
+
+#site-translate-message{
+	display:block;	
+	vertical-align:middle;
+	padding: 3px 0;
+	text-align: center;
+}
+
+p, ul, dl, ol, li, address, legend {
+    letter-spacing: normal;
+}
+
+.slidemenu {
+    z-index: 999 !important;
+}
+
+.bx-pager-item {
+	width:auto ;
+}
+
+.design #zone01 .j_s ul {
+    padding: 0 0 0 5px;
+    font-size: 90%;
+}
