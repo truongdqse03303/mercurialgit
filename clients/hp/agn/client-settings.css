@@ -60,26 +60,6 @@
     font-size: 110%;
 }
 
-@media screen and (max-width: 736px) {
-
-	#topicPath {
-	    margin-top: 99px;
-	}
-
-	.buttonBlock .buttonList li {
-	    width: 100%;
-	}
-
-}
-
-@media screen and (max-width: 980px) {
-
-	.pageSchool #description {
-		margin: 0;
-	}
-
-}
-
 /*追加*/
 #navi {
     width: 96%;
@@ -109,4 +89,60 @@
 #naviGuidelines .naviExtra .naviList li:last-child ul li.first {
 	height: 0;
     padding: 0;
+}
+
+@media screen and (min-width: 737px) {
+
+	html:lang(vi) .pageSchool #description,
+	html:lang(id) .pageSchool #description {
+	    margin: 15px 0 0 0;
+	}
+
+	html:lang(id) .hLeft {
+	    width: 38.5%;
+	}
+
+	html:lang(id) .hRight {
+	    width: 60.8%;
+	    margin-right: 0;
+	}
+
+	html:lang(vi) .hLeft {
+	    width: 42%;
+	}
+
+	html:lang(vi) .hRight {
+	    width: 57%;
+	    margin-right: 0;
+	}
+
+	html:lang(vi) .hElement,
+	html:lang(id) .hElement {
+	    text-align: left;
+	}
+
+	html:lang(vi) .hElement .logoSmall,
+	html:lang(id) .hElement .logoSmall {
+	    padding-right: 0;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	#topicPath {
+	    margin-top: 99px;
+	}
+
+	.buttonBlock .buttonList li {
+	    width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 980px) {
+	.pageSchool #description {
+		display: block;
+		margin: 0;
+	}
 }

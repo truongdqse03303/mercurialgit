@@ -19,3 +19,12 @@
 	replace:'<p class="text"><em class="p1">(.*?)</em>(.*?)</p>' '<p class="text"><em class="p1">$1</em><br style="display:none;">$2</p>';
 	replace:'<p class="text"><em class="p2">(.*?)</em>(.*?)</p>' '<p class="text"><em class="p2">$1</em><br style="display:none;">$2</p>';
 }
+
+// @RULESET
+// URL #= //www.tohogakuen.ac.jp/toho/.*
+// URL #= //www.tohogakuen.ac.jp/movie/.*
+// URL #= //www.tohogakuen.ac.jp/onkyo/.*
+// URL #= //www.tohogakuen.ac.jp/announce/.*
+@postprocess {
+	replace:'<p id="description">(.*?)<br>(.*?)</p>' '<p id="description">$1$2</p>';
+}
