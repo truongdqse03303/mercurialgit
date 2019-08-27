@@ -26,11 +26,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic c2RyOnNoaWJ1eWEwOTAx</param-value>
+      <param-value>Basic YnJpZGdlOmJyaWRnZTEyOQ==</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https)://stage\.shibuyabridge\.jp.*</param-value>
+      <param-value>(http|https)://shibuyabridge\.jp/workers/.*</param-value>
     </param>
   </resource-handler>
 

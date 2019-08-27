@@ -1,3 +1,11 @@
 #site-translate-header-wrapper{
 	width: auto !important;
 }
+
+@media screen and (max-width: 767px) {
+	
+	#footer .navi li {
+		white-space: normal;
+	}	
+	
+}
