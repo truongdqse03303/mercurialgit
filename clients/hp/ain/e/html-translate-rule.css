@@ -83,5 +83,5 @@
 // @RULESET
 // URL #= //www.city.sapporo.jp/.*
 @postprocess {
-	replace: '<title(.*?)>(.*?)Sapporo-shi(.*?)</title>' '<title $1>$2 City of Sapporo $3</title>';
+	replace: '<title(.*?)>(.*?)Sapporo\-shi(.*?)</title>' '<title $1>$2 City of Sapporo $3</title>';
 }
