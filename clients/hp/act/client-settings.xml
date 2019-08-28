@@ -10,7 +10,7 @@
   <request-list>
     <request hostname="31urban.jp" />
     <request hostname="mitsui-shopping-park.com" path="(/urban|/lalaport/iwata/|/gourmet/lalaport/iwata/|/gourmet/wp-admin/)" ssl="true" />
-    <request hostname="test-mitsui-shopping-park.com" path="/lalaport/|/gourmet/lalaport/iwata/|/gourmet/wp-admin/" ssl="true" />
+    <request hostname="test-mitsui-shopping-park.com" path="(/lalaport/|/gourmet/lalaport/iwata/|/gourmet/wp-admin/)" ssl="true" />
   </request-list>
 
   <extension-param>
