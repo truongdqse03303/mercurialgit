@@ -18,15 +18,68 @@
 	replace: '<title(.*?)>(.*?)札幌市中央図書館(.*?)</title>' '<title $1>$2 삿포로시 주오도서관 $3</title>';
 	replace: '<title(.*?)>(.*?)札幌市円山動物園(.*?)</title>' '<title $1>$2 삿포로시 마루야마 동물원 $3</title>';
 	replace: '<title(.*?)>(.*?)札幌市交通局(.*?)</title>' '<title $1>$2 삿포로시 교통국 $3</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/chuo/.*
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市中央区(.*?)</title>' '<title $1>$2 삿포로시 주오구청 $3</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/kitaku/.*
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市北区(.*?)</title>' '<title $1>$2 삿포로시 기타구청 $3</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/higashi/.*
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市東区(.*?)</title>' '<title $1>$2 삿포로시 히가시구청 $3</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/shiroishi/.*
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市白石区(.*?)</title>' '<title $1>$2 삿포로시 시로이시구청 $3</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/atsubetsu/.*
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市厚別区(.*?)</title>' '<title $1>$2 삿포로시 아쓰베쓰구청 $3</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/toyohira/.*
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市豊平区(.*?)</title>' '<title $1>$2 삿포로시 도요히라구청 $3</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/kiyota/.*
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市清田区(.*?)</title>' '<title $1>$2 삿포로시 기요타구청 $3</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/minami/.*
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市南区(.*?)</title>' '<title $1>$2 삿포로시 미나미구청 $3</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/nishi/.*
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市西区(.*?)</title>' '<title $1>$2 삿포로시 니시구청 $3</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/teine/.*
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市手稲区(.*?)</title>' '<title $1>$2 삿포로시 데이네구청 $3</title>';
+}
+
+@preprocess {
 	replace: '<title(.*?)>(.*?)札幌市(.*?)</title>' '<title $1>$2 삿포로시 $3</title>';
 }

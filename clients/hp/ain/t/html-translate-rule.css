@@ -18,15 +18,68 @@
 	replace: '<title>(.*?)札幌市中央図書館(.*?)</title>' '<title>$1札幌市中央圖書館$2</title>';
 	replace: '<title>(.*?)札幌市円山動物園(.*?)</title>' '<title>$1札幌市圓山動物園$2</title>';
 	replace: '<title>(.*?)札幌市交通局(.*?)</title>' '<title>$1札幌市交通局$2</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/shiroishi/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市白石区(.*?)</title>' '<title>$1札幌市白石區役所$2</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/atsubetsu/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市厚別区(.*?)</title>' '<title>$1札幌市厚別區役所$2</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/toyohira/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市豐平区(.*?)</title>' '<title>$1札幌市豐平區役所$2</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/kiyota/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市清田区(.*?)</title>' '<title>$1札幌市清田區役所$2</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/minami/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市南区(.*?)</title>' '<title>$1札幌市南區役所$2</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/nishi/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市西区(.*?)</title>' '<title>$1札幌市西區役所$2</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/chuo/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市中央区(.*?)</title>' '<title>$1札幌市中央區役所$2</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/kitaku/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市北区(.*?)</title>' '<title>$1札幌市北區役所$2</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/higashi/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市東区(.*?)</title>' '<title>$1札幌市東區役所$2</title>';
+}
+
+// @RULESET
+// URL #= //www.city.sapporo.jp/teine/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市手稲区(.*?)</title>' '<title>$1札幌市手稻區役所$2</title>';
+}
+
+@preprocess {
 	replace: '<title>(.*?)札幌市(.*?)</title>' '<title>$1札幌市$2</title>';
 }
