@@ -15,6 +15,9 @@ body {
   attribute: lang add 'zh';
 }
 
+@preprocess {
+	replace: 'lang=ja_jp' 'lang=zh_cn';
+}
 
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市(.*?)</title>' '<title cltx>$1札幌市$2</title>';
@@ -27,61 +30,61 @@ body {
 }
 
 // @RULESET
-// URL #= //www.city.sapporo.jp/chuo/.*
+// URL #= //www\.city\.sapporo\.jp/chuo/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市中央区(.*?)</title>' '<title cltx>$1札幌市中央区役所$2</title>';
 }
 
 // @RULESET
-// URL #= //www.city.sapporo.jp/kitaku/.*
+// URL #= //www\.city\.sapporo\.jp/kitaku/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市北区(.*?)</title>' '<title cltx>$1札幌市北区役所$2</title>';
 }
 
 // @RULESET
-// URL #= //www.city.sapporo.jp/higashi/.*
+// URL #= //www\.city\.sapporo\.jp/higashi/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市東区(.*?)</title>' '<title cltx>$1札幌市东区役所$2</title>';
 }
 
 // @RULESET
-// URL #= //www.city.sapporo.jp/teine/.*
+// URL #= //www\.city\.sapporo\.jp/teine/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市手稻区(.*?)</title>' '<title cltx>$1札幌市手稻区役所$2</title>';
 }
 
 // @RULESET
-// URL #= //www.city.sapporo.jp/shiroishi/.*
+// URL #= //www\.city\.sapporo\.jp/shiroishi/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市白石区(.*?)</title>' '<title cltx>$1札幌市白石区役所$2</title>';
 }
 
 // @RULESET
-// URL #= //www.city.sapporo.jp/atsubetsu/.*
+// URL #= //www\.city\.sapporo\.jp/atsubetsu/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市厚別区(.*?)</title>' '<title cltx>$1札幌市厚别区役所$2</title>';
 }
 
 // @RULESET
-// URL #= //www.city.sapporo.jp/toyohira/.*
+// URL #= //www\.city\.sapporo\.jp/toyohira/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市豊平区(.*?)</title>' '<title cltx>$1札幌市丰平区役所$2</title>';
 }
 
 // @RULESET
-// URL #= //www.city.sapporo.jp/kiyota/.*
+// URL #= //www\.city\.sapporo\.jp/kiyota/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市清田区(.*?)</title>' '<title cltx>$1札幌市清田区役所$2</title>';
 }
 
 // @RULESET
-// URL #= //www.city.sapporo.jp/minami/.*
+// URL #= //www\.city\.sapporo\.jp/minami/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市南区(.*?)</title>' '<title cltx>$1札幌市南区役所$2</title>';
 }
 
 // @RULESET
-// URL #= //www.city.sapporo.jp/nishi/.*
+// URL #= //www\.city\.sapporo\.jp/nishi/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市西区(.*?)</title>' '<title cltx>$1札幌市西区役所$2</title>';
 }
