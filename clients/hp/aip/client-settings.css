@@ -41,9 +41,13 @@
 }
 
 body.drawer {
-    top: 44px !important;
+	margin: 44px auto 0;
 }
 
 .drawer-hamburger {
     top: 62px;
+}
+
+.index-side-calendar h3 {
+    font-size: 85%;
 }
