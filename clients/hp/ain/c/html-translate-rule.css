@@ -19,13 +19,45 @@ body {
 	replace: 'lang=ja_jp' 'lang=zh_cn';
 }
 
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/.*
 @postprocess {
 	replace: '<title cltx>(.*?)札幌市(.*?)</title>' '<title cltx>$1札幌市$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/gikai/.*
+@postprocess {
 	replace: '<title cltx>(.*?)札幌市議会(.*?)</title>' '<title cltx>$1札幌市议会$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/suido/.*
+@postprocess {
 	replace: '<title cltx>(.*?)札幌市水道局(.*?)</title>' '<title cltx>$1札幌市自来水局$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/hospital/.*
+@postprocess {
 	replace: '<title cltx>(.*?)市立札幌病院(.*?)</title>' '<title cltx>$1札幌市立医院$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/toshokan/.*
+@postprocess {
 	replace: '<title cltx>(.*?)札幌市中央図書館(.*?)</title>' '<title cltx>$1札幌市中央图书馆$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/zoo/.*
+@postprocess {
 	replace: '<title cltx>(.*?)札幌市円山動物園(.*?)</title>' '<title cltx>$1札幌市圆山动物园$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/st/.*
+@postprocess {
 	replace: '<title cltx>(.*?)札幌市交通局(.*?)</title>' '<title cltx>$1札幌市交通局$2</title>';
 }
 

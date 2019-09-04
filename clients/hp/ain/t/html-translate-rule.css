@@ -15,12 +15,39 @@
 	replace: 'lang=ja_jp' 'lang=zh_tw';
 }
 
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/gikai/.*
 @preprocess {
 	replace: '<title>(.*?)札幌市議会(.*?)</title>' '<title>$1札幌市議會$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/suido/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市水道局(.*?)</title>' '<title>$1札幌市自來水局$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/hospital/.*
+@preprocess {
 	replace: '<title>(.*?)市立札幌病院(.*?)</title>' '<title>$1市立札幌醫院$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/toshokan/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市中央図書館(.*?)</title>' '<title>$1札幌市中央圖書館$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/zoo/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市円山動物園(.*?)</title>' '<title>$1札幌市圓山動物園$2</title>';
+}
+
+// @RULESET
+// URL #= //www\.city\.sapporo\.jp/st/.*
+@preprocess {
 	replace: '<title>(.*?)札幌市交通局(.*?)</title>' '<title>$1札幌市交通局$2</title>';
 }
 
