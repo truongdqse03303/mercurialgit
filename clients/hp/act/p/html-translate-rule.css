@@ -23,14 +23,14 @@
 	replace: '21h00' '21\\:00';
 	replace: '22h00' '22\\:00';
 	replace: 'De 10\\:00 a 22\\:00' '10\\:00 – 22\\:00';
-	replace: '<a href="(.*?)?kana=あ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=あ"><strong class="child-menu__link"><span>a</span></strong></a>';
-	replace: '<a href="(.*?)?kana=か"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=か"><strong class="child-menu__link"><span>ka</span></strong></a>';
-	replace: '<a href="(.*?)?kana=さ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=さ"><strong class="child-menu__link"><span>sa</span></strong></a>';
-	replace: '<a href="(.*?)?kana=た"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=た"><strong class="child-menu__link"><span>ta</span></strong></a>';
-	replace: '<a href="(.*?)?kana=な"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=な"><strong class="child-menu__link"><span>na</span></strong></a>';
-	replace: '<a href="(.*?)?kana=は"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=は"><strong class="child-menu__link"><span>ha</span></strong></a>';
-	replace: '<a href="(.*?)?kana=ま"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=ま"><strong class="child-menu__link"><span>ma</span></strong></a>';
-	replace: '<a href="(.*?)?kana=や"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=や"><strong class="child-menu__link"><span>ya</span></strong></a>';
-	replace: '<a href="(.*?)?kana=ら"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=ら"><strong class="child-menu__link"><span>ra</span></strong></a>';
-	replace: '<a href="(.*?)?kana=わ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1?kana=わ"><strong class="child-menu__link"><span>wa</span></strong></a>';
+	replace: '<a href="(.*?)kana=あ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=あ"><strong class="child-menu__link"><span>a</span></strong></a>';
+	replace: '<a href="(.*?)kana=か"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=か"><strong class="child-menu__link"><span>ka</span></strong></a>';
+	replace: '<a href="(.*?)kana=さ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=さ"><strong class="child-menu__link"><span>sa</span></strong></a>';
+	replace: '<a href="(.*?)kana=た"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=た"><strong class="child-menu__link"><span>ta</span></strong></a>';
+	replace: '<a href="(.*?)kana=な"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=な"><strong class="child-menu__link"><span>na</span></strong></a>';
+	replace: '<a href="(.*?)kana=は"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=は"><strong class="child-menu__link"><span>ha</span></strong></a>';
+	replace: '<a href="(.*?)kana=ま"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=ま"><strong class="child-menu__link"><span>ma</span></strong></a>';
+	replace: '<a href="(.*?)kana=や"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=や"><strong class="child-menu__link"><span>ya</span></strong></a>';
+	replace: '<a href="(.*?)kana=ら"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=ら"><strong class="child-menu__link"><span>ra</span></strong></a>';
+	replace: '<a href="(.*?)kana=わ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=わ"><strong class="child-menu__link"><span>wa</span></strong></a>';
 }

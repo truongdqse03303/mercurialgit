@@ -18,9 +18,9 @@
 }
 
 @postprocess {
-	replace: '<a href="(.*?)?kana=あ"><strong class="child-menu__link"><span>Oh</span></strong></a>' '<a href="$1?kana=あ"><strong class="child-menu__link"><span>a</span></strong></a>';
-	replace: '<a href="(.*?)?kana=は"><strong class="child-menu__link"><span>This</span></strong></a>' '<a href="$1?kana=は"><strong class="child-menu__link"><span>ha</span></strong></a>';
-	replace: '<a href="(.*?)?kana=や"><strong class="child-menu__link"><span>This</span></strong></a>' '<a href="$1?kana=や"><strong class="child-menu__link"><span>ya</span></strong></a>';
+	replace: '<a href="(.*?)kana=あ"><strong class="child-menu__link"><span>Oh</span></strong></a>' '<a href="$1kana=あ"><strong class="child-menu__link"><span>a</span></strong></a>';
+	replace: '<a href="(.*?)kana=は"><strong class="child-menu__link"><span>This</span></strong></a>' '<a href="$1kana=は"><strong class="child-menu__link"><span>ha</span></strong></a>';
+	replace: '<a href="(.*?)kana=や"><strong class="child-menu__link"><span>This</span></strong></a>' '<a href="$1kana=や"><strong class="child-menu__link"><span>ya</span></strong></a>';
 }
 
 // @RULESET
