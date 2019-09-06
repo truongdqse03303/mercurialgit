@@ -1,3 +1,5 @@
+// @RULESET
+// URL #= //hareza-ikebukuro\.com/office/.*
 @preprocess{
 	replace:'<h3 class="headings-panel"><small>(.*?)</small>(.*?)</h3>' '<h3 class="headings-panel"><small>$1</small><br style="display:none;">$2</h3>';
 	replace:'<a (.*?)>(.*?)<small>(.*?)</small>(.*?)</a>' '<a $1>$2<small>$3</small><br style="display:none;">$4</a>';
