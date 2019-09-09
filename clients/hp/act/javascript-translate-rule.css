@@ -1,0 +1,6 @@
+// @RULESET
+// URL #= //mitsui-shopping-park.com/.*/common/js/common.js
+@postprocess {
+	replace: 'css\\(\'top\',\'13px\'\\)' 'css\\(\'top\',\'57px\'\\)';
+	replace: 'css\\(\'top\', 45' 'css\\(\'top\', 89';
+}

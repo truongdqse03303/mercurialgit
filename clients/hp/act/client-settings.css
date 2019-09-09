@@ -1,18 +1,40 @@
 #site-translate-header-wrapper{
-	width:auto!important;
-	border: dotted 2px #FF0000;
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+	z-index: 99999;
 }
 
-#site-translate-header-wrapper p{
-	box-sizing: border-box;
-	padding: 10px;
-	color: red;
-	font-weight: bold;
+#site-translate-header-wrapper p {
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:
+	table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+    padding: 0;
 }
 
 body:lang(en),
 body:lang(pt){
 	word-break: normal;
+}
+
+header {
+	margin: 44px auto 0;
+}
+
+.mobile_menu {
+    top: 57px !important;
+}
+
+.fixed {
+    top: 44px !important;
 }
 
 .storeList ul li p {
@@ -26,6 +48,14 @@ body:lang(pt){
 
 .recommended__area {
     width: 990px;
+}
+
+.header__body.drawer-navbar--fixed {
+    top: 44px !important;
+}
+
+.drawer #sp-side {
+    margin: 44px auto 0;
 }
 
 @media screen and (min-width: 769px) {
@@ -60,7 +90,7 @@ body:lang(pt){
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
 	#site-translate-header-wrapper p {
 		font-size: 80%;
@@ -74,6 +104,10 @@ body:lang(pt){
 		top: 124px !important;
 	}
 
+	.header__body {
+		top: 74px !important;
+	}
+	
 	.footerNav .footerClm {
 		max-width: 95% !important;
 	}
