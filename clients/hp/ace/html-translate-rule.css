@@ -3,6 +3,7 @@
 }
 
 @preprocess {
+	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 	replace:'<h1>(.*?)<span>(.*?)</span></h1>' '<h1>$1<br style="display:none;"><span>$2</span><br style="display:none;"></h1>';
 	replace:'<h2>(.*?)<span>(.*?)</span></h2>' '<h2>$1<br style="display:none;"><span>$2</span></h2>';
 	replace:'<p class="tdPrice">(.*?)<span>(.*?)</span></p>' '<p class="tdPrice">$1<span><br style="display:none;">$2<br style="display:none;"></span></p>';
