@@ -1,0 +1,13 @@
+#struct > #container > #mainBlock > .flash {
+	attribute:cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<span class="tel">' '<br style="display:none;"><span class="tel">';
+	replace:'<span class="fax">' '<br style="display:none;"><span class="fax">';
+	replace:'<span class="mail">' '<br style="display:none;"><span class="mail">';
+}
+
+@postprocess {
+	replace:'%E2%8A%82' '&amp;sub';
+}
