@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>宮城県東松島市（川嶋印刷）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-higashimatsushima/service ad7b46debf978d0ae2382166a8c9aaa0bef23623</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.higashimatsushima.miyagi.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
