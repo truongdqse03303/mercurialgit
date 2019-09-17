@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.vill.tobishima.aichi.jp" />
+    <request hostname="www.vill.tobishima.aichi.jp" ssl="true" />
     <request hostname="www1.vill.tobishima.lg.jp" path="/Library/" />
     <request hostname="www.tobishima-syakyo.jp" />
   </request-list>
