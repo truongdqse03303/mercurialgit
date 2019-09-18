@@ -12,6 +12,7 @@
     <request hostname="bosai.city.shibuya.tokyo.jp" />
     <request hostname="104.46.234.155" />
     <request hostname="shibuya-faq.dga.jp" />
+    <request hostname="ebisufan.com" />
   </request-list>
 
 

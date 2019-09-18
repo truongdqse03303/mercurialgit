@@ -11,10 +11,7 @@
     <request hostname="www.nihon-kankou.or.jp" />
     <request hostname="en.nks.iamdn.com" />    
   </request-list>
-  
-  <!-- コンテンツキャッシュ使用有無の設定-->
-  <use-cache>true</use-cache>
-  
+
       <!-- URLとリソース種類のマッピングの設定 -->
   <resource-handler>
     <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.SpecifiedTypeResourceCreateHandler</type>
