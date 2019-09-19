@@ -28,11 +28,6 @@
       <param-value>(http|https)://cmsstage\.jr-takashimaya\.co\.jp/.*</param-value>
     </param>
   </resource-handler>
-  <!-- デフォルトでHTML断片翻訳を行うかどうか -->
-  <extension-param>
-   <param-name>default.fragment.translate</param-name>
-   <param-value>false</param-value>
-  </extension-param>
   
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
