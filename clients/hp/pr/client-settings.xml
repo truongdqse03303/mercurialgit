@@ -9,8 +9,25 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.jr-takashimaya.co.jp" ssl="true" />
+    <request hostname="cmsstage.jr-takashimaya.co.jp" ssl="true" />
   </request-list>
-  
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic YWRnajptcHR3</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://cmsstage\.jr-takashimaya\.co\.jp/.*</param-value>
+    </param>
+  </resource-handler>
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
   <extension-param>
    <param-name>default.fragment.translate</param-name>

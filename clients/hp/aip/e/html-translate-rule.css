@@ -10,3 +10,46 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
 }
+
+// @RULESET
+// URL #= //www.matsumoto.fun/program/360/
+@preprocess {
+	replace: '<h1>【松本城から徒歩２分！】サムライ殺陣体験</h1>' '<h1>[2min from Matsumoto Castle!] Samurai Experience</h1>';
+	replace: '城下町松本でサムライになってみませんか\\？<br />(.*?)侍姿の講師が、刀を使ったアクションを丁寧に指導します。レッスンの最後には殺陣シーンの撮影も。まるで映画のワンシーンのような写真や動画の撮影が可能です。' 'Your chance to become a samurai now that you’ve been to Matsumoto Castle!<br>$1Learn the basic sword-wielding and take plenty of pictures and videos of your samurai skills back home with you.';
+	replace: '①(.*?)お手軽ショートコース（30分）' '①$1Quick course (30 minutes)';
+	replace: '刀の持ち方、基本動作を学びます。（サムライ衣装なし）' '・Learn how to handle a sword and some basic moves.<br>・Photo session/ Video shooting.<br>(No samurai outfit)';
+	replace: '②(.*?)おすすめスタンダードコース（90分）' '②$1Standard course (90 minutes) <Recommended>';
+	replace: 'サムライ衣装に着替え、刀の持ち方、構え方、殺陣を学びます。' '・Dress the samurai outfit<br>・Learn how to handle a sword and some basic moves as well as the basics of swordsmanship.<br>・Photo session　/ Video shooting.';
+	replace: '<td>1人</td>' '<td>1 people</td>';
+	replace: '5人（6人以上の場合は要相談）' '5 people (*6 or more may be possible upon request.)';
+	replace: '<td>①30分　②90分</td>' '<td>Quick course: 30 minutes / Standard course:  90 minutes</td>';
+	replace: '<td>当日15時まで</td>' '<td>By 15:00 on that day</td>';
+}
+
+// @RULESET
+// URL #= //www.matsumoto.fun/program/391/
+@preprocess {
+	replace: '<h1>【初心者大歓迎】和太鼓体験</h1>' '<h1>The taiko drum experience(Private class)</h1>';
+	replace: '「和太鼓を思いっきり打ってみたい！」そんなあなたにピッタリなプログラムです。(.*?)完全プライベートなので、小さなお子様連れのご家族でも安心してご参加いただけます。' 'In this private drum lesson, you will learn the basic taiko technique step by step from a local team that performs regularly in Matsumoto. No experience is necessary! Enjoy working out and have fun!';
+	replace: '10:00～16:00（事前予約制）' '10:00-16:00 (advance booking required)';
+	replace: '1.	基本（バチの落ち方、構え方）　15分' '1. Introduction (the structure of Japanese drums, how to grip your sticks, proper stance, etc): 15 minutes';
+	replace: '2.	基礎（基本のリズム）30分' '2. Basic rhythm excersice: 30 minutes';
+	replace: '3.	応用（講師と一緒に簡単な曲を合奏）30分' '3. Play a short piece and jam session : 30 minutes';
+	replace: '<td>1人</td>' '<td>1 people</td>';
+	replace: '8人（9人以上は要事前相談）' '8 people (9 or more can be possible upon request.)';
+	replace: '<td>60-90分</td>' '<td>60-90 minutes</td>';
+	replace: '<td>前日正午まで</td>' '<td>Book by the morning before</td>';
+}
+
+// @RULESET
+// URL #= //www.matsumoto.fun/program/370/
+@preprocess {
+	replace: '<h1>【蔵のまち中町で】三味線・端唄ミニライブ＆三味線体験' '<h1>Live Shamisen music & mini-workshop</h1>';
+	replace: '蔵造りの街並みで有名な中町通りにある小さな劇場「三味線芸遊館」で江戸情緒に浸ってみませんか？(.*?)松本城から徒歩10分とアクセスも良好です。お気軽にどうぞ♪' 'Just a few minutes\' walk from Matsumoto Castle is a quaint, local theater known as the Shamisen Geiyukan where you can pop in and listen to the shamisen tunes of Old Japan, followed by a cup of green tea and Japanese confection.<br>You can also try playing the shamisen yourself!';
+	replace: '三味線・端唄のミニライブ鑑賞（約30分）' 'Shamisen & hauta song performance (30 minutes)';
+	replace: '三味線体験（約30分）' 'Shamisen workshop (30 minutes)';
+	replace: '<td>なし(.*?)※予約の場合は3名より受付け</td>' '<td>At least 3 people for a booking request</td>';
+	replace: '<td>なし(.*?)※予約の場合は20名まで受付け' '<td>20 people</td>';
+	replace: '日祝の定期演奏は予約不要。' 'No booking required for Sundays & national holidays.<br>';
+	replace: 'その他の曜日は希望日5日前迄に要予約。' 'For any other day, book 5 days ahead.';
+}
