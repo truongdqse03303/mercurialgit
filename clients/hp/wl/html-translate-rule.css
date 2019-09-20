@@ -1,4 +1,5 @@
 @preprocess {
+ replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
  replace: '<option value="">日本語</option>' '<option value="" class="cl-notranslate">日本語</option>';
  replace: '<option value="">English</option>' '<option value="" class="cl-notranslate">English</option>';
  replace: '<option value="">繁體中文</option>' '<option value="" class="cl-notranslate">繁體中文</option>';

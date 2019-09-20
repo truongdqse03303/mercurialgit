@@ -58,6 +58,10 @@ header {
     margin: 44px auto 0;
 }
 
+.gNav.gNavTop.gNavFixed {
+    margin: 44px auto 0;
+}
+
 @media screen and (min-width: 769px) {
 
 	.header__nav__list li:nth-of-type(2) a,
