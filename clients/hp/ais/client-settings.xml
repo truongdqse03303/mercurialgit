@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>相模原市観光協会</name>
+  <name>シャフトラボ（USTmamiya）</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>e-sagamihara/service 1b738105cea88d474846883c47a8b8e9a60264aa</licence>
+  <licence>ustmamiya/service bb358ca2f8b79cb1a9a4976d24cd2b6fca705925</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.e-sagamihara.com" ssl="true" />
+    <request hostname="ustmamiya.jp" ssl="true" ssl_verifypeer="false" />
+    <request hostname="ustmamiya-jp.check-xserver.jp" />
   </request-list>
 
-  <!-- コンテンツキャッシュ使用有無の設定-->
-  <use-cache>true</use-cache>
-  
-    <!-- 免責事項をフッターに表示 -->
   <extension-param>
-    <param-name>show.translate.header</param-name>
-    <param-value>body</param-value>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->

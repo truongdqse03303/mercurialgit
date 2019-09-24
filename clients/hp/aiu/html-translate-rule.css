@@ -1,0 +1,21 @@
+#mainImageWrap,
+#mainVisual,
+.btn_tab,
+.btn_tab2{
+	attribute: cltx add 'exclude';
+}
+
+#twitter{
+	attribute: clftx add 'exclude';
+}
+
+// @RULESET
+// URL #= //www.town.saitama-miyoshi.lg.jp/index2.html.*
+// URL #= //www.town.saitama-miyoshi.lg.jp/event.html.*
+// URL #= //www.town.saitama-miyoshi.lg.jp/event/.*
+// URL #= //www.town.saitama-miyoshi.lg.jp/town/.*
+// URL #= //www.town.saitama-miyoshi.lg.jp/work/.*
+// URL #= //www.town.saitama-miyoshi.lg.jp/health/.*
+@preprocess {
+	replace:'</a> \-（(.*?)月(.*?)日）' '</a><br style="display:none;"> \-（$1月$2日）';
+}

@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.yokohamatriennale.jp" />
+    <request hostname="www.yokohamatriennale.jp" ssl="true" />
     <request hostname="yokohamatriennale.jp" />
   </request-list>
 

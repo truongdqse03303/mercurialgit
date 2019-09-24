@@ -1,0 +1,35 @@
+#site-translate-header-wrapper{
+    background-color: #000;
+	border: 1px dotted #FF0000;
+	width:100% !important;
+	position: fixed;
+	height: 44px;
+	top:0;
+	z-index: 999;
+}
+
+#site-translate-header-wrapper p{
+	color: #fff;
+	font-size:10px;
+	line-height: 12px;
+	height: 44px;
+	letter-spacing: normal;
+}
+
+#site-translate-message{
+	display:table-cell;
+	vertical-align:middle;
+	width:5000px;
+}
+
+header {
+    top: 44px !important;
+}
+
+.container {
+    padding-top: 138px !important;
+}
+
+.contents__inr.importanceShufft p {
+    letter-spacing: 0.55rem !important;
+}
