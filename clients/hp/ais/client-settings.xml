@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="ustmamiya.jp" ssl="true" ssl_verifypeer="false" />
+    <request hostname="ustmamiya.co.jp" ssl="true" ssl_verifypeer="false" />
     <request hostname="ustmamiya-jp.check-xserver.jp" />
   </request-list>
 
