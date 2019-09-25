@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.jr-takashimaya.co.jp" ssl="true" />
-    <request hostname="cmsstage.jr-takashimaya.co.jp" ssl="true" />
+    <request hostname="cmsstage.jr-takashimaya.co.jp" path="/today" ssl="true" />
   </request-list>
 
   <!-- Basic認証 -->

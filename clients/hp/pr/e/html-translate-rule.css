@@ -19,4 +19,5 @@
   replace: '\\(金\\)' '(Fri)';
   replace: '\\(土\\)' '(Sat)';
   replace: '\\(日\\)' '(Sun)';
+  replace: '<span class="Todays__calendarMonth"><span id="Calendar__month">(.*?)</span>月</span>' '<span class="Todays__calendarMonth"><span id="Calendar__month">$1</span></span>';
 }

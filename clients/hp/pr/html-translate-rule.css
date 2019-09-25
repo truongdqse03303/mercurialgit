@@ -1,0 +1,4 @@
+@preprocess{
+	replace:'<p class="Footer__hoursTxt">(.*?)<a (.*?) class="Footer__hoursLink">' '<p class="Footer__hoursTxt">$1<br style="display:none;"><a $2 class="Footer__hoursLink">';
+	replace:'<p class="Hamburger__hoursTxt">(.*?)<a (.*?) class="Hamburger__hoursLink">' '<p class="Hamburger__hoursTxt">$1<br style="display:none;"><a $2 class="Hamburger__hoursLink">';
+}
