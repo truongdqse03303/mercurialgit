@@ -12,6 +12,7 @@
 }
 
 @preprocess {
+	replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
 	replace: 'UA-20131188-3' 'UA-20131188-6';
 	replace: 'UA-106973307-1' 'UA-106973307-5';
 	replace: 'UA-9454978-1' 'UA-9454978-5';

@@ -4,6 +4,10 @@
 	attribute: cltx add 'exclude';
 }
 
+@preprocess {
+	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
+}
+
 // @RULESET
 // URL #= //mitsui-shopping-park\.com/urban/muromachi/.*
 // URL #= //mitsui-shopping-park\.com/urban/mitsuitower/.*
