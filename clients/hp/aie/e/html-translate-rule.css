@@ -13,5 +13,6 @@
 
 @preprocess {
 	replace:'UA-478564-22' 'UA-478564-40';
+	replace: "('_setDomainName', )'foris.co.jp'" "$1'www.foris.co.jp.e.aie.hp.transer.com'";
 	replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
 }
