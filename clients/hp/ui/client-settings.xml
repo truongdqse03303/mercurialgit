@@ -23,11 +23,11 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic YmFzaWN1c2VyOmRxajdvdWR3eHkya1VpdV9sSg==</param-value>
+      <param-value>Basic c2hpYnV5YTpzaGlidXlhMDQyNg==</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://153\.122\.109\.55.*</param-value>
+      <param-value>(http|https)://www\.hikarie\.jp/shibuya_worker/.*</param-value>
     </param>
   </resource-handler>
 
