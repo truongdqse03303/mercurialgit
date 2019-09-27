@@ -19,5 +19,13 @@
   replace: '\\(金\\)' '(Fri)';
   replace: '\\(土\\)' '(Sat)';
   replace: '\\(日\\)' '(Sun)';
+}
+
+// @RULESET
+// URL #= //cmsstage\.jr-takashimaya\.co\.jp/today/
+// URL #= //www\.jr-takashimaya\.co\.jp/today/
+@preprocess {
   replace: '<span class="Todays__calendarMonth"><span id="Calendar__month">(.*?)</span>月</span>' '<span class="Todays__calendarMonth"><span id="Calendar__month">$1</span></span>';
+  replace: '前月' 'Prev';
+  replace: '翌月' 'Next';
 }

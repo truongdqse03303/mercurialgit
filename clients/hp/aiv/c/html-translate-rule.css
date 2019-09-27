@@ -1,17 +1,16 @@
 @engine default {
-  eid: CR-JCT;
+  eid: CR-JC;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION";
 }
-@engine foris/main {
-  eid: CR-JCT;
+@engine shibuya-parco/main {
+  eid: CR-JC;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION";
 }
-@engine foris/cross {
-  eid: CR-JCT;
+@engine shibuya-parco/cross {
+  eid: CR-JC;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION";
 }
 
-@preprocess {
-	replace:'UA-478564-22' 'UA-478564-42';
-	replace:'<!-- crosslanguage-t:show(.*?)/crosslanguage-t:show -->' '$1';
+body {
+  attribute: lang add 'zh';
 }

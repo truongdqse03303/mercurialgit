@@ -2,16 +2,11 @@
   eid: CR-JE;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM FASHION GOURMET INTERNET";
 }
-@engine foris/main {
+@engine shibuya-parco/main {
   eid: CR-JE;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER FASHION GOURMET";
 }
-@engine foris/cross {
+@engine shibuya-parco/cross {
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
-}
-
-@preprocess {
-	replace:'UA-478564-22' 'UA-478564-40';
-	replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
 }
