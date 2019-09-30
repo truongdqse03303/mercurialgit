@@ -10,7 +10,7 @@
   <request-list>
     <request hostname="www.hikarie.jp" />
     <request hostname="shibuyacast-apt.jp" />
-    <request hostname="shibuyacast.jp" />
+    <request hostname="shibuyacast.jp" ssl="true" />
     <request hostname="153.122.109.55" />
   </request-list>
 
@@ -27,7 +27,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https)://www\.hikarie\.jp/shibuya_worker/.*</param-value>
+      <param-value>(http|https)://www\.hikarie\.jp/(shibuya_worker|office_worker)/.*</param-value>
     </param>
   </resource-handler>
 
