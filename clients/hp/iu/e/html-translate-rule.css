@@ -10,3 +10,11 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOURMET";
 }
+
+// @RULESET
+// URL #= //www.westin-osaka.co.jp/facilities/fitness/for_stay.html.*
+@preprocess{
+	replace:'保護者同伴でのお子様プール利用を承っております。' '保護者同伴でのお子様プール利用を承っております。<br>';
+	replace:'予めご了承ください。' '';
+	replace:'お子様のみのご利用はできません。' '';
+}
