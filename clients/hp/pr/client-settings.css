@@ -23,12 +23,20 @@
 	    top: 44px;
 	}
 
+	.Hamburger__menu {
+	    width: 433px;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
 
 	.Header__inner {
 	    padding-top: 44px;
+	}
+
+	.Hamburger__menu {
+	    width: auto;
 	}
 
 }
