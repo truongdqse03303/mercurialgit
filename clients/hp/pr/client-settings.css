@@ -1,0 +1,34 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+@media screen and (min-width: 768px) {
+
+	.Header {
+	    top: 44px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.Header__inner {
+	    padding-top: 44px;
+	}
+
+}

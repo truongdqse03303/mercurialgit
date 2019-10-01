@@ -8,6 +8,19 @@
 	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
 
+@postprocess {
+	replace: '<a href="(.*?)kana=あ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%81%82"><strong class="child-menu__link"><span>a</span></strong></a>';
+	replace: '<a href="(.*?)kana=か"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%81%8B"><strong class="child-menu__link"><span>ka</span></strong></a>';
+	replace: '<a href="(.*?)kana=さ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%81%95"><strong class="child-menu__link"><span>sa</span></strong></a>';
+	replace: '<a href="(.*?)kana=た"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%81%9F"><strong class="child-menu__link"><span>ta</span></strong></a>';
+	replace: '<a href="(.*?)kana=な"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%81%AA"><strong class="child-menu__link"><span>na</span></strong></a>';
+	replace: '<a href="(.*?)kana=は"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%81%AF"><strong class="child-menu__link"><span>ha</span></strong></a>';
+	replace: '<a href="(.*?)kana=ま"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%81%BE"><strong class="child-menu__link"><span>ma</span></strong></a>';
+	replace: '<a href="(.*?)kana=や"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%82%84"><strong class="child-menu__link"><span>ya</span></strong></a>';
+	replace: '<a href="(.*?)kana=ら"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%82%89"><strong class="child-menu__link"><span>ra</span></strong></a>';
+	replace: '<a href="(.*?)kana=わ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%82%8F"><strong class="child-menu__link"><span>wa</span></strong></a>';
+}
+
 // @RULESET
 // URL #= //mitsui-shopping-park\.com/urban/muromachi/.*
 // URL #= //mitsui-shopping-park\.com/urban/mitsuitower/.*
