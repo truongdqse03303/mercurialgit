@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION GOURMET";
 }
+
+@preprocess {
+	replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
+	replace:'<li class="header__item header__item--language"><span>JP</span></li>' '<li class="header__item header__item--language"><span>EN</span></li>';
+}

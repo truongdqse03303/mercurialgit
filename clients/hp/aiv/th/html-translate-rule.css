@@ -10,3 +10,8 @@
   eid: CR-JT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
+
+@preprocess {
+	replace:'<!-- crosslanguage-th:show(.*?)/crosslanguage-th:show -->' '$1';
+	replace:'<li class="header__item header__item--language"><span>JP</span></li>' '<li class="header__item header__item--language"><span>TH</span></li>';
+}
