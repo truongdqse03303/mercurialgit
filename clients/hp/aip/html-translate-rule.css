@@ -1,0 +1,7 @@
+#main > section {
+	attribute:cltx add 'exclude';
+}
+
+@preprocess{
+	replace:'<li><img src="" width="100%" /></li>' '';
+}
