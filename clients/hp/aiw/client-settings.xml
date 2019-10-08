@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ホスピタリティオペレーションズ</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>smile-hotels/service 839f0c99a685e75c4682bcbd6704372c9366593c</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="smile-hotels.com" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
