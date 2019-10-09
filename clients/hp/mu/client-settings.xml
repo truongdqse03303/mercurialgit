@@ -13,6 +13,8 @@
     <request hostname="104.46.234.155" />
     <request hostname="shibuya-faq.dga.jp" />
     <request hostname="ebisufan.com" />
+    <request hostname="www.shibukei.com" ssl="true" />
+    <request hostname="www.itscom.co.jp" ssl="true" />
   </request-list>
 
 
