@@ -8,6 +8,24 @@
 	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
 
+// @RULESET
+// URL #= //mitsui-shopping-park.com/lalaport/iwata/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/tokyo-bay/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/kashiwa/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/toyosu/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/tachikawa/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/yokohama/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/ebina/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/hiratsuka/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/shinmisato/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/fujimi/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/numazu/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/minatoaquls/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/koshien/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/expocity/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lalaport/izumi/shopguide/.*
+// URL #= //mitsui-shopping-park.com/divercity-tokyo/shopguide/.*
+// URL #= //mitsui-shopping-park.com/lazona-kawasaki/shopguide/.*
 @postprocess {
 	replace: '<a href="(.*?)kana=あ"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%81%82"><strong class="child-menu__link"><span>a</span></strong></a>';
 	replace: '<a href="(.*?)kana=か"><strong class="child-menu__link"><span>(.*?)</span></strong></a>' '<a href="$1kana=%E3%81%8B"><strong class="child-menu__link"><span>ka</span></strong></a>';
