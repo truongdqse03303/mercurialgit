@@ -10,3 +10,10 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET";
 }
+
+// @RULESET
+// URL #= //www.city.yokosuka.kanagawa.jp/7430/syoubou/topics/20190701.html.*
+@preprocess {
+	replace:'<a href="/7430/index.html">消防局指令課</a>&nbsp;担当：' '<a href="/7430/index.html">消防局指令課&nbsp;担当</a><br style="display:none;">';
+	replace:'横須賀市小川町11番地　消防局庁舎3階＜郵便物：「〒238-8550　指令課」で届きます＞' '3F Fire Bureau Building, 11 Ogawa-cho, Yokosuka';
+}
