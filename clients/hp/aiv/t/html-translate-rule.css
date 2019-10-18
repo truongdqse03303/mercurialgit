@@ -12,6 +12,7 @@
 }
 
 @preprocess {
+	replace:'UA-39192114-24' 'UA-39192114-35';
 	replace:'<!-- crosslanguage-t:show(.*?)/crosslanguage-t:show -->' '$1';
 	replace:'<li class="header__item header__item--language"><span>JP</span></li>' '<li class="header__item header__item--language"><span>KW</span></li>';
 }
