@@ -1,0 +1,50 @@
+#site-translate-header-wrapper{
+	width: auto !important;
+	letter-spacing: normal;
+}
+
+.lead-text {
+    max-width: 1400px;
+	margin: 0 auto;
+}
+
+.shoplist .label {
+    width: auto;
+}
+
+.shoplist .name {
+    padding-left: 380px;
+}
+
+.shoplist .label span {
+    font-size: 1.2rem;
+    padding: 2px 4px;
+}
+
+.shoplist .label.flexbox span {
+    width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.gnav {
+	    top: 44px;
+	}
+
+	.lead-text {
+    	padding: 0 4%;
+	}
+
+	.shoplist .name {
+	    padding-left: 0;
+	}
+
+	.shoplist .label.flexbox span {
+	    width: 47.2%;
+	}
+
+	.shoplist .label span {
+	    width: auto;
+	}
+
+}

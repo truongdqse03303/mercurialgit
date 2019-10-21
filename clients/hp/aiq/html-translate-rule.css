@@ -1,3 +1,13 @@
 @preprocess {
 	replace:'<span class="shop-new mr05">(.*?)</span>' '<br style="display:none;"><span class="shop-new mr05">$1</span><br style="display:none;">';
 }
+
+// @RULESET
+// URL #= //terracemall.com/matsudo/shopguide/.*
+@preprocess {
+	replace:'&sub' '@@sub';
+}
+
+@postprocess {
+	replace:'@@sub' '&sub';
+}
