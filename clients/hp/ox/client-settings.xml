@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.chigasaki.kanagawa.jp" ssl="true" />
-    <request hostname="hosp.city.chigasaki.kanagawa.jp" />
+    <request hostname="hosp.city.chigasaki.kanagawa.jp" ssl="true" />
   </request-list>
   
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
