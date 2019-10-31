@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ダイアモンドヘッズ（TAKIYA）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>takiya/service f6772d90a144b344d1718aea6f089c93349ccc70</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="takiya.com" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

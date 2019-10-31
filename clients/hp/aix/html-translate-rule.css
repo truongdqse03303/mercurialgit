@@ -1,3 +1,7 @@
+.menu__lang {
+	attribute: cltx add 'exclude';
+}
+
 // @RULESET
 // URL #= //www.hammerhead.co.jp/
 @preprocess {
