@@ -10,8 +10,27 @@
   <request-list>
     <request hostname="www.city.izu.shizuoka.jp" />
     <request hostname="kanko.city.izu.shizuoka.jp" />
-    <request hostname="livecamera.city.izu.shizuoka.jp" />    
+    <request hostname="livecamera.city.izu.shizuoka.jp" />
+    <request hostname="iju.city.izu.shizuoka.jp" />
+
   </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic aWp5dV9hZG1pbjpJanl1OTg3Mw==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://iju\.city\.izu\.shizuoka\.jp/.*</param-value>
+    </param>
+  </resource-handler>
   
   <!-- サイトで使用される文字セット -->
   <charset>UTF-8</charset>

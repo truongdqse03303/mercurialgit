@@ -5,3 +5,11 @@
 .flexslider2 {
  attribute: cltx add 'exclude';
 }
+
+// @RULESET
+// URL #= //cefine.site.w2solution.com/Page/Concept/.*
+// URL #= //www.cefinecosmetics.co.jp/Page/Concept/.*
+// URL #= //cefinecosmetics.co.jp/Page/Concept/.*
+@preprocess{
+	replace:'<div id="Header">' '<div id="Header" class="pageconcept">';
+}

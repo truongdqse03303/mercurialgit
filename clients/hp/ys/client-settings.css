@@ -1,0 +1,105 @@
+#site-translate-header-wrapper{
+	width: 100% !important;
+    z-index: 9999;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+#site-translate-message{
+	display: table-cell;
+    height: 40px;
+    vertical-align: middle;
+    width: 5000px;
+}
+
+#site-translate-header-wrapper p{
+	font-size: 10px;
+    line-height: 12px;
+}
+
+* {
+	word-break: keep-all !important;
+	letter-spacing: normal !important;
+}
+
+body {
+    margin: 44px auto 0;
+}
+
+#Header.fixed {
+    top: 44px;
+}
+
+#Header.pageconcept {
+    margin: 44px auto 0;
+}
+
+.mv .below {
+    height: auto;
+}
+
+.top .howtobuy .flex li {
+    width: 48%;
+}
+
+.top .howtobuy .flex li p {
+    padding: 0 5%;
+}
+
+#Foot>.inner nav.information {
+    width: 22%;
+}
+
+@media screen and (max-width: 767px) {
+
+	#site-translate-header-wrapper{
+		width: 100% !important;
+	    z-index: 9999;
+	    box-sizing: border-box;
+	    position: fixed;
+	    top: 0;
+	}
+
+	#site-translate-message{
+		display: table-cell;
+	    vertical-align: middle;
+	    width: 5000px;
+	}
+
+	#site-translate-header-wrapper p{
+		font-size: 10px;
+	    line-height: 12px;
+	}
+
+	#Header.fixed.is-hide {
+	    top: 0;
+		z-index: 9999;
+		border: 1px dotted #FFF;
+	}
+
+	#Header.fixed #LogoMain h1 a {
+	    margin: 3% auto 0;
+	}
+
+	#Header, #Head, #Header.fixed #Head, #Header #ctl00_BodyHeaderMain_upUpdatePanel2 {
+	    height: 46px !important;
+	}
+
+	#Header.pageconcept {
+	    margin: 0;
+	}
+
+	.top .howtobuy .flex li {
+	    width: auto;
+	}
+
+	.gdrawer-show #gdrawer {
+	    top: 44px;
+	}
+
+	#Foot>.inner nav.information {
+	    width: inherit;
+	}
+
+}
