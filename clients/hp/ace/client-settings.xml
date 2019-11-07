@@ -13,8 +13,8 @@
   </request-list>
 
   <extension-param>
-    <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:auto!important}@media screen and (min-width: 641px){header .headerBlock nav ul li:lang(es),header .headerBlock nav ul li:lang(fr),header .headerBlock nav ul li:lang(pt){font-size:84%}.language ul li{top:44px}nav#globalTop ul:lang(es),nav#globalTop ul:lang(fr),nav#globalTop ul:lang(pt),nav#global ul:lang(es),nav#global ul:lang(fr),nav#global ul:lang(pt){width:1200px}#fixedHeader .headerBlock:lang(es),#fixedHeader .headerBlock:lang(fr),#fixedHeader .headerBlock:lang(pt){width:1200px;font-size:84%}.footerBlock .overview .snsBox{position:relative}.footerBlock .overview{width:620px;padding:10px 10px 0}.overview .tableBox{background-position:18.5% top}.box01 .centerBox p,.box02 .centerBox p,.box03 .centerBox p,.box04 .centerBox p{line-height:2.34em}.box02{height:650px}.box03{height:600px}.priceTable .priceTh{width:17%;font-size:90%}.priceTable .priceTd{width:18.9%;margin:0 1% 0 0}.priceTd .tdTitle{font-size:50%}section.pageAnchor ul li a{width:19em}.supportBox ul li dl dt{width:23%}.supportBox ul li dl dd p span{width:14em}}@media screen and (max-width: 640px){.footerBlock .overview{width:96%;padding:0 5px}.overview .tableBox:lang(en){background-position:18% top}.overview .tableBox:lang(fr){background-position:20% top}.overview .tableBox:lang(pt){background-position:24% top}}</param-value>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
   </extension-param>
 
   <!-- サイトで使用される文字セット -->
