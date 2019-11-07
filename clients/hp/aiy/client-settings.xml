@@ -9,6 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="takiya.com" ssl="true" />
+    <request hostname="54.95.2.224" />
   </request-list>
 
   <extension-param>
