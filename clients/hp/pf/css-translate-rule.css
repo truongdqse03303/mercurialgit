@@ -1,5 +1,0 @@
-// @RULESET
-// URL =http://www.isshin-kirishima.jp/css/layout.css
-@preprocess {
-  replace: '(body .*?)(color)' '$1background-position-y: 24px;$2';
-}
