@@ -1,0 +1,30 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+	z-index: 9999;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+#wrapper {
+    margin: 44px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+
+	header {
+	    top: 44px;
+	}
+}
