@@ -14,3 +14,9 @@
 @preprocess {
 	replace:'UA-142062176-1' 'UA-142062176-3';
 }
+
+// @RULESET
+// URL #= //terracemall.com/matsudo/news/.*
+@postprocess {
+	replace:'<div class="name">(.*?)Miscellaneous goods</div>' '<div class="name">$1Miscellaneous<br>goods</div>';
+}
