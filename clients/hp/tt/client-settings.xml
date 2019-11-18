@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.atami.lg.jp" />
+    <request hostname="www.city.atami.lg.jp" ssl="true" />
     <request hostname="www.city.atami.shizuoka.jp" />
     <request hostname="www.earthhome.co.jp" />
     <request hostname="www.uptown-izu.com" path="/as/" />

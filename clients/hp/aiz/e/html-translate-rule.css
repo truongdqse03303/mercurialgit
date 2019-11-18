@@ -1,0 +1,16 @@
+@engine default {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM SYSTEM MECHA ELEC MANUFAC INTERNET";
+}
+@engine metro-cit/main {
+  eid: CR-JE;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER SYSTEM MECHA ELEC MANUFAC";
+}
+@engine metro-cit/cross {
+  eid: CR-JE;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM MECHA ELEC MANUFAC";
+}
+
+@postprocess {
+	replace:'<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">' '<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">';
+}

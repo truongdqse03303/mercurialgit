@@ -1,0 +1,4 @@
+.flexslider,
+.images_box {
+	attribute: cltx add 'exclude';
+}

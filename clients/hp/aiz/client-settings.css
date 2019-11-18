@@ -1,0 +1,27 @@
+#site-translate-header-wrapper{
+	width: auto !important;
+}
+
+html, body {
+    background-position-y: 27px;
+}
+
+#mycarousel .carouselbox:lang(en) {
+    height: 142px;
+}
+
+#mycarousel .carouselbox span:lang(en) {
+	display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+	line-height: 1.2;
+	width: 138px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal:lang(en) {
+    height: 162px;
+}
+
+#container .event .event_text table tr.eventComent td:lang(en) {
+    width: 90px;
+}

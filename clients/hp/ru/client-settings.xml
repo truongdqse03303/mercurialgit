@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.town.nagomi.lg.jp" />
+    <request hostname="www.town.nagomi.lg.jp" ssl="true" />
   </request-list>
 
   <!-- デフォルトでHTML断片翻訳を行うかどうか -->
