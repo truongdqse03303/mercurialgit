@@ -1,0 +1,40 @@
+#site-translate-header-wrapper{
+	width: auto !important;
+}
+
+body {
+    letter-spacing: normal;
+}
+
+.main_header .emergency h2 {
+    line-height: normal;
+}
+
+.vis .logo_50 .count_in {
+    max-width: 440px;
+}
+
+.vis .logo_50 div .tit {
+    font-size: 88%;
+}
+
+.zone04 .kanren h2 span {
+    width: auto;
+}
+
+.design .main_naka .main_naka_new .date {
+    width: 8em;
+    margin-right: 2%;
+}
+
+@media only screen and (max-width: 480px) {
+
+	.zone04 .btn_list1 ul > li .ilist_left {
+	    width: 30%;
+	}
+
+	.zone04 .btn_list1 ul li .ilist_right {
+	    width: 68%;
+	}
+
+}

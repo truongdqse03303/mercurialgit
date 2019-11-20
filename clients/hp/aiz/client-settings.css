@@ -22,6 +22,6 @@ html, body {
     height: 162px;
 }
 
-#container .event .event_text table tr.eventComent td:lang(en) {
-    width: 90px;
+#container .event .event_text table tr.eventComent td:lang(en):first-child {
+    width: 120px;
 }

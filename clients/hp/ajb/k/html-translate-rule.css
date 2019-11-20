@@ -2,15 +2,11 @@
   eid: CR-JK;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
 }
-@engine nihon-kankou/main {
+@engine e-meitetsu/main {
   eid: CR-JK;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
-@engine nihon-kankou/cross {
+@engine e-meitetsu/cross {
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
-}
-
-@preprocess {
-  replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
 }

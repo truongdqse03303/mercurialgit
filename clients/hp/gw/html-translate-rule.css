@@ -1,0 +1,3 @@
+@preprocess{
+	replace:'<a href="https://www.town.saitama-ina.lg.jp/(.*?)">' '<a href="http://www.town.saitama-ina.lg.jp/$1">';
+}

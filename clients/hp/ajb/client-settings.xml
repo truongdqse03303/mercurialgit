@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>名鉄百貨店</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>e-meitetsu/service 0a7a8e46b1c49d834498a0b08b287e18afcec7ad</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.e-meitetsu.com" path="/mds/" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
