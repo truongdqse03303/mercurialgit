@@ -27,6 +27,14 @@ body {
     margin-right: 2%;
 }
 
+.main_header .emergency h2 {
+    font-size: 100%;
+}
+
+.bana h2 span {
+    width: auto;
+}
+
 @media only screen and (max-width: 480px) {
 
 	.zone04 .btn_list1 ul > li .ilist_left {
