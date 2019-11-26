@@ -13,6 +13,22 @@
 
 /* メニュー画像差し替え */
 @preprocess{
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_on_01.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_01_on_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_on_02.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_02_on_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_on_03.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_03_on_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_on_04.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_04_on_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_on_05.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_05_on_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_on_06.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_06_on_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_on_07.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_07_on_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_on_08.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_08_on_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_01.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_01_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_02.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_02_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_03.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_03_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_04.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_04_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_05.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_05_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_06.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_06_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_07.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_07_eng.png';
+	replace:'www.kankou-hamada.org/wp/wp-content/themes/hamanabi-child/images/nav_08.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_08_eng.png';
 	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_01.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_01_on_eng.png';
 	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_02.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_02_on_eng.png';
 	replace:'www.kankou-hamada.org/themes/kankou/images/nav_on_03.png' 'www.kankou-hamada.org/themes/kankou/images/english/nav_03_on_eng.png';
