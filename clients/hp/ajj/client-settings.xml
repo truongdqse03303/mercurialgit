@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>医療法人社団浅ノ川　浅ノ川総合病院</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>asanogawa-gh/service db52ebe7129f8127ffdc8a5d6dceee134a64376e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.asanogawa-gh.or.jp" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
