@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.town.saitama-ina.lg.jp" />
+    <request hostname="www.town.saitama-ina.lg.jp" ssl="true" />
     <!-- テスト用 -->
     <request hostname="udface.comcarry.com" />
   </request-list>

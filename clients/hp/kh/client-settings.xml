@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.vill.yamanakako.yamanashi.jp" />
+    <request hostname="www.vill.yamanakako.yamanashi.jp" ssl="true" />
     <request hostname="vill.yamanakako.yamanashi.jp" />
   </request-list>
   
