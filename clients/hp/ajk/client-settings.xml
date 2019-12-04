@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>ロココ（ニジゲンノモリ）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>nijigennomori/service 7a7b66932aec47588d0d6db0c3d195092ecc2c68</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="ticket.nijigennomori.com" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

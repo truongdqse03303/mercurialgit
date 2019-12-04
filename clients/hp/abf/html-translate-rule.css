@@ -16,7 +16,18 @@
 }
 
 // @RULESET
+// URL #= //ginza6.tokyo/gsix2019.*
+@preprocess {
+	replace:'<title>Celebration of Life -星の海の祝祭- (.*?)</title>' '<title>Celebration of Life in the Astral Sea $1</title>';
+}
+
+@postprocess {
+	replace:'-in the Astral Sea' 'in the Astral Sea';
+}
+
+// @RULESET
 // URL #= //ginza6.tokyo/
 @preprocess {
 	replace:'<span>Info</span>' '<span>Info</span><br style="display:none;">';
 }
+
