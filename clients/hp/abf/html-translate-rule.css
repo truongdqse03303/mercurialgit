@@ -17,6 +17,7 @@
 
 @postprocess {
 	replace:'<!--cltx-->-in the Astral Sea' '<!--cltx-->in the Astral Sea';
+	replace:'<br class="sp-hide"><!--cltx-->Be assigned to this' '';
 }
 
 // @RULESET
