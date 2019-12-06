@@ -3,6 +3,13 @@ attribute:style add 'margin-top:44px;';
 }
 
 // @RULESET
+// URL #= //www.jrtk.jp/.*
+// URL #= //jrtk.jr.modworks.cc/.*
+@preprocess {
+	replace:'<span class="accessInfoFaTtl">(.*?)</span>' '<span class="accessInfoFaTtl">$1</span><br style="display:none;">';
+}
+
+// @RULESET
 // URL #= //www.jrtk.jp/cotoniorgarden/shinkawasaki/.*
 @preprocess {
 replace:'<span class="font-s">(.*?)</span>' '<br style="display:none;"><span class="font-s">$1</span><br style="display:none;">';

@@ -13,6 +13,7 @@
     <request hostname="beans.jrtk.jp" />
     <request hostname="daiya.jrtk.jp" />
     <request hostname="dila.jrtk.jp" />
+    <request hostname="jrtk.jr.modworks.cc" path="/seekbase" />
   </request-list>
   
     <!-- 免責ヘッダーを絶対座標で指定 -->
@@ -22,10 +23,10 @@
   </extension-param>
 
     <!-- デフォルトでHTML断片翻訳を行うかどうか -->
-  <extension-param>
+  <!-- extension-param>
    <param-name>default.fragment.translate</param-name>
    <param-value>false</param-value>
- </extension-param>
+ </extension-param -->
  
    <!-- HTML断片翻訳対象外のURL -->
    <url-list type="ignore">
@@ -47,7 +48,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>http://www\.jrtk\.jp/cotoniorgarden/shinkawasaki.*</param-value>
+      <param-value>(http|https)://(www\.jrtk\.jp/cotoniorgarden/shinkawasaki.*|jrtk\.jr\.modworks\.cc/seekbase/.*)</param-value>
     </param>
   </resource-handler>
 

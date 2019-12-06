@@ -19,97 +19,97 @@
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/tokyo-bay/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/tokyo-bay/.*
 @preprocess{
 	replace:'UA-9631794-1' 'UA-9631794-5';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/kashiwa/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/kashiwa/.*
 @preprocess{
 	replace:'UA-15924231-1' 'UA-15924231-2';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/toyosu/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/toyosu/.*
 @preprocess{
 	replace:'UA-15923935-1' 'UA-15923935-3';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/tachikawa/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/tachikawa/.*
 @preprocess{
 	replace:'UA-65626077-1' 'UA-65626077-3';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/yokohama/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/yokohama/.*
 @preprocess{
 	replace:'UA-15924236-1' 'UA-15924236-3';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/ebina/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/ebina/.*
 @preprocess{
 	replace:'UA-63592179-1' 'UA-63592179-2';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/hiratsuka/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/hiratsuka/.*
 @preprocess{
 	replace:'UA-78679854-1' 'UA-78679854-2';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/shinmisato/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/shinmisato/.*
 @preprocess{
 	replace:'UA-15925319-1' 'UA-15925319-2';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/fujimi/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/fujimi/.*
 @preprocess{
 	replace:'UA-57468700-1' 'UA-57468700-3';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/numazu/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/numazu/.*
 @preprocess{
 	replace:'UA-135023779-1' 'UA-135023779-2';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/minatoaquls/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/minatoaquls/.*
 @preprocess{
 	replace:'UA-114911979-1' 'UA-114911979-2';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/koshien/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/koshien/.*
 @preprocess{
 	replace:'UA-15204895-1' 'UA-15204895-2';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/expocity/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/expocity/.*
 @preprocess{
 	replace:'UA-68550320-1' 'UA-68550320-2';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lalaport/izumi/.*
+// URL #= //mitsui-shopping-park\.com/lalaport/izumi/.*
 @preprocess{
 	replace:'UA-52936870-1' 'UA-52936870-2';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/divercity-tokyo/.*
+// URL #= //mitsui-shopping-park\.com/divercity-tokyo/.*
 @preprocess{
 	replace:'UA-28846109-1' 'UA-28846109-2';
 }
 
 // @RULESET
-// URL #= //mitsui-shopping-park.com/lazona-kawasaki/.*
+// URL #= //mitsui-shopping-park\.com/lazona-kawasaki/.*
 @preprocess{
 	replace:'UA-17766146-1' 'UA-17766146-4';
 }
@@ -145,4 +145,10 @@
 // URL #= //mitsui-shopping-park\.com/urban/nihonbashi/.*
 @postprocess{
 	replace: '<!--cltx--><a href="/urban/redirect.html(.*?)" target="_blank">Metro Link Nihonbashi \\(fre</a>e shuttle bus\\)' '<!--cltx--><a href="/urban/redirect.html$1" target="_blank">Metro Link Nihonbashi</a> \\(free shuttle bus\\)';
+}
+
+// @RULESET
+// URL #= //mitsui-shopping-park\.com/lalaport/tokyo-bay/shopguide/703165\.html
+@preprocess{
+	replace: '<p class="brand__text">(.*?)</p>' '<p class="brand__text">Please come to the store!</p>';
 }
