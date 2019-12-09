@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+  replace: 'https://www\.city\.wakkanai\.hokkaido\.jp/' 'http://www\.city\.wakkanai\.hokkaido\.jp\.c\.dh\.hp\.transer\.com/';
+}

@@ -14,3 +14,7 @@
 body {
   attribute: lang add 'zh';
 }
+
+@postprocess {
+  replace: 'https://www\.city\.kitahiroshima\.hokkaido\.jp/' 'http://www\.city\.kitahiroshima\.hokkaido\.jp\.c\.oc\.hp\.transer\.com/';
+}

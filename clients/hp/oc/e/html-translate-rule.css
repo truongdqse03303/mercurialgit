@@ -10,3 +10,7 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOVT GOURMET JICHITAI SYSDB";
 }
+
+@postprocess {
+  replace: 'https://www\.city\.kitahiroshima\.hokkaido\.jp/' 'http://www\.city\.kitahiroshima\.hokkaido\.jp\.e\.oc\.hp\.transer\.com/';
+}

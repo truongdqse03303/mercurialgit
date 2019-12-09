@@ -10,3 +10,7 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }
+
+@postprocess {
+  replace: 'https://www\.city\.wakkanai\.hokkaido\.jp/' 'http://www\.city\.wakkanai\.hokkaido\.jp\.t\.dh\.hp\.transer\.com/';
+}
