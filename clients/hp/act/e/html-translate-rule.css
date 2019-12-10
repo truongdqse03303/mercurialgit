@@ -74,5 +74,5 @@
 // @RULESET
 // URL #= //mitsui-shopping-park\.com/lalaport/tokyo-bay/shopguide/703165\.html
 @preprocess{
-	replace: '<p class="brand__text">(.*?)</p>' '<p class="brand__text">Please come to the store!</p>';
+	replace: '<p class="brand__text">(.*?)</p>' '<p class="brand__text">Please come to the store!<br><br>Our products cannot be shipped to the United States.</p>';
 }
