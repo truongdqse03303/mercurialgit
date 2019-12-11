@@ -73,6 +73,13 @@
 
 // @RULESET
 // URL #= //mitsui-shopping-park\.com/lalaport/tokyo-bay/shopguide/703165\.html
+// URL #= //mitsui-shopping-park\.com/lalaport/fujimi/shopguide/701016\.html
+// URL #= //mitsui-shopping-park\.com/lalaport/ebina/shopguide/702795\.html
+// URL #= //mitsui-shopping-park\.com/lalaport/hiratsuka/shopguide/703481\.html
+// URL #= //mitsui-shopping-park\.com/lalaport/koshien/shopguide/702634\.html
+// URL #= //mitsui-shopping-park\.com/lalaport/expocity/shopguide/701283\.html
+// URL #= //mitsui-shopping-park\.com/lazona-kawasaki/shopguide/702326\.html
+// URL #= //mitsui-shopping-park\.com/divercity-tokyo/shopguide/700111\.html
 @preprocess{
 	replace: '<p class="brand__text">(.*?)</p>' '<p class="brand__text">Please come to our store!<br><br>Our products cannot be shipped to the United States.</p>';
 }
