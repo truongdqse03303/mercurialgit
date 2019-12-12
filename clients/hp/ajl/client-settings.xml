@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>富士山静岡空港</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>mtfuji-shizuokaairport/service 39589d853b29ba478762a9edf17959a51f07f37e</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.mtfuji-shizuokaairport.jp" />
+    <request hostname="pre01.artistest.jp" path="/fsa_site/renew/~temp/" />
+    <request hostname="cms3demo.artisj.com" path="/M/mtfuji-shizuokaairport-jp/html/main/" />
+  </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic dGVzdDA5MDEwNkE6RlNBYXJ0aXM=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://(pre01\.artistest\.jp|cms3demo\.artisj\.com)/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- 翻訳対象外URLの一覧 -->
+  <url-list type="ignore">
+	<url>(http|https)://www\.mtfuji-shizuokaairport\.jp/(chinese_t|chinese_s|korean|english)/.*</url>
+  </url-list>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
