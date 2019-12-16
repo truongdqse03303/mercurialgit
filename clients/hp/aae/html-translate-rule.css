@@ -32,3 +32,10 @@ nav.owa-menu {
  replace: '<!--cltx--><span class="el-title"' '<span class="el-title"';
  replace: '<div class="owa-media-timeline">(.*?)<!--cltx-->' '<div class="owa-media-timeline">$1';
 }
+
+// @RULESET
+// URL #= //openwifi\.jp/omachi-navi.*
+@postprocess {
+ replace: '<link rel="alternate" hreflang="x-default" href="https://openwifi.jp.(.*?).aae.hp.transer.com/(.*?)" />' '<link rel="alternate" hreflang="x-default" href="https://openwifi.jp/$2" />';
+ replace: '<link rel="alternate" hreflang="ja" href="https://openwifi.jp.(.*?).aae.hp.transer.com/(.*?)" />' '<link rel="alternate" hreflang="ja" href="https://openwifi.jp/$2" />';
+}
