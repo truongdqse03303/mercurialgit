@@ -8,9 +8,9 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
+    <request hostname="www.city.mitaka.lg.jp" ssl="true" />
     <request hostname="www.city.mitaka.tokyo.jp" />
     <request hostname="www.cms.mitaka08.sd.serco.co.jp" />
-    <request hostname="www-mitaka18.sd.serco.co.jp" />
   </request-list>
 
   <extension-param>
