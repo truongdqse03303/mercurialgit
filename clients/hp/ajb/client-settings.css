@@ -2,7 +2,17 @@
 	width: auto !important;
 }
 
-@media only screen and (max-width:767px){
+#calendar-toolbar .buttons button {
+    height: 40px !important;
+}
+
+@media only screen and (max-width:768px) {
+
+	#contentWarp,
+	#EVENT_CALENDAR .headlineA,
+	#eventVisual {
+	    margin: 44px auto 0;
+	}
 
 	#site-translate-header-wrapper{
 		width:100% !important;
