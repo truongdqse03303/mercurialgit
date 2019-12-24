@@ -1,8 +1,0 @@
-@preprocess{
-	replace:'<span class="gname">(.*?)</span><span class="gruby">(.*?)</span>' '<span class="gname">$1</span><br style="display:none;"><span class="gruby">$2</span>';
-	replace:'<div class="linker"><(.*?)class="btn_type01">(.*?)</a><(.*?)class="btn_type01 dls">(.*?)</a></div>' '<div class="linker"><$1class="btn_type01">$2</a><br style="display:none;"><$3class="btn_type01 dls">$4</a></div>';
-	replace:'<h2 class="title_type01">(.*?)<span>(.*?)</span></h2>' '<h2 class="title_type01">$1<br style="display:none;"><span>$2</span></h2>';
-	replace:'<h1 class="title_type03"><span>(.*?)</span><small>(.*?)</small></h1>' '<h1 class="title_type03"><span>$1</span><br style="display:none;"><small>$2</small></h1>';
-	replace:'<h2 class="title_type03"><span>(.*?)</span><small>(.*?)</small></h2>' '<h2 class="title_type03"><span>$1</span><br style="display:none;"><small>$2</small></h2>';
-	replace:'<h2><small>(.*?)</small>(.*?)<span>(.*?)</span></h2>' '<h2><small>$1</small><br style="display:none;">$2<br style="display:none;"><span>$3</span></h2>';
-}
