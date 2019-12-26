@@ -2,10 +2,15 @@
 #fontController,
 .mainvisual,
 .top-bnr,
+.fb-page,
 .banner-area-in-sp{
   attribute:cltx add 'exclude';
 }
 
 .header-btn{
   attribute:clftx add 'exclude';
+}
+
+@preprocess{
+	replace:'<li class="tt001">' '<li class="tt001" style="line-height:normal;">';
 }

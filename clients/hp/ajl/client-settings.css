@@ -16,6 +16,59 @@
 	text-align: center;
 }
 
+.home .contents-top-area {
+    margin: 0 auto 80px;
+}
+
+.home .mainvisual-box .mainvisual-bottom dl dd a,
+#gnavi ul li a span,
+#header div.search-area input#btn01 {
+    letter-spacing:normal;
+}
+
+.home .mainvisual-box .mainvisual-bottom dl dd a:lang(en) {
+    padding: 17px 0 17px 70px;
+}
+
+.table-box ul.th li.tt001 {
+	line-height: normal;
+}
+
+.home .flight-area .flight-box #tab-area h3 a:lang(en) {
+	font-size: 80%;
+	line-height: 1.1;
+	width: 90px;
+}
+
+.home .flight-area .flight-box #flight-tab-area h3 a:lang(en),
+.home .flight-area .flight-box #flight-tab-area-2 h3 a:lang(en) {
+    width: 75px;
+}
+
+.home .flight-area .flight-box #flight-tab-area h3#flight-all-tab:lang(en),
+.home .flight-area .flight-box #flight-tab-area-2 h3#flight-all-tab-2:lang(en) {
+    right: 75px;
+}
+
+.home .contents-top-area .center-box .index-enjoy-area .txt-area {
+    padding: 22px 0 0 29px;
+}
+
+.home .contents-top-area .center-box .index-enjoy-area .txt-area span.txt01 {
+    letter-spacing: normal;
+    width: 30%;
+}
+
+.home .mainvisual-box .mainvisual-bottom dl dd.bt01 a:lang(en),
+.home .mainvisual-box .mainvisual-bottom dl dd.bt02 a:lang(en) {
+    background-position: 10% 50%;
+}
+
+.home .mtf-sns-area .title h2 {
+	letter-spacing: normal;
+    font-size: 120%;
+}
+
 @media screen and (max-width: 679px) {
 
 	#header .header-btn {
@@ -26,4 +79,21 @@
 	    top: 98px;
 	}
 
+	.home .contents-top-area .right-box .index-parking-area-sp p.parking-link a {
+	    height: auto;
+	}
+
+	.home .flight-area {
+	    width: auto;
+	    background-size: 700px auto;
+	}
+
+	#footer .footer-bottom-area ul li.copy {
+    	padding-bottom: 30px;
+	}
+
+	.sp-footer-btn ul li a {
+    	height: auto;
+	}
+	
 }
