@@ -64,6 +64,10 @@
     background-position: 10% 50%;
 }
 
+iframe.tt002:lang(en) {
+    height: 250px;
+}
+
 .home .mtf-sns-area .title h2 {
 	letter-spacing: normal;
     font-size: 120%;
