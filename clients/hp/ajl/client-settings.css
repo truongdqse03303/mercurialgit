@@ -34,6 +34,21 @@
 	line-height: normal;
 }
 
+.home .flight-area .flight-box #tab-area ul:lang(en) {
+    display: table;
+}
+
+.home .flight-area .flight-box #tab-area ul li:lang(en) {
+    float: none;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.home .flight-area .flight-box #tab-area ul li:last-child a:lang(en) {
+    padding: 21px;
+}
+
 .home .flight-area .flight-box #tab-area h3 a:lang(en) {
 	font-size: 80%;
 	line-height: 1.1;
@@ -90,6 +105,10 @@ iframe.tt002:lang(en) {
 	.home .flight-area {
 	    width: auto;
 	    background-size: 700px auto;
+	}
+
+	.home .flight-area .flight-box #tab-area ul li:last-child a:lang(en) {
+	    padding: 20px;
 	}
 
 	#footer .footer-bottom-area ul li.copy {
