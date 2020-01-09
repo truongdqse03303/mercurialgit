@@ -1,0 +1,12 @@
+@engine default {
+  eid: PR-ENES;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
+}
+@engine y-triennale/main {
+  eid: PR-ENES;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
+}
+@engine y-triennale/cross {
+  eid: PR-ENES;
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
+}
