@@ -1,3 +1,7 @@
+@preprocess {
+	replace:'<div class=\'ui-datepicker-header' '<div clftx=\'exclude\' class=\'ui-datepicker-header';
+}
+
 // @RULESET
 // URL #= //tosei-hotel.co.jp/kanda/Data/JSON.js.*
 @preprocess {
@@ -8,4 +12,19 @@
 // URL #= //tosei-hotel.co.jp/ueno/Data/JSON.js.*
 @preprocess {
 	replace:'hcod1: \\"85290\\"' 'hcod1: \\"85291\\"';
+}
+
+// @RULESET
+// URL #= //tosei-hotel.co.jp/zzz_test_abilive/calendar/templates/ypro_stock_pc.js
+// URL #= //tosei-hotel.co.jp/zzz_test_abilive/calendar/templates/ypro_stock_sp.js
+// URL #= //tosei-hotel.co.jp/calendar/templates/ypro_stock_pc.js
+// URL #= //tosei-hotel.co.jp/calendar/templates/ypro_stock_sp.js
+@preprocess {
+	replace:'dayInfo\\[ 0 \\] = \\"日\\"' 'dayInfo\\[ 0 \\] = \\"Sun\\"';
+	replace:'dayInfo\\[ 1 \\] = \\"月\\"' 'dayInfo\\[ 1 \\] = \\"Mon\\"';
+	replace:'dayInfo\\[ 2 \\] = \\"火\\"' 'dayInfo\\[ 2 \\] = \\"Tue\\"';
+	replace:'dayInfo\\[ 3 \\] = \\"水\\"' 'dayInfo\\[ 3 \\] = \\"Wed\\"';
+	replace:'dayInfo\\[ 4 \\] = \\"木\\"' 'dayInfo\\[ 4 \\] = \\"Thu\\"';
+	replace:'dayInfo\\[ 5 \\] = \\"金\\"' 'dayInfo\\[ 5 \\] = \\"Fri\\"';
+	replace:'dayInfo\\[ 6 \\] = \\"土\\"' 'dayInfo\\[ 6 \\] = \\"Sat\\"';
 }

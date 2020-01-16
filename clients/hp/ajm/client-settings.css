@@ -1,0 +1,108 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:20px;
+	position: fixed;
+	top:0;
+	z-index: 999;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:
+	table-cell;
+	height:20px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+.design-facility .vehicle-slider-wrapper .vehicle-nav__list li:lang(en) {
+    width: 23.51852%;
+}
+
+.design-facility .vehicle-slider-wrapper .vehicle-nav__list li a span:lang(en) {
+    letter-spacing: -0.05em;
+	font-size: 90%;
+}
+
+@media only screen and (min-width: 769px) {
+	
+	.main-top .top-content__list {
+		top: 24px;
+	}
+
+}
+
+@media only screen and (min-width: 992px) {
+
+	#header {
+	    top: 20px;
+	}
+
+	#header #gnav .gnav_nav .gnav__list-parent .gnav__list-parent-item > a .link-text.is-hover {
+	    font-size: 10px;
+	}
+	
+	#header #gnav .gnav_nav .gnav__list-parent .gnav__list-parent-item.btn-plan > a .link-text.is-hover,
+	#header #gnav .gnav_nav .gnav__list-parent .gnav__list-parent-item.btn-partner > a .link-text.is-hover {
+	    letter-spacing: -0.07em;
+	}
+
+	#header #gnav .gnav_nav .gnav__list-parent .gnav__list-parent-item.btn-application .application-child-list__item a span {
+	    line-height: normal;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+	.js-header-fixed {
+		top: 44px;
+	}
+
+	#site-translate-header-wrapper{
+		height:44px;
+	}
+
+	#site-translate-message{
+		height:44px;
+	}
+
+	body#top #header {
+	    top: 44px;
+	}
+
+}
+
+@media only screen and (min-width: 769px) {
+
+	body#top #header {
+	    top: 20px;
+	}
+
+	.plan__table .plan__table-line .table-pdf-link .table-pdf-anchor {
+	    line-height: normal;
+	    height: auto;
+	    width: 100%;
+	}
+
+	.mod-bottom-link .mod-bottom-link__list.type-col-1 {
+	    width: auto;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.main-section {
+	    padding: 89px 5% 60px;
+	}
+
+	.main-section.type-wide {
+	    padding: 89px 0 60px;
+	}
+
+}

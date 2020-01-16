@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>積水樹脂株式会社</name>
+  <name>新潟県観光局観光企画課</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>sekisuijushi/service ba2d6e2ddb39cc3966c20e5cfaaf6e85291fb9c2</licence>
+  <licence>niigatakankou-mice/service 8db5ba9211b031afaacf40827577b2efc5dff78d</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.sekisuijushi.co.jp" ssl="true" />
+    <request hostname="www.niigatakankou-mice.jp" ssl="true" />
   </request-list>
 
-  <extension-param>
-  <param-name>site.translate.header.style</param-name>
-  <param-value>client-settings.css</param-value>
-  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

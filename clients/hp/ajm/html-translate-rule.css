@@ -1,0 +1,11 @@
+// @RULESET
+// URL #= //www.the-royalexpress.jp/design/.*
+@preprocess {
+	replace:'<span>(.*?)</span>号車' '<span>$1号車</span>';
+}
+
+// @RULESET
+// URL #= //www.the-royalexpress.jp/reception/.*
+@preprocess {
+	replace:'<h2 class="mod-ttl-underline reception-photos__header">(.*?)<br class="sp">(.*?)<br class="sp">(.*?)</h2>' '<h2 class="mod-ttl-underline reception-photos__header">$1$2$3</h2>';
+}

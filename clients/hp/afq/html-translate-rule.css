@@ -1,3 +1,4 @@
+.box_und,
 .hero,
 #dynSearchTest1,
 #dynSearchTest2,
@@ -5,6 +6,10 @@
 	attribute:cltx add 'exclude';
 }
 
+.con_bn > li,
+.box_footer > .logo,
+.btn_ptop,
+.con_next > .btn.over,
 section > .room > li {
 	attribute:clftx add 'exclude';
 }
@@ -23,6 +28,13 @@ section > .room > li {
 	replace:'<td style="(.*?)">木</td>' '<td style="$1">Thu</td>';
 	replace:'<td style="(.*?)">金</td>' '<td style="$1">Fri</td>';
 	replace:'<td style="(.*?)">土</td>' '<td style="$1">Sat</td>';
+	replace:'<span title="月曜日">月</span>' '<span title="月曜日">Mon</span>';
+	replace:'<span title="火曜日">火</span>' '<span title="火曜日">Tue</span>';
+	replace:'<span title="水曜日">水</span>' '<span title="水曜日">Wed</span>';
+	replace:'<span title="木曜日">木</span>' '<span title="木曜日">Thu</span>';
+	replace:'<span title="金曜日">金</span>' '<span title="金曜日">Fri</span>';
+	replace:'<span title="土曜日">土</span>' '<span title="土曜日">Sat</span>';
+	replace:'<span title="日曜日">日</span>' '<span title="日曜日">Sun</span>';
 }
 
 @preprocess{
