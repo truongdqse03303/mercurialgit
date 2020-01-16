@@ -10,3 +10,7 @@
   eid: MS-JAID;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+@preprocess {
+  replace:'<!-- crosslanguage-id:show(.*?)/crosslanguage-id:show -->' '$1';
+}
