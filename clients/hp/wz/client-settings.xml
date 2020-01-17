@@ -15,11 +15,10 @@
     <request hostname="dila.jrtk.jp" />
     <request hostname="jrtk.jr.modworks.cc" path="/seekbase" />
   </request-list>
-  
-    <!-- 免責ヘッダーを絶対座標で指定 -->
+
   <extension-param>
-    <param-name>site.translate.header.style</param-name>
-    <param-value>style:#site-translate-header-wrapper{width:100% !important; height:44px; position: fixed; top:0;}#site-translate-header-wrapper p{font-size:10px;line-height: 12px;}#site-translate-message{display:table-cell; height:44px; vertical-align:middle; width:5000px;} /* /cotoniorgarden/shinkawasaki/ */ #site-translate-icp {width: auto;} #linkNav a {padding-right: 0;font-size: 1.5rem;}#access li {margin: 0 0 3%;} @media screen and (max-width: 640px) {header .menu_btn {top: 54px;} header .sp_menu {top: 114px;} #linkNav a {font-size: 1.1rem;} #concept p{font-size: 90%;}}</param-value>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
   </extension-param>
 
     <!-- デフォルトでHTML断片翻訳を行うかどうか -->
@@ -48,7 +47,7 @@
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https)://(www\.jrtk\.jp/cotoniorgarden/shinkawasaki.*|jrtk\.jr\.modworks\.cc/seekbase/.*)</param-value>
+      <param-value>(http|https)://(www\.jrtk\.jp/cotoniorgarden/shinkawasaki.*|jrtk\.jr\.modworks\.cc/seekbase/.*|www\.jrtk\.jp/hibiya-okuroji/.*)</param-value>
     </param>
   </resource-handler>
 

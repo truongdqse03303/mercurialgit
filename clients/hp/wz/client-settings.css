@@ -1,0 +1,178 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+}
+
+#site-translate-header-wrapper p{
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+}
+
+/* /cotoniorgarden/shinkawasaki/ */
+#site-translate-icp {
+	width: auto;
+}
+
+#linkNav a {
+	padding-right: 0;
+	font-size: 1.5rem;
+}
+
+#access li {
+	margin: 0 0 3%;
+}
+
+@media screen and (min-width: 769px) {
+	
+	header {
+		top: 44px;
+	}
+
+	.topArch {
+		top: 44px;
+	}
+
+	.kv .maintext {
+    	width: auto;
+	}
+
+	section.concept .concept_desc p {
+    	letter-spacing: normal;
+	}
+	
+	section.shop .shop_guide_area .container .box .caption {
+    	letter-spacing: normal;
+	}
+	
+	section.shop .shop_guide_area .container .box.num6 .picture {
+		width: 146px;
+		top: 20%;
+		right: 0;
+	}
+
+	section.shop .shop_guide_area .container .box .desc {
+    	letter-spacing: normal;
+	}
+
+	section.shop .shop_guide_area .container .box.num8 .desc {
+    	letter-spacing: normal;
+	}
+	
+	section.access .access_container .address_box dd {
+    	font-size: 80%;
+	}
+	
+	section.access .access_container .address_box dd .address,
+	section.access .access_container .address_box dd .tel {
+    	letter-spacing: normal;
+	}
+
+	section.access .access_container .address_box dd .accessguide p {
+    	letter-spacing: normal;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	header {
+    	top: 44px;
+	}
+	
+	.topArch .a_inner {
+    	top: 44px;
+	}
+	
+	.kv .maintext {
+    	width: auto;
+	}
+
+	.kv .maintext .opendate {
+		letter-spacing: normal;
+	}
+	
+	.kv .maintext .opendate .strong {
+    	font-size: 6.46667vw;
+	}
+	
+	section.concept .concept_desc p {
+    	letter-spacing: normal;
+	}
+	
+	section.shop .shop_guide_area .container .box .desc {
+    	letter-spacing: normal;
+	}
+
+	section.shop .shop_guide_area .container .box.num8 .desc {
+    	letter-spacing: normal;
+	}
+	
+	section.shop .shop_guide_area .container .box.num2,
+	section.shop .shop_guide_area .container .box.num4,
+	section.shop .shop_guide_area .container .box.num6,
+	section.shop .shop_guide_area .container .box.num8 {
+		width: auto;
+		height: auto;
+		margin-bottom: 5vw;
+	}
+
+	section.shop .shop_guide_area .container .box.num2 .text,
+	section.shop .shop_guide_area .container .box.num4 .text,
+	section.shop .shop_guide_area .container .box.num6 .text,
+	section.shop .shop_guide_area .container .box.num8 .text{
+		width: 76vw;
+		padding-bottom: 5%;
+	}
+	
+	section.shop .shop_guide_area .container .box.num4 .picture {
+		bottom: 1.13333vw;
+		right: 11.2vw;
+		left:inherit;
+	}
+	
+	section.shop .shop_guide_area .container .box.num4 .picture_02 {
+    	right: 0;
+	}
+	
+	section.shop .shop_guide_area .container .box.num6 .picture {
+		width: 20.26667vw;
+		top: 11%;
+	}
+
+	section.access .access_container .address_box dd .accessguide {
+    	width: auto;
+	}
+	
+	section.access .access_container .address_box dd .accessguide p {	
+    	font-size: 95%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	
+	header .menu_btn {
+		top: 54px;
+	}
+	
+	header .sp_menu {
+		top: 114px;
+	}
+	
+	#linkNav a {
+		font-size: 1.1rem;
+	}
+	
+	#concept p{
+		font-size: 90%;
+	}
+}
