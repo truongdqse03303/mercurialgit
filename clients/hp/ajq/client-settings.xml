@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>エンザントレイズ</name>
+  <name>小城市</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>wakwak-navi/service 34e40a2437f17ff69d70a51932c21e4a1ba9a3ac</licence>
+  <licence>city-ogi/service 7058376f9453de85dc7c4252de5d3d891c75e36b</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.wakwak-navi.com" ssl="true" ssl_verifypeer="false" />
+    <request hostname="www.city.ogi.lg.jp" ssl="true" />
+    <request hostname="www.prime18.co.jp" path="/demo/city_ogi_2020/" />
   </request-list>
+
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
