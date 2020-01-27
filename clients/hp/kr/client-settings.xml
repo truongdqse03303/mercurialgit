@@ -9,7 +9,7 @@
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
     <request hostname="www.city.yatomi.aichi.jp" />
-    <request hostname="www.city.yatomi.lg.jp" />
+    <request hostname="www.city.yatomi.lg.jp" ssl="true" />
     <request hostname="www.yatomi-library.com" />
     <request hostname="c11opc4n.securesites.net" path="/m/" />
   </request-list>
