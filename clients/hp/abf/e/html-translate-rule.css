@@ -41,3 +41,23 @@
 @postprocess {
 	replace:'Fashion, jewelry(.*?)We spell way of enjoying that we found on foot.' 'Here, we bring you some of the fun and interesting things found by our editors, each of whom bring a fascinating perspective and expertise to fields ranging from fashion to jewelry and watch, lifestyle, beauty, food and more, as they wander through GINZA SIX and make new discoveries.';
 }
+
+// @RULESET
+// URL #=//ginza6\.tokyo/news/62395
+@postprocess {
+	replace:'She\’s also written for and edited the fashion section of imidas \\(Innovative Multi-Information Dictionary Annual Serie<a href=\\"http://imidas.jp\\">s\\).' 'She\’s also written for and edited the fashion section of imidas \\(Innovative Multi-Information Dictionary Annual Series\\).';
+	replace:'Her site \\“Flower Runway\\” explaining fashi</a>on terms on the mobile edition of Imidasu \\(http://imidas.jp\\) is especially popular.' 'Her site \\“Flower Runway\\” explaining fashion terms on the mobile edition of Imidasu \\(<a href="http://imidas.jp">http://imidas.jp</a>\\) is especially popular.';
+}
+
+// @RULESET
+// URL #=//ginza6\.tokyo/news/66809
+@postprocess {
+	replace:'In November 2019, mi-mollet \\(https<a href="https://mi-mollet.com/subcategory/fashion">://mi-mollet.com/subcategory/fashion\\), an online magazine from publisher Kodansha, </a>' 'In November 2019, mi-mollet \\(<a href="https://mi-mollet.com/subcategory/fashion">https://mi-mollet.com/subcategory/fashion</a>\\), an online magazine from publisher Kodansha,';
+	replace:'\\“Ultra-Personal St<a href="https://ameblo.jp/kyokohiraku">yle of Fashion\\” \\(https://ameblo.jp/kyokohiraku\\), is </a>updated daily' '\\“Ultra-Personal Style of Fashion\\”\\(<a href="https://ameblo.jp/kyokohiraku">https://ameblo.jp/kyokohiraku</a>\\), is updated daily';
+}
+
+// @RULESET
+// URL #=//ginza6\.tokyo/news/70260
+@postprocess {
+	replace:'Instagram <a href="https://www.instagram.com/yoshimasa_hoshiba/\\?hl=ja">@yoshimasa_hoshiba</a>' 'Instagram @<a href="https://www.instagram.com/yoshimasa_hoshiba/\\?hl=ja">yoshimasa_hoshiba</a>';
+}
