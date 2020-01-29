@@ -1,3 +1,13 @@
 @preprocess {
 	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
+
+// @RULESET
+// URL #=//www\.sekigahara1600\.com/
+@preprocess {
+	replace:'<span class="weather-temp"><span id="temp"></span>(.*?)</span>' '<span class="weather-temp"><span id="temp"></span><br style="display:none;">$1</span>';
+}
+
+@postprocess {
+	replace:'<!--cltx--><span class="weather-date" id="today">' '<span class="weather-date" id="today">';
+}

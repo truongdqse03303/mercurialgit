@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>地方創生 EXPO用アカウント</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>sousei-expo/service 9c82009cc09ebc0e04882477dd204df6e0c8b7fc</licence>
+
+  <!-- クライアントが使用できるドメインの一覧 -->
+  <request-list>
+    <request hostname="[^/]+" ssl="true" ssl_verifypeer="false" />
+  </request-list>
+  
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>v,id</param-value>
+  </extension-param>
+  
+  <!-- robots.txt -->
+  <resource-handler>
+    <type name="robotstxt">jp.co.crosslanguage.translate.url.request.process.resource.handler.ContentRespondResourceHandler</type>
+    <param>
+      <param-name>response.url.pattern</param-name>
+      <param-value>.+/robots.txt</param-value>
+    </param>
+    <param>
+      <param-name>response.content.path</param-name>
+      <param-value>classpath:/script/robots.txt</param-value>
+    </param>
+    <param>
+      <param-name>response.content.type</param-name>
+      <param-value>text/plain</param-value>
+    </param>
+    <priority>1</priority>
+  </resource-handler>
+  <!-- ホストヘッダーの検証-->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.HostHeaderCheckResourceHandler</type>
+    <priority>1</priority>
+    <terminal>true</terminal>
+  </resource-handler>
+  <!-- リソースの不正なパターンを検証 -->
+  <resource-handler>
+    <type>jp.co.crosslanguage.translate.url.request.process.resource.handler.PatternValidateResourceHandler</type>
+    <priority>1</priority>
+    <terminal>true</terminal>
+  </resource-handler>
+  
+  <!-- コンテンツキャッシュを使用するかどうかの設定 -->
+  <!-- 省略可能。デフォルト値は、false -->  
+  <use-cache>false</use-cache>
+  
+  <!-- サイトで使用される文字セット -->
+  <charset>UTF-8</charset>
+</client-settings>

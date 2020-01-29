@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>恵南文化遺産・観光情報サイト（KEINAN SPOT）</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>keinanspot/service 869c643592ef0abf4b990d903b0aca2aeb855854</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="keinanspot.jp" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
