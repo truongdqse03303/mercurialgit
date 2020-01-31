@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM ELEC ENERGY";
+}
+@engine naka-kogyo/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER ELEC ENERGY";
+}
+@engine naka-kogyo/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER ELEC ENERGY";
+}

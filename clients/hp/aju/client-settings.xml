@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>光産業創成大学院大学</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>gpi-ac/service fa741760f38a5c05400d7ffb68bc0657cadf783b</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.gpi.ac.jp" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

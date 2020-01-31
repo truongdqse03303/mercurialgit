@@ -1,0 +1,12 @@
+@engine default {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM ELEC ENERGY";
+}
+@engine gpi-ac/main {
+  eid: CR-JK;
+  dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER ELEC ENERGY";
+}
+@engine gpi-ac/cross {
+  eid: CR-JK;
+  dictionaries: "CROSS_TM_MASTER ELEC ENERGY";
+}
