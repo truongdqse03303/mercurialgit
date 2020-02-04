@@ -1,3 +1,7 @@
 #tmp_means_primary {
  attribute: cltx add 'exclude';
 }
+
+#tmp_sma_langlist > li {
+ attribute: clftx add 'exclude';
+}

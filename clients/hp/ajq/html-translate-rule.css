@@ -1,0 +1,6 @@
+// @RULESET
+// URL #=//www\.city\.ogi\.lg\.jp/
+@preprocess {
+	replace:'<h2>(.*?)<a href="(.*?)"><span>RSS</span></a></h2>' '<h2>$1<a href="$2"><br style="display:none;"><span>RSS</span></a></h2>';
+	replace:'<span class="time">(.*?)</span><span class="topictitle">' '<span class="time">$1</span><br style="display:none;"><span class="topictitle">';
+}

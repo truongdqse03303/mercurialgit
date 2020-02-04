@@ -1,0 +1,30 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height: 44px;
+}
+
+.gnav-btn {
+    top: 40px;
+}
+
+.gnav__title {
+    padding-top: 70px;
+}
+
+.header__lang {
+    top: 20px;
+}
+
+@media (min-width: 45.001em) {
+
+	#site-translate-header-wrapper{
+		width:100% !important;
+		height: auto;
+	}
+
+	#site-translate-header-wrapper p {
+		font-size:10px;
+		line-height: 12px;
+	}
+
+}

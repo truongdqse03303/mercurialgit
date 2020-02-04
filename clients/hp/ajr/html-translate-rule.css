@@ -1,3 +1,11 @@
+#spotsearch-filter {
+	attribute: cltx add 'exclude';
+}
+
+.spotsearch__controls > ul > li {
+	attribute: clftx add 'exclude';
+}
+
 @preprocess {
 	replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
 }
