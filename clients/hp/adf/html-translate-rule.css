@@ -1,6 +1,0 @@
-@preprocess {
-	replace:'<span class="news_date"(.*?)>(.*?)</span>' '<br style="display:none;"><span class="news_date"$1>$2</span><br style="display:none;">';
-	replace:'<span class="news_category(.*?)">(.*?)</span>' '<br style="display:none;"><span class="news_category$1">$2</span><br style="display:none;">';
-	replace:'<a href="(.*?)" class="news_title"(.*?)>(.*?)</a>' '<br style="display:none;"><a href="$1" class="news_title"$2>$3</a><br style="display:none;">';
-	replace:'<span class(.*?)="owner">(.*?)</span>' '<span class$1="owner">$2</span><br style="display:none;">';
-}
