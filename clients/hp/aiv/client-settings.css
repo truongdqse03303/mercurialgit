@@ -18,6 +18,10 @@
 	width:5000px;
 }
 
+.swiper-container {
+    margin: 44px auto 0;
+}
+
 .notice {
     top: 44px;
 }
@@ -32,6 +36,22 @@
 }
 
 @media screen and (max-width: 900px) {
+
+	.header {
+	    top: 44px;
+	}
+
+	.header-sp {
+	    top: 92px;
+	}
+
+	.header-btn {
+	    top: 44px;
+	}
+
+	#page-home .main-logo {
+	    top: 144px;
+	}
 
 	.is-notice .header {
 	    top: 76px;
@@ -69,8 +89,16 @@
 
 @media screen and (max-width: 767px) {
 
+	.swiper-container {
+	   margin: 0 auto;
+	}
+
 	.main img {
 	    top: 44px;
+	}
+
+	.l-contents {
+	    padding-top: 132px;
 	}
 
 }
