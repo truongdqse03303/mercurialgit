@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.pref.saga.lg.jp" />
+    <request hostname="www.pref.saga.lg.jp" ssl="true" />
     <request hostname="wwwkensho.pref.saga.lg.jp" />
   </request-list>
   

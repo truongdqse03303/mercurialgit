@@ -1,0 +1,5 @@
+@preprocess {
+  replace: '<span class="font-btn font-btn-small(.*?)">小' '<br style="display:none;"><span class="font-btn font-btn-small$1">S';
+  replace: '<span class="font-btn font-btn-normal(.*?)">中' '<br style="display:none;"><span class="font-btn font-btn-normal$1">M';
+  replace: '<span class="font-btn font-btn-large(.*?)">大' '<br style="display:none;"><span class="font-btn font-btn-large$1">L';
+}

@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.fukuya-dept.co.jp" />
+    <request hostname="www.fukuya-dept.co.jp" ssl="true" />
     <request hostname="demo.nic-name.com" />
   </request-list>
 

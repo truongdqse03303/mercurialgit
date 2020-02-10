@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.higashiyamato.lg.jp" />
+    <request hostname="www.city.higashiyamato.lg.jp" ssl="true" />
     <request hostname="www.humming-hall.jp" />
     <request hostname="www.lib.higashiyamato.tokyo.jp" />
   </request-list>
