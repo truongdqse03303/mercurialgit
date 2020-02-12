@@ -14,3 +14,9 @@
 body {
   attribute: lang add 'zh';
 }
+
+// @RULESET
+// URL #= //www\.sogo-seibu\.jp/common/museum/archives/20/robert_doisneau/
+@postprocess {
+	replace:'※\\(\\)\\)内为预售票及20人以上的团体优惠价格。' '※\\( \\)内为预售票及20人以上的团体优惠价格。';
+}

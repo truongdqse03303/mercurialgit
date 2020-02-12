@@ -10,3 +10,9 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
+
+// @RULESET
+// URL #= //www\.sogo-seibu\.jp/common/museum/archives/20/robert_doisneau/
+@postprocess {
+	replace:'※\\(\\)\\)內為預售票及20人以上的團體優惠價格。' '※\\( \\)內為預售票及20人以上的團體優惠價格。';
+}
