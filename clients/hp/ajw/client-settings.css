@@ -1,0 +1,42 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+	z-index: 99999;
+}
+
+#site-translate-header-wrapper p {
+	font-size:10px;
+	line-height: 12px;
+}
+
+#site-translate-message{
+	display:
+	table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+    padding: 0;
+}
+
+header {
+    top: 44px;
+}
+
+header #header-inner #header-menu nav > ul > li.hover-on .sub-nav > ul > li {
+    width: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+
+	header #header-inner #header-menu #search {
+	    margin-top: 94px;
+	}
+
+	header #header-inner #header-menu nav > ul > li.hover-on .sub-nav > ul > li {
+	    width: 100%;
+	}
+
+
+}

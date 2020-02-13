@@ -1,29 +1,15 @@
 #site-translate-header-wrapper{
-	width:100% !important;
-	height:44px;
-	position: fixed;
-	top:0;
-	z-index: 99999;
+	width:auto !important;
 }
 
 #site-translate-header-wrapper p {
-	font-size:10px;
-	line-height: 12px;
-}
-
-#site-translate-message{
-	display:
-	table-cell;
-	height:44px;
-	vertical-align:middle;
-	width:5000px;
-    padding: 0;
+	letter-spacing: normal;
 }
 
 #contentHead.add-head-top, #contentHead.add-head-cat {
-    top: 44px !important;
+    top: 28px !important;
 }
 
-body.categoryTop #contentAll .add-l-head, body.categoryGeneral #contentAll .add-l-head, body.categoryLang #contentAll .add-l-head {
-    padding-top: 209px !important;
+#contentHead.add-head-top.scroll, #contentHead.add-head-cat.scroll {
+	top: 0 !important;
 }

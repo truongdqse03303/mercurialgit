@@ -1,0 +1,6 @@
+// @RULESET
+// URL #= //www\.imazo\.co\.jp/
+// URL #= //imazo\.camps\.jp/
+@preprocess {
+  replace: '<div class="more-btn-a"><a href="(.*?)">(.*?)<span>(.*?)</span></a></div>' '<div class="more-btn-a"><a href="$1">$2<br style="display:none;"><span>$3</span></a></div>';
+}
