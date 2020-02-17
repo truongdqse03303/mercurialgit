@@ -14,3 +14,18 @@
 @preprocess {
 	replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
 }
+
+// @RULESET
+// URL #= www\.sekigahara1600\.com/access/.*
+@preprocess {
+	replace:'約(.*?)時間(.*?)分' 'About $1h $2min';
+	replace:'約(.*?)時間' 'About $1h';
+	replace:'約(.*?)分' 'About $1min';
+}
+
+// @RULESET
+// URL #= www\.sekigahara1600\.com/feature/.*
+@preprocess {
+	replace:'<span class="way">(.*?)</span>' '<span class="way">$1</span><br style="display:none;">';
+	replace:'<span class="time"><b>(.*?)</b>分</span>' '<span class="time"><b>$1</b><br style="display:none;">min</span>';
+}

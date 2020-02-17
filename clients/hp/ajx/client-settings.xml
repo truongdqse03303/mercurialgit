@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>印西市役所</name>
-  
+  <name>鹿児島県鹿屋市</name>
+
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>inzai/service 8fbc8a61205e415364541dadb4bf28b3c825cc8d</licence>
-  
+  <licence>city-kanoya/service ffe95310e712f65752ef86263469149a580615f8</licence>
+
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.inzai.lg.jp" ssl="true" />
-    <request hostname="210.173.40.51" />
+    <request hostname="www.city.kanoya.lg.jp" ssl="true" />
   </request-list>
+
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
+  <extension-param>
+   <param-name>mst.logo.show</param-name>
+   <param-value>v</param-value>
+  </extension-param>
+
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
