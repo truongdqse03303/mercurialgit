@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.yokohamatriennale.jp" path="/english/2020/" ssl="true" />
+    <request hostname="www.yokohamatriennale.jp" path="/english/2020/" ssl="true" ssl_verifypeer="false" />
   </request-list>
 
 
