@@ -10,3 +10,9 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER FASHION TOURISM GOURMET";
 }
+
+// @RULESET
+// URL #= //www\.hikarie\.jp/event/detail\.php\?id=5536
+@preprocess {
+	replace: '<h3>ブロードウェイ・ミュージカル「天使にラブ・ソングを…」</h3>' '<h3>Broadway musical "Sister Act"</h3>';
+}
