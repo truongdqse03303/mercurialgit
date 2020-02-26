@@ -1,0 +1,24 @@
+#site-translate-header-wrapper {
+	width: 100% !important;
+}
+
+#contents #info dl dt {
+    width: 13em;
+}
+
+#contents #info dl dd {
+    padding: 5px 0 5px 13em;
+}
+
+#viewBody {
+    top: 44px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	#header #h-info {
+	    width: 60%;
+		top: 5px;
+	}
+
+}

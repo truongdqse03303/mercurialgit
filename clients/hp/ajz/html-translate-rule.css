@@ -1,0 +1,9 @@
+@preprocess {
+	replace:'<span class="address">(.*?)</span>' '<span class="address">$1</span><br style="display:none;">';
+}
+
+// @RULESET
+// URL #= //www\.tobu-u-dept\.jp/.*
+@preprocess {
+	replace:'<h1><span>(.*?)</span>' '<h1><span>$1</span><br style="display:none;">';
+}
