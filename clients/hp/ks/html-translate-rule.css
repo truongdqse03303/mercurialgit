@@ -1,0 +1,19 @@
+.pickup_slider {
+	attribute: clftx add 'exclude';
+}
+
+@preprocess {
+	replace:'<strong>人口</strong>' '<strong>人口</strong><br style="display:none;">';
+	replace:'<strong>世帯</strong>' '<strong>世帯</strong><br style="display:none;">';
+	replace:'<strong>男性</strong>' '<strong>男性</strong><br style="display:none;">';
+	replace:'<strong>女性</strong>' '<strong>女性</strong><br style="display:none;">';
+	replace:'<span class="date">(.*?)</span>' '<br style="display:none;"><span class="date">$1</span>';
+}
+
+// @RULESET
+// URL #= //www\.city\.inzai\.lg\.jp
+// URL #= //210\.173\.40\.51
+@preprocess {
+	replace:'<div class="emergency_lower"><ul><li><a href="(.*?)">(.*?)</a>' '<div class="emergency_lower"><ul><li><br style="display:none;"><a href="$1">$2</a><br style="display:none;">';
+	replace:'<span class="window">(.*?)</span>' '<br style="display:none;"><span class="window">$1</span>';
+}

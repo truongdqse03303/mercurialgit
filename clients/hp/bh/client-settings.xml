@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象のリクエスト情報 （必須）-->
   <request-list>
-    <request hostname="www.city.nanjo.okinawa.jp" />
+    <request hostname="www.city.nanjo.okinawa.jp" ssl="true" />
   </request-list>
   
   <!-- サイトで使用される文字セット -->
