@@ -1,0 +1,4 @@
+@preprocess {
+  replace:'前へ' '到前';
+  replace:'次へ' '对其次';
+}

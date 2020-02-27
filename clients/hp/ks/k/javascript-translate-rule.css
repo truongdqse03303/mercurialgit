@@ -1,0 +1,4 @@
+@preprocess {
+  replace:'前へ' '전에';
+  replace:'次へ' '다음에';
+}

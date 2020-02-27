@@ -1,0 +1,4 @@
+@preprocess {
+  replace: '前へ' 'Forward';
+  replace: '次へ' 'To next';
+}
