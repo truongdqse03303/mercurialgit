@@ -49,6 +49,6 @@
     margin: 44px auto 20px;
 }
 
-#contentBody {
+.sp_translation.categoryStore #contentBody {
     margin: 44px auto 0;
 }
