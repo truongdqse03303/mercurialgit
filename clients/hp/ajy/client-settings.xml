@@ -11,6 +11,10 @@
     <request hostname="www.h-bt.jp" />
   </request-list>
 
+  <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
+  </extension-param>
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
