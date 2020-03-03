@@ -8,7 +8,7 @@
   
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.city.suzu.lg.jp" path="/kankounavi" ssl="true" />    
+    <request hostname="www.city.suzu.lg.jp" ssl="true" />    
   </request-list>
 
   <extension-param>

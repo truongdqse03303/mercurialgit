@@ -1,0 +1,12 @@
+// @RULESET
+// URL #= //www\.city\.suzu\.lg\.jp/kankounavi/.*
+// URL #= //www\.city\.suzu\.lg\.jp/eventnavi/.*
+@preprocess {
+	replace:'<body(.*?)class="(.*?)"(.*?)>' '<body $1 class="$2"$3 id="hp_navi">';
+}
+
+// @RULESET
+// URL #= //www\.city\.suzu\.lg\.jp/
+@preprocess {
+	replace:'<span class="newslist_recdate"(.*?)><span>(.*?)</span>' '<br style="display:none;"><span class="newslist_recdate"$1><span>$2</span><br style="display:none;">';
+}

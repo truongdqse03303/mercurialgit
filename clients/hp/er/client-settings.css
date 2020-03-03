@@ -1,4 +1,8 @@
 #site-translate-header-wrapper{
+	width: auto !important;
+}
+
+#hp_navi #site-translate-header-wrapper{
 	width: 100% !important;
     height: 44px;
     box-sizing: border-box;
@@ -7,18 +11,38 @@
 	z-index: 9999 ;
 }
 
-#site-translate-message{
+#hp_navi #site-translate-message{
 	display: table-cell;
     height: 38px;
     vertical-align: middle;
     width: 5000px;
 }
 
-#site-translate-header-wrapper p{
+#hp_navi #site-translate-header-wrapper p{
 	font-size: 10px;
     line-height: normal;
 }
 
-.header_outer {
+#hp_navi .header_outer {
 	top: 44px;
+}
+
+body#hp_navi:not(.index) {
+	margin-top: 44px !important;
+}
+
+td.tpl11 table tbody tr td table tbody tr td .btnbgcolor {
+	width: auto !important;
+}
+
+.wb-contents table tbody tr td table tbody tr td .bodys {
+	width: auto !important;
+}
+
+@media screen and (max-width: 735px) {
+
+	body#hp_navi:not(.index) {
+		margin-top: 0 !important;
+	}
+
 }
