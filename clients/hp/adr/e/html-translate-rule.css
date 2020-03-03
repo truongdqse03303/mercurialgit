@@ -10,3 +10,9 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
 }
+
+// @RULESET
+// URL #= //www\.akan-mashu-nationalpark\.asia/tourism/.*
+@preprocess {
+	replace:'<div class="attribute">(.*?)オール(.*?)</div>' '<div class="attribute">$1All$2</div>';
+}

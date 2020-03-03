@@ -1,11 +1,12 @@
 // @RULESET
-// URL #= www\.h-bt\.jp
+// URL #= www\.h-bt\.jp/company/.*
 @preprocess{
-	replace:'<p class="f_m_t fm_bus"><strong>(.*?)</strong>' '<p class="f_m_t fm_bus"><strong>$1</strong><br style="display:none;">';
+	replace:'<span class="ctrl_year(.*?)">(.*?)</span>' '<br style="display:none;"><span class="ctrl_year$1">$2</span><br style="display:none;">';
 }
 
 // @RULESET
-// URL #= www\.h-bt\.jp/company/
+// URL #= www\.h-bt\.jp
 @preprocess{
-	replace:'<span class="ctrl_year(.*?)">(.*?)</span>' '<span class="ctrl_year$1">$2</span><br style="display:none;">';
+	replace:'<p class="f_m_t fm_bus"><strong>(.*?)</strong>' '<p class="f_m_t fm_bus"><strong>$1</strong><br style="display:none;">';
+	replace:'<p class="f_m_t fm_lend"><strong>(.*?)</strong>' '<p class="f_m_t fm_lend"><strong>$1</strong><br style="display:none;">';
 }

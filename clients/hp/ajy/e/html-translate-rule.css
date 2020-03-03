@@ -10,3 +10,9 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
+
+@preprocess {
+	replace:'<a href="floor/spell_a.html">あ</a>' '<a href="floor/spell_a.html">a</a>';
+	replace:'<a href="floor/spell_h.html">は</a>' '<a href="floor/spell_h.html">ha</a>';
+	replace:'<a href="floor/spell_y.html">や</a>' '<a href="floor/spell_y.html">ya</a>';
+}
