@@ -50,8 +50,24 @@ header {
 	    top: 211px;
 	}
 
-	.common_btn {
-	    width: 350px;
+	.ctrl_year {
+	    width: 23%;
+	}
+
+	.common_btn:lang(en), .common_btn:lang(ko) {
+	    width: 520px;
+	}
+
+	.bus-stopNav li {
+	    font-size: 92%;
+	}
+
+	.select_flex>div:first-child:lang(en) {
+	    width: 38%;
+	}
+
+	.select_flex>div:nth-child(2):lang(en) {
+	    width: 25%;
 	}
 
 }
@@ -72,6 +88,11 @@ header {
 
 	main {
 		margin: 44px auto 0;
+	}
+
+	.slick_slide span {
+	    width: 98%;
+	    line-height: normal;
 	}
 
 }

@@ -1,0 +1,23 @@
+#site-translate-header-wrapper{
+	width:auto !important;
+}
+
+#site-translate-message {
+    padding: 0;
+}
+
+#g_header {
+    top: 30px;
+}
+
+#g_header.header_scroll {
+    top: 0;
+}
+
+@media only screen and (max-width: 767px) {
+
+	#g_header {
+	    top: 44px;
+	}
+
+}

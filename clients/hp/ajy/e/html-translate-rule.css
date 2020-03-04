@@ -12,7 +12,10 @@
 }
 
 @preprocess {
-	replace:'<a href="floor/spell_a.html">あ</a>' '<a href="floor/spell_a.html">a</a>';
-	replace:'<a href="floor/spell_h.html">は</a>' '<a href="floor/spell_h.html">ha</a>';
-	replace:'<a href="floor/spell_y.html">や</a>' '<a href="floor/spell_y.html">ya</a>';
+	replace:'<a href="(.*?)spell_a.html">あ</a>' '<a href="$1spell_a.html">a</a>';
+	replace:'<a href="(.*?)spell_h.html">は</a>' '<a href="$1spell_h.html">ha</a>';
+	replace:'<a href="(.*?)spell_y.html">や</a>' '<a href="$1spell_y.html">ya</a>';
+	replace:'<option value="(.*?)spell_a.html">あ</option>' '<option value="$1spell_a.html">a</option>';
+	replace:'<option value="(.*?)spell_h.html">は</option>' '<option value="$1spell_h.html">ha</option>';
+	replace:'<option value="(.*?)spell_y.html">や</option>' '<option value="$1spell_y.html">ya</option>';
 }
