@@ -50,6 +50,10 @@ header {
 	    top: 211px;
 	}
 
+	.common_btn {
+	    width: 350px;
+	}
+
 }
 
 @media (max-width: 767.98px) {

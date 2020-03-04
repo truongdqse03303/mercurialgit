@@ -1,4 +1,10 @@
 // @RULESET
+// URL #= www\.h-bt\.jp/rental_halls/.*
+@preprocess{
+	replace:'<time>(.*?)</time>' '<time>$1</time><br style="display:none;">';
+}
+
+// @RULESET
 // URL #= www\.h-bt\.jp/company/.*
 @preprocess{
 	replace:'<span class="ctrl_year(.*?)">(.*?)</span>' '<br style="display:none;"><span class="ctrl_year$1">$2</span><br style="display:none;">';
