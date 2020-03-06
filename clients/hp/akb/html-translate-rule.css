@@ -1,0 +1,17 @@
+#calendar-body,
+#calendar-box,
+#calendar-body-head,
+.event-calendar{
+	attribute: cltx add 'exclude';
+}
+
+@postprocess {
+	replace:'<img src="https://www.nitech.ac.jp/event/calendar/imgs/top/ic_calendar_before.png"(.*?)>' '<img src="imgs/top/ic_calendar_before.png"$1>';
+	replace:'<img src="https://www.nitech.ac.jp/event/calendar/imgs/top/ic_calendar_next.png"(.*?)>' '<img src="imgs/top/ic_calendar_next.png"$1>';
+}
+
+// @RULESET
+// URL #= //www\.nitech\.ac\.jp/examination/gakubu/.*
+@preprocess {
+	replace:'<h1>(.*?)<span class="sub">(.*?)</span>(.*?)</h1>' '<h1>$1<span class="sub">$2</span><br style="display:none;">$3</h1>';
+}

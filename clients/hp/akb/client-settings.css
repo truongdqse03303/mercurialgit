@@ -1,0 +1,67 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+	line-height: normal;
+}
+
+#headerlink2 {
+    width: 200px;
+    margin: 5px 0 0 0;
+}
+
+#headerlink2 a {
+    width: auto;
+	padding: 2% 4%;
+}
+
+#header-right {
+    width: auto;
+}
+
+#header-right:lang(ko) {
+    width: 455px;
+}
+
+#fontsize {
+    width: auto;
+}
+
+#headerbox {
+    clear: both;
+    width: 500px;
+}
+
+.mv-g-student a p {
+    padding: 18px 60px 18px 32px;
+    height: auto;
+    font-size: 90%;
+}
+
+.cat-news, .cat-event, .cat-exam, .cat-honor, .cat-press {
+    width: auto;
+    padding: 1px 3px;
+}
+
+#bnr-list a dl:lang(en) {
+    min-height: 122px;
+}
+
+.mm-menu, .mm-menu > .mm-panel {
+    top: 44px;
+	font-size: 85%;
+}
+
+@media screen and (max-width: 568px) {
+
+	#mainvisual p {
+	    width: auto;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.footerguest li a {
+	    font-size: 71%;
+	}
+
+}
