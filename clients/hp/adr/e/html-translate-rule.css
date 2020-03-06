@@ -14,7 +14,7 @@
 // @RULESET
 // URL #= //www\.akan-mashu-nationalpark\.asia/tourism/.*
 @preprocess {
-	replace:'<div class="refine_title bg_s3_all"><h2>オール(.*?)</h2></div>' '<div class="refine_title bg_s3_all"><h2>All$1</h2></div>';
+	replace:'<div class="refine_title bg_s3_all"><h2>(.*?)オール(.*?)</h2></div>' '<div class="refine_title bg_s3_all"><h2>$1All$2</h2></div>';
 	replace:'<option value="s3_all" SELECTED>オール</option></select>' '<option value="s3_all" SELECTED>All</option></select>';
 	replace:'<option value="s3_all">オール</option>' '<option value="s3_all">All</option>';
 	replace:'<div class="attribute">(.*?)オール(.*?)</div>' '<div class="attribute">$1All$2</div>';
