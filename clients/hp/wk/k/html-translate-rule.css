@@ -10,3 +10,10 @@
   eid: CR-JK;
   dictionaries: "CROSS_TM_MASTER";
 }
+
+// @RULESET
+// URL #= //www\.nsk-eki\.com/asty/.*
+// URL #= //www\.nsk-eki\.com/chum/.*
+@postprocess{
+	replace:'영업시간：' '영업시간';
+}

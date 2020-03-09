@@ -10,3 +10,19 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET FASHION";
 }
+
+// @RULESET
+// URL #= //www\.nsk-eki\.com/search/10/.*
+// URL #= //www\.nsk-eki\.com/chum/.*
+@postprocess{
+	replace:'Girls mignon' 'girls mignon';
+}
+
+// @RULESET
+// URL #= //www\.nsk-eki\.com/asty/.*
+// URL #= //www\.nsk-eki\.com/chum/.*
+@postprocess{
+	replace:'<td class="text"(.*?)>(.*?)None</td>' '<td class="text"$1>$2none</td>';
+	replace:'Convenience Stores' 'Convenience Store';
+	replace:'Business hours:' 'Business hours';
+}
