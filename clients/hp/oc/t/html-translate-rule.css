@@ -10,7 +10,3 @@
   eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT JICHITAI SYSDB";
 }
-
-@postprocess {
-  replace: 'https://www\.city\.kitahiroshima\.hokkaido\.jp/' 'http://www\.city\.kitahiroshima\.hokkaido\.jp\.t\.oc\.hp\.transer\.com/';
-}
