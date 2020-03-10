@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>近鉄バス</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>kintetsu-bus/service edb5b6c35200042ead934a3477d4b7ee44ffaff3</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.kintetsu-bus.co.jp" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
