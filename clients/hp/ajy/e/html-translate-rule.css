@@ -19,3 +19,10 @@
 	replace:'<option value="(.*?)spell_h.html">は</option>' '<option value="$1spell_h.html">ha</option>';
 	replace:'<option value="(.*?)spell_y.html">や</option>' '<option value="$1spell_y.html">ya</option>';
 }
+
+// @RULESET
+// URL #= //www\.h-bt\.jp/
+@postprocess {
+	replace:'Make a reservation' 'Make a<br>reservation';
+	replace:'Vacancy information' 'Vacancy<br>information';
+}

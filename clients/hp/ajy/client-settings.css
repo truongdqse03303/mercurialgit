@@ -24,6 +24,11 @@ header {
     top: 44px;
 }
 
+.syouwa\:\:before,
+.heisei\:\:before {
+	content: none;
+}
+
 @media (min-width: 768px) {
 
 	.overlayMenu {
@@ -70,6 +75,30 @@ header {
 	    width: 25%;
 	}
 
+	.f_m_l p a {
+	    line-height: normal;
+	}
+
+	#footer>li:first-child:lang(en) {
+	    width: 12%;
+	}
+
+	#footer>li:nth-child(3):lang(en) {
+	    width: 20%;
+	}
+
+	#footer>li:nth-child(4):lang(en) {
+	    width: 21%;
+	}
+
+	#footer>li:nth-child(5):lang(en) {
+	    width: 14%;
+	}
+
+	#footer>li:last-child:lang(en) {
+	    width: auto;
+	}
+
 }
 
 @media (max-width: 767.98px) {
@@ -93,6 +122,24 @@ header {
 	.slick_slide span {
 	    width: 98%;
 	    line-height: normal;
+	}
+
+	ul.bus-stopNav > li:nth-child(2):lang(en),
+	ul.bus-stopNav > li:nth-child(3):lang(en) {
+		height: 85px;
+	}
+
+	ul.bus-stopNav > li:nth-child(2) a,
+	ul.bus-stopNav > li:nth-child(3) a {
+		height: 100%;
+	}
+
+	.process_menu2>a>li {
+	    width: 100%:lang(en);
+	}
+
+	#footer_sp>li:nth-child(7):lang(en) {
+	    text-align: center;
 	}
 
 }
