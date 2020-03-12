@@ -124,6 +124,10 @@ header {
 	    line-height: normal;
 	}
 
+	.guide_tableBase td {
+	    overflow-wrap: break-word;
+	}
+
 	ul.bus-stopNav > li:nth-child(2):lang(en),
 	ul.bus-stopNav > li:nth-child(3):lang(en) {
 		height: 85px;
