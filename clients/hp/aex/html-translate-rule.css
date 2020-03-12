@@ -3,3 +3,15 @@
 .flex-control-paging li{
 	attribute: cltx add 'exclude';
 }
+
+// @RULESET
+// URL #= //www\.t-island\.jp/about.*
+@preprocess{
+	replace:'<span class="recomend-grid__tag">(.*?)</span>' '<span class="recomend-grid__tag">$1</span><br style="display:none;">';
+}
+
+// @RULESET
+// URL #= //www\.t-island\.jp/spot.*
+@postprocess{
+	replace:'<div id="filter-current" class="filter-list filter-list--current" clftx="(.*?)">' '<div id="filter-current" class="filter-list filter-list--current">';
+}

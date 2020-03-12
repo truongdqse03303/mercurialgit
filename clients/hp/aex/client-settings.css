@@ -1,19 +1,29 @@
 #site-translate-header-wrapper{
+	border: none;
 	width:100% !important;
-	height:auto;
-	box-sizing: border-box;
+	position: fixed;
+	top:0;
+	z-index: 999;
 }
 
-#site-translate-header-wrapper p{
+#site-translate-header-wrapper p {
 	font-size:10px;
-	line-height: 12px;
+	line-height: normal;
 }
 
 #site-translate-message{
-	display:block;	
+	display: block;
+	table-cell;
 	vertical-align:middle;
-	padding: 3px 0;
-	text-align: center;
+    padding: 5px;
+}
+
+.site-header {
+    top: 22px;
+}
+
+.page-header {
+    margin: 22px auto 0;
 }
 
 .route-box p{
@@ -25,8 +35,30 @@ ruby > rt {
 	display: none;
 }
 
+.event-grid__title {
+    word-break: break-word;
+}
+
+@media screen and (max-width: 767px) {
+
+	#site-translate-header-wrapper{
+		height: 44px;
+	}
+
+	.site-header {
+	    top: 44px;
+	}
+
+	.page-header {
+	    margin: 44px auto 0;
+	}
+
+}
+
 @media screen and (max-width: 420px){
-	th{
+
+	th {
 		white-space: normal;
 	}
+
 }
