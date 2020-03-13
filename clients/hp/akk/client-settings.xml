@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>アトレ竹芝</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>atre-takeshiba/service 1a82578b7cfe120683293ddc5cb0851c002f7ee9</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="atre-takeshiba.jp" ssl="true" />
+    <request hostname="atre-takeshiba-test.pictona.jp" ssl="true" />
+  </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic dGFrZXNoaWJhOjIwMjA=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://atre-takeshiba-test\.pictona\.jp/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

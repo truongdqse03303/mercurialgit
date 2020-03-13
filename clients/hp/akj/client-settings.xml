@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>芦屋市役所</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>city-ashiya/service ce1bba4134298dcb1bcc6f5fbd3d3f8d4d2f1d90</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.city.ashiya.lg.jp" ssl="true" />
+    <request hostname="pub.nohin.ashiya2014.cms8341.jp" />
+  </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic YXNoaXlhMjAxNDpDM2lWJml3TA==</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://pub\.nohin\.ashiya2014\.cms8341\.jp/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
