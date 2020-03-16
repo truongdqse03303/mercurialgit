@@ -15,6 +15,10 @@ body {
   attribute: lang add 'zh';
 }
 
+@preprocess {
+	replace: '015522140178123932687\\:mx6uxa7fhpy' '003005127414087536515\\:e2hj8wdu61m';
+}
+
 // @RULESET
 // URL = http://livecamera.city.izu.shizuoka.jp/
 // URL = http://livecamera.city.izu.shizuoka.jp/index.php

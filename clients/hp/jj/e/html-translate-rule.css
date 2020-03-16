@@ -11,6 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
 }
 
+@postprocess {
+	replace: '015522140178123932687\\:mx6uxa7fhpy' '003005127414087536515\\:9ims21a1mii';
+}
+
 // @RULESET
 // URL = http://livecamera.city.izu.shizuoka.jp/
 // URL = http://livecamera.city.izu.shizuoka.jp/index.php

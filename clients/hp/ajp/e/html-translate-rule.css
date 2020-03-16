@@ -10,3 +10,9 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER TOURISM GOURMET";
 }
+
+// @RULESET
+// URL #= www\.niigatakankou-mice\.jp/facility/.*
+@preprocess {
+	replace:'例）朱鷺メッセ' 'ex) Toki Messe';
+}

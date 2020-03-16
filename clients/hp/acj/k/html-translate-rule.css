@@ -12,6 +12,7 @@
 }
 
 @preprocess {
+	replace:'<!-- crosslanguage-k:show(.*?)/crosslanguage-k:show -->' '$1';
 	replace:'UA-6770989-14' 'UA-6770989-18';
 	replace:'<dd><a (.*?) class="crosslanguage-translate-jako">한국어</a></dd>' '<dd><a $1 class="crosslanguage-translate-jako cl-notranslate">한국어</a></dd>';
 }
