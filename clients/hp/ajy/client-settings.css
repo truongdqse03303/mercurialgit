@@ -128,6 +128,14 @@ header {
 	    overflow-wrap: break-word;
 	}
 
+	.guide_tableBase td:nth-of-type(2):lang(en) {
+	    width: 49.9%;
+	}
+
+	.guide_tableBase td:nth-of-type(3):lang(en) {
+	    width: 50%;
+	}
+
 	ul.bus-stopNav > li:nth-child(2):lang(en),
 	ul.bus-stopNav > li:nth-child(3):lang(en) {
 		height: 85px;

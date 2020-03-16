@@ -1,0 +1,6 @@
+// @RULESET
+// URL #= //www\.h-bt\.jp/bus/css/bus\.css.*
+@preprocess {
+	replace: '"行先・バス番号"' '"目的地, 巴士号码"';
+	replace: '"主な行先"' '"主要目的地"';
+}
