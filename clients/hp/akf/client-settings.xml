@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>鹿児島県伊仙町</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>town-isen/service a23627bee7a6ece922d2e4b9f83c2c0da613caa3</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.town.isen.kagoshima.jp" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
