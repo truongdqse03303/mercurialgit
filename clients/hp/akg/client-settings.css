@@ -1,0 +1,15 @@
+#site-translate-header-wrapper{
+	width:auto !important;
+}
+
+.fc-button {
+    font-size: .9em;
+}
+
+@media print, screen and (min-width: 1200px) {
+
+	.topSnap .topSnap__title {
+	    font-size: 0.97rem;
+	}
+
+}

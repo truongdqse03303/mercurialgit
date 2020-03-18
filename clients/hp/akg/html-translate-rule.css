@@ -1,0 +1,12 @@
+.topSnap__area{
+	attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL #= //www\.town\.minamioguni\.lg\.jp/
+// URL #= //www\.town\.minamioguni\.lg\.jp/news/
+// URL #= //210\.148\.117\.26/
+// URL #= //210\.148\.117\.26/news/
+@preprocess{
+	replace:'<span class="icon--new">(.*?)</span>' '<br style="display:none;"><span class="icon--new">$1</span>';
+}

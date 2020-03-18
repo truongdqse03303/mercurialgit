@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>JR四国情報システム</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>jr-shikoku/service 39ec44a4ecf4706e88415e7bcb74016a3a4efd55</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.jr-shikoku.co.jp" ssl="true" />
+    <request hostname="www8.jr-shikoku.co.jp" />
+  </request-list>
+
+  <!-- Basic認証 -->
+  <resource-handler>
+    <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
+    <param>
+      <param-name>header.name.auth</param-name>
+      <param-value>Authorization</param-value>
+    </param>
+    <param>
+      <param-name>header.value.auth</param-name>
+      <param-value>Basic eW9ha2V0YWdlbmdvOmpyc2lzMjAyMDAzMTI=</param-value>
+    </param>
+    <param>
+      <param-name>header.applied.auth</param-name>
+      <param-value>(http|https)://www\.jr-shikoku\.co\.jp/yoakenomonogatari_test/.*</param-value>
+    </param>
+  </resource-handler>
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
