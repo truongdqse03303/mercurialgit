@@ -12,6 +12,11 @@
     <request hostname="t2-www.atre.co.jp" />
   </request-list>
 
+  <extension-param>
+  <param-name>site.translate.header.style</param-name>
+  <param-value>client-settings.css</param-value>
+  </extension-param>
+
  <!-- Basic認証 -->
   <resource-handler>
     <type name="basic">jp.co.crosslanguage.translate.url.request.process.resource.handler.HTTPHeaderAppendResourceHandler</type>
@@ -31,12 +36,6 @@
 
   <!-- コンテンツキャッシュ使用有無の設定-->
   <use-cache>true</use-cache>
-  
-      <!-- 免責事項をフッターに表示 -->
-  <extension-param>
-    <param-name>show.translate.header</param-name>
-    <param-value>body</param-value>
-  </extension-param>
   
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
