@@ -5,6 +5,7 @@
 }
 
 @preprocess {
+	replace: '</head>' '<meta name="robots" content="noindex,nofollow"></head>';
 	replace: '<p class="store-news-list-img(.*?)"(.*?)>' '<p class="store-news-list-img$1" cltx="exclude"$2>';
 	replace: '<p class="shop-news-list-img(.*?)"(.*?)>' '<p class="shop-news-list-img$1" cltx="exclude"$2>';
 }
