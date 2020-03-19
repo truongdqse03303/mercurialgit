@@ -7,8 +7,6 @@
  replace: '<option value="">한글</option>' '<option value="" class="cl-notranslate">한글</option>';
  replace: '<span class="pcNone">スマホ版</span>' '<br style="display:none;"><span class="pcNone">スマホ版</span><br style="display:none;">';
  replace: '<span class="spNone">パソコン版</span>' '<br style="display:none;"><span class="spNone">パソコン版</span><br style="display:none;">';
- replace: '<a(.*?)class="buttonChangeType spNone">スマホ版</a>' '<br style="display:none;"><a$1class="buttonChangeType spNone">$2</a><br style="display:none;">';
- replace: '<a(.*?)class="buttonChangeType pcNone">パソコン版</a>' '<br style="display:none;"><a$1class="buttonChangeType pcNone">$2</a><br style="display:none;">';
 }
 
 
