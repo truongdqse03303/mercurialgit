@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>JR名古屋高島屋</name>
+  <name>Amuseum Parks（アートアクアリウム）</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>jr-takashimaya/service afdee6448a2b039d265ec23afb236eecb34a4cc2</licence>
+  <licence>artaquarium/service d8e2a8dc1d3256ec51746425702574fd05b0b5e2</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.jr-takashimaya.co.jp" path="(/today|/topics|/cp|/info)" ssl="true" />
-    <request hostname="cmsstage.jr-takashimaya.co.jp" path="(/today|/topics|/cp|/info)" ssl="true" />
+    <request hostname="ticket.artaquarium.jp" ssl="true" />
+    <request hostname="ticket-stg.artaquarium.jp" ssl="true" />
   </request-list>
-
-  <extension-param>
-	<param-name>site.translate.header.style</param-name>
-	<param-value>client-settings.css</param-value>
-  </extension-param>
 
   <!-- Basic認証 -->
   <resource-handler>
@@ -26,14 +21,18 @@
     </param>
     <param>
       <param-name>header.value.auth</param-name>
-      <param-value>Basic YWRnajptcHR3</param-value>
+      <param-value>Basic c3NlYWRtaW46c3Nlc3Nl</param-value>
     </param>
     <param>
       <param-name>header.applied.auth</param-name>
-      <param-value>(http|https)://cmsstage\.jr-takashimaya\.co\.jp/.*</param-value>
+      <param-value>(http|https)://ticket-stg\.artaquarium\.jp.*</param-value>
     </param>
   </resource-handler>
-  
+
+  <!-- コンテンツキャッシュ使用有無の設定-->
+  <use-cache>true</use-cache>
+
+
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->
 </client-settings>
