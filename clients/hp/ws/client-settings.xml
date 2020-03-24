@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.komehyo.co.jp" />
+    <request hostname="www.komehyo.co.jp" ssl="true" />
     <request hostname="122.208.213.10" path="/komehyo/" />
   </request-list>
   

@@ -1,0 +1,9 @@
+#slider {
+	attribute: cltx add 'exclude';
+}
+
+// @RULESET
+// URL #= //www\.pu-hiroshima\.ac\.jp/
+@preprocess {
+	replace:'<span class="span_a">(.*?)</span>' '<span class="span_a">$1</span><br style="display:none;">';
+}
