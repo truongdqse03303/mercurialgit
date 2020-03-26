@@ -1,0 +1,37 @@
+#site-translate-header-wrapper{
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+    line-height: normal;
+}
+
+.c-offcanvas {
+    top: 44px;
+}
+
+@media screen and (max-width: 599.999px) {
+
+	#site-translate-header-wrapper {
+		height: 44px;
+		display: table;
+		position: fixed;
+		top:0;
+		z-index: 9999;
+
+	}
+
+	#site-translate-message{
+		font-size:10px;
+		line-height: 12px;
+		display:table-cell;
+		height:44px;
+		vertical-align:middle;
+		width:5000px;
+	}
+
+	.l-header ._sp {
+	    top: 44px;
+	}
+
+}
