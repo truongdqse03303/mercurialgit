@@ -1,0 +1,24 @@
+#site-translate-header-wrapper{
+	width:auto !important;
+}
+
+.list_table td.date {
+    width: 35%;
+}
+
+#tmp_sma_lmenu,
+#tmp_sma_rmenu {
+	top: 104px !important;
+}
+
+@media screen and (max-width: 480px) {
+
+	#tmp_hnavi_lmenu {
+	    top: 54px;
+	}
+
+	#tmp_hnavi_rmenu {
+	    top: 54px;
+	}
+
+}

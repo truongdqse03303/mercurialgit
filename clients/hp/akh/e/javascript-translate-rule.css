@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= //www\.jr-shikoku\.co\.jp/yoakenomonogatari/.*
+@preprocess {
+	replace: 'UA-913788-1' 'UA-913788-20';
+}

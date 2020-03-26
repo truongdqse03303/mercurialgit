@@ -1,0 +1,125 @@
+#site-translate-header-wrapper{
+	width:auto !important;
+}
+
+#site-translate-header-wrapper p {
+    line-height: normal;
+}
+
+#history .historyBox02 {
+    display: block;
+}
+
+.pageTitleBox {
+    -webkit-writing-mode: unset;
+    -ms-writing-mode: unset;
+    writing-mode: unset;
+}
+
+@media screen and (min-width: 1401px) {
+
+	.header .navWrap .u01 li a {
+    	font-size: 1em;
+	}
+
+}
+
+@media screen and (min-width: 1081px) {
+
+	.header {
+	    top: 28px;
+	}
+	
+	#history .historyBox01Wrap {
+    	padding-left: 0;
+	}
+
+}
+
+@media screen and (max-width: 1080px) {
+
+	.toggle {
+	    top: 65px;
+	}
+
+	.header.hide .toggle {
+		top: 20px;
+	}
+
+}
+
+@media screen and (min-width: 769px) {
+
+	#menu02 .menuBox02,
+	#kaika .kaikaBox02,
+	#menu .menuBox01,
+	#risshi .risshiBox02,
+	#notice .noticeBox01,
+	#fare .fareBox02,
+	#operation .operationBox01,
+	#meal .mealBox02,
+	#locationAbout .locationAboutBox01,
+	#desc .descBox01,
+	#desc .descBox02,
+	#location .locationBox02,
+	#interior .interiorBox01,
+	#appearance .appearanceBox02,
+	#concept .conceptBox,
+	#concept .conceptBox02,
+	#history .historyBox02,
+	#enjoy .enjoyBox01,
+	#enjoy .enjoyBox02,
+	#name .nameBox02,
+	#history .historyBox01 {
+	    -webkit-writing-mode: unset;
+	    -ms-writing-mode: unset;
+	    writing-mode: unset;
+	}
+
+	#kaika .kaikaBox02 {
+    	width: 85%;
+	}
+	
+	#menu02 .menuBox02Wrap {
+    	padding: 1.5em;
+	}
+
+	#concept .conceptBox02 {
+    	padding: 0;
+	}
+		
+	#locationAbout .locationAboutBox01 {
+	    padding: 0;
+	}
+	
+	#fare .fareBox02 dd {
+    	margin-top: 4em;
+	}
+
+	#enjoy .enjoyBox01Wrap {
+		float: none;
+	}
+
+	#history .historyLink {
+	    bottom: -7.1em;
+	}
+
+	#history .historyBox02 p {
+	    line-height: 2.20;
+	}
+
+}
+
+@media screen and (min-width: 601px) {
+
+	#meal .mealBox02,
+	#concept .conceptBox02,
+	#location .locationBox02 {
+	    width: 65%;
+	}
+
+	#locationAbout .locationAboutd01_2 {
+	    width: 60%;
+	}
+
+}
