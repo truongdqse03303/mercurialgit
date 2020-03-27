@@ -1,5 +1,5 @@
 // @RULESET
-// URL #= //www\.jr-shikoku\.co\.jp/yoakenomonogatari/.*
+// URL #= //www\.jr-shikoku\.co\.jp/js/ganalytics\.js.*
 @preprocess {
 	replace: 'UA-913788-1' 'UA-913788-22';
 }
