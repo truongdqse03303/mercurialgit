@@ -8,8 +8,8 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.jr-shikoku.co.jp" ssl="true" />
-    <request hostname="www8.jr-shikoku.co.jp" />
+    <request hostname="www.jr-shikoku.co.jp" path="/(yoakenomonogatari|yoakenomonogatari_test)" ssl="true" />
+    <request hostname="www8.jr-shikoku.co.jp" path="/(yoakenomonogatari|yoakenomonogatari_test)" />
   </request-list>
 
   <extension-param>

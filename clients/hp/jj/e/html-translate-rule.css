@@ -11,8 +11,10 @@
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
 }
 
-@postprocess {
+@preprocess {
 	replace: '015522140178123932687\\:mx6uxa7fhpy' '003005127414087536515\\:9ims21a1mii';
+	replace: '003005127414087536515\\:mmvqituc2f3' '003005127414087536515\\:umievwe1xhd';
+	replace: '007532502274234954543\\:8cqpmju38ok' '003005127414087536515\\:ydqdepiqtsh';
 }
 
 // @RULESET
