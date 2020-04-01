@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= //www\.satsuma-net\.jp/cgi-bin/event_cal/.*
+@preprocess{
+	replace:'<span class="year">(.*?)</span><span class="month">(.*?)</span>' '<span class="year">$1</span><br style="display:none;"><span class="month">$2</span>';
+}

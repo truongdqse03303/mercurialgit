@@ -1,12 +1,12 @@
 @engine default {
-  eid: CR-JCT;
+  eid: CR-JCT-N;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM GOVT";
 }
 @engine osaka-bousai/main {
-  eid: CR-JCT;
+  eid: CR-JCT-N;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER GOVT";
 }
 @engine osaka-bousai/cross {
-  eid: CR-JCT;
+  eid: CR-JCT-N;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT";
 }
