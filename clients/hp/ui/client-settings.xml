@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.hikarie.jp" />
+    <request hostname="www.hikarie.jp" ssl="true" />
     <request hostname="shibuyacast-apt.jp" />
     <request hostname="shibuyacast.jp" ssl="true" />
     <request hostname="153.122.109.55" />
