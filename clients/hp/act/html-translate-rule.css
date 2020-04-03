@@ -52,6 +52,7 @@
 // @RULESET
 // URL #= //test-mitsui-shopping-park\.com/mop/yokohama/.*
 // URL #= //mitsui-shopping-park\.com/mop/yokohama/.*
-#container > #wrapper {
+#container > #wrapper,
+.wideslider > ul > li {
 	attribute: clftx add 'exclude';
 }
