@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= //mitsui-shopping-park\.com/mop/yokohama/common/js/ga\.js.*
+@preprocess {
+	replace: 'UA-69085515-1' 'UA-69085515-4';
+}

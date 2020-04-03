@@ -1,4 +1,11 @@
 // @RULESET
+// URL #= //www\.imazo\.co\.jp/news/.*
+// URL #= //imazo\.camps\.jp/news/.*
+@preprocess {
+  replace: '<time>(.*?)</time>' '<time>$1</time><br style="display:none;">';
+}
+
+// @RULESET
 // URL #= //www\.imazo\.co\.jp/
 // URL #= //imazo\.camps\.jp/
 @preprocess {
