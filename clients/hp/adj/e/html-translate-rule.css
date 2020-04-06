@@ -14,9 +14,9 @@
 @preprocess{
 	replace:'<!-- crosslanguage-e:show(.*?)/crosslanguage-e:show -->' '$1';
 	replace:'<form action="(.*?)/jp/(.*?)"(.*?)>' '<form action="$1/en/$2"$3>';
+	replace:'<a href="(.*?)/jp/(.*?)"(.*?)>' '<a href="$1/en/$2"$3>';
 }
 
 @postprocess{
-	replace:'<a href="(.*?)/jp/(.*?)"(.*?)>' '<a href="$1/en/$2"$3>';
 	replace:'hibiya.tokyo-midtown.com/en/(.*?)" class="cl-norewrite">Japanese</a>' 'hibiya.tokyo-midtown.com/jp/$1" class="cl-norewrite">Japanese</a>';
 }

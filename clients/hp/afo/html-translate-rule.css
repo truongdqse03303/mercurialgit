@@ -1,8 +1,0 @@
-#page-top,
-nav.gnav {
-	attribute: cltx add 'exclude';
-}
-
-@postprocess {
-	replace: '@ click' '@click';
-}
