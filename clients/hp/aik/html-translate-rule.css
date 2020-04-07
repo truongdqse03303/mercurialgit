@@ -1,3 +1,7 @@
+@postprocess{
+	replace:'fill\\:url\\(https://hareza-ikebukuro\.com/#SVGID_1_\\)' 'fill\\:url\\(#SVGID_1_\\)';
+}
+
 // @RULESET
 // URL #= //hareza-ikebukuro\.com/
 @preprocess{
