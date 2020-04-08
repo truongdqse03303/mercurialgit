@@ -1,0 +1,5 @@
+#top_news > h2,
+#top_daido > h2,
+#top_jisenn {
+	attribute: clftx add 'exclude';
+}
