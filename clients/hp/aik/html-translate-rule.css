@@ -1,5 +1,5 @@
 @postprocess{
-	replace:'fill\\:url\\(https://hareza-ikebukuro\.com/#SVGID_1_\\)' 'fill\\:url\\(#SVGID_1_\\)';
+	replace:'fill\\:url\\(https://hareza-ikebukuro\.com(.*?)/#SVGID_1_(.*?)\\)' 'fill\\:url\\(#SVGID_1_$2\\)';
 }
 
 // @RULESET
