@@ -1,6 +1,6 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM MECHA ELEC ARCHI";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM MECHA ELEC ARCHI";
 }
 @engine daido-it/main {
   eid: CR-JK;
@@ -8,5 +8,5 @@
 }
 @engine daido-it/cross {
   eid: CR-JK;
-  dictionaries: "CROSS_TM_MASTER MECHA ELEC ARCHI";
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER MECHA ELEC ARCHI";
 }

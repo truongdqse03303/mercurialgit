@@ -1,0 +1,9 @@
+.header_brand {
+	attribute: clftx add 'exclude';
+}
+
+@preprocess {
+	replace:'<span class="footer_sale_title">(.*?)</span>' '<br style="display:none;"><span class="footer_sale_title">$1</span><br style="display:none;">';
+	replace:'<span class="footer_sale_title pc_appear">(.*?)</span>' '<br style="display:none;"><span class="footer_sale_title pc_appear">$1</span><br style="display:none;">';
+	replace:'<span class="footer_sale_title sp_appear">(.*?)</span>' '<br style="display:none;"><span class="footer_sale_title sp_appear">$1</span><br style="display:none;">';
+}

@@ -2,11 +2,11 @@
   eid: CR-JK;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
 }
-@engine artaquarium/main {
+@engine hotel-trusty/main {
   eid: CR-JK;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
-@engine artaquarium/cross {
+@engine hotel-trusty/cross {
   eid: CR-JK;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }

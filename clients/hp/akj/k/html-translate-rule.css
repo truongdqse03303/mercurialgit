@@ -1,6 +1,6 @@
 @engine default {
   eid: CR-JK;
-  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_TM";
+  dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
 }
 @engine city-ashiya/main {
   eid: CR-JK;
@@ -8,5 +8,5 @@
 }
 @engine city-ashiya/cross {
   eid: CR-JK;
-  dictionaries: "CROSS_TM_MASTER";
+  dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }

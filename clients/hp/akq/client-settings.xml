@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>船橋市公園協会</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>parkfunabashi/service 7363d3ff807fc993a8d936945c6b16b45e29bf86</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="www.park-funabashi.or.jp" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

@@ -1,12 +1,12 @@
 @engine default {
-  eid: CR-JK;
+  eid: CR-JCT;
   dictionaries: "CLIENT_DIC CLIENT_TM CROSS_DIC CROSS_TM";
 }
-@engine artaquarium/main {
-  eid: CR-JK;
+@engine seiyu/main {
+  eid: CR-JCT;
   dictionaries: "CLIENT_DIC_MASTER CLIENT_TM_MASTER";
 }
-@engine artaquarium/cross {
-  eid: CR-JK;
+@engine seiyu/cross {
+  eid: CR-JCT;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER";
 }

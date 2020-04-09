@@ -1,0 +1,48 @@
+#site-translate-header-wrapper{
+	width:100% !important;
+	height:44px;
+	position: fixed;
+	top:0;
+	z-index: 99999;
+}
+
+#site-translate-header-wrapper p {
+	font-size:10px;
+	line-height: normal;
+}
+
+#site-translate-message{
+	display:table-cell;
+	height:44px;
+	vertical-align:middle;
+	width:5000px;
+    padding: 0;
+}
+
+body {
+    margin: 44px auto 0;
+}
+
+.header_inner {
+    top: 44px;
+}
+
+.header_expand {
+    top: 104px;
+}
+
+.campaign_banner_more {
+    width: 130px;
+}
+
+.horizontal_nav {
+    top: 44px;
+}
+
+@media screen and (max-width: 767px) {
+
+	body.modal-open .header_top {
+	    top: 44px;
+	}
+
+}

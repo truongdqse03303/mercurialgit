@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>Coaska Baysaide Stores(横須賀モール・リーシング)</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>coaska/service e9f43862b79c0ef13582b631a844145a66c41793</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="coaska.jp" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>

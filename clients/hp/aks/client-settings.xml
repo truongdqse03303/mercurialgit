@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client-settings>
+  <!-- クライアント名（任意） -->
+  <name>オーケー</name>
+
+  <!-- Translation Serverのライセンスキー（必須） -->
+  <licence>ok-corporation/service db6dc922b4f0574ad18796dd5fd72087a795df82</licence>
+
+  <!-- 翻訳対象となるリクエストの一覧 -->
+  <request-list>
+    <request hostname="ok-corporation.jp" ssl="true" />
+  </request-list>
+
+
+  <!-- サイトで使用される文字セット -->
+  <!--charset>UTF-8</charset-->
+</client-settings>
