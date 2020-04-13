@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <client-settings>
   <!-- クライアント名（任意） -->
-  <name>船橋市公園協会</name>
+  <name>テストアカウント（北原）</name>
 
   <!-- Translation Serverのライセンスキー（必須） -->
-  <licence>parkfunabashi/service 7363d3ff807fc993a8d936945c6b16b45e29bf86</licence>
+  <licence>test-kitahara/service f088b9afac53c396fc27037fe2e60d19bcb2f3a7</licence>
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.park-funabashi.or.jp" ssl="true" />
+    <request hostname="www.crosslanguage.co.jp" ssl="true" />
   </request-list>
 
+  <!-- Microsoft Translatorロゴを表示する設定ID -->
   <extension-param>
-  <param-name>site.translate.header.style</param-name>
-  <param-value>client-settings.css</param-value>
+   <param-name>mst.logo.show</param-name>
+   <param-value>v,id</param-value>
   </extension-param>
+
 
   <!-- サイトで使用される文字セット -->
   <!--charset>UTF-8</charset-->

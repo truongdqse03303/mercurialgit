@@ -19,6 +19,10 @@
     padding: 0;
 }
 
+#site-translate-icp {
+    width: auto;
+}
+
 body {
     margin: 44px auto 0;
 }
@@ -37,6 +41,19 @@ body {
 
 .horizontal_nav {
     top: 44px;
+}
+
+.shop_register {
+    height: auto;
+}
+
+.shop_detail_name {
+    width: 140px;
+}
+
+.floor_guide_toggle[aria-selected=false] {
+    width: auto;
+    padding: 0 2%;
 }
 
 @media screen and (max-width: 767px) {

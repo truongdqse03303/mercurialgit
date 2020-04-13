@@ -1,4 +1,8 @@
 @preprocess {
+ replace:'<script src="/common/js_frontend/common.js"></script>' '<script src="//www.atre.co.jp/common/js_frontend/common.js"></script>';
+}
+
+@preprocess {
  replace:'<!-- crosslanguage:show(.*?)/crosslanguage:show -->' '$1';
  replace: '<option value="">日本語</option>' '<option value="" class="cl-notranslate">日本語</option>';
  replace: '<option value="">English</option>' '<option value="" class="cl-notranslate">English</option>';

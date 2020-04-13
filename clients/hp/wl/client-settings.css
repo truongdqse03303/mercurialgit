@@ -6,6 +6,10 @@
 	letter-spacing: normal;
 }
 
+#site-translate-icp {
+    width: auto;
+}
+
 #contentHead.add-head-top, #contentHead.add-head-cat {
     top: 28px !important;
 }

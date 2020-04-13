@@ -1,0 +1,11 @@
+#site-translate-header-wrapper{
+	width:auto !important;
+}
+
+.searchbook-item-label {
+    width: 92px;
+}
+
+.searchbook-item-confirm:lang(en) input {
+    font-size: 10.5px;
+}

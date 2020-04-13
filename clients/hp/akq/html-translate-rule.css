@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= //www\.park-funabashi\.or\.jp/
+@preprocess {
+	replace:'<span class="label">(.*?)</span>' '<br style="display:none;"><span class="label">$1</span><br style="display:none;">';
+}
