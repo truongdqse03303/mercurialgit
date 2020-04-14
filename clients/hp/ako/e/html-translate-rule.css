@@ -10,3 +10,8 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOURMET";
 }
+
+@postprocess {
+	replace:'<span class="price_number">(.*?)ye</span><span class="price_circle">n</span>' '<span class="price_number">$1</span><span class="price_circle">yen</span>';
+	replace:'<span>(.*?)y</span><span class="product_area_tax">en</span>' '<span>$1</span><span class="product_area_tax">yen</span>';
+}

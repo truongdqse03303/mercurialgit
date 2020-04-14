@@ -8,7 +8,7 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.park-funabashi.or.jp" ssl="true" />
+    <request hostname="www.park-funabashi.or.jp" ssl="true" ssl_verifypeer="false" />
   </request-list>
 
   <extension-param>

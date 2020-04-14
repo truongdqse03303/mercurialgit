@@ -51,15 +51,84 @@ body {
     width: 140px;
 }
 
+.shop_search_form_wrapper {
+    white-space: normal;
+}
+
 .floor_guide_toggle[aria-selected=false] {
     width: auto;
     padding: 0 2%;
+}
+
+.deals_calc_value:lang(en) {
+    padding-left: 0;
+}
+
+.deals_calc_units:lang(en) {
+    font-size: 1.1rem;
+}
+
+.deals_calc_amount_text:lang(en) {
+    font-size: 1.5rem;
+}
+
+.deals_calc_caption:lang(en) {
+    font-size: 1.5rem;
+}
+
+.deals_calc_amount_units:lang(en) {
+    font-size: 1.1rem;
+    letter-spacing: normal;
+}
+
+.deals_calc_gain_text:lang(en) {
+    font-size: 1.3rem;
+}
+
+.stick {
+    top: 44px;
+}
+
+.menu-logo {
+    padding: 0;
+}
+
+.menu-nav {
+    padding-left: 0;
+}
+
+.menu-list {
+    padding: 0 0 0 5%;
+}
+
+@media screen and (min-width: 768px) {
+
+	.tip3-link-midasi p {
+	    font-size: 20px;
+	}
+
+	.bigbet_area_btn>ul>li a {
+	    font-size: 105%;
+	}
+
+	.bigbet_mainheading_text {
+	    font-size: 44px;
+	}
+
+	.bigbet_subheading_text {
+	    font-size: 25px;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
 
 	body.modal-open .header_top {
 	    top: 44px;
+	}
+
+	.deals_calc_amount_text:lang(en) {
+	    font-size: 1.2rem;
 	}
 
 }
