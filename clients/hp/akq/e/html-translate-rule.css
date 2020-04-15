@@ -10,3 +10,9 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER GOVT TOURISM";
 }
+
+// @RULESET
+// URL #= //www\.park-funabashi\.or\.jp/and/.*
+@postprocess {
+	replace:'Flower bed division <span>company flower bed</span> of various companies' '<span>Company flower bed</span>flower bed division of various companies';
+}

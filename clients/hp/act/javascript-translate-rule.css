@@ -1,4 +1,10 @@
 // @RULESET
+// URL #= //mitsui-shopping-park\.com/mop/common/js/easyselectbox\.min\.js.*
+@preprocess {
+	replace: '<div tabindex="0" class="easy-select-box(.*?)</div>' '<div cltx="exclude" tabindex="0" class="easy-select-box$1</div>';
+}
+
+// @RULESET
 // URL #= //mitsui-shopping-park.com/.*/common/js/common.js
 @postprocess {
 	replace: 'css\\(\'top\',\'13px\'\\)' 'css\\(\'top\',\'57px\'\\)';

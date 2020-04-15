@@ -1,3 +1,18 @@
+#movie {
+	attribute: cltx add 'exclude';
+}
+
+@preprocess {
+	replace:'<p class="copyright">&copy;' '<p class="copyright">&copy;<br style="display:none;">';
+}
+
+// @RULESET
+// URL #= //www\.park-funabashi\.or\.jp/and/.*
+@preprocess {
+	replace:'<a href="(.*?)guide\.html" class="todetail"><span>(.*?)</span></a>' '<a href="$1guide\.html" class="todetail"><br style="display:none;"><span>$2</span><br style="display:none;"></a>';
+	replace:'<p>&copy;' '<p>&copy;<br style="display:none;">';
+}
+
 // @RULESET
 // URL #= //www\.park-funabashi\.or\.jp/
 @preprocess {

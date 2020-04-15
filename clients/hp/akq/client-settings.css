@@ -2,6 +2,10 @@
 	width:auto !important;
 }
 
+#site-translate-message {
+    line-height: normal;
+}
+
 #toppage h2 {
     letter-spacing: normal;
 }
@@ -10,6 +14,18 @@
     width: auto;
     height: auto;
     padding: 2% 7%;
+}
+
+#flower h2:lang(en) {
+    line-height: 1.1;
+}
+
+#course .course_info p {
+    width: 50%;
+}
+
+#footer_top #park_info dd:lang(en) {
+    width: 80%;
 }
 
 #footer_link .imgbox span {
@@ -23,7 +39,7 @@
     width: 22%;
 }
 
-@media only screen and (max-width: 670px) {
+@media screen and (max-width: 670px) {
 
 	.smenu {
 	    top: 52px;
@@ -31,6 +47,14 @@
 
 	.smenu.close {
 	    top: 8px;
+	}
+
+	#spmenu_area p a {
+	    top: 52px !important;
+	}
+
+	#spmenu_area .spmenu {
+	    top: 114px;
 	}
 
 	#footer .info_area {
