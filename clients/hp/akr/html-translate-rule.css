@@ -1,0 +1,3 @@
+@postprocess {
+	replace:'<button class="close" @ click="emnotice=false">' '<button class="close" @click="emnotice=false">';
+}

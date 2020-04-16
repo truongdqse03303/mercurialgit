@@ -8,9 +8,9 @@
 
   <!-- 翻訳対象となるリクエストの一覧 -->
   <request-list>
-    <request hostname="www.jrtk.jp" />
-    <request hostname="shapo.jrtk.jp" />
-    <request hostname="beans.jrtk.jp" />
+    <request hostname="www.jrtk.jp" ssl="true" />
+    <request hostname="shapo.jrtk.jp" ssl="true" />
+    <request hostname="beans.jrtk.jp" ssl="true" />
     <request hostname="daiya.jrtk.jp" />
     <request hostname="dila.jrtk.jp" />
     <request hostname="jrtk.jr.modworks.cc" path="/seekbase" />

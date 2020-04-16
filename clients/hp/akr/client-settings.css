@@ -1,0 +1,24 @@
+#site-translate-header-wrapper {
+	width:auto !important;
+	line-height: normal;
+}
+
+label#menuButton {
+    top: 46px;
+}
+
+@media (max-width: 768px) {
+
+	nav {
+	    top: 44px;
+	}
+
+	.emNotice {
+	    top: 44px;
+	}
+
+	.emNotice .wrap {
+	    margin: 0 0 10%;
+	}
+
+}

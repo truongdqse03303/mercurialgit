@@ -1,8 +1,14 @@
-#calendar-body,
+.open-today-hour,
 #calendar-box,
 #calendar-body-head,
 .event-calendar{
 	attribute: cltx add 'exclude';
+}
+
+.custom-prev,
+.custom-next,
+.fb-like-box {
+	attribute: clftx add 'exclude';
 }
 
 @postprocess {
