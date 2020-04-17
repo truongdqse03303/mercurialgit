@@ -1,3 +1,9 @@
+ul.floorGuide > li,
+.inner > h3.floor {
+	attribute: clftx add 'exclude';
+}
+
 @postprocess {
 	replace:'<button class="close" @ click="emnotice=false">' '<button class="close" @click="emnotice=false">';
+	replace:'<button class="close" @ click="isEm=false">' '<button class="close" @click="isEm=false">';
 }
