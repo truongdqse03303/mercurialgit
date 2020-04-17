@@ -1,5 +1,4 @@
 @preprocess {
- replace:'<body class="(.*?)">' '<body class="$1 sptranser">';
  replace:'<script src="/common/js_frontend/common.js"></script>' '<script src="//www.atre.co.jp/common/js_frontend/common.js"></script>';
 }
 

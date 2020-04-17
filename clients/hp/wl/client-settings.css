@@ -24,38 +24,39 @@
 
 @media screen and (max-width: 480px) {
 
-	.sptranser #site-translate-header-wrapper{
+	#site-translate-header-wrapper{
 		width:100% !important;
 		height:44px;
 		position: fixed;
 		top:0;
 	}
 
-	.sptranser #site-translate-header-wrapper p{
+	#site-translate-header-wrapper p{
 		font-size:10px;
 		line-height: 12px;
 	}
 
-	.sptranser #site-translate-message{
+	#site-translate-message{
 		display:table-cell;
 		height:44px;
 		vertical-align:middle;
 		width:5000px;
 	}
 
-	.sptranser #contentHead.add-head-top, .sp_translation #contentHead.add-head-cat {
+	#contentHead.add-head-top,
+	#contentHead.add-head-cat {
 	    top: 48px !important;
 	}
 
-	.sptranser.categoryTop .mainSlideArea {
+	.categoryTop .mainSlideArea {
 	    margin: 44px auto 0 !important;
 	}
 
-	.sptranser.categoryPoint #contentHead {
+	.categoryPoint #contentHead {
 	    margin: 44px auto 20px;
 	}
 
-	.sptranser.categoryStore #contentBody {
+	.categoryStore #contentBody {
 	    margin: 44px auto 0;
 	}
 
