@@ -99,6 +99,18 @@
 }
 
 // @RULESET
+// URL #= //www\.hotel\.kyoto/okura/.*
+// URL #= //www\.hotel\.kyoto/karasuma/.*
+@preprocess{
+	replace:'<li id="btn_reserve"><i class="hi-calender"></i>ご予約</li>' '<li id="btn_reserve"><i class="hi-calender"></i>Reservation</li>';
+	replace:'<h3 class="header_form_box_ttl_pc">ご予約(.*?)</h3>' '<h3 class="header_form_box_ttl_pc">Reservation$1</h3>';
+	replace:'<h3 class="header_form_box_ttl_sp">ご予約及び空室の確認</h3>' '<h3 class="header_form_box_ttl_sp">Reservation; and is confirmed vacancy</h3>';
+	replace:'<h3 class="mv_form_box_ttl_pc">ご予約(.*?)</h3>' '<h3 class="mv_form_box_ttl_pc">Reservation$1</h3>';
+	replace:'<h3 class="mv_form_box_ttl_sp">ご予約</h3>' '<h3 class="mv_form_box_ttl_sp">Reservation</h3>';
+	replace:'<p class="cancel_btn"><a href="(.*?)" target="_blank">ご予約の確認・変更・キャンセル</a>(.*?)</p>' '<p class="cancel_btn"><a href="$1" target="_blank">Confirmation, change, cancellation of reservation</a>$2</p>';
+}
+
+// @RULESET
 // URL #= //www\.hotel\.kyoto/okura/facility/floor/
 @postprocess{
 	replace:'Beauty treatment sa<a href="/okura/faq/#yojiya"(.*?)>lon / </a>Yojiya' 'Beauty treatment salon / <a href="/okura/faq/#yojiya"$1>Yojiya</a>';
