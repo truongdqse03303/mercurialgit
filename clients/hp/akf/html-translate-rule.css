@@ -1,0 +1,5 @@
+// @RULESET
+// URL #= //www\.town\.isen\.kagoshima\.jp/.*
+@preprocess {
+	replace:'<span class="date">(.*?)</span>' '<span class="date">$1</span><br style="display:none;">';
+}

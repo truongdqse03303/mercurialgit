@@ -1,0 +1,14 @@
+#site-translate-header-wrapper{
+	width:auto !important;
+}
+
+#tmp_etc .jinko_wrap_col:lang(en) {
+    width: 18em;
+}
+
+@media screen and (max-width: 640px) {
+
+	#tmp_etc .jinko_wrap_col:lang(en) {
+	    width: 50%;
+	}
+}
