@@ -1,5 +1,0 @@
-@preprocess {
-	replace:'<span class="event_cate99">(.*?)</span>' '';
-	replace:'<span class="event_cate1">(.*?)</span>' '<br style="display:none;"><span class="event_cate1">$1</span><br style="display:none;">';
-	replace:'<span class="event_cate2">(.*?)</span>' '<br style="display:none;"><span class="event_cate2">$1</span><br style="display:none;">';
-}

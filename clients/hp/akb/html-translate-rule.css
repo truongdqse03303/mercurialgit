@@ -11,6 +11,11 @@
 	attribute: clftx add 'exclude';
 }
 
+@preprocess {
+	replace:'<h1>(.*?)<span class="sub">(.*?)</span>(.*?)</h1>' '<h1>$1<span class="sub">$2</span><br style="display:none;">$3</h1>';
+	replace:'<h1>(.*?)<span class="sub">(.*?)</span>(.*?)</h1>' '<h1>$1<span class="sub">$2</span><br style="display:none;">$3</h1>';
+}
+
 @postprocess {
 	replace:'<img src="https://www.nitech.ac.jp/event/calendar/imgs/top/ic_calendar_before.png"(.*?)>' '<img src="imgs/top/ic_calendar_before.png"$1>';
 	replace:'<img src="https://www.nitech.ac.jp/event/calendar/imgs/top/ic_calendar_next.png"(.*?)>' '<img src="imgs/top/ic_calendar_next.png"$1>';
@@ -20,4 +25,17 @@
 // URL #= //www\.nitech\.ac\.jp/examination/gakubu/.*
 @preprocess {
 	replace:'<h1>(.*?)<span class="sub">(.*?)</span>(.*?)</h1>' '<h1>$1<span class="sub">$2</span><br style="display:none;">$3</h1>';
+}
+
+// @RULESET
+// URL #= //www\.lib\.nitech\.ac\.jp/.*
+@preprocess {
+	replace:'\'日\'' '\'sun\'';
+	replace:'\'月\'' '\'mon\'';
+	replace:'\'火\'' '\'tue\'';
+	replace:'\'水\'' '\'wed\'';
+	replace:'\'木\'' '\'thu\'';
+	replace:'\'金\'' '\'fri\'';
+	replace:'\'土\'' '\'sat\'';
+	replace:'\'(.*?)月\'' '\'$1 month\'';
 }
