@@ -54,3 +54,7 @@
 	replace:'\'11 month\'' '\'November\'';
 	replace:'\'12 month\'' '\'December\'';
 }
+
+@postprocess {
+	replace:'<span id="custom-year" class="custom-year"></span>Year<span id="custom-month" class="custom-month"></span>' '<span id="custom-month" class="custom-month"></span>, <span id="custom-year" class="custom-year"></span>';
+}

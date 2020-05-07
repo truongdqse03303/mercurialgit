@@ -50,6 +50,10 @@
 	font-size: 85%;
 }
 
+#calendarbox h3:lang(en) {
+    font-size: 100%;
+}
+
 @media screen and (max-width: 568px) {
 
 	#mainvisual p {
