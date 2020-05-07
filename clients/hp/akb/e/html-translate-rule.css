@@ -10,3 +10,47 @@
   eid: CR-JE;
   dictionaries: "CROSS_DIC_MASTER CROSS_TM_MASTER SYSTEM ELEC MECHA CHEMICAL";
 }
+
+// @RULESET
+// URL #= //www\.lib\.nitech\.ac\.jp/.*
+@preprocess {
+	replace:'\'日\'' '\'Sun\'';
+	replace:'\'月\'' '\'Mon\'';
+	replace:'\'火\'' '\'Tue\'';
+	replace:'\'水\'' '\'Wed\'';
+	replace:'\'木\'' '\'Thu\'';
+	replace:'\'金\'' '\'Fri\'';
+	replace:'\'土\'' '\'Sat\'';
+	replace:'\'日\'' '\'Sun\'';
+	replace:'\'sun\'' '\'Sun\'';
+	replace:'\'mon\'' '\'Mon\'';
+	replace:'\'tue\'' '\'Tue\'';
+	replace:'\'wed\'' '\'Wed\'';
+	replace:'\'thu\'' '\'Thu\'';
+	replace:'\'fri\'' '\'Fri\'';
+	replace:'\'sat\'' '\'Sat\'';
+	replace:'\'1月\'' '\'January\'';
+	replace:'\'2月\'' '\'February\'';
+	replace:'\'3月\'' '\'March\'';
+	replace:'\'4月\'' '\'April\'';
+	replace:'\'5月\'' '\'May\'';
+	replace:'\'6月\'' '\'June\'';
+	replace:'\'7月\'' '\'July\'';
+	replace:'\'8月\'' '\'August\'';
+	replace:'\'9月\'' '\'September\'';
+	replace:'\'10月\'' '\'October\'';
+	replace:'\'11月\'' '\'November\'';
+	replace:'\'12月\'' '\'December\'';
+	replace:'\'1 month\'' '\'January\'';
+	replace:'\'2 month\'' '\'February\'';
+	replace:'\'3 month\'' '\'March\'';
+	replace:'\'4 month\'' '\'April\'';
+	replace:'\'5 month\'' '\'May\'';
+	replace:'\'6 month\'' '\'June\'';
+	replace:'\'7 month\'' '\'July\'';
+	replace:'\'8 month\'' '\'August\'';
+	replace:'\'9 month\'' '\'September\'';
+	replace:'\'10 month\'' '\'October\'';
+	replace:'\'11 month\'' '\'November\'';
+	replace:'\'12 month\'' '\'December\'';
+}
