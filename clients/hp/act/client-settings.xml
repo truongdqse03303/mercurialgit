@@ -10,7 +10,7 @@
   <request-list>
     <request hostname="31urban.jp" />
     <request hostname="mitsui-shopping-park.com" path="/urban|/lalaport/(iwata|tokyo-bay|kashiwa|toyosu|tachikawa|yokohama|ebina|hiratsuka|shinmisato|fujimi|numazu|minatoaquls|koshien|expocity|izumi)/|/(divercity-tokyo|lazona-kawasaki)/|/gourmet/lalaport/(iwata|tokyo-bay|kashiwa|toyosu|tachikawa|yokohama|ebina|hiratsuka|shinmisato|fujimi|numazu|minatoaquls|koshien|expocity|izumi)/|/gourmet/(divercity-tokyo|lazona-kawasaki|wp-admin)/|/mop/yokohama/" ssl="true" />
-    <request hostname="test-mitsui-shopping-park.com" path="/lalaport/|/gourmet/lalaport/iwata/|/gourmet/wp-admin/|/mop/yokohama/" ssl="true" />
+    <request hostname="test-mitsui-shopping-park.com" path="/mop/yokohama/" ssl="true" />
   </request-list>
 
   <extension-param>

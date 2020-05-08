@@ -50,11 +50,17 @@
 
 @media screen and (min-width: 769px) {
 
+	.accessBox,
+	#omoi .omoiBox02,
+	#omoi .omoiBox03,
+	#omoi .omoiBox04,
+	#wi-fi .wi-fiBox02,
 	#menu02 .menuBox02,
 	#kaika .kaikaBox02,
 	#menu .menuBox01,
 	#risshi .risshiBox02,
 	#notice .noticeBox01,
+	#notice .noticeBox05,
 	#fare .fareBox02,
 	#operation .operationBox01,
 	#meal .mealBox02,
@@ -69,6 +75,7 @@
 	#history .historyBox02,
 	#enjoy .enjoyBox01,
 	#enjoy .enjoyBox02,
+	#enjoy .enjoyUnit,
 	#name .nameBox02,
 	#history .historyBox01 {
 	    -webkit-writing-mode: unset;
@@ -106,6 +113,10 @@
 
 	#history .historyBox02 p {
 	    line-height: 2.20;
+	}
+
+	#omoi .omoiBox03 h5 {
+	    text-align: right !important;
 	}
 
 }
